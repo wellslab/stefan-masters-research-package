@@ -1,0 +1,131 @@
+{
+  "cell_line": {
+    "hpscreg_id": "Genea019",
+    "alt_names": [
+      "SF1V019"
+    ],
+    "stem_cell_type": "ESC",
+    "source_cell_type": "Blastocyst",
+    "source_tissue_type": "Embryo",
+    "frozen": "True",
+    "owner_group": "Genea Biocells",
+    "generator_group": "Genea Biocells"
+  },
+  "contact": {
+    "name": "Biljana Dumevska",
+    "email": "biljana.dumevska@geneabiocells.com",
+    "contact_number": "None"
+  },
+  "publication": {
+    "title": "Derivation of human embryonic stem cell line Genea019",
+    "journal": "Stem Cell Research",
+    "doi": "10.1016/j.scr.2016.02.008",
+    "first_author": "Biljana Dumevska",
+    "last_author": "Uli Schmidt",
+    "year": "2016",
+    "pmid": "None"
+  },
+  "donor": {
+    "age": "Embryo",
+    "sex": "Female",
+    "disease_name": "ND",
+    "disease_description": "None"
+  },
+  "genomic_modifications": [
+    "None"
+  ],
+  "differentiation_results": [
+    {
+      "germ_layer": "Ectoderm",
+      "shown_potency": "True",
+      "marker_list": [
+        "SSEA4",
+        "Nanog",
+        "Oct3/4",
+        "Tra1-60"
+      ],
+      "method": "Immunofluorescence",
+      "differentiation_profile": "in vitro directed differentiation"
+    },
+    {
+      "germ_layer": "Endoderm",
+      "shown_potency": "True",
+      "marker_list": [
+        "SSEA4",
+        "Nanog",
+        "Oct3/4",
+        "Tra1-60"
+      ],
+      "method": "Immunofluorescence",
+      "differentiation_profile": "in vitro directed differentiation"
+    },
+    {
+      "germ_layer": "Mesoderm",
+      "shown_potency": "True",
+      "marker_list": [
+        "SSEA4",
+        "Nanog",
+        "Oct3/4",
+        "Tra1-60"
+      ],
+      "method": "Immunofluorescence",
+      "differentiation_profile": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentation_characterisation_results": {
+    "marker_list": [
+      "OCT4",
+      "SOX2",
+      "NANOG",
+      "TRA-1-60",
+      "SSEA4"
+    ],
+    "test_used": "PluriTest",
+    "epi_pluri_score": "None",
+    "pluri_test_score": "22.97",
+    "pluri_novelty_score": "1.42"
+  },
+  "genomic_characterisation": {
+    "passage_number": "6",
+    "karyotype": "46, XX",
+    "karyotype_method": "CGH",
+    "summary": "No abnormalities detected; CGH analysis confirmed female karyotype."
+  },
+  "STR_results": {
+    "exists": true,
+    "loci": "D8S1179, D21S11, D7S820, CSF1PO, D3S1358, TH01, D13S317, D16S539, D2S1338, D19S433, vWA, TPOX, D18S51, D5S818, FGA",
+    "group": "None",
+    "allele_1": "None",
+    "allele_2": "None"
+  },
+  "ethics": [
+    {
+      "ethics_number": "None",
+      "approval_date": "13 September 2005",
+      "institutional_HREC": "Genea Ethics Committee"
+    }
+  ],
+  "microbiology_virology_screening": {
+    "performed": true,
+    "hiv1": "Negative",
+    "hiv2": "Negative",
+    "hep_b": "Negative",
+    "hep_c": "Negative",
+    "mycoplasma": "Negative",
+    "other": "None",
+    "other_result": "None"
+  },
+  "culture_medium": {
+    "co2_concentration": "5%",
+    "o2_concentration": "20%",
+    "rho_kinase_sed": "None",
+    "passage_method": "Enzymatic",
+    "other_passage_method": "None",
+    "methods_io_id": "None",
+    "base_medium": "DMEM/20% KSR",
+    "base_coat": "None",
+    "medium_component_name": "None",
+    "company": "None",
+    "component_type": "None"
+  }
+}

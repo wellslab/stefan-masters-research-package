@@ -1,0 +1,25 @@
+2025-09-22 17:43:51,016 - INFO - Starting test run with ID: 07c373c3-6a55-4c25-9a0c-413e80e0e0ae
+2025-09-22 17:43:51,016 - INFO - Test Configuration (loaded from config.json):
+2025-09-22 17:43:51,016 - INFO -   num_articles: 1
+2025-09-22 17:43:51,016 - INFO -   journal: scr
+2025-09-22 17:43:51,016 - INFO -   processing_method: vision
+2025-09-22 17:43:51,016 - INFO -   model: gpt-4o
+2025-09-22 17:43:51,016 - INFO -   temperature: 0.2
+2025-09-22 17:43:51,016 - INFO -   max_tokens: 4000
+2025-09-22 17:43:51,016 - INFO - Testing 1 scr articles
+2025-09-22 17:43:51,017 - INFO - Found 1 articles to process:
+2025-09-22 17:43:51,017 - INFO -   - 27346002.pdf
+2025-09-22 17:43:51,017 - INFO - [1/1] Processing: 27346002.pdf
+2025-09-22 17:43:51,017 - INFO -   Curating article...
+2025-09-22 17:45:30,579 - INFO -   Found 2 cell lines
+2025-09-22 17:45:30,581 - INFO -   Successfully curated 1 cell lines
+2025-09-22 17:45:30,581 - WARNING -   Failed cell lines: ['Genea020']
+2025-09-22 17:45:30,584 - INFO -     Saved valid metadata for Genea019
+2025-09-22 17:45:30,584 - INFO -   Completed processing 27346002.pdf
+2025-09-22 17:45:30,585 - INFO - Saved 1 failed cell lines to: failed_cell_lines.txt
+2025-09-22 17:45:30,585 - INFO - Test run completed!
+2025-09-22 17:45:30,585 - INFO - Run ID: 07c373c3-6a55-4c25-9a0c-413e80e0e0ae
+2025-09-22 17:45:30,585 - INFO - Processed articles: 1
+2025-09-22 17:45:30,585 - INFO - Total curated cell lines: 1
+2025-09-22 17:45:30,585 - INFO - Total failed cell lines: 1
+2025-09-22 17:45:30,585 - INFO - Results saved to: /Users/StefanMacbook/Documents/Code/aus-stem-cell-curate/tests/test_curation/vision/results/07c373c3-6a55-4c25-9a0c-413e80e0e0ae

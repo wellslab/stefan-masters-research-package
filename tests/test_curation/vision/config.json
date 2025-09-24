@@ -1,0 +1,8 @@
+{
+    "num_articles": 1,
+    "journal": "scr",
+    "processing_method": "vision",
+    "model": "gpt-4o",
+    "temperature": 0.2,
+    "max_tokens": 4000
+}

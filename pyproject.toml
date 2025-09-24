@@ -1,0 +1,19 @@
+[project]
+name = "aus-stem-cell-curate"
+version = "0.1.0"
+description = "Package of curation, scoring and reporting functions for the Australian Stem Cell Registry"
+authors = [
+    {name = "stefanmirandadev",email = "stefanmirandadev@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai (>=1.108.1,<2.0.0)",
+    "pdf2image (>=1.17.0,<2.0.0)",
+    "pillow (>=11.3.0,<12.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
