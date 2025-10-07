@@ -1,0 +1,3 @@
+Error processing 32931148.pdf:
+
+Error parsing cell line list: '[' was never closed (<unknown>, line 1)

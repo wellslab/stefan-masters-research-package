@@ -1,5 +1,4 @@
 {
-    "openai_api_key": "sk-proj-Bm5kXG0n7AjeJbIQDsgIT3BlbkFJHM7jn8dZg1tdC4w4qbO9",
     "model": "gpt-4o",
     "temperature": 0.2,
     "max_tokens": 128000,

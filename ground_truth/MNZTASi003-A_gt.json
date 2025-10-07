@@ -1,0 +1,113 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MS_0002",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102828",
+      "journal": "Stem cell research",
+      "title": "Generation and characterisation of four multiple sclerosis iPSC lines from a single family",
+      "first_author": "Fortune AJ",
+      "last_author": "Young KM",
+      "year": "2022",
+      "pmid": "35679759"
+    }
+  ],
+  "donor": [
+    {
+      "age": "UN",
+      "sex": "F",
+      "disease_description": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see OPTIC NEURITIS), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914); The most common clinical variant of multiple sclerosis, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see optic neuritis), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914)",
+      "disease_name": "relapsing-remitting multiple sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "False",
+      "marker_list": "AFP",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "HAND1",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "PAX6",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Female",
+      "karyotype_method": "GB",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "SV",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "H0016915",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EN"
+    }
+  ]
+}

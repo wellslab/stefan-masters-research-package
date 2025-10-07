@@ -1,0 +1,98 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "C1-2 Het GC; C3-2 Het GC; C4-6 Het GC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "group": "Murdoch Children's Research Institute",
+      "name_initials": "J",
+      "last_name": "Lockhart",
+      "e_mail": "paul.lockhart@mcri.edu.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation and heterozygous repair of human iPSC lines from three individuals with cerebellar ataxia, neuropathy and vestibular areflexia syndrome (CANVAS) carrying biallelic AAGGG expansions in RFC1",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2023.103047",
+      "last_author": "Paul J. Lockhart",
+      "first_author": "Kayli C. Davies",
+      "pmid": "36817601",
+      "year": "2023"
+    }
+  ],
+  "donor": [
+    {
+      "age": "21_25",
+      "disease_description": "Progressive neurodegenerative disorder predominantly caused by biallelic AAGGG expansions",
+      "sex": "F",
+      "disease_name": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome"
+    },
+    {
+      "age": "21_25",
+      "disease_description": "Progressive neurodegenerative disorder predominantly caused by biallelic AAGGG expansions",
+      "sex": "F",
+      "disease_name": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome"
+    },
+    {
+      "age": "56_60",
+      "disease_description": "Progressive neurodegenerative disorder predominantly caused by biallelic AAGGG expansions",
+      "sex": "F",
+      "disease_name": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Gene editing to correct AAGGG expansions",
+      "delivery_method": "CRISPR/Cas9",
+      "loci_name": "RFC1"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype_method": "S",
+      "karyotype": "46,XX",
+      "summary": "No aneuploidies were detected."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "derivation_year": "2021",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "approval_date": "N/A",
+      "institutional_HREC": "Murdoch Children's Research Institute Ethics Committee",
+      "ethics_number": "2021-02"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%",
+      "passage_method": "Electroporation"
+    }
+  ]
+}

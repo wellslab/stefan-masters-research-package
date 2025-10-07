@@ -1,0 +1,123 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "86200001.1/002.1 (MONUi001-B)",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, Monash University",
+      "first_name": "Mark A",
+      "last_name": "Bellgrove",
+      "name_initials": "None",
+      "e_mail": "mark.bellgrove@monash.edu",
+      "phone_number": "None"
+    },
+    {
+      "group": "Turner Institute for Brain and Mental Health, Monash University",
+      "first_name": "Ziarih",
+      "last_name": "Hawi",
+      "name_initials": "None",
+      "e_mail": "ziarih.hawi@monash.edu",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "first_author": "Kealan Pugsley",
+      "last_author": "Mark A Bellgrove",
+      "year": "2023",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "35 years, 4 months",
+      "sex": "Male",
+      "disease_name": "Autism spectrum disorder (autism)",
+      "disease_description": "None"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "None",
+      "genotype": "MONUi002: arr(X,Y)x1,(1-22)x2",
+      "loci_name": "None"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "Immunofluorescence",
+      "differentiation_profile": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "SMA; Brachyury/Bry",
+      "method_used": "Immunofluorescence",
+      "differentiation_profile": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "True",
+      "marker_list": "NeuN; MAP2",
+      "method_used": "Immunofluorescence",
+      "differentiation_profile": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype": "arr(X,Y)x1,(1-22)x2",
+      "karyotype_method": "SNP",
+      "summary": "SNPduo comparative analysis of array data was performed to authenticate iPSC identity."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2023-06-12",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "OCT4, SOX2, KLF4, MYC"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "ethics_number": "25688",
+      "approval_date": "None",
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "21%",
+      "passage_method": "None"
+    }
+  ]
+}

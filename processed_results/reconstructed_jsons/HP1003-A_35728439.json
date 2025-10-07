@@ -1,0 +1,84 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "HP1003-A",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "group": "Harry Perkins Institute of Medical Research",
+      "last_name": "Clayton",
+      "e_mail": "joshua.clayton@perkins.org.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation of an induced pluripotent stem cell line from a 3-month-old nemaline myopathy patient with a heterozygous dominant c.515C > A (p. Ala172Glu) variant in the ACTA1 gene",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2022.102829",
+      "last_author": "Gianina Ravenscroft",
+      "first_author": "Joshua S. Clayton",
+      "year": "2022"
+    }
+  ],
+  "donor": [
+    {
+      "age": "3",
+      "disease_description": "Intermediate form of nemaline myopathy",
+      "sex": "M",
+      "disease_name": "Nemaline myopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Heterozygous",
+      "description": "ACTA1 variant (c.515C > A)",
+      "loci_name": "ACTA1"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype_method": "GB",
+      "karyotype": "46,XX",
+      "summary": "Normal female karyotype"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "SV",
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell",
+      "derivation_year": "2021",
+      "non_int_vector_name": "CytoTune-iPS 2.0",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "approval_date": "21/07/10",
+      "institutional_HREC": "University of Western Australia Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%"
+    }
+  ]
+}

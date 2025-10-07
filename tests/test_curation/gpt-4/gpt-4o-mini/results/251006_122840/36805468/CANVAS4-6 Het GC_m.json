@@ -1,0 +1,85 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CANVAS4-6 Het GC",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Murdoch Children's Research Institute",
+      "first_name": "Paul",
+      "last_name": "Lockhart",
+      "name_initials": "J",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103047",
+      "journal": "Stem Cell Research",
+      "title": "Generation and heterozygous repair of human iPSC lines from three individuals with cerebellar ataxia, neuropathy and vestibular areflexia syndrome (CANVAS) carrying biallelic AAGGG expansions in RFC1",
+      "first_author": "Kayli C. Davies",
+      "last_author": "Paul J. Lockhart",
+      "year": "2023",
+      "pmid": "36817606"
+    }
+  ],
+  "donor": [
+    {
+      "age": "61_65",
+      "sex": "F",
+      "disease_name": "Cerebellar ataxia, neuropathy and vestibular areflexia syndrome",
+      "disease_description": "nan"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "Heterozygous deletion of AAGGG expansion determined by PCR",
+      "genotype": "None",
+      "loci_name": "RFC1"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "None",
+      "karyotype": "C1-2 Het GC: 46XX; C3-2 Het GC: 46XX; C4-6 Het GC: 46XY",
+      "karyotype_method": "SNP array",
+      "summary": "No aneuploidies were detected."
+    }
+  ],
+  "induced_derivation": [],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "ethics_number": "None",
+      "approval_date": "None",
+      "institutional_HREC": "None"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "None",
+      "passage_method": "Electroporation"
+    }
+  ]
+}

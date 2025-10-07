@@ -6,14 +6,25 @@ authors = [
     {name = "stefanmirandadev",email = "stefanmirandadev@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9"
 dependencies = [
     "openai (>=1.108.1,<2.0.0)",
     "pdf2image (>=1.17.0,<2.0.0)",
-    "pillow (>=11.3.0,<12.0.0)"
+    "pillow (>=11.3.0,<12.0.0)",
+    "pydantic (>=2.11.9,<3.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "sqlalchemy (>=2.0.43,<3.0.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)"
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=6.30.1,<7.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)"
+]

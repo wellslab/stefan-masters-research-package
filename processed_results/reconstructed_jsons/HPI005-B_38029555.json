@@ -1,0 +1,98 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "HPI005-A; HPI005-B; HPI005-5; HPI005-8",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "group": "Harry Perkins Institute of Medical Research",
+      "last_name": "Clayton",
+      "e_mail": "joshua.clayton@perkins.org.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation of two induced pluripotent stem cell lines from a 33-year-old central core disease patient with a heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2023.103258",
+      "last_author": "Joshua S. Clayton",
+      "first_author": "Karrison Driver",
+      "year": "2023"
+    }
+  ],
+  "donor": [
+    {
+      "age": "33",
+      "disease_description": "A genetic disorder that results in hypotonia, delayed motor development, and areas of reduced oxidative activity in the muscle fibers.",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Deletion",
+      "description": "Heterozygous deletion c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) in the RYR1 gene.",
+      "delivery_method": "Sendai virus",
+      "loci_name": "RYR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "marker_list": "TBXT; BMP4",
+      "cell_type": "EN",
+      "method_used": "STEMdiff\u2122 trilineage differentiation",
+      "differentiation_profile": "in vitro directed differentiation"
+    },
+    {
+      "show_potency": "True",
+      "marker_list": "OTX2; SOX17",
+      "cell_type": "ME",
+      "method_used": "STEMdiff\u2122 trilineage differentiation",
+      "differentiation_profile": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype_method": "GB",
+      "karyotype": "46,XX",
+      "summary": "Both clones demonstrated normal karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "SV",
+      "i_source_cell_type_term": "lymphoblastoid cells",
+      "derivation_year": "2020",
+      "non_int_vector_name": "CytoTune\u2122 2.0",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%"
+    }
+  ]
+}

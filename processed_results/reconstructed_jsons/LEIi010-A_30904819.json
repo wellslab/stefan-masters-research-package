@@ -1,0 +1,94 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "LEIi010-B",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Sciences, The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Fred",
+      "group": "Lions Eye Institute",
+      "last_name": "Chen",
+      "e_mail": "fredchen@lei.org.au"
+    },
+    {
+      "first_name": "Samuel",
+      "group": "Centre for Ophthalmology and Visual Sciences",
+      "last_name": "McLenachan",
+      "e_mail": "smclenachan@lei.org.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with compound heterozygous mutations in the USH2A gene",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2019.101420",
+      "last_author": "Fred K. Chen",
+      "first_author": "Samuel McLenachan",
+      "year": "2019"
+    }
+  ],
+  "donor": [
+    {
+      "disease_description": "Usher syndrome is the most common cause of deafness-blindness.",
+      "sex": "F",
+      "disease_name": "Usher syndrome type 2"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "c.949C>A; c.1256G>T",
+      "cytoband": "1q41",
+      "description": "Compound heterozygous mutations in USH2A gene.",
+      "loci_name": "USH2A"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "12",
+      "karyotype_method": "S",
+      "karyotype": "46,XX",
+      "summary": "Karyotyping performed with normal karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "derivation_year": "2016",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "institutional_HREC": "Sir Charles Gairdner Hospital Human Research Ethics Committee",
+      "ethics_number": "2001-053"
+    },
+    {
+      "institutional_HREC": "Human Research Ethics Office, University of Western Australia",
+      "ethics_number": "RA/4/17/916"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "21%",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "None",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Illawarra Health and Medical Research Institute",
+      "first_name": "Lezanne",
+      "last_name": "Ooi",
+      "name_initials": "L",
+      "e_mail": "lezanne@uow.edu.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.101701",
+      "journal": "Stem Cell Research",
+      "title": "The mRNA-based reprogramming of fibroblasts from a SOD1E101G familial amyotrophic lateral sclerosis patient to induced pluripotent stem cell line UOWi007",
+      "first_author": "Rachelle Balez",
+      "last_author": "Lezanne Ooi",
+      "year": "2020",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "43",
+      "sex": "M",
+      "disease_name": "Amyotrophic lateral sclerosis",
+      "disease_description": "SOD1 E101G mutation"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Hereditary",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "SOD1 E101G mutation",
+      "genotype": "SOD1 E101G",
+      "loci_name": "SOD1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "None",
+      "method_used": "TaYMaN hPSC scorecard",
+      "differentiation_profile": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "24",
+      "karyotype": "46,XY",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping was performed at a resolution of 400 bphs with 15 metaphase spreads counted."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Dermal fibroblast",
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "None",
+      "non_int_vector": "mRNA",
+      "non_int_vector_name": "None"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "None",
+      "zp_removal_technique": "None",
+      "trophectoderm_morphology": "None",
+      "icm_morphology": "None",
+      "e_preimplant_genetic_diagnosis": "None"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HE13/272",
+      "approval_date": "None",
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "21",
+      "passage_method": "None"
+    }
+  ]
+}

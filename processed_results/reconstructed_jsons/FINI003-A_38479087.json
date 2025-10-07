@@ -1,0 +1,79 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute for Neuroscience and Mental Health, University of Melbourne"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Snezana",
+      "group": "The Florey / University of Melbourne",
+      "last_name": "Maljevic",
+      "e_mail": "snezana.maljevic@florey.edu.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "An iPSC line (FINI003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel NaV1.2",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2024.103367",
+      "last_author": "Steve Petrou",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "year": "2024"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "disease_name": "Developmental and epileptic encephalopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous missense variant (E1211K) in SCN2A",
+      "loci_name": "SCN2A"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "1",
+      "karyotype_method": "GB",
+      "karyotype": "46,XY",
+      "summary": "Karyotyping confirmed normal karyotype with no detectable abnormalities."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "derivation_year": "2023",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "institutional_HREC": "The University of Melbourne HREC/16/Austin/472"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "ACTA1Tom; P8010.5.ACTA1Tom",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Peter",
+      "group": "Murdoch Children's Research Institute",
+      "name_initials": "J",
+      "last_name": "Houweling",
+      "e_mail": "peter.houweling@mcri.edu.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation of a human ACTA1-tdTomato reporter iPSC line using CRISPR/Cas9 editing",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2024.103313",
+      "last_author": "K.N. North",
+      "first_author": "P.J. Houweling",
+      "year": "2024"
+    }
+  ],
+  "donor": [
+    {
+      "age": "20",
+      "sex": "M"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Insertion of tdTomato reporter into ACTA1 locus",
+      "delivery_method": "CRISPR/Cas9",
+      "loci_name": "ACTA1"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "derivation_year": "2020",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "institutional_HREC": "Royal Children's Hospital",
+      "ethics_number": "35121A"
+    }
+  ],
+  "culture_medium": []
+}

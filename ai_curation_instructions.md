@@ -1,0 +1,1 @@
+/mnt/c/Users/Stefan Miranda/Documents/Vaults/Local/Documents/ai_curation_instructions.md

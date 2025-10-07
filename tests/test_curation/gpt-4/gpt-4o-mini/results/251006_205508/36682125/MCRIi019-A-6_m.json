@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "MCRIi019-A-6",
+      "cell_line_alt_name": "None",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Murdoch Children's Research Institute",
+      "first_name": "Matthew",
+      "last_name": "Shoulders",
+      "name_initials": "D",
+      "e_mail": "mshoulder@mit.edu",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103020",
+      "journal": "Stem Cell Research",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C line (MCRIi019-A-6) model of human precocious osteoarthritis",
+      "first_author": "Kathryn M. Yammine",
+      "last_author": "Matthew D. Shoulders",
+      "year": "2023",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "None",
+      "sex": "None",
+      "disease_name": "None",
+      "disease_description": "None"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Induced mutation",
+      "cytoband": "None",
+      "delivery_method": "CRISPR/Cas9",
+      "description": "Heterozygous COL2A1 c.2155C>T (p.R719C)",
+      "genotype": "None",
+      "loci_name": "COL2A1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "Sox17; Brachyury; Nestin; Pax6",
+      "method_used": "Immunocytochemistry",
+      "differentiation_profile": "Directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "37",
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "G-Band karyotyping confirmed the absence of chromosomal abnormalities in the edited iPSC line."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2020",
+      "non_int_vector": "episomal",
+      "non_int_vector_name": "pSMART-COL2A1-sgRNA"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "N/A",
+      "approval_date": "February 2020",
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

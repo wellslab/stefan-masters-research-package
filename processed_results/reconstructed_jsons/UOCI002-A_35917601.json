@@ -1,0 +1,99 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "UOCI002-A",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Calgary"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Chad",
+      "group": "Chad A. Bousman",
+      "name_initials": "A.",
+      "last_name": "Bousman",
+      "e_mail": "chad.bousman@ucalgary.ca"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2022.102877",
+      "last_author": "Chad A. Bousman",
+      "first_author": "Nazanin Vaziri",
+      "year": "2022"
+    }
+  ],
+  "donor": [
+    {
+      "age": "36",
+      "disease_description": "Clozapine-induced myocarditis",
+      "sex": "M",
+      "disease_name": "Schizophrenia"
+    },
+    {
+      "age": "34",
+      "disease_description": "Clozapine-induced myocarditis",
+      "sex": "M",
+      "disease_name": "Schizophrenia"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Delivery of OCT4, SOX2, KLF4 and c-MYC transgenes",
+      "delivery_method": "Non-integrative Sendai virus delivery"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "marker_list": "\u03b1-Fetoprotein; \u03b2-Tubulin; Smooth muscle actin",
+      "cell_type": "EN",
+      "method_used": "Embryoid body formation; Immunofluorescence",
+      "differentiation_profile": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "0",
+      "karyotype_method": "GB",
+      "karyotype": "46,XX",
+      "summary": "Normal karyotype 46, XX"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "SV",
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "derivation_year": "2017",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "approval_date": "01/01/2017",
+      "institutional_HREC": "Conjoint Health Research Ethics Board at the University of Calgary",
+      "ethics_number": "RB1817994"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "10%",
+      "o2_concentration": "21%"
+    }
+  ]
+}

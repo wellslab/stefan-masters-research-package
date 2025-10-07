@@ -1,0 +1,99 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "FA2-N",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "Missing",
+      "journal": "Missing",
+      "title": "Missing",
+      "first_author": "Missing",
+      "last_author": "Missing",
+      "year": "Missing",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "TE",
+      "cytoband": "13q32.3",
+      "delivery_method": "crispr",
+      "description": "This line expresses Neurogenin 2 under a doxycycline inducible promoter. The line also contains a floxed Blasticidin resistance/nuclear mApple selection cassette.",
+      "genotype": "",
+      "loci_name": "Neurogenin 2"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "SV",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Holding Entry-UTSWi002-A",
+      "approval_date": "None",
+      "institutional_HREC": "Holding Entry"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "EF"
+    }
+  ]
+}

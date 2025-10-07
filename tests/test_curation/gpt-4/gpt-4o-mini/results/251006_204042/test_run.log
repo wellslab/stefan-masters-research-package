@@ -1,0 +1,81 @@
+2025-10-06 20:40:42,932 - curate_test - INFO - Starting test run with ID: 251006_204042
+2025-10-06 20:40:42,932 - curate_test - INFO - Test Configuration (loaded from config.json):
+2025-10-06 20:40:42,932 - curate_test - INFO -   processing_method: vision
+2025-10-06 20:40:42,932 - curate_test - INFO -   model: gpt-4o-mini
+2025-10-06 20:40:42,932 - curate_test - INFO -   temperature: 0.2
+2025-10-06 20:40:42,932 - curate_test - INFO -   max_tokens: 4000
+2025-10-06 20:40:42,932 - curate_test - INFO -   output_path: tests/test_curation/gpt-4/gpt-4o-mini/results
+2025-10-06 20:40:42,932 - curate_test - INFO -   articles_path: to_curate
+2025-10-06 20:40:42,932 - curate_test - INFO -   instructions_path: ai_curation_instructions.md
+2025-10-06 20:40:42,932 - curate_test - INFO -   pmid_list: ['*']
+2025-10-06 20:40:42,933 - curate_test - INFO - Testing 54 articles (controlled by pmid_list)
+2025-10-06 20:40:42,933 - curate_test - INFO - Found 54 articles to process:
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 16522163.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 18271699.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 18386991.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 20178001.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 20198447.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 29499499.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 30605840.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 30611018.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 30622032.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 30634128.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 30904819.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 31039485.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 31059986.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 31415975.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 31494449.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 32006803.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 32442534.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 32810830.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 32887382.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 32931148.pdf
+2025-10-06 20:40:42,933 - curate_test - INFO -   - 33091851.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 33316599.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 33360097.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 33429167.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 33740643.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 34088002.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 34157503.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 34198153.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 34214897.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 34388489.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 34507143.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 34619644.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 34649201.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 35074713.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 35679759.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 35728439.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 35728440.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 35917601.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 36166872.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 36682125.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 36805468.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 37150143.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 37315423.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 37385135.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 37494850.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 37939621.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 38029555.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 38244534.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 38277710.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 38433209.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 38458031.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 38479087.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 38582058.pdf
+2025-10-06 20:40:42,934 - curate_test - INFO -   - 38583293.pdf
+2025-10-06 20:40:42,935 - curate_test - INFO - [1/54] Processing: 16522163.pdf
+2025-10-06 20:40:42,935 - curate_test - INFO -   Curating article...
+2025-10-06 20:40:42,935 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 20:40:45,902 - curate_article - INFO - Successfully converted PDF to 9 images
+2025-10-06 20:40:45,902 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 20:40:45,949 - curate_article - INFO - Sending 9 images to gpt-4o-mini for cell line identification...
+2025-10-06 20:41:09,056 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-10-06 20:41:09,057 - curate_test - ERROR -   Error occurred: Error code: 403 - {'error': {'message': 'Project `proj_qey8S7H73RGiRLMzleiLogbw` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-10-06 20:41:09,057 - curate_test - INFO -   Completed processing 16522163.pdf
+2025-10-06 20:41:09,057 - curate_test - INFO - [2/54] Processing: 18271699.pdf
+2025-10-06 20:41:09,058 - curate_test - INFO -   Curating article...
+2025-10-06 20:41:09,058 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 20:41:12,306 - curate_article - INFO - Successfully converted PDF to 10 images
+2025-10-06 20:41:12,307 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 20:41:12,336 - curate_article - INFO - Sending 10 images to gpt-4o-mini for cell line identification...

@@ -1,0 +1,131 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "FI.CPLT.PRKN.R275W+del_e8.PK006",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.17504/protocols.io.bypqpvmw",
+      "journal": "",
+      "title": "Missing",
+      "first_author": "Ovchinnikov Dmitry",
+      "last_author": "Ovchinnikov Dmitry",
+      "year": "2021",
+      "pmid": "Missing"
+    },
+    {
+      "doi": "10.1016/j.scr.2023.103211",
+      "journal": "Stem cell research",
+      "title": "Generation of the iPSC line FINi002-A from a male Parkinson's disease patient carrying compound heterozygous mutations in the PRKN gene",
+      "first_author": "Pavan C",
+      "last_author": "Ovchinnikov DA",
+      "year": "2023",
+      "pmid": "37890334"
+    },
+    {
+      "doi": "10.1016/j.scr.2024.103367",
+      "journal": "Stem cell research",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel Na(v)1.2",
+      "first_author": "Ovchinnikov DA",
+      "last_author": "Petrou S",
+      "year": "2024",
+      "pmid": "38479087"
+    }
+  ],
+  "donor": [
+    {
+      "age": "45_49",
+      "sex": "M",
+      "disease_description": "nan",
+      "disease_name": "Parkinson Disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "VA",
+      "cytoband": "",
+      "delivery_method": "",
+      "description": "A progressive degenerative disorder of the central nervous system characterized by loss of dopamine producing neurons in the substantia nigra and the presence of Lewy bodies in the substantia nigra and locus coeruleus. Signs and symptoms include tremor which is most pronounced during rest, muscle rigidity, slowing of the voluntary movements, a tendency to fall back, and a mask-like facial expression.",
+      "genotype": "",
+      "loci_name": "PRKN"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "False",
+      "marker_list": "SOX17;CXCR4",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "TBXT;TBX6",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "PAX6;OTX2",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "5",
+      "karyotype": "46, XY",
+      "karyotype_method": "MKSNP",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "SV",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "1 378 1300",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Institutional Review Board - Mater Misericordia University Hospital, Dublin, Ireland  "
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "ME"
+    }
+  ]
+}

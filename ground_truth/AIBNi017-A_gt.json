@@ -1,0 +1,113 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "SPGh1-S075mC2",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102917",
+      "journal": "Stem cell research",
+      "title": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "first_author": "Leeson HC",
+      "last_author": "Wolvetang EJ",
+      "year": "2022",
+      "pmid": "36166872"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "False",
+      "marker_list": "CXCR4;SOX17",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "HAND1;PDGFRA",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "NR2F2;PAX6",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46,XX",
+      "karyotype_method": "MKSNP",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "SV",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "2019000159",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Queensland Children's Health Services Human Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "NS"
+    }
+  ]
+}

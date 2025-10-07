@@ -1,0 +1,87 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MBE68-1",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Illawarra Health and Medical Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "University of Wollongong",
+      "first_name": "Lezanne",
+      "last_name": "Ooi",
+      "name_initials": "None",
+      "e_mail": "lezanne@uow.edu.au",
+      "phone_number": "+61-24-221-5865"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.3390/cells9092018",
+      "journal": "Cells",
+      "title": "A Simple Differentiation Protocol for Generation of Induced Pluripotent Stem Cell-Derived Basal Forebrain-Like Cholinergic Neurons for Alzheimer\u2019s Disease and Frontotemporal Dementia Disease Modeling",
+      "first_author": "Sonia Sanz Mu\u00f1oz",
+      "last_author": "Lezanne Ooi",
+      "year": "2020",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "None",
+      "sex": "None",
+      "disease_name": "None",
+      "disease_description": "None"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "None",
+      "genotype": "None",
+      "loci_name": "None"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "20",
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "None",
+      "i_source_cell_origin_term": "None",
+      "derivation_year": "None",
+      "non_int_vector": "None",
+      "non_int_vector_name": "None"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "3%",
+      "passage_method": "EF"
+    }
+  ]
+}

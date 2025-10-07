@@ -1,0 +1,3 @@
+Error processing 33360097.pdf:
+
+Error code: 403 - {'error': {'message': 'Project `proj_qey8S7H73RGiRLMzleiLogbw` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}

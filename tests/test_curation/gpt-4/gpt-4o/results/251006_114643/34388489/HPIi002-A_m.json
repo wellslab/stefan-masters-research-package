@@ -1,0 +1,123 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "IPS-789-C1",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Harry Perkins Institute of Medical Research",
+      "first_name": "Joshua",
+      "last_name": "Clayton",
+      "name_initials": "J.S.",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102482",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 10-year-old typical nemaline myopathy patient with a heterozygous dominant c.541G>A (p.Asp179Asn) pathogenic variant in the ACTA1 gene",
+      "first_author": "Joshua S. Clayton",
+      "last_author": "Rhonda L. Taylor",
+      "year": "2021",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "10",
+      "sex": "F",
+      "disease_name": "Nemaline myopathy 3",
+      "disease_description": "NEM3 (OMIM#161800), typical form"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Spontaneous variant",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "None",
+      "genotype": "G/A",
+      "loci_name": "Actin Alpha 1, Skeletal Muscle (ACTA1), NM_001100: c.541G>A"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "TBXT; BMP4",
+      "method_used": "qPCR",
+      "differentiation_profile": "Directed differentiation"
+    },
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "qPCR",
+      "differentiation_profile": "Directed differentiation"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "True",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "qPCR",
+      "differentiation_profile": "Directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "47, XXX, Complete X chromosome duplication",
+      "karyotype_method": "GB",
+      "summary": "HPIi002-A showed X chromosome duplication; otherwise normal karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell line (LCL)",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2020",
+      "non_int_vector": "SV",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "None",
+      "zp_removal_technique": "None",
+      "trophectoderm_morphology": "None",
+      "icm_morphology": "None",
+      "e_preimplant_genetic_diagnosis": "None"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "approval_date": "None",
+      "institutional_HREC": "University of Western Australia's Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "21",
+      "passage_method": "None"
+    }
+  ]
+}

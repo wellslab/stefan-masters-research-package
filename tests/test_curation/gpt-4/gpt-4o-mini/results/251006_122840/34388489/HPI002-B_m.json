@@ -1,0 +1,93 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "HPI002-A; HPI002-B; IPS-789-C1; IPS-789-C2",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Harry Perkins Institute of Medical Research",
+      "first_name": "Joshua",
+      "last_name": "Clayton",
+      "name_initials": "S.",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102482",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 10-year-old typical nemaline myopathy patient with a heterozygous dominant c.541G>A (p.Asp179Asn) pathogenic variant in the ACTA1 gene",
+      "first_author": "Joshua S. Clayton",
+      "last_author": "Rhonda L. Taylor",
+      "year": "2021",
+      "pmid": "34753601"
+    }
+  ],
+  "donor": [
+    {
+      "age": "10",
+      "sex": "F",
+      "disease_name": "Nemaline myopathy",
+      "disease_description": "Congenital myopathy characterized by skeletal muscle weakness"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "None",
+      "genotype": "c.541G>A (p.Asp179Asn)",
+      "loci_name": "ACTA1"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "47,XX,+X",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping revealed an additional X chromosome."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "lymphoblastoid cell line",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2020",
+      "non_int_vector": "SV",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "ethics_number": "No. EC-2018-994",
+      "approval_date": "September 2020",
+      "institutional_HREC": "University of Western Australia\u2019s Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%",
+      "passage_method": "EF"
+    }
+  ]
+}

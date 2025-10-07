@@ -1,0 +1,114 @@
+2025-10-06 11:40:02,534 - curate_test - INFO - Starting test run with ID: 251006_114002
+2025-10-06 11:40:02,534 - curate_test - INFO - Test Configuration (loaded from config.json):
+2025-10-06 11:40:02,534 - curate_test - INFO -   processing_method: vision
+2025-10-06 11:40:02,534 - curate_test - INFO -   model: gpt-4o
+2025-10-06 11:40:02,535 - curate_test - INFO -   temperature: 0.2
+2025-10-06 11:40:02,535 - curate_test - INFO -   max_tokens: 4000
+2025-10-06 11:40:02,535 - curate_test - INFO -   output_path: tests/test_curation/gpt-4/gpt-4o/results
+2025-10-06 11:40:02,535 - curate_test - INFO -   articles_path: to_curate
+2025-10-06 11:40:02,535 - curate_test - INFO -   instructions_path: ai_curation_instructions.md
+2025-10-06 11:40:02,535 - curate_test - INFO -   pmid_list: ['*']
+2025-10-06 11:40:02,535 - curate_test - INFO - Testing 54 articles (controlled by pmid_list)
+2025-10-06 11:40:02,535 - curate_test - INFO - Found 54 articles to process:
+2025-10-06 11:40:02,535 - curate_test - INFO -   - 16522163.pdf
+2025-10-06 11:40:02,535 - curate_test - INFO -   - 18271699.pdf
+2025-10-06 11:40:02,535 - curate_test - INFO -   - 18386991.pdf
+2025-10-06 11:40:02,535 - curate_test - INFO -   - 20178001.pdf
+2025-10-06 11:40:02,535 - curate_test - INFO -   - 20198447.pdf
+2025-10-06 11:40:02,535 - curate_test - INFO -   - 29499499.pdf
+2025-10-06 11:40:02,535 - curate_test - INFO -   - 30605840.pdf
+2025-10-06 11:40:02,535 - curate_test - INFO -   - 30611018.pdf
+2025-10-06 11:40:02,535 - curate_test - INFO -   - 30622032.pdf
+2025-10-06 11:40:02,535 - curate_test - INFO -   - 30634128.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 30904819.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 31039485.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 31059986.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 31415975.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 31494449.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 32006803.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 32442534.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 32810830.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 32887382.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 32931148.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 33091851.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 33316599.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 33360097.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 33429167.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 33740643.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 34088002.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 34157503.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 34198153.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 34214897.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 34388489.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 34507143.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 34619644.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 34649201.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 35074713.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 35679759.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 35728439.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 35728440.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 35917601.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 36166872.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 36682125.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 36805468.pdf
+2025-10-06 11:40:02,536 - curate_test - INFO -   - 37150143.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 37315423.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 37385135.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 37494850.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 37939621.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 38029555.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 38244534.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 38277710.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 38433209.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 38458031.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 38479087.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 38582058.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   - 38583293.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO - [1/54] Processing: 16522163.pdf
+2025-10-06 11:40:02,537 - curate_test - INFO -   Curating article...
+2025-10-06 11:40:02,537 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 11:40:05,273 - curate_article - INFO - Successfully converted PDF to 9 images
+2025-10-06 11:40:05,273 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 11:40:05,316 - curate_article - INFO - Sending 9 images to gpt-4o for cell line identification...
+2025-10-06 11:40:34,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-06 11:40:34,392 - curate_article - INFO - Cell line identification usage - Prompt: 7042, Completion: 28, Total: 7070 tokens
+2025-10-06 11:40:34,392 - curate_article - INFO - Received response from OpenAI for cell line identification
+2025-10-06 11:40:34,392 - curate_article - INFO - Parsing cell line names from response...
+2025-10-06 11:40:34,392 - curate_article - INFO - Successfully identified 3 unique cell lines: ['hES 3.1', 'hES 3.2', 'hES 3.3']
+2025-10-06 11:40:34,392 - curate_article - INFO - Starting metadata curation for 3 cell lines...
+2025-10-06 11:40:34,392 - curate_article - INFO - [1/3] Processing cell line: hES 3.1
+2025-10-06 11:40:34,392 - curate_article - INFO -   Attempt 1/3 - Curating metadata for hES 3.1...
+2025-10-06 11:40:37,000 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-06 11:41:35,065 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-06 11:41:35,072 - curate_article - INFO -   Successfully curated metadata for hES 3.1
+2025-10-06 11:41:35,072 - curate_article - INFO - [2/3] Processing cell line: hES 3.2
+2025-10-06 11:41:35,072 - curate_article - INFO -   Attempt 1/3 - Curating metadata for hES 3.2...
+2025-10-06 11:41:37,736 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-06 11:42:26,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-06 11:42:26,238 - curate_article - INFO -   Successfully curated metadata for hES 3.2
+2025-10-06 11:42:26,238 - curate_article - INFO - [3/3] Processing cell line: hES 3.3
+2025-10-06 11:42:26,238 - curate_article - INFO -   Attempt 1/3 - Curating metadata for hES 3.3...
+2025-10-06 11:42:28,891 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-06 11:43:16,360 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-06 11:43:16,377 - curate_article - INFO -   Successfully curated metadata for hES 3.3
+2025-10-06 11:43:16,377 - curate_article - INFO - Curation completed - Successfully curated: 3, Failed: 0
+2025-10-06 11:43:16,377 - curate_article - INFO - Total token usage - Prompt: 36088, Completion: 2659, Total: 38747 tokens
+2025-10-06 11:43:16,378 - curate_test - INFO -     Cell line 'hES 3.1' curation time: 58.05s
+2025-10-06 11:43:16,378 - curate_test - INFO -     Cell line 'hES 3.2' curation time: 48.48s
+2025-10-06 11:43:16,378 - curate_test - INFO -     Cell line 'hES 3.3' curation time: 47.46s
+2025-10-06 11:43:16,378 - curate_test - INFO -   Found 3 cell lines
+2025-10-06 11:43:16,378 - curate_test - INFO -   Successfully curated 3 cell lines
+2025-10-06 11:43:16,378 - curate_test - INFO -   Identification time: 29.08s
+2025-10-06 11:43:16,378 - curate_test - INFO -   Total cell line curation time: 153.98s
+2025-10-06 11:43:16,378 - curate_test - INFO -   Total article time: 193.84s
+2025-10-06 11:43:16,378 - curate_test - INFO -   Estimated cost: $0.1168
+2025-10-06 11:43:16,379 - curate_test - INFO -     Saved valid metadata for hES 3.1
+2025-10-06 11:43:16,379 - curate_test - INFO -     Saved valid metadata for hES 3.2
+2025-10-06 11:43:16,379 - curate_test - INFO -     Saved valid metadata for hES 3.3
+2025-10-06 11:43:16,379 - curate_test - INFO -   Completed processing 16522163.pdf
+2025-10-06 11:43:16,379 - curate_test - INFO - [2/54] Processing: 18271699.pdf
+2025-10-06 11:43:16,383 - curate_test - INFO -   Curating article...
+2025-10-06 11:43:16,383 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 11:43:19,467 - curate_article - INFO - Successfully converted PDF to 10 images
+2025-10-06 11:43:19,467 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 11:43:19,493 - curate_article - INFO - Sending 10 images to gpt-4o for cell line identification...

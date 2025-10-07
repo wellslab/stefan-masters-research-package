@@ -1,0 +1,93 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "LEi0101-A",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lions Eye Institute",
+      "first_name": "Samuel",
+      "last_name": "McLenachan",
+      "name_initials": "None",
+      "e_mail": "smclenachan@lei.org.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102129",
+      "journal": "Stem Cell Research",
+      "title": "Generation of three induced pluripotent stem cell lines from a patient with Usher syndrome caused by biallelic c.949C > A and c.1256G > T mutations in the USH2A gene",
+      "first_author": "Khine Zaw",
+      "last_author": "Fred K. Chen",
+      "year": "2021",
+      "pmid": "N/A"
+    }
+  ],
+  "donor": [
+    {
+      "age": "15",
+      "sex": "F",
+      "disease_name": "Usher syndrome type 2",
+      "disease_description": "Usher syndrome type 2"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "Compound heterozygous for c.949C > A and c.1256G > T variants",
+      "genotype": "USH2A",
+      "loci_name": "USH2A"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "None",
+      "karyotype": "46,XX",
+      "karyotype_method": "N/A",
+      "summary": "Karyotyping confirmed the absence of chromosomal rearrangements."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2018",
+      "non_int_vector": "None",
+      "non_int_vector_name": "None"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "16/07/2018",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%",
+      "passage_method": "TrypLE"
+    }
+  ]
+}

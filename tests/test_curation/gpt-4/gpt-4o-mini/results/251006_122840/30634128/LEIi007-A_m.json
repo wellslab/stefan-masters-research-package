@@ -1,0 +1,93 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "LEIi007-A",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Dr Samuel McLean",
+      "first_name": "Samuel",
+      "last_name": "McLean",
+      "name_initials": "None",
+      "e_mail": "s.mclean@uwa.edu.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.11.013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of the induced pluripotent stem cell line from a patient with autosomal recessive ABCA4-mediated Stargardt Macular Dystrophy",
+      "first_author": "Johann N. Claassen",
+      "last_author": "Fred K. Chen",
+      "year": "2019",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "15",
+      "sex": "F",
+      "disease_name": "Stargardt Macular Dystrophy",
+      "disease_description": "Recessive mutations in the ABCA4 gene cause Stargardt disease, an early-onset autosomal recessive degenerative disease."
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "Episomal Vectors",
+      "description": "Reprogramming of patient dermal fibroblasts was performed using episomal plasmids.",
+      "genotype": "Compound heterozygous ABCA4 c.4139C > T and c.5461-10T > C",
+      "loci_name": "ABCA4"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "15",
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping confirmed that LEIi007-A had a normal karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2018",
+      "non_int_vector": "None",
+      "non_int_vector_name": "None"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "None",
+      "institutional_HREC": "Human Research Ethics Office, University of Western Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "21%",
+      "passage_method": "EF"
+    }
+  ]
+}

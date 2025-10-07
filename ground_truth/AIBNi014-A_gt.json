@@ -1,0 +1,150 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "hONS-derived A-T iPSC; ONS-derived A-T iPSC; A-T HL iPSC",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Wolvetang-AIBN",
+      "first_name": "Ernst",
+      "last_name": "Wolvetang",
+      "name_initials": "J",
+      "e_mail": " e.wolvetang@uq.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1111/acel.13468",
+      "journal": "Aging cell",
+      "title": "Inhibition of the cGAS-STING pathway ameliorates the premature senescence hallmarks of Ataxia-Telangiectasia brain organoids",
+      "first_author": "Aguado J",
+      "last_author": "Wolvetang EJ",
+      "year": "2021",
+      "pmid": "34459078"
+    },
+    {
+      "doi": "10.1016/j.scr.2021.102528",
+      "journal": "Stem cell research",
+      "title": "Ataxia Telangiectasia iPSC line generated from a patient olfactory biopsy identifies novel disease-causing mutations",
+      "first_author": "Leeson HC",
+      "last_author": "Wolvetang EJ",
+      "year": "2021",
+      "pmid": "34507142"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2021.102528",
+      "journal": "Stem Cell Research",
+      "title": "Ataxia Telangiectasia iPSC line generated from a patient olfactory biopsy identifies novel disease-causing mutations.",
+      "first_author": "Hannah C Leeson",
+      "last_author": "Ernst J Wolvetang",
+      "year": "2021",
+      "pmid": "34507142"
+    },
+    {
+      "doi": "https://doi.org/10.1111/acel.13468",
+      "journal": "Aging Cell",
+      "title": "Inhibition of the cGAS-STING pathway ameliorates the premature senescence hallmarks of Ataxia-Telangiectasia brain organoids.",
+      "first_author": "Julio Aguado",
+      "last_author": "Ernst J Wolvetang",
+      "year": "2021",
+      "pmid": "34459078"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "CXCR4; FOXA2; SOX17",
+      "method_used": "RT-qPCR",
+      "description": ""
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "CD34; HAND1; KDR; PDGFRA",
+      "method_used": "RT-qPCR",
+      "description": ""
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "NR2F2; OTX2; PAX6; VIM",
+      "method_used": "RT-qPCR",
+      "description": ""
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "5",
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred from passage 5 at a resolution of 500bphs."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "UBERON:0005386",
+      "derivation_year": "2018-01-01",
+      "non_int_vector": "O",
+      "non_int_vector_name": "[kit] ReproRNA-OKSGM"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "2019000159",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Queensland Children's Health Services Human Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "EF"
+    }
+  ]
+}

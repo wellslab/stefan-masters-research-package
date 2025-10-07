@@ -1,0 +1,97 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "cell_line_alt_name": "E-2; Endeavour-2",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Diabetes Transplant Unit, Prince of Wales Hospital & University of New South Wales"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kuldip",
+      "group": "Stem Cell Lab, School of Biotechnology and Biomolecular Sciences and School of Psychiatry, Faculty of Medicine, University of New South Wales",
+      "name_initials": "S.",
+      "last_name": "Sidhu",
+      "e_mail": "k.s.sidhu@unsw.edu.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Derivation of a new human embryonic stem cell line, Endeavour-2, and its characterization",
+      "journal": "In Vitro Cell Dev Biol - Animal",
+      "doi": "10.1007/s16216-010-9280-8",
+      "last_author": "Bernard E. Tuch",
+      "first_author": "Kuldip S. Sidhu",
+      "year": "2010"
+    }
+  ],
+  "donor": [
+    {
+      "age": "None",
+      "sex": "None",
+      "disease_name": "None",
+      "disease_description": "None"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "None",
+      "genotype": "None",
+      "loci_name": "None"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "marker_list": "NESTIN; SOX17",
+      "cell_type": "EN",
+      "method_used": "Q-PCR",
+      "differentiation_profile": "in vitro directed differentiation"
+    },
+    {
+      "show_potency": "True",
+      "marker_list": "VIMENTIN; SOX17",
+      "cell_type": "ME",
+      "method_used": "Q-PCR",
+      "differentiation_profile": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype_method": "GB",
+      "karyotype": "46,XX",
+      "summary": "E-2 has been cultured over a period of more than 6 months without any apparent deterioration in pluripotency characteristics."
+    }
+  ],
+  "induced_derivation": [],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "institutional_HREC": "Institutional Human Research Ethics Committee",
+      "ethics_number": "02247/02267"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "21%",
+      "passage_method": "EF"
+    }
+  ]
+}

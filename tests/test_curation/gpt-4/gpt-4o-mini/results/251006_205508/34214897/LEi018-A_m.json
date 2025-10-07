@@ -1,0 +1,94 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "LEi018-A",
+      "cell_line_alt_name": "LEi018",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Samuel McLenachan",
+      "first_name": "Samuel",
+      "last_name": "McLenachan",
+      "name_initials": "None",
+      "e_mail": "smclenachan@lei.org.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102439",
+      "journal": "Stem Cell Research",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with Stargardt disease caused by biallelic c.[5461-10T>C;5603A>T]; [6077>C] mutations in the ABCA4 gene",
+      "first_author": "Di Huang",
+      "last_author": "Fred K. Chen",
+      "year": "2021",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A7_9",
+      "sex": "Male",
+      "disease_name": "Stargardt disease",
+      "disease_description": "nan"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "None",
+      "genotype": "None",
+      "loci_name": "None"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype": "46,XY",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred at a resolution of 500 kb."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2020",
+      "non_int_vector": "None",
+      "non_int_vector_name": "None"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "ethics_number": "RA/41/7916",
+      "approval_date": "21/06/2021",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

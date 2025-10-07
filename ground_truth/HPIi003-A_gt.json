@@ -1,0 +1,153 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "iPS-7247-C5",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Clayton-HPI",
+      "first_name": "Joshua",
+      "last_name": "Clayton",
+      "name_initials": "Missing",
+      "e_mail": " joshua.clayton@perkins.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102829",
+      "journal": "Stem cell research",
+      "title": "Generation of an induced pluripotent stem cell line from a 3-month-old nemaline myopathy patient with a heterozygous dominant c.515C\u00a0>\u00a0A (p.Ala172Glu) variant in the ACTA1 gene",
+      "first_author": "Clayton JS",
+      "last_author": "Taylor RL",
+      "year": "2022",
+      "pmid": "35728439"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2022.102829",
+      "journal": "Stem Cell Research",
+      "title": "Generation of an induced pluripotent stem cell line from a 3-month-old nemaline myopathy patient with a heterozygous dominant c.515C\u00a0>\u00a0A (p.Ala172Glu) variant in the ACTA1 gene.",
+      "first_author": "Joshua S Clayton",
+      "last_author": "Rhonda L Taylor",
+      "year": "2022",
+      "pmid": "35728439"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "GATA4; SOX17",
+      "method_used": "RT-qPCR",
+      "description": ""
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "BMP4; TBXT",
+      "method_used": "RT-qPCR",
+      "description": ""
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "True",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR",
+      "description": ""
+    },
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "GATA4",
+      "method_used": "Immunostaining",
+      "description": ""
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "Brachyury",
+      "method_used": "Immunostaining",
+      "description": ""
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "True",
+      "marker_list": "OTX2",
+      "method_used": "Immunostaining",
+      "description": ""
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred at a resolution of 400 to 500 bphs (15 metaphase spreads were counted; 7 were analysed in-depth)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "BTO:0000773",
+      "i_source_cell_origin_id": "UBERON:0000178",
+      "derivation_year": "2021-01-01",
+      "non_int_vector": "SV",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "EF"
+    }
+  ]
+}

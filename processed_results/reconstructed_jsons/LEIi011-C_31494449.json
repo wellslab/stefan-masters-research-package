@@ -1,0 +1,97 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "LEIi011-C",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "group": "Samuel McLenachan",
+      "last_name": "McLenachan",
+      "e_mail": "s.mclenachan@le.org.au"
+    },
+    {
+      "first_name": "Fred",
+      "group": "Fred K. Chen",
+      "last_name": "Chen",
+      "e_mail": "fred.chen@le.org.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation of three induced pluripotent stem cell lines from an isolated inherited retinal dystrophy patient with RCBTB1 frameshifting mutations",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2019.101549",
+      "last_author": "Fred K. Chen",
+      "first_author": "Zhiqin Huang",
+      "year": "2019"
+    }
+  ],
+  "donor": [
+    {
+      "age": "45",
+      "disease_description": "Inherited retinal dystrophy associated with RCBTB1 mutations",
+      "sex": "F",
+      "disease_name": "Retinal dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "13q14",
+      "mutation_type": "frameshift",
+      "description": "c.170delG and c.707delA mutations in RCBTB1",
+      "loci_name": "RCBTB1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "None",
+      "show_potency": "None",
+      "marker_list": "None",
+      "method_used": "None",
+      "differentiation_profile": "None"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "11",
+      "karyotype_method": "GB",
+      "karyotype": "46,XX",
+      "summary": "Karyotyping confirmed normal diploid karyotype"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "derivation_year": "2019",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%"
+    }
+  ]
+}

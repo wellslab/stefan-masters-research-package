@@ -1,0 +1,105 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "GENIE 74",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "group": "Wolvetang-AIBN",
+      "name_initials": "J",
+      "last_name": "Wolvetang",
+      "e_mail": "e.wolvetang@uq.edu.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation of induced pluripotent stem cell lines from peripheral blood mononuclear cells of three drug resistant and three drug responsive epilepsy patients",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2021.102564",
+      "last_author": "Lata Vadlamudi",
+      "first_author": "Zoe L. Hunter",
+      "pmid": "34649201",
+      "year": "2021"
+    }
+  ],
+  "donor": [
+    {
+      "disease_description": "nan",
+      "sex": "F",
+      "disease_name": "Epilepsy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "None",
+      "genotype": "None",
+      "loci_name": "None"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "marker_list": "SOX1; FOXA2; NANOG",
+      "cell_type": "EN",
+      "method_used": "qPCR",
+      "differentiation_profile": "in vitro directed differentiation"
+    },
+    {
+      "show_potency": "True",
+      "marker_list": "HAND1; RUNX1",
+      "cell_type": "ME",
+      "method_used": "qPCR",
+      "differentiation_profile": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "None",
+      "karyotype": "None",
+      "karyotype_method": "None",
+      "summary": "None"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "SV",
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "derivation_year": "2020",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "approval_date": "21/07/10",
+      "institutional_HREC": "University of Queensland Ethics Committee",
+      "ethics_number": "2019/QRBW/54086"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

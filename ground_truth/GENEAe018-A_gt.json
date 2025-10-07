@@ -1,0 +1,115 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "GENEA090",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Genea"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1021/pr500649m",
+      "journal": "Journal of proteome research",
+      "title": "Proteomics of Huntington's disease-affected human embryonic stem cells reveals an evolving pathology involving mitochondrial dysfunction and metabolic disturbances",
+      "first_author": "McQuade LR",
+      "last_author": "Schmidt U",
+      "year": "2014",
+      "pmid": "25316320"
+    },
+    {
+      "doi": "10.1016/j.scr.2016.02.024",
+      "journal": "Stem cell research",
+      "title": "Derivation of Huntington Disease affected Genea090 human embryonic stem cell line",
+      "first_author": "Dumevska B",
+      "last_author": "Schmidt U",
+      "year": "2016",
+      "pmid": "27346026"
+    }
+  ],
+  "donor": [
+    {
+      "age": "UN",
+      "sex": "F",
+      "disease_description": "Huntington disease (HD) is a rare neurodegenerative disorder of the central nervous system characterized by unwanted choreatic movements, behavioral and psychiatric disturbances and dementia.",
+      "disease_name": "Huntington disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype": "46 XX, no abnormalities detected",
+      "karyotype_method": "Other",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Licence 309710",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "NHMRC"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "NS"
+    }
+  ]
+}

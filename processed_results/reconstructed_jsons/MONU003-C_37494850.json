@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "MONU001-C; MONU002-C; MONU003-C",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health and School of Psychological Sciences, Monash University, Melbourne, VIC, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Mark",
+      "group": "Monash University",
+      "name_initials": "A",
+      "last_name": "Bellgrove",
+      "e_mail": "mark.bellgrove@monash.edu"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2023.103170",
+      "last_author": "Mark A Bellgrove",
+      "first_author": "Kealan Pugsley",
+      "year": "2023"
+    }
+  ],
+  "donor": [
+    {
+      "age": "35_39",
+      "sex": "M",
+      "disease_name": "Autism spectrum disorder"
+    },
+    {
+      "age": "10_14",
+      "sex": "F",
+      "disease_name": "Autism spectrum disorder"
+    },
+    {
+      "age": "18_24",
+      "sex": "M",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "None",
+      "genotype": "None",
+      "loci_name": "None"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype_method": "GB",
+      "karyotype": "46,XY",
+      "summary": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "SV",
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "derivation_year": "2023",
+      "non_int_vector_name": "N/A",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "approval_date": "N/A",
+      "institutional_HREC": "Monash University Human Research Ethics Committee",
+      "ethics_number": "25688"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "HPI001-B",
+      "cell_line_alt_name": "HPI001-B; HPI001-A",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Dr. Joshua Clayton",
+      "first_name": "Joshua",
+      "last_name": "Clayton",
+      "name_initials": "None",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102273",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 4-month-old severe nemaline myopathy patient with a heterozygous dominant c.553C > A (p.Arg183Ser) variant in the ACTA1 gene",
+      "first_author": "Joshua S. Clayton",
+      "last_author": "Rhonda L. Taylor",
+      "year": "2021",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "4 months",
+      "sex": "Female",
+      "disease_name": "Nemaline myopathy",
+      "disease_description": "severe form"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Spontaneous variant",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "None",
+      "genotype": "c.553C > A (p.Arg183Ser)",
+      "loci_name": "ACTA1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "OCT4; SSEA4; SOX2; TRA-1-60",
+      "method_used": "Immunocytochemistry",
+      "differentiation_profile": "None"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "46,XX",
+      "karyotype_method": "KaryoStat assay",
+      "summary": "Normal karyotype with no chromosomal abnormalities."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "lymphoblastoid cell line",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2020",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "CytoTune-iPS 2.0"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "None",
+      "approval_date": "None",
+      "institutional_HREC": "None"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

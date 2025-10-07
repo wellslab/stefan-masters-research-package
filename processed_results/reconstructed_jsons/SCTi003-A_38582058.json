@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "group": "Harry Perkins Institute of Medical Research",
+      "last_name": "Clayton",
+      "e_mail": "joshua.clayton@perkins.org.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2024.103411",
+      "last_author": "Rhonda L. Taylor",
+      "first_author": "Joshua S. Clayton",
+      "year": "2024"
+    }
+  ],
+  "donor": [
+    {
+      "age": "29",
+      "disease_description": "A congenital myopathy typically diagnosed by the presence of central contractures in type I myofibers.",
+      "sex": "F",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "RYR1 c.4083C>A (RYR1-9)",
+      "description": "RYR1 variants are confirmed heterozygous in each line.",
+      "loci_name": "RYR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "marker_list": "TBXT; SOX2; GATA4",
+      "cell_type": "ME",
+      "method_used": "qRT-PCR",
+      "differentiation_profile": "Directed differentiation"
+    },
+    {
+      "show_potency": "True",
+      "marker_list": "OTX2; PAX6",
+      "cell_type": "EC",
+      "method_used": "qRT-PCR",
+      "differentiation_profile": "Directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "2",
+      "karyotype_method": "GB",
+      "karyotype": "46,XX",
+      "summary": "Karyotyping confirmed normal karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "SV",
+      "i_source_cell_type_term": "lymphoblastoid cell line (LCL)",
+      "derivation_year": "2023",
+      "non_int_vector_name": "CytoTune-iPS 2.0",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "approval_date": "21/07/10",
+      "institutional_HREC": "University of Queensland Ethics Committee",
+      "ethics_number": "RA/4/20/1008"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%",
+      "passage_method": "Manual passage"
+    }
+  ]
+}

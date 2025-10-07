@@ -1,0 +1,93 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "UOWi007-A",
+      "cell_line_alt_name": "None",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Illawarra Health and Medical Research Institute",
+      "first_name": "Lezanne",
+      "last_name": "Ooi",
+      "name_initials": "L.",
+      "e_mail": "lezanne@uow.edu.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.101701",
+      "journal": "Stem Cell Research",
+      "title": "The mRNA-based reprogramming of fibroblasts from a SOD1 E101G familial amyotrophic lateral sclerosis patient to induced pluripotent stem cell line UOWi007",
+      "first_author": "Rachelle Balez",
+      "last_author": "Lezanne Ooi",
+      "year": "2020",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "43",
+      "sex": "None",
+      "disease_name": "Amyotrophic lateral sclerosis",
+      "disease_description": "SOD1 E101G mutation"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "None",
+      "genotype": "SOD1 E101G",
+      "loci_name": "SOD1"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "24",
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred at a resolution of 400 bphs. Fifteen metaphase spreads were analysed."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2018",
+      "non_int_vector": "None",
+      "non_int_vector_name": "None"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HE13/272",
+      "approval_date": "12/04/2018",
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

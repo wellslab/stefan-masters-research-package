@@ -1,0 +1,83 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "HPIi006-A",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "group": "Harry Perkins Institute of Medical Research",
+      "last_name": "Clayton",
+      "e_mail": "joshua.clayton@perkins.org.au"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Generation of two iPSC lines from patients with inherited central core disease and concurrent malignant hyperthermia caused by dominant missense variants in the RYR1 gene",
+      "journal": "Stem Cell Research",
+      "doi": "10.1016/j.scr.2024.103410",
+      "last_author": "Rhonda L. Taylor",
+      "first_author": "Joshua S. Clayton",
+      "year": "2024"
+    }
+  ],
+  "donor": [
+    {
+      "age": "3",
+      "disease_description": "Inherited condition characterized by muscle rigidity and hyperthermia",
+      "disease_name": "Central core disease; Malignant hyperthermia susceptibility"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "loci_name": "RYR1"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype_method": "GB",
+      "karyotype": "46,XY",
+      "summary": "Karyotype analysis showed normal 46,XY karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "SV",
+      "i_source_cell_type_term": "muscle biopsy",
+      "derivation_year": "2022",
+      "non_int_vector_name": "CytoTune-iPS 2.0",
+      "i_source_cell_origin_term": "muscle"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "approval_date": "21/07/10",
+      "institutional_HREC": "University of Queensland Ethics Committee",
+      "ethics_number": "2018-914"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%",
+      "passage_method": "Manual passaging"
+    }
+  ]
+}

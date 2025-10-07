@@ -1,0 +1,99 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "H9 NGN2 B6",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103312",
+      "journal": "Stem cell research",
+      "title": "Generation of a gene-edited H9 embryonic stem cell line carrying a DOX-inducible NGN2 expression cassette in the CLYBL locus",
+      "first_author": "Miellet S",
+      "last_author": "Dottori M",
+      "year": "2024",
+      "pmid": "38244534"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "TE",
+      "cytoband": "13q32.3",
+      "delivery_method": "crispr",
+      "description": "This line expresses Neurogenin 2 under a doxycycline inducible promoter. The line also contains a floxed Blasticidin resistance/nuclear mApple selection cassette.",
+      "genotype": "",
+      "loci_name": "Neurogenin 2"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46, XX",
+      "karyotype_method": "GB",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Holding Entry-WAe009-A",
+      "approval_date": "None",
+      "institutional_HREC": "Holding Entry"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "NS"
+    }
+  ]
+}

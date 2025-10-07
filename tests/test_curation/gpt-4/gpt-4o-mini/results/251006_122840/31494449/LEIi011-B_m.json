@@ -1,0 +1,108 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "LEIi011-B",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Samuel McLenachan",
+      "first_name": "Samuel",
+      "last_name": "McLenachan",
+      "name_initials": "None",
+      "e_mail": "s.mclenachan@le.org.au",
+      "phone_number": "None"
+    },
+    {
+      "group": "Fred K. Chen",
+      "first_name": "Fred",
+      "last_name": "Chen",
+      "name_initials": "None",
+      "e_mail": "fred.chen@le.org.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101549",
+      "journal": "Stem Cell Research",
+      "title": "Generation of three induced pluripotent stem cell lines from an isolated inherited retinal dystrophy patient with RCBTB1 frameshifting mutations",
+      "first_author": "Zhiqin Huang",
+      "last_author": "Fred K. Chen",
+      "year": "2019",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "45",
+      "sex": "F",
+      "disease_name": "Chorioretinal atrophy",
+      "disease_description": "Inherited retinal dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "frameshift",
+      "cytoband": "13q14",
+      "delivery_method": "None",
+      "description": "c.170delG and c.707delA in RCBTB1",
+      "genotype": "None",
+      "loci_name": "RCBTB1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "OCT4; NANOG; SOX2; MYC; KLF4",
+      "method_used": "RT-qPCR",
+      "differentiation_profile": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "5",
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping confirmed normal diploid karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2019",
+      "non_int_vector": "None",
+      "non_int_vector_name": "None"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "None",
+      "approval_date": "04/06/2016",
+      "institutional_HREC": "Human Research Ethics Office, University of Western Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%",
+      "passage_method": "EF"
+    }
+  ]
+}

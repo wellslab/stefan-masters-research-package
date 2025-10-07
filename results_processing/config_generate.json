@@ -1,0 +1,8 @@
+{
+  "results_path": "tests/test_curation/gpt-4/gpt-4o-mini/results/251006_122840",
+  "ground_truth_path": "ground_truth",
+  "output_filename": "combined_cell_lines_data",
+  "save_formats": ["csv"],
+  "include_metadata": true,
+  "verbose": true
+}

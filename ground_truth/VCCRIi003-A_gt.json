@@ -1,0 +1,119 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Missing",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Victor Chang Cardiac Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103238",
+      "journal": "Stem cell research",
+      "title": "Generation of induced pluripotent stem cell lines from a sister pair who suffered post-partum or recurrent Spontaneous Coronary Artery Dissections",
+      "first_author": "Bax M",
+      "last_author": "Graham RM",
+      "year": "2023",
+      "pmid": "37939621"
+    }
+  ],
+  "donor": [
+    {
+      "age": "UN",
+      "sex": "F",
+      "disease_description": "The spontaneous occurrence of a dissection of the coronary artery. The clinical recognition of this phenomenon has increased as coronary angiography is becoming more commonly used in the treatment of acute coronary syndrome. The etiology of the condition has not been fully elucidated, but the mean age of presentation is 30-45 years, more than 70% are women, and 30% of cases occur in the peripartum period.",
+      "disease_name": "Spontaneous Coronary Artery Dissection"
+    },
+    {
+      "age": "UN",
+      "sex": "F",
+      "disease_description": "Celiac disease (CD) is an autoimmune condition affecting the small intestine, triggered by the ingestion of gluten, the protein fraction of wheat, barley, and rye. Clinical manifestations of CD are highly variable and include both gastrointestinal and non-gastrointestinal features. The hallmark of CD is an immune-mediated enteropathy. This term is included because the occurence of CD is seen as a feature of a number of other diseases.",
+      "disease_name": "Celiac disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "False",
+      "marker_list": "Sox17",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "Brachyury",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "PAX6",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "20",
+      "karyotype": "Normal ",
+      "karyotype_method": "GB",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "SV",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC/16/SVH/338",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "St Vincent's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.18",
+      "passage_method": "EF"
+    }
+  ]
+}

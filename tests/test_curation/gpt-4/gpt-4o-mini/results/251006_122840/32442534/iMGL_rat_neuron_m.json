@@ -1,0 +1,103 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "None",
+      "cell_type": "iMGL",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Monash University",
+      "first_name": "Jose",
+      "last_name": "Polo",
+      "name_initials": "M.",
+      "e_mail": "jose.polo@monash.edu",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "journal": "Stem Cell Reports",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia co-culture",
+      "first_author": "Alexandra Grubman",
+      "last_author": "Jose M. Polo",
+      "year": "2020",
+      "pmid": "32562679"
+    }
+  ],
+  "donor": [
+    {
+      "age": "None",
+      "sex": "None",
+      "disease_name": "None",
+      "disease_description": "None"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "CRISPR/Cas9",
+      "description": "Insertion of tdTomato and nanoluciferase genes into the genome.",
+      "genotype": "None",
+      "loci_name": "CX3CR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "iMGL",
+      "show_potency": "True",
+      "marker_list": "CX3CR1; CD11B; TREML2",
+      "method_used": "FACS",
+      "differentiation_profile": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "12",
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping confirmed the genomic integrity of the iMGL cell line."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "None",
+      "i_source_cell_origin_term": "None",
+      "derivation_year": "None",
+      "non_int_vector": "None",
+      "non_int_vector_name": "None"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "None",
+      "zp_removal_technique": "None",
+      "trophectoderm_morphology": "None",
+      "icm_morphology": "None",
+      "e_preimplant_genetic_diagnosis": "None"
+    }
+  ],
+  "ethics": [],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%",
+      "passage_method": "Trypsinization"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "LEIi012-B",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science",
+      "first_name": "Samuel",
+      "last_name": "Mclenachan",
+      "name_initials": "None",
+      "e_mail": "s.mclenachan@lei.org.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.101947",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt Macular Dystrophy caused by the c.768G > T and c.6079C > T mutations in ABCA4",
+      "first_author": "Luke Jennings",
+      "last_author": "Samuel Mclenachan",
+      "year": "2020",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "31",
+      "sex": "M",
+      "disease_name": "Stargardt Macular Dystrophy",
+      "disease_description": "Autosomal recessive Stargardt disease (STGD1)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "None",
+      "cytoband": "None",
+      "delivery_method": "None",
+      "description": "Compound heterozygous mutations in ABCA4",
+      "genotype": "c.768G > T; c.6079C > T",
+      "loci_name": "ABCA4"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "16",
+      "karyotype": "46,XY",
+      "karyotype_method": "S",
+      "summary": "Karyotyping showed a normal diploid karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2020",
+      "non_int_vector": "N/A",
+      "non_int_vector_name": "N/A"
+    }
+  ],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "21/07/10",
+      "institutional_HREC": "University of Western Australia Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "5%",
+      "o2_concentration": "21%",
+      "passage_method": "EF"
+    }
+  ]
+}

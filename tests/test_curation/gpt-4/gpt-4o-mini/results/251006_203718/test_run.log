@@ -1,0 +1,135 @@
+2025-10-06 20:37:18,673 - curate_test - INFO - Starting test run with ID: 251006_203718
+2025-10-06 20:37:18,673 - curate_test - INFO - Test Configuration (loaded from config.json):
+2025-10-06 20:37:18,673 - curate_test - INFO -   processing_method: vision
+2025-10-06 20:37:18,673 - curate_test - INFO -   model: gpt-4o-mini
+2025-10-06 20:37:18,673 - curate_test - INFO -   temperature: 0.2
+2025-10-06 20:37:18,673 - curate_test - INFO -   max_tokens: 4000
+2025-10-06 20:37:18,674 - curate_test - INFO -   output_path: tests/test_curation/gpt-4/gpt-4o-mini/results
+2025-10-06 20:37:18,674 - curate_test - INFO -   articles_path: to_curate
+2025-10-06 20:37:18,674 - curate_test - INFO -   instructions_path: ai_curation_instructions.md
+2025-10-06 20:37:18,674 - curate_test - INFO -   pmid_list: ['*']
+2025-10-06 20:37:18,674 - curate_test - INFO - Testing 54 articles (controlled by pmid_list)
+2025-10-06 20:37:18,674 - curate_test - INFO - Found 54 articles to process:
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 16522163.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 18271699.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 18386991.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 20178001.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 20198447.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 29499499.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 30605840.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 30611018.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 30622032.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 30634128.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 30904819.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 31039485.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 31059986.pdf
+2025-10-06 20:37:18,674 - curate_test - INFO -   - 31415975.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 31494449.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 32006803.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 32442534.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 32810830.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 32887382.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 32931148.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 33091851.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 33316599.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 33360097.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 33429167.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 33740643.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 34088002.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 34157503.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 34198153.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 34214897.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 34388489.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 34507143.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 34619644.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 34649201.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 35074713.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 35679759.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 35728439.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 35728440.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 35917601.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 36166872.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 36682125.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 36805468.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 37150143.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 37315423.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 37385135.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 37494850.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 37939621.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 38029555.pdf
+2025-10-06 20:37:18,675 - curate_test - INFO -   - 38244534.pdf
+2025-10-06 20:37:18,676 - curate_test - INFO -   - 38277710.pdf
+2025-10-06 20:37:18,676 - curate_test - INFO -   - 38433209.pdf
+2025-10-06 20:37:18,676 - curate_test - INFO -   - 38458031.pdf
+2025-10-06 20:37:18,676 - curate_test - INFO -   - 38479087.pdf
+2025-10-06 20:37:18,676 - curate_test - INFO -   - 38582058.pdf
+2025-10-06 20:37:18,676 - curate_test - INFO -   - 38583293.pdf
+2025-10-06 20:37:18,676 - curate_test - INFO - [1/54] Processing: 16522163.pdf
+2025-10-06 20:37:18,682 - curate_test - INFO -   Curating article...
+2025-10-06 20:37:18,683 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 20:37:21,808 - curate_article - INFO - Successfully converted PDF to 9 images
+2025-10-06 20:37:21,808 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 20:37:21,875 - curate_article - INFO - Sending 9 images to gpt-4o-mini for cell line identification...
+2025-10-06 20:37:43,783 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-10-06 20:37:43,784 - curate_test - ERROR -   Error occurred: Error code: 403 - {'error': {'message': 'Project `proj_qey8S7H73RGiRLMzleiLogbw` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-10-06 20:37:43,784 - curate_test - INFO -   Completed processing 16522163.pdf
+2025-10-06 20:37:43,784 - curate_test - INFO - [2/54] Processing: 18271699.pdf
+2025-10-06 20:37:43,787 - curate_test - INFO -   Curating article...
+2025-10-06 20:37:43,788 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 20:37:47,089 - curate_article - INFO - Successfully converted PDF to 10 images
+2025-10-06 20:37:47,089 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 20:37:47,117 - curate_article - INFO - Sending 10 images to gpt-4o-mini for cell line identification...
+2025-10-06 20:38:11,686 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-10-06 20:38:11,691 - curate_test - ERROR -   Error occurred: Error code: 403 - {'error': {'message': 'Project `proj_qey8S7H73RGiRLMzleiLogbw` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-10-06 20:38:11,691 - curate_test - INFO -   Completed processing 18271699.pdf
+2025-10-06 20:38:11,691 - curate_test - INFO - [3/54] Processing: 18386991.pdf
+2025-10-06 20:38:11,693 - curate_test - INFO -   Curating article...
+2025-10-06 20:38:11,694 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 20:38:14,246 - curate_article - INFO - Successfully converted PDF to 10 images
+2025-10-06 20:38:14,246 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 20:38:14,274 - curate_article - INFO - Sending 10 images to gpt-4o-mini for cell line identification...
+2025-10-06 20:38:37,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-10-06 20:38:37,153 - curate_test - ERROR -   Error occurred: Error code: 403 - {'error': {'message': 'Project `proj_qey8S7H73RGiRLMzleiLogbw` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-10-06 20:38:37,153 - curate_test - INFO -   Completed processing 18386991.pdf
+2025-10-06 20:38:37,153 - curate_test - INFO - [4/54] Processing: 20178001.pdf
+2025-10-06 20:38:37,156 - curate_test - INFO -   Curating article...
+2025-10-06 20:38:37,156 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 20:38:39,320 - curate_article - INFO - Successfully converted PDF to 7 images
+2025-10-06 20:38:39,320 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 20:38:39,349 - curate_article - INFO - Sending 7 images to gpt-4o-mini for cell line identification...
+2025-10-06 20:38:56,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-10-06 20:38:56,549 - curate_test - ERROR -   Error occurred: Error code: 403 - {'error': {'message': 'Project `proj_qey8S7H73RGiRLMzleiLogbw` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-10-06 20:38:56,549 - curate_test - INFO -   Completed processing 20178001.pdf
+2025-10-06 20:38:56,549 - curate_test - INFO - [5/54] Processing: 20198447.pdf
+2025-10-06 20:38:56,551 - curate_test - INFO -   Curating article...
+2025-10-06 20:38:56,551 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 20:38:58,858 - curate_article - INFO - Successfully converted PDF to 6 images
+2025-10-06 20:38:58,858 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 20:38:58,889 - curate_article - INFO - Sending 6 images to gpt-4o-mini for cell line identification...
+2025-10-06 20:39:14,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-10-06 20:39:14,336 - curate_test - ERROR -   Error occurred: Error code: 403 - {'error': {'message': 'Project `proj_qey8S7H73RGiRLMzleiLogbw` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-10-06 20:39:14,336 - curate_test - INFO -   Completed processing 20198447.pdf
+2025-10-06 20:39:14,336 - curate_test - INFO - [6/54] Processing: 29499499.pdf
+2025-10-06 20:39:14,343 - curate_test - INFO -   Curating article...
+2025-10-06 20:39:14,343 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 20:39:15,661 - curate_article - INFO - Successfully converted PDF to 4 images
+2025-10-06 20:39:15,662 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 20:39:15,689 - curate_article - INFO - Sending 4 images to gpt-4o-mini for cell line identification...
+2025-10-06 20:39:26,900 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-10-06 20:39:26,900 - curate_test - ERROR -   Error occurred: Error code: 403 - {'error': {'message': 'Project `proj_qey8S7H73RGiRLMzleiLogbw` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-10-06 20:39:26,900 - curate_test - INFO -   Completed processing 29499499.pdf
+2025-10-06 20:39:26,900 - curate_test - INFO - [7/54] Processing: 30605840.pdf
+2025-10-06 20:39:26,909 - curate_test - INFO -   Curating article...
+2025-10-06 20:39:26,910 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 20:39:28,010 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-06 20:39:28,010 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 20:39:28,038 - curate_article - INFO - Sending 5 images to gpt-4o-mini for cell line identification...
+2025-10-06 20:39:37,900 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 403 Forbidden"
+2025-10-06 20:39:37,900 - curate_test - ERROR -   Error occurred: Error code: 403 - {'error': {'message': 'Project `proj_qey8S7H73RGiRLMzleiLogbw` does not have access to model `gpt-4o-mini`', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-10-06 20:39:37,900 - curate_test - INFO -   Completed processing 30605840.pdf
+2025-10-06 20:39:37,901 - curate_test - INFO - [8/54] Processing: 30611018.pdf
+2025-10-06 20:39:37,905 - curate_test - INFO -   Curating article...
+2025-10-06 20:39:37,905 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-06 20:39:39,443 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-06 20:39:39,443 - curate_article - INFO - Identifying unique cell line names in the article...
+2025-10-06 20:39:39,472 - curate_article - INFO - Sending 5 images to gpt-4o-mini for cell line identification...

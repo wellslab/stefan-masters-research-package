@@ -1,0 +1,3 @@
+Exception processing 35728440.pdf:
+
+'openai_api_key'

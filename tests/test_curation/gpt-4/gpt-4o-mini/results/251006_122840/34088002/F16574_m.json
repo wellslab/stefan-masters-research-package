@@ -1,0 +1,85 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "F16574; UOMELBi002-A",
+      "cell_type": "iPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Melbourne"
+    }
+  ],
+  "contact": [
+    {
+      "group": "The University of Melbourne",
+      "first_name": "Damian",
+      "last_name": "Hern\u00e1ndez",
+      "name_initials": "None",
+      "e_mail": "damian.hernandez@unimelb.edu.au",
+      "phone_number": "None"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102373",
+      "journal": "Stem Cell Research",
+      "title": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)",
+      "first_author": "Dami\u00e1n Hern\u00e1ndez",
+      "last_author": "Alison M. Goate",
+      "year": "2021",
+      "pmid": "None"
+    }
+  ],
+  "donor": [
+    {
+      "age": "None",
+      "sex": "None",
+      "disease_name": "Alzheimer's disease",
+      "disease_description": "APP London mutation (V717I)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Gene Correction",
+      "cytoband": "None",
+      "delivery_method": "CRISPR Cas9",
+      "description": "Gene correction and silent mutation in one single allele (Heterozygous mutation)",
+      "genotype": "None",
+      "loci_name": "APP"
+    }
+  ],
+  "differentiation_results": [],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "None",
+      "pluri_test_score": "None",
+      "pluri_novelty_score": "None"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "None",
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred at a resolution of 450-500. Six chromosomes were confirmed."
+    }
+  ],
+  "induced_derivation": [],
+  "embryonic_derivation": [],
+  "ethics": [
+    {
+      "ethics_number": "1545394",
+      "approval_date": "None",
+      "institutional_HREC": "University of Melbourne Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "None",
+      "o2_concentration": "None",
+      "passage_method": "None"
+    }
+  ]
+}

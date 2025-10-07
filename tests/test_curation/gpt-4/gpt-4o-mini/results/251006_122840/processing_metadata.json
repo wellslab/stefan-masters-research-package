@@ -1,0 +1,24 @@
+{
+  "total_rows": 484,
+  "model_output_rows": 169,
+  "ground_truth_rows": 315,
+  "total_columns": 76,
+  "unique_hpscreg_names": 443,
+  "unique_pmids": 77,
+  "common_cell_lines": 41,
+  "sections_and_fields": {
+    "basic_data": 3,
+    "generator": 1,
+    "contact": 6,
+    "publications": 7,
+    "donor": 4,
+    "genomic_modifications": 6,
+    "differentiation_results": 6,
+    "undifferentiated_characterisation": 3,
+    "genomic_characterisation": 4,
+    "induced_derivation": 7,
+    "embryonic_derivation": 5,
+    "ethics": 3,
+    "culture_medium": 3
+  }
+}

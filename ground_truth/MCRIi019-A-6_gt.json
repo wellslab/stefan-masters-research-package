@@ -1,0 +1,140 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "COL2A1\u00a0p.R719C; 1502.3 COL2A1 p.R719C; 1502-COL2A1 p.R719C",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lamand\u00e9-Shoulders-MCRI",
+      "first_name": "Shireen",
+      "last_name": "Lamand\u00e9",
+      "name_initials": "Missing",
+      "e_mail": " shireen.lamande@mcri.edu.au",
+      "phone_number": "Missing"
+    },
+    {
+      "group": "Lamand\u00e9-Shoulders-MCRI",
+      "first_name": "Matthew",
+      "last_name": "Shoulders",
+      "name_initials": "Missing",
+      "e_mail": " mshoulde@mit.edu",
+      "phone_number": "Missing"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103020",
+      "journal": "Stem cell research",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C iPSC line (MCRIi019-A-6) model of human precocious osteoarthritis",
+      "first_author": "Yammine KM",
+      "last_author": "Shoulders MD",
+      "year": "2023",
+      "pmid": "36682125"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2023.103020",
+      "journal": "Stem Cell Research",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C iPSC line (MCRIi019-A-6) model of human precocious osteoarthritis.",
+      "first_author": "Kathryn M Yammine",
+      "last_author": "Matthew D Shoulders",
+      "year": "2023",
+      "pmid": "36682125"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "IM",
+      "cytoband": "12q13.11",
+      "delivery_method": "CRISPR/Cas9",
+      "description": "Heterozygous COL2A1 c.2155C>T  (p.Arg719Cys) variant was introduced to COL2A1 exon 33. A synonymous change was also introduced.",
+      "genotype": "Heterozygous: unspecified_reference_COL2A1:c.2155C>T",
+      "loci_name": "COL2A1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining",
+      "description": ""
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "Brachyury",
+      "method_used": "Immunostaining",
+      "description": ""
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "True",
+      "marker_list": "NES; PAX6",
+      "method_used": "Immunostaining",
+      "description": ""
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "24.0",
+      "karyotype": "arr(1-22,X)x2",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array (resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "35121A",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "EF"
+    }
+  ]
+}
