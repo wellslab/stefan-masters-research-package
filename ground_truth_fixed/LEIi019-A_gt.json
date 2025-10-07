@@ -1,0 +1,114 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1020ips3",
+      "cell_type": "hiPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi019-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "Missing",
+      "journal": "Missing",
+      "title": "Missing",
+      "first_author": "Missing",
+      "last_author": "Missing",
+      "year": "Missing",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "15_19",
+      "sex": "M",
+      "disease_description": "",
+      "disease_name": "Pattern dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "VA",
+      "cytoband": "19q13.2",
+      "delivery_method": "",
+      "description": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "genotype": "",
+      "loci_name": "RYR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "False",
+      "marker_list": "SOX17;FOXA2;LEFTY1;PDX1",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "HAND1;PAX3",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "PAX6;OTX1;TUBB3",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "27",
+      "karyotype": "46, XY",
+      "karyotype_method": "MKSNP",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "EPI",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EF"
+    }
+  ]
+}

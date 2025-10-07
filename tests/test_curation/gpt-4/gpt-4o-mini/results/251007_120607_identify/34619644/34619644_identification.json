@@ -1,0 +1,10 @@
+{
+  "cell_lines": -1,
+  "usage_metadata": {
+    "prompt_tokens": 102316,
+    "completion_tokens": 7,
+    "total_tokens": 102323,
+    "identification_time_seconds": 13.009462594985962
+  },
+  "raw_response": "```python\n[-1]\n```"
+}

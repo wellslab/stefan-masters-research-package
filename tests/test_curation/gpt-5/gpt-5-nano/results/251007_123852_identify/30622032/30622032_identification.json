@@ -1,0 +1,15 @@
+{
+  "cell_lines": [
+    "MICCNi001-A",
+    "MICCNi001-B",
+    "MICCNi002-A",
+    "MICCNi002-B"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 11343,
+    "completion_tokens": 1061,
+    "total_tokens": 12404,
+    "identification_time_seconds": 18.29692840576172
+  },
+  "raw_response": "[\"MICCNi001-A\", \"MICCNi001-B\", \"MICCNi002-A\", \"MICCNi002-B\"]"
+}

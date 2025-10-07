@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "CIAUi002-C"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 9168,
+    "completion_tokens": 399,
+    "total_tokens": 9567,
+    "identification_time_seconds": 25.704676866531372
+  },
+  "raw_response": "[\"CIAUi002-C\"]"
+}

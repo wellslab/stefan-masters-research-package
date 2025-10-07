@@ -1,0 +1,10 @@
+{
+  "cell_lines": -1,
+  "usage_metadata": {
+    "prompt_tokens": 127817,
+    "completion_tokens": 19,
+    "total_tokens": 127836,
+    "identification_time_seconds": 17.030041456222534
+  },
+  "raw_response": "```python\n[\"MCRIi024-A\", \"MCRIi024-1\"]\n```"
+}

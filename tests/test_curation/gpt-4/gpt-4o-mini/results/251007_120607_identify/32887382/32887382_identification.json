@@ -1,0 +1,21 @@
+{
+  "cell_lines": [
+    "UQNi001",
+    "UQNi002",
+    "UQNi003-A",
+    "UQNi004-A",
+    "UQNi005-A",
+    "UQNi006-A",
+    "UQNi007-A",
+    "UQNi008-A",
+    "UQNi009-A",
+    "UQNi010-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 368662,
+    "completion_tokens": 72,
+    "total_tokens": 368734,
+    "identification_time_seconds": 30.153718948364258
+  },
+  "raw_response": "```python\n[\"UQNi001\", \"UQNi002\", \"UQNi003-A\", \"UQNi004-A\", \"UQNi005-A\", \"UQNi006-A\", \"UQNi007-A\", \"UQNi008-A\", \"UQNi009-A\", \"UQNi010-A\"]\n```"
+}

@@ -1,0 +1,34 @@
+Failed Articles Summary
+======================
+
+Total articles attempted: 54
+Successfully processed: 52
+Failed to process: 2
+No cell lines found: 16
+
+FAILED ARTICLES (2):
+----------------------------------------
+1. 34507143.pdf
+   Error: Error parsing cell line list: malformed node or string on line 1: <ast.Name object at 0x7a06be958450>
+
+2. 36805468.pdf
+   Error: Error parsing cell line list: '[' was never closed (<unknown>, line 1)
+
+ARTICLES WITH NO CELL LINES (16):
+----------------------------------------
+1. 16522163.pdf
+2. 18386991.pdf
+3. 20178001.pdf
+4. 29499499.pdf
+5. 31415975.pdf
+6. 32442534.pdf
+7. 32931148.pdf
+8. 33316599.pdf
+9. 34157503.pdf
+10. 34619644.pdf
+11. 35728439.pdf
+12. 37315423.pdf
+13. 37385135.pdf
+14. 38433209.pdf
+15. 38458031.pdf
+16. 38479087.pdf

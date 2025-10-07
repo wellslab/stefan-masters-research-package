@@ -1,0 +1,25 @@
+Failed Articles Summary
+======================
+
+Total articles attempted: 54
+Successfully processed: 53
+Failed to process: 1
+No cell lines found: 8
+
+FAILED ARTICLES (1):
+----------------------------------------
+1. 34507143.pdf
+   Error: Error parsing cell line list: invalid syntax (<unknown>, line 1). Raw response: ```
+["AIBNi013", "GRDi004", "Control-h iPSC C1"]
+```
+
+ARTICLES WITH NO CELL LINES (8):
+----------------------------------------
+1. 29499499.pdf
+2. 31039485.pdf
+3. 31415975.pdf
+4. 32887382.pdf
+5. 33316599.pdf
+6. 34157503.pdf
+7. 37315423.pdf
+8. 38458031.pdf

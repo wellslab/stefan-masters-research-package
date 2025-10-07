@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "UOWi007-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 9865,
+    "completion_tokens": 7,
+    "total_tokens": 9872,
+    "identification_time_seconds": 13.12733268737793
+  },
+  "raw_response": "[\"UOWi007-A\"]"
+}

@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "HPi003-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 127954,
+    "completion_tokens": 10,
+    "total_tokens": 127964,
+    "identification_time_seconds": 13.139904975891113
+  },
+  "raw_response": "```python\n[\"HPi003-A\"]\n```"
+}

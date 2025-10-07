@@ -1,0 +1,10 @@
+{
+  "cell_lines": -1,
+  "usage_metadata": {
+    "prompt_tokens": 3598,
+    "completion_tokens": 1938,
+    "total_tokens": 5536,
+    "identification_time_seconds": 60.59669613838196
+  },
+  "raw_response": "[\"MCCIi005-A-1\"]"
+}

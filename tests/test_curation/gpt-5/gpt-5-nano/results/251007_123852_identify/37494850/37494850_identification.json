@@ -1,0 +1,20 @@
+{
+  "cell_lines": [
+    "MONU001-A",
+    "MONU001-B",
+    "MONU001-C",
+    "MONU002-A",
+    "MONU002-B",
+    "MONU002-C",
+    "MONU003-A",
+    "MONU003-B",
+    "MONU003-C"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 11343,
+    "completion_tokens": 895,
+    "total_tokens": 12238,
+    "identification_time_seconds": 25.729081392288208
+  },
+  "raw_response": "[\"MONU001-A\", \"MONU001-B\", \"MONU001-C\", \"MONU002-A\", \"MONU002-B\", \"MONU002-C\", \"MONU003-A\", \"MONU003-B\", \"MONU003-C\"]"
+}

@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "Endeavour-2"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 16520,
+    "completion_tokens": 1104,
+    "total_tokens": 17624,
+    "identification_time_seconds": 26.546778678894043
+  },
+  "raw_response": "[\"Endeavour-2\"]"
+}

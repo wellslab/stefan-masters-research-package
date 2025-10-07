@@ -1,0 +1,10 @@
+{
+  "cell_lines": -1,
+  "usage_metadata": {
+    "prompt_tokens": 4228,
+    "completion_tokens": 1298,
+    "total_tokens": 5526,
+    "identification_time_seconds": 48.8894727230072
+  },
+  "raw_response": "[\"UQj001-A-1\"]"
+}

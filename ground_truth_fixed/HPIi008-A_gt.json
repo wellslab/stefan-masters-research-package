@@ -1,0 +1,114 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "RYR1-4833-R7",
+      "cell_type": "hiPSC",
+      "frozen": "False",
+      "hpscreg_name": "HPIi008-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103411",
+      "journal": "Stem cell research",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene",
+      "first_author": "Clayton JS",
+      "last_author": "Taylor RL",
+      "year": "2024",
+      "pmid": "38582058"
+    }
+  ],
+  "donor": [
+    {
+      "age": "UN",
+      "sex": "F",
+      "disease_description": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "VA",
+      "cytoband": "19q13.2",
+      "delivery_method": "",
+      "description": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "genotype": "",
+      "loci_name": "RYR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "False",
+      "marker_list": "GATA4;SOX17",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "TBXT;TBX6",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "OTX2;PAX6",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "13",
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "SV",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Est IV DC-2012-1693",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Comité de Protection des Personnes"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EF"
+    }
+  ]
+}

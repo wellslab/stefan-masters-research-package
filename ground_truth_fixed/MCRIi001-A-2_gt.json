@@ -1,0 +1,154 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Missing",
+      "cell_type": "hiPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRIi001-A-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.csbj.2020.09.025",
+      "journal": "Computational and structural biotechnology journal",
+      "title": "Probing pluripotency gene regulatory networks with quantitative live cell imaging",
+      "first_author": "Plant AL",
+      "last_author": "Stinson J",
+      "year": "2020",
+      "pmid": "33101611"
+    },
+    {
+      "doi": "10.1016/j.scr.2019.101689",
+      "journal": "Stem cell research",
+      "title": "Generation of a SOX9-tdTomato reporter human iPSC line, MCRIi001-A-2, using CRISPR/Cas9 editing",
+      "first_author": "Nur Patria Y",
+      "last_author": "Lamandé SR",
+      "year": "2020",
+      "pmid": "31884373"
+    },
+    {
+      "doi": "10.1016/j.scr.2020.101843",
+      "journal": "Stem cell research",
+      "title": "Generation of a heterozygous COL2A1 (p.R989C) spondyloepiphyseal dysplasia congenita mutation iPSC line, MCRIi001-B, using CRISPR/Cas9 gene editing",
+      "first_author": "Lilianty J",
+      "last_author": "Lamandé SR",
+      "year": "2020",
+      "pmid": "32446218"
+    },
+    {
+      "doi": "10.1016/j.scr.2020.101942",
+      "journal": "Stem cell research",
+      "title": "CRISPR/Cas9 gene editing of a SOX9 reporter human iPSC line to produce two TRPV4 patient heterozygous missense mutant iPSC lines, MCRIi001-A-3 (TRPV4 p.F273L) and MCRIi001-A-4 (TRPV4 p.P799L)",
+      "first_author": "Nur Patria Y",
+      "last_author": "Lamandé SR",
+      "year": "2020",
+      "pmid": "32771907"
+    },
+    {
+      "doi": "10.1016/j.semcdb.2021.11.024",
+      "journal": "Seminars in cell & developmental biology",
+      "title": "Developmental principles informing human pluripotent stem cell differentiation to cartilage and bone",
+      "first_author": "Humphreys PA",
+      "last_author": "Kimber SJ",
+      "year": "2022",
+      "pmid": "34949507"
+    },
+    {
+      "doi": "10.1073/pnas.2211510120",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "title": "Modeling human skeletal development using human pluripotent stem cells",
+      "first_author": "Lamandé SR",
+      "last_author": "Bateman JF",
+      "year": "2023",
+      "pmid": "37126720"
+    },
+    {
+      "doi": "10.1016/j.scr.2024.103313",
+      "journal": "Stem cell research",
+      "title": "Generation of a human ACTA1-tdTomato reporter iPSC line using CRISPR/Cas9 editing",
+      "first_author": "Houweling PJ",
+      "last_author": "North KN",
+      "year": "2024",
+      "pmid": "38277710"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "TE",
+      "cytoband": "",
+      "delivery_method": "crispr",
+      "description": "Td-Tomato fluorescence reporter gene insertion downstream of SOX9 gene",
+      "genotype": "",
+      "loci_name": "sox9"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "2",
+      "karyotype": "Molcular karyotype arr(1-22)x2(XY)x1",
+      "karyotype_method": "MKSNP",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Holding Entry-MCRIi001-A",
+      "approval_date": "None",
+      "institutional_HREC": "Holding Entry"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.95",
+      "passage_method": "EF"
+    }
+  ]
+}

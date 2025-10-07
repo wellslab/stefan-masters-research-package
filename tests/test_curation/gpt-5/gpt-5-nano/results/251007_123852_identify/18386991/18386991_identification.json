@@ -1,0 +1,22 @@
+{
+  "cell_lines": [
+    "SIVF03",
+    "SIVF04",
+    "SIVF05",
+    "SIVF06",
+    "SIVF07",
+    "SIVF08",
+    "SIVF09",
+    "SIVF10",
+    "SIVF11",
+    "SIVF12",
+    "SIVF13"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 22898,
+    "completion_tokens": 1163,
+    "total_tokens": 24061,
+    "identification_time_seconds": 38.0675847530365
+  },
+  "raw_response": "[\"SIVF03\", \"SIVF04\", \"SIVF05\", \"SIVF06\", \"SIVF07\", \"SIVF08\", \"SIVF09\", \"SIVF10\", \"SIVF11\", \"SIVF12\", \"SIVF13\"]"
+}

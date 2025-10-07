@@ -1,0 +1,14 @@
+Cell lines identified in 36166872:
+========================================
+
+1. AIBNi015-A
+2. AIBNi017-A
+3. AIBNi018-A
+4. AIBNi015-A-SPG1-AU01C15
+5. AIBNi016-A-SPG2-S376C1
+6. AIBNi017-A-SPGh1-S075mC2
+7. AIBNi018-A-SPG2-S964pC6
+8. SPG1
+9. SPG2
+10. SPGh1
+11. SPGh2

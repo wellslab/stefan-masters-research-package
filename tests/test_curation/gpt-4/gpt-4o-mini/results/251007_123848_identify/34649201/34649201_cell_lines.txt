@@ -1,0 +1,15 @@
+Cell lines identified in 34649201:
+========================================
+
+1. AIBNi001-A
+2. AIBNi002-A
+3. AIBNi003-A
+4. AIBNi004-A
+5. AIBNi005-A
+6. AIBNi006-A
+7. GENIE 1
+8. GENIE 38
+9. GENIE 68
+10. GENIE 69
+11. GENIE 70
+12. GENIE 74

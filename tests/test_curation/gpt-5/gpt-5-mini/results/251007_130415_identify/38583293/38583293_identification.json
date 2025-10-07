@@ -1,0 +1,13 @@
+{
+  "cell_lines": [
+    "HPi006-A",
+    "HPi007-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 10912,
+    "completion_tokens": 341,
+    "total_tokens": 11253,
+    "identification_time_seconds": 21.5014591217041
+  },
+  "raw_response": "[\"HPi006-A\", \"HPi007-A\"]"
+}

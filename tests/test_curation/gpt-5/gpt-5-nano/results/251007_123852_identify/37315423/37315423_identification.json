@@ -1,0 +1,10 @@
+{
+  "cell_lines": -1,
+  "usage_metadata": {
+    "prompt_tokens": 13522,
+    "completion_tokens": 2019,
+    "total_tokens": 15541,
+    "identification_time_seconds": 25.73224973678589
+  },
+  "raw_response": "[\"UQi001-A-1 Untargeted Allele\", \"UQi001-A-1 Targeted Allele\"]"
+}

@@ -1,0 +1,286 @@
+{
+  "18271699": [
+    "E1",
+    "E1C1",
+    "E1C2",
+    "E1C3",
+    "E1C4"
+  ],
+  "20198447": [
+    "SIVF001",
+    "SIVF002",
+    "SIVF014"
+  ],
+  "30605840": [
+    "PB001",
+    "PB004",
+    "PB005",
+    "PB006",
+    "PB010"
+  ],
+  "30611018": [
+    "LEIi008-A",
+    "LEIi009-A"
+  ],
+  "30622032": [
+    "MICCNi001-A",
+    "MICCNi001-B",
+    "MICCNi002-A",
+    "MICCNi002-B"
+  ],
+  "30634128": [
+    "LEIi007-A"
+  ],
+  "30904819": [
+    "LEIi010-A",
+    "LEIi010-B"
+  ],
+  "31039485": [
+    "MCCIi005-A"
+  ],
+  "31059986": [
+    "LEIHi005-B"
+  ],
+  "31494449": [
+    "LEIi011-A",
+    "LEIi011-B",
+    "LEIi011-C"
+  ],
+  "32006803": [
+    "UOWi007-A"
+  ],
+  "32810830": [
+    "LEIi012-A",
+    "LEIi012-B"
+  ],
+  "32887382": [
+    "UQNi001",
+    "UQNi002",
+    "UQNi003-A",
+    "UQNi004-A",
+    "UQNi005-A",
+    "UQNi006-A",
+    "UQNi007-A",
+    "UQNi008-A",
+    "UQNi009-A",
+    "UQNi010-A"
+  ],
+  "33091851": [
+    "MCRIi001-A",
+    "MCRIi002-A",
+    "MCRIi003-A",
+    "MCRIi004-A"
+  ],
+  "33360097": [
+    "LEIi014-A",
+    "LEIi014-B",
+    "LEIi014-C"
+  ],
+  "33429167": [
+    "LEIi015-A",
+    "LEIi015-B"
+  ],
+  "33740643": [
+    "HPI001-A",
+    "HPI001-B"
+  ],
+  "34088002": [
+    "UOMELBi002-A"
+  ],
+  "34198153": [
+    "LEIi017-A",
+    "LEIi017-B"
+  ],
+  "34214897": [
+    "LEIi018-A"
+  ],
+  "34388489": [
+    "HPIi002-A",
+    "HPIi002-B"
+  ],
+  "34649201": [
+    "AIBNi001-A",
+    "AIBNi002-A",
+    "AIBNi003-A",
+    "AIBNi004-A",
+    "AIBNi005-A",
+    "AIBNi006-A",
+    "GENIE1",
+    "GENIE38",
+    "GENIE68",
+    "GENIE69",
+    "GENIE70",
+    "GENIE74"
+  ],
+  "35074713": [
+    "AIBNi001",
+    "AIBNi002",
+    "AIBNi003",
+    "AIBNi004",
+    "GENIE 11",
+    "GENIE 29",
+    "GENIE 49",
+    "GENIE 75",
+    "GENIE 81",
+    "GENIE 116"
+  ],
+  "35679759": [
+    "MNTAS1002-A",
+    "MNTAS1003-A",
+    "MNTAS1004-A",
+    "MNTAS1005-A"
+  ],
+  "35728440": [
+    "HIPI004-A",
+    "HIPI004-B"
+  ],
+  "35917601": [
+    "UOCI001-A",
+    "UOCI002-A"
+  ],
+  "36166872": [
+    "AIBNi001-A",
+    "AIBNi001",
+    "AIBNi002",
+    "AIBNi003",
+    "AIBNi004",
+    "AIBNi005",
+    "AIBNi006",
+    "AIBNi007",
+    "AIBNi008",
+    "AIBNi009",
+    "AIBNi010",
+    "AIBNi011",
+    "AIBNi012",
+    "AIBNi013",
+    "AIBNi014",
+    "AIBNi015",
+    "AIBNi016",
+    "AIBNi017",
+    "AIBNi018",
+    "AIBNi019",
+    "AIBNi020",
+    "AIBNi021",
+    "AIBNi022",
+    "AIBNi023",
+    "AIBNi024",
+    "AIBNi025",
+    "AIBNi026",
+    "AIBNi027",
+    "AIBNi028",
+    "AIBNi029",
+    "AIBNi030",
+    "AIBNi031",
+    "AIBNi032",
+    "AIBNi033",
+    "AIBNi034",
+    "AIBNi035",
+    "AIBNi036",
+    "AIBNi037",
+    "AIBNi038",
+    "AIBNi039",
+    "AIBNi040",
+    "AIBNi041",
+    "AIBNi042",
+    "AIBNi043",
+    "AIBNi044",
+    "AIBNi045",
+    "AIBNi046",
+    "AIBNi047",
+    "AIBNi048",
+    "AIBNi049",
+    "AIBNi050",
+    "AIBNi051",
+    "AIBNi052",
+    "AIBNi053",
+    "AIBNi054",
+    "AIBNi055",
+    "AIBNi056",
+    "AIBNi057",
+    "AIBNi058",
+    "AIBNi059",
+    "AIBNi060",
+    "AIBNi061",
+    "AIBNi062",
+    "AIBNi063",
+    "AIBNi064",
+    "AIBNi065",
+    "AIBNi066",
+    "AIBNi067",
+    "AIBNi068",
+    "AIBNi069",
+    "AIBNi070",
+    "AIBNi071",
+    "AIBNi072",
+    "AIBNi073",
+    "AIBNi074",
+    "AIBNi075",
+    "AIBNi076",
+    "AIBNi077",
+    "AIBNi078",
+    "AIBNi079",
+    "AIBNi080",
+    "AIBNi081",
+    "AIBNi082",
+    "AIBNi083",
+    "AIBNi084",
+    "AIBNi085",
+    "AIBNi086",
+    "AIBNi087",
+    "AIBNi088",
+    "AIBNi089",
+    "AIBNi090",
+    "AIBNi091",
+    "AIBNi092",
+    "AIBNi093",
+    "AIBNi094",
+    "AIBNi095",
+    "AIBNi096",
+    "AIBNi097",
+    "AIBNi098",
+    "AIBNi099",
+    "AIBNi100"
+  ],
+  "36682125": [
+    "MCRIi019-A-6"
+  ],
+  "37150143": [
+    "PB002",
+    "PB003",
+    "PB007",
+    "PB008",
+    "PB009"
+  ],
+  "37494850": [
+    "MONU001-A",
+    "MONU001-B",
+    "MONU001-C",
+    "MONU002-A",
+    "MONU002-B",
+    "MONU003-A"
+  ],
+  "37939621": [
+    "VCCRi002-A",
+    "VCCRi003-A"
+  ],
+  "38029555": [
+    "HPIi005-A",
+    "HPIi005-B"
+  ],
+  "38244534": [
+    "H9 NGN2 B6"
+  ],
+  "38277710": [
+    "MCRIi001-A"
+  ],
+  "38582058": [
+    "HPIi008-A",
+    "HPIi009-A",
+    "SCTi003-A"
+  ],
+  "38583293": [
+    "HPIi006-A",
+    "HPIi007-A",
+    "SCTI003-A"
+  ]
+}

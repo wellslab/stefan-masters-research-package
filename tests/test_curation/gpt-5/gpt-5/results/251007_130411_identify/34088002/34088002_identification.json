@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "UOMELBi002-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 6118,
+    "completion_tokens": 529,
+    "total_tokens": 6647,
+    "identification_time_seconds": 28.980629920959473
+  },
+  "raw_response": "[\"UOMELBi002-A\"]"
+}

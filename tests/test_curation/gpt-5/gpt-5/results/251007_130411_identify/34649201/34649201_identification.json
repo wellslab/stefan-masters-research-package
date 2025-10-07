@@ -1,0 +1,17 @@
+{
+  "cell_lines": [
+    "AIBNi001-A",
+    "AIBNi002-A",
+    "AIBNi003-A",
+    "AIBNi004-A",
+    "AIBNi005-A",
+    "AIBNi006-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 3598,
+    "completion_tokens": 1779,
+    "total_tokens": 5377,
+    "identification_time_seconds": 51.2871310710907
+  },
+  "raw_response": "[\"AIBNi001-A\", \"AIBNi002-A\", \"AIBNi003-A\", \"AIBNi004-A\", \"AIBNi005-A\", \"AIBNi006-A\"]"
+}

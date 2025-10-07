@@ -1,0 +1,133 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1502.3 miR-26b KO; 1502-miR26b knockout",
+      "cell_type": "hiPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi019-A-1"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Bateman-MCRI",
+      "first_name": "John",
+      "last_name": "Bateman",
+      "name_initials": "F",
+      "e_mail": " john.bateman@mcri.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102118",
+      "journal": "Stem cell research",
+      "title": "Generation of a miR-26b stem-loop knockout human iPSC line, MCRIi019-A-1, using CRISPR/Cas9 editing",
+      "first_author": "Kung LHW",
+      "last_author": "Bateman JF",
+      "year": "2020",
+      "pmid": "33316599"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2020.102118",
+      "journal": "Stem Cell Research",
+      "title": "Generation of a miR-26b stem-loop knockout human iPSC line, MCRIi019-A-1, using CRISPR/Cas9 editing.",
+      "first_author": "Louise H W Kung",
+      "last_author": "John F Bateman",
+      "year": "2021",
+      "pmid": "33316599"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "GKO",
+      "cytoband": "2q.35",
+      "delivery_method": "CRISPR/Cas9",
+      "description": "Homozygous deletion of MIR26B stem-loop region removing the sequences containing miR-26b-5p and miR-26b-3p in both alleles (allele 1: 121 bp deletion; allele 2: 132 bp deletion).",
+      "genotype": "Homozygous deletion of miR-26b stem-loop",
+      "loci_name": "MIR26B"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining",
+      "description": ""
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "COL2A1; FOXC2; MEOX1; SOX9",
+      "method_used": "RT-qPCR",
+      "description": ""
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "True",
+      "marker_list": "NES; PAX6",
+      "method_used": "Immunostaining",
+      "description": ""
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "21.0",
+      "karyotype": "arr(1-22,X)x2",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium GSA-24 v1.0; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "33118",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "EF"
+    }
+  ]
+}

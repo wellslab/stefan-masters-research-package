@@ -1,0 +1,118 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Missing",
+      "cell_type": "hiPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi004-A-1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.04.014",
+      "journal": "Stem cell research",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with non-syndromic CLN3-associated retinal degeneration and a coisogenic control line",
+      "first_author": "Zhang X",
+      "last_author": "McLenachan S",
+      "year": "2018",
+      "pmid": "29753273"
+    },
+    {
+      "doi": "10.1002/mgg3.1601",
+      "journal": "Molecular genetics & genomic medicine",
+      "title": "Gene correction of the CLN3 c.175G>A variant in patient-derived induced pluripotent stem cells prevents pathological changes in retinal organoids",
+      "first_author": "Zhang X",
+      "last_author": "McLenachan S",
+      "year": "2021",
+      "pmid": "33497524"
+    },
+    {
+      "doi": "10.3390/molecules26206235",
+      "journal": "Molecules (Basel, Switzerland)",
+      "title": "Patient-Derived Induced Pluripotent Stem Cell Models for Phenotypic Screening in the Neuronal Ceroid Lipofuscinoses",
+      "first_author": "Morsy A",
+      "last_author": "Trippier PC",
+      "year": "2021",
+      "pmid": "34684815"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "VA",
+      "cytoband": "",
+      "delivery_method": "",
+      "description": "Retinitis pigmentosa (RP) is an inherited retinal dystrophy leading to progressive loss of the photoreceptors and retinal pigment epithelium and resulting in blindness usually after several decades.",
+      "genotype": "",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "41",
+      "karyotype": "",
+      "karyotype_method": "Other",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "EPI",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Holding Entry-LEIi004-A-1",
+      "approval_date": "None",
+      "institutional_HREC": "Holding Entry"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "NS"
+    }
+  ]
+}

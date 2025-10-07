@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "FINi003-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 9168,
+    "completion_tokens": 207,
+    "total_tokens": 9375,
+    "identification_time_seconds": 18.09893774986267
+  },
+  "raw_response": "[\"FINi003-A\"]"
+}

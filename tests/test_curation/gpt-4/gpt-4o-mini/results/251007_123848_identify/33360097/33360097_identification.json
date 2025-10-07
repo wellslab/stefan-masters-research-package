@@ -1,0 +1,14 @@
+{
+  "cell_lines": [
+    "LEIi014-A",
+    "LEIi014-B",
+    "LEIi014-C"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 127954,
+    "completion_tokens": 22,
+    "total_tokens": 127976,
+    "identification_time_seconds": 17.462918043136597
+  },
+  "raw_response": "```python\n[\"LEIi014-A\", \"LEIi014-B\", \"LEIi014-C\"]\n```"
+}

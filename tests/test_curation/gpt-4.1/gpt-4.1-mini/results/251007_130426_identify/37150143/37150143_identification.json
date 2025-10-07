@@ -1,0 +1,16 @@
+{
+  "cell_lines": [
+    "MCRIi002-A",
+    "MCRIi003-A",
+    "MCRIi007-A",
+    "MCRIi008-A",
+    "MCRIi009-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 12219,
+    "completion_tokens": 35,
+    "total_tokens": 12254,
+    "identification_time_seconds": 14.390148162841797
+  },
+  "raw_response": "[\"MCRIi002-A\", \"MCRIi003-A\", \"MCRIi007-A\", \"MCRIi008-A\", \"MCRIi009-A\"]"
+}

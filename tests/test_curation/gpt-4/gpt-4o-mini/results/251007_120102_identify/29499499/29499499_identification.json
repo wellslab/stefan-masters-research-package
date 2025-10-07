@@ -1,0 +1,10 @@
+{
+  "cell_lines": -1,
+  "usage_metadata": {
+    "prompt_tokens": 102316,
+    "completion_tokens": 50,
+    "total_tokens": 102366,
+    "identification_time_seconds": 17.39242911338806
+  },
+  "raw_response": "```python\n[\"SCs001-A-1\", \"MCRi002-A-1\", \"MCRi001-A-2\", \"MEL-1-10.2\", \"MEL-1-30.3\"]\n```"
+}

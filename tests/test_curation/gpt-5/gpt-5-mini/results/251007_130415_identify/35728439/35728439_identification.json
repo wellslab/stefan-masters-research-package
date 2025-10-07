@@ -1,0 +1,13 @@
+{
+  "cell_lines": [
+    "HPi003-A",
+    "iPS-7247-C5"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 9168,
+    "completion_tokens": 984,
+    "total_tokens": 10152,
+    "identification_time_seconds": 29.126481294631958
+  },
+  "raw_response": "[\"HPi003-A\", \"iPS-7247-C5\"]"
+}

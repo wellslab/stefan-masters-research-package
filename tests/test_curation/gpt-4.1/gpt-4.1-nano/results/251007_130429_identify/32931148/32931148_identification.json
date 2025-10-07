@@ -1,0 +1,14 @@
+{
+  "cell_lines": [
+    "CRB1",
+    "c.1892A>G",
+    "c.2548G>A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 37269,
+    "completion_tokens": 22,
+    "total_tokens": 37291,
+    "identification_time_seconds": 35.90004920959473
+  },
+  "raw_response": "[\"CRB1\", \"c.1892A>G\", \"c.2548G>A\"]"
+}

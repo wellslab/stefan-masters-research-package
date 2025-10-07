@@ -1,0 +1,10 @@
+{
+  "cell_lines": -1,
+  "usage_metadata": {
+    "prompt_tokens": 7424,
+    "completion_tokens": 1383,
+    "total_tokens": 8807,
+    "identification_time_seconds": 34.67189884185791
+  },
+  "raw_response": "[\"SCSe001-A-1/MCRIe002-A-1\", \"SCSe001-A-2/MCRIe002-A-2\"]"
+}

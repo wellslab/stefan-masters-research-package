@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "AIBNi013-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 11343,
+    "completion_tokens": 1488,
+    "total_tokens": 12831,
+    "identification_time_seconds": 20.694295167922974
+  },
+  "raw_response": "[\"AIBNi013-A\"]"
+}

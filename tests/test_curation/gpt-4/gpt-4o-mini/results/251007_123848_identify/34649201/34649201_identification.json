@@ -1,0 +1,23 @@
+{
+  "cell_lines": [
+    "AIBNi001-A",
+    "AIBNi002-A",
+    "AIBNi003-A",
+    "AIBNi004-A",
+    "AIBNi005-A",
+    "AIBNi006-A",
+    "GENIE 1",
+    "GENIE 38",
+    "GENIE 68",
+    "GENIE 69",
+    "GENIE 70",
+    "GENIE 74"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 127954,
+    "completion_tokens": 82,
+    "total_tokens": 128036,
+    "identification_time_seconds": 14.499936819076538
+  },
+  "raw_response": "```python\n[\"AIBNi001-A\", \"AIBNi002-A\", \"AIBNi003-A\", \"AIBNi004-A\", \"AIBNi005-A\", \"AIBNi006-A\", \"GENIE 1\", \"GENIE 38\", \"GENIE 68\", \"GENIE 69\", \"GENIE 70\", \"GENIE 74\"]\n```"
+}

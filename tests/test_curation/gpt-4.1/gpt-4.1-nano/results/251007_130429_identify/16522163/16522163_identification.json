@@ -1,0 +1,17 @@
+{
+  "cell_lines": [
+    "hES3.1",
+    "hES3.2",
+    "hES3.3",
+    "hES 3.1",
+    "hES 3.2",
+    "hES 3.3"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 33587,
+    "completion_tokens": 45,
+    "total_tokens": 33632,
+    "identification_time_seconds": 28.652117013931274
+  },
+  "raw_response": "[\"hES3.1\", \"hES3.2\", \"hES3.3\", \"hES 3.1\", \"hES 3.2\", \"hES 3.3\"]"
+}

@@ -1,0 +1,14 @@
+{
+  "cell_lines": [
+    "LEIi011-A",
+    "LEIi011-B",
+    "LEIi011-C"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 14573,
+    "completion_tokens": 18,
+    "total_tokens": 14591,
+    "identification_time_seconds": 17.42539644241333
+  },
+  "raw_response": "[\"LEIi011-A\", \"LEIi011-B\", \"LEIi011-C\"]"
+}

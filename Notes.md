@@ -107,8 +107,36 @@ So I can estimate the text token costs, but this is an underestimate of the true
 
 
 
-New instructions 
+New instructions
 - in cell line retrieval specify to only retrieve cell names to curate if the article reports on these cell lines being derived therein
 - also mention to beware of alternative names and these should not be retrieved to curate
+
+
+# Cell Line Identification Strategy
+
+Key Improvements:
+
+1. Two-tier approach:
+   - Primary: Look for official registry IDs (AIBNi001, MCRIi001-A format)
+   - Fallback: Extract whatever naming the article actually uses
+
+2. Broader capture: Now includes examples of alternative formats:
+   - Laboratory codes (hES3.1, Clone-1)
+   - Descriptive names (SIVF001, Control-iPSC)
+   - Numbered series (iPSC-1, hiPSC-clone-3)
+
+3. Clear focus: Emphasizes newly derived/generated cell lines in the current study
+
+4. Better exclusions: More specific about what to ignore (commercial lines, external controls, generic terms)
+
+5. Flexible examples: Shows how different naming conventions should be handled
+
+This should dramatically improve capture rates! Now the model will:
+- ✅ Find official registry IDs when present
+- ✅ Fall back to whatever identifiers the researchers actually used
+- ✅ Capture things like "hES3.1, hES3.2, hES3.3" or "SIVF001, SIVF002"
+- ✅ Ignore irrelevant controls and commercial lines
+
+This makes the script much more robust for real-world articles that may not always use the standardized registry format!
 
 

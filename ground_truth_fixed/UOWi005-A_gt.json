@@ -1,0 +1,210 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CCNF; CCNF2; iPSC MB2-1",
+      "cell_type": "hiPSC",
+      "frozen": "True",
+      "hpscreg_name": "UOWi005-A"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Ooi-UOW",
+      "first_name": "Lezanne",
+      "last_name": "Ooi",
+      "name_initials": "Missing",
+      "e_mail": " lezanne@uow.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101530",
+      "journal": "Stem cell research",
+      "title": "Generation and characterization of a human induced pluripotent stem cell line UOWi005-A from dermal fibroblasts derived from a CCNF(S621G) familial amyotrophic lateral sclerosis patient using mRNA reprogramming",
+      "first_author": "Bax M",
+      "last_author": "Ooi L",
+      "year": "2019",
+      "pmid": "31445393"
+    },
+    {
+      "doi": "10.3389/fnmol.2021.627740",
+      "journal": "Frontiers in molecular neuroscience",
+      "title": "Unbiased Label-Free Quantitative Proteomics of Cells Expressing Amyotrophic Lateral Sclerosis (ALS) Mutations in CCNF Reveals Activation of the Apoptosis Pathway: A Workflow to Screen Pathogenic Gene Mutations",
+      "first_author": "Cheng F",
+      "last_author": "Lee A",
+      "year": "2021",
+      "pmid": "33986643"
+    },
+    {
+      "doi": "10.1093/hmg/ddad063",
+      "journal": "Human Molecular Genetics",
+      "title": "Missing",
+      "first_author": "Farrawell Natalie E",
+      "last_author": "Saunders Darren N",
+      "year": "2023",
+      "pmid": "Missing"
+    },
+    {
+      "doi": "10.1007/s12035-023-03355-2",
+      "journal": "Molecular Neurobiology",
+      "title": "Missing",
+      "first_author": "Davidson Jennilee M.",
+      "last_author": "Lee Albert",
+      "year": "2023",
+      "pmid": "Missing"
+    },
+    {
+      "doi": "10.1038/s41598-023-46802-9",
+      "journal": "Scientific Reports",
+      "title": "Missing",
+      "first_author": "Ragagnin Audrey M. G.",
+      "last_author": "Atkin Julie D.",
+      "year": "2023",
+      "pmid": "Missing"
+    },
+    {
+      "doi": "10.1016/j.scr.2023.103238",
+      "journal": "Stem cell research",
+      "title": "Generation of induced pluripotent stem cell lines from a sister pair who suffered post-partum or recurrent Spontaneous Coronary Artery Dissections",
+      "first_author": "Bax M",
+      "last_author": "Graham RM",
+      "year": "2023",
+      "pmid": "37939621"
+    },
+    {
+      "doi": "10.3389/fgene.2024.1389558",
+      "journal": "Frontiers in Genetics",
+      "title": "Missing",
+      "first_author": "Chen Yi",
+      "last_author": "Wu Yanqing",
+      "year": "2024",
+      "pmid": "Missing"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2019.101530",
+      "journal": "Stem Cell Research",
+      "title": "Generation and characterization of a human induced pluripotent stem cell line UOWi005-A from dermal fibroblasts derived from a CCNF",
+      "first_author": "Monique Bax",
+      "last_author": "Lezanne Ooi",
+      "year": "2019",
+      "pmid": "31445393"
+    }
+  ],
+  "donor": [
+    {
+      "age": "55_59",
+      "sex": "M",
+      "disease_description": "nan",
+      "disease_name": "Amyotrophic Lateral Sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "FOXA2",
+      "method_used": "Immunostaining",
+      "description": ""
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "True",
+      "marker_list": "SMI32",
+      "method_used": "Immunostaining",
+      "description": ""
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "ACTN2",
+      "method_used": "Immunostaining",
+      "description": ""
+    },
+    {
+      "cell_type": "EN",
+      "show_potency": "True",
+      "marker_list": "nan",
+      "method_used": "Scorecard",
+      "description": ""
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "True",
+      "marker_list": "nan",
+      "method_used": "Scorecard",
+      "description": ""
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "True",
+      "marker_list": "nan",
+      "method_used": "Scorecard",
+      "description": ""
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "24",
+      "karyotype": "46,XY",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred at a resolution of 400bphs (15 metaphase spreads)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "CL:0002620",
+      "i_source_cell_origin_id": "UBERON:0002067",
+      "derivation_year": "2018-01-01",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing",
+      "i_source_cell_type_term": "skin fibroblast",
+      "i_source_cell_origin_term": "dermis"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HE13/272",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "EN"
+    }
+  ]
+}

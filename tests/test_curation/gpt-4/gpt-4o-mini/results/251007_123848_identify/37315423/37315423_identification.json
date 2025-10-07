@@ -1,0 +1,10 @@
+{
+  "cell_lines": -1,
+  "usage_metadata": {
+    "prompt_tokens": 153455,
+    "completion_tokens": 12,
+    "total_tokens": 153467,
+    "identification_time_seconds": 15.352000713348389
+  },
+  "raw_response": "```python\n[\"UQi001-A-1\"]\n```"
+}

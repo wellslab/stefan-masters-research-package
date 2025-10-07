@@ -1,0 +1,22 @@
+{
+  "cell_lines": [
+    "AIBNi015-A",
+    "AIBNi017-A",
+    "AIBNi018-A",
+    "AIBNi015-A-SPG1-AU01C15",
+    "AIBNi016-A-SPG2-S376C1",
+    "AIBNi017-A-SPGh1-S075mC2",
+    "AIBNi018-A-SPG2-S964pC6",
+    "SPG1",
+    "SPG2",
+    "SPGh1",
+    "SPGh2"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 127954,
+    "completion_tokens": 104,
+    "total_tokens": 128058,
+    "identification_time_seconds": 20.07426357269287
+  },
+  "raw_response": "```python\n[\"AIBNi015-A\", \"AIBNi017-A\", \"AIBNi018-A\", \"AIBNi015-A-SPG1-AU01C15\", \"AIBNi016-A-SPG2-S376C1\", \"AIBNi017-A-SPGh1-S075mC2\", \"AIBNi018-A-SPG2-S964pC6\", \"SPG1\", \"SPG2\", \"SPGh1\", \"SPGh2\"]\n```"
+}

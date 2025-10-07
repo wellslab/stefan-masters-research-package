@@ -1,0 +1,14 @@
+{
+  "cell_lines": [
+    "MNZTAS1019-A",
+    "MNZTAS1021-A",
+    "MNZTAS1022-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 255459,
+    "completion_tokens": 28,
+    "total_tokens": 255487,
+    "identification_time_seconds": 29.611966848373413
+  },
+  "raw_response": "```python\n[\"MNZTAS1019-A\", \"MNZTAS1021-A\", \"MNZTAS1022-A\"]\n```"
+}

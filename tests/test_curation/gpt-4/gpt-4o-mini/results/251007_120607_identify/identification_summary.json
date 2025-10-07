@@ -1,0 +1,885 @@
+{
+  "run_id": "251007_120607_identify",
+  "model": "gpt-4o-mini",
+  "total_articles": 54,
+  "processed_articles": 52,
+  "failed_articles": 2,
+  "no_cell_line_articles": 16,
+  "total_cell_lines_found": 212,
+  "total_identification_time": 1067.7400588989258,
+  "total_estimated_cost": 1.1718193499999998,
+  "results_by_pmid": {
+    "16522163": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 47.76900792121887,
+      "cost": 0.034477350000000004,
+      "usage_metadata": {
+        "prompt_tokens": 229821,
+        "completion_tokens": 7,
+        "total_tokens": 229828,
+        "identification_time_seconds": 47.76900792121887
+      }
+    },
+    "18271699": {
+      "cell_lines": [
+        "E1",
+        "E1C1",
+        "E1C2",
+        "E1C3",
+        "E1C4"
+      ],
+      "cell_line_count": 5,
+      "identification_time": 34.97864747047424,
+      "cost": 0.0383175,
+      "usage_metadata": {
+        "prompt_tokens": 255322,
+        "completion_tokens": 32,
+        "total_tokens": 255354,
+        "identification_time_seconds": 34.97864747047424
+      }
+    },
+    "18386991": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 35.56484127044678,
+      "cost": 0.0383025,
+      "usage_metadata": {
+        "prompt_tokens": 255322,
+        "completion_tokens": 7,
+        "total_tokens": 255329,
+        "identification_time_seconds": 35.56484127044678
+      }
+    },
+    "20178001": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 23.208567142486572,
+      "cost": 0.02682465,
+      "usage_metadata": {
+        "prompt_tokens": 178819,
+        "completion_tokens": 3,
+        "total_tokens": 178822,
+        "identification_time_seconds": 23.208567142486572
+      }
+    },
+    "20198447": {
+      "cell_lines": [
+        "SIVF001",
+        "SIVF002",
+        "SIVF014"
+      ],
+      "cell_line_count": 3,
+      "identification_time": 27.047828674316406,
+      "cost": 0.0230109,
+      "usage_metadata": {
+        "prompt_tokens": 153318,
+        "completion_tokens": 22,
+        "total_tokens": 153340,
+        "identification_time_seconds": 27.047828674316406
+      }
+    },
+    "29499499": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 18.020906448364258,
+      "cost": 0.0153816,
+      "usage_metadata": {
+        "prompt_tokens": 102316,
+        "completion_tokens": 57,
+        "total_tokens": 102373,
+        "identification_time_seconds": 18.020906448364258
+      }
+    },
+    "30605840": {
+      "cell_lines": [
+        "PB001",
+        "PB004",
+        "PB005",
+        "PB006",
+        "PB010"
+      ],
+      "cell_line_count": 5,
+      "identification_time": 13.05655312538147,
+      "cost": 0.019186949999999998,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 24,
+        "total_tokens": 127841,
+        "identification_time_seconds": 13.05655312538147
+      }
+    },
+    "30611018": {
+      "cell_lines": [
+        "LEIi008-A",
+        "LEIi009-A"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 16.99600911140442,
+      "cost": 0.019182149999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 16,
+        "total_tokens": 127833,
+        "identification_time_seconds": 16.99600911140442
+      }
+    },
+    "30622032": {
+      "cell_lines": [
+        "MICCNi001-A",
+        "MICCNi001-B",
+        "MICCNi002-A",
+        "MICCNi002-B"
+      ],
+      "cell_line_count": 4,
+      "identification_time": 14.774404287338257,
+      "cost": 0.019191749999999997,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 32,
+        "total_tokens": 127849,
+        "identification_time_seconds": 14.774404287338257
+      }
+    },
+    "30634128": {
+      "cell_lines": [
+        "LEIi007-A"
+      ],
+      "cell_line_count": 1,
+      "identification_time": 16.408027172088623,
+      "cost": 0.019178549999999996,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 10,
+        "total_tokens": 127827,
+        "identification_time_seconds": 16.408027172088623
+      }
+    },
+    "30904819": {
+      "cell_lines": [
+        "LEIi010-A",
+        "LEIi010-B"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 17.180598735809326,
+      "cost": 0.019182149999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 16,
+        "total_tokens": 127833,
+        "identification_time_seconds": 17.180598735809326
+      }
+    },
+    "31039485": {
+      "cell_lines": [
+        "MCCIi005-A"
+      ],
+      "cell_line_count": 1,
+      "identification_time": 12.987393856048584,
+      "cost": 0.019179149999999996,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 11,
+        "total_tokens": 127828,
+        "identification_time_seconds": 12.987393856048584
+      }
+    },
+    "31059986": {
+      "cell_lines": [
+        "LEIHi005-B"
+      ],
+      "cell_line_count": 1,
+      "identification_time": 14.750507831573486,
+      "cost": 0.015354000000000001,
+      "usage_metadata": {
+        "prompt_tokens": 102316,
+        "completion_tokens": 11,
+        "total_tokens": 102327,
+        "identification_time_seconds": 14.750507831573486
+      }
+    },
+    "31415975": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 16.29996919631958,
+      "cost": 0.019212749999999997,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 67,
+        "total_tokens": 127884,
+        "identification_time_seconds": 16.29996919631958
+      }
+    },
+    "31494449": {
+      "cell_lines": [
+        "LEIi011-A",
+        "LEIi011-B",
+        "LEIi011-C"
+      ],
+      "cell_line_count": 3,
+      "identification_time": 15.622120380401611,
+      "cost": 0.0230109,
+      "usage_metadata": {
+        "prompt_tokens": 153318,
+        "completion_tokens": 22,
+        "total_tokens": 153340,
+        "identification_time_seconds": 15.622120380401611
+      }
+    },
+    "32006803": {
+      "cell_lines": [
+        "UOWi007-A"
+      ],
+      "cell_line_count": 1,
+      "identification_time": 12.74699592590332,
+      "cost": 0.015354000000000001,
+      "usage_metadata": {
+        "prompt_tokens": 102316,
+        "completion_tokens": 11,
+        "total_tokens": 102327,
+        "identification_time_seconds": 12.74699592590332
+      }
+    },
+    "32442534": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 31.84337282180786,
+      "cost": 0.0383025,
+      "usage_metadata": {
+        "prompt_tokens": 255322,
+        "completion_tokens": 7,
+        "total_tokens": 255329,
+        "identification_time_seconds": 31.84337282180786
+      }
+    },
+    "32810830": {
+      "cell_lines": [
+        "LEIi012-A",
+        "LEIi012-B"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 15.212778806686401,
+      "cost": 0.019182149999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 16,
+        "total_tokens": 127833,
+        "identification_time_seconds": 15.212778806686401
+      }
+    },
+    "32887382": {
+      "cell_lines": [
+        "UQNi001",
+        "UQNi002",
+        "UQNi003-A",
+        "UQNi004-A",
+        "UQNi005-A",
+        "UQNi006-A",
+        "UQNi007-A",
+        "UQNi008-A",
+        "UQNi009-A",
+        "UQNi010-A"
+      ],
+      "cell_line_count": 10,
+      "identification_time": 30.153718948364258,
+      "cost": 0.055342499999999996,
+      "usage_metadata": {
+        "prompt_tokens": 368662,
+        "completion_tokens": 72,
+        "total_tokens": 368734,
+        "identification_time_seconds": 30.153718948364258
+      }
+    },
+    "32931148": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 38.67577528953552,
+      "cost": 0.0383025,
+      "usage_metadata": {
+        "prompt_tokens": 255322,
+        "completion_tokens": 7,
+        "total_tokens": 255329,
+        "identification_time_seconds": 38.67577528953552
+      }
+    },
+    "33091851": {
+      "cell_lines": [
+        "MCRIi001-A",
+        "MCRIi002-A",
+        "MCRIi003-A",
+        "MCRIi004-A"
+      ],
+      "cell_line_count": 4,
+      "identification_time": 13.212891340255737,
+      "cost": 0.015366600000000001,
+      "usage_metadata": {
+        "prompt_tokens": 102316,
+        "completion_tokens": 32,
+        "total_tokens": 102348,
+        "identification_time_seconds": 13.212891340255737
+      }
+    },
+    "33316599": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 14.136797666549683,
+      "cost": 0.019180349999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 13,
+        "total_tokens": 127830,
+        "identification_time_seconds": 14.136797666549683
+      }
+    },
+    "33360097": {
+      "cell_lines": [
+        "LEIi014-A",
+        "LEIi014-B",
+        "LEIi014-C"
+      ],
+      "cell_line_count": 3,
+      "identification_time": 17.517897844314575,
+      "cost": 0.019185749999999998,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 22,
+        "total_tokens": 127839,
+        "identification_time_seconds": 17.517897844314575
+      }
+    },
+    "33429167": {
+      "cell_lines": [
+        "LEIi015-A",
+        "LEIi015-B"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 15.71211290359497,
+      "cost": 0.019182149999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 16,
+        "total_tokens": 127833,
+        "identification_time_seconds": 15.71211290359497
+      }
+    },
+    "33740643": {
+      "cell_lines": [
+        "HPI001-A",
+        "HPI001-B"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 17.027343034744263,
+      "cost": 0.019182149999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 16,
+        "total_tokens": 127833,
+        "identification_time_seconds": 17.027343034744263
+      }
+    },
+    "34088002": {
+      "cell_lines": [
+        "UOMELBi002-A"
+      ],
+      "cell_line_count": 1,
+      "identification_time": 21.90799903869629,
+      "cost": 0.03448035,
+      "usage_metadata": {
+        "prompt_tokens": 229821,
+        "completion_tokens": 12,
+        "total_tokens": 229833,
+        "identification_time_seconds": 21.90799903869629
+      }
+    },
+    "34157503": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 17.030041456222534,
+      "cost": 0.019183949999999998,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 19,
+        "total_tokens": 127836,
+        "identification_time_seconds": 17.030041456222534
+      }
+    },
+    "34198153": {
+      "cell_lines": [
+        "LEIi017-A",
+        "LEIi017-B"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 13.012213230133057,
+      "cost": 0.015357,
+      "usage_metadata": {
+        "prompt_tokens": 102316,
+        "completion_tokens": 16,
+        "total_tokens": 102332,
+        "identification_time_seconds": 13.012213230133057
+      }
+    },
+    "34214897": {
+      "cell_lines": [
+        "LEIi018-A"
+      ],
+      "cell_line_count": 1,
+      "identification_time": 12.438430786132812,
+      "cost": 0.015353400000000001,
+      "usage_metadata": {
+        "prompt_tokens": 102316,
+        "completion_tokens": 10,
+        "total_tokens": 102326,
+        "identification_time_seconds": 12.438430786132812
+      }
+    },
+    "34388489": {
+      "cell_lines": [
+        "HPIi002-A",
+        "HPIi002-B"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 18.493942975997925,
+      "cost": 0.019183349999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 18,
+        "total_tokens": 127835,
+        "identification_time_seconds": 18.493942975997925
+      }
+    },
+    "34619644": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 13.009462594985962,
+      "cost": 0.0153516,
+      "usage_metadata": {
+        "prompt_tokens": 102316,
+        "completion_tokens": 7,
+        "total_tokens": 102323,
+        "identification_time_seconds": 13.009462594985962
+      }
+    },
+    "34649201": {
+      "cell_lines": [
+        "AIBNi001-A",
+        "AIBNi002-A",
+        "AIBNi003-A",
+        "AIBNi004-A",
+        "AIBNi005-A",
+        "AIBNi006-A",
+        "GENIE1",
+        "GENIE38",
+        "GENIE68",
+        "GENIE69",
+        "GENIE70",
+        "GENIE74"
+      ],
+      "cell_line_count": 12,
+      "identification_time": 14.202506065368652,
+      "cost": 0.019218149999999996,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 76,
+        "total_tokens": 127893,
+        "identification_time_seconds": 14.202506065368652
+      }
+    },
+    "35074713": {
+      "cell_lines": [
+        "AIBNi001",
+        "AIBNi002",
+        "AIBNi003",
+        "AIBNi004",
+        "GENIE 11",
+        "GENIE 29",
+        "GENIE 49",
+        "GENIE 75",
+        "GENIE 81",
+        "GENIE 116"
+      ],
+      "cell_line_count": 10,
+      "identification_time": 13.398183107376099,
+      "cost": 0.019210949999999997,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 64,
+        "total_tokens": 127881,
+        "identification_time_seconds": 13.398183107376099
+      }
+    },
+    "35679759": {
+      "cell_lines": [
+        "MNTAS1002-A",
+        "MNTAS1003-A",
+        "MNTAS1004-A",
+        "MNTAS1005-A"
+      ],
+      "cell_line_count": 4,
+      "identification_time": 10.76201057434082,
+      "cost": 0.015369,
+      "usage_metadata": {
+        "prompt_tokens": 102316,
+        "completion_tokens": 36,
+        "total_tokens": 102352,
+        "identification_time_seconds": 10.76201057434082
+      }
+    },
+    "35728439": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 13.41577434539795,
+      "cost": 0.019174349999999996,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 3,
+        "total_tokens": 127820,
+        "identification_time_seconds": 13.41577434539795
+      }
+    },
+    "35728440": {
+      "cell_lines": [
+        "HIPI004-A",
+        "HIPI004-B"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 14.934151411056519,
+      "cost": 0.019182149999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 16,
+        "total_tokens": 127833,
+        "identification_time_seconds": 14.934151411056519
+      }
+    },
+    "35917601": {
+      "cell_lines": [
+        "UOCI001-A",
+        "UOCI002-A"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 15.951180219650269,
+      "cost": 0.019182149999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 16,
+        "total_tokens": 127833,
+        "identification_time_seconds": 15.951180219650269
+      }
+    },
+    "36166872": {
+      "cell_lines": [
+        "AIBNi001-A",
+        "AIBNi001",
+        "AIBNi002",
+        "AIBNi003",
+        "AIBNi004",
+        "AIBNi005",
+        "AIBNi006",
+        "AIBNi007",
+        "AIBNi008",
+        "AIBNi009",
+        "AIBNi010",
+        "AIBNi011",
+        "AIBNi012",
+        "AIBNi013",
+        "AIBNi014",
+        "AIBNi015",
+        "AIBNi016",
+        "AIBNi017",
+        "AIBNi018",
+        "AIBNi019",
+        "AIBNi020",
+        "AIBNi021",
+        "AIBNi022",
+        "AIBNi023",
+        "AIBNi024",
+        "AIBNi025",
+        "AIBNi026",
+        "AIBNi027",
+        "AIBNi028",
+        "AIBNi029",
+        "AIBNi030",
+        "AIBNi031",
+        "AIBNi032",
+        "AIBNi033",
+        "AIBNi034",
+        "AIBNi035",
+        "AIBNi036",
+        "AIBNi037",
+        "AIBNi038",
+        "AIBNi039",
+        "AIBNi040",
+        "AIBNi041",
+        "AIBNi042",
+        "AIBNi043",
+        "AIBNi044",
+        "AIBNi045",
+        "AIBNi046",
+        "AIBNi047",
+        "AIBNi048",
+        "AIBNi049",
+        "AIBNi050",
+        "AIBNi051",
+        "AIBNi052",
+        "AIBNi053",
+        "AIBNi054",
+        "AIBNi055",
+        "AIBNi056",
+        "AIBNi057",
+        "AIBNi058",
+        "AIBNi059",
+        "AIBNi060",
+        "AIBNi061",
+        "AIBNi062",
+        "AIBNi063",
+        "AIBNi064",
+        "AIBNi065",
+        "AIBNi066",
+        "AIBNi067",
+        "AIBNi068",
+        "AIBNi069",
+        "AIBNi070",
+        "AIBNi071",
+        "AIBNi072",
+        "AIBNi073",
+        "AIBNi074",
+        "AIBNi075",
+        "AIBNi076",
+        "AIBNi077",
+        "AIBNi078",
+        "AIBNi079",
+        "AIBNi080",
+        "AIBNi081",
+        "AIBNi082",
+        "AIBNi083",
+        "AIBNi084",
+        "AIBNi085",
+        "AIBNi086",
+        "AIBNi087",
+        "AIBNi088",
+        "AIBNi089",
+        "AIBNi090",
+        "AIBNi091",
+        "AIBNi092",
+        "AIBNi093",
+        "AIBNi094",
+        "AIBNi095",
+        "AIBNi096",
+        "AIBNi097",
+        "AIBNi098",
+        "AIBNi099",
+        "AIBNi100"
+      ],
+      "cell_line_count": 101,
+      "identification_time": 34.33503985404968,
+      "cost": 0.019539149999999998,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 611,
+        "total_tokens": 128428,
+        "identification_time_seconds": 34.33503985404968
+      }
+    },
+    "36682125": {
+      "cell_lines": [
+        "MCRIi019-A-6"
+      ],
+      "cell_line_count": 1,
+      "identification_time": 13.82767105102539,
+      "cost": 0.019180349999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 13,
+        "total_tokens": 127830,
+        "identification_time_seconds": 13.82767105102539
+      }
+    },
+    "37150143": {
+      "cell_lines": [
+        "PB002",
+        "PB003",
+        "PB007",
+        "PB008",
+        "PB009"
+      ],
+      "cell_line_count": 5,
+      "identification_time": 18.24850368499756,
+      "cost": 0.019186949999999998,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 24,
+        "total_tokens": 127841,
+        "identification_time_seconds": 18.24850368499756
+      }
+    },
+    "37315423": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 15.13265347480774,
+      "cost": 0.0230049,
+      "usage_metadata": {
+        "prompt_tokens": 153318,
+        "completion_tokens": 12,
+        "total_tokens": 153330,
+        "identification_time_seconds": 15.13265347480774
+      }
+    },
+    "37385135": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 12.948358297348022,
+      "cost": 0.019174349999999996,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 3,
+        "total_tokens": 127820,
+        "identification_time_seconds": 12.948358297348022
+      }
+    },
+    "37494850": {
+      "cell_lines": [
+        "MONU001-A",
+        "MONU001-B",
+        "MONU001-C",
+        "MONU002-A",
+        "MONU002-B",
+        "MONU003-A"
+      ],
+      "cell_line_count": 6,
+      "identification_time": 18.216309070587158,
+      "cost": 0.019196549999999996,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 40,
+        "total_tokens": 127857,
+        "identification_time_seconds": 18.216309070587158
+      }
+    },
+    "37939621": {
+      "cell_lines": [
+        "VCCRi002-A",
+        "VCCRi003-A"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 15.636186838150024,
+      "cost": 0.019183349999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 18,
+        "total_tokens": 127835,
+        "identification_time_seconds": 15.636186838150024
+      }
+    },
+    "38029555": {
+      "cell_lines": [
+        "HPIi005-A",
+        "HPIi005-B"
+      ],
+      "cell_line_count": 2,
+      "identification_time": 14.796761751174927,
+      "cost": 0.023008499999999998,
+      "usage_metadata": {
+        "prompt_tokens": 153318,
+        "completion_tokens": 18,
+        "total_tokens": 153336,
+        "identification_time_seconds": 14.796761751174927
+      }
+    },
+    "38244534": {
+      "cell_lines": [
+        "H9 NGN2 B6"
+      ],
+      "cell_line_count": 1,
+      "identification_time": 15.524602174758911,
+      "cost": 0.019180349999999995,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 13,
+        "total_tokens": 127830,
+        "identification_time_seconds": 15.524602174758911
+      }
+    },
+    "38277710": {
+      "cell_lines": [
+        "MCRIi001-A"
+      ],
+      "cell_line_count": 1,
+      "identification_time": 15.846705675125122,
+      "cost": 0.026829449999999998,
+      "usage_metadata": {
+        "prompt_tokens": 178819,
+        "completion_tokens": 11,
+        "total_tokens": 178830,
+        "identification_time_seconds": 15.846705675125122
+      }
+    },
+    "38433209": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 26.55546259880066,
+      "cost": 0.0383025,
+      "usage_metadata": {
+        "prompt_tokens": 255322,
+        "completion_tokens": 7,
+        "total_tokens": 255329,
+        "identification_time_seconds": 26.55546259880066
+      }
+    },
+    "38458031": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 16.713465452194214,
+      "cost": 0.0230109,
+      "usage_metadata": {
+        "prompt_tokens": 153318,
+        "completion_tokens": 22,
+        "total_tokens": 153340,
+        "identification_time_seconds": 16.713465452194214
+      }
+    },
+    "38479087": {
+      "cell_lines": -1,
+      "cell_line_count": 0,
+      "identification_time": 17.496615648269653,
+      "cost": 0.019176749999999996,
+      "usage_metadata": {
+        "prompt_tokens": 127817,
+        "completion_tokens": 7,
+        "total_tokens": 127824,
+        "identification_time_seconds": 17.496615648269653
+      }
+    },
+    "38582058": {
+      "cell_lines": [
+        "HPIi008-A",
+        "HPIi009-A",
+        "SCTi003-A"
+      ],
+      "cell_line_count": 3,
+      "identification_time": 16.835604429244995,
+      "cost": 0.0230127,
+      "usage_metadata": {
+        "prompt_tokens": 153318,
+        "completion_tokens": 25,
+        "total_tokens": 153343,
+        "identification_time_seconds": 16.835604429244995
+      }
+    },
+    "38583293": {
+      "cell_lines": [
+        "HPIi006-A",
+        "HPIi007-A",
+        "SCTI003-A"
+      ],
+      "cell_line_count": 3,
+      "identification_time": 17.118116855621338,
+      "cost": 0.0230127,
+      "usage_metadata": {
+        "prompt_tokens": 153318,
+        "completion_tokens": 25,
+        "total_tokens": 153343,
+        "identification_time_seconds": 17.118116855621338
+      }
+    }
+  }
+}

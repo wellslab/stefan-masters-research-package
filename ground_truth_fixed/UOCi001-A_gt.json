@@ -1,0 +1,114 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CIM001.4",
+      "cell_type": "hiPSC",
+      "frozen": "False",
+      "hpscreg_name": "UOCi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Calgary"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102877",
+      "journal": "Stem cell research",
+      "title": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia",
+      "first_author": "Vaziri N",
+      "last_author": "Bousman CA",
+      "year": "2022",
+      "pmid": "35917601"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "False",
+      "marker_list": "",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "3",
+      "karyotype": "46, XX",
+      "karyotype_method": "MKSNP",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "SV",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "2017.007 AND REB17-1994",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Melbourne Health Human Research Ethics Committee AND Conjoint Health Research Ethics Board at the University of Calgary"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "NS"
+    }
+  ]
+}

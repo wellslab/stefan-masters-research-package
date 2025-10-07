@@ -1,0 +1,12 @@
+Cell lines identified in 37494850:
+========================================
+
+1. MONU001-A
+2. MONU001-B
+3. MONU001-C
+4. MONU002-A
+5. MONU002-B
+6. MONU002-C
+7. MONU003-A
+8. MONU003-B
+9. MONU003-C

@@ -1,0 +1,14 @@
+{
+  "cell_lines": [
+    "MNZTASi019-A",
+    "MNZTASi021-A",
+    "MNZTASi022-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 23408,
+    "completion_tokens": 2851,
+    "total_tokens": 26259,
+    "identification_time_seconds": 45.01773238182068
+  },
+  "raw_response": "[\"MNZTASi019-A\", \"MNZTASi021-A\", \"MNZTASi022-A\"]"
+}

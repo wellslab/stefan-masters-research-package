@@ -1,0 +1,13 @@
+{
+  "cell_lines": [
+    "VCCRli002-A",
+    "VCCRli003-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 18314,
+    "completion_tokens": 18,
+    "total_tokens": 18332,
+    "identification_time_seconds": 13.37389326095581
+  },
+  "raw_response": "[\n  \"VCCRli002-A\",\n  \"VCCRli003-A\"\n]"
+}

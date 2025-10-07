@@ -1,0 +1,16 @@
+{
+  "cell_lines": [
+    "E1",
+    "E1C1",
+    "E1C2",
+    "E1C3",
+    "E1C4"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 255322,
+    "completion_tokens": 32,
+    "total_tokens": 255354,
+    "identification_time_seconds": 34.97864747047424
+  },
+  "raw_response": "```python\n[\"E1\", \"E1C1\", \"E1C2\", \"E1C3\", \"E1C4\"]\n```"
+}

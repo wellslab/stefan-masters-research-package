@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "LEIi006-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 8099,
+    "completion_tokens": 6,
+    "total_tokens": 8105,
+    "identification_time_seconds": 36.37976408004761
+  },
+  "raw_response": "[\"LEIi006-A\"]"
+}

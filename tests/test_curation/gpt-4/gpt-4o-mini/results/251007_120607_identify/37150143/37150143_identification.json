@@ -1,0 +1,16 @@
+{
+  "cell_lines": [
+    "PB002",
+    "PB003",
+    "PB007",
+    "PB008",
+    "PB009"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 127817,
+    "completion_tokens": 24,
+    "total_tokens": 127841,
+    "identification_time_seconds": 18.24850368499756
+  },
+  "raw_response": "```python\n['PB002', 'PB003', 'PB007', 'PB008', 'PB009']\n```"
+}

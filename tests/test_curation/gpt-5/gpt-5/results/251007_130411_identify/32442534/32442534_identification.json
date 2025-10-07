@@ -1,0 +1,13 @@
+{
+  "cell_lines": [
+    "WaE009-A-24",
+    "MIPSc001-A-24"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 6748,
+    "completion_tokens": 1562,
+    "total_tokens": 8310,
+    "identification_time_seconds": 69.39024066925049
+  },
+  "raw_response": "[\"WaE009-A-24\", \"MIPSc001-A-24\"]"
+}

@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "FNi003-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 3598,
+    "completion_tokens": 1103,
+    "total_tokens": 4701,
+    "identification_time_seconds": 42.71025228500366
+  },
+  "raw_response": "[\"FNi003-A\"]"
+}

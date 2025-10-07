@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "ESIBe003-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 14741,
+    "completion_tokens": 7,
+    "total_tokens": 14748,
+    "identification_time_seconds": 10.94631814956665
+  },
+  "raw_response": "[\"ESIBe003-A\"]"
+}

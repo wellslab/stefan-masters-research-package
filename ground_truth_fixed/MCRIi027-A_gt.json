@@ -1,0 +1,114 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CANVAS4-6",
+      "cell_type": "hiPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRIi027-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103047",
+      "journal": "Stem cell research",
+      "title": "Generation and heterozygous repair of human iPSC lines from three individuals with cerebellar ataxia, neuropathy and vestibular areflexia syndrome (CANVAS) carrying biallelic AAGGG expansions in RFC1",
+      "first_author": "Davies KC",
+      "last_author": "Lockhart PJ",
+      "year": "2023",
+      "pmid": "36805468"
+    }
+  ],
+  "donor": [
+    {
+      "age": "UN",
+      "sex": "M",
+      "disease_description": "",
+      "disease_name": "cerebellar ataxia with neuropathy and bilateral vestibular areflexia syndrome"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "False",
+      "marker_list": "SOX17",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "Smooth Muscle Actin",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "MAP2",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46XY",
+      "karyotype_method": "Other",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "EPI",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "28097",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "NS"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "cell_lines": [
+    "UOCI001-A",
+    "UOCI002-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 127954,
+    "completion_tokens": 16,
+    "total_tokens": 127970,
+    "identification_time_seconds": 15.488119840621948
+  },
+  "raw_response": "```python\n[\"UOCI001-A\", \"UOCI002-A\"]\n```"
+}

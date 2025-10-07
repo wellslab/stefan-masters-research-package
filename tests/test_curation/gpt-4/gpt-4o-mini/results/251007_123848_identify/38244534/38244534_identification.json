@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "H9 NGN2 B6"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 127954,
+    "completion_tokens": 13,
+    "total_tokens": 127967,
+    "identification_time_seconds": 12.914438009262085
+  },
+  "raw_response": "```python\n[\"H9 NGN2 B6\"]\n```"
+}

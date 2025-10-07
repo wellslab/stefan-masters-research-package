@@ -1,0 +1,12 @@
+{
+  "cell_lines": [
+    "INSGFP/GCGCmCherry/hESC"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 102453,
+    "completion_tokens": 15,
+    "total_tokens": 102468,
+    "identification_time_seconds": 13.189598560333252
+  },
+  "raw_response": "```python\n[\"INSGFP/GCGCmCherry/hESC\"]\n```"
+}

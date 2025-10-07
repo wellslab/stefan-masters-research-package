@@ -1,0 +1,10 @@
+{
+  "cell_lines": -1,
+  "usage_metadata": {
+    "prompt_tokens": 127954,
+    "completion_tokens": 67,
+    "total_tokens": 128021,
+    "identification_time_seconds": 15.881800174713135
+  },
+  "raw_response": "```python\n[\"ASD2-3.1\", \"ASD2-6.4\", \"ASD2-7.1\", \"ASD2-9.4\", \"ASD2-11.5\", \"ASD2-15.1\", \"ASD2-75.4\"]\n```"
+}

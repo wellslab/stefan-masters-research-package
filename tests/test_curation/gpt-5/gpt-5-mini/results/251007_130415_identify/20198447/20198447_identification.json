@@ -1,0 +1,14 @@
+{
+  "cell_lines": [
+    "SIVF001",
+    "SIVF002",
+    "SIVF014"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 11470,
+    "completion_tokens": 155,
+    "total_tokens": 11625,
+    "identification_time_seconds": 24.807535886764526
+  },
+  "raw_response": "[\"SIVF001\", \"SIVF002\", \"SIVF014\"]"
+}

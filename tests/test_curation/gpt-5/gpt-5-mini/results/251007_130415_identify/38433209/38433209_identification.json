@@ -1,0 +1,17 @@
+{
+  "cell_lines": [
+    "Mesoderm iPericytes 2",
+    "Mesoderm iPericytes 1",
+    "Mesoderm iPericytes 3",
+    "Neural Crest iPericytes 1",
+    "Neural Crest iPericytes 2",
+    "Neural Crest iPericytes 3"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 18818,
+    "completion_tokens": 2443,
+    "total_tokens": 21261,
+    "identification_time_seconds": 65.869304895401
+  },
+  "raw_response": "[\"Mesoderm iPericytes 2\", \"Mesoderm iPericytes 1\", \"Mesoderm iPericytes 3\", \"Neural Crest iPericytes 1\", \"Neural Crest iPericytes 2\", \"Neural Crest iPericytes 3\"]"
+}

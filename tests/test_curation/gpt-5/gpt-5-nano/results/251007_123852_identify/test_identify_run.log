@@ -1,0 +1,1235 @@
+2025-10-07 12:38:52,702 - identify_test - INFO - Starting cell line identification test run with ID: 251007_123852_identify
+2025-10-07 12:38:52,703 - identify_test - INFO - Test Configuration (loaded from config.json):
+2025-10-07 12:38:52,703 - identify_test - INFO -   processing_method: vision
+2025-10-07 12:38:52,703 - identify_test - INFO -   model: gpt-5-nano
+2025-10-07 12:38:52,703 - identify_test - INFO -   temperature: 1
+2025-10-07 12:38:52,703 - identify_test - INFO -   output_path: tests/test_curation/gpt-5/gpt-5-nano/results
+2025-10-07 12:38:52,703 - identify_test - INFO -   articles_path: to_curate
+2025-10-07 12:38:52,703 - identify_test - INFO -   instructions_path: ai_curation_instructions.md
+2025-10-07 12:38:52,703 - identify_test - INFO -   pmid_list: ['*']
+2025-10-07 12:38:52,704 - identify_test - INFO - Testing cell line identification on 54 articles (controlled by pmid_list)
+2025-10-07 12:38:52,704 - identify_test - INFO - Found 54 articles to process:
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 16522163.pdf
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 18271699.pdf
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 18386991.pdf
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 20178001.pdf
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 20198447.pdf
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 29499499.pdf
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 30605840.pdf
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 30611018.pdf
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 30622032.pdf
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 30634128.pdf
+2025-10-07 12:38:52,704 - identify_test - INFO -   - 30904819.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 31039485.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 31059986.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 31415975.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 31494449.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 32006803.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 32442534.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 32810830.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 32887382.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 32931148.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 33091851.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 33316599.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 33360097.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 33429167.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 33740643.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 34088002.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 34157503.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 34198153.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 34214897.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 34388489.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 34507143.pdf
+2025-10-07 12:38:52,705 - identify_test - INFO -   - 34619644.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 34649201.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 35074713.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 35679759.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 35728439.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 35728440.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 35917601.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 36166872.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 36682125.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 36805468.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 37150143.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 37315423.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 37385135.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 37494850.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 37939621.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 38029555.pdf
+2025-10-07 12:38:52,706 - identify_test - INFO -   - 38244534.pdf
+2025-10-07 12:38:52,707 - identify_test - INFO -   - 38277710.pdf
+2025-10-07 12:38:52,707 - identify_test - INFO -   - 38433209.pdf
+2025-10-07 12:38:52,707 - identify_test - INFO -   - 38458031.pdf
+2025-10-07 12:38:52,707 - identify_test - INFO -   - 38479087.pdf
+2025-10-07 12:38:52,707 - identify_test - INFO -   - 38582058.pdf
+2025-10-07 12:38:52,707 - identify_test - INFO -   - 38583293.pdf
+2025-10-07 12:38:52,707 - identify_test - INFO - [1/54] Processing: 16522163.pdf
+2025-10-07 12:38:52,707 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:38:52,708 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:38:55,424 - identify_cell_lines - INFO - Successfully converted PDF to 9 images
+2025-10-07 12:38:55,424 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:38:55,468 - identify_cell_lines - INFO - Sending 9 images to gpt-5-nano for cell line identification...
+2025-10-07 12:39:30,389 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:39:30,411 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 20653, Completion: 1310, Total: 21963 tokens
+2025-10-07 12:39:30,411 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:39:30,411 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:39:30,411 - identify_cell_lines - INFO - Successfully identified 3 unique cell lines:
+2025-10-07 12:39:30,411 - identify_cell_lines - INFO -   1. hES3.1
+2025-10-07 12:39:30,411 - identify_cell_lines - INFO -   2. hES3.2
+2025-10-07 12:39:30,412 - identify_cell_lines - INFO -   3. hES3.3
+2025-10-07 12:39:30,412 - identify_cell_lines - INFO - Complete list: ['hES3.1', 'hES3.2', 'hES3.3']
+2025-10-07 12:39:30,412 - identify_test - INFO -   Found 3 cell lines: ['hES3.1', 'hES3.2', 'hES3.3']
+2025-10-07 12:39:30,412 - identify_test - INFO -   Identification time: 34.94s
+2025-10-07 12:39:30,412 - identify_test - INFO -   Total article time: 37.70s
+2025-10-07 12:39:30,412 - identify_test - INFO -   Estimated cost: $0.0016
+2025-10-07 12:39:30,413 - identify_test - INFO -     Saved identification results for 16522163
+2025-10-07 12:39:30,414 - identify_test - INFO -     Saved cell line list for 16522163
+2025-10-07 12:39:30,414 - identify_test - INFO -   Completed processing 16522163.pdf
+2025-10-07 12:39:30,414 - identify_test - INFO - [2/54] Processing: 18271699.pdf
+2025-10-07 12:39:30,414 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:39:30,415 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:39:33,467 - identify_cell_lines - INFO - Successfully converted PDF to 10 images
+2025-10-07 12:39:33,467 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:39:33,494 - identify_cell_lines - INFO - Sending 10 images to gpt-5-nano for cell line identification...
+2025-10-07 12:40:23,420 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:40:23,423 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 22898, Completion: 2981, Total: 25879 tokens
+2025-10-07 12:40:23,424 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:40:23,424 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:40:23,425 - identify_cell_lines - INFO - Successfully identified 5 unique cell lines:
+2025-10-07 12:40:23,425 - identify_cell_lines - INFO -   1. E1
+2025-10-07 12:40:23,425 - identify_cell_lines - INFO -   2. E1C1
+2025-10-07 12:40:23,426 - identify_cell_lines - INFO -   3. E1C2
+2025-10-07 12:40:23,426 - identify_cell_lines - INFO -   4. E1C3
+2025-10-07 12:40:23,426 - identify_cell_lines - INFO -   5. E1C4
+2025-10-07 12:40:23,427 - identify_cell_lines - INFO - Complete list: ['E1', 'E1C1', 'E1C2', 'E1C3', 'E1C4']
+2025-10-07 12:40:23,427 - identify_test - INFO -   Found 5 cell lines: ['E1', 'E1C1', 'E1C2', 'E1C3', 'E1C4']
+2025-10-07 12:40:23,428 - identify_test - INFO -   Identification time: 49.93s
+2025-10-07 12:40:23,428 - identify_test - INFO -   Total article time: 53.01s
+2025-10-07 12:40:23,428 - identify_test - INFO -   Estimated cost: $0.0023
+2025-10-07 12:40:23,429 - identify_test - INFO -     Saved identification results for 18271699
+2025-10-07 12:40:23,429 - identify_test - INFO -     Saved cell line list for 18271699
+2025-10-07 12:40:23,430 - identify_test - INFO -   Completed processing 18271699.pdf
+2025-10-07 12:40:23,430 - identify_test - INFO - [3/54] Processing: 18386991.pdf
+2025-10-07 12:40:23,430 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:40:23,430 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:40:25,962 - identify_cell_lines - INFO - Successfully converted PDF to 10 images
+2025-10-07 12:40:25,962 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:40:25,990 - identify_cell_lines - INFO - Sending 10 images to gpt-5-nano for cell line identification...
+2025-10-07 12:41:04,057 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:41:04,058 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 22898, Completion: 1163, Total: 24061 tokens
+2025-10-07 12:41:04,058 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:41:04,058 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO - Successfully identified 11 unique cell lines:
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   1. SIVF03
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   2. SIVF04
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   3. SIVF05
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   4. SIVF06
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   5. SIVF07
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   6. SIVF08
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   7. SIVF09
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   8. SIVF10
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   9. SIVF11
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   10. SIVF12
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO -   11. SIVF13
+2025-10-07 12:41:04,059 - identify_cell_lines - INFO - Complete list: ['SIVF03', 'SIVF04', 'SIVF05', 'SIVF06', 'SIVF07', 'SIVF08', 'SIVF09', 'SIVF10', 'SIVF11', 'SIVF12', 'SIVF13']
+2025-10-07 12:41:04,064 - identify_test - INFO -   Found 11 cell lines: ['SIVF03', 'SIVF04', 'SIVF05', 'SIVF06', 'SIVF07', 'SIVF08', 'SIVF09', 'SIVF10', 'SIVF11', 'SIVF12', 'SIVF13']
+2025-10-07 12:41:04,064 - identify_test - INFO -   Identification time: 38.07s
+2025-10-07 12:41:04,064 - identify_test - INFO -   Total article time: 40.63s
+2025-10-07 12:41:04,064 - identify_test - INFO -   Estimated cost: $0.0016
+2025-10-07 12:41:04,065 - identify_test - INFO -     Saved identification results for 18386991
+2025-10-07 12:41:04,065 - identify_test - INFO -     Saved cell line list for 18386991
+2025-10-07 12:41:04,065 - identify_test - INFO -   Completed processing 18386991.pdf
+2025-10-07 12:41:04,065 - identify_test - INFO - [4/54] Processing: 20178001.pdf
+2025-10-07 12:41:04,065 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:41:04,065 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:41:06,081 - identify_cell_lines - INFO - Successfully converted PDF to 7 images
+2025-10-07 12:41:06,082 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:41:06,112 - identify_cell_lines - INFO - Sending 7 images to gpt-5-nano for cell line identification...
+2025-10-07 12:41:32,656 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:41:32,659 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 16520, Completion: 1104, Total: 17624 tokens
+2025-10-07 12:41:32,660 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:41:32,660 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:41:32,661 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:41:32,661 - identify_cell_lines - INFO -   1. Endeavour-2
+2025-10-07 12:41:32,661 - identify_cell_lines - INFO - Complete list: ['Endeavour-2']
+2025-10-07 12:41:32,662 - identify_test - INFO -   Found 1 cell lines: ['Endeavour-2']
+2025-10-07 12:41:32,662 - identify_test - INFO -   Identification time: 26.55s
+2025-10-07 12:41:32,662 - identify_test - INFO -   Total article time: 28.60s
+2025-10-07 12:41:32,662 - identify_test - INFO -   Estimated cost: $0.0013
+2025-10-07 12:41:32,665 - identify_test - INFO -     Saved identification results for 20178001
+2025-10-07 12:41:32,665 - identify_test - INFO -     Saved cell line list for 20178001
+2025-10-07 12:41:32,665 - identify_test - INFO -   Completed processing 20178001.pdf
+2025-10-07 12:41:32,665 - identify_test - INFO - [5/54] Processing: 20198447.pdf
+2025-10-07 12:41:32,665 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:41:32,666 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:41:34,836 - identify_cell_lines - INFO - Successfully converted PDF to 6 images
+2025-10-07 12:41:34,836 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:41:34,865 - identify_cell_lines - INFO - Sending 6 images to gpt-5-nano for cell line identification...
+2025-10-07 12:42:00,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:42:00,961 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 14224, Completion: 539, Total: 14763 tokens
+2025-10-07 12:42:00,961 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:42:00,961 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:42:00,961 - identify_cell_lines - INFO - Successfully identified 3 unique cell lines:
+2025-10-07 12:42:00,962 - identify_cell_lines - INFO -   1. SIVF001
+2025-10-07 12:42:00,962 - identify_cell_lines - INFO -   2. SIVF002
+2025-10-07 12:42:00,962 - identify_cell_lines - INFO -   3. SIVF014
+2025-10-07 12:42:00,962 - identify_cell_lines - INFO - Complete list: ['SIVF001', 'SIVF002', 'SIVF014']
+2025-10-07 12:42:00,962 - identify_test - INFO -   Found 3 cell lines: ['SIVF001', 'SIVF002', 'SIVF014']
+2025-10-07 12:42:00,962 - identify_test - INFO -   Identification time: 26.10s
+2025-10-07 12:42:00,962 - identify_test - INFO -   Total article time: 28.30s
+2025-10-07 12:42:00,962 - identify_test - INFO -   Estimated cost: $0.0009
+2025-10-07 12:42:00,963 - identify_test - INFO -     Saved identification results for 20198447
+2025-10-07 12:42:00,963 - identify_test - INFO -     Saved cell line list for 20198447
+2025-10-07 12:42:00,963 - identify_test - INFO -   Completed processing 20198447.pdf
+2025-10-07 12:42:00,963 - identify_test - INFO - [6/54] Processing: 29499499.pdf
+2025-10-07 12:42:00,963 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:42:00,963 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:42:02,231 - identify_cell_lines - INFO - Successfully converted PDF to 4 images
+2025-10-07 12:42:02,231 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:42:02,257 - identify_cell_lines - INFO - Sending 4 images to gpt-5-nano for cell line identification...
+2025-10-07 12:42:35,001 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:42:35,002 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 9164, Completion: 3168, Total: 12332 tokens
+2025-10-07 12:42:35,002 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:42:35,002 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-07 12:42:35,002 - identify_test - INFO -   No cell lines found in article
+2025-10-07 12:42:35,002 - identify_test - INFO -   Identification time: 32.74s
+2025-10-07 12:42:35,002 - identify_test - INFO -   Total article time: 34.04s
+2025-10-07 12:42:35,002 - identify_test - INFO -   Estimated cost: $0.0017
+2025-10-07 12:42:35,003 - identify_test - INFO -     Saved identification results for 29499499
+2025-10-07 12:42:35,003 - identify_test - INFO -   Completed processing 29499499.pdf
+2025-10-07 12:42:35,003 - identify_test - INFO - [7/54] Processing: 30605840.pdf
+2025-10-07 12:42:35,003 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:42:35,003 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:42:36,081 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:42:36,081 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:42:36,107 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:42:55,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:42:55,431 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 876, Total: 12219 tokens
+2025-10-07 12:42:55,431 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:42:55,431 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:42:55,431 - identify_cell_lines - INFO - Successfully identified 5 unique cell lines:
+2025-10-07 12:42:55,431 - identify_cell_lines - INFO -   1. MCRIi001-A
+2025-10-07 12:42:55,431 - identify_cell_lines - INFO -   2. MCRIi004-A
+2025-10-07 12:42:55,431 - identify_cell_lines - INFO -   3. MCRIi005-A
+2025-10-07 12:42:55,431 - identify_cell_lines - INFO -   4. MCRIi006-A
+2025-10-07 12:42:55,431 - identify_cell_lines - INFO -   5. MCRIi010-A
+2025-10-07 12:42:55,431 - identify_cell_lines - INFO - Complete list: ['MCRIi001-A', 'MCRIi004-A', 'MCRIi005-A', 'MCRIi006-A', 'MCRIi010-A']
+2025-10-07 12:42:55,431 - identify_test - INFO -   Found 5 cell lines: ['MCRIi001-A', 'MCRIi004-A', 'MCRIi005-A', 'MCRIi006-A', 'MCRIi010-A']
+2025-10-07 12:42:55,431 - identify_test - INFO -   Identification time: 19.32s
+2025-10-07 12:42:55,432 - identify_test - INFO -   Total article time: 20.43s
+2025-10-07 12:42:55,432 - identify_test - INFO -   Estimated cost: $0.0009
+2025-10-07 12:42:55,432 - identify_test - INFO -     Saved identification results for 30605840
+2025-10-07 12:42:55,432 - identify_test - INFO -     Saved cell line list for 30605840
+2025-10-07 12:42:55,432 - identify_test - INFO -   Completed processing 30605840.pdf
+2025-10-07 12:42:55,432 - identify_test - INFO - [8/54] Processing: 30611018.pdf
+2025-10-07 12:42:55,433 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:42:55,433 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:42:56,944 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:42:56,945 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:42:56,971 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:43:17,359 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:43:17,360 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1110, Total: 12453 tokens
+2025-10-07 12:43:17,360 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:43:17,360 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:43:17,360 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:43:17,360 - identify_cell_lines - INFO -   1. LEi008-A
+2025-10-07 12:43:17,360 - identify_cell_lines - INFO -   2. LEi009-A
+2025-10-07 12:43:17,360 - identify_cell_lines - INFO - Complete list: ['LEi008-A', 'LEi009-A']
+2025-10-07 12:43:17,360 - identify_test - INFO -   Found 2 cell lines: ['LEi008-A', 'LEi009-A']
+2025-10-07 12:43:17,360 - identify_test - INFO -   Identification time: 20.39s
+2025-10-07 12:43:17,360 - identify_test - INFO -   Total article time: 21.93s
+2025-10-07 12:43:17,361 - identify_test - INFO -   Estimated cost: $0.0010
+2025-10-07 12:43:17,361 - identify_test - INFO -     Saved identification results for 30611018
+2025-10-07 12:43:17,361 - identify_test - INFO -     Saved cell line list for 30611018
+2025-10-07 12:43:17,361 - identify_test - INFO -   Completed processing 30611018.pdf
+2025-10-07 12:43:17,361 - identify_test - INFO - [9/54] Processing: 30622032.pdf
+2025-10-07 12:43:17,362 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:43:17,362 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:43:18,278 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:43:18,278 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:43:18,304 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:43:36,600 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:43:36,601 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1061, Total: 12404 tokens
+2025-10-07 12:43:36,601 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:43:36,601 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:43:36,601 - identify_cell_lines - INFO - Successfully identified 4 unique cell lines:
+2025-10-07 12:43:36,602 - identify_cell_lines - INFO -   1. MICCNi001-A
+2025-10-07 12:43:36,602 - identify_cell_lines - INFO -   2. MICCNi001-B
+2025-10-07 12:43:36,602 - identify_cell_lines - INFO -   3. MICCNi002-A
+2025-10-07 12:43:36,602 - identify_cell_lines - INFO -   4. MICCNi002-B
+2025-10-07 12:43:36,602 - identify_cell_lines - INFO - Complete list: ['MICCNi001-A', 'MICCNi001-B', 'MICCNi002-A', 'MICCNi002-B']
+2025-10-07 12:43:36,602 - identify_test - INFO -   Found 4 cell lines: ['MICCNi001-A', 'MICCNi001-B', 'MICCNi002-A', 'MICCNi002-B']
+2025-10-07 12:43:36,602 - identify_test - INFO -   Identification time: 18.30s
+2025-10-07 12:43:36,602 - identify_test - INFO -   Total article time: 19.24s
+2025-10-07 12:43:36,602 - identify_test - INFO -   Estimated cost: $0.0010
+2025-10-07 12:43:36,603 - identify_test - INFO -     Saved identification results for 30622032
+2025-10-07 12:43:36,603 - identify_test - INFO -     Saved cell line list for 30622032
+2025-10-07 12:43:36,604 - identify_test - INFO -   Completed processing 30622032.pdf
+2025-10-07 12:43:36,604 - identify_test - INFO - [10/54] Processing: 30634128.pdf
+2025-10-07 12:43:36,604 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:43:36,605 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:43:38,183 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:43:38,183 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:43:38,209 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:43:57,224 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:43:57,226 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1231, Total: 12574 tokens
+2025-10-07 12:43:57,226 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:43:57,227 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:43:57,227 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:43:57,227 - identify_cell_lines - INFO -   1. LEIi007-A
+2025-10-07 12:43:57,227 - identify_cell_lines - INFO - Complete list: ['LEIi007-A']
+2025-10-07 12:43:57,227 - identify_test - INFO -   Found 1 cell lines: ['LEIi007-A']
+2025-10-07 12:43:57,228 - identify_test - INFO -   Identification time: 19.02s
+2025-10-07 12:43:57,228 - identify_test - INFO -   Total article time: 20.62s
+2025-10-07 12:43:57,228 - identify_test - INFO -   Estimated cost: $0.0011
+2025-10-07 12:43:57,229 - identify_test - INFO -     Saved identification results for 30634128
+2025-10-07 12:43:57,229 - identify_test - INFO -     Saved cell line list for 30634128
+2025-10-07 12:43:57,229 - identify_test - INFO -   Completed processing 30634128.pdf
+2025-10-07 12:43:57,229 - identify_test - INFO - [11/54] Processing: 30904819.pdf
+2025-10-07 12:43:57,229 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:43:57,230 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:43:58,884 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:43:58,884 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:43:58,910 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:44:17,606 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:44:17,609 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 469, Total: 11812 tokens
+2025-10-07 12:44:17,609 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:44:17,609 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:44:17,609 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:44:17,609 - identify_cell_lines - INFO -   1. LEIi010-A
+2025-10-07 12:44:17,609 - identify_cell_lines - INFO -   2. LEIi010-B
+2025-10-07 12:44:17,609 - identify_cell_lines - INFO - Complete list: ['LEIi010-A', 'LEIi010-B']
+2025-10-07 12:44:17,609 - identify_test - INFO -   Found 2 cell lines: ['LEIi010-A', 'LEIi010-B']
+2025-10-07 12:44:17,609 - identify_test - INFO -   Identification time: 18.70s
+2025-10-07 12:44:17,609 - identify_test - INFO -   Total article time: 20.38s
+2025-10-07 12:44:17,609 - identify_test - INFO -   Estimated cost: $0.0008
+2025-10-07 12:44:17,610 - identify_test - INFO -     Saved identification results for 30904819
+2025-10-07 12:44:17,610 - identify_test - INFO -     Saved cell line list for 30904819
+2025-10-07 12:44:17,610 - identify_test - INFO -   Completed processing 30904819.pdf
+2025-10-07 12:44:17,610 - identify_test - INFO - [12/54] Processing: 31039485.pdf
+2025-10-07 12:44:17,610 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:44:17,611 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:44:18,673 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:44:18,673 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:44:18,699 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:44:38,957 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:44:38,957 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1299, Total: 12642 tokens
+2025-10-07 12:44:38,957 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:44:38,958 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-07 12:44:38,958 - identify_test - INFO -   No cell lines found in article
+2025-10-07 12:44:38,958 - identify_test - INFO -   Identification time: 20.26s
+2025-10-07 12:44:38,958 - identify_test - INFO -   Total article time: 21.35s
+2025-10-07 12:44:38,958 - identify_test - INFO -   Estimated cost: $0.0011
+2025-10-07 12:44:38,958 - identify_test - INFO -     Saved identification results for 31039485
+2025-10-07 12:44:38,958 - identify_test - INFO -   Completed processing 31039485.pdf
+2025-10-07 12:44:38,958 - identify_test - INFO - [13/54] Processing: 31059986.pdf
+2025-10-07 12:44:38,959 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:44:38,959 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:44:40,269 - identify_cell_lines - INFO - Successfully converted PDF to 4 images
+2025-10-07 12:44:40,269 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:44:40,296 - identify_cell_lines - INFO - Sending 4 images to gpt-5-nano for cell line identification...
+2025-10-07 12:45:00,531 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:45:00,532 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 9164, Completion: 1617, Total: 10781 tokens
+2025-10-07 12:45:00,532 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:45:00,532 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:45:00,532 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:45:00,532 - identify_cell_lines - INFO -   1. LEIi005-B
+2025-10-07 12:45:00,532 - identify_cell_lines - INFO - Complete list: ['LEIi005-B']
+2025-10-07 12:45:00,532 - identify_test - INFO -   Found 1 cell lines: ['LEIi005-B']
+2025-10-07 12:45:00,532 - identify_test - INFO -   Identification time: 20.24s
+2025-10-07 12:45:00,532 - identify_test - INFO -   Total article time: 21.57s
+2025-10-07 12:45:00,532 - identify_test - INFO -   Estimated cost: $0.0011
+2025-10-07 12:45:00,533 - identify_test - INFO -     Saved identification results for 31059986
+2025-10-07 12:45:00,533 - identify_test - INFO -     Saved cell line list for 31059986
+2025-10-07 12:45:00,533 - identify_test - INFO -   Completed processing 31059986.pdf
+2025-10-07 12:45:00,533 - identify_test - INFO - [14/54] Processing: 31415975.pdf
+2025-10-07 12:45:00,534 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:45:00,534 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:45:01,985 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:45:01,985 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:45:02,012 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:45:23,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:45:23,963 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1722, Total: 13065 tokens
+2025-10-07 12:45:23,963 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:45:23,963 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:45:23,964 - identify_cell_lines - INFO - Successfully identified 7 unique cell lines:
+2025-10-07 12:45:23,964 - identify_cell_lines - INFO -   1. MCRIi011-A
+2025-10-07 12:45:23,964 - identify_cell_lines - INFO -   2. MCRIi012-A
+2025-10-07 12:45:23,965 - identify_cell_lines - INFO -   3. MCRIi013-A
+2025-10-07 12:45:23,965 - identify_cell_lines - INFO -   4. MCRIi014-A
+2025-10-07 12:45:23,965 - identify_cell_lines - INFO -   5. MCRIi015-A
+2025-10-07 12:45:23,966 - identify_cell_lines - INFO -   6. MCRIi016-A
+2025-10-07 12:45:23,966 - identify_cell_lines - INFO -   7. MCRIi017-A
+2025-10-07 12:45:23,966 - identify_cell_lines - INFO - Complete list: ['MCRIi011-A', 'MCRIi012-A', 'MCRIi013-A', 'MCRIi014-A', 'MCRIi015-A', 'MCRIi016-A', 'MCRIi017-A']
+2025-10-07 12:45:23,966 - identify_test - INFO -   Found 7 cell lines: ['MCRIi011-A', 'MCRIi012-A', 'MCRIi013-A', 'MCRIi014-A', 'MCRIi015-A', 'MCRIi016-A', 'MCRIi017-A']
+2025-10-07 12:45:23,967 - identify_test - INFO -   Identification time: 21.95s
+2025-10-07 12:45:23,967 - identify_test - INFO -   Total article time: 23.43s
+2025-10-07 12:45:23,967 - identify_test - INFO -   Estimated cost: $0.0013
+2025-10-07 12:45:23,969 - identify_test - INFO -     Saved identification results for 31415975
+2025-10-07 12:45:23,969 - identify_test - INFO -     Saved cell line list for 31415975
+2025-10-07 12:45:23,969 - identify_test - INFO -   Completed processing 31415975.pdf
+2025-10-07 12:45:23,969 - identify_test - INFO - [15/54] Processing: 31494449.pdf
+2025-10-07 12:45:23,969 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:45:23,970 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:45:25,271 - identify_cell_lines - INFO - Successfully converted PDF to 6 images
+2025-10-07 12:45:25,271 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:45:25,297 - identify_cell_lines - INFO - Sending 6 images to gpt-5-nano for cell line identification...
+2025-10-07 12:45:47,187 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:45:47,188 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 13522, Completion: 1243, Total: 14765 tokens
+2025-10-07 12:45:47,188 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:45:47,188 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:45:47,188 - identify_cell_lines - INFO - Successfully identified 3 unique cell lines:
+2025-10-07 12:45:47,188 - identify_cell_lines - INFO -   1. LEi011-A
+2025-10-07 12:45:47,188 - identify_cell_lines - INFO -   2. LEi011-B
+2025-10-07 12:45:47,188 - identify_cell_lines - INFO -   3. LEi011-C
+2025-10-07 12:45:47,188 - identify_cell_lines - INFO - Complete list: ['LEi011-A', 'LEi011-B', 'LEi011-C']
+2025-10-07 12:45:47,188 - identify_test - INFO -   Found 3 cell lines: ['LEi011-A', 'LEi011-B', 'LEi011-C']
+2025-10-07 12:45:47,188 - identify_test - INFO -   Identification time: 21.89s
+2025-10-07 12:45:47,188 - identify_test - INFO -   Total article time: 23.22s
+2025-10-07 12:45:47,188 - identify_test - INFO -   Estimated cost: $0.0012
+2025-10-07 12:45:47,189 - identify_test - INFO -     Saved identification results for 31494449
+2025-10-07 12:45:47,189 - identify_test - INFO -     Saved cell line list for 31494449
+2025-10-07 12:45:47,189 - identify_test - INFO -   Completed processing 31494449.pdf
+2025-10-07 12:45:47,189 - identify_test - INFO - [16/54] Processing: 32006803.pdf
+2025-10-07 12:45:47,190 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:45:47,190 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:45:48,062 - identify_cell_lines - INFO - Successfully converted PDF to 4 images
+2025-10-07 12:45:48,062 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:45:48,088 - identify_cell_lines - INFO - Sending 4 images to gpt-5-nano for cell line identification...
+2025-10-07 12:46:04,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:46:04,486 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 9164, Completion: 656, Total: 9820 tokens
+2025-10-07 12:46:04,486 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:46:04,487 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:46:04,487 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:46:04,487 - identify_cell_lines - INFO -   1. UOWi007-A
+2025-10-07 12:46:04,487 - identify_cell_lines - INFO - Complete list: ['UOWi007-A']
+2025-10-07 12:46:04,487 - identify_test - INFO -   Found 1 cell lines: ['UOWi007-A']
+2025-10-07 12:46:04,487 - identify_test - INFO -   Identification time: 16.40s
+2025-10-07 12:46:04,487 - identify_test - INFO -   Total article time: 17.30s
+2025-10-07 12:46:04,487 - identify_test - INFO -   Estimated cost: $0.0007
+2025-10-07 12:46:04,488 - identify_test - INFO -     Saved identification results for 32006803
+2025-10-07 12:46:04,488 - identify_test - INFO -     Saved cell line list for 32006803
+2025-10-07 12:46:04,488 - identify_test - INFO -   Completed processing 32006803.pdf
+2025-10-07 12:46:04,488 - identify_test - INFO - [17/54] Processing: 32442534.pdf
+2025-10-07 12:46:04,489 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:46:04,489 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:46:07,539 - identify_cell_lines - INFO - Successfully converted PDF to 10 images
+2025-10-07 12:46:07,539 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:46:07,566 - identify_cell_lines - INFO - Sending 10 images to gpt-5-nano for cell line identification...
+2025-10-07 12:47:01,117 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:47:01,118 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 22898, Completion: 3885, Total: 26783 tokens
+2025-10-07 12:47:01,118 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:47:01,118 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:47:01,118 - identify_cell_lines - INFO - Successfully identified 3 unique cell lines:
+2025-10-07 12:47:01,118 - identify_cell_lines - INFO -   1. WAe009-A-24
+2025-10-07 12:47:01,119 - identify_cell_lines - INFO -   2. H9.CX3CR1-tdTomato
+2025-10-07 12:47:01,119 - identify_cell_lines - INFO -   3. CX3CR1-tdTomato iMGLs
+2025-10-07 12:47:01,119 - identify_cell_lines - INFO - Complete list: ['WAe009-A-24', 'H9.CX3CR1-tdTomato', 'CX3CR1-tdTomato iMGLs']
+2025-10-07 12:47:01,119 - identify_test - INFO -   Found 3 cell lines: ['WAe009-A-24', 'H9.CX3CR1-tdTomato', 'CX3CR1-tdTomato iMGLs']
+2025-10-07 12:47:01,119 - identify_test - INFO -   Identification time: 53.55s
+2025-10-07 12:47:01,119 - identify_test - INFO -   Total article time: 56.63s
+2025-10-07 12:47:01,119 - identify_test - INFO -   Estimated cost: $0.0027
+2025-10-07 12:47:01,120 - identify_test - INFO -     Saved identification results for 32442534
+2025-10-07 12:47:01,120 - identify_test - INFO -     Saved cell line list for 32442534
+2025-10-07 12:47:01,120 - identify_test - INFO -   Completed processing 32442534.pdf
+2025-10-07 12:47:01,120 - identify_test - INFO - [18/54] Processing: 32810830.pdf
+2025-10-07 12:47:01,120 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:47:01,121 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:47:02,297 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:47:02,297 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:47:02,324 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:47:22,541 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:47:22,542 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 853, Total: 12196 tokens
+2025-10-07 12:47:22,542 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:47:22,542 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:47:22,542 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:47:22,543 - identify_cell_lines - INFO -   1. LEIi012-A
+2025-10-07 12:47:22,543 - identify_cell_lines - INFO -   2. LEIi012-B
+2025-10-07 12:47:22,543 - identify_cell_lines - INFO - Complete list: ['LEIi012-A', 'LEIi012-B']
+2025-10-07 12:47:22,543 - identify_test - INFO -   Found 2 cell lines: ['LEIi012-A', 'LEIi012-B']
+2025-10-07 12:47:22,543 - identify_test - INFO -   Identification time: 20.22s
+2025-10-07 12:47:22,543 - identify_test - INFO -   Total article time: 21.42s
+2025-10-07 12:47:22,543 - identify_test - INFO -   Estimated cost: $0.0009
+2025-10-07 12:47:22,544 - identify_test - INFO -     Saved identification results for 32810830
+2025-10-07 12:47:22,544 - identify_test - INFO -     Saved cell line list for 32810830
+2025-10-07 12:47:22,544 - identify_test - INFO -   Completed processing 32810830.pdf
+2025-10-07 12:47:22,544 - identify_test - INFO - [19/54] Processing: 32887382.pdf
+2025-10-07 12:47:22,545 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:47:22,546 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:47:25,328 - identify_cell_lines - INFO - Successfully converted PDF to 10 images
+2025-10-07 12:47:25,328 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:47:25,354 - identify_cell_lines - INFO - Sending 10 images to gpt-5-nano for cell line identification...
+2025-10-07 12:48:02,962 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:48:02,963 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 22538, Completion: 1867, Total: 24405 tokens
+2025-10-07 12:48:02,963 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:48:02,963 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-07 12:48:02,963 - identify_test - INFO -   No cell lines found in article
+2025-10-07 12:48:02,963 - identify_test - INFO -   Identification time: 37.61s
+2025-10-07 12:48:02,963 - identify_test - INFO -   Total article time: 40.42s
+2025-10-07 12:48:02,963 - identify_test - INFO -   Estimated cost: $0.0019
+2025-10-07 12:48:02,964 - identify_test - INFO -     Saved identification results for 32887382
+2025-10-07 12:48:02,964 - identify_test - INFO -   Completed processing 32887382.pdf
+2025-10-07 12:48:02,964 - identify_test - INFO - [20/54] Processing: 32931148.pdf
+2025-10-07 12:48:02,964 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:48:02,965 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:48:04,970 - identify_cell_lines - INFO - Successfully converted PDF to 10 images
+2025-10-07 12:48:04,971 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:48:04,997 - identify_cell_lines - INFO - Sending 10 images to gpt-5-nano for cell line identification...
+2025-10-07 12:48:58,391 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:48:58,392 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 22898, Completion: 2001, Total: 24899 tokens
+2025-10-07 12:48:58,392 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:48:58,392 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:48:58,392 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:48:58,392 - identify_cell_lines - INFO -   1. LEIi006-A
+2025-10-07 12:48:58,392 - identify_cell_lines - INFO - Complete list: ['LEIi006-A']
+2025-10-07 12:48:58,392 - identify_test - INFO -   Found 1 cell lines: ['LEIi006-A']
+2025-10-07 12:48:58,392 - identify_test - INFO -   Identification time: 53.39s
+2025-10-07 12:48:58,392 - identify_test - INFO -   Total article time: 55.43s
+2025-10-07 12:48:58,392 - identify_test - INFO -   Estimated cost: $0.0019
+2025-10-07 12:48:58,393 - identify_test - INFO -     Saved identification results for 32931148
+2025-10-07 12:48:58,393 - identify_test - INFO -     Saved cell line list for 32931148
+2025-10-07 12:48:58,393 - identify_test - INFO -   Completed processing 32931148.pdf
+2025-10-07 12:48:58,393 - identify_test - INFO - [21/54] Processing: 33091851.pdf
+2025-10-07 12:48:58,394 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:48:58,394 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:48:59,814 - identify_cell_lines - INFO - Successfully converted PDF to 4 images
+2025-10-07 12:48:59,814 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:48:59,840 - identify_cell_lines - INFO - Sending 4 images to gpt-5-nano for cell line identification...
+2025-10-07 12:49:19,047 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:49:19,048 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 9164, Completion: 933, Total: 10097 tokens
+2025-10-07 12:49:19,048 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:49:19,048 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:49:19,048 - identify_cell_lines - INFO - Successfully identified 4 unique cell lines:
+2025-10-07 12:49:19,049 - identify_cell_lines - INFO -   1. MCRIi020-A
+2025-10-07 12:49:19,049 - identify_cell_lines - INFO -   2. MCRIi021-A
+2025-10-07 12:49:19,049 - identify_cell_lines - INFO -   3. MCRIi022-A
+2025-10-07 12:49:19,049 - identify_cell_lines - INFO -   4. MCRIi023-A
+2025-10-07 12:49:19,049 - identify_cell_lines - INFO - Complete list: ['MCRIi020-A', 'MCRIi021-A', 'MCRIi022-A', 'MCRIi023-A']
+2025-10-07 12:49:19,049 - identify_test - INFO -   Found 4 cell lines: ['MCRIi020-A', 'MCRIi021-A', 'MCRIi022-A', 'MCRIi023-A']
+2025-10-07 12:49:19,049 - identify_test - INFO -   Identification time: 19.21s
+2025-10-07 12:49:19,049 - identify_test - INFO -   Total article time: 20.66s
+2025-10-07 12:49:19,049 - identify_test - INFO -   Estimated cost: $0.0008
+2025-10-07 12:49:19,050 - identify_test - INFO -     Saved identification results for 33091851
+2025-10-07 12:49:19,050 - identify_test - INFO -     Saved cell line list for 33091851
+2025-10-07 12:49:19,050 - identify_test - INFO -   Completed processing 33091851.pdf
+2025-10-07 12:49:19,050 - identify_test - INFO - [22/54] Processing: 33316599.pdf
+2025-10-07 12:49:19,051 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:49:19,052 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:49:20,518 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:49:20,519 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:49:20,544 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:49:41,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:49:41,061 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1618, Total: 12961 tokens
+2025-10-07 12:49:41,061 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:49:41,061 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-07 12:49:41,061 - identify_test - INFO -   No cell lines found in article
+2025-10-07 12:49:41,061 - identify_test - INFO -   Identification time: 20.52s
+2025-10-07 12:49:41,061 - identify_test - INFO -   Total article time: 22.01s
+2025-10-07 12:49:41,061 - identify_test - INFO -   Estimated cost: $0.0012
+2025-10-07 12:49:41,062 - identify_test - INFO -     Saved identification results for 33316599
+2025-10-07 12:49:41,062 - identify_test - INFO -   Completed processing 33316599.pdf
+2025-10-07 12:49:41,062 - identify_test - INFO - [23/54] Processing: 33360097.pdf
+2025-10-07 12:49:41,063 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:49:41,063 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:49:42,843 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:49:42,844 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:49:42,870 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:50:02,344 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:50:02,345 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 923, Total: 12266 tokens
+2025-10-07 12:50:02,345 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:50:02,345 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:50:02,345 - identify_cell_lines - INFO - Successfully identified 3 unique cell lines:
+2025-10-07 12:50:02,345 - identify_cell_lines - INFO -   1. LEIi014-A
+2025-10-07 12:50:02,345 - identify_cell_lines - INFO -   2. LEIi014-B
+2025-10-07 12:50:02,345 - identify_cell_lines - INFO -   3. LEIi014-C
+2025-10-07 12:50:02,345 - identify_cell_lines - INFO - Complete list: ['LEIi014-A', 'LEIi014-B', 'LEIi014-C']
+2025-10-07 12:50:02,345 - identify_test - INFO -   Found 3 cell lines: ['LEIi014-A', 'LEIi014-B', 'LEIi014-C']
+2025-10-07 12:50:02,345 - identify_test - INFO -   Identification time: 19.47s
+2025-10-07 12:50:02,345 - identify_test - INFO -   Total article time: 21.28s
+2025-10-07 12:50:02,345 - identify_test - INFO -   Estimated cost: $0.0009
+2025-10-07 12:50:02,346 - identify_test - INFO -     Saved identification results for 33360097
+2025-10-07 12:50:02,346 - identify_test - INFO -     Saved cell line list for 33360097
+2025-10-07 12:50:02,346 - identify_test - INFO -   Completed processing 33360097.pdf
+2025-10-07 12:50:02,346 - identify_test - INFO - [24/54] Processing: 33429167.pdf
+2025-10-07 12:50:02,347 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:50:02,347 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:50:03,944 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:50:03,944 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:50:03,972 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:50:20,583 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:50:20,583 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 597, Total: 11940 tokens
+2025-10-07 12:50:20,583 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:50:20,583 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:50:20,584 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:50:20,584 - identify_cell_lines - INFO -   1. LEIi015-A
+2025-10-07 12:50:20,584 - identify_cell_lines - INFO -   2. LEIi015-B
+2025-10-07 12:50:20,584 - identify_cell_lines - INFO - Complete list: ['LEIi015-A', 'LEIi015-B']
+2025-10-07 12:50:20,584 - identify_test - INFO -   Found 2 cell lines: ['LEIi015-A', 'LEIi015-B']
+2025-10-07 12:50:20,584 - identify_test - INFO -   Identification time: 16.61s
+2025-10-07 12:50:20,584 - identify_test - INFO -   Total article time: 18.24s
+2025-10-07 12:50:20,584 - identify_test - INFO -   Estimated cost: $0.0008
+2025-10-07 12:50:20,585 - identify_test - INFO -     Saved identification results for 33429167
+2025-10-07 12:50:20,585 - identify_test - INFO -     Saved cell line list for 33429167
+2025-10-07 12:50:20,585 - identify_test - INFO -   Completed processing 33429167.pdf
+2025-10-07 12:50:20,585 - identify_test - INFO - [25/54] Processing: 33740643.pdf
+2025-10-07 12:50:20,586 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:50:20,586 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:50:22,282 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:50:22,282 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:50:22,308 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:50:43,178 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:50:43,178 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1174, Total: 12517 tokens
+2025-10-07 12:50:43,179 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:50:43,179 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:50:43,179 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:50:43,179 - identify_cell_lines - INFO -   1. HPi001-A
+2025-10-07 12:50:43,179 - identify_cell_lines - INFO -   2. HPi001-B
+2025-10-07 12:50:43,179 - identify_cell_lines - INFO - Complete list: ['HPi001-A', 'HPi001-B']
+2025-10-07 12:50:43,179 - identify_test - INFO -   Found 2 cell lines: ['HPi001-A', 'HPi001-B']
+2025-10-07 12:50:43,179 - identify_test - INFO -   Identification time: 20.87s
+2025-10-07 12:50:43,179 - identify_test - INFO -   Total article time: 22.59s
+2025-10-07 12:50:43,179 - identify_test - INFO -   Estimated cost: $0.0010
+2025-10-07 12:50:43,180 - identify_test - INFO -     Saved identification results for 33740643
+2025-10-07 12:50:43,180 - identify_test - INFO -     Saved cell line list for 33740643
+2025-10-07 12:50:43,180 - identify_test - INFO -   Completed processing 33740643.pdf
+2025-10-07 12:50:43,180 - identify_test - INFO - [26/54] Processing: 34088002.pdf
+2025-10-07 12:50:43,180 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:50:43,181 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:50:44,367 - identify_cell_lines - INFO - Successfully converted PDF to 9 images
+2025-10-07 12:50:44,367 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:50:44,394 - identify_cell_lines - INFO - Sending 9 images to gpt-5-nano for cell line identification...
+2025-10-07 12:51:11,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:51:11,409 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 20653, Completion: 1617, Total: 22270 tokens
+2025-10-07 12:51:11,409 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:51:11,409 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:51:11,409 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:51:11,409 - identify_cell_lines - INFO -   1. UOMELBi002-A
+2025-10-07 12:51:11,409 - identify_cell_lines - INFO - Complete list: ['UOMELBi002-A']
+2025-10-07 12:51:11,409 - identify_test - INFO -   Found 1 cell lines: ['UOMELBi002-A']
+2025-10-07 12:51:11,409 - identify_test - INFO -   Identification time: 27.01s
+2025-10-07 12:51:11,410 - identify_test - INFO -   Total article time: 28.23s
+2025-10-07 12:51:11,410 - identify_test - INFO -   Estimated cost: $0.0017
+2025-10-07 12:51:11,410 - identify_test - INFO -     Saved identification results for 34088002
+2025-10-07 12:51:11,411 - identify_test - INFO -     Saved cell line list for 34088002
+2025-10-07 12:51:11,411 - identify_test - INFO -   Completed processing 34088002.pdf
+2025-10-07 12:51:11,411 - identify_test - INFO - [27/54] Processing: 34157503.pdf
+2025-10-07 12:51:11,412 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:51:11,412 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:51:12,961 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:51:12,961 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:51:12,987 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:51:34,999 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:51:35,000 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1497, Total: 12840 tokens
+2025-10-07 12:51:35,000 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:51:35,000 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-07 12:51:35,000 - identify_test - INFO -   No cell lines found in article
+2025-10-07 12:51:35,000 - identify_test - INFO -   Identification time: 22.01s
+2025-10-07 12:51:35,000 - identify_test - INFO -   Total article time: 23.59s
+2025-10-07 12:51:35,000 - identify_test - INFO -   Estimated cost: $0.0012
+2025-10-07 12:51:35,001 - identify_test - INFO -     Saved identification results for 34157503
+2025-10-07 12:51:35,001 - identify_test - INFO -   Completed processing 34157503.pdf
+2025-10-07 12:51:35,001 - identify_test - INFO - [28/54] Processing: 34198153.pdf
+2025-10-07 12:51:35,002 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:51:35,002 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:51:36,336 - identify_cell_lines - INFO - Successfully converted PDF to 4 images
+2025-10-07 12:51:36,336 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:51:36,362 - identify_cell_lines - INFO - Sending 4 images to gpt-5-nano for cell line identification...
+2025-10-07 12:51:53,718 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:51:53,719 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 9164, Completion: 918, Total: 10082 tokens
+2025-10-07 12:51:53,719 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:51:53,719 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:51:53,719 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:51:53,719 - identify_cell_lines - INFO -   1. LEIi017-A
+2025-10-07 12:51:53,719 - identify_cell_lines - INFO -   2. LEIi017-B
+2025-10-07 12:51:53,719 - identify_cell_lines - INFO - Complete list: ['LEIi017-A', 'LEIi017-B']
+2025-10-07 12:51:53,719 - identify_test - INFO -   Found 2 cell lines: ['LEIi017-A', 'LEIi017-B']
+2025-10-07 12:51:53,719 - identify_test - INFO -   Identification time: 17.36s
+2025-10-07 12:51:53,719 - identify_test - INFO -   Total article time: 18.72s
+2025-10-07 12:51:53,719 - identify_test - INFO -   Estimated cost: $0.0008
+2025-10-07 12:51:53,720 - identify_test - INFO -     Saved identification results for 34198153
+2025-10-07 12:51:53,720 - identify_test - INFO -     Saved cell line list for 34198153
+2025-10-07 12:51:53,720 - identify_test - INFO -   Completed processing 34198153.pdf
+2025-10-07 12:51:53,720 - identify_test - INFO - [29/54] Processing: 34214897.pdf
+2025-10-07 12:51:53,721 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:51:53,721 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:51:55,117 - identify_cell_lines - INFO - Successfully converted PDF to 4 images
+2025-10-07 12:51:55,117 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:51:55,143 - identify_cell_lines - INFO - Sending 4 images to gpt-5-nano for cell line identification...
+2025-10-07 12:52:13,778 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:52:13,780 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 9164, Completion: 1359, Total: 10523 tokens
+2025-10-07 12:52:13,781 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:52:13,781 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:52:13,781 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:52:13,781 - identify_cell_lines - INFO -   1. LEIi018-A
+2025-10-07 12:52:13,781 - identify_cell_lines - INFO - Complete list: ['LEIi018-A']
+2025-10-07 12:52:13,782 - identify_test - INFO -   Found 1 cell lines: ['LEIi018-A']
+2025-10-07 12:52:13,782 - identify_test - INFO -   Identification time: 18.64s
+2025-10-07 12:52:13,782 - identify_test - INFO -   Total article time: 20.06s
+2025-10-07 12:52:13,782 - identify_test - INFO -   Estimated cost: $0.0010
+2025-10-07 12:52:13,784 - identify_test - INFO -     Saved identification results for 34214897
+2025-10-07 12:52:13,784 - identify_test - INFO -     Saved cell line list for 34214897
+2025-10-07 12:52:13,784 - identify_test - INFO -   Completed processing 34214897.pdf
+2025-10-07 12:52:13,785 - identify_test - INFO - [30/54] Processing: 34388489.pdf
+2025-10-07 12:52:13,786 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:52:13,788 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:52:15,450 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:52:15,450 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:52:15,477 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:52:35,624 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:52:35,626 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1430, Total: 12773 tokens
+2025-10-07 12:52:35,626 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:52:35,626 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:52:35,626 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:52:35,627 - identify_cell_lines - INFO -   1. HPi002-A
+2025-10-07 12:52:35,627 - identify_cell_lines - INFO -   2. HPi002-B
+2025-10-07 12:52:35,627 - identify_cell_lines - INFO - Complete list: ['HPi002-A', 'HPi002-B']
+2025-10-07 12:52:35,627 - identify_test - INFO -   Found 2 cell lines: ['HPi002-A', 'HPi002-B']
+2025-10-07 12:52:35,627 - identify_test - INFO -   Identification time: 20.15s
+2025-10-07 12:52:35,627 - identify_test - INFO -   Total article time: 21.84s
+2025-10-07 12:52:35,628 - identify_test - INFO -   Estimated cost: $0.0011
+2025-10-07 12:52:35,629 - identify_test - INFO -     Saved identification results for 34388489
+2025-10-07 12:52:35,629 - identify_test - INFO -     Saved cell line list for 34388489
+2025-10-07 12:52:35,629 - identify_test - INFO -   Completed processing 34388489.pdf
+2025-10-07 12:52:35,629 - identify_test - INFO - [31/54] Processing: 34507143.pdf
+2025-10-07 12:52:35,630 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:52:35,630 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:52:37,186 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:52:37,186 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:52:37,214 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:52:57,907 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:52:57,908 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1488, Total: 12831 tokens
+2025-10-07 12:52:57,909 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:52:57,909 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:52:57,909 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:52:57,909 - identify_cell_lines - INFO -   1. AIBNi013-A
+2025-10-07 12:52:57,909 - identify_cell_lines - INFO - Complete list: ['AIBNi013-A']
+2025-10-07 12:52:57,909 - identify_test - INFO -   Found 1 cell lines: ['AIBNi013-A']
+2025-10-07 12:52:57,909 - identify_test - INFO -   Identification time: 20.69s
+2025-10-07 12:52:57,909 - identify_test - INFO -   Total article time: 22.28s
+2025-10-07 12:52:57,909 - identify_test - INFO -   Estimated cost: $0.0012
+2025-10-07 12:52:57,910 - identify_test - INFO -     Saved identification results for 34507143
+2025-10-07 12:52:57,910 - identify_test - INFO -     Saved cell line list for 34507143
+2025-10-07 12:52:57,910 - identify_test - INFO -   Completed processing 34507143.pdf
+2025-10-07 12:52:57,911 - identify_test - INFO - [32/54] Processing: 34619644.pdf
+2025-10-07 12:52:57,911 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:52:57,912 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:52:59,275 - identify_cell_lines - INFO - Successfully converted PDF to 4 images
+2025-10-07 12:52:59,275 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:52:59,302 - identify_cell_lines - INFO - Sending 4 images to gpt-5-nano for cell line identification...
+2025-10-07 12:53:23,649 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:53:23,650 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 9164, Completion: 2835, Total: 11999 tokens
+2025-10-07 12:53:23,650 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:53:23,650 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-07 12:53:23,650 - identify_test - INFO -   No cell lines found in article
+2025-10-07 12:53:23,650 - identify_test - INFO -   Identification time: 24.35s
+2025-10-07 12:53:23,650 - identify_test - INFO -   Total article time: 25.74s
+2025-10-07 12:53:23,651 - identify_test - INFO -   Estimated cost: $0.0016
+2025-10-07 12:53:23,652 - identify_test - INFO -     Saved identification results for 34619644
+2025-10-07 12:53:23,652 - identify_test - INFO -   Completed processing 34619644.pdf
+2025-10-07 12:53:23,652 - identify_test - INFO - [33/54] Processing: 34649201.pdf
+2025-10-07 12:53:23,653 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:53:23,653 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:53:25,012 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:53:25,013 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:53:25,040 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:53:40,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 947, Total: 12290 tokens
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO - Successfully identified 6 unique cell lines:
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO -   1. AIBNi001-A
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO -   2. AIBNi002-A
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO -   3. AIBNi003-A
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO -   4. AIBNi004-A
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO -   5. AIBNi005-A
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO -   6. AIBNi006-A
+2025-10-07 12:53:40,848 - identify_cell_lines - INFO - Complete list: ['AIBNi001-A', 'AIBNi002-A', 'AIBNi003-A', 'AIBNi004-A', 'AIBNi005-A', 'AIBNi006-A']
+2025-10-07 12:53:40,849 - identify_test - INFO -   Found 6 cell lines: ['AIBNi001-A', 'AIBNi002-A', 'AIBNi003-A', 'AIBNi004-A', 'AIBNi005-A', 'AIBNi006-A']
+2025-10-07 12:53:40,849 - identify_test - INFO -   Identification time: 15.81s
+2025-10-07 12:53:40,849 - identify_test - INFO -   Total article time: 17.20s
+2025-10-07 12:53:40,849 - identify_test - INFO -   Estimated cost: $0.0009
+2025-10-07 12:53:40,849 - identify_test - INFO -     Saved identification results for 34649201
+2025-10-07 12:53:40,850 - identify_test - INFO -     Saved cell line list for 34649201
+2025-10-07 12:53:40,850 - identify_test - INFO -   Completed processing 34649201.pdf
+2025-10-07 12:53:40,850 - identify_test - INFO - [34/54] Processing: 35074713.pdf
+2025-10-07 12:53:40,851 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:53:40,852 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:53:42,434 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:53:42,434 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:53:42,460 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:54:04,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:54:04,898 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1844, Total: 13187 tokens
+2025-10-07 12:54:04,898 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:54:04,898 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:54:04,899 - identify_cell_lines - INFO - Successfully identified 6 unique cell lines:
+2025-10-07 12:54:04,899 - identify_cell_lines - INFO -   1. AIBNi007-A
+2025-10-07 12:54:04,899 - identify_cell_lines - INFO -   2. AIBNi008-A
+2025-10-07 12:54:04,899 - identify_cell_lines - INFO -   3. AIBNi009-A
+2025-10-07 12:54:04,899 - identify_cell_lines - INFO -   4. AIBNi010-A
+2025-10-07 12:54:04,899 - identify_cell_lines - INFO -   5. AIBNi011-A
+2025-10-07 12:54:04,899 - identify_cell_lines - INFO -   6. AIBNi012-A
+2025-10-07 12:54:04,899 - identify_cell_lines - INFO - Complete list: ['AIBNi007-A', 'AIBNi008-A', 'AIBNi009-A', 'AIBNi010-A', 'AIBNi011-A', 'AIBNi012-A']
+2025-10-07 12:54:04,899 - identify_test - INFO -   Found 6 cell lines: ['AIBNi007-A', 'AIBNi008-A', 'AIBNi009-A', 'AIBNi010-A', 'AIBNi011-A', 'AIBNi012-A']
+2025-10-07 12:54:04,899 - identify_test - INFO -   Identification time: 22.44s
+2025-10-07 12:54:04,899 - identify_test - INFO -   Total article time: 24.05s
+2025-10-07 12:54:04,899 - identify_test - INFO -   Estimated cost: $0.0013
+2025-10-07 12:54:04,900 - identify_test - INFO -     Saved identification results for 35074713
+2025-10-07 12:54:04,900 - identify_test - INFO -     Saved cell line list for 35074713
+2025-10-07 12:54:04,900 - identify_test - INFO -   Completed processing 35074713.pdf
+2025-10-07 12:54:04,900 - identify_test - INFO - [35/54] Processing: 35679759.pdf
+2025-10-07 12:54:04,901 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:54:04,902 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:54:06,368 - identify_cell_lines - INFO - Successfully converted PDF to 4 images
+2025-10-07 12:54:06,369 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:54:06,396 - identify_cell_lines - INFO - Sending 4 images to gpt-5-nano for cell line identification...
+2025-10-07 12:54:36,717 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:54:36,717 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 9164, Completion: 3625, Total: 12789 tokens
+2025-10-07 12:54:36,717 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:54:36,717 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:54:36,717 - identify_cell_lines - INFO - Successfully identified 4 unique cell lines:
+2025-10-07 12:54:36,718 - identify_cell_lines - INFO -   1. MNZTAi001-A
+2025-10-07 12:54:36,718 - identify_cell_lines - INFO -   2. MNZTAi002-A
+2025-10-07 12:54:36,718 - identify_cell_lines - INFO -   3. MNZTAi003-A
+2025-10-07 12:54:36,718 - identify_cell_lines - INFO -   4. MNZTAi005-A
+2025-10-07 12:54:36,718 - identify_cell_lines - INFO - Complete list: ['MNZTAi001-A', 'MNZTAi002-A', 'MNZTAi003-A', 'MNZTAi005-A']
+2025-10-07 12:54:36,718 - identify_test - INFO -   Found 4 cell lines: ['MNZTAi001-A', 'MNZTAi002-A', 'MNZTAi003-A', 'MNZTAi005-A']
+2025-10-07 12:54:36,718 - identify_test - INFO -   Identification time: 30.32s
+2025-10-07 12:54:36,718 - identify_test - INFO -   Total article time: 31.82s
+2025-10-07 12:54:36,718 - identify_test - INFO -   Estimated cost: $0.0019
+2025-10-07 12:54:36,719 - identify_test - INFO -     Saved identification results for 35679759
+2025-10-07 12:54:36,719 - identify_test - INFO -     Saved cell line list for 35679759
+2025-10-07 12:54:36,719 - identify_test - INFO -   Completed processing 35679759.pdf
+2025-10-07 12:54:36,719 - identify_test - INFO - [36/54] Processing: 35728439.pdf
+2025-10-07 12:54:36,719 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:54:36,720 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:54:38,138 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:54:38,139 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:54:38,166 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:54:58,716 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:54:58,717 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1231, Total: 12574 tokens
+2025-10-07 12:54:58,717 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:54:58,717 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:54:58,717 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:54:58,717 - identify_cell_lines - INFO -   1. HPi003-A
+2025-10-07 12:54:58,717 - identify_cell_lines - INFO - Complete list: ['HPi003-A']
+2025-10-07 12:54:58,717 - identify_test - INFO -   Found 1 cell lines: ['HPi003-A']
+2025-10-07 12:54:58,717 - identify_test - INFO -   Identification time: 20.55s
+2025-10-07 12:54:58,717 - identify_test - INFO -   Total article time: 22.00s
+2025-10-07 12:54:58,717 - identify_test - INFO -   Estimated cost: $0.0011
+2025-10-07 12:54:58,718 - identify_test - INFO -     Saved identification results for 35728439
+2025-10-07 12:54:58,718 - identify_test - INFO -     Saved cell line list for 35728439
+2025-10-07 12:54:58,718 - identify_test - INFO -   Completed processing 35728439.pdf
+2025-10-07 12:54:58,718 - identify_test - INFO - [37/54] Processing: 35728440.pdf
+2025-10-07 12:54:58,719 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:54:58,719 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:55:00,233 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:55:00,234 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:55:00,260 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:55:20,809 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:55:20,812 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1109, Total: 12452 tokens
+2025-10-07 12:55:20,813 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:55:20,813 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:55:20,813 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:55:20,814 - identify_cell_lines - INFO -   1. HPi004-A
+2025-10-07 12:55:20,814 - identify_cell_lines - INFO -   2. HPi004-B
+2025-10-07 12:55:20,814 - identify_cell_lines - INFO - Complete list: ['HPi004-A', 'HPi004-B']
+2025-10-07 12:55:20,815 - identify_test - INFO -   Found 2 cell lines: ['HPi004-A', 'HPi004-B']
+2025-10-07 12:55:20,815 - identify_test - INFO -   Identification time: 20.55s
+2025-10-07 12:55:20,816 - identify_test - INFO -   Total article time: 22.10s
+2025-10-07 12:55:20,816 - identify_test - INFO -   Estimated cost: $0.0010
+2025-10-07 12:55:20,818 - identify_test - INFO -     Saved identification results for 35728440
+2025-10-07 12:55:20,819 - identify_test - INFO -     Saved cell line list for 35728440
+2025-10-07 12:55:20,819 - identify_test - INFO -   Completed processing 35728440.pdf
+2025-10-07 12:55:20,820 - identify_test - INFO - [38/54] Processing: 35917601.pdf
+2025-10-07 12:55:20,822 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:55:20,824 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:55:22,669 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:55:22,669 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:55:22,696 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:55:45,888 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:55:45,903 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1432, Total: 12775 tokens
+2025-10-07 12:55:45,903 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:55:45,903 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:55:45,903 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:55:45,903 - identify_cell_lines - INFO -   1. UOCi001-A
+2025-10-07 12:55:45,903 - identify_cell_lines - INFO -   2. UOCi002-A
+2025-10-07 12:55:45,904 - identify_cell_lines - INFO - Complete list: ['UOCi001-A', 'UOCi002-A']
+2025-10-07 12:55:45,904 - identify_test - INFO -   Found 2 cell lines: ['UOCi001-A', 'UOCi002-A']
+2025-10-07 12:55:45,904 - identify_test - INFO -   Identification time: 23.21s
+2025-10-07 12:55:45,904 - identify_test - INFO -   Total article time: 25.08s
+2025-10-07 12:55:45,904 - identify_test - INFO -   Estimated cost: $0.0011
+2025-10-07 12:55:45,905 - identify_test - INFO -     Saved identification results for 35917601
+2025-10-07 12:55:45,905 - identify_test - INFO -     Saved cell line list for 35917601
+2025-10-07 12:55:45,905 - identify_test - INFO -   Completed processing 35917601.pdf
+2025-10-07 12:55:45,905 - identify_test - INFO - [39/54] Processing: 36166872.pdf
+2025-10-07 12:55:45,907 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:55:45,907 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:55:47,873 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:55:47,874 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:55:47,901 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:56:11,484 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:56:11,485 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1644, Total: 12987 tokens
+2025-10-07 12:56:11,485 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:56:11,485 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:56:11,485 - identify_cell_lines - INFO - Successfully identified 5 unique cell lines:
+2025-10-07 12:56:11,485 - identify_cell_lines - INFO -   1. AIBNi015-A
+2025-10-07 12:56:11,485 - identify_cell_lines - INFO -   2. AIBNi016-A
+2025-10-07 12:56:11,485 - identify_cell_lines - INFO -   3. AIBNi017-A
+2025-10-07 12:56:11,485 - identify_cell_lines - INFO -   4. AIBNi018-A
+2025-10-07 12:56:11,485 - identify_cell_lines - INFO -   5. AIBNi019-A
+2025-10-07 12:56:11,485 - identify_cell_lines - INFO - Complete list: ['AIBNi015-A', 'AIBNi016-A', 'AIBNi017-A', 'AIBNi018-A', 'AIBNi019-A']
+2025-10-07 12:56:11,486 - identify_test - INFO -   Found 5 cell lines: ['AIBNi015-A', 'AIBNi016-A', 'AIBNi017-A', 'AIBNi018-A', 'AIBNi019-A']
+2025-10-07 12:56:11,486 - identify_test - INFO -   Identification time: 23.58s
+2025-10-07 12:56:11,486 - identify_test - INFO -   Total article time: 25.58s
+2025-10-07 12:56:11,486 - identify_test - INFO -   Estimated cost: $0.0012
+2025-10-07 12:56:11,486 - identify_test - INFO -     Saved identification results for 36166872
+2025-10-07 12:56:11,487 - identify_test - INFO -     Saved cell line list for 36166872
+2025-10-07 12:56:11,487 - identify_test - INFO -   Completed processing 36166872.pdf
+2025-10-07 12:56:11,487 - identify_test - INFO - [40/54] Processing: 36682125.pdf
+2025-10-07 12:56:11,487 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:56:11,488 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:56:13,028 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:56:13,028 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:56:13,054 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:56:35,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:56:35,350 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1553, Total: 12896 tokens
+2025-10-07 12:56:35,350 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:56:35,350 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:56:35,350 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:56:35,350 - identify_cell_lines - INFO -   1. MCRI019-A-6
+2025-10-07 12:56:35,350 - identify_cell_lines - INFO - Complete list: ['MCRI019-A-6']
+2025-10-07 12:56:35,350 - identify_test - INFO -   Found 1 cell lines: ['MCRI019-A-6']
+2025-10-07 12:56:35,350 - identify_test - INFO -   Identification time: 22.29s
+2025-10-07 12:56:35,350 - identify_test - INFO -   Total article time: 23.86s
+2025-10-07 12:56:35,350 - identify_test - INFO -   Estimated cost: $0.0012
+2025-10-07 12:56:35,351 - identify_test - INFO -     Saved identification results for 36682125
+2025-10-07 12:56:35,351 - identify_test - INFO -     Saved cell line list for 36682125
+2025-10-07 12:56:35,351 - identify_test - INFO -   Completed processing 36682125.pdf
+2025-10-07 12:56:35,351 - identify_test - INFO - [41/54] Processing: 36805468.pdf
+2025-10-07 12:56:35,352 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:56:35,353 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:56:37,295 - identify_cell_lines - INFO - Successfully converted PDF to 6 images
+2025-10-07 12:56:37,295 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:56:37,321 - identify_cell_lines - INFO - Sending 6 images to gpt-5-nano for cell line identification...
+2025-10-07 12:57:03,889 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:57:03,892 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 13522, Completion: 1773, Total: 15295 tokens
+2025-10-07 12:57:03,892 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:57:03,892 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:57:03,892 - identify_cell_lines - INFO - Successfully identified 6 unique cell lines:
+2025-10-07 12:57:03,892 - identify_cell_lines - INFO -   1. MCRI025-A
+2025-10-07 12:57:03,892 - identify_cell_lines - INFO -   2. MCRI025-B
+2025-10-07 12:57:03,892 - identify_cell_lines - INFO -   3. MCRI026-A
+2025-10-07 12:57:03,892 - identify_cell_lines - INFO -   4. MCRI026-B
+2025-10-07 12:57:03,893 - identify_cell_lines - INFO -   5. MCRI027-A
+2025-10-07 12:57:03,893 - identify_cell_lines - INFO -   6. MCRI027-B
+2025-10-07 12:57:03,893 - identify_cell_lines - INFO - Complete list: ['MCRI025-A', 'MCRI025-B', 'MCRI026-A', 'MCRI026-B', 'MCRI027-A', 'MCRI027-B']
+2025-10-07 12:57:03,893 - identify_test - INFO -   Found 6 cell lines: ['MCRI025-A', 'MCRI025-B', 'MCRI026-A', 'MCRI026-B', 'MCRI027-A', 'MCRI027-B']
+2025-10-07 12:57:03,893 - identify_test - INFO -   Identification time: 26.57s
+2025-10-07 12:57:03,893 - identify_test - INFO -   Total article time: 28.54s
+2025-10-07 12:57:03,893 - identify_test - INFO -   Estimated cost: $0.0014
+2025-10-07 12:57:03,893 - identify_test - INFO -     Saved identification results for 36805468
+2025-10-07 12:57:03,894 - identify_test - INFO -     Saved cell line list for 36805468
+2025-10-07 12:57:03,894 - identify_test - INFO -   Completed processing 36805468.pdf
+2025-10-07 12:57:03,894 - identify_test - INFO - [42/54] Processing: 37150143.pdf
+2025-10-07 12:57:03,894 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:57:03,895 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:57:05,303 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:57:05,303 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:57:05,329 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:57:25,003 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:57:25,004 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1004, Total: 12347 tokens
+2025-10-07 12:57:25,004 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:57:25,004 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:57:25,005 - identify_cell_lines - INFO - Successfully identified 5 unique cell lines:
+2025-10-07 12:57:25,005 - identify_cell_lines - INFO -   1. MCRIi002-A
+2025-10-07 12:57:25,005 - identify_cell_lines - INFO -   2. MCRIi003-A
+2025-10-07 12:57:25,005 - identify_cell_lines - INFO -   3. MCRIi007-A
+2025-10-07 12:57:25,005 - identify_cell_lines - INFO -   4. MCRIi008-A
+2025-10-07 12:57:25,005 - identify_cell_lines - INFO -   5. MCRIi009-A
+2025-10-07 12:57:25,005 - identify_cell_lines - INFO - Complete list: ['MCRIi002-A', 'MCRIi003-A', 'MCRIi007-A', 'MCRIi008-A', 'MCRIi009-A']
+2025-10-07 12:57:25,005 - identify_test - INFO -   Found 5 cell lines: ['MCRIi002-A', 'MCRIi003-A', 'MCRIi007-A', 'MCRIi008-A', 'MCRIi009-A']
+2025-10-07 12:57:25,005 - identify_test - INFO -   Identification time: 19.68s
+2025-10-07 12:57:25,005 - identify_test - INFO -   Total article time: 21.11s
+2025-10-07 12:57:25,006 - identify_test - INFO -   Estimated cost: $0.0010
+2025-10-07 12:57:25,006 - identify_test - INFO -     Saved identification results for 37150143
+2025-10-07 12:57:25,007 - identify_test - INFO -     Saved cell line list for 37150143
+2025-10-07 12:57:25,007 - identify_test - INFO -   Completed processing 37150143.pdf
+2025-10-07 12:57:25,007 - identify_test - INFO - [43/54] Processing: 37315423.pdf
+2025-10-07 12:57:25,008 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:57:25,009 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:57:26,647 - identify_cell_lines - INFO - Successfully converted PDF to 6 images
+2025-10-07 12:57:26,647 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:57:26,674 - identify_cell_lines - INFO - Sending 6 images to gpt-5-nano for cell line identification...
+2025-10-07 12:57:52,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:57:52,407 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 13522, Completion: 2019, Total: 15541 tokens
+2025-10-07 12:57:52,407 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:57:52,407 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-07 12:57:52,407 - identify_test - INFO -   No cell lines found in article
+2025-10-07 12:57:52,407 - identify_test - INFO -   Identification time: 25.73s
+2025-10-07 12:57:52,407 - identify_test - INFO -   Total article time: 27.40s
+2025-10-07 12:57:52,407 - identify_test - INFO -   Estimated cost: $0.0015
+2025-10-07 12:57:52,408 - identify_test - INFO -     Saved identification results for 37315423
+2025-10-07 12:57:52,408 - identify_test - INFO -   Completed processing 37315423.pdf
+2025-10-07 12:57:52,408 - identify_test - INFO - [44/54] Processing: 37385135.pdf
+2025-10-07 12:57:52,409 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:57:52,410 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:57:54,552 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:57:54,552 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:57:54,579 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:58:19,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:58:19,100 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 2003, Total: 13346 tokens
+2025-10-07 12:58:19,101 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:58:19,101 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:58:19,101 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 12:58:19,102 - identify_cell_lines - INFO -   1. CIAUi002-C
+2025-10-07 12:58:19,102 - identify_cell_lines - INFO - Complete list: ['CIAUi002-C']
+2025-10-07 12:58:19,103 - identify_test - INFO -   Found 1 cell lines: ['CIAUi002-C']
+2025-10-07 12:58:19,103 - identify_test - INFO -   Identification time: 24.52s
+2025-10-07 12:58:19,103 - identify_test - INFO -   Total article time: 26.69s
+2025-10-07 12:58:19,104 - identify_test - INFO -   Estimated cost: $0.0014
+2025-10-07 12:58:19,106 - identify_test - INFO -     Saved identification results for 37385135
+2025-10-07 12:58:19,106 - identify_test - INFO -     Saved cell line list for 37385135
+2025-10-07 12:58:19,106 - identify_test - INFO -   Completed processing 37385135.pdf
+2025-10-07 12:58:19,106 - identify_test - INFO - [45/54] Processing: 37494850.pdf
+2025-10-07 12:58:19,107 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:58:19,108 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:58:21,066 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:58:21,066 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:58:21,092 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:58:46,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:58:46,821 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 895, Total: 12238 tokens
+2025-10-07 12:58:46,821 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO - Successfully identified 9 unique cell lines:
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO -   1. MONU001-A
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO -   2. MONU001-B
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO -   3. MONU001-C
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO -   4. MONU002-A
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO -   5. MONU002-B
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO -   6. MONU002-C
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO -   7. MONU003-A
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO -   8. MONU003-B
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO -   9. MONU003-C
+2025-10-07 12:58:46,822 - identify_cell_lines - INFO - Complete list: ['MONU001-A', 'MONU001-B', 'MONU001-C', 'MONU002-A', 'MONU002-B', 'MONU002-C', 'MONU003-A', 'MONU003-B', 'MONU003-C']
+2025-10-07 12:58:46,823 - identify_test - INFO -   Found 9 cell lines: ['MONU001-A', 'MONU001-B', 'MONU001-C', 'MONU002-A', 'MONU002-B', 'MONU002-C', 'MONU003-A', 'MONU003-B', 'MONU003-C']
+2025-10-07 12:58:46,823 - identify_test - INFO -   Identification time: 25.73s
+2025-10-07 12:58:46,823 - identify_test - INFO -   Total article time: 27.72s
+2025-10-07 12:58:46,823 - identify_test - INFO -   Estimated cost: $0.0009
+2025-10-07 12:58:46,824 - identify_test - INFO -     Saved identification results for 37494850
+2025-10-07 12:58:46,824 - identify_test - INFO -     Saved cell line list for 37494850
+2025-10-07 12:58:46,824 - identify_test - INFO -   Completed processing 37494850.pdf
+2025-10-07 12:58:46,824 - identify_test - INFO - [46/54] Processing: 37939621.pdf
+2025-10-07 12:58:46,825 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:58:46,826 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:58:48,345 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:58:48,345 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:58:48,371 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 12:59:10,642 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:59:10,644 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 1494, Total: 12837 tokens
+2025-10-07 12:59:10,644 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:59:10,644 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:59:10,645 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:59:10,645 - identify_cell_lines - INFO -   1. VCCRli002-A
+2025-10-07 12:59:10,645 - identify_cell_lines - INFO -   2. VCCRli003-A
+2025-10-07 12:59:10,645 - identify_cell_lines - INFO - Complete list: ['VCCRli002-A', 'VCCRli003-A']
+2025-10-07 12:59:10,645 - identify_test - INFO -   Found 2 cell lines: ['VCCRli002-A', 'VCCRli003-A']
+2025-10-07 12:59:10,645 - identify_test - INFO -   Identification time: 22.27s
+2025-10-07 12:59:10,645 - identify_test - INFO -   Total article time: 23.82s
+2025-10-07 12:59:10,646 - identify_test - INFO -   Estimated cost: $0.0012
+2025-10-07 12:59:10,647 - identify_test - INFO -     Saved identification results for 37939621
+2025-10-07 12:59:10,647 - identify_test - INFO -     Saved cell line list for 37939621
+2025-10-07 12:59:10,647 - identify_test - INFO -   Completed processing 37939621.pdf
+2025-10-07 12:59:10,647 - identify_test - INFO - [47/54] Processing: 38029555.pdf
+2025-10-07 12:59:10,649 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:59:10,649 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:59:12,518 - identify_cell_lines - INFO - Successfully converted PDF to 6 images
+2025-10-07 12:59:12,518 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:59:12,544 - identify_cell_lines - INFO - Sending 6 images to gpt-5-nano for cell line identification...
+2025-10-07 12:59:35,440 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 12:59:35,444 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 13522, Completion: 1110, Total: 14632 tokens
+2025-10-07 12:59:35,445 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 12:59:35,445 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 12:59:35,446 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 12:59:35,446 - identify_cell_lines - INFO -   1. HPi005-A
+2025-10-07 12:59:35,446 - identify_cell_lines - INFO -   2. HPi005-B
+2025-10-07 12:59:35,446 - identify_cell_lines - INFO - Complete list: ['HPi005-A', 'HPi005-B']
+2025-10-07 12:59:35,447 - identify_test - INFO -   Found 2 cell lines: ['HPi005-A', 'HPi005-B']
+2025-10-07 12:59:35,447 - identify_test - INFO -   Identification time: 22.90s
+2025-10-07 12:59:35,448 - identify_test - INFO -   Total article time: 24.80s
+2025-10-07 12:59:35,448 - identify_test - INFO -   Estimated cost: $0.0011
+2025-10-07 12:59:35,449 - identify_test - INFO -     Saved identification results for 38029555
+2025-10-07 12:59:35,449 - identify_test - INFO -     Saved cell line list for 38029555
+2025-10-07 12:59:35,449 - identify_test - INFO -   Completed processing 38029555.pdf
+2025-10-07 12:59:35,449 - identify_test - INFO - [48/54] Processing: 38244534.pdf
+2025-10-07 12:59:35,450 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 12:59:35,451 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 12:59:37,213 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 12:59:37,213 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 12:59:37,240 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 13:00:05,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 13:00:05,653 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 2707, Total: 14050 tokens
+2025-10-07 13:00:05,653 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 13:00:05,653 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 13:00:05,653 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 13:00:05,653 - identify_cell_lines - INFO -   1. H9 NGN2 B6
+2025-10-07 13:00:05,654 - identify_cell_lines - INFO - Complete list: ['H9 NGN2 B6']
+2025-10-07 13:00:05,654 - identify_test - INFO -   Found 1 cell lines: ['H9 NGN2 B6']
+2025-10-07 13:00:05,654 - identify_test - INFO -   Identification time: 28.41s
+2025-10-07 13:00:05,654 - identify_test - INFO -   Total article time: 30.20s
+2025-10-07 13:00:05,654 - identify_test - INFO -   Estimated cost: $0.0016
+2025-10-07 13:00:05,654 - identify_test - INFO -     Saved identification results for 38244534
+2025-10-07 13:00:05,655 - identify_test - INFO -     Saved cell line list for 38244534
+2025-10-07 13:00:05,655 - identify_test - INFO -   Completed processing 38244534.pdf
+2025-10-07 13:00:05,655 - identify_test - INFO - [49/54] Processing: 38277710.pdf
+2025-10-07 13:00:05,655 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 13:00:05,656 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 13:00:07,295 - identify_cell_lines - INFO - Successfully converted PDF to 7 images
+2025-10-07 13:00:07,295 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 13:00:07,322 - identify_cell_lines - INFO - Sending 7 images to gpt-5-nano for cell line identification...
+2025-10-07 13:00:34,907 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 13:00:34,907 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 15701, Completion: 3219, Total: 18920 tokens
+2025-10-07 13:00:34,907 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 13:00:34,907 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-07 13:00:34,907 - identify_test - INFO -   No cell lines found in article
+2025-10-07 13:00:34,908 - identify_test - INFO -   Identification time: 27.59s
+2025-10-07 13:00:34,908 - identify_test - INFO -   Total article time: 29.25s
+2025-10-07 13:00:34,908 - identify_test - INFO -   Estimated cost: $0.0021
+2025-10-07 13:00:34,908 - identify_test - INFO -     Saved identification results for 38277710
+2025-10-07 13:00:34,908 - identify_test - INFO -   Completed processing 38277710.pdf
+2025-10-07 13:00:34,909 - identify_test - INFO - [50/54] Processing: 38433209.pdf
+2025-10-07 13:00:34,909 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 13:00:34,910 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 13:00:37,727 - identify_cell_lines - INFO - Successfully converted PDF to 10 images
+2025-10-07 13:00:37,727 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 13:00:37,754 - identify_cell_lines - INFO - Sending 10 images to gpt-5-nano for cell line identification...
+2025-10-07 13:01:22,770 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 13:01:22,772 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 23408, Completion: 2851, Total: 26259 tokens
+2025-10-07 13:01:22,772 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 13:01:22,772 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 13:01:22,773 - identify_cell_lines - INFO - Successfully identified 3 unique cell lines:
+2025-10-07 13:01:22,773 - identify_cell_lines - INFO -   1. MNZTASi019-A
+2025-10-07 13:01:22,773 - identify_cell_lines - INFO -   2. MNZTASi021-A
+2025-10-07 13:01:22,773 - identify_cell_lines - INFO -   3. MNZTASi022-A
+2025-10-07 13:01:22,773 - identify_cell_lines - INFO - Complete list: ['MNZTASi019-A', 'MNZTASi021-A', 'MNZTASi022-A']
+2025-10-07 13:01:22,773 - identify_test - INFO -   Found 3 cell lines: ['MNZTASi019-A', 'MNZTASi021-A', 'MNZTASi022-A']
+2025-10-07 13:01:22,773 - identify_test - INFO -   Identification time: 45.02s
+2025-10-07 13:01:22,773 - identify_test - INFO -   Total article time: 47.86s
+2025-10-07 13:01:22,773 - identify_test - INFO -   Estimated cost: $0.0023
+2025-10-07 13:01:22,774 - identify_test - INFO -     Saved identification results for 38433209
+2025-10-07 13:01:22,774 - identify_test - INFO -     Saved cell line list for 38433209
+2025-10-07 13:01:22,774 - identify_test - INFO -   Completed processing 38433209.pdf
+2025-10-07 13:01:22,774 - identify_test - INFO - [51/54] Processing: 38458031.pdf
+2025-10-07 13:01:22,775 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 13:01:22,775 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 13:01:24,562 - identify_cell_lines - INFO - Successfully converted PDF to 6 images
+2025-10-07 13:01:24,562 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 13:01:24,588 - identify_cell_lines - INFO - Sending 6 images to gpt-5-nano for cell line identification...
+2025-10-07 13:01:56,576 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 13:01:56,579 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 13522, Completion: 2652, Total: 16174 tokens
+2025-10-07 13:01:56,579 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 13:01:56,579 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-07 13:01:56,579 - identify_test - INFO -   No cell lines found in article
+2025-10-07 13:01:56,579 - identify_test - INFO -   Identification time: 31.99s
+2025-10-07 13:01:56,579 - identify_test - INFO -   Total article time: 33.80s
+2025-10-07 13:01:56,579 - identify_test - INFO -   Estimated cost: $0.0017
+2025-10-07 13:01:56,580 - identify_test - INFO -     Saved identification results for 38458031
+2025-10-07 13:01:56,580 - identify_test - INFO -   Completed processing 38458031.pdf
+2025-10-07 13:01:56,580 - identify_test - INFO - [52/54] Processing: 38479087.pdf
+2025-10-07 13:01:56,580 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 13:01:56,581 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 13:01:57,971 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-07 13:01:57,971 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 13:01:57,997 - identify_cell_lines - INFO - Sending 5 images to gpt-5-nano for cell line identification...
+2025-10-07 13:02:21,128 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 13:02:21,129 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 11343, Completion: 847, Total: 12190 tokens
+2025-10-07 13:02:21,129 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 13:02:21,129 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 13:02:21,129 - identify_cell_lines - INFO - Successfully identified 1 unique cell lines:
+2025-10-07 13:02:21,129 - identify_cell_lines - INFO -   1. FINi003-A
+2025-10-07 13:02:21,130 - identify_cell_lines - INFO - Complete list: ['FINi003-A']
+2025-10-07 13:02:21,130 - identify_test - INFO -   Found 1 cell lines: ['FINi003-A']
+2025-10-07 13:02:21,130 - identify_test - INFO -   Identification time: 23.13s
+2025-10-07 13:02:21,130 - identify_test - INFO -   Total article time: 24.55s
+2025-10-07 13:02:21,130 - identify_test - INFO -   Estimated cost: $0.0009
+2025-10-07 13:02:21,130 - identify_test - INFO -     Saved identification results for 38479087
+2025-10-07 13:02:21,130 - identify_test - INFO -     Saved cell line list for 38479087
+2025-10-07 13:02:21,131 - identify_test - INFO -   Completed processing 38479087.pdf
+2025-10-07 13:02:21,131 - identify_test - INFO - [53/54] Processing: 38582058.pdf
+2025-10-07 13:02:21,131 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 13:02:21,132 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 13:02:22,803 - identify_cell_lines - INFO - Successfully converted PDF to 6 images
+2025-10-07 13:02:22,803 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 13:02:22,830 - identify_cell_lines - INFO - Sending 6 images to gpt-5-nano for cell line identification...
+2025-10-07 13:02:57,230 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 13:02:57,231 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 13522, Completion: 3164, Total: 16686 tokens
+2025-10-07 13:02:57,231 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 13:02:57,231 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 13:02:57,231 - identify_cell_lines - INFO - Successfully identified 3 unique cell lines:
+2025-10-07 13:02:57,231 - identify_cell_lines - INFO -   1. HPi008-A
+2025-10-07 13:02:57,231 - identify_cell_lines - INFO -   2. HPi009-A
+2025-10-07 13:02:57,232 - identify_cell_lines - INFO -   3. SCTi003-A
+2025-10-07 13:02:57,232 - identify_cell_lines - INFO - Complete list: ['HPi008-A', 'HPi009-A', 'SCTi003-A']
+2025-10-07 13:02:57,232 - identify_test - INFO -   Found 3 cell lines: ['HPi008-A', 'HPi009-A', 'SCTi003-A']
+2025-10-07 13:02:57,232 - identify_test - INFO -   Identification time: 34.40s
+2025-10-07 13:02:57,232 - identify_test - INFO -   Total article time: 36.10s
+2025-10-07 13:02:57,232 - identify_test - INFO -   Estimated cost: $0.0019
+2025-10-07 13:02:57,232 - identify_test - INFO -     Saved identification results for 38582058
+2025-10-07 13:02:57,233 - identify_test - INFO -     Saved cell line list for 38582058
+2025-10-07 13:02:57,233 - identify_test - INFO -   Completed processing 38582058.pdf
+2025-10-07 13:02:57,233 - identify_test - INFO - [54/54] Processing: 38583293.pdf
+2025-10-07 13:02:57,234 - identify_test - INFO -   Identifying cell lines...
+2025-10-07 13:02:57,234 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-07 13:02:58,939 - identify_cell_lines - INFO - Successfully converted PDF to 6 images
+2025-10-07 13:02:58,939 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-07 13:02:58,965 - identify_cell_lines - INFO - Sending 6 images to gpt-5-nano for cell line identification...
+2025-10-07 13:03:19,141 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 13:03:19,142 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 13522, Completion: 661, Total: 14183 tokens
+2025-10-07 13:03:19,142 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-07 13:03:19,142 - identify_cell_lines - INFO - Parsing cell line names from response...
+2025-10-07 13:03:19,142 - identify_cell_lines - INFO - Successfully identified 2 unique cell lines:
+2025-10-07 13:03:19,142 - identify_cell_lines - INFO -   1. HPi006-A
+2025-10-07 13:03:19,142 - identify_cell_lines - INFO -   2. HPi007-A
+2025-10-07 13:03:19,142 - identify_cell_lines - INFO - Complete list: ['HPi006-A', 'HPi007-A']
+2025-10-07 13:03:19,143 - identify_test - INFO -   Found 2 cell lines: ['HPi006-A', 'HPi007-A']
+2025-10-07 13:03:19,143 - identify_test - INFO -   Identification time: 20.18s
+2025-10-07 13:03:19,143 - identify_test - INFO -   Total article time: 21.91s
+2025-10-07 13:03:19,143 - identify_test - INFO -   Estimated cost: $0.0009
+2025-10-07 13:03:19,143 - identify_test - INFO -     Saved identification results for 38583293
+2025-10-07 13:03:19,143 - identify_test - INFO -     Saved cell line list for 38583293
+2025-10-07 13:03:19,144 - identify_test - INFO -   Completed processing 38583293.pdf
+2025-10-07 13:03:19,145 - identify_test - INFO - 
+============================================================
+2025-10-07 13:03:19,145 - identify_test - INFO - CELL LINE IDENTIFICATION RUN SUMMARY
+2025-10-07 13:03:19,145 - identify_test - INFO - ============================================================
+2025-10-07 13:03:19,145 - identify_test - INFO - Run ID: 251007_123852_identify
+2025-10-07 13:03:19,145 - identify_test - INFO - Model used: gpt-5-nano
+2025-10-07 13:03:19,145 - identify_test - INFO - 
+ARTICLE PROCESSING:
+2025-10-07 13:03:19,145 - identify_test - INFO -   Total articles: 54
+2025-10-07 13:03:19,145 - identify_test - INFO -   Successfully processed: 54
+2025-10-07 13:03:19,145 - identify_test - INFO -   Failed to process: 0
+2025-10-07 13:03:19,145 - identify_test - INFO -   No cell lines found: 9
+2025-10-07 13:03:19,145 - identify_test - INFO - 
+ARTICLES WITH NO CELL LINES (9):
+2025-10-07 13:03:19,146 - identify_test - INFO -   1. 29499499.pdf
+2025-10-07 13:03:19,146 - identify_test - INFO -   2. 31039485.pdf
+2025-10-07 13:03:19,146 - identify_test - INFO -   3. 32887382.pdf
+2025-10-07 13:03:19,146 - identify_test - INFO -   4. 33316599.pdf
+2025-10-07 13:03:19,146 - identify_test - INFO -   5. 34157503.pdf
+2025-10-07 13:03:19,146 - identify_test - INFO -   6. 34619644.pdf
+2025-10-07 13:03:19,146 - identify_test - INFO -   7. 37315423.pdf
+2025-10-07 13:03:19,146 - identify_test - INFO -   8. 38277710.pdf
+2025-10-07 13:03:19,146 - identify_test - INFO -   9. 38458031.pdf
+2025-10-07 13:03:19,146 - identify_test - INFO - 
+CELL LINE IDENTIFICATION:
+2025-10-07 13:03:19,146 - identify_test - INFO -   Total cell lines found: 135
+2025-10-07 13:03:19,146 - identify_test - INFO - 
+PERFORMANCE:
+2025-10-07 13:03:19,146 - identify_test - INFO -   Total identification time: 1466.31s
+2025-10-07 13:03:19,146 - identify_test - INFO -   Average time per article: 27.15s
+2025-10-07 13:03:19,146 - identify_test - INFO -   Average time per 20 articles: 543.08s (9.1 min)
+2025-10-07 13:03:19,146 - identify_test - INFO -   Average time per cell line: 10.86s
+2025-10-07 13:03:19,146 - identify_test - INFO -   Total estimated cost: $0.0701
+2025-10-07 13:03:19,147 - identify_test - INFO - 
+Results saved to: /home/stefanmirandadev/projects/stefan-masters-research-package/tests/test_curation/gpt-5/gpt-5-nano/results/251007_123852_identify
+2025-10-07 13:03:19,147 - identify_test - INFO - ============================================================

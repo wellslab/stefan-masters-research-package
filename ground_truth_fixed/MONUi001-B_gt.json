@@ -1,0 +1,114 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "86200001.2",
+      "cell_type": "hiPSC",
+      "frozen": "False",
+      "hpscreg_name": "MONUi001-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem cell research",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "first_author": "Pugsley K",
+      "last_author": "Bellgrove MA",
+      "year": "2023",
+      "pmid": "37494850"
+    }
+  ],
+  "donor": [
+    {
+      "age": "UN",
+      "sex": "M",
+      "disease_description": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "disease_name": "autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "False",
+      "marker_list": "SRY-box transcription factor 17;Forkhead box A2",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "Brachyury / Bry;ACTA2",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "Microtubule Associated Protein 2;NeuN",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "arr(X,Y)x1,(1-22)x2",
+      "karyotype_method": "Other",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "EPI",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "25688",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "NS"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "cell_lines": [
+    "AIBNi001",
+    "AIBNi002",
+    "AIBNi003",
+    "AIBNi004",
+    "GENIE 11",
+    "GENIE 29",
+    "GENIE 49",
+    "GENIE 75",
+    "GENIE 81",
+    "GENIE 116"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 127817,
+    "completion_tokens": 64,
+    "total_tokens": 127881,
+    "identification_time_seconds": 13.398183107376099
+  },
+  "raw_response": "```python\n['AIBNi001', 'AIBNi002', 'AIBNi003', 'AIBNi004', 'GENIE 11', 'GENIE 29', 'GENIE 49', 'GENIE 75', 'GENIE 81', 'GENIE 116']\n```"
+}

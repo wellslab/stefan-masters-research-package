@@ -1,0 +1,114 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Missing",
+      "cell_type": "hiPSC",
+      "frozen": "False",
+      "hpscreg_name": "CIAUi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centenary Institute of Cancer Medicine and Cell Biology"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101450",
+      "journal": "Stem cell research",
+      "title": "Characterization of the first induced pluripotent stem cell line generated from a patient with autosomal dominant catecholaminergic polymorphic ventricular tachycardia due to a heterozygous mutation in cardiac calsequestrin-2",
+      "first_author": "Ross S",
+      "last_author": "Semsarian C",
+      "year": "2019",
+      "pmid": "31039485"
+    }
+  ],
+  "donor": [
+    {
+      "age": "UN",
+      "sex": "F",
+      "disease_description": "Any catecholaminergic polymorphic ventricular tachycardia in which the cause of the disease is a mutation in the CASQ2 gene.",
+      "disease_name": "catecholaminergic polymorphic ventricular tachycardia 2"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "VA",
+      "cytoband": "chr1(GRCh38):g.115732968T>C",
+      "delivery_method": "",
+      "description": "Any catecholaminergic polymorphic ventricular tachycardia in which the cause of the disease is a mutation in the CASQ2 gene.",
+      "genotype": "",
+      "loci_name": "CASQ2"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "EN",
+      "show_potency": "False",
+      "marker_list": "CXCR4;SOX17",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "ME",
+      "show_potency": "False",
+      "marker_list": "TNNT2;NKX2.5",
+      "method_used": "Missing",
+      "description": "Missing"
+    },
+    {
+      "cell_type": "EC",
+      "show_potency": "False",
+      "marker_list": "NESTIN;PAX6",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Normal",
+      "karyotype_method": "MKSNP",
+      "summary": ""
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "EPI",
+      "non_int_vector_name": ""
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "X19-0108 and 2019/ETH00461",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Ethics Review Committee, Sydney Local Health District"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "NS"
+    }
+  ]
+}

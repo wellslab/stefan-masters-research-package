@@ -1,0 +1,13 @@
+{
+  "cell_lines": [
+    "UOWe010-A-W",
+    "H9 NGN2 B6"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 9168,
+    "completion_tokens": 986,
+    "total_tokens": 10154,
+    "identification_time_seconds": 40.467103481292725
+  },
+  "raw_response": "[\"UOWe010-A-W\", \"H9 NGN2 B6\"]"
+}

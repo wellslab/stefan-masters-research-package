@@ -1,0 +1,15 @@
+{
+  "cell_lines": [
+    "MNTASi002-A",
+    "MNTASi003-A",
+    "MNTASi004-A",
+    "MNTASi005-A"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 102453,
+    "completion_tokens": 36,
+    "total_tokens": 102489,
+    "identification_time_seconds": 12.323868751525879
+  },
+  "raw_response": "```python\n[\"MNTASi002-A\", \"MNTASi003-A\", \"MNTASi004-A\", \"MNTASi005-A\"]\n```"
+}

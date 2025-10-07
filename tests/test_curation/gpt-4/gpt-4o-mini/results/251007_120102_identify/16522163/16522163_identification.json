@@ -1,0 +1,15 @@
+{
+  "cell_lines": [
+    "hES3",
+    "hES3.1",
+    "hES3.2",
+    "hES3.3"
+  ],
+  "usage_metadata": {
+    "prompt_tokens": 229821,
+    "completion_tokens": 30,
+    "total_tokens": 229851,
+    "identification_time_seconds": 28.21127200126648
+  },
+  "raw_response": "```python\n['hES3', 'hES3.1', 'hES3.2', 'hES3.3']\n```"
+}
