@@ -1,0 +1,102 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1042ips1",
+      "hpscreg_name": "LEIi015-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Lions Eye Institute",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102154",
+      "title": "Generation of two induced pluripotent stem cell lines LEIi015-A and LEIi015-B from a patient with inherited retinal disease caused by compound heterozygous mutations in SNRNP200",
+      "journal": "Stem Cell Research",
+      "last_author": "Chen",
+      "first_author": "Dan Zhang",
+      "year": "2021.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A5_9",
+      "disease_name": "Rod-cone dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "c.1792C>T; c.3341T>C",
+      "mutation_type": "Variant",
+      "loci_name": "SNRNP200",
+      "description": "Compound heterozygous mutations in SNRNP200 gene"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "SC900A-1 (Episomal reprogramming plasmid kit, System Biosciences)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "06/09/2017",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Office"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

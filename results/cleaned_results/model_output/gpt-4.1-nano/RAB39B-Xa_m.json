@@ -1,0 +1,67 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MEL-1 10.2; MEL-1 30.3",
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "RAB39B-Xa"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "P.J.",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "paul.lockhart@mcri.edu.au"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Y. Gao",
+      "year": "2018.0",
+      "first_author": "Gao Y",
+      "doi": "10.1016/j.scr.2018.02.015",
+      "journal": "Stem Cell Research",
+      "pmid": "1873-5061",
+      "title": "Generation of RAB39B knockout isogenic human embryonic stem cell lines to model RAB39B-mediated Parkinson's disease"
+    }
+  ],
+  "donor": [
+    {
+      "disease_name": "Parkinson's Disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "RAB39B gene deletion",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "RAB39B",
+      "genotype": "NM_171998.3:c.87_234del",
+      "mutation_type": "GKO"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Normal karyotype confirmed at passage 9",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2017"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "e_preimplant_genetic_diagnosis": "False",
+      "embryo_stage": "BICM"
+    }
+  ]
+}

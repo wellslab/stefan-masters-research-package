@@ -1,0 +1,110 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "HPI003-A",
+      "cell_line_alt_name": "iPS-7247-C5",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Harry Perkins Institute of Medical Research",
+      "first_name": "Dr. Joshua",
+      "last_name": "Clayton",
+      "name_initials": "J",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102829",
+      "journal": "Stem Cell Research",
+      "title": "Generation of an induced pluripotent stem cell line from a 3-month-old neonatal with a heterozygous dominant c.515C > A (p.Ala172Glu) variant in the ACTA1 gene",
+      "first_author": "J.S. Clayton",
+      "last_author": "Gianina Ravenscroft",
+      "year": "2022",
+      "pmid": "102829"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A1_4",
+      "sex": "Missing",
+      "disease_name": "Neonatal myopathy",
+      "disease_description": "heterozygous dominant c.515C > A (p.Ala172Glu) variant in the ACTA1 gene"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "heterozygous dominant c.515C > A (p.Ala172Glu) variant in the ACTA1 gene",
+      "genotype": "NM_001101.0: c.515C > A",
+      "loci_name": "ACTA1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotyping at passage 10 showed a normal male karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "2021",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

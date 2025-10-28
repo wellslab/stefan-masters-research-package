@@ -1,0 +1,115 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1082iPS10",
+      "hpscreg_name": "LEIi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Lions Eye Institute",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.11.013",
+      "title": "Generation of the induced pluripotent stem cell line from a patient with autosomal recessive ABCA4-mediated Stargardt Macular Dystrophy",
+      "journal": "Stem Cell Research",
+      "last_author": "Fred K. Chen",
+      "first_author": "Johann N. Claassen",
+      "year": "2019.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A15_19",
+      "disease_description": "Autosomal recessive ABCA4-mediated Stargardt disease; patient harbours compound heterozygous ABCA4 variants c.5461-10T > C and c.4139C > T",
+      "disease_name": "Stargardt Macular Dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6; DCX",
+      "method_used": "qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "DCN; GATA2; BMP4; IGF2",
+      "method_used": "qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "AFP",
+      "method_used": "qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Genome-wide CNV profiling using the Illumina HumanCoreExome-24 Beadchip demonstrated a normal diploid karyotype (46,XX) with no chromosomal rearrangements detected."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Dermal Fibroblasts",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2018",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "Human Research Ethics Office, University of Western Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

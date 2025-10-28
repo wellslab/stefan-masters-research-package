@@ -1,0 +1,71 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi004-A-1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Samuel McLenachan",
+      "year": "2018.0",
+      "first_author": "Zhang X",
+      "doi": "10.1016/j.scr.2018.04.014",
+      "journal": "Stem Cell Research",
+      "pmid": "29753273",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with non-syndromic CLN3-associated retinal degeneration and a coisogenic control line"
+    },
+    {
+      "last_author": "Samuel McLenachan",
+      "year": "2021.0",
+      "first_author": "Zhang X",
+      "doi": "10.1002/mgg3.1601",
+      "journal": "Molecular genetics & genomic medicine",
+      "pmid": "33497524",
+      "title": "Gene correction of the CLN3 c.175G>A variant in patient-derived induced pluripotent stem cells prevents pathological changes in retinal organoids"
+    },
+    {
+      "last_author": "Trippier PC",
+      "year": "2021.0",
+      "first_author": "Morsy A",
+      "doi": "10.3390/molecules26206235",
+      "journal": "Molecules (Basel, Switzerland)",
+      "pmid": "34684815",
+      "title": "Patient-Derived Induced Pluripotent Stem Cell Models for Phenotypic Screening in the Neuronal Ceroid Lipofuscinoses"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Retinitis pigmentosa (RP) is an inherited retinal dystrophy leading to progressive loss of the photoreceptors and retinal pigment epithelium and resulting in blindness usually after several decades.",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "41",
+      "karyotype_method": "Other"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-LEIi004-A-1"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

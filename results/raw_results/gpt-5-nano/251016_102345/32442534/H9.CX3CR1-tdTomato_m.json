@@ -1,0 +1,118 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "H9.CX3CR1-tdTomato",
+      "cell_line_alt_name": "Missing",
+      "cell_type": "ESC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Monash University",
+      "first_name": "Colin",
+      "last_name": "Pouton",
+      "name_initials": "C",
+      "e_mail": "colin.pouton@monash.edu",
+      "phone_number": "Missing"
+    },
+    {
+      "group": "Monash University",
+      "first_name": "Jose",
+      "last_name": "Polo",
+      "name_initials": "J",
+      "e_mail": "jose.polo@monash.edu",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "journal": "Stem Cell Reports",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vivo-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture",
+      "first_author": "Alexandra Grubman",
+      "last_author": "Jose M. Polo",
+      "year": "2020",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM",
+      "sex": "Female",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Knock in",
+      "cytoband": "Missing",
+      "delivery_method": "Crispr/Cas9",
+      "description": "Knock-in of tdTomato reporter into CX3CR1 locus",
+      "genotype": "Missing",
+      "loci_name": "CX3CR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "P2RY12; TREM2; CD11b; CX3CR1; CD45",
+      "method_used": "FACS, IF",
+      "description": "in vitro differentiation of iMGLs derived from H9 CX3CR1-tdTomato line"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

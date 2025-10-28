@@ -1,0 +1,109 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1042ips4",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi015-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "McLenachan-Chen-LEI"
+    },
+    {
+      "first_name": "Fred",
+      "name_initials": "K",
+      "e_mail": "fredchen@lei.org.au",
+      "last_name": "Chen",
+      "group": "McLenachan-Chen-LEI"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Chen FK",
+      "year": "2021.0",
+      "first_author": "Zhang D",
+      "doi": "10.1016/j.scr.2020.102154",
+      "journal": "Stem Cell Research",
+      "pmid": "33429167",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with recessive inherited retinal disease caused by compound heterozygous mutations in SNRNP200 gene"
+    },
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2021.0",
+      "first_author": "Dan Zhang",
+      "doi": "https://doi.org/10.1016/j.scr.2020.102154",
+      "journal": "Stem Cell Research",
+      "pmid": "33429167",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with recessive inherited retinal disease caused by compound heterozygous mutations in SNRNP200 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "5_9",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX7",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "DCN; IGF2; GATA2",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype": "arr(1-22,X)x2",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium HumanCoreExome-24; resolution 0.5 Mb).",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "CL:0002620",
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2017-01-01",
+      "non_int_vector_name": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal",
+      "i_source_cell_origin_id": "UBERON:0002067"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

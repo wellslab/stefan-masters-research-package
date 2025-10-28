@@ -1,0 +1,144 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "iPS-789-C1",
+      "hpscreg_name": "HPIi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Clayton-HPI",
+      "e_mail": " joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102482",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 10-year-old typical nemaline myopathy patient with a heterozygous dominant c.541G>A (p.Asp179Asn) pathogenic variant in the ACTA1 gene",
+      "journal": "Stem cell research",
+      "last_author": "Taylor RL",
+      "first_author": "Clayton JS",
+      "year": "2021.0",
+      "pmid": "34388489"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2021.102482",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 10-year-old typical nemaline myopathy patient with a heterozygous dominant c.541G>A (p.Asp179Asn) pathogenic variant in the ACTA1 gene.",
+      "journal": "Stem Cell Research",
+      "last_author": "Rhonda L Taylor",
+      "first_author": "Joshua S Clayton",
+      "year": "2021.0",
+      "pmid": "34388489"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "GATA4; SOX17",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "BMP4; TBXT",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EC"
+    },
+    {
+      "marker_list": "GATA4",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "Brachyury",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "OTX2",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "47,XXX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping by G-banding occurred at passage 10. At least 8 metaphase spreads were analysed.",
+      "passage_number": "14"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "SV",
+      "derivation_year": "2020-01-01",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit",
+      "i_source_cell_type_id": "BTO:0000773",
+      "i_source_cell_origin_id": "UBERON:0000178"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EF"
+    }
+  ]
+}

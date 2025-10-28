@@ -1,0 +1,150 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hESC",
+      "cell_line_alt_name": "GENEA004; SIVF04; SIVF004",
+      "hpscreg_name": "GENEAe003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Genea"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Schmidt-GENEA",
+      "e_mail": " info@geneabiocells.com",
+      "last_name": "Schmidt",
+      "first_name": "Uli"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1089/clo.2007.0062",
+      "title": "Karyotypically normal and abnormal human embryonic stem cell lines derived from PGD-analyzed embryos",
+      "journal": "Cloning and stem cells",
+      "last_author": "Stojanov T",
+      "first_author": "Peura T",
+      "year": "2008.0",
+      "pmid": "18386991"
+    },
+    {
+      "doi": "https://doi.org/10.1089/clo.2007.0062",
+      "title": "Karyotypically normal and abnormal human embryonic stem cell lines derived from PGD-analyzed embryos.",
+      "journal": "Cloning and Stem Cells",
+      "last_author": "Tomas Stojanov",
+      "first_author": "Teija Peura",
+      "year": "2008.0",
+      "pmid": "18386991"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "EM",
+      "disease_description": "Line originated from an embryo with a PGD result of \"chaotic\" (analyzed cell showed at least two different aneuploidies)",
+      "disease_name": "Chaotic (No 21)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    },
+    {
+      "marker_list": "AFP",
+      "method_used": "RT-PCR",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "VEGFR2",
+      "method_used": "RT-PCR",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "NCAM",
+      "method_used": "RT-PCR",
+      "show_potency": "True",
+      "cell_type": "EC"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred at passages 7, 32 and 65.",
+      "passage_number": "65"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "trophectoderm_morphology": "TA",
+      "embryo_stage": "BICM",
+      "icm_morphology": "TA",
+      "e_preimplant_genetic_diagnosis": "True",
+      "zp_removal_technique": "MA"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Holding Entry-GENEAe003-A",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Sydney IVF Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "ME"
+    }
+  ]
+}

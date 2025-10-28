@@ -1,0 +1,56 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "E1C4P4",
+      "cell_type": "ESC",
+      "frozen": "True",
+      "hpscreg_name": "E1C4"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Laboratory, Faculty of Medicine, University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bernie E. Tuch",
+      "year": "2008.0",
+      "first_author": "Kuldip S. Sidhu",
+      "doi": "10.1089/scd.2007.0055",
+      "journal": "Stem Cells and Development",
+      "title": "Original Research Report Derivation of a New Human Embryonic Stem Cell Line, Endeavour-1, and Its Clonal Propagation"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "E1C4 has 46XX karyotype, no translocations reported.",
+      "karyotype_method": "Karyotyping"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "01270"
+    },
+    {
+      "ethics_number": "02247"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

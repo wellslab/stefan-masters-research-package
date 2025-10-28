@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "ESC",
+      "hpscreg_name": "E1C3"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Laboratory, Faculty of Medicine, University of New South Wales, Randwick, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Stem Cell Laboratory, Faculty of Medicine, University of New South Wales, Randwick, Australia",
+      "last_name": "Sidhu",
+      "first_name": "Kuldip"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1089/scd.2007.0055",
+      "title": "Derivation of a New Human Embryonic Stem Cell Line, Endeavour-1, and Its Clonal Propagation",
+      "journal": "Stem Cells and Development",
+      "last_author": "Bernie E. Tuch",
+      "first_author": "Kuldip S. Sidhu",
+      "year": "2008.0"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "\u03b2-III tubulin",
+      "method_used": "Immunolocalization",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "marker_list": "CD34",
+      "method_used": "Immunolocalization",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "marker_list": "AFP",
+      "method_used": "Immunolocalization",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "marker_list": "SOX17; FOXA2; GATA4",
+      "method_used": "RT-PCR; Immunolocalization",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46XX",
+      "karyotype_method": "Spectral karyotyping",
+      "summary": "E1C3 showed a normal karyotype (46XX) at passage 4.",
+      "passage_number": "4"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "zp_removal_technique": "mechanical"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "01270",
+      "institutional_HREC": "University of New South Wales Ethics Committee"
+    },
+    {
+      "ethics_number": "DC2247",
+      "institutional_HREC": "University of New South Wales Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

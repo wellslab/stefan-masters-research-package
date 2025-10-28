@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "TRPV4\u00a0p.F273L; MCRIi001-A-2-TRPV4 p.F273L; PB001-SOX9tdTom-TRPV4p.F273L; SOX9tdTom-TRPV4 p.F273L",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi001-A-3"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Shireen",
+      "e_mail": "shireen.lamande@mcri.edu.au",
+      "last_name": "Lamand\u00e9",
+      "group": "Lamand\u00e9-MCRI"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Lamand\u00e9 SR",
+      "year": "2020.0",
+      "first_author": "Nur Patria Y",
+      "doi": "10.1016/j.scr.2020.101942",
+      "journal": "Stem Cell Research",
+      "pmid": "32771907",
+      "title": "CRISPR/Cas9 gene editing of a SOX9 reporter human iPSC line to produce two TRPV4 patient heterozygous missense mutant iPSC lines, MCRIi001-A-3 (TRPV4 p.F273L) and MCRIi001-A-4 (TRPV4 p.P799L)"
+    },
+    {
+      "last_author": "Kimber SJ",
+      "year": "2022.0",
+      "first_author": "Humphreys PA",
+      "doi": "10.1016/j.semcdb.2021.11.024",
+      "journal": "Seminars in cell & developmental biology",
+      "pmid": "34949507",
+      "title": "Developmental principles informing human pluripotent stem cell differentiation to cartilage and bone"
+    },
+    {
+      "last_author": "Wu CL",
+      "year": "2023.0",
+      "first_author": "Dicks AR",
+      "doi": "10.1007/978-1-0716-2839-3_8",
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "pmid": "36355287",
+      "title": "Chondrogenic Differentiation of Human-Induced Pluripotent Stem Cells"
+    },
+    {
+      "last_author": "Lamand\u00e9 SR",
+      "year": "2020.0",
+      "first_author": "Nur Patria Y",
+      "doi": "https://doi.org/10.1016/j.scr.2020.101942",
+      "journal": "Stem Cell Research",
+      "pmid": "32771907",
+      "title": "CRISPR/Cas9 gene editing of a SOX9 reporter human iPSC line to produce two TRPV4 patient heterozygous missense mutant iPSC lines, MCRIi001-A-3 (TRPV4 p.F273L) and MCRIi001-A-4 (TRPV4 p.P799L)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous c.819C>G (p.Phe273Leu) variant was introduced to TRPV4.  Synonymous changes were also introduced.",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "TRPV4",
+      "cytoband": "12q24.11",
+      "genotype": "Heterozygous: unspecified_reference_TRPV4:c.819C>G",
+      "mutation_type": "IM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "HNF4A",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "COL2A1",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "5.0",
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "approval_date": "1900-01-01",
+      "ethics_number": "35121 A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

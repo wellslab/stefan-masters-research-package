@@ -1,0 +1,73 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "PB001 (MCRIi001-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Katerina",
+      "name_initials": "K",
+      "e_mail": "katerina.vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Andrew G. Elefanty",
+      "year": "2019.0",
+      "first_author": "Katerina Vlahos",
+      "doi": "10.1016/j.scr.2018.101380",
+      "journal": "Stem Cell Research",
+      "pmid": "101380",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A60_64",
+      "disease_name": "Healthy"
+    },
+    {
+      "sex": "Female",
+      "age": "A30_34",
+      "disease_name": "Healthy"
+    },
+    {
+      "sex": "Female",
+      "age": "A40_44",
+      "disease_name": "Healthy"
+    },
+    {
+      "sex": "Male",
+      "age": "A30_34",
+      "disease_name": "Healthy"
+    },
+    {
+      "sex": "Male",
+      "age": "A20_24",
+      "disease_name": "Healthy"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "RCH Human Research Ethics Committee",
+      "ethics_number": "35121A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

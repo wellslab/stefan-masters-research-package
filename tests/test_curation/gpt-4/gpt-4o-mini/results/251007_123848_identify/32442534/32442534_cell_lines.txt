@@ -1,8 +1,0 @@
-Cell lines identified in 32442534:
-========================================
-
-1. H9CX3CR1-tdTomato
-2. iMGL_abud
-3. iMGL_abud-ReN
-4. iMGL_abud-cholesterol
-5. iMGL_muffat

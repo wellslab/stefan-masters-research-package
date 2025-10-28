@@ -1,0 +1,109 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "UBC3 M1",
+      "hpscreg_name": "CIAUi002-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centenary Institute of Cancer Medicine and Cell Biology"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103153",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with conduction disease and recurrent ventricular fibrillation with a sodium voltage-gated channel alpha subunit 5 (SCN5A) gene c.392\u00a0+\u00a03A\u00a0>\u00a0G splice-site variant",
+      "journal": "Stem cell research",
+      "last_author": "Semsarian C",
+      "first_author": "Li S",
+      "year": "2023.0",
+      "pmid": "37385135"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "A conduction block of the left branch of the bundle of His. This manifests as a generalized disturbance of QRS morphology on EKG.",
+      "disease_name": "Left bundle branch block"
+    },
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "Forms of cardiomyopathy that are not related to known coronary artery disease.",
+      "disease_name": "nonischemic cardiomyopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "VA",
+      "loci_name": "SCN5A",
+      "description": "A conduction block of the left branch of the bundle of His. This manifests as a generalized disturbance of QRS morphology on EKG."
+    },
+    {
+      "mutation_type": "VA",
+      "loci_name": "SCN5A",
+      "description": "Forms of cardiomyopathy that are not related to known coronary artery disease."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "CXCR4;SOX17",
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "TNNT2;NKX2-5",
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "NES;PAX6",
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "Normal",
+      "karyotype_method": "Other"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "EPI"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "X19-0108 and 2019/ETH00461",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Ethics Review Committee, Sydney Local Health District"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

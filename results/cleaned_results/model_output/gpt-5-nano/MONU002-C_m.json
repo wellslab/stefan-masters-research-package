@@ -1,0 +1,79 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MONU002-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Mark",
+      "name_initials": "M.A.",
+      "e_mail": "mark.bellgrove@monash.edu",
+      "last_name": "Bellgrove",
+      "group": "Monash University - Turner Institute for Brain and Mental Health"
+    },
+    {
+      "first_name": "Ziarih",
+      "name_initials": "Z.",
+      "e_mail": "ziarih.hawi@monash.edu",
+      "last_name": "Hawi",
+      "group": "Monash University - Turner Institute for Brain and Mental Health"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mark A Bellgrove",
+      "year": "2023.0",
+      "first_author": "Kealan Pugsley",
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "pmid": "103170",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A10_14",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Normal karyotype; no chromosomal abnormalities detected.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "25688"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "ESIBIe003-A-10"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102547",
+      "title": "An INSULIN-GFP/GLUCAGON-mCherry reporter line for the study of human pancreatic endocrine cell development",
+      "journal": "Stem cell research",
+      "last_author": "Schiesser JV",
+      "first_author": "Labonne T",
+      "year": "2021.0",
+      "pmid": "34619644"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "cytoband location 11p15.5",
+      "delivery_method": "homologous_recombination",
+      "mutation_type": "GKI",
+      "loci_name": "INSULIN",
+      "description": "GFP was inserted into one allele of the INSULIN locus as described in Micallef et al 2012"
+    },
+    {
+      "cytoband": "cytoband location 2q24.2",
+      "delivery_method": "talen",
+      "mutation_type": "GKI",
+      "loci_name": "GLUCAGON",
+      "description": "mCherry was inserted into one allele of the GLUCAGON locus as described in Labonne et al 2021"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Holding Entry-ESIBIe003-A",
+      "institutional_HREC": "Holding Entry"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

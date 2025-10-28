@@ -1,0 +1,96 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "86202443.5/443.5 (MONUi002-B)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MONUi002-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ziarih",
+      "e_mail": "ziarih.hawi@monash.edu",
+      "last_name": "Hawi",
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mark A Bellgrove",
+      "year": "2023.0",
+      "first_author": "Kealan Pugsley",
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A10_14",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NeuN; MAP2",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA; Brachyury/Bry",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "arr(1-22,X)x2",
+      "summary": "Molecular karyotyping of the reprogrammed lines by the VCGS revealed the expected karyotypes without aneuploidy. Comparative analyses between array data from the iPSCs and their respective parental PBMC lines demonstrated 99.99% concordance.",
+      "karyotype_method": "Illumina Infinium GSA-24 Array"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2023-06-10",
+      "non_int_vector_name": "Episomal vector-based reprogramming (OCT4, SOX2, KLF4, MYC)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "25688"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

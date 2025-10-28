@@ -1,0 +1,64 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MNZTASi006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "A multiple sclerosis that is characterized by steady worsening of neurologic functioning, without any distinct relapses or periods of remission. The rate of progression may vary over time, with occasional plateaus or temporary improvements, but the progression is continuous.; Primary progressive multiple sclerosis is the form of the multiple sclerosis in which clinical disability progression occurs continuously without remissions.",
+      "disease_name": "primary progressive multiple sclerosis"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "HNF4A"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "GATA4"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "NESTIN"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Other"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "H0016915"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EN"
+    }
+  ]
+}

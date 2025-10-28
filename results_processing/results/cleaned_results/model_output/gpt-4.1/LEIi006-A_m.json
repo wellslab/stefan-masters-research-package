@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "LEIi006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute, Nedlands, WA, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Lions Eye Institute",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1002/mgg3.1489",
+      "title": "Characterization of CRB1 splicing in retinal organoids derived from a patient with adult-onset rod-cone dystrophy caused by the c.1892A>G and c.2548G>A variants",
+      "journal": "Molecular Genetics & Genomic Medicine",
+      "last_author": "Fred K. Chen",
+      "first_author": "Xiao Zhang",
+      "year": "2020.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "50_54",
+      "disease_description": "Adult-onset rod-cone dystrophy caused by compound heterozygous mutations in CRB1 (c.1892A>G and c.2548G>A)",
+      "disease_name": "Rod-cone dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "CRB1: c.1892A>G/c.2548G>A",
+      "mutation_type": "Variant",
+      "loci_name": "CRB1",
+      "description": "Compound heterozygous CRB1 mutations: c.1892A>G (p.Tyr631Cys) and c.2548G>A (p.Gly850Ser)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6; RCVRN; CRB1",
+      "method_used": "Immunostaining; RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "Mutations in CRB1 confirmed by Sanger sequencing; no karyotype data reported."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/1976",
+      "institutional_HREC": "University of Western Australia"
+    },
+    {
+      "ethics_number": "RA/4/20/5717",
+      "institutional_HREC": "Sir Charles Gairdner Hospital"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

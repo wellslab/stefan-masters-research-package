@@ -1,0 +1,30 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "hES 3.2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, NSW 2031 Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kuldip",
+      "name_initials": "K",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2006.0",
+      "first_author": "Kuldip S. Sidhu",
+      "journal": "Stem Cell Research",
+      "title": "Derivation of Three Clones from Human Embryonic Stem Cell Lines by FACS Sorting and Their Characterization"
+    }
+  ]
+}

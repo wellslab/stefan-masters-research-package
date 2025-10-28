@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "RP1ips6",
+      "hpscreg_name": "LEIi005-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "F.K.",
+      "group": "The University of Western Australia",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "Chen",
+      "first_name": "Dr. Fred K. Chen"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101452",
+      "title": "Generation of an induced pluripotent stem cell lines from a patient with retinitis pigmentosa caused by RP1 mutation",
+      "journal": "Stem Cell Research",
+      "last_author": "Fred K. Chen",
+      "first_author": "Xiao Zhang",
+      "year": "2019.0",
+      "pmid": "101452"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A20_24",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "19q13.2",
+      "genotype": "Heterozygous: c.2098G > T",
+      "mutation_type": "Variant",
+      "loci_name": "RP1",
+      "description": "c.2098G > T heterozygous nonsense mutation in RP1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Genome-wide copy number variation profiling demonstrated that the iPSC were female and had normal diploid karyotypes (46,XX)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2019"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

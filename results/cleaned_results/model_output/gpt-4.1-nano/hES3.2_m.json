@@ -1,0 +1,41 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "hES3.2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, NSW 2031 Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kuldip",
+      "name_initials": "K",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu",
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, NSW 2031 Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Richards M.",
+      "year": "2005.0",
+      "first_author": "Kuldip S. Sidhu",
+      "doi": "10.1016/j.scr.2005.07.003",
+      "journal": "Stem Cell Research",
+      "pmid": "16186086",
+      "title": "Derivation of Three Clones from Human Embryonic Stem Cell Lines by FACS Sorting and Their Characterization"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Standard karyotype analysis showing normal 46XX chromosomal complement.",
+      "karyotype_method": "G-banding"
+    }
+  ]
+}

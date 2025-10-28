@@ -1,0 +1,128 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "ESC",
+      "hpscreg_name": "SIVF12"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF Research Department"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Sydney IVF"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1089/clo.2007.0062",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos",
+      "journal": "Cloning and Stem Cells",
+      "last_author": "Tomas Stojanov",
+      "first_author": "Teija Peura",
+      "year": "2008.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "NCAM",
+      "method_used": "RT-PCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "VEGFR2 (KDR, FLK1)",
+      "method_used": "RT-PCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "AFP",
+      "method_used": "RT-PCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "Neuroepithelium (histology)",
+      "method_used": "Histology",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "marker_list": "Gut epithelium (histology)",
+      "method_used": "Histology",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "marker_list": "Bone (histology)",
+      "method_used": "Histology",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vivo teratoma"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal female karyotype (46,XX) confirmed; karyotyped at passages 9 and 27.",
+      "passage_number": "9"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "e_preimplant_genetic_diagnosis": "False",
+      "zp_removal_technique": "enzymatic"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Sydney IVF (Sydney, Australia)"
+    },
+    {
+      "institutional_HREC": "Sanatorium Helios (Brno, Czech Republic)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "mechanically"
+    }
+  ]
+}

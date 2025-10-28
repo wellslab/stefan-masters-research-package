@@ -1,0 +1,103 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "iPSC COL2A1 p.R719C; MCRIi019-A-6",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi019-A-6"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Matthew",
+      "name_initials": "D",
+      "e_mail": "mshoulde@mit.edu",
+      "last_name": "Shoulders",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Matthew D. Shoulders",
+      "year": "2023.0",
+      "first_author": "Kathryn M. Yammine",
+      "doi": "10.1016/j.scr.2023.103020",
+      "journal": "Stem Cell Research",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C iPSC line (MCRIi019-A-6) model of human precocious osteoarthritis"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "NEO"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous COL2A1 c.2155C>T (p.R719C) mutation introduced by CRISPR/Cas9 and ODN repair template",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "COL2A1",
+      "cytoband": "12q13.11",
+      "genotype": "Heterozygous COL2A1 c.2155C>T (p.R719C)",
+      "mutation_type": "GKI"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "Brachyury",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; NESTIN",
+      "method_used": "Immunocytochemistry"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "20",
+      "karyotype": "46,XX",
+      "summary": "G-band karyotyping at 0.50 Mb resolution, 20 metaphase cells counted, no chromosomal abnormalities detected.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2020",
+      "non_int_vector_name": "Episomal vectors",
+      "i_source_cell_type_term": "induced pluripotent cell line MCRIi019-A",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "ethics_number": "HREC/51321/A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EN"
+    }
+  ]
+}

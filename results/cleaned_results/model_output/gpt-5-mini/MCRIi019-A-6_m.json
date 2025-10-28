@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1502.3 COL2A1 p.R719C (MCRIi019-A-6)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi019-A-6"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Matthew",
+      "name_initials": "M.D.",
+      "e_mail": "mshoulde@mit.edu",
+      "last_name": "Shoulders",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Matthew D. Shoulders",
+      "year": "2023.0",
+      "first_author": "Kathryn M. Yammine",
+      "doi": "10.1016/j.scr.2023.103020",
+      "journal": "Stem Cell Research",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C iPSC line (MCRIi019-A-6) model of human precocious osteoarthritis"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "FE"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Introduction of a heterozygous COL2A1 exon 33 c.2155C>T (p.R719C) mutation into the control iPSC line MCRIi019-A to generate MCRIi019-A-6.",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "COL2A1",
+      "cytoband": "12q13.11",
+      "genotype": "Heterozygous COL2A1 c.2155C>T (p.R719C)",
+      "mutation_type": "GKI"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "Brachyury",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; NESTIN",
+      "method_used": "Immunocytochemistry"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "G-banded karyotype showed 46,XX with no chromosomal abnormalities detected; SNP array and STR profiling confirmed identity to parental line and absence of large-scale genomic alterations.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2020",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "ethics_number": "HREC35121A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "RYR1-3278-R2A (HPi006-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "HPi006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "J",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "L. Laing",
+      "year": "2024.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2024.103410",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two iPSC lines from patients with inherited central core disease and concurrent malignant hyperthermia caused by dominant missense variants in the RYR1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A1_4",
+      "disease_description": "dominant missense variants in RYR1",
+      "disease_name": "Central core disease of muscle; Malignant hyperthermia susceptibility 1"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Inherited variant in RYR1 associated with central core disease and malignant hyperthermia",
+      "loci_name": "RYR1",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "Normal male karyotype; no chromosomal abnormalities observed.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell (LCL)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA-4/20/1008"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

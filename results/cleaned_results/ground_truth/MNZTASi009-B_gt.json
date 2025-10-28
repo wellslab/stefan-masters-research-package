@@ -1,0 +1,26 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MS_0009.2",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MNZTASi009-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-MNZTASi009-B"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

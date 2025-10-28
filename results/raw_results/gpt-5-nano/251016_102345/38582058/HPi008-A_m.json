@@ -1,0 +1,130 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "HPi008-A",
+      "cell_line_alt_name": "RYR1-4833-R7 (HPi008-A); RYR1-15377-R1 (HPi009-A)",
+      "cell_type": "hiPSC",
+      "frozen": "Missing"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Harry Perkins Institute of Medical Research",
+      "first_name": "Joshua",
+      "last_name": "Clayton",
+      "name_initials": "S",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103411",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene",
+      "first_author": "Joshua S. Clayton",
+      "last_author": "Rhonda L. Taylor",
+      "year": "2024",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A25_29",
+      "sex": "Female",
+      "disease_name": "Central core disease",
+      "disease_description": "RYR1-related central core disease"
+    },
+    {
+      "age": "A25_29",
+      "sex": "Female",
+      "disease_name": "Central core disease",
+      "disease_description": "RYR1-related central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Dominant RYR1 variant present in donor; iPSCs reprogrammed from LCLs",
+      "genotype": "Missing",
+      "loci_name": "RYR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": true,
+      "marker_list": "TBXT; BMP4",
+      "method_used": "qPCR",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": true,
+      "marker_list": "SOX17; GATA4",
+      "method_used": "qPCR",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": true,
+      "marker_list": "OTX2; PAX6",
+      "method_used": "qPCR",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "lymphoblastoid cell line",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "Missing",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "approval_date": "Missing",
+      "institutional_HREC": "Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

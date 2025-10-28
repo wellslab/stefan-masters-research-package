@@ -1,0 +1,652 @@
+{
+  "AIBNi001-A": {
+    "gt_cell_line": "AIBNi001-A",
+    "pmid": "34649201",
+    "categorisation": "Exact"
+  },
+  "AIBNi002-A": {
+    "gt_cell_line": "AIBNi002-A",
+    "pmid": "34649201",
+    "categorisation": "Exact"
+  },
+  "AIBNi003-A": {
+    "gt_cell_line": "AIBNi003-A",
+    "pmid": "34649201",
+    "categorisation": "Exact"
+  },
+  "AIBNi004-A": {
+    "gt_cell_line": "AIBNi004-A",
+    "pmid": "34649201",
+    "categorisation": "Exact"
+  },
+  "AIBNi005-A": {
+    "gt_cell_line": "AIBNi005-A",
+    "pmid": "34649201",
+    "categorisation": "Exact"
+  },
+  "AIBNi006-A": {
+    "gt_cell_line": "AIBNi006-A",
+    "pmid": "34649201",
+    "categorisation": "Exact"
+  },
+  "AIBNi007-A": {
+    "gt_cell_line": "AIBNi007-A",
+    "pmid": "35074713",
+    "categorisation": "Exact"
+  },
+  "AIBNi008-A": {
+    "gt_cell_line": "AIBNi008-A",
+    "pmid": "35074713",
+    "categorisation": "Exact"
+  },
+  "AIBNi009-A": {
+    "gt_cell_line": "AIBNi009-A",
+    "pmid": "35074713",
+    "categorisation": "Exact"
+  },
+  "AIBNi010-A": {
+    "gt_cell_line": "AIBNi010-A",
+    "pmid": "35074713",
+    "categorisation": "Exact"
+  },
+  "AIBNi011-A": {
+    "gt_cell_line": "AIBNi011-A",
+    "pmid": "35074713",
+    "categorisation": "Exact"
+  },
+  "AIBNi012-A": {
+    "gt_cell_line": "AIBNi012-A",
+    "pmid": "35074713",
+    "categorisation": "Exact"
+  },
+  "AIBNi013-A": {
+    "gt_cell_line": "AIBNi013-A",
+    "pmid": "34507143",
+    "categorisation": "Exact"
+  },
+  "AIBNi015-A": {
+    "gt_cell_line": "AIBNi015-A",
+    "pmid": "36166872",
+    "categorisation": "Exact"
+  },
+  "AIBNi016-A": {
+    "gt_cell_line": "AIBNi016-A",
+    "pmid": "36166872",
+    "categorisation": "Exact"
+  },
+  "AIBNi017-A": {
+    "gt_cell_line": "AIBNi017-A",
+    "pmid": "36166872",
+    "categorisation": "Exact"
+  },
+  "AIBNi018-A": {
+    "gt_cell_line": "AIBNi018-A",
+    "pmid": "36166872",
+    "categorisation": "Exact"
+  },
+  "CIAU1002-C": {
+    "gt_cell_line": "CIAUi002-C",
+    "pmid": "37385135",
+    "categorisation": "Manual"
+  },
+  "E-2": {
+    "gt_cell_line": "POWHe002-A",
+    "pmid": "20178001",
+    "categorisation": "Manual"
+  },
+  "E1": {
+    "gt_cell_line": "POWHe001-A",
+    "pmid": "18271699",
+    "categorisation": "Manual"
+  },
+  "E1C1": {
+    "gt_cell_line": "POWHe001-A-1",
+    "pmid": "18271699",
+    "categorisation": "Manual"
+  },
+  "E1C2": {
+    "gt_cell_line": "POWHe001-A-2",
+    "pmid": "18271699",
+    "categorisation": "Manual"
+  },
+  "E1C3": {
+    "gt_cell_line": "POWHe001-A-3",
+    "pmid": "18271699",
+    "categorisation": "Manual"
+  },
+  "E1C4": {
+    "gt_cell_line": "POWHe001-A-4",
+    "pmid": "18271699",
+    "categorisation": "Manual"
+  },
+  "Endeavour-2": {
+    "gt_cell_line": "POWHe002-A",
+    "pmid": "20178001",
+    "categorisation": "Manual"
+  },
+  "FINi003-A": {
+    "gt_cell_line": "FINi003-A",
+    "pmid": "38479087",
+    "categorisation": "Exact"
+  },
+  "H9.CX3CR1-tdTomato": {
+    "gt_cell_line": "WAe009-A-24",
+    "pmid": "32442534",
+    "categorisation": "Manual"
+  },
+  "HPI003-A": {
+    "gt_cell_line": "HPIi003-A",
+    "pmid": "35728439",
+    "categorisation": "Manual"
+  },
+  "HPI004-A": {
+    "gt_cell_line": "HPIi004-A",
+    "pmid": "35728440",
+    "categorisation": "Manual"
+  },
+  "HPI004-B": {
+    "gt_cell_line": "HPIi004-B",
+    "pmid": "35728440",
+    "categorisation": "Manual"
+  },
+  "HPII002-A": {
+    "gt_cell_line": "HPIi002-A",
+    "pmid": "34388489",
+    "categorisation": "Manual"
+  },
+  "HPII002-B": {
+    "gt_cell_line": "HPIi002-B",
+    "pmid": "34388489",
+    "categorisation": "Manual"
+  },
+  "HPIi001-A": {
+    "gt_cell_line": "HPIi001-A",
+    "pmid": "33740643",
+    "categorisation": "Exact"
+  },
+  "HPIi001-B": {
+    "gt_cell_line": "HPIi001-B",
+    "pmid": "33740643",
+    "categorisation": "Exact"
+  },
+  "HPIi005-A": {
+    "gt_cell_line": "HPIi005-A",
+    "pmid": "38029555",
+    "categorisation": "Exact"
+  },
+  "HPIi005-B": {
+    "gt_cell_line": "HPIi005-B",
+    "pmid": "38029555",
+    "categorisation": "Exact"
+  },
+  "HPIi008-A": {
+    "gt_cell_line": "HPIi008-A",
+    "pmid": "38582058",
+    "categorisation": "Exact"
+  },
+  "HPIi009-A": {
+    "gt_cell_line": "HPIi009-A",
+    "pmid": "38582058",
+    "categorisation": "Exact"
+  },
+  "HPli006-A": {
+    "gt_cell_line": "HPIi006-A",
+    "pmid": "38583293",
+    "categorisation": "Manual"
+  },
+  "HPli007-A": {
+    "gt_cell_line": "HPIi007-A",
+    "pmid": "38583293",
+    "categorisation": "Manual"
+  },
+  "LEIi005-B": {
+    "gt_cell_line": "LEIi005-B",
+    "pmid": "31059986",
+    "categorisation": "Exact"
+  },
+  "LEIi006-A": {
+    "gt_cell_line": "LEIi006-A",
+    "pmid": "32931148",
+    "categorisation": "Exact"
+  },
+  "LEIi007-A": {
+    "gt_cell_line": "LEIi007-A",
+    "pmid": "30634128",
+    "categorisation": "Exact"
+  },
+  "LEIi008-A": {
+    "gt_cell_line": "LEIi008-A",
+    "pmid": "30611018",
+    "categorisation": "Exact"
+  },
+  "LEIi009-A": {
+    "gt_cell_line": "LEIi009-A",
+    "pmid": "30611018",
+    "categorisation": "Exact"
+  },
+  "LEIi010-A": {
+    "gt_cell_line": "LEIi010-A",
+    "pmid": "30904819",
+    "categorisation": "Exact"
+  },
+  "LEIi010-B": {
+    "gt_cell_line": "LEIi010-B",
+    "pmid": "30904819",
+    "categorisation": "Exact"
+  },
+  "LEIi012-A": {
+    "gt_cell_line": "LEIi012-A",
+    "pmid": "32810830",
+    "categorisation": "Exact"
+  },
+  "LEIi012-B": {
+    "gt_cell_line": "LEIi012-B",
+    "pmid": "32810830",
+    "categorisation": "Exact"
+  },
+  "LEIi014-A": {
+    "gt_cell_line": "LEIi014-A",
+    "pmid": "33360097",
+    "categorisation": "Exact"
+  },
+  "LEIi014-B": {
+    "gt_cell_line": "LEIi014-B",
+    "pmid": "33360097",
+    "categorisation": "Exact"
+  },
+  "LEIi014-C": {
+    "gt_cell_line": "LEIi014-C",
+    "pmid": "33360097",
+    "categorisation": "Exact"
+  },
+  "LEIi015-A": {
+    "gt_cell_line": "LEIi015-A",
+    "pmid": "33429167",
+    "categorisation": "Exact"
+  },
+  "LEIi015-B": {
+    "gt_cell_line": "LEIi015-B",
+    "pmid": "33429167",
+    "categorisation": "Exact"
+  },
+  "LEIi017-A": {
+    "gt_cell_line": "LEIi017-A",
+    "pmid": "34198153",
+    "categorisation": "Exact"
+  },
+  "LEIi017-B": {
+    "gt_cell_line": "LEIi017-B",
+    "pmid": "34198153",
+    "categorisation": "Exact"
+  },
+  "LEIi018i-A": {
+    "gt_cell_line": "LEIi018-A",
+    "pmid": "34214897",
+    "categorisation": "Manual"
+  },
+  "LEIii011-A": {
+    "gt_cell_line": "LEIi011-A",
+    "pmid": "31494449",
+    "categorisation": "Manual"
+  },
+  "LEIii011-B": {
+    "gt_cell_line": "LEIi010-B",
+    "pmid": "31494449",
+    "categorisation": "Manual"
+  },
+  "LEIii011-C": {
+    "gt_cell_line": "LEIi011-C",
+    "pmid": "31494449",
+    "categorisation": "Manual"
+  },
+  "MCRIi001-A": {
+    "gt_cell_line": "MCRIi001-A",
+    "pmid": "30605840",
+    "categorisation": "Exact"
+  },
+  "MCRIi002-A": {
+    "gt_cell_line": "MCRIi002-A",
+    "pmid": "37150143",
+    "categorisation": "Exact"
+  },
+  "MCRIi003-A": {
+    "gt_cell_line": "MCRIi003-A",
+    "pmid": "37150143",
+    "categorisation": "Exact"
+  },
+  "MCRIi004-A": {
+    "gt_cell_line": "MCRIi004-A",
+    "pmid": "30605840",
+    "categorisation": "Exact"
+  },
+  "MCRIi005-A": {
+    "gt_cell_line": "MCRIi005-A",
+    "pmid": "30605840",
+    "categorisation": "Exact"
+  },
+  "MCRIi006-A": {
+    "gt_cell_line": "MCRIi006-A",
+    "pmid": "30605840",
+    "categorisation": "Exact"
+  },
+  "MCRIi007-A": {
+    "gt_cell_line": "MCRIi007-A",
+    "pmid": "37150143",
+    "categorisation": "Exact"
+  },
+  "MCRIi008-A": {
+    "gt_cell_line": "MCRIi008-A",
+    "pmid": "37150143",
+    "categorisation": "Exact"
+  },
+  "MCRIi009-A": {
+    "gt_cell_line": "MCRIi009-A",
+    "pmid": "37150143",
+    "categorisation": "Exact"
+  },
+  "MCRIi010-A": {
+    "gt_cell_line": "MCRIi010-A",
+    "pmid": "38277710",
+    "categorisation": "Exact"
+  },
+  "MCRIi011-A": {
+    "gt_cell_line": "MCRIi011-A",
+    "pmid": "31415975",
+    "categorisation": "Exact"
+  },
+  "MCRIi012-A": {
+    "gt_cell_line": "MCRIi012-A",
+    "pmid": "31415975",
+    "categorisation": "Exact"
+  },
+  "MCRIi013-A": {
+    "gt_cell_line": "MCRIi013-A",
+    "pmid": "31415975",
+    "categorisation": "Exact"
+  },
+  "MCRIi014-A": {
+    "gt_cell_line": "MCRIi014-A",
+    "pmid": "31415975",
+    "categorisation": "Exact"
+  },
+  "MCRIi015-A": {
+    "gt_cell_line": "MCRIi015-A",
+    "pmid": "31415975",
+    "categorisation": "Exact"
+  },
+  "MCRIi016-A": {
+    "gt_cell_line": "MCRIi016-A",
+    "pmid": "31415975",
+    "categorisation": "Exact"
+  },
+  "MCRIi017-A": {
+    "gt_cell_line": "MCRIi017-A",
+    "pmid": "31415975",
+    "categorisation": "Exact"
+  },
+  "MCRIi019-A-6": {
+    "gt_cell_line": "MCRIi019-A-6",
+    "pmid": "36682125",
+    "categorisation": "Exact"
+  },
+  "MCRIi020-A": {
+    "gt_cell_line": "MCRIi020-A",
+    "pmid": "33091851",
+    "categorisation": "Exact"
+  },
+  "MCRIi021-A": {
+    "gt_cell_line": "MCRIi021-A",
+    "pmid": "33091851",
+    "categorisation": "Exact"
+  },
+  "MCRIi022-A": {
+    "gt_cell_line": "MCRIi022-A",
+    "pmid": "33091851",
+    "categorisation": "Exact"
+  },
+  "MCRIi023-A": {
+    "gt_cell_line": "MCRIi023-A",
+    "pmid": "33091851",
+    "categorisation": "Exact"
+  },
+  "MCRIi025-A": {
+    "gt_cell_line": "MCRIi025-A",
+    "pmid": "36805468",
+    "categorisation": "Exact"
+  },
+  "MCRIi026-A": {
+    "gt_cell_line": "MCRIi026-A",
+    "pmid": "36805468",
+    "categorisation": "Exact"
+  },
+  "MCRIi026-B": {
+    "gt_cell_line": "MCRIi026-B",
+    "pmid": "36805468",
+    "categorisation": "Exact"
+  },
+  "MCRIi027-B": {
+    "gt_cell_line": "MCRIi027-B",
+    "pmid": "36805468",
+    "categorisation": "Exact"
+  },
+  "MICCNi001-A": {
+    "gt_cell_line": "MICCNi001-A",
+    "pmid": "30622032",
+    "categorisation": "Exact"
+  },
+  "MICCNi001-B": {
+    "gt_cell_line": "MICCNi001-B",
+    "pmid": "30622032",
+    "categorisation": "Exact"
+  },
+  "MICCNi002-A": {
+    "gt_cell_line": "MICCNi002-A",
+    "pmid": "30622032",
+    "categorisation": "Exact"
+  },
+  "MICCNi002-B": {
+    "gt_cell_line": "MICCNi002-B",
+    "pmid": "30622032",
+    "categorisation": "Exact"
+  },
+  "MNTZSi002-A": {
+    "gt_cell_line": "MNZTASi002-A",
+    "pmid": "35679759",
+    "categorisation": "Manual"
+  },
+  "MNTZSi003-A": {
+    "gt_cell_line": "MNZTASi003-A",
+    "pmid": "35679759",
+    "categorisation": "Manual"
+  },
+  "MNTZSi004-A": {
+    "gt_cell_line": "MNZTASi004-A",
+    "pmid": "35679759",
+    "categorisation": "Manual"
+  },
+  "MNTZSi005-A": {
+    "gt_cell_line": "MNZTASi005-A",
+    "pmid": "35679759",
+    "categorisation": "Manual"
+  },
+  "MNZTASI019-A": {
+    "gt_cell_line": "MNZTASi019-A",
+    "pmid": "38433209",
+    "categorisation": "Manual"
+  },
+  "MNZTASI021-A": {
+    "gt_cell_line": "MNZTASi021-A",
+    "pmid": "38433209",
+    "categorisation": "Manual"
+  },
+  "MNZTASI022-A": {
+    "gt_cell_line": "MNZTASi022-A",
+    "pmid": "38433209",
+    "categorisation": "Manual"
+  },
+  "MONUi001-A": {
+    "gt_cell_line": "MONUi001-A",
+    "pmid": "37494850",
+    "categorisation": "Exact"
+  },
+  "MONUi001-B": {
+    "gt_cell_line": "MONUi001-B",
+    "pmid": "37494850",
+    "categorisation": "Exact"
+  },
+  "MONUi001-C": {
+    "gt_cell_line": "MONUi001-C",
+    "pmid": "37494850",
+    "categorisation": "Exact"
+  },
+  "MONUi002-A": {
+    "gt_cell_line": "MONUi002-A",
+    "pmid": "37494850",
+    "categorisation": "Exact"
+  },
+  "MONUi002-B": {
+    "gt_cell_line": "MONUi002-B",
+    "pmid": "37494850",
+    "categorisation": "Exact"
+  },
+  "MONUi002-C": {
+    "gt_cell_line": "MONUi002-C",
+    "pmid": "37494850",
+    "categorisation": "Exact"
+  },
+  "MONUi003-A": {
+    "gt_cell_line": "MONUi003-A",
+    "pmid": "37494850",
+    "categorisation": "Exact"
+  },
+  "MONUi003-B": {
+    "gt_cell_line": "MONUi003-B",
+    "pmid": "37494850",
+    "categorisation": "Exact"
+  },
+  "MONUi003-C": {
+    "gt_cell_line": "MONUi003-C",
+    "pmid": "37494850",
+    "categorisation": "Exact"
+  },
+  "SIVF001": {
+    "gt_cell_line": "GENEAe001-A",
+    "pmid": "20198447",
+    "categorisation": "Manual"
+  },
+  "SIVF002": {
+    "gt_cell_line": "GENEAe002-A",
+    "pmid": "20198447",
+    "categorisation": "Manual"
+  },
+  "SIVF014": {
+    "gt_cell_line": "",
+    "pmid": "20198447",
+    "categorisation": "Discovery"
+  },
+  "SIVF03": {
+    "gt_cell_line": "GENEAe003-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "SIVF04": {
+    "gt_cell_line": "GENEAe004-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "SIVF05": {
+    "gt_cell_line": "GENEAe005-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "SIVF06": {
+    "gt_cell_line": "GENEAe006-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "SIVF07": {
+    "gt_cell_line": "GENEAe007-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "SIVF08": {
+    "gt_cell_line": "GENEAe008-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "SIVF09": {
+    "gt_cell_line": "GENEAe009-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "SIVF10": {
+    "gt_cell_line": "GENEAe010-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "SIVF11": {
+    "gt_cell_line": "GENEAe011-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "SIVF12": {
+    "gt_cell_line": "GENEAe012-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "SIVF13": {
+    "gt_cell_line": "GENEAe013-A",
+    "pmid": "18386991",
+    "categorisation": "Manual"
+  },
+  "UOCi001-A": {
+    "gt_cell_line": "UOCi001-A",
+    "pmid": "35917601",
+    "categorisation": "Exact"
+  },
+  "UOCi002-A": {
+    "gt_cell_line": "UOCi002-A",
+    "pmid": "35917601",
+    "categorisation": "Exact"
+  },
+  "UOMELBi002-A": {
+    "gt_cell_line": "UOMELBi002-A",
+    "pmid": "34088002",
+    "categorisation": "Exact"
+  },
+  "UOWIe010-A-W": {
+    "gt_cell_line": "WAe009-A-W",
+    "pmid": "38244534",
+    "categorisation": "Manual"
+  },
+  "UOWi007-A": {
+    "gt_cell_line": "UOWi007-A",
+    "pmid": "32006803",
+    "categorisation": "Exact"
+  },
+  "VCCRi002-A": {
+    "gt_cell_line": "VCCRIi002-A",
+    "pmid": "37939621",
+    "categorisation": "Manual"
+  },
+  "VCCRi003-A": {
+    "gt_cell_line": "VCCRIi003-A",
+    "pmid": "37939621",
+    "categorisation": "Manual"
+  },
+  "hES 3.1": {
+    "gt_cell_line": "ESIBIe003-A-1",
+    "pmid": "16522163",
+    "categorisation": "Manual"
+  },
+  "hES 3.2": {
+    "gt_cell_line": "ESIBIe003-A-2",
+    "pmid": "16522163",
+    "categorisation": "Manual"
+  },
+  "hES 3.3": {
+    "gt_cell_line": "ESIBIe003-A-3",
+    "pmid": "16522163",
+    "categorisation": "Manual"
+  }
+}

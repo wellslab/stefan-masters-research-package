@@ -1,0 +1,64 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CIM001.4",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "UOCi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Calgary"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Chad A. Bousman",
+      "year": "2022.0",
+      "first_author": "Nazanin Vaziri",
+      "doi": "10.1016/j.scr.2022.102877",
+      "journal": "Stem Cell Research",
+      "pmid": "35917601",
+      "title": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "3",
+      "karyotype": "46,XX",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Melbourne Health Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "2017.007 AND REB17-1994"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

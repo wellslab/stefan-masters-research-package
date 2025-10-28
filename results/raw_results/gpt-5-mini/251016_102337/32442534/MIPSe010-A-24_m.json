@@ -1,0 +1,115 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "MIPSe010-A-24",
+      "cell_line_alt_name": "WAe009-A-24; H9.CX3CR1-tdTomato",
+      "cell_type": "ESC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Monash University",
+      "first_name": "Colin",
+      "last_name": "Pouton",
+      "name_initials": "W",
+      "e_mail": "colin.pouton@monash.edu",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "journal": "Stem Cell Reports",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture",
+      "first_author": "Alexandra Grubman",
+      "last_author": "Jose M. Polo",
+      "year": "2020",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM",
+      "sex": "Missing",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Transgene expression",
+      "cytoband": "Missing",
+      "delivery_method": "Crispr/Cas9",
+      "description": "CRISPR/Cas9-mediated insertion of a dual reporter cassette (tdTomato fluorescent reporter and nanoluciferase enzymatic reporter) into the CX3CR1 locus; donor included selection cassettes (neomycin/kanamycin) and a DTA cassette for negative selection.",
+      "genotype": "Missing",
+      "loci_name": "CX3CR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Clones were screened by PCR and Southern blot to confirm targeting and were confirmed to be free of chromosomal aberrations via karyotyping (Figure S1F). Pluripotency was confirmed by teratoma assay (Figure S1G)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "8826",
+      "approval_date": "Missing",
+      "institutional_HREC": "Monash University Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "23066",
+      "approval_date": "Missing",
+      "institutional_HREC": "Monash University Institutional Biosafety Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

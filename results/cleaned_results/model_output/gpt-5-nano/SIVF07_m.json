@@ -1,0 +1,51 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "SIVF07"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2008.0",
+      "first_author": "Teija Peura",
+      "doi": "10.1089/clo.2007.0062",
+      "journal": "Cloning and Stem Cells",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Normal karyotype.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Sydney IVF Ethics Committee"
+    },
+    {
+      "institutional_HREC": "Sanatorium Helios (Brno, Czech Republic)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.06",
+      "o2_concentration": "0.05",
+      "passage_method": "ME"
+    }
+  ]
+}

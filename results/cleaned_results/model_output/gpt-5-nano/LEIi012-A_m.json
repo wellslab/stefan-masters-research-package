@@ -1,0 +1,68 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "012-A",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi012-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "M",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute, University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Samuel McLenachan",
+      "year": "2020.0",
+      "first_author": "Luke Jennings",
+      "doi": "10.1016/j.scr.2020.101947",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt Macular Dystrophy caused by the c.768G > T and c.6079C > T mutations in ABCA4"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A30_34",
+      "disease_name": "Stargardt Macular Dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Two ABCA4 variants identified in patient: c.768G>T and c.6079C>T",
+      "loci_name": "ABCA4",
+      "genotype": "Compound heterozygous ABCA4 c.768G>T; c.6079C>T",
+      "mutation_type": "VA"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2017-03-20",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

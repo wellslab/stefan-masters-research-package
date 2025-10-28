@@ -1,0 +1,121 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1042IpS4",
+      "hpscreg_name": "LEIi015-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "K",
+      "group": "Lions Eye Institute",
+      "e_mail": "fredchen@lei.org.au",
+      "last_name": "Chen",
+      "first_name": "Fred"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102154",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with recessive inherited retinal disease caused by compound heterozygous mutations in SNRNP200",
+      "journal": "Stem Cell Research",
+      "last_author": "Fred K. Chen",
+      "first_author": "Dan Zhang",
+      "year": "2021.0",
+      "pmid": "33385364"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A5_9",
+      "disease_description": "Retinitis pigmentosa with rod-cone dystrophy and macular oedema caused by compound heterozygous mutations in SNRNP200",
+      "disease_name": "Rod-cone dystrophy, macular oedema"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "2q11.2",
+      "genotype": "SNRNP200: c.1792C>T; c.3341C>T",
+      "mutation_type": "Variant",
+      "loci_name": "SNRNP200",
+      "description": "Compound heterozygous SNRNP200 c.1792C>T and c.3341C>T mutations"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "DCN; IGF2",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "GATA2; SOX7",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Illumina Beadchip SNP array",
+      "summary": "Digital karyotyping showed normal 46,XX karyotype with no pathogenic copy number alterations detected.",
+      "passage_number": "9"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Dermal fibroblasts",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2017",
+      "non_int_vector_name": "Episomal plasmids encoding OCT4, SOX2, KLF4, L-MYC, LIN28, miR302/367, shRNA for P53",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "Human Research Ethics Office, University of Western Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

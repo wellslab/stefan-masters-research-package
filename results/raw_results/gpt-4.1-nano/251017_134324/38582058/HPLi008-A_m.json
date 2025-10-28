@@ -1,0 +1,110 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "HPLi008-A",
+      "cell_line_alt_name": "RYRI-4833-R7; RYRI-15377-R1B",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Harry Perkins Institute of Medical Research",
+      "first_name": "J.S.",
+      "last_name": "Clayton",
+      "name_initials": "J.S.",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103411",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene",
+      "first_author": "J.S. Clayton",
+      "last_author": "Missing",
+      "year": "2024",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_name": "Central core disease of muscle",
+      "disease_description": "A genetic disorder characterized by muscle weakness and structural abnormalities in muscle fibers, associated with variants in the RYR1 gene."
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Dominant missense variants in the RYR1 gene",
+      "genotype": "RYR1 c.14437C>T (p.His4813Tyr); RYR1 c.14437C>T (p.His4813Tyr)",
+      "loci_name": "RYR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Genomic analysis confirmed the presence of the RYR1 variants associated with central core disease."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "2024",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

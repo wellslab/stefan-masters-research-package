@@ -1,0 +1,26 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "PPMI11555.104SNCA.A53T(AAVS1::CAGG-iM.jRCaMP1b)",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "FINi005-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-FINi005-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

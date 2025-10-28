@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CANVAS3-2 Het GC; C3-2 Het GC",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi026-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "P.J.",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Paul J. Lockhart",
+      "year": "2023.0",
+      "first_author": "Kayli C. Davies",
+      "doi": "10.1016/j.scr.2023.103047",
+      "journal": "Stem Cell Research",
+      "title": "Generation and heterozygous repair of human iPSC lines from three individuals with cerebellar ataxia, neuropathy and vestibular areflexia syndrome (CANVAS) carrying biallelic AAGGG expansions in RFC1"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A60_64",
+      "disease_description": "Biallelic AAGGG expansions in RFC1",
+      "disease_name": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous gene correction of RFC1 AAGGG expansion via CRISPR/Cas9",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "RFC1",
+      "genotype": "Heterozygous gene corrected",
+      "mutation_type": "IM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "SNP array (0.5 Mb resolution) showed a normal female karyotype (46XX) for the C3-2 and C3-2 Het GC lines; no aneuploidies or large deletions/insertions detected.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "pEP4 E02S ET2K, pEP4 E02S EN2L, pEP4 E02S EM2K (Addgene plasmids #20927, #20922, #20923)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "ethics_number": "HREC 28097"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "RP1ips6",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi005-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "S",
+      "e_mail": "samuel.mclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Centre for Ophthalmology and Visual Sciences, The University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2019.0",
+      "first_author": "Xiao Zhang",
+      "doi": "10.1016/j.scr.2019.101452",
+      "journal": "Stem Cell Research",
+      "title": "Generation of an induced pluripotent stem cell line LEIi005-B from a patient with retinitis pigmentosa caused by RP1 mutation"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A75_79",
+      "disease_description": "RP1 mutation",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Reprogramming using episomal plasmids containing OCT4, SOX2, KLF4, L-MYC, LIN28, miR-302/367",
+      "delivery_method": "Other",
+      "mutation_type": "TE"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Normal karyotype",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "SC900A-1, System Biosciences",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ]
+}

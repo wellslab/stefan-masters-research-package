@@ -1,0 +1,52 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "069 (VCCRli002-A); 096 (VCCRli003-A)",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "VCCRli002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Victor Chang Cardiac Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Robert M",
+      "name_initials": "B",
+      "e_mail": "B.Graham@victorchang.edu.au",
+      "last_name": "Graham",
+      "group": "Victor Chang Cardiac Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Robert M Graham",
+      "year": "2023.0",
+      "first_author": "Bax M",
+      "doi": "10.1016/j.scr.2023.103238",
+      "journal": "Stem Cell Research",
+      "pmid": "1055862",
+      "title": "Generation of induced pluripotent stem cell lines from a sister pair who suffered post-partum or recurrent Spontaneous Coronary Artery Dissections"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "43",
+      "disease_name": "Spontaneous Coronary Artery Dissection"
+    },
+    {
+      "sex": "F",
+      "age": "37",
+      "disease_name": "Spontaneous Coronary Artery Dissection"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ]
+}

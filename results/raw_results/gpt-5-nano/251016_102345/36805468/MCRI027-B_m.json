@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "MCRI027-B",
+      "cell_line_alt_name": "Missing",
+      "cell_type": "hiPSC",
+      "frozen": false
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Murdoch Children's Research Institute",
+      "first_name": "Paul",
+      "last_name": "Lockhart",
+      "name_initials": "P.J.",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103047",
+      "journal": "Stem Cell Research",
+      "title": "Generation and heterozygous repair of human iPSC lines from three individuals with cerebellar ataxia, neuropathy and vestibular areflexia syndrome (CANVAS) carrying biallelic AAGGG expansions in RFC1",
+      "first_author": "Kayli C. Davies",
+      "last_author": "Paul J. Lockhart",
+      "year": "2023",
+      "pmid": "103047"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_name": "CANVAS",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Isogenic modification",
+      "cytoband": "Missing",
+      "delivery_method": "Crispr/Cas9",
+      "description": "RFC1 expansion corrected to wild-type allele; generation of isogenic control iPSC lines",
+      "genotype": "Homozygous: RFC1 normal allele",
+      "loci_name": "RFC1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": true,
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": true,
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": true,
+      "marker_list": "Sox17",
+      "method_used": "Immunofluorescence",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "Missing",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "pEP4 E02S ET2K"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

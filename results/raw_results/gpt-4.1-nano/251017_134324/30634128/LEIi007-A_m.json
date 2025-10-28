@@ -1,0 +1,116 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "LEIi007-A",
+      "cell_line_alt_name": "1082ips10",
+      "cell_type": "iPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Missing",
+      "first_name": "Missing",
+      "last_name": "Missing",
+      "name_initials": "Missing",
+      "e_mail": "Missing",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.11.013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of the induced pluripotent stem cell line from a patient with autosomal recessive ABCA4-mediated Stargardt Macular Dystrophy",
+      "first_author": "J.N. Claassen",
+      "last_author": "Missing",
+      "year": "2019",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A15_19",
+      "sex": "Missing",
+      "disease_name": "Stargardt Macular Dystrophy",
+      "disease_description": "autosomal recessive ABCA4-mediated"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "NM",
+      "loci_name": "ABCA4"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "2018",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ],
+  "resource": {
+    "resource_table": "https://doi.org/10.1016/j.scr.2018.11.013",
+    "date_archived_stock": "5/4/18",
+    "cell_line_repository_bank": "N/A",
+    "ethical_approval": "Human Research Ethics Office, University of Western Australia (RA/4/1/7916)"
+  }
+}

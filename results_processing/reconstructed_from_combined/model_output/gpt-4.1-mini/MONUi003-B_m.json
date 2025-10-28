@@ -1,0 +1,117 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "86203213.2/213.2 (MONUi003-B)",
+      "hpscreg_name": "MONUi003-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University",
+      "e_mail": "ziarih.hawi@monash.edu",
+      "last_name": "Hawi",
+      "first_name": "Ziarih"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103170",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "journal": "Stem Cell Research",
+      "last_author": "Mark A Bellgrove",
+      "first_author": "Kealan Pugsley",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A10_14",
+      "disease_name": "Autism spectrum disorder (autism)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "NeuN; MAP2",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "SMA; Brachyury/Bry",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(X,Y)x1,(1\u201322)x2",
+      "karyotype_method": "Illumina Infinium GSA-24 Array",
+      "summary": "Molecular karyotyping revealed expected karyotype without aneuploidy. Comparative analyses showed 99.99% concordance with parental PBMC lines.",
+      "passage_number": "10"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2023-06-10",
+      "non_int_vector_name": "Episomal vector-based reprogramming (OCT4, SOX2, KLF4, MYC)",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "25688",
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

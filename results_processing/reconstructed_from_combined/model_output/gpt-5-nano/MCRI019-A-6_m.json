@@ -1,0 +1,113 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1502_COL2A1 p.R719C (MCRI019-A-6)",
+      "hpscreg_name": "MCRI019-A-6"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "D",
+      "group": "Murdoch Children's Research Institute",
+      "e_mail": "mshoulde@mit.edu",
+      "last_name": "Shoulders",
+      "first_name": "Matthew"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103020",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C iPSC line (MCRI019-A-6) model of human precocious osteoarthritis",
+      "journal": "Stem Cell Research",
+      "last_author": "Matthew D. Shoulders",
+      "first_author": "Kathryn M. Yammin e",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "FE"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous: COL2A1 c.2155C>T; p.R719C",
+      "delivery_method": "CRISPR/Cas9",
+      "mutation_type": "Variant",
+      "loci_name": "COL2A1",
+      "description": "COL2A1 p.R719C mutation introduced; heterozygous; c.2155C>T (p.R719C)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "BRACHYURY",
+      "method_used": "Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "Nestin; Pax6",
+      "method_used": "Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotype (G-banding) confirmed absence of chromosomal abnormalities in the edited iPSC line."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblast",
+      "non_int_vector": "Episomal",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC35121",
+      "institutional_HREC": "Royal Children's Hospital"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

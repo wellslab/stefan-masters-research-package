@@ -1,0 +1,110 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "AIBNi002-A",
+      "cell_line_alt_name": "GENIE 38",
+      "cell_type": "hiPSC",
+      "frozen": true
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Wolvetang-AIBN",
+      "first_name": "Ernst",
+      "last_name": "Wolvetang",
+      "name_initials": "J",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102564",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from peripheral blood mononuclear cells of three drug resistant and three drug responsive epilepsy patients",
+      "first_author": "Zoe L. Hunter",
+      "last_author": "Lata Vadlamudi",
+      "year": "2021",
+      "pmid": "34649201"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A45_49",
+      "sex": "Female",
+      "disease_name": "Epilepsy",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Transgene expression",
+      "cytoband": "Missing",
+      "delivery_method": "Sendai virus",
+      "description": "Non-integrating Sendai virus delivery of OCT4, SOX2, KLF4 and c-MYC transgenes",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cells",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "Missing",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

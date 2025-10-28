@@ -1,0 +1,115 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "SIVF09",
+      "cell_line_alt_name": "Missing",
+      "cell_type": "ESC",
+      "frozen": false
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Sydney IVF",
+      "first_name": "Teija",
+      "last_name": "Peura",
+      "name_initials": "T",
+      "e_mail": "Missing",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1089/clo.2007.0062",
+      "journal": "Cloning and Stem Cells",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos",
+      "first_author": "Teija Peura",
+      "last_author": "Stojanov",
+      "year": "2008",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM",
+      "sex": "Missing",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Sydney IVF Ethics Committee"
+    },
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Sanatorium Helios Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.06",
+      "o2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

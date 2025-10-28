@@ -1,0 +1,43 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MNZTAsi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kaylene",
+      "name_initials": "K",
+      "e_mail": "kaylene.young@utas.edu.au",
+      "last_name": "Young",
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Young KM",
+      "year": "2022.0",
+      "first_author": "Alastair J. Fortune",
+      "doi": "10.1016/j.scr.2022.102828",
+      "journal": "Stem Cell Research",
+      "title": "Using MS induced pluripotent stem cells to investigate MS aetiology. Multiple Sclerosis and Related Disorders"
+    }
+  ],
+  "donor": [
+    {
+      "disease_name": "Multiple sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ]
+}

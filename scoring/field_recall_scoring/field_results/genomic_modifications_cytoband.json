@@ -1,0 +1,186 @@
+{
+  "field_path": "genomic_modifications.cytoband",
+  "summary": {
+    "total_comparisons": 25,
+    "total_matches": 8,
+    "total_model_missing": 16,
+    "recall": 0.32
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "3p22.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "12q13.11",
+      "model_output": "12q13.11"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "19q13.2",
+      "model_output": "F: c.7522C>T; G: c.6502G>A"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "3p22.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "12q13.11",
+      "model_output": "12q13.11"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "19q13.2",
+      "model_output": "19q13.2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "19q13.2",
+      "model_output": "19q13.2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "19q13.2",
+      "model_output": "19q13.2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "19q13.2",
+      "model_output": "19q13.2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "12q13.11",
+      "model_output": "12q13.11"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "12q13.11",
+      "model_output": "12q13.11"
+    }
+  ]
+}

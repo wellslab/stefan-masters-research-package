@@ -1,4 +1,0 @@
-Cell lines identified in 34619644:
-========================================
-
-1. INSGFP/GCGCmCherry/hESC

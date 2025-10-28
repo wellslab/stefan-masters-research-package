@@ -1,0 +1,26 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "808 iPSC",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRIi029-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-MCRIi029-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

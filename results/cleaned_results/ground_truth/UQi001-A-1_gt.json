@@ -1,0 +1,120 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "C11-TDP43-A382T",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "UQi001-A-1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Shyuan",
+      "name_initials": "T",
+      "e_mail": "s.ngo@uq.edu.au",
+      "last_name": "Ngo",
+      "group": "Ngo-UQ"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ngo ST",
+      "year": "2023.0",
+      "first_author": "Tracey TJ",
+      "doi": "10.1016/j.scr.2023.103137",
+      "journal": "Stem Cell Research",
+      "pmid": "37315423",
+      "title": "Generation of a human induced pluripotent stem cell line (UQi001-A-1) edited with the CRISPR-Cas9 system to carry the heterozygous TARDBP c.1144G\u00a0>\u00a0A (p.A382T) missense mutation"
+    },
+    {
+      "last_author": "Shyuan T Ngo",
+      "year": "2023.0",
+      "first_author": "Tracey TJ",
+      "doi": "https://doi.org/10.1016/j.scr.2023.103137",
+      "journal": "Stem Cell Research",
+      "pmid": "37315423",
+      "title": "Generation of a human induced pluripotent stem cell line (UQi001-A-1) edited with the CRISPR-Cas9 system to carry the heterozygous TARDBP c.1144G\u00a0>\u00a0A (p.A382T) missense mutation"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "A neurodegenerative disorder characterized by progressive degeneration of the motor neurons of the central nervous system. It results in weakness and atrophy of the muscles which leads to an inability to initiate and control voluntary movements.",
+      "loci_name": "TARDBP",
+      "mutation_type": "IM"
+    },
+    {
+      "description": "Heterozygous c.1144G>A (p.Ala382Thr) missense variant was introduced to TARDBP exon 6.",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "TARDBP",
+      "cytoband": "1p36.22",
+      "genotype": "Heterozygous: unspecified_reference_TARDBP:c.1144G>A",
+      "mutation_type": "IM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "SOX17"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "NCAM1"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "PAX6"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "NCAM1",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "7.0",
+      "karyotype": "46,XY",
+      "summary": "Karyotyping occurred at a resolution of 500bphs (>15 metaphases analysed).",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "The University of Queensland Human Ethics Research Office",
+      "approval_date": "2015-01-01",
+      "ethics_number": "2015/HE000667"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

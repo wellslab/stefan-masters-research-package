@@ -1,0 +1,113 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "ESC",
+      "hpscreg_name": "SIVF014"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF Stem Cells"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Sydney IVF Stem Cells",
+      "e_mail": "tomas.stojanov@sydneyivf.com",
+      "last_name": "Stojanov",
+      "first_name": "Tomas"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1007/s11626-010-9298-y",
+      "title": "Derivation of three new human embryonic stem cell lines",
+      "journal": "In Vitro Cellular & Developmental Biology - Animal",
+      "last_author": "Tomas Stojanov",
+      "first_author": "Cara K. Bradley",
+      "year": "2010.0"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "neuroepithelium; squamous epithelium",
+      "method_used": "Teratoma formation and histopathology",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "marker_list": "cartilage; smooth muscle",
+      "method_used": "Teratoma formation and histopathology",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "marker_list": "gastrointestinal epithelium; respiratory glands",
+      "method_used": "Teratoma formation and histopathology",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vivo teratoma"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46, XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotyping at early passage confirmed cytogenetically normal 46,XX karyotype.",
+      "passage_number": "7"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "e_preimplant_genetic_diagnosis": "False"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "309703",
+      "institutional_HREC": "NHMRC (Australia)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.05",
+      "passage_method": "mechanically"
+    }
+  ]
+}

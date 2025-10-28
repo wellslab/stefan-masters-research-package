@@ -1,0 +1,133 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "RP1ips6",
+      "hpscreg_name": "LEIi005-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "McLenachan-Chen-LEI",
+      "e_mail": "\u00a0smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    },
+    {
+      "name_initials": "K",
+      "group": "McLenachan-Chen-LEI",
+      "e_mail": "\u00a0fredchen@lei.org.au",
+      "last_name": "Chen",
+      "first_name": "Fred"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101452",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with retinitis pigmentosa caused by RP1 mutation",
+      "journal": "Stem cell research",
+      "last_author": "Chen FK",
+      "first_author": "Zhang X",
+      "year": "2019.0",
+      "pmid": "31059986"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2019.101452",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with retinitis pigmentosa caused by RP1 mutation.",
+      "journal": "Stem Cell Research",
+      "last_author": "Fred K Chen",
+      "first_author": "Xiao Zhang",
+      "year": "2019.0",
+      "pmid": "31059986"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "75_79",
+      "disease_name": "Retinitis Pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "AFP",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "DCN; IGF2; BMP4",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "DCX",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22,X)x2",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium HumanCoreExome-24; resolution 0.5 Mb)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "skin fibroblast",
+      "non_int_vector": "EPI",
+      "derivation_year": "2017-01-01",
+      "non_int_vector_name": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "i_source_cell_type_id": "CL:0002620",
+      "i_source_cell_origin_term": "dermis",
+      "i_source_cell_origin_id": "UBERON:0002067"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

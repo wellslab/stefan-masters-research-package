@@ -1,0 +1,106 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "LEIi017-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Australian Institute for Bioengineering and Nanotechnology",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102448",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt disease caused by compound heterozygous mutations in the ABCA4 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "McLenachan",
+      "first_author": "Di Huang",
+      "year": "2021.0",
+      "pmid": "18735061"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "16",
+      "disease_description": "compound heterozygous mutations in the ABCA4 gene",
+      "disease_name": "Stargardt disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM",
+      "mutation_type": "Targeted mutation sequencing",
+      "loci_name": "ABCA4",
+      "description": "ABCA4 c.5461-10 T>C; c.455G>T"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Genomic DNA was extracted using FlexiGene DNA kit (51206, Qiagen). PCR for Sanger sequencing was performed on a GeneTouch Thermal Cycler (35 cycles, 94 \u00b0C for 30 s, 60 \u00b0C for 60 s, 72 \u00b0C for 2min). Mycoplasma testing by PCR was performed using the Mycoplasma Testing Kit (#091, Media and Monoclonal Laboratories, Harry Perkins Institute of Medical Research, Fig. 1). PCR screening for reprogramming episomes was performed using primers listed in Table 2.",
+      "passage_number": "500"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

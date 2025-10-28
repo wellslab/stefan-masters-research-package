@@ -1,0 +1,6 @@
+{
+  "dataframe_path": "/home/stefanmirandadev/projects/stefan-masters-research-package/results_processing/cleaned_results/combined_dataframe_clean.csv",
+  "output_path": "/home/stefanmirandadev/projects/stefan-masters-research-package/results/cleaned_results",
+  "overwrite_existing": true,
+  "verbose": true
+}

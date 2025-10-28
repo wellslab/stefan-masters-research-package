@@ -1,0 +1,69 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1042ips1",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi015-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "S",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Chen",
+      "year": "2021.0",
+      "first_author": "Dan Zhang",
+      "doi": "10.1016/j.scr.2020.102154",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines LEIi015-A and LEIi015-B from a patient with inherited retinal disease caused by compound heterozygous mutations in SNRNP200"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A5_9",
+      "disease_name": "Rod-cone dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Compound heterozygous mutations in SNRNP200 gene",
+      "loci_name": "SNRNP200",
+      "genotype": "c.1792C>T; c.3341T>C",
+      "mutation_type": "VA"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "approval_date": "06/09/2017",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

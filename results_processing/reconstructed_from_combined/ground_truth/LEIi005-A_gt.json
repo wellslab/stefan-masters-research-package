@@ -1,0 +1,94 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "LEIi005-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1002/mgg3.1489",
+      "title": "Characterization of CRB1 splicing in retinal organoids derived from a patient with adult-onset rod-cone dystrophy caused by the c.1892A>G and c.2548G>A variants",
+      "journal": "Molecular genetics & genomic medicine",
+      "last_author": "Chen FK",
+      "first_author": "Zhang X",
+      "year": "2020.0",
+      "pmid": "32931148"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "Retinitis pigmentosa (RP) is an inherited retinal dystrophy leading to progressive loss of the photoreceptors and retinal pigment epithelium and resulting in blindness usually after several decades.",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46+XX",
+      "karyotype_method": "Other",
+      "passage_number": "45"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "EPI"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EF"
+    }
+  ]
+}

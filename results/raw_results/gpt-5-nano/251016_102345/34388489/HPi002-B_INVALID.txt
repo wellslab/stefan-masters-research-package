@@ -1,0 +1,114 @@
+Invalid JSON response for HPi002-B:
+
+```json
+{
+  basic_data: [
+    {
+      hpscreg_name: "HPi002-B",
+      cell_line_alt_name: "iPS-789-C2",
+      cell_type: "hiPSC",
+      frozen: "True"
+    }
+    ],
+  generator: [
+    {
+      group: "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  contact: [
+    {
+      group: "Harry Perkins Institute of Medical Research",
+      first_name: "Joshua S.",
+      last_name: "Clayton",
+      name_initials: "J.S.",
+      e_mail: "joshua.clayton@perkins.org.au",
+      phone_number: "Missing"
+    }
+  ],
+  publications: [
+    {
+      doi: "10.1016/j.scr.2021.102482",
+      journal: "Stem Cell Research",
+      title: "Generation of two isogenic induced pluripotent stem cell lines from a 10-year-old typical nemaline myopathy patient with a heterozygous dominant c.541G>A (p.Asp179Asn) pathogenic variant in the ACTA1 gene",
+      first_author: "Joshua S. Clayton",
+      last_author: "Rhonda L. Taylor",
+      year: "2021",
+      pmid: "102482"
+    }
+  ],
+  donor: [
+    {
+      age: "A10_14",
+      sex: "Female",
+      disease_name: "Nemaline myopathy",
+      disease_description: "p.Asp179Asn ACTA1 variant; c.541G>A"
+    }
+  ],
+  genomic_modifications: [
+    {
+      mutation_type: "Variant",
+      cytoband: "Missing",
+      delivery_method: "Missing",
+      description: "ACTA1 c.541G>A (p.Asp179Asn) pathogenic variant",
+      genotype: "c.541G>A; p.Asp179Asn",
+      loci_name: "ACTA1"
+    }
+  ],
+  differentiation_results: [
+    {
+      cell_type: "Missing",
+      show_potency: "Missing",
+      marker_list: "Missing",
+      method_used: "Missing",
+      description: "Missing"
+    }
+  ],
+  undifferentiated_characterisation: [
+    {
+      epi_pluri_score: "Missing",
+      pluri_test_score: "Missing",
+      pluri_novelty_score: "Missing"
+    }
+  ],
+  genomic_characterisation: [
+    {
+      passage_number: "Missing",
+      karyotype: "Missing",
+      karyotype_method: "Missing",
+      summary: "Missing"
+    }
+  ],
+  induced_derivation: [
+    {
+      i_source_cell_type_term: "EBV-immortalized lymphoblastoid cell line (LCL)",
+      i_source_cell_origin_term: "blood",
+      derivation_year: "2020-01-01",
+      non_int_vector: "Sendai virus",
+      non_int_vector_name: "CytoTune-iPS 2.0 Sendai reprogramming kit"
+    }
+  ],
+  embryonic_derivation: [
+    {
+      embryo_stage: "Missing",
+      zp_removal_technique: "Missing",
+      trophectoderm_morphology: "Missing",
+      icm_morphology: "Missing",
+      e_preimplant_genetic_diagnosis: "Missing"
+    }
+  ],
+  ethics: [
+    {
+      ethics_number: "Missing",
+      approval_date: "Missing",
+      institutional_HREC: "Missing"
+    }
+  ],
+  culture_medium: [
+    {
+      co2_concentration: "0.05",
+      o2_concentration: "Missing",
+      passage_method: "Missing"
+    }
+  ]
+}
+```

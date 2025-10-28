@@ -1,0 +1,117 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Endeavour-1; E1 (Parent)",
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "E1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Laboratory, Faculty of Medicine, University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bernie E. Tuch",
+      "year": "2008.0",
+      "first_author": "Kuldip S. Sidhu",
+      "doi": "10.1089/scd.2007.0055",
+      "journal": "Stem Cells and Development",
+      "title": "Derivation of a New Human Embryonic Stem Cell Line, Endeavour-1, and Its Clonal Propagation"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "\u03b2-III tubulin",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "CD34",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; FOXA2; GATA4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "Neuroectoderm (histology)",
+      "method_used": "Histology"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "Cartilage-like structures (histology)",
+      "method_used": "Histology"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "Gut-like structures (histology)",
+      "method_used": "Histology"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "19",
+      "karyotype": "46,XX",
+      "summary": "Normal female karyotype (46,XX) confirmed; analysis performed by G-banding and SKY with 20 metaphases captured.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "zp_removal_technique": "other",
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of New South Wales Ethics Committee",
+      "ethics_number": "HREC 01270"
+    },
+    {
+      "institutional_HREC": "University of New South Wales Ethics Committee",
+      "ethics_number": "HREC 02247"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "MCRI019-A-6",
+      "cell_line_alt_name": "Missing",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Murdoch Children's Research Institute",
+      "first_name": "Professor Matthew",
+      "last_name": "Shoulders",
+      "name_initials": "M",
+      "e_mail": "mshoulde@mit.edu",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103020",
+      "journal": "Stem Cell Research",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C iPSC line (MCRI019-A-6) model of human precocious osteoarthritis",
+      "first_author": "K.M. Yammin",
+      "last_author": "Perlman",
+      "year": "2023",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM",
+      "sex": "Missing",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "Missing",
+      "delivery_method": "CRISPR/Cas9",
+      "description": "Heterozygous COL2A1 c.2155C>T mutation confirmed in gDNA and cDNA, not in parental MCRI019-A",
+      "genotype": "Heterozygous: c.2155C>T",
+      "loci_name": "COL2A1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "37",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Confirmed absence of chromosomal abnormalities in the edited iPSC line"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

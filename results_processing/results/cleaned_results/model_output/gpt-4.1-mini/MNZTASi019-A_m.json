@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "hiPSC",
+      "hpscreg_name": "MNZTASi019-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "MS Stem biobank (Menzies Institute for Medical Research, Hobart, Tasmania, Australia)"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Missing",
+      "first_name": "Missing",
+      "last_name": "Missing",
+      "name_initials": "Missing",
+      "e_mail": "Missing",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1186/s13287-024-03671-x",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility",
+      "journal": "Stem Cell Research & Therapy",
+      "last_author": "Brad A. Sutherland",
+      "first_author": "Natalie E. King",
+      "year": "2024.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A50_54"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "All iPSC lines were shown to have karyotypically normal karyograms within 10 passages of use for experiments.",
+      "passage_number": "10"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "H26563",
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "H16915",
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

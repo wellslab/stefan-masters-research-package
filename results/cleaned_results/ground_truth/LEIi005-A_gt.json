@@ -1,0 +1,59 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi005-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Chen FK",
+      "year": "2020.0",
+      "first_author": "Zhang X",
+      "doi": "10.1002/mgg3.1489",
+      "journal": "Molecular genetics & genomic medicine",
+      "pmid": "32931148",
+      "title": "Characterization of CRB1 splicing in retinal organoids derived from a patient with adult-onset rod-cone dystrophy caused by the c.1892A>G and c.2548G>A variants"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "Retinitis pigmentosa (RP) is an inherited retinal dystrophy leading to progressive loss of the photoreceptors and retinal pigment epithelium and resulting in blindness usually after several decades.",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "45",
+      "karyotype": "46+XX",
+      "karyotype_method": "Other"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EF"
+    }
+  ]
+}

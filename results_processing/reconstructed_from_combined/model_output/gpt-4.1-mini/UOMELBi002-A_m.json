@@ -1,0 +1,115 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "F16574c3_A_A1_G8",
+      "hpscreg_name": "UOMELBi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Melbourne"
+    }
+  ],
+  "contact": [
+    {
+      "group": "The University of Melbourne",
+      "e_mail": "damian.hernandez@unimelb.edu.au",
+      "last_name": "Hern\u00e1ndez",
+      "first_name": "Damian"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102373",
+      "title": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)",
+      "journal": "Stem Cell Res.",
+      "last_author": "Alice P\u00e9bay",
+      "first_author": "Dami\u00e1n Hern\u00e1ndez",
+      "year": "2021.0"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A45_49",
+      "disease_description": "Dominantly inherited Alzheimer's disease caused by APP London mutation (V717I)",
+      "disease_name": "Alzheimer's disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "chr21:25891784",
+      "genotype": "Heterozygous: APP V717I mutation corrected to wild type; silent PAM mutation introduced",
+      "delivery_method": "Crispr/Cas9",
+      "mutation_type": "Isogenic modification",
+      "loci_name": "APP",
+      "description": "Gene correction and silent mutation in one single allele (Heterozygous mutation) of APP London mutation (V717I, rs63750264) in exon 17"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "AFP",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "SMA",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "NESTIN",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype_method": "Copy number variation analysis",
+      "summary": "Copy number variation analysis of isogenic iPSCs was performed using Illumina Infinium CoreExome-24 v1.1. Analysis confirmed absence of deletions, insertions and aneuploidies."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Episomal vectors containing OCT4, SOX2, KLF4, L-MYC, LIN28, and shRNA against p53",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "1545394",
+      "institutional_HREC": "University of Melbourne Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

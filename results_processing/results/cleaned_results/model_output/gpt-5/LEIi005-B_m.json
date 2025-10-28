@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "RPiPS6; 5B",
+      "hpscreg_name": "LEIi005-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lions Eye Institute Australia",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    },
+    {
+      "name_initials": "K",
+      "group": "Lions Eye Institute Australia",
+      "e_mail": "fredchen@lei.org.au",
+      "last_name": "Chen",
+      "first_name": "Fred"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101452",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with retinitis pigmentosa caused by RP1 mutation",
+      "journal": "Stem Cell Research",
+      "last_author": "Fred K. Chen",
+      "first_author": "Xiao Zhang",
+      "year": "2019.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A75_79",
+      "disease_description": "Autosomal dominant retinitis pigmentosa with heterozygous RP1 c.2098G>T (p.E700X) nonsense mutation",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "8q11.23-q12.1",
+      "genotype": "Heterozygous: RP1:c.2098G>T (p.E700X)",
+      "mutation_type": "Variant",
+      "loci_name": "RP1",
+      "description": "Heterozygous nonsense mutation in RP1 identified in the donor and retained in iPSCs"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "DCX",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "IGF2; DCN; BMP4",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "AFP",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Virtual karyotyping using Illumina HumanCoreExome-24 Beadchip SNP array showed a normal female karyotype with no copy number abnormalities at ~0.5 Mb resolution."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "Human Research Ethics Office, University of Western Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

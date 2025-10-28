@@ -1,0 +1,102 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "GENIE 68",
+      "hpscreg_name": "AIBN003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland, Australian Institute for Bioengineering & Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Missing",
+      "first_name": "Missing",
+      "last_name": "Missing",
+      "name_initials": "Missing",
+      "e_mail": "Missing",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102564",
+      "title": "Generation of induced pluripotent stem cell lines from peripheral blood mononuclear cells of three drug resistant and three drug responsive epilepsy patients",
+      "journal": "Stem Cell Research",
+      "last_author": "Lata Vadlamudi",
+      "first_author": "Zoe L. Hunter",
+      "year": "2021.0",
+      "pmid": "34649201"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A68",
+      "disease_name": "Epilepsy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "FOXA2; SOX17",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

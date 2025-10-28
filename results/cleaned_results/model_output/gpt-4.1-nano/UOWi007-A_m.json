@@ -1,0 +1,62 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MO54-2",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "UOWi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Lezanne",
+      "name_initials": "L",
+      "e_mail": "lezanne@uow.edu.au",
+      "last_name": "Ooi",
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "et al.",
+      "year": "2020.0",
+      "first_author": "Rachelle Balez",
+      "doi": "10.1016/j.scr.2020.101701",
+      "journal": "Stem Cell Research",
+      "title": "The mRNA-based reprogramming of fibroblasts from a SOD1E101G familial amyotrophic lateral sclerosis patient to induced pluripotent stem cell line UOWi007"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A43",
+      "disease_description": "heterozygous for SOD1E101G mutation",
+      "disease_name": "Amyotrophic Lateral Sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "loci_name": "SOD1E101G",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "18 sites tested, matched",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2019",
+      "i_source_cell_type_term": "Fibroblasts"
+    }
+  ]
+}

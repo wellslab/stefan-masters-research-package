@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "UOMELBi002-A",
+      "cell_line_alt_name": "F165743c_A_3; A1_G8",
+      "cell_type": "hiPSC",
+      "frozen": "Missing"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Melbourne"
+    }
+  ],
+  "contact": [
+    {
+      "group": "University of Melbourne",
+      "first_name": "Dami\u00e1n",
+      "last_name": "Hern\u00e1ndez",
+      "name_initials": "Missing",
+      "e_mail": "damian.hernandez@unimelb.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102373",
+      "journal": "Stem Cell Research",
+      "title": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)",
+      "first_author": "Dami\u00e1n Hern\u00e1ndez",
+      "last_author": "Alice P\u00e9bay",
+      "year": "2021",
+      "pmid": "33992609"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_name": "Alzheimer's disease",
+      "disease_description": "Donor carried the APP London mutation (V717I), which causes early onset Alzheimer's disease."
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Isogenic modification",
+      "cytoband": "21q21.3",
+      "delivery_method": "Crispr/Cas9",
+      "description": "Gene correction and silent mutation in one single allele (heterozygous mutation) of APP V717I (rs63750264) in exon 17 of APP.",
+      "genotype": "Homozygous G/G at rs63750264 in UOMELBi002-A (corrected); parental line was A/G",
+      "loci_name": "APP"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "AFP",
+      "method_used": "Immunostaining",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "SMA",
+      "method_used": "Immunostaining",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "NESTIN",
+      "method_used": "Immunostaining",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46",
+      "karyotype_method": "Array CGH",
+      "summary": "Copy number variation analysis using Illumina HumanCore Beadchip; 46 chromosomes, resolution 450-500; no deletions, insertions or aneuploidies detected."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblast",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "Missing",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "1545394",
+      "approval_date": "Missing",
+      "institutional_HREC": "University of Melbourne Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

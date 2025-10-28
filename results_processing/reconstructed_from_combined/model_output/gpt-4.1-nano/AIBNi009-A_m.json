@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "AIBNi009-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "E",
+      "group": "The University of Queensland",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "first_name": "Ernst"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102673",
+      "title": "Human induced pluripotent stem cells generated from epilepsy patients for use as in vitro models for drug screening",
+      "journal": "Stem Cell Research",
+      "first_author": "Z.L. Hunter",
+      "year": "2022.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "6",
+      "disease_name": "Epilepsy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

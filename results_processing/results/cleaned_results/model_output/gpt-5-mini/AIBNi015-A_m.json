@@ -1,0 +1,115 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "SPG1-AU01C15",
+      "hpscreg_name": "AIBNi015-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Wolvetang-AIBN",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "first_name": "Ernst"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102917",
+      "title": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "journal": "Stem Cell Research",
+      "last_author": "Ernst J. Wolvetang",
+      "first_author": "Hannah C. Leeson",
+      "year": "2022.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A1_4",
+      "disease_description": "CYP2U1 compound heterozygous: c.1376C>T; p.(Pro459Leu) and c.1462C>T; p.(Arg488Trp)",
+      "disease_name": "Hereditary spastic paraplegia 56 (SPG56)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "FOXA2; SOX17; CXCR4",
+      "method_used": "qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "PDGFRA; HAND1; BMP4; RUNX1",
+      "method_used": "qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "OTX2; PAX6; NR2F2; VIMENTIN",
+      "method_used": "qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "Normal karyotype (no unbalanced chromosomal aberrations detected)",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "SNP array analysis conducted at passage 16 showed normal karyotypes across lines; STR analysis matched donor PBMCs and fibroblasts.",
+      "passage_number": "16"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2021",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit (Thermo Fisher)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "UQ HREC 2,019,000,159",
+      "institutional_HREC": "University of Queensland Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

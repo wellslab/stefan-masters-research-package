@@ -1,0 +1,118 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "RYR1-6546-R3B",
+      "hpscreg_name": "HPIi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Harry Perkins Institute of Medical Research",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103410",
+      "title": "Generation of two iPSC lines from patients with inherited central core disease and concurrent malignant hyperthermia caused by dominant missense variants in the RYR1 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Rhonda L. Taylor",
+      "first_author": "Joshua S. Clayton",
+      "year": "2024.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A40_44",
+      "disease_description": "Central core disease of muscle; Malignant hyperthermia susceptibility caused by dominant missense variants in RYR1 gene",
+      "disease_name": "Central core disease; Malignant hyperthermia susceptibility 1"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous for RYR1 c.6502G > A variant",
+      "mutation_type": "Inherited variant (dominant, 17 other affected family members across 6 generations)",
+      "loci_name": "RYR1",
+      "description": "Inherited variant (dominant, 17 other affected family members across 6 generations)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "TBXT; TBX6",
+      "method_used": "qRT-PCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "OTX2; PAX6",
+      "method_used": "qRT-PCR; Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "SOX17; GATA4",
+      "method_used": "qRT-PCR; Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Normal male karyotype confirmed by G-banding at passage 19; 15 metaphases counted, 5 analyzed for each cell line.",
+      "passage_number": "19"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Lymphoblastoid cell line (LCL)",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2022-12",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "institutional_HREC": "University of Western Australia\u2019s Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

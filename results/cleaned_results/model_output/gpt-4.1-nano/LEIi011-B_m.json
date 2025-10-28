@@ -1,0 +1,44 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi011-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Samuel McLenachan",
+      "year": "2019.0",
+      "first_author": "Huang Z",
+      "doi": "10.1016/j.scr.2019.101549",
+      "journal": "Stem Cell Research",
+      "title": "Generation of three induced pluripotent stem cell lines from an isolated inherited retinal dystrophy patient with RCBTB1 frameshifting mutations"
+    }
+  ],
+  "donor": [
+    {
+      "age": "45",
+      "disease_name": "Inherited Retinal Diseases"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Frameshifting mutations in RCBTB1 gene",
+      "loci_name": "RCBTB1",
+      "cytoband": "13q14",
+      "genotype": "NM",
+      "mutation_type": "Frameshift mutation"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2019"
+    }
+  ]
+}

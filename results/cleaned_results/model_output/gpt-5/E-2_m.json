@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Endeavour-2",
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "E-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, NSW 2031 Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kuldip",
+      "name_initials": "S",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu",
+      "group": "Stem Cell Laboratory, University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bernie E. Tuch",
+      "year": "2010.0",
+      "first_author": "Kuldip S. Sidhu",
+      "doi": "10.1007/s11626-010-9280-8",
+      "journal": "In Vitro Cellular & Developmental Biology - Animal",
+      "title": "Derivation of a new human embryonic stem cell line, Endeavour-2, and its characterization"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NESTIN",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "VIMENTIN",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "method_used": "Histology"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "method_used": "Histology"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "method_used": "Histology"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype": "46,XX",
+      "summary": "Standard G-banding; 20 metaphases analyzed per sample; normal female karyotype observed at passages 9 and 10.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "zp_removal_technique": "other",
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Institutional Human Research Ethics Committee (HREC), University of New South Wales",
+      "ethics_number": "HREC 02247/02267"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

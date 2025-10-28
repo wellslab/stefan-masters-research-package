@@ -1,0 +1,228 @@
+{
+  "field_path": "genomic_modifications.loci_name",
+  "summary": {
+    "total_comparisons": 31,
+    "total_matches": 26,
+    "total_model_missing": 5,
+    "recall": 0.8387096774193549
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "SCN5A",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "SCN5A",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "CX3CR1",
+      "model_output": "CX3CR1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "COL2A1",
+      "model_output": "COL2A1"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "SCN5A",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "SCN5A",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "CX3CR1",
+      "model_output": "CX3CR1"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "COL2A1",
+      "model_output": "COL2A1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "COL2A1",
+      "model_output": "COL2A1"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "SCN5A",
+      "model_output": "SCN5A"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "SCN5A",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "COL2A1",
+      "model_output": "COL2A1"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MC_259",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "UOWi009-A-1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-UOWi009-A-1"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

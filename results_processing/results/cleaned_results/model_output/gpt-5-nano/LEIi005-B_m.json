@@ -1,0 +1,102 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "RP1ips6",
+      "hpscreg_name": "LEIi005-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Sciences, The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Centre for Ophthalmology and Visual Sciences, The University of Western Australia",
+      "e_mail": "samuel.mclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101452",
+      "title": "Generation of an induced pluripotent stem cell line LEIi005-B from a patient with retinitis pigmentosa caused by RP1 mutation",
+      "journal": "Stem Cell Research",
+      "last_author": "Fred K. Chen",
+      "first_author": "Xiao Zhang",
+      "year": "2019.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A75_79",
+      "disease_description": "RP1 mutation",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "delivery_method": "Other",
+      "mutation_type": "Transgene expression",
+      "description": "Reprogramming using episomal plasmids containing OCT4, SOX2, KLF4, L-MYC, LIN28, miR-302/367"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Normal karyotype"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "SC900A-1 (System Biosciences)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

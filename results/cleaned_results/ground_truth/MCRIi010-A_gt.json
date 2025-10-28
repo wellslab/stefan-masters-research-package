@@ -1,0 +1,102 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "PB010",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRIi010-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Andrew G. Elefanty",
+      "year": "2019.0",
+      "first_author": "Katerina Vlahos",
+      "doi": "10.1016/j.scr.2018.101380",
+      "journal": "Stem Cell Research",
+      "pmid": "30605840",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults"
+    },
+    {
+      "last_author": "Little MH",
+      "year": "2022.0",
+      "first_author": "Vanslambrouck JM",
+      "doi": "10.1101/2021.10.14.464320",
+      "journal": "bioRxiv : the preprint server for biology",
+      "pmid": "35665006",
+      "title": "Enhanced metanephric specification to functional proximal tubule enables toxicity screening and infectious disease modelling in kidney organoids"
+    },
+    {
+      "last_author": "Subbarao K",
+      "year": "2022.0",
+      "first_author": "Rudraraju R",
+      "doi": "10.1101/2022.09.20.508614",
+      "journal": "bioRxiv : the preprint server for biology",
+      "pmid": "36172136",
+      "title": "Parallel use of pluripotent human stem cell lung and heart models provide new insights for treatment of SARS-CoV-2"
+    },
+    {
+      "last_author": "Subbarao K",
+      "year": "2023.0",
+      "first_author": "Rudraraju R",
+      "doi": "10.1016/j.stemcr.2023.05.007",
+      "journal": "Stem Cell Reports",
+      "pmid": "37315523",
+      "title": "Parallel use of human stem cell lung and heart models provide insights for SARS-CoV-2 treatment"
+    },
+    {
+      "last_author": "Little MH",
+      "year": "2024.0",
+      "first_author": "Vanslambrouck JM",
+      "doi": "10.1128/jvi.01802-23",
+      "journal": "Journal of virology",
+      "pmid": "38334329",
+      "title": "Kidney organoids reveal redundancy in viral entry pathways during ACE2-dependent SARS-CoV-2 infection"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "CXCR4;c-Kit;EPCAM"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "EPCAM; CD13"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "MAP2"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "approval_date": "1900-01-01",
+      "ethics_number": "35121 A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

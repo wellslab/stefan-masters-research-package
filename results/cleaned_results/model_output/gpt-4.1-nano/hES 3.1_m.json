@@ -1,0 +1,49 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "hES 3.1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, NSW 2031 Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kuldip",
+      "name_initials": "K",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tuch",
+      "year": "2005.0",
+      "first_author": "Sidhu",
+      "doi": "10.1016/j.scr.2005.11.015",
+      "journal": "Stem Cell Research",
+      "pmid": "16360769",
+      "title": "Derivation of Three Clones from Human Embryonic Stem Cell Lines by FACS Sorting and Their Characterization"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "Nestin; Renin; alpha-fetoprotein; GATA6",
+      "method_used": "RT-PCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Standard karyotype analysis showing normal female karyotype.",
+      "karyotype_method": "G-banding"
+    }
+  ]
+}

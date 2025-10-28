@@ -1,0 +1,103 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "86200001.1/001.1 (MONU001-A)",
+      "hpscreg_name": "MONU001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "M.A.",
+      "group": "Monash University",
+      "e_mail": "mark.bellgrove@monash.edu",
+      "last_name": "Bellgrove",
+      "first_name": "Mark"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103170",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "journal": "Stem Cell Research",
+      "last_author": "Mark A Bellgrove",
+      "first_author": "Kealan Pugsley",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "35_39",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Episomal",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "25688",
+      "institutional_HREC": "Monash University Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "MICCNi002-B",
+      "hpscreg_name": "MICCNi002-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences, Monash University",
+      "e_mail": "janette.tong@monash.edu",
+      "last_name": "Tong",
+      "first_name": "Janette"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.11.014",
+      "title": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family",
+      "journal": "Stem Cell Research",
+      "last_author": "Mark A. Bellgrove",
+      "first_author": "Janette Tong",
+      "year": "2019.0",
+      "pmid": "30576927"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A15_19",
+      "disease_description": "Diagnosed ADHD by DSM-IV criteria, scored above 98th percentile on Impulsivity subscale and above 95th percentile on Hyperactivity, ADHD Index and DSM-IV Inattentive subscales of CPRS-R:L",
+      "disease_name": "Attention Deficit Hyperactivity Disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6",
+      "method_used": "RT-qPCR (ScoreCard assay)",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro embryoid body formation and ScoreCard"
+    },
+    {
+      "marker_list": "ODAM",
+      "method_used": "RT-qPCR (ScoreCard assay)",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro embryoid body formation and ScoreCard"
+    },
+    {
+      "marker_list": "AFP",
+      "method_used": "RT-qPCR (ScoreCard assay)",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro embryoid body formation and ScoreCard"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotype analysis at passage 10 showed normal male karyotype 46,XY at a resolution of 300\u2013400 bands.",
+      "passage_number": "10"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2018",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "CF15/2566 \u2013 2015001048",
+      "institutional_HREC": "Monash University Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

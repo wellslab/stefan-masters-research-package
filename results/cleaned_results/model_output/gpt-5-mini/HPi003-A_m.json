@@ -1,0 +1,104 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "iPS-7247-C5",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "HPi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "S",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2022.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2022.102829",
+      "journal": "Stem Cell Research",
+      "pmid": "102829",
+      "title": "Generation of an induced pluripotent stem cell line from a 3-month-old nemaline myopathy patient with a heterozygous dominant c.515C > A (p. Ala172Glu) variant in the ACTA1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A1_4",
+      "disease_description": "Intermediate nemaline myopathy caused by a heterozygous dominant ACTA1 variant NM_001100: c.515C > A (p.Ala172Glu)",
+      "disease_name": "Nemaline myopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; BMP4; Brachyury",
+      "method_used": "qPCR; Immunocytochemistry"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "qPCR; Immunocytochemistry"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "qPCR; Immunocytochemistry"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "46,XX",
+      "summary": "Normal female karyotype (46, XX). 15 metaphases counted, 7 analysed in-depth. Characterisation performed at passage 10.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2021",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell (LCL)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Comit\u00e9 de Protection des Personnes (Est IV)",
+      "ethics_number": "DC-2012-1693"
+    },
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/20/1008"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

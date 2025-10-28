@@ -1,0 +1,57 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "GENEAe001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Genea"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2010.0",
+      "first_author": "Cara K. Bradley",
+      "doi": "10.1007/s11626-010-9298-y",
+      "journal": "In Vitro Cellular & Developmental Biology - Animal",
+      "pmid": "20198447",
+      "title": "Derivation of three new human embryonic stem cell lines"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Other"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "NHMRC",
+      "approval_date": "1900-01-01",
+      "ethics_number": "Licence 309703"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "ME"
+    }
+  ]
+}

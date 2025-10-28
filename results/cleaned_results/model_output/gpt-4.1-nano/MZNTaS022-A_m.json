@@ -1,0 +1,37 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MZNTaS022-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Tasmania"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Brad A. Sutherland",
+      "year": "2024.0",
+      "first_author": "Natalie E. King",
+      "doi": "10.1186/s13187-024-03671-x",
+      "journal": "Stem Cell Research & Therapy",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "Expression of pericyte markers",
+      "cell_type": "Pericyte",
+      "marker_list": "PDGFR\u03b2; CSPG4; ACTA2 (\u03b1SMA); SOX2; NFKB2",
+      "method_used": "qPCR"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    }
+  ]
+}

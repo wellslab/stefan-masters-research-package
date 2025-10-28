@@ -1,0 +1,116 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1607pt56",
+      "hpscreg_name": "LEIi018-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Lions Eye Institute",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102439",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with Stargardt disease caused by biallelic ABCA4 mutations in the ABCA4 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Chen",
+      "first_author": "Di Huang",
+      "year": "2021.0",
+      "pmid": "102439"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A20_24",
+      "disease_description": "Autosomal recessive Stargardt disease (STGD1)",
+      "disease_name": "Stargardt disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous: c.[5461-10T>C;5603A>T];[6077T>C]",
+      "mutation_type": "Variant",
+      "loci_name": "ABCA4",
+      "description": "ABCA4 c.[5461-10T>C;5603A>T];[6077T>C] mutations in ABCA4 gene"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "TBXT; NKX2.5",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "AFP; SOX17; FOXA2",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype observed.",
+      "passage_number": "35"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "OriP/EBNA1-based episomal reprogramming plasmids",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

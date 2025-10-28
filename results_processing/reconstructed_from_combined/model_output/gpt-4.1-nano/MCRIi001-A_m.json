@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "PB001",
+      "hpscreg_name": "MCRIi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "K",
+      "group": "Katerina Vlahos",
+      "e_mail": "katerina.vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "first_name": "Katerina"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.101380",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults",
+      "journal": "Stem Cell Research",
+      "last_author": "Stanley",
+      "first_author": "K. Vlahos",
+      "year": "2019.0",
+      "pmid": "101380"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A20_24"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotyping at a resolution of 400-550 band level."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2018",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

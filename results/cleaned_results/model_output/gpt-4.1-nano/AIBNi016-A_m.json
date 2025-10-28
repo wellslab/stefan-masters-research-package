@@ -1,0 +1,38 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "AIBNi016-A",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "AIBNi016-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "G. Goizet",
+      "year": "2022.0",
+      "first_author": "Hannah C. Leeson",
+      "doi": "10.1016/j.scr.2022.102917",
+      "journal": "Stem Cell Research",
+      "title": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A20_24",
+      "disease_name": "Hereditary spastic paraplegia 56 (SPG56)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "loci_name": "CYP2U1",
+      "genotype": "NM",
+      "mutation_type": "VA"
+    }
+  ]
+}

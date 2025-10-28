@@ -1,0 +1,131 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "iPSC 6848.2; 6848.2; FAD1",
+      "hpscreg_name": "UOWi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Ooi-UOW",
+      "e_mail": " lezanne@uow.edu.au",
+      "last_name": "Ooi",
+      "first_name": "Lezanne"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.08.006",
+      "title": "Generation and characterization of human induced pluripotent stem cell lines from a familial Alzheimer's disease PSEN1 A246E patient and a non-demented family member bearing wild-type PSEN1",
+      "journal": "Stem cell research",
+      "last_author": "Ooi L",
+      "first_author": "Mu\u00f1oz SS",
+      "year": "2018.0",
+      "pmid": "30138848"
+    },
+    {
+      "doi": "10.3390/cells9092018",
+      "title": "A Simple Differentiation Protocol for Generation of Induced Pluripotent Stem Cell-Derived Basal Forebrain-Like Cholinergic Neurons for Alzheimer's Disease and Frontotemporal Dementia Disease Modeling",
+      "journal": "Cells",
+      "last_author": "Ooi L",
+      "first_author": "Mu\u00f1oz SS",
+      "year": "2020.0",
+      "pmid": "32887382"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2018.08.006",
+      "title": "Generation and characterization of human induced pluripotent stem cell lines from a familial Alzheimer's disease PSEN1 A246E patient and a non-demented family member bearing wild-type PSEN1.",
+      "journal": "Stem Cell Research",
+      "last_author": "Lezanne Ooi",
+      "first_author": "Sonia Sanz Munoz",
+      "year": "2018.0",
+      "pmid": "30138848"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "method_used": "Scorecard",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "method_used": "Scorecard",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "method_used": "Scorecard",
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "pluri_novelty_score": "1.47",
+      "pluri_test_score": "18.64"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred at a resolution of 400 bphs. "
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "skin fibroblast",
+      "derivation_year": "2018-01-01",
+      "i_source_cell_type_id": "CL:0002620",
+      "i_source_cell_origin_term": "arm skin",
+      "i_source_cell_origin_id": "UBERON:0002427"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HE13/299",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "NS"
+    }
+  ]
+}

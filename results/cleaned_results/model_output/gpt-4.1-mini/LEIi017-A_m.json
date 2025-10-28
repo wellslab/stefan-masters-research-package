@@ -1,0 +1,93 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1629ips9 (LEIi017-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi017-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Samuel McLenachan",
+      "year": "2021.0",
+      "first_author": "Di Huang",
+      "doi": "10.1016/j.scr.2021.102448",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt disease caused by compound heterozygous mutations in the ABCA4 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A15_19",
+      "disease_description": "Autosomal recessive juvenile-onset macular degeneration caused by mutations in the ABCA4 gene",
+      "disease_name": "Stargardt disease"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; NKX2.5",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP; SOX17",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "12",
+      "karyotype": "46,XX",
+      "summary": "Digital karyotyping using Infinium Human CoreExome-24 Beadchip SNP array showed normal diploid karyotype (46,XX) with no chromosomal rearrangements. CNV profiling demonstrated normal copy number variation.",
+      "karyotype_method": "Array CGH"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2020",
+      "non_int_vector_name": "Epi5 Episomal iPSC Reprogramming Kit (Thermo Fisher, MA, USA)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

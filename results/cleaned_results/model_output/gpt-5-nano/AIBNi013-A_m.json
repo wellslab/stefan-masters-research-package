@@ -1,0 +1,82 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "AIBNi013-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "name_initials": "J",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "group": "Wolvetang-AIBN"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ernst J. Wolvetang",
+      "year": "2021.0",
+      "first_author": "Hannah C. Leeson",
+      "doi": "10.1016/j.scr.2021.102527",
+      "journal": "Stem Cell Research",
+      "pmid": "102527",
+      "title": "Reprogramming of human olfactory neurosphere-derived cells from olfactory mucosal biopsies of a control cohort"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A25_29"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Sendai virus delivery of OCT4, SOX2, KLF4 and c-MYC transgenes for reprogramming",
+      "delivery_method": "Other",
+      "mutation_type": "TE"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "FOXA2; SOX17; CXCR4",
+      "method_used": "qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "PDGFRA; HAND1; KDR; CD34",
+      "method_used": "qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6; NR2F2; VIMENTIN",
+      "method_used": "qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "Normal karyotype",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Queensland Ethics Committee"
+    }
+  ]
+}

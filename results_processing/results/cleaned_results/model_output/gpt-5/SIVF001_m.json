@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "ESC",
+      "hpscreg_name": "SIVF001"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF Stem Cells"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Sydney IVF Stem Cells",
+      "e_mail": "tomas.stojanov@sydneyivf.com",
+      "last_name": "Stojanov",
+      "first_name": "Tomas"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1007/s11626-010-9298-y",
+      "title": "Derivation of three new human embryonic stem cell lines",
+      "journal": "In Vitro Cellular & Developmental Biology - Animal",
+      "last_author": "Tomas Stojanov",
+      "first_author": "Cara K. Bradley",
+      "year": "2010.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "neuroepithelium; squamous epithelium; choroid plexus",
+      "method_used": "Histology (H&E staining)",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "marker_list": "cartilage; smooth muscle",
+      "method_used": "Histology (H&E staining)",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "marker_list": "gastrointestinal epithelium; respiratory glands",
+      "method_used": "Histology (H&E staining)",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vivo teratoma"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Other",
+      "summary": "Normal female karyotype at early passage (p3); cell line reported cytogenetically normal with stable karyotype at later passages.",
+      "passage_number": "3"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "e_preimplant_genetic_diagnosis": "False"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "309703",
+      "institutional_HREC": "Embryo Research Licensing Committee, National Health and Medical Research Council (NHMRC), Australia"
+    },
+    {
+      "institutional_HREC": "Sydney IVF independent human research ethics committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.06",
+      "o2_concentration": "0.05",
+      "passage_method": "mechanically"
+    }
+  ]
+}

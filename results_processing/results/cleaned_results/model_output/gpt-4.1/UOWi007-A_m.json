@@ -1,0 +1,116 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "M0542-4",
+      "hpscreg_name": "UOWi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "L",
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong",
+      "e_mail": "lezanne@uow.edu.au",
+      "last_name": "Ooi",
+      "first_name": "Lezanne"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.101701",
+      "title": "The mRNA-based reprogramming of fibroblasts from a SOD1E101G familial amyotrophic lateral sclerosis patient to induced pluripotent stem cell line UOWi007",
+      "journal": "Stem Cell Research",
+      "last_author": "Lezanne Ooi",
+      "first_author": "Rachelle Balez",
+      "year": "2020.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A40_44",
+      "disease_description": "Familial ALS, heterozygous for SOD1E101G mutation",
+      "disease_name": "Amyotrophic lateral sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "SOD1E101G heterozygous",
+      "mutation_type": "Variant",
+      "loci_name": "SOD1",
+      "description": "Heterozygous SOD1E101G mutation"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "method_used": "Scorecard assay",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "method_used": "Scorecard assay",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "method_used": "Scorecard assay",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype detected in 15 cells at 400 bands per haploid set.",
+      "passage_number": "24"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Dermal fibroblast",
+      "non_int_vector": "Other",
+      "derivation_year": "2018",
+      "non_int_vector_name": "mRNA-based reprogramming with Oct4, Klf4, Sox2, c-Myc, Lin28, Nanog",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HE13/272",
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

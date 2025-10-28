@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "LEIi017-A",
+      "cell_line_alt_name": "1629ipsc9 (LEIi017-A)",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lions Eye Institute",
+      "first_name": "Samuel",
+      "last_name": "McLenachan",
+      "name_initials": "Missing",
+      "e_mail": "smclenachan@lei.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102448",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt disease caused by compound heterozygous mutations in the ABCA4 gene",
+      "first_author": "Di Huang",
+      "last_author": "Samuel McLenachan",
+      "year": "2021",
+      "pmid": "34181964"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A15_19",
+      "sex": "Female",
+      "disease_name": "Stargardt disease",
+      "disease_description": "Autosomal recessive Stargardt disease caused by compound heterozygous mutations in the ABCA4 gene"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Compound heterozygous mutations in ABCA4: c.5461-10T>C; c.5613T>A; c.6146T>C; c.5455G>A",
+      "genotype": "ABCA4: c.5461-10T>C; c.5613T>A; c.6146T>C; c.5455G>A",
+      "loci_name": "ABCA4"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "TBXT; NKX2.5",
+      "method_used": "RT-qPCR",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "AFP; SOX17",
+      "method_used": "RT-qPCR",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "16",
+      "karyotype": "46,XX",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Infinium HumanCoreExome-24 Beadchip SNP array (Illumina) at 500 kb resolution; normal female 46,XX karyotype; no abnormal CNVs detected."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2020",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Epi5\u2122 Episomal iPSC Reprogramming Kit (A15960, Invitrogen)"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "Missing",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

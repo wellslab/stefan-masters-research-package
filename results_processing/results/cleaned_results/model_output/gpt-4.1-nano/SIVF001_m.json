@@ -1,0 +1,117 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "SIVF001"
+    },
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "SIVF001"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland, Australian Institute for Bioengineering & Nanotechnology"
+    },
+    {
+      "group": "Australian Stem Cell Centre"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "H.C.",
+      "e_mail": "h.leeson@uq.edu.au",
+      "first_name": "Hannah C. Leeson"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102527",
+      "title": "Reprogramming of human olfactory neurosphere-derived cells from olfactory mucosal biopsies of a control cohort",
+      "journal": "Stem Cell Research",
+      "last_author": "Ernst J. Wolvetang",
+      "first_author": "Hannah C. Leeson",
+      "year": "2021.0"
+    },
+    {
+      "doi": "10.1038/nbt1318",
+      "title": "Derivation and culture of embryonic stem cells",
+      "journal": "Nat. Biotechnol.",
+      "last_author": "Reubinoff B. E.",
+      "first_author": "Doss M. X.",
+      "year": "2004.0",
+      "pmid": "14685280"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

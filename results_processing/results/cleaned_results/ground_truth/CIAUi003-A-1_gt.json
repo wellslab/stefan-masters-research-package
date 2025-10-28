@@ -1,0 +1,104 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "CIAUi003-A-1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centenary Institute of Cancer Medicine and Cell Biology"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "Missing",
+      "journal": "Missing",
+      "title": "Missing",
+      "first_author": "Missing",
+      "last_author": "Missing",
+      "year": "Missing",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "chr1(GRCh38):g.115732968T>C",
+      "mutation_type": "VA",
+      "loci_name": "CASQ2",
+      "description": "Any catecholaminergic polymorphic ventricular tachycardia in which the cause of the disease is a mutation in the CASQ2 gene."
+    },
+    {
+      "cytoband": "chr1(GRCh38):g.115732968T>C",
+      "mutation_type": "VA",
+      "loci_name": "CASQ2",
+      "description": "Any catecholaminergic polymorphic ventricular tachycardia in which the cause of the disease is a mutation in the CASQ2 gene."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "CXCR4;SOX17",
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "TNNT2;NKX2.5",
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "NESTIN;PAX6",
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "Normal",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "EPI"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "X19-0108 and 2019/ETH00461",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Ethics Review Committee, Sydney Local Health District"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "NS"
+    }
+  ]
+}

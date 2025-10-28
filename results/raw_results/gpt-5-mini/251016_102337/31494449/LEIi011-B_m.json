@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "LEIi011-B",
+      "cell_line_alt_name": "1466iPS2",
+      "cell_type": "hiPSC",
+      "frozen": true
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute, Nedlands, Western Australia, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lions Eye Institute, Nedlands, Western Australia, Australia",
+      "first_name": "Samuel",
+      "last_name": "McLenachan",
+      "name_initials": "S",
+      "e_mail": "smclenachan@lei.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101549",
+      "journal": "Stem Cell Research",
+      "title": "Generation of three induced pluripotent stem cell lines from an isolated inherited retinal dystrophy patient with RCBTB1 frameshifting mutations",
+      "first_author": "Zhiqin Huang",
+      "last_author": "Fred K. Chen",
+      "year": "2019",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A45_49",
+      "sex": "Female",
+      "disease_name": "Central chorioretinal atrophy",
+      "disease_description": "Harbouring compound heterozygous frameshifting mutations (c.170delG and c.707delA) in RCBTB1"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "NM",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": true,
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": true,
+      "marker_list": "IGF2; DCN",
+      "method_used": "RT-qPCR",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": true,
+      "marker_list": "AFP; GATA2",
+      "method_used": "RT-qPCR",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "11",
+      "karyotype": "46,XX",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Normal 46,XX diploid karyotype; CNV analysis (Infinium HumanCytoSNP-12) showed no significant copy number alterations."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2016",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Plasmid Kit (SC900A-1, System Biosciences)"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "Missing",
+      "institutional_HREC": "Human Research Ethics Office, University of Western Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

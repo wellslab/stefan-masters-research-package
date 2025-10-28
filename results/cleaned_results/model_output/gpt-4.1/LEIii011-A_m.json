@@ -1,0 +1,109 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "LEIi011-A",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIii011-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "J",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2019.0",
+      "first_author": "Zhiqin Huang",
+      "doi": "10.1016/j.scr.2019.101549",
+      "journal": "Stem Cell Research",
+      "pmid": "31493605",
+      "title": "Generation of three induced pluripotent stem cell lines from an isolated inherited retinal dystrophy patient with RCBTB1 frameshifting mutations"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A45_49",
+      "disease_description": "Inherited retinal dystrophy with compound heterozygous RCBTB1 mutations",
+      "disease_name": "Central choroidal atrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Compound heterozygous c.1706delG and c.707delA frameshift mutations in RCBTB1",
+      "loci_name": "RCBTB1",
+      "cytoband": "13q14",
+      "genotype": "c.1706delG/c.707delA",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "Embryoid body formation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP; GATA2",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "Embryoid body formation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "DCN; IGF2",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "Embryoid body formation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "46,XX",
+      "summary": "Digital karyotyping demonstrated normal diploid karyotypes (46,XX) at 1.0 Mb resolution.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2016",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/7916"
+    },
+    {
+      "institutional_HREC": "Sir Charles Gairdner Hospital Human Research Ethics Committee",
+      "ethics_number": "2001-053"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EN"
+    }
+  ]
+}

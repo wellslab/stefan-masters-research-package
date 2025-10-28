@@ -1,0 +1,122 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1357iPS5",
+      "hpscreg_name": "LEIi012-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lions Eye Institute",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.101947",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt Macular Dystrophy caused by the c.768G > T and c.6079C > T mutations in ABCA4",
+      "journal": "Stem Cell Research",
+      "last_author": "Samuel McLenachan",
+      "first_author": "Luke Jennings",
+      "year": "2020.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A30_34",
+      "disease_description": "Autosomal recessive Stargardt disease (STGD1) caused by compound heterozygous ABCA4 mutations c.768G>T and c.6079C>T",
+      "disease_name": "Stargardt Macular Dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "1p22.1",
+      "genotype": "Heterozygous: ABCA4:c.768G>T; ABCA4:c.6079C>T",
+      "mutation_type": "Variant",
+      "loci_name": "ABCA4",
+      "description": "Patient-derived compound heterozygous variants in ABCA4 (c.768G>T and c.6079C>T) present in the iPSC line"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "GATA2; IGF2",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "AFP; GATA4",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Normal diploid male karyotype (46,XY) by SNP array/CNV analysis; no chromosomal alterations detected; DNA profiling matched at 16 loci.",
+      "passage_number": "11"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Dermal fibroblasts",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2017",
+      "non_int_vector_name": "Episomal plasmids encoding OCT4, SOX2, KLF4, L-MYC, LIN28, mir302/367 microRNA and shRNA for P53; Episomal iPSC Reprogramming Plasmid kit SC900A-1 (System Biosciences)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "2001-053",
+      "institutional_HREC": "Sir Charles Gairdner Hospital Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

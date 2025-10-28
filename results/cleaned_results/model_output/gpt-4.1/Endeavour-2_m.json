@@ -1,0 +1,115 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "E-2",
+      "cell_type": "ESC",
+      "frozen": "True",
+      "hpscreg_name": "Endeavour-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, NSW 2031 Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kuldip",
+      "name_initials": "S",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu",
+      "group": "Stem Cell Lab, School of Biotechnology and Biomolecular Sciences and School of Psychiatry, Faculty of Medicine, University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bernie E. Tuch",
+      "year": "2010.0",
+      "first_author": "Kuldip S. Sidhu",
+      "doi": "10.1007/s11626-010-9280-8",
+      "journal": "In Vitro Cell.Dev.Biol.\u2014Animal",
+      "title": "Derivation of a new human embryonic stem cell line, Endeavour-2, and its characterization"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NESTIN",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "VIMENTIN",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "neuronal clusters",
+      "method_used": "Histology"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "connective tissue",
+      "method_used": "Histology"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "primitive endoderm-derived epithelium",
+      "method_used": "Histology"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype": "46,XX",
+      "summary": "E-2 line shows a normal karyotype (46 XX) at passage 9 and has been successfully cryopreserved and thawed several times using slow-freezing procedures.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "zp_removal_technique": "mechanical",
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Institutional Human Research Ethics Committee",
+      "ethics_number": "02247/02267"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EN"
+    }
+  ]
+}

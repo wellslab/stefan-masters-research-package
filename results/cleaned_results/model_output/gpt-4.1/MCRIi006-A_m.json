@@ -1,0 +1,97 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "PB006 (MCRIi006-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Katerina",
+      "e_mail": "katerina.vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Andrew G. Elefanty",
+      "year": "2019.0",
+      "first_author": "Katerina Vlahos",
+      "doi": "10.1016/j.scr.2018.101380",
+      "journal": "Stem Cell Research",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A30_34"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "EPCAM; CXCR4; KIT",
+      "method_used": "Flow cytometry"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "EPCAM; CD13",
+      "method_used": "Flow cytometry"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "arr(1-22)x2,(XX)x2",
+      "summary": "Normal karyotype at 0.5 Mb resolution; identical genotype to parental PBMC sample; no major perturbations in genomic integrity.",
+      "karyotype_method": "SNP array"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2016",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "RCH Human Research Ethics Committee",
+      "ethics_number": "35121A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "ME"
+    }
+  ]
+}

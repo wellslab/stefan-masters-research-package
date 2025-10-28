@@ -1,0 +1,97 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MQ54-2",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "UOWi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Lezanne",
+      "e_mail": "lezanne@uow.edu.au",
+      "last_name": "Ooi",
+      "group": "Ooi-UOW"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ooi L",
+      "year": "2020.0",
+      "first_author": "Balez R",
+      "doi": "10.1016/j.scr.2020.101701",
+      "journal": "Stem Cell Research",
+      "pmid": "32006803",
+      "title": "The mRNA-based reprogramming of fibroblasts from a SOD1E101G familial amyotrophic lateral sclerosis patient to induced pluripotent stem cell line UOWi007"
+    },
+    {
+      "last_author": "Lezanne Ooi",
+      "year": "2020.0",
+      "first_author": "Rachelle Balez",
+      "doi": "https://doi.org/10.1016/j.scr.2020.101701",
+      "journal": "Stem Cell Research",
+      "pmid": "32006803",
+      "title": "The mRNA-based reprogramming of fibroblasts from a SOD1"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "40_44",
+      "disease_name": "Amyotrophic Lateral Sclerosis"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "method_used": "Scorecard"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "method_used": "Scorecard"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "method_used": "Scorecard"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "24",
+      "karyotype": "46,XY",
+      "summary": "Karyotyping occurred at a resolution of 400bphs (15 metaphase spreads).",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "CL:0002620",
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2018-01-01",
+      "i_source_cell_type_term": "Fibroblasts",
+      "i_source_cell_origin_id": "UBERON:0002067"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "HE13/272"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "AIBNi008-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "name_initials": "E",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "group": "Professor Ernst J Wolvetang"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2022.0",
+      "first_author": "Zoe L. Hunter",
+      "doi": "10.1016/j.scr.2022.102673",
+      "journal": "Stem Cell Research",
+      "title": "Human induced pluripotent stem cells generated from epilepsy patients for use as in vitro models for drug screening"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "6",
+      "disease_name": "Epilepsy"
+    },
+    {
+      "sex": "Female",
+      "age": "25",
+      "disease_name": "Epilepsy"
+    },
+    {
+      "age": "29",
+      "disease_name": "Epilepsy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "HAND1; PAX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "RT-qPCR"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "experiment_name": "Australian Stem Cell Curation - Multi-Model Comparison",
+  "experiment_date": "2025-10-19",
+  "description": "Comparison of 6 GPT models for automated curation of stem cell metadata from research articles",
+
+  "models": [
+    "gpt-4.1",
+    "gpt-4.1-mini",
+    "gpt-4.1-nano",
+    "gpt-5",
+    "gpt-5-mini",
+    "gpt-5-nano"
+  ],
+
+  "curation_fields": {
+    "basic_data": [
+      "cell_line_alt_name",
+      "cell_type",
+      "frozen",
+      "hpscreg_name"
+    ],
+    "contact": [
+      "group",
+      "first_name",
+      "last_name",
+      "name_initials",
+      "e_mail",
+      "phone_number"
+    ],
+    "generator": [
+      "group"
+    ],
+    "publications": [
+      "doi",
+      "journal",
+      "title",
+      "first_author",
+      "last_author",
+      "year",
+      "pmid"
+    ],
+    "donor": [
+      "age",
+      "sex",
+      "disease_description",
+      "disease_name"
+    ],
+    "genomic_modifications": [
+      "mutation_type",
+      "cytoband",
+      "delivery_method",
+      "description",
+      "genotype",
+      "loci_name"
+    ],
+    "differentiation_results": [
+      "cell_type",
+      "show_potency",
+      "marker_list",
+      "method_used",
+      "description"
+    ],
+    "undifferentiated_characterisation": [
+      "epi_pluri_score",
+      "pluri_test_score",
+      "pluri_novelty_score"
+    ],
+    "genomic_characterisation": [
+      "passage_number",
+      "karyotype",
+      "karyotype_method",
+      "summary"
+    ],
+    "induced_derivation": [
+      "i_source_cell_type_id",
+      "i_source_cell_origin_id",
+      "derivation_year",
+      "non_int_vector",
+      "non_int_vector_name",
+      "i_source_cell_type_term",
+      "i_source_cell_origin_term"
+    ],
+    "embryonic_derivation": [
+      "embryo_stage",
+      "zp_removal_technique",
+      "trophectoderm_morphology",
+      "icm_morphology",
+      "e_preimplant_genetic_diagnosis"
+    ],
+    "ethics": [
+      "ethics_number",
+      "approval_date",
+      "institutional_HREC"
+    ],
+    "culture_medium": [
+      "co2_concentration",
+      "o2_concentration",
+      "passage_method"
+    ]
+  },
+
+  "pmids_curated": [
+    "16522163",
+    "18271699",
+    "18386991",
+    "20178001",
+    "20198447",
+    "29499499",
+    "30605840",
+    "30611018",
+    "30622032",
+    "30634128",
+    "30904819",
+    "31039485",
+    "31059986",
+    "31415975",
+    "31494449",
+    "32006803",
+    "32442534",
+    "32810830",
+    "32887382",
+    "32931148",
+    "33091851",
+    "33316599",
+    "33360097",
+    "33429167",
+    "33740643",
+    "34088002",
+    "34157503",
+    "34198153",
+    "34214897",
+    "34388489",
+    "34507143",
+    "34619644",
+    "34649201",
+    "35074713",
+    "35679759",
+    "35728439",
+    "35728440",
+    "35917601",
+    "36166872",
+    "36682125",
+    "36805468",
+    "37150143",
+    "37315423",
+    "37385135",
+    "37494850",
+    "37939621",
+    "38029555",
+    "38244534",
+    "38277710",
+    "38433209",
+    "38458031",
+    "38479087",
+    "38582058",
+    "38583293"
+  ],
+
+  "experiment_statistics": {
+    "total_pmids": 54,
+    "total_models": 6,
+    "total_curation_sections": 13,
+    "total_curation_fields": 58,
+    "processing_method": "vision-based PDF analysis",
+    "ground_truth_cell_lines": 315,
+    "total_model_outputs": 2129,
+    "combined_dataframe_rows": 2982,
+    "combined_dataframe_columns": 67
+  },
+
+  "data_sources": {
+    "articles_path": "to_curate/",
+    "ground_truth_path": "ground_truth_fixed/",
+    "raw_results_path": "results/raw_results/",
+    "cleaned_results_path": "results/cleaned_results/"
+  }
+}

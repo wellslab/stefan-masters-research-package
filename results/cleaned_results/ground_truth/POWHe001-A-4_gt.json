@@ -1,0 +1,57 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "E1C4",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "POWHe001-A-4"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Prince of Wales Hospital"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tuch BE",
+      "year": "2008.0",
+      "first_author": "Sidhu KS",
+      "doi": "10.1089/scd.2007.0055",
+      "journal": "Stem Cells and Development",
+      "pmid": "18271699",
+      "title": "Derivation of a New Human Embryonic Stem Cell Line, Endeavour-1, and Its Clonal Propagation"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Other"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-POWHe001-A-4"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

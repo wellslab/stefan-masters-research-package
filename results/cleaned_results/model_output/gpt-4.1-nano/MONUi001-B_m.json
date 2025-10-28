@@ -1,0 +1,44 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MONUi001-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ziarih",
+      "name_initials": "Z.",
+      "e_mail": "ziarih.hawi@monash.edu",
+      "last_name": "Hawi",
+      "group": "Murdoch Children's Research Institute, The Royal Children's Hospital, Melbourne, VIC, Australia"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2023.0",
+      "first_author": "Kealan Pugsley",
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A35_39",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ]
+}

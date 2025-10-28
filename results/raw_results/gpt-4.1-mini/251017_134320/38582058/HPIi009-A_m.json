@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "HPIi009-A",
+      "cell_line_alt_name": "RYR1-4833-R7",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Harry Perkins Institute of Medical Research",
+      "first_name": "Joshua",
+      "last_name": "Clayton",
+      "name_initials": "S",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103411",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene",
+      "first_author": "Joshua S. Clayton",
+      "last_author": "Rhonda L. Taylor",
+      "year": "2024",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A25_29",
+      "sex": "Female",
+      "disease_name": "Central core disease",
+      "disease_description": "Central core disease of muscle; CCD (OMIM#117000)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Inherited variant c.14437C>T (p.His4813Tyr) in RYR1 gene",
+      "genotype": "Heterozygous: RYR1 c.14437C>T",
+      "loci_name": "RYR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "TBXT; TBX6; OTX2; PAX6",
+      "method_used": "qRT-PCR",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "qRT-PCR",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "False",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "qRT-PCR",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "13",
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal female karyotype for HPIi008-A at passage 13. Banding resolution: 400 bands per haploid set. 15 metaphases counted, 5 analyzed for each."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "lymphoblastoid cell line",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2022",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai reprogramming kit"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Est IV DC-2012\u20131693",
+      "approval_date": "Missing",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee (approval number: RA/4/20/1008)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

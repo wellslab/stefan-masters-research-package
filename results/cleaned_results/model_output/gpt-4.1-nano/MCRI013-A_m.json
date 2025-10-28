@@ -1,0 +1,90 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "ASD2-7.1 (MCRI013-A)",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRI013-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "P",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "et al.",
+      "year": "2019.0",
+      "first_author": "Kiymet Bozaoglu",
+      "doi": "10.1016/j.scr.2019.101516",
+      "journal": "Stem Cell Research",
+      "pmid": "101516",
+      "title": "Generation of seven iPSC lines from peripheral blood mononuclear cells suitable to investigate Autism Spectrum Disorder"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A15_19",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OCT4; SOX17",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "1/2017",
+      "karyotype": "46,XY",
+      "summary": "Karyotyping occurred at a resolution of 300bphs. No chromosomal abnormalities detected.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2017",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "ethics_number": "28097"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "GSE125872"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Teresa H. Vandekolk",
+      "year": "2020.0",
+      "first_author": "Alexandra Grubman",
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "journal": "Stem Cell Reports",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture"
+    }
+  ]
+}

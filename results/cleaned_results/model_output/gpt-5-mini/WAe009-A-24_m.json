@@ -1,0 +1,69 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MIPSe010-A-24; H9.CX3CR1-tdTomato",
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "WAe009-A-24"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Colin",
+      "name_initials": "W",
+      "e_mail": "colin.pouton@monash.edu",
+      "last_name": "Pouton",
+      "group": "Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Jose M. Polo",
+      "year": "2020.0",
+      "first_author": "Alexandra Grubman",
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "journal": "Stem Cell Reports",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Targeted insertion of a dual reporter donor cassette encoding tdTomato and nanoluciferase into the CX3CR1 locus using CRISPR/Cas9 nickase-based targeting; donor contained selection cassettes and homology arms.",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "CX3CR1",
+      "genotype": "Heterozygous knock-in of tdTomato-T2A-nanoluciferase at the CX3CR1 locus",
+      "mutation_type": "GKI"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "Clones were screened by PCR and Southern blot to confirm targeting and were confirmed to be free of chromosomal aberrations via karyotyping (Figure S1F)."
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "8826"
+    },
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "23066"
+    }
+  ],
+  "culture_medium": [
+    {
+      "o2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

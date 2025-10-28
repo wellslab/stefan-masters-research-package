@@ -1,0 +1,73 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CANVAS3-2 Het GC",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRIi026-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Paul J. Lockhart",
+      "year": "2023.0",
+      "first_author": "Kayli C. Davies",
+      "doi": "10.1016/j.scr.2023.103047",
+      "journal": "Stem Cell Research",
+      "pmid": "36805468",
+      "title": "Generation and heterozygous repair of human iPSC lines from three individuals with cerebellar ataxia, neuropathy and vestibular areflexia syndrome (CANVAS) carrying biallelic AAGGG expansions in RFC1"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_name": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "SOX17"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "Smooth Muscle Actin"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "MAP2"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Other"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "approval_date": "1900-01-01",
+      "ethics_number": "28097"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

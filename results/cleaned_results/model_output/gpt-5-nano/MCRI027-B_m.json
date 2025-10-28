@@ -1,0 +1,85 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRI027-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "P.J.",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Paul J. Lockhart",
+      "year": "2023.0",
+      "first_author": "Kayli C. Davies",
+      "doi": "10.1016/j.scr.2023.103047",
+      "journal": "Stem Cell Research",
+      "pmid": "103047",
+      "title": "Generation and heterozygous repair of human iPSC lines from three individuals with cerebellar ataxia, neuropathy and vestibular areflexia syndrome (CANVAS) carrying biallelic AAGGG expansions in RFC1"
+    }
+  ],
+  "donor": [
+    {
+      "disease_name": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "RFC1 expansion corrected to wild-type allele; generation of isogenic control iPSC lines",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "RFC1",
+      "genotype": "Homozygous: RFC1 normal allele",
+      "mutation_type": "IM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "pEP4 E02S ET2K",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

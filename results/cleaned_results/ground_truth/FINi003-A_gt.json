@@ -1,0 +1,107 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "FI.SPSM.SCN2A.E1211K.008; NGF008 c3",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "FINi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Steve",
+      "e_mail": "steven.petrou@florey.edu.au",
+      "last_name": "Petrou",
+      "group": "Petrou-Maljevic-FIN"
+    },
+    {
+      "first_name": "Snezana",
+      "e_mail": "snezana.maljevic@florey.edu.au",
+      "last_name": "Maljevic",
+      "group": "Petrou-Maljevic-FIN"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Steve Petrou",
+      "year": "2024.0",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "doi": "10.1016/j.scr.2024.103367",
+      "journal": "Stem Cell Research",
+      "pmid": "38479087",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel Na(v)1.2"
+    },
+    {
+      "last_author": "Steve Petrou",
+      "year": "2024.0",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "doi": "https://doi.org/10.1016/j.scr.2024.103367",
+      "journal": "Stem Cell Research",
+      "pmid": "38479087",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel Na(v)1.2"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "5_9",
+      "disease_name": "Developmental and epileptic encephalopathy (DEE)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; CXCR4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; TBX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "8",
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "summary": "Molecular karyotyping by SNP array (Illumina Global Screening Array 24, v.2.0).",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "CL:0002620",
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2023-01-01",
+      "non_int_vector_name": "[kit] ReproRNA-OKSGM",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Other",
+      "i_source_cell_origin_id": "UBERON:0002067"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Melbourne Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "HREC/16/ Austin/472"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EN"
+    }
+  ]
+}

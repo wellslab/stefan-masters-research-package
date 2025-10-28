@@ -1,0 +1,98 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "SPG1-AU01C15",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "AIBNi015-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "name_initials": "J",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ernst J. Wolvetang",
+      "year": "2022.0",
+      "first_author": "Hannah C. Leeson",
+      "doi": "10.1016/j.scr.2022.102917",
+      "journal": "Stem Cell Research",
+      "title": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A1_4",
+      "disease_description": "CYP2U1 compound heterozygous mutations associated with progressive spasticity",
+      "disease_name": "Hereditary spastic paraplegia 56 (SPG56)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "CYP2U1 compound heterozygous variants identified by Sanger sequencing",
+      "loci_name": "CYP2U1",
+      "genotype": "c.1376C>T; p.(Pro459Leu); c.1462C>T; p.(Arg488Trp)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "FOXA2; SOX17; CXCR4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "PDGFRA; HAND1; BMP4; RUNX1",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6; NR2F2; VIMENTIN",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "SNP array analysis reported normal karyotype; STR analysis (10 loci) matched the original donor sample.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Queensland Ethics Committee",
+      "ethics_number": "2019000159"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

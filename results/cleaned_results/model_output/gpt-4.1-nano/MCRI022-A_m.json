@@ -1,0 +1,62 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRI022-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "P",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Murdoch Children\u2019s Research Institute, Parkville, VIC, Australia"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2020.0",
+      "first_author": "Kiymet Bozaoglu",
+      "doi": "10.1016/j.scr.2020.102013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of four iPSC lines from Neurofibromatosis Type 1 patients"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A10_14",
+      "disease_name": "Neurofibromatosis Type 1"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Karyotyping demonstrated a normal female karyotype with no detectable abnormalities.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2020",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EN"
+    }
+  ]
+}

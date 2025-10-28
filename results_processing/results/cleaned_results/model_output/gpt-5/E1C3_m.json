@@ -1,0 +1,114 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "ESC",
+      "cell_line_alt_name": "E1C3P4",
+      "hpscreg_name": "E1C3"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Laboratory, Faculty of Medicine, University of New South Wales"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Stem Cell Laboratory, Faculty of Medicine, University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1089/scd.2007.0055",
+      "title": "Derivation of a New Human Embryonic Stem Cell Line, Endeavour-1, and Its Clonal Propagation",
+      "journal": "Stem Cells and Development",
+      "last_author": "Bernie E. Tuch",
+      "first_author": "Kuldip S. Sidhu",
+      "year": "2008.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "\u03b2-III tubulin",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "CD34",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "AFP",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "FOXA2; SOX-17; GATA-4",
+      "method_used": "RT-PCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX,t(15;17)",
+      "karyotype_method": "Spectral karyotyping",
+      "summary": "E1C3P4 exhibited a reciprocal translocation involving chromosomes 15 and 17.",
+      "passage_number": "4"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC 01270"
+    },
+    {
+      "ethics_number": "HREC 002427"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

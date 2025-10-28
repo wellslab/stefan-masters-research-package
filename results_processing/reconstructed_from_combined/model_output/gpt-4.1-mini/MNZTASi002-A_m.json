@@ -1,0 +1,116 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "MS_0002",
+      "hpscreg_name": "MNZTASi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research, University of Tasmania"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "M",
+      "group": "Menzies Institute for Medical Research, University of Tasmania",
+      "e_mail": "Kaylene.young@utas.edu.au",
+      "last_name": "Young",
+      "first_name": "Kaylene"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102828",
+      "title": "Generation and characterisation of four multiple sclerosis iPSC lines from a single family",
+      "journal": "Stem Cell Research",
+      "last_author": "Kaylene M. Young",
+      "first_author": "Alastair J. Fortune",
+      "year": "2022.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A50_54",
+      "disease_description": "Multiple sclerosis (MS) is a complex neuroinflammatory/degenerative disease of the central nervous system (CNS) that results in the formation of demyelinated lesions and axon degeneration.",
+      "disease_name": "Relapsing remitting and secondary progressive multiple sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "NESTIN",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "GATA4",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "AFP",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotypically normal karyograms at passage 13 with resolution 550; 6 metaphases analysed.",
+      "passage_number": "13"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral mononuclear blood cells",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2021-12",
+      "non_int_vector_name": "Cytotune 2.0 Sendai Virus Kit (Thermofisher Scientific)",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "H0016915",
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

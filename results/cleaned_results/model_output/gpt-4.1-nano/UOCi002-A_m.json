@@ -1,0 +1,55 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CIM001.4 (UOCi001-A); CIM008.6 (UOCi002-A)",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "UOCi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Calgary"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Chad",
+      "name_initials": "C",
+      "e_mail": "chad.bousman@ucalgary.ca",
+      "last_name": "Bousman",
+      "group": "Dr. Chad Bousman, chad.bousman@ucalgary.ca"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2022.0",
+      "first_author": "Nazanin Vaziri",
+      "doi": "10.1016/j.scr.2022.102877",
+      "journal": "Stem Cell Research",
+      "pmid": "102877",
+      "title": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "36",
+      "disease_name": "Schizophrenia, Clozapine-induced myocarditis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2017",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ]
+}

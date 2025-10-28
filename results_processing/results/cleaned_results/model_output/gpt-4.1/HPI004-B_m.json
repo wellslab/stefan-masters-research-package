@@ -1,0 +1,123 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "HPI004-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Harry Perkins Institute of Medical Research",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102830",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 1-month-old nemaline myopathy patient harbouring a homozygous recessive c.121C > T (p.Arg39Ter) variant in the ACTA1 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Joshua S. Clayton",
+      "first_author": "Isabella S. Suleski",
+      "year": "2022.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "NEO",
+      "disease_description": "Congenital skeletal muscle disorder with muscle weakness and nemaline bodies in sarcoplasm and/or myofibre nuclei; severe neonatal disease onset, including hypotonia and respiratory assistance, caused by homozygous recessive mutation in ACTA1 gene (c.121C > T, p.Arg39Ter)",
+      "disease_name": "Nemaline myopathy 3; NEM3 (OMIM#161800), severe form"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR; Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR; Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "OTX2; PAX6; BRACHYURY",
+      "method_used": "RT-qPCR; Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Normal male karyotype at passage 14; at least 15 metaphases counted and at least 5 analysed in-depth.",
+      "passage_number": "14"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Epstein-Barr virus immortalised lymphoblastoid cell line (LCL)",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2021",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "DC.2012-1693",
+      "institutional_HREC": "Comit\u00e9 de Protection des Personnes (Est IV)"
+    },
+    {
+      "ethics_number": "RA/4/20/1008",
+      "institutional_HREC": "University of Western Australia\u2019s Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "AO-2018-3156",
+      "institutional_HREC": "Genethon"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

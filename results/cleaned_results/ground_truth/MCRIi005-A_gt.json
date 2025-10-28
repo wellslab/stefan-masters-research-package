@@ -1,0 +1,66 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "PB005",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRIi005-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Andrew G. Elefanty",
+      "year": "2019.0",
+      "first_author": "Katerina Vlahos",
+      "doi": "10.1016/j.scr.2018.101380",
+      "journal": "Stem Cell Research",
+      "pmid": "30605840",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "CXCR4;c-Kit;EPCAM"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "EPCAM; CD13"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "MAP2"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22,X)x2",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "approval_date": "1900-01-01",
+      "ethics_number": "35121 A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

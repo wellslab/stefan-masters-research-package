@@ -1,0 +1,48 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "86200401.4/001.4 (MONUi001-C)",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MONUi002-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mark A Bellgrove",
+      "year": "2023.0",
+      "first_author": "Kealan Pugsley",
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A10_14",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "summary": "Submitted in archive with journal",
+      "karyotype_method": "Illumina Infinium GSA-24 Array"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2023"
+    }
+  ]
+}

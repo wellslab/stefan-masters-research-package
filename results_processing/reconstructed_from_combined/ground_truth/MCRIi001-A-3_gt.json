@@ -1,0 +1,145 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "TRPV4\u00a0p.F273L; MCRIi001-A-2-TRPV4 p.F273L; PB001-SOX9tdTom-TRPV4p.F273L; SOX9tdTom-TRPV4 p.F273L",
+      "hpscreg_name": "MCRIi001-A-3"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lamand\u00e9-MCRI",
+      "e_mail": " shireen.lamande@mcri.edu.au",
+      "last_name": "Lamand\u00e9",
+      "first_name": "Shireen"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.101942",
+      "title": "CRISPR/Cas9 gene editing of a SOX9 reporter human iPSC line to produce two TRPV4 patient heterozygous missense mutant iPSC lines, MCRIi001-A-3 (TRPV4 p.F273L) and MCRIi001-A-4 (TRPV4 p.P799L)",
+      "journal": "Stem cell research",
+      "last_author": "Lamand\u00e9 SR",
+      "first_author": "Nur Patria Y",
+      "year": "2020.0",
+      "pmid": "32771907"
+    },
+    {
+      "doi": "10.1016/j.semcdb.2021.11.024",
+      "title": "Developmental principles informing human pluripotent stem cell differentiation to cartilage and bone",
+      "journal": "Seminars in cell & developmental biology",
+      "last_author": "Kimber SJ",
+      "first_author": "Humphreys PA",
+      "year": "2022.0",
+      "pmid": "34949507"
+    },
+    {
+      "doi": "10.1007/978-1-0716-2839-3_8",
+      "title": "Chondrogenic Differentiation of Human-Induced Pluripotent Stem Cells",
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "last_author": "Wu CL",
+      "first_author": "Dicks AR",
+      "year": "2023.0",
+      "pmid": "36355287"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2020.101942",
+      "title": "CRISPR/Cas9 gene editing of a SOX9 reporter human iPSC line to produce two TRPV4 patient heterozygous missense mutant iPSC lines, MCRIi001-A-3 (TRPV4 p.F273L) and MCRIi001-A-4 (TRPV4 p.P799L).",
+      "journal": "Stem Cell Research",
+      "last_author": "Shireen R Lamand\u00e9",
+      "first_author": "Yudha Nur Patria",
+      "year": "2020.0",
+      "pmid": "32771907"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "12q24.11",
+      "genotype": "Heterozygous: unspecified_reference_TRPV4:c.819C>G",
+      "delivery_method": "CRISPR/Cas9",
+      "mutation_type": "IM",
+      "loci_name": "TRPV4",
+      "description": "Heterozygous c.819C>G (p.Phe273Leu) variant was introduced to TRPV4.  Synonymous changes were also introduced."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "HNF4A",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "COL2A1",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "MAP2",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "passage_number": "5.0"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "35121 A",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

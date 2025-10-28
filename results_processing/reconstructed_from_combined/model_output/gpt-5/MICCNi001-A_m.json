@@ -1,0 +1,111 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "MICCNi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences, Monash University",
+      "e_mail": "janette.tong@monash.edu",
+      "last_name": "Tong",
+      "first_name": "Janette"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.11.014",
+      "title": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family",
+      "journal": "Stem Cell Research",
+      "last_author": "Mark A. Bellgrove",
+      "first_author": "Janette Tong",
+      "year": "2019.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A15_19",
+      "disease_description": "Unaffected male sibling from an Australia-Caucasian family",
+      "disease_name": "Healthy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "ODAM",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "AFP",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Normal male karyotype at 300\u2013400 band resolution; G-banding performed at Monash Pathology Services."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "CF15/2566 \u2013 2015100148",
+      "institutional_HREC": "Monash University Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

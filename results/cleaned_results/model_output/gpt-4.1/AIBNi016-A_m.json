@@ -1,0 +1,105 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "AIBNi016-A; SPG2-S3767C1",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "AIBNi016-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "name_initials": "J",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ernst J. Wolvetang",
+      "year": "2022.0",
+      "first_author": "Hannah C. Leeson",
+      "doi": "10.1016/j.scr.2022.102917",
+      "journal": "Stem Cell Research",
+      "pmid": "1873-5061",
+      "title": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A1_4",
+      "disease_description": "CYP2U1 compound heterozygous",
+      "disease_name": "Hereditary spastic paraplegia 56 (SPG56)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "CYP2U1 compound heterozygous: Exon 1 deletion (Chr1: 107932113; c.471delC; p.(Leu158fs)), Exon 2 substitution (Chr1: 107945456; c.1085 T > C; p.(Leu362Pro))",
+      "loci_name": "CYP2U1",
+      "genotype": "Exon 1 deletion: c.471delC; p.(Leu158fs), Exon 2 substitution: c.1085 T > C; p.(Leu362Pro)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "FOXA2; SOX17; CXCR4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "PDGFRA; HAND1; BMP4; RUNX1",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6; NR2F2; VIM",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "Normal",
+      "summary": "10 loci tested and matched to original cell line",
+      "karyotype_method": "SNP array"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2021",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Queensland Ethics Committee",
+      "approval_date": "December 2021",
+      "ethics_number": "2019000.159"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EN"
+    }
+  ]
+}

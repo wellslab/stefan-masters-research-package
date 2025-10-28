@@ -1,0 +1,109 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "ESC",
+      "cell_line_alt_name": "Endeavour-2",
+      "hpscreg_name": "E-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Diabetes Transplant Unit, Prince of Wales Hospital & University of New South Wales, Sydney, NSW, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S.",
+      "group": "Diabetes Transplant Unit, Prince of Wales Hospital & University of New South Wales",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu",
+      "first_name": "Kuldip"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1007/s11626-010-9280-8",
+      "title": "Derivation of a new human embryonic stem cell line, Endeavour-2, and its characterization",
+      "journal": "In Vitro Cell.Dev.Biol.\u2014Animal",
+      "last_author": "Bernard E. Tuch",
+      "first_author": "Kuldip S. Sidhu",
+      "year": "2010.0"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "NESTIN",
+      "method_used": "Quantitative PCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "VIMENTIN",
+      "method_used": "Quantitative PCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "Quantitative PCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "E-2 line displayed a normal 46 XX karyotype when tested at passage 9. Karyotyping was performed using standard G-banding analysis with 20 metaphases analyzed for modal determination.",
+      "passage_number": "9"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "zp_removal_technique": "laser dissection"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "02247/02267",
+      "institutional_HREC": "Institutional Human Research Ethics Committee (HREC)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

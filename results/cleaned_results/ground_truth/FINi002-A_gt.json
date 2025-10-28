@@ -1,0 +1,98 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "FI.CPLT.PRKN.R275W+del_e8.PK006",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "FINi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ovchinnikov DA",
+      "year": "2021.0",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "doi": "10.17504/protocols.io.bypqpvmw"
+    },
+    {
+      "last_author": "Ovchinnikov DA",
+      "year": "2023.0",
+      "first_author": "Pavan C",
+      "doi": "10.1016/j.scr.2023.103211",
+      "journal": "Stem Cell Research",
+      "pmid": "37890334",
+      "title": "Generation of the iPSC line FINi002-A from a male Parkinson's disease patient carrying compound heterozygous mutations in the PRKN gene"
+    },
+    {
+      "last_author": "Steve Petrou",
+      "year": "2024.0",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "doi": "10.1016/j.scr.2024.103367",
+      "journal": "Stem Cell Research",
+      "pmid": "38479087",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel Na(v)1.2"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "45_49",
+      "disease_name": "Parkinson's Disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "A progressive degenerative disorder of the central nervous system characterized by loss of dopamine producing neurons in the substantia nigra and the presence of Lewy bodies in the substantia nigra and locus coeruleus. Signs and symptoms include tremor which is most pronounced during rest, muscle rigidity, slowing of the voluntary movements, a tendency to fall back, and a mask-like facial expression.",
+      "loci_name": "PRKN",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "SOX17; CXCR4"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "TBXT; TBX6"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "PAX6;OTX2"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "5",
+      "karyotype": "46,XY",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Institutional Review Board - Mater Misericordia University Hospital, Dublin, Ireland",
+      "approval_date": "1900-01-01",
+      "ethics_number": "1 378 1300"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "ME"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "CANVAS4-6; C4-6 (MCRIi027-A)",
+      "hpscreg_name": "MCRIi027-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Murdoch Children's Research Institute",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "first_name": "Paul"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103047",
+      "title": "Generation and heterozygous repair of human iPSC lines from three individuals with cerebellar ataxia, neuropathy and vestibular areflexia syndrome (CANVAS) carrying biallelic AAGGG expansions in RFC1",
+      "journal": "Stem Cell Research",
+      "last_author": "Paul J. Lockhart",
+      "first_author": "Kayli C. Davies",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A55_59",
+      "disease_description": "Biallelic AAGGG expansions in RFC1",
+      "disease_name": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous correction/deletion of AAGGG expansion in RFC1",
+      "delivery_method": "CRISPR/Cas9",
+      "mutation_type": "Isogenic modification",
+      "loci_name": "RFC1",
+      "description": "Heterozygous gene correction of the AAGGG expansion in RFC1 (heterozygous corrected clone generated)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "SNP array (0.5 Mb resolution) showed 46,XY with no aneuploidies or large deletions/insertions detected."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "pEP4 E02S ET2K; pEP4 E02S EN2L; pEP4 E02S EM2K; pSimple-miR302/367"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC 28097",
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital, Victoria, Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

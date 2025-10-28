@@ -1,0 +1,38 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "c.1892A>G"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mellough C.B.",
+      "year": "2020.0",
+      "first_author": "Xiao Zhang",
+      "doi": "10.1002/mgg3.1489",
+      "journal": "Molecular genetics & genomic medicine",
+      "title": "Characterization of CRB1 splicing in retinal organoids derived from a patient with adult-onset rod-cone dystrophy caused by the c.1892A>G and c.2548G>A variants"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A20_24",
+      "disease_name": "Adult-onset rod-cone dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "c.1892A>G variant in CRB1 gene",
+      "loci_name": "CRB1",
+      "genotype": "NM",
+      "mutation_type": "Missense mutation"
+    }
+  ]
+}

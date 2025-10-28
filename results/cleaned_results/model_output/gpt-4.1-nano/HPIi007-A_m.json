@@ -1,0 +1,58 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "HPIi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua S.",
+      "name_initials": "J.S.",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Lovell",
+      "year": "2024.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2024.103410",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two iPSC lines from patients with inherited central core disease and concurrent malignant hyperthermia caused by dominant missense variants in the RYR1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "disease_description": "Inherited central core disease and malignant hyperthermia caused by dominant missense variants in the RYR1 gene",
+      "disease_name": "Central core disease of muscle; Malignant hyperthermia susceptibility 1"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "missense variants in the RYR1 gene",
+      "loci_name": "RYR1",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "Karyotyping confirmed normal male karyotype at 22 tested loci.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2024"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "HPi004-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "J",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Joshua S. Clayton",
+      "year": "2022.0",
+      "first_author": "Isabella S. Suleski",
+      "doi": "10.1016/j.scr.2022.102830",
+      "journal": "Stem Cell Research",
+      "pmid": "102830",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 1-month-old nemaline myopathy patient harbouring a homozygous recessive c.121C > T (p.Arg39Ter) variant in the ACTA1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A1_4",
+      "disease_description": "c.121C>T (p.Arg39Ter) variant in ACTA1",
+      "disease_name": "Nemaline myopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Homozygous ACTA1 c.121C>T (p.Arg39Ter) variant in iPSCs derived from NM patient; no genome editing performed",
+      "loci_name": "ACTA1",
+      "genotype": "Homozygous: ACTA1 c.121C>T (p.Arg39Ter)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "1",
+      "karyotype": "46,XY",
+      "summary": "Karyotyping performed with at least 5 metaphase spreads; interpreted as normal",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell (LCL)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    },
+    {
+      "institutional_HREC": "Comit\u00e9 de Protection des Personnes (Est IV)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

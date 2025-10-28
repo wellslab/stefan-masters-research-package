@@ -1,0 +1,35 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MEL1(AAVS1::tetON-fastFUCCI)",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "AIBNe001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ovchinnikov DA",
+      "year": "2020.0",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "doi": "10.1016/j.scr.2020.102103",
+      "journal": "Stem Cell Research"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-AIBNe001-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "SIVF002"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland"
+    },
+    {
+      "group": "Australian Stem Cell Centre"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ernst J. Wolvetang",
+      "year": "2021.0",
+      "first_author": "Hannah C. Leeson",
+      "doi": "10.1016/j.scr.2021.102527",
+      "journal": "Stem Cell Research",
+      "title": "Reprogramming of human olfactory neurosphere-derived cells from olfactory mucosal biopsies of a control cohort"
+    },
+    {
+      "last_author": "Sachinidis A.",
+      "year": "2004.0",
+      "first_author": "Gissel C.",
+      "doi": "10.1038/nbt1318",
+      "journal": "Nat. Biotechnol.",
+      "pmid": "14685245",
+      "title": "Embryonic stem cells: a promising tool for cell replacement therapy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "FOXA2; SOX17; CXCR4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "NR2F2; PAX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "FOXA2; SOX17; CXCR4",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "Karyotyping was performed at a resolution of 400 bands per haploid set.",
+      "karyotype_method": "G-banding"
+    }
+  ]
+}

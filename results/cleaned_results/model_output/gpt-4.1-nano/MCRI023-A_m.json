@@ -1,0 +1,70 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "NF1_162.1",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRI023-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "P",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Murdoch Children\u2019s Research Institute, Parkville, VIC, Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "et al.",
+      "year": "2020.0",
+      "first_author": "Kiymet Bozaoglu",
+      "doi": "10.1016/j.scr.2020.102013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of four iPSC lines from Neurofibromatosis Type 1 patients"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "A15_19",
+      "disease_name": "Neurofibromatosis Type 1"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "loci_name": "NF1",
+      "cytoband": "17q11.2",
+      "genotype": "NM",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OCT4; NANOG; SOX17; SMA",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Karyotyping demonstrated a normal female karyotype at passage 3.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2020"
+    }
+  ]
+}

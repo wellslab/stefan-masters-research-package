@@ -1,0 +1,50 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "AIBNi007-A; AIBNi008-A; AIBNi009-A; AIBNi0010-A; AIBNi0011-A; AIBNi0012-A; GENIE 11; AIBNi008-A; GENIE 29; AIBNi009-A; GENIE 49; AIBNi0010-A; GENIE 75; AIBNi0011-A; GENIE 81; AIBNi0012-A",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "AIBNi0012-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2022.0",
+      "first_author": "Zoe L. Hunter",
+      "doi": "10.1016/j.scr.2022.102673",
+      "journal": "Stem Cell Research",
+      "title": "Human induced pluripotent stem cells generated from epilepsy patients for use as in vitro models for drug screening"
+    }
+  ],
+  "donor": [
+    {
+      "disease_name": "Epilepsy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "SOX1; PAX6; PAX2",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Karyotyping confirmed normal chromosomal complement.",
+      "karyotype_method": "G-banding"
+    }
+  ]
+}

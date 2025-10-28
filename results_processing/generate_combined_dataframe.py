@@ -50,44 +50,90 @@ def get_all_possible_fields(json_data_list: List[Dict[str, Any]]) -> Dict[str, s
                 all_sections[section_name] = set()
 
             if isinstance(section_data, list) and section_data:
+                # Handle arrays (like ground truth)
                 for item in section_data:
                     if isinstance(item, dict):
                         all_sections[section_name].update(item.keys())
+            elif isinstance(section_data, dict):
+                # Handle objects (like model output)
+                all_sections[section_name].update(section_data.keys())
 
     return all_sections
 
-def flatten_json_for_dataframe(json_data: Dict[str, Any], all_possible_fields: Dict[str, set], prefix: str = '') -> Dict[str, Any]:
+def flatten_json_for_dataframe(json_data: Dict[str, Any], all_possible_fields: Dict[str, set], prefix: str = '') -> List[Dict[str, Any]]:
     """
-    Enhanced flattening that ensures all possible fields are represented as columns.
+    Enhanced flattening that creates multiple rows for arrays with multiple items.
+    Returns a list of flattened dictionaries (rows).
     """
-    flattened = {}
+    # First, find the maximum number of items in any array to determine how many rows we need
+    max_array_length = 1
+    array_sections = {}
 
     for section_name, section_data in json_data.items():
-        new_key = f"{prefix}{section_name}" if prefix else section_name
+        if isinstance(section_data, list) and section_data:
+            array_sections[section_name] = section_data
+            max_array_length = max(max_array_length, len(section_data))
 
-        if isinstance(section_data, list):
-            # Store as JSON string to preserve structure for reconstruction
-            flattened[f"{new_key}_json"] = json.dumps(section_data)
+    # Create rows (one for each array item)
+    rows = []
 
-            # Create columns for all possible fields in this section
-            if section_name in all_possible_fields:
-                for field_name in all_possible_fields[section_name]:
-                    values = []
-                    for item in section_data:
-                        if isinstance(item, dict) and field_name in item:
-                            val = item[field_name]
-                            if val is not None and str(val).strip() not in ["None", "Missing", "nan", ""]:
-                                values.append(str(val))
+    for row_idx in range(max_array_length):
+        flattened = {}
 
-                    if values:
-                        flattened[f"{new_key}_{field_name}"] = " | ".join(values)
+        # Store original JSON for reconstruction
+        flattened['_original_json'] = json.dumps(json_data)
+        flattened['_array_index'] = row_idx
+
+        for section_name, section_data in json_data.items():
+            new_key = f"{prefix}{section_name}" if prefix else section_name
+
+            if isinstance(section_data, list):
+                # Handle arrays
+                if row_idx < len(section_data):
+                    item = section_data[row_idx]
+                    if isinstance(item, dict):
+                        # Flatten the object at this array index
+                        if section_name in all_possible_fields:
+                            for field_name in all_possible_fields[section_name]:
+                                field_key = f"{new_key}.{field_name}"
+                                if field_name in item:
+                                    val = item[field_name]
+                                    if val is not None and str(val).strip() not in ["None", "Missing", "nan", ""]:
+                                        flattened[field_key] = str(val)
+                                    else:
+                                        flattened[field_key] = None
+                                else:
+                                    flattened[field_key] = None
                     else:
-                        flattened[f"{new_key}_{field_name}"] = None
-        else:
-            # For primitive values, store directly
-            flattened[new_key] = section_data
+                        # Simple value in array
+                        flattened[new_key] = str(item) if item is not None else None
+                else:
+                    # This row doesn't have data for this array section
+                    if section_name in all_possible_fields:
+                        for field_name in all_possible_fields[section_name]:
+                            field_key = f"{new_key}.{field_name}"
+                            flattened[field_key] = None
 
-    return flattened
+            elif isinstance(section_data, dict):
+                # Handle objects (same for all rows)
+                if section_name in all_possible_fields:
+                    for field_name in all_possible_fields[section_name]:
+                        field_key = f"{new_key}.{field_name}"
+                        if field_name in section_data:
+                            val = section_data[field_name]
+                            if val is not None and str(val).strip() not in ["None", "Missing", "nan", ""]:
+                                flattened[field_key] = str(val)
+                            else:
+                                flattened[field_key] = None
+                        else:
+                            flattened[field_key] = None
+            else:
+                # Primitive values (same for all rows)
+                flattened[new_key] = section_data
+
+        rows.append(flattened)
+
+    return rows
 
 def load_all_json_data(results_dir: Path, ground_truth_dir: Path, verbose: bool = True) -> Tuple[List[Dict], List[Path], List[Path]]:
     """
@@ -182,21 +228,25 @@ def process_model_outputs(results_dir: Path, all_possible_fields: Dict[str, set]
                 with open(json_file, 'r', encoding='utf-8') as f:
                     json_data = json.load(f)
 
-                # Flatten the JSON data
-                flattened_data = flatten_json_for_dataframe(json_data, all_possible_fields)
+                # Flatten the JSON data (returns list of rows)
+                flattened_rows = flatten_json_for_dataframe(json_data, all_possible_fields)
 
-                # Add metadata columns
-                row_data = {
-                    'data_source': 'model_output',
-                    'hpscreg_name': hpscreg_name,  # Now includes _m suffix
-                    'hpscreg_base': hpscreg_base,  # Base name without suffix
-                    'publication_pmid': pmid,
-                    'json_filename': json_file.name,
-                    'json_filepath': str(json_file.relative_to(results_dir)),
-                    **flattened_data
-                }
+                # Add metadata columns to each row
+                for row_idx, flattened_data in enumerate(flattened_rows):
+                    # For multiple rows, modify the hpscreg_name to indicate array index
+                    row_hpscreg_name = f"{hpscreg_name}" if len(flattened_rows) == 1 else f"{hpscreg_name}#{row_idx}"
 
-                all_rows.append(row_data)
+                    row_data = {
+                        'data_source': 'model_output',
+                        'hpscreg_name': row_hpscreg_name,  # May include array index
+                        'hpscreg_base': hpscreg_base,  # Base name without suffix
+                        'publication_pmid': pmid,
+                        'json_filename': json_file.name,
+                        'json_filepath': str(json_file.relative_to(results_dir)),
+                        **flattened_data
+                    }
+
+                    all_rows.append(row_data)
 
             except Exception as e:
                 if verbose:
@@ -226,8 +276,8 @@ def process_ground_truth(ground_truth_dir: Path, all_possible_fields: Dict[str, 
             with open(gt_file, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
 
-            # Flatten the JSON data
-            flattened_data = flatten_json_for_dataframe(json_data, all_possible_fields)
+            # Flatten the JSON data (returns list of rows)
+            flattened_rows = flatten_json_for_dataframe(json_data, all_possible_fields)
 
             # Extract PMID from publications if available
             pmid = None
@@ -238,18 +288,22 @@ def process_ground_truth(ground_truth_dir: Path, all_possible_fields: Dict[str, 
                         if pmid and pmid != "Missing":
                             break
 
-            # Add metadata columns
-            row_data = {
-                'data_source': 'ground_truth',
-                'hpscreg_name': hpscreg_name,  # Now includes _gt suffix
-                'hpscreg_base': hpscreg_base,  # Base name without suffix
-                'publication_pmid': pmid,
-                'json_filename': gt_file.name,
-                'json_filepath': str(gt_file),
-                **flattened_data
-            }
+            # Add metadata columns to each row
+            for row_idx, flattened_data in enumerate(flattened_rows):
+                # For multiple rows, modify the hpscreg_name to indicate array index
+                row_hpscreg_name = f"{hpscreg_name}" if len(flattened_rows) == 1 else f"{hpscreg_name}#{row_idx}"
 
-            all_rows.append(row_data)
+                row_data = {
+                    'data_source': 'ground_truth',
+                    'hpscreg_name': row_hpscreg_name,  # May include array index
+                    'hpscreg_base': hpscreg_base,  # Base name without suffix
+                    'publication_pmid': pmid,
+                    'json_filename': gt_file.name,
+                    'json_filepath': str(gt_file),
+                    **flattened_data
+                }
+
+                all_rows.append(row_data)
 
         except Exception as e:
             if verbose:

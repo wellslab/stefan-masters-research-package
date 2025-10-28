@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "LEIi011-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute, Nedlands, Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Missing",
+      "first_name": "Missing",
+      "last_name": "Missing",
+      "name_initials": "Missing",
+      "e_mail": "Missing",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101549",
+      "title": "Generation of three induced pluripotent stem cell lines from an isolated inherited retinal dystrophy patient with RCBTB1 frameshifting mutations",
+      "journal": "Stem Cell Research",
+      "last_author": "S. McLenachan",
+      "first_author": "Z. Huang",
+      "year": "2019.0",
+      "pmid": "31573641"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "45",
+      "disease_name": "Central chorioretinal atrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "13q14",
+      "genotype": "NM_018191.4:c.170delG and c.707delA variants",
+      "mutation_type": "Variant",
+      "loci_name": "RCBTB1",
+      "description": "Frameshifting mutations in RCBTB1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "Digital karyotyping on three iPSC lines",
+      "passage_number": "16, 11, 12"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2019"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

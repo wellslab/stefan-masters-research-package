@@ -1,0 +1,82 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "096",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "VCCRli003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Victor Chang Cardiac Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Robert",
+      "name_initials": "M",
+      "last_name": "Graham",
+      "group": "Victor Chang Cardiac Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Robert M Graham",
+      "year": "2023.0",
+      "first_author": "Monique Bax",
+      "doi": "10.1016/j.scr.2023.103238",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from a sister pair who suffered post-partum or recurrent Spontaneous Coronary Artery Dissections"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A40_44",
+      "disease_name": "Spontaneous Coronary Artery Dissection"
+    },
+    {
+      "sex": "Female",
+      "age": "A35_39",
+      "disease_name": "Spontaneous Coronary Artery Dissection"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "Brachyury",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "St Vincent's Hospital Human Research Ethics Committee",
+      "ethics_number": "HREC/16/SVH/338"
+    }
+  ]
+}

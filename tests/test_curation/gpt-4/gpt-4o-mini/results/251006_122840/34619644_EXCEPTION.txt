@@ -1,3 +1,0 @@
-Exception processing 34619644.pdf:
-
-[Errno 2] No such file or directory: '/home/stefanmirandadev/projects/stefan-masters-research-package/tests/test_curation/gpt-4/gpt-4o-mini/results/251006_122840/34619644/INSGFP/GCGCmCherry_m.json'

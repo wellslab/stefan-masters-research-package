@@ -1,0 +1,118 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "CANVAS4-6; C4-6 Het GC (MCRIi027-B)",
+      "hpscreg_name": "MCRIi027-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children\u2019s Research Institute, Parkville, VIC, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Murdoch Children\u2019s Research Institute, Parkville, VIC, Australia",
+      "e_mail": "Paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "first_name": "Paul"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103047",
+      "title": "Generation and heterozygous repair of human iPSC lines from three individuals with cerebellar ataxia, neuropathy and vestibular areflexia syndrome (CANVAS) carrying biallelic AAGGG expansions in RFC1",
+      "journal": "Stem Cell Research",
+      "last_author": "Paul J. Lockhart",
+      "first_author": "Kayli C. Davies",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A55_59",
+      "disease_description": "Progressive neurodegenerative disorder caused by biallelic AAGGG expansions in RFC1",
+      "disease_name": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous gene corrected",
+      "delivery_method": "Plasmid transfection",
+      "mutation_type": "Heterozygous Gene Correction",
+      "loci_name": "RFC1",
+      "description": "Heterozygous deletion of AAGGG expansion in RFC1 using CRISPR/Cas9 gene editing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "MAP2",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "SMA",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "SNP array",
+      "summary": "No aneuploidies or large deletions or insertions detected in MCRIi027-B (C4-6 Het GC)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2021-05",
+      "non_int_vector_name": "pEP4 E02S ET2K, pEP4 E02S EN2L, pEP4 E02S EM2K (Addgene plasmids)",
+      "i_source_cell_origin_term": "Skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "28097",
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children\u2019s Hospital (HREC 28097), Victoria, Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

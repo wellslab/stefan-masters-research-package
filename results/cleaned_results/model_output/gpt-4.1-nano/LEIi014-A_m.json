@@ -1,0 +1,56 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1012ips9; 1012ips10; 1012ips11",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi014-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "S",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Seyedahmadi",
+      "year": "2021.0",
+      "first_author": "K. Zaw",
+      "doi": "10.1016/j.scr.2020.102129",
+      "journal": "Stem Cell Research",
+      "pmid": "34649201",
+      "title": "Generation of three induced pluripotent stem cell lines from a patient with Usher syndrome caused by biallelic c.949C > A and c.1256G > T mutations in the USH2A gene"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A15_19",
+      "disease_description": "Type 2",
+      "disease_name": "Usher syndrome"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "loci_name": "USH2A",
+      "genotype": "NM_206933.2:c.949C>A; NM_206933.2:c.1256G>T",
+      "mutation_type": "VA"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "approval_date": "21/07/10",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ]
+}

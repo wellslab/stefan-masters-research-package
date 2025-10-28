@@ -1,0 +1,105 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "iPSC",
+      "cell_line_alt_name": "1629ips11 (LEIi017-B)",
+      "hpscreg_name": "LEIi017-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Lions Eye Institute",
+      "e_mail": "smlenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102448",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt disease caused by compound heterozygous mutations in the ABCA4 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Samuel McLenachan",
+      "first_author": "Di Huang",
+      "year": "2021.0",
+      "pmid": "102448"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A15_19",
+      "disease_name": "Stargardt disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Compound heterozygous ABCA4 mutations",
+      "mutation_type": "Variant",
+      "loci_name": "ABCA4",
+      "description": "ABCA4 c.5461-10 T>C; c.5603A>T"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "FOXA2; SOX17",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2020-01-01",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Kit (A15660, Invitrogen)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

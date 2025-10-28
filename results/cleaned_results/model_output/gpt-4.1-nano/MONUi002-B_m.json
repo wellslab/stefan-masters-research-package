@@ -1,0 +1,58 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "86200001.2/001.4 (MONUi001-C)",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MONUi002-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "e_mail": "mark.bellgrove@monash.edu"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Z. Hawi",
+      "year": "2023.0",
+      "first_author": "Kealan Pugsley",
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A10_14",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "13",
+      "karyotype": "46,XY",
+      "summary": "Karyotyping was performed at a resolution of 550 band level. No abnormalities detected.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2023",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Sendai virus"
+    }
+  ]
+}

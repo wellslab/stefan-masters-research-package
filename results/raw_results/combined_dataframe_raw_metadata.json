@@ -1,0 +1,53 @@
+{
+  "total_rows": 2982,
+  "model_output_rows": 2129,
+  "ground_truth_rows": 853,
+  "total_columns": 67,
+  "unique_hpscreg_names": 1734,
+  "unique_hpscreg_bases": 499,
+  "unique_pmids": 77,
+  "models_included": [
+    "gpt-4.1",
+    "gpt-4.1-mini",
+    "gpt-4.1-nano",
+    "gpt-5",
+    "gpt-5-mini",
+    "gpt-5-nano"
+  ],
+  "model_counts": {
+    "gpt-4.1": 412,
+    "gpt-4.1-mini": 382,
+    "gpt-4.1-nano": 177,
+    "gpt-5": 420,
+    "gpt-5-mini": 413,
+    "gpt-5-nano": 325,
+    "ground_truth": 853
+  },
+  "common_cell_lines": 106,
+  "sections_and_fields": {
+    "basic_data": 4,
+    "contact": 6,
+    "generator": 1,
+    "publications": 7,
+    "donor": 4,
+    "genomic_modifications": 6,
+    "differentiation_results": 5,
+    "undifferentiated_characterisation": 3,
+    "genomic_characterisation": 4,
+    "induced_derivation": 7,
+    "embryonic_derivation": 5,
+    "ethics": 3,
+    "culture_medium": 3
+  },
+  "config_used": {
+    "results_base_path": "/home/stefanmirandadev/projects/stefan-masters-research-package/results/raw_results",
+    "ground_truth_path": "/home/stefanmirandadev/projects/stefan-masters-research-package/ground_truth_fixed",
+    "output_path": "/home/stefanmirandadev/projects/stefan-masters-research-package/results/raw_results",
+    "output_filename": "combined_dataframe_raw",
+    "save_formats": [
+      "csv"
+    ],
+    "include_metadata": true,
+    "verbose": true
+  }
+}

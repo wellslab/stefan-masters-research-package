@@ -1,0 +1,48 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "HPIi005-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "J",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "et al.",
+      "year": "2023.0",
+      "first_author": "Karrison Driver",
+      "doi": "10.1016/j.scr.2023.103258",
+      "journal": "Stem Cell Research",
+      "pmid": "103258",
+      "title": "Generation of two induced pluripotent stem cell lines from a 33-year-old central core disease patient with a heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A30_34",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "deletion in the RYR1 gene",
+      "loci_name": "RYR1",
+      "genotype": "c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del)",
+      "mutation_type": "VA"
+    }
+  ]
+}

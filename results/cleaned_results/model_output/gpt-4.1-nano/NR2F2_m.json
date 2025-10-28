@@ -1,0 +1,49 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "NR2F2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Katie",
+      "name_initials": "K.L.",
+      "e_mail": "katie.ayers@mcri.edu.au",
+      "last_name": "Ayers",
+      "group": "The Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2024.0",
+      "first_author": "Ferreira LGA",
+      "doi": "10.1016/j.scr.2024.103374",
+      "journal": "Stem Cell Research",
+      "title": "Generation of heterozygous (MCRIi030-A-1) and homozygous (MCRIi030-A-2) NR2F2 knockout iPSC lines"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous deletion of NR2F2 exons 2\u20133 and frameshift in the NR2F2 exon 2",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "NR2F2",
+      "cytoband": "15q26.2",
+      "genotype": "NR2F2 gene/15q26.2",
+      "mutation_type": "GKO"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "Karyotyping showed a normal male karyotype with no detectable abnormalities.",
+      "karyotype_method": "G-banding"
+    }
+  ]
+}

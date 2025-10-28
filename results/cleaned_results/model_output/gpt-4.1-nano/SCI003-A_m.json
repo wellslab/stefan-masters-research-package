@@ -1,0 +1,47 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "SCI003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua S.",
+      "name_initials": "J.S.",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Driver",
+      "year": "2024.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2024.103411",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A30_34",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Missense variants in the RYR1 gene",
+      "loci_name": "RYR1",
+      "genotype": "NM_000540.3:c.14437C>T",
+      "mutation_type": "VA"
+    }
+  ]
+}

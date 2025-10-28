@@ -1,0 +1,92 @@
+{
+  "gpt-4.1-mini": {
+    "model_name": "gpt-4.1-mini",
+    "total_cell_lines": 135,
+    "exact_matches": 102,
+    "manual_mappings": 27,
+    "errors": 0,
+    "discoveries": 6,
+    "hallucinated": 0,
+    "other_categories": 0,
+    "exact_percentage": 75.6,
+    "scorable_count": 129,
+    "scorable_percentage": 95.6
+  },
+  "gpt-4.1-nano": {
+    "model_name": "gpt-4.1-nano",
+    "total_cell_lines": 146,
+    "exact_matches": 56,
+    "manual_mappings": 81,
+    "errors": 5,
+    "discoveries": 3,
+    "hallucinated": 1,
+    "other_categories": 0,
+    "exact_percentage": 38.4,
+    "scorable_count": 137,
+    "scorable_percentage": 93.8
+  },
+  "gpt-4.1": {
+    "model_name": "gpt-4.1",
+    "total_cell_lines": 130,
+    "exact_matches": 83,
+    "manual_mappings": 46,
+    "errors": 0,
+    "discoveries": 1,
+    "hallucinated": 0,
+    "other_categories": 0,
+    "exact_percentage": 63.8,
+    "scorable_count": 129,
+    "scorable_percentage": 99.2
+  },
+  "gpt-5-mini": {
+    "model_name": "gpt-5-mini",
+    "total_cell_lines": 137,
+    "exact_matches": 94,
+    "manual_mappings": 39,
+    "errors": 0,
+    "discoveries": 1,
+    "hallucinated": 3,
+    "other_categories": 0,
+    "exact_percentage": 68.6,
+    "scorable_count": 133,
+    "scorable_percentage": 97.1
+  },
+  "gpt-5-nano": {
+    "model_name": "gpt-5-nano",
+    "total_cell_lines": 134,
+    "exact_matches": 67,
+    "manual_mappings": 64,
+    "errors": 0,
+    "discoveries": 1,
+    "hallucinated": 2,
+    "other_categories": 0,
+    "exact_percentage": 50.0,
+    "scorable_count": 131,
+    "scorable_percentage": 97.8
+  },
+  "gpt-5": {
+    "model_name": "gpt-5",
+    "total_cell_lines": 129,
+    "exact_matches": 77,
+    "manual_mappings": 51,
+    "errors": 0,
+    "discoveries": 1,
+    "hallucinated": 0,
+    "other_categories": 0,
+    "exact_percentage": 59.7,
+    "scorable_count": 128,
+    "scorable_percentage": 99.2
+  },
+  "_overall_statistics": {
+    "total_cell_lines": 811,
+    "exact_matches": 479,
+    "manual_mappings": 308,
+    "errors": 5,
+    "discoveries": 13,
+    "hallucinated": 6,
+    "other_categories": 0,
+    "exact_percentage": 59.1,
+    "scorable_count": 787,
+    "scorable_percentage": 97.0
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "iPSC",
+      "cell_line_alt_name": "012-A",
+      "hpscreg_name": "LEIi012-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "M",
+      "group": "Lions Eye Institute, University of Western Australia",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.101947",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt Macular Dystrophy caused by the c.768G > T and c.6079C > T mutations in ABCA4",
+      "journal": "Stem Cell Research",
+      "last_author": "McLenachan",
+      "first_author": "Luke Jennings",
+      "year": "2020.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A30_34",
+      "disease_name": "Stargardt Macular Dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Compound heterozygous ABCA4 c.768G>T; c.6079C>T",
+      "mutation_type": "Variant",
+      "loci_name": "ABCA4",
+      "description": "Two ABCA4 variants identified in patient: c.768G>T and c.6079C>T"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblast",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2017-03-20",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

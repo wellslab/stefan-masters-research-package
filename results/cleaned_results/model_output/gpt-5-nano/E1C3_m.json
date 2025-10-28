@@ -1,0 +1,78 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "E1C3"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Laboratory, Faculty of Medicine, University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bernie E. Tuch",
+      "year": "2008.0",
+      "first_author": "Kuldip S. Sidhu",
+      "doi": "10.1089/scd.2007.0055",
+      "journal": "Stem Cells and Development",
+      "title": "Original Research Report Derivation of a New Human Embryonic Stem Cell Line, Endeavour-1, and Its Clonal Propagation"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "Directed differentiation to definitive endoderm using activin A; endoderm markers AFP, SOX17, FOXA2, and GATA4 expressed; immunostaining confirmed.",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP; SOX17; FOXA2; GATA4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "Differentiation toward ectoderm with nestin expression.",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NESTIN",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "Differentiation toward mesoderm with renin expression.",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "Renin",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Karyotype shows 46XX; normal karyotype."
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of New South Wales Ethics Committee",
+      "ethics_number": "HREC 01270"
+    },
+    {
+      "institutional_HREC": "University of New South Wales Ethics Committee",
+      "ethics_number": "HREC 02247"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

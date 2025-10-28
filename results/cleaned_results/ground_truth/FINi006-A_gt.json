@@ -1,0 +1,26 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "FI.CS.PRKNDex2/Dex5-7.F@40",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "FINi006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-FINi006-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

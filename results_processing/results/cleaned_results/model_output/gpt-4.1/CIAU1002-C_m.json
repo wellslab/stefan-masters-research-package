@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "UBC3 M1",
+      "hpscreg_name": "CIAU1002-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centenary Institute of Cancer Medicine and Cell Biology"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "C",
+      "group": "Centenary Institute of Cancer Medicine and Cell Biology",
+      "e_mail": "c.semsarian@centenary.org.au",
+      "last_name": "Semsarian",
+      "first_name": "Christopher"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103153",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with conduction disease and recurrent ventricular fibrillation with a sodium voltage-gated channel alpha subunit 5 (SCN5A) gene c.392 + 3A > G splice-site variant",
+      "journal": "Stem Cell Research",
+      "last_author": "Christopher Semsarian",
+      "first_author": "Serena Li",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A30_34",
+      "disease_description": "Patient with recurrent ventricular fibrillation, conduction disease, and non-ischemic cardiomyopathy carrying a heterozygous SCN5A c.392 + 3A > G variant",
+      "disease_name": "Left bundle branch block; recurrent ventricular fibrillation; conduction disease; non-ischemic cardiomyopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "3p22.2",
+      "genotype": "Heterozygous SCN5A c.392 + 3A > G",
+      "mutation_type": "Variant",
+      "loci_name": "SCN5A",
+      "description": "Heterozygous SCN5A c.392 + 3A > G splice-site variant"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17; CXCR4",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "NKX2.5; TNNT2",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "PAX6; NESTIN",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Whole genome sequencing",
+      "summary": "Normal female karyotype with no aneuploidies was confirmed at passage 18.",
+      "passage_number": "18"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2021",
+      "non_int_vector_name": "Epi5 Episomal iPSC Reprogramming Kit (Thermo Fisher, MA, USA)",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "X19-0108",
+      "institutional_HREC": "Sydney Local Health District"
+    },
+    {
+      "ethics_number": "2019/ETH00461",
+      "institutional_HREC": "Sydney Local Health District"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

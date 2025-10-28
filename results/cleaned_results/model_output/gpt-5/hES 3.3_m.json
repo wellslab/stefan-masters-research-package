@@ -1,0 +1,88 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "hES3.3; hES 3 clone 3.3",
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "hES 3.3"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, NSW 2031 Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kuldip",
+      "name_initials": "S",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu",
+      "group": "Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bernie E. Tuch",
+      "year": "2006.0",
+      "first_author": "Kuldip S. Sidhu",
+      "doi": "10.1089/scd.2006.15.61",
+      "journal": "Stem Cells and Development",
+      "title": "Derivation of Three Clones from Human Embryonic Stem Cell Lines by FACS Sorting and Their Characterization"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NESTIN",
+      "method_used": "RT-PCR"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "method_used": "Histology"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "method_used": "Histology"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "46,XX",
+      "summary": "Cytogenetic evaluation of clone hES 3.3 at passage 10 showed a normal 46 XX karyotype; multicolor spectral karyotyping was also used.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC 01270"
+    },
+    {
+      "ethics_number": "HREC 02247"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

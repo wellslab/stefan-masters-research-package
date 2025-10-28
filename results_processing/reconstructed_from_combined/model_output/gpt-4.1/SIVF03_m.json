@@ -1,0 +1,111 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "ESC",
+      "hpscreg_name": "SIVF03"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF, Research Department, New South Wales, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Sydney IVF, Research Department, New South Wales, Australia",
+      "last_name": "Peura",
+      "first_name": "Teija"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1089/clo.2007.0062",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos",
+      "journal": "Cloning and Stem Cells",
+      "last_author": "Tomas Stojanov",
+      "first_author": "Teija Peura",
+      "year": "2008.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "47,XX,+16",
+      "mutation_type": "Variant",
+      "loci_name": "Chromosome 16",
+      "description": "Female trisomy-16"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "AFP",
+      "method_used": "RT-PCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro embryoid body formation"
+    },
+    {
+      "marker_list": "VEGFR",
+      "method_used": "RT-PCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro embryoid body formation"
+    },
+    {
+      "marker_list": "NCAM",
+      "method_used": "RT-PCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro embryoid body formation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "47,XX,+16",
+      "karyotype_method": "G-banding",
+      "summary": "Female trisomy-16 confirmed at passages 6, 29, and 55.",
+      "passage_number": "26"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "e_preimplant_genetic_diagnosis": "True",
+      "zp_removal_technique": "mechanical"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Sydney IVF and Sanatorium Helios"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.06",
+      "o2_concentration": "0.05",
+      "passage_method": "mechanically"
+    }
+  ]
+}

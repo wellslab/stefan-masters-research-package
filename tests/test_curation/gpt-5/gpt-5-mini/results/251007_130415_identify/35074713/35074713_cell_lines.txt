@@ -1,9 +1,0 @@
-Cell lines identified in 35074713:
-========================================
-
-1. AIBNi007-A
-2. AIBNi008-A
-3. AIBNi009-A
-4. AIBNi010-A
-5. AIBNi011-A
-6. AIBNi012-A

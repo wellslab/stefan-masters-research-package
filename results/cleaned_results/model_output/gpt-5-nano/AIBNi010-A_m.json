@@ -1,0 +1,38 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "AIBNi010-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "name_initials": "EJ",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "group": "Wolvetang-AIBN"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Lata Vadlamudi",
+      "year": "2022.0",
+      "first_author": "Zoe L. Hunter",
+      "doi": "10.1016/j.scr.2022.102673",
+      "journal": "Stem Cell Research",
+      "title": "Human induced pluripotent stem cells generated from epilepsy patients for use as in vitro models for drug screening"
+    }
+  ],
+  "donor": [
+    {
+      "disease_name": "Epilepsy"
+    }
+  ]
+}

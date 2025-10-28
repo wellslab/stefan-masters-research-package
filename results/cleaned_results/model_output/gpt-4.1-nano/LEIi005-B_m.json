@@ -1,0 +1,62 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "RP1ips6",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi005-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Dr. Fred K. Chen",
+      "name_initials": "F.K.",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "Chen",
+      "group": "The University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2019.0",
+      "first_author": "Xiao Zhang",
+      "doi": "10.1016/j.scr.2019.101452",
+      "journal": "Stem Cell Research",
+      "pmid": "101452",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with retinitis pigmentosa caused by RP1 mutation"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A20_24",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "c.2098G > T heterozygous nonsense mutation in RP1",
+      "loci_name": "RP1",
+      "cytoband": "19q13.2",
+      "genotype": "Heterozygous: c.2098G > T",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Genome-wide copy number variation profiling demonstrated that the iPSC were female and had normal diploid karyotypes (46,XX).",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2019"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "hES 3.2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, NSW 2031 Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kuldip",
+      "name_initials": "S",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu",
+      "group": "Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bernie E. Tuch",
+      "year": "2006.0",
+      "first_author": "Kuldip S. Sidhu",
+      "journal": "Stem Cells and Development",
+      "title": "Derivation of Three Clones from Human Embryonic Stem Cell Lines by FACS Sorting and Their Characterization"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NESTIN",
+      "method_used": "RT-PCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "alpha-fetoprotein; GATA6",
+      "method_used": "RT-PCR"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "cartilage-like tissue",
+      "method_used": "Histology"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "46,XX",
+      "summary": "Cytogenetic evaluation at passage 10 by standard G-banding of 20 cells showed a normal 46,XX karyotype.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC 01270"
+    },
+    {
+      "ethics_number": "HREC 02247"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

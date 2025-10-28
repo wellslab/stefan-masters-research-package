@@ -1,0 +1,123 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "MQ54-2",
+      "hpscreg_name": "UOWi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Ooi-UOW",
+      "e_mail": " lezanne@uow.edu.au",
+      "last_name": "Ooi",
+      "first_name": "Lezanne"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.101701",
+      "title": "The mRNA-based reprogramming of fibroblasts from a SOD1(E101G) familial amyotrophic lateral sclerosis patient to induced pluripotent stem cell line UOWi007",
+      "journal": "Stem cell research",
+      "last_author": "Ooi L",
+      "first_author": "Balez R",
+      "year": "2020.0",
+      "pmid": "32006803"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2020.101701",
+      "title": "The mRNA-based reprogramming of fibroblasts from a SOD1",
+      "journal": "Stem Cell Research",
+      "last_author": "Lezanne Ooi",
+      "first_author": "Rachelle Balez",
+      "year": "2020.0",
+      "pmid": "32006803"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "40_44",
+      "disease_name": "Amyotrophic Lateral Sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "method_used": "Scorecard",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "method_used": "Scorecard",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "method_used": "Scorecard",
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred at a resolution of 400bphs (15 metaphase spreads).",
+      "passage_number": "24"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "skin fibroblast",
+      "derivation_year": "2018-01-01",
+      "i_source_cell_type_id": "CL:0002620",
+      "i_source_cell_origin_term": "dermis",
+      "i_source_cell_origin_id": "UBERON:0002067"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HE13/272",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

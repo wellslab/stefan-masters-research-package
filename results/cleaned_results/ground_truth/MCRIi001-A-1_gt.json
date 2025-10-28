@@ -1,0 +1,159 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "PB001-OI26",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRIi001-A-1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bateman JF",
+      "year": "2019.0",
+      "first_author": "Hosseini Far H",
+      "doi": "10.1016/j.scr.2019.101449",
+      "journal": "Stem Cell Research",
+      "pmid": "31075690",
+      "title": "Generation of a heterozygous COL1A1 (c.3969_3970insT) osteogenesis imperfecta mutation human iPSC line, MCRIi001-A-1, using CRISPR/Cas9 editing"
+    },
+    {
+      "last_author": "Moosajee M",
+      "year": "2020.0",
+      "first_author": "Eintracht J",
+      "doi": "10.3389/fncel.2020.00265",
+      "journal": "Frontiers in cellular neuroscience",
+      "pmid": "32973457",
+      "title": "The Use of Induced Pluripotent Stem Cells as a Model for Developmental Eye Disorders"
+    },
+    {
+      "last_author": "Rivadeneira F",
+      "year": "2020.0",
+      "first_author": "Trajanoska K",
+      "doi": "10.3389/fendo.2020.556610",
+      "journal": "Frontiers in endocrinology",
+      "pmid": "33162933",
+      "title": "Genomic Medicine: Lessons Learned From Monogenic and Complex Bone Disorders"
+    },
+    {
+      "last_author": "Song CQ",
+      "year": "2020.0",
+      "first_author": "Wu SS",
+      "doi": "10.7150/thno.43360",
+      "journal": "Theranostics",
+      "pmid": "32292501",
+      "title": "Advances in CRISPR/Cas-based Gene Therapy in Human Genetic Diseases"
+    },
+    {
+      "last_author": "Sieron AL",
+      "year": "2021.0",
+      "first_author": "Fus-Kujawa A",
+      "doi": "10.3390/biom11050699",
+      "journal": "Biomolecules",
+      "pmid": "34067183",
+      "title": "Potential of Induced Pluripotent Stem Cells for Use in Gene Therapy: History, Molecular Bases, and Medical Perspectives"
+    },
+    {
+      "last_author": "Sieron AL",
+      "year": "2021.0",
+      "first_author": "Botor M",
+      "doi": "10.3390/biom11101493",
+      "journal": "Biomolecules",
+      "pmid": "34680126",
+      "title": "Osteogenesis Imperfecta: Current and Prospective Therapies"
+    },
+    {
+      "last_author": "Munns CF",
+      "year": "2022.0",
+      "first_author": "Schindeler A",
+      "doi": "10.1002/jbmr.4549",
+      "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+      "pmid": "35306687",
+      "title": "Curative Cell and Gene Therapy for Osteogenesis Imperfecta"
+    },
+    {
+      "last_author": "Kimber SJ",
+      "year": "2022.0",
+      "first_author": "Humphreys PA",
+      "doi": "10.1016/j.semcdb.2021.11.024",
+      "journal": "Seminars in cell & developmental biology",
+      "pmid": "34949507",
+      "title": "Developmental principles informing human pluripotent stem cell differentiation to cartilage and bone"
+    },
+    {
+      "last_author": "Kim Jangho",
+      "year": "2023.0",
+      "first_author": "Park Sangbae",
+      "doi": "10.1186/s40824-023-00382-x",
+      "journal": "Biomaterials Research"
+    },
+    {
+      "last_author": "Pan Hong",
+      "year": "2023.0",
+      "first_author": "Zhang Yi",
+      "doi": "10.1155/2023/9098445",
+      "journal": "Transboundary and Emerging Diseases"
+    },
+    {
+      "last_author": "Ahuja Vishal",
+      "year": "2023.0",
+      "first_author": "Srivastava Apeksha",
+      "doi": "10.33640/2405-609x.3330",
+      "journal": "Karbala International Journal of Modern Science"
+    },
+    {
+      "last_author": "Abbaszadegan Mohammad Reza",
+      "year": "2023.0",
+      "first_author": "Lotfi Malihe",
+      "doi": "10.1007/s12015-023-10585-3",
+      "journal": "Stem Cell Reviews and Reports"
+    },
+    {
+      "last_author": "Dai Yong",
+      "year": "2023.0",
+      "first_author": "Li Dandan",
+      "doi": "10.31083/j.fbl2812336",
+      "journal": "Frontiers in Bioscience-Landmark"
+    },
+    {
+      "last_author": "Wang Hu",
+      "year": "2024.0",
+      "first_author": "Sun Yu",
+      "doi": "10.1021/acsptsci.3c00324",
+      "journal": "ACS Pharmacology &amp; Translational Science"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "A group of usually autosomal dominant inherited disorders characterized by defective synthesis of collagen type I resulting in defective collagen formation. It is characterized by brittle and easily fractured bones.",
+      "delivery_method": "Crispr/Cas9",
+      "mutation_type": "GKI"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "2",
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "approval_date": "1900-01-01",
+      "ethics_number": "35121 A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.95",
+      "passage_method": "EN"
+    }
+  ]
+}

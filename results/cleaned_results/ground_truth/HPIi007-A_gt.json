@@ -1,0 +1,111 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "RYR1-6546-R3B",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "HPIi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Clayton-HPI"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2024.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2024.103410",
+      "journal": "Stem Cell Research",
+      "pmid": "38583293",
+      "title": "Generation of two iPSC lines from patients with inherited central core disease and concurrent malignant hyperthermia caused by dominant missense variants in the RYR1 gene"
+    },
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2024.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "https://doi.org/10.1016/j.scr.2024.103410",
+      "journal": "Stem Cell Research",
+      "pmid": "38583293",
+      "title": "Generation of two iPSC lines from patients with inherited central core disease and concurrent malignant hyperthermia caused by dominant missense variants in the RYR1 gene"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; TBX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "Brachyury",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "19",
+      "karyotype": "46,XY",
+      "summary": "Karyotyping occurred at a resolution of 400 bphs (15 metaphase spreads were counted, 5 were analyzed).",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "BTO:0000773",
+      "derivation_year": "2022-01-01",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "non_int_vector": "Sendai Virus",
+      "i_source_cell_origin_id": "UBERON:0000178"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "RA/4/20/1008"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

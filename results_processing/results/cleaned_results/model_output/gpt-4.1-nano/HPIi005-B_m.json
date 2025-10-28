@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Harry Perkins Institute of Medical Research",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103258",
+      "title": "Generation of two induced pluripotent stem cell lines from a 33-year-old central core disease patient with a heterozygous dominant c.14145_14156delCTACTGGGACAA (p.Asn4715_Asp4718del) deletion in the RYR1 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "et al.",
+      "first_author": "K. Driver",
+      "year": "2023.0",
+      "pmid": "103258"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A30_34",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "c.14145_14156delCTACTGGGACAA (p.Asn4715_Asp4718del)",
+      "mutation_type": "Variant",
+      "loci_name": "RYR1",
+      "description": "deletion in the RYR1 gene"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2023"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

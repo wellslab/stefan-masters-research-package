@@ -1,0 +1,105 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Ryr1-i3372-RIP (HPIi009-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "HPIi009-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "S",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2024.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2024.103411",
+      "journal": "Stem Cell Research",
+      "pmid": "38420047",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A25_29",
+      "disease_description": "CCD is a congenital myopathy typically diagnosed by the presence of central-typed cores in type I myofibres. Common clinical features include muscle weakness and hypotonia presenting during infancy, delayed motor development, and joint contractures.",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous for RYR1 c.4036C>A (p.Asn1346Lys) variant",
+      "loci_name": "RYR1",
+      "cytoband": "19q13.2",
+      "genotype": "Heterozygous for RYR1 c.4036C>A (p.Asn1346Lys)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "14",
+      "karyotype": "46,XY",
+      "summary": "Normal karyotype by G-banding at passage 14; 15 metaphase counted, 5 analyzed for each line.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2022",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell (LCL)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/20/1008"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EN"
+    }
+  ]
+}

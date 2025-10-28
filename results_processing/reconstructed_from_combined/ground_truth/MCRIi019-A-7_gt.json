@@ -1,0 +1,166 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "COL2A1 p.G1113C; 1502.3 COL2A1 p.G1113C; 1502-COL2A1 p.G1113C",
+      "hpscreg_name": "MCRIi019-A-7"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lamand\u00e9-MCRI",
+      "e_mail": " shireen.lamande@mcri.edu.au",
+      "last_name": "Lamand\u00e9",
+      "first_name": "Shireen"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102515",
+      "title": "Generation of a heterozygous COL2A1 (p.G1113C) hypochondrogenesis mutation iPSC line, MCRIi019-A-7, using CRISPR/Cas9 gene editing",
+      "journal": "Stem cell research",
+      "last_author": "Lamand\u00e9 SR",
+      "first_author": "Lilianty J",
+      "year": "2021.0",
+      "pmid": "34543885"
+    },
+    {
+      "doi": "10.1016/j.tibtech.2022.07.011",
+      "title": "Synovial joint-on-a-chip for modeling arthritis: progress, pitfalls, and potential",
+      "journal": "Trends in biotechnology",
+      "last_author": "Lin H",
+      "first_author": "Li ZA",
+      "year": "2023.0",
+      "pmid": "35995600"
+    },
+    {
+      "doi": "10.1073/pnas.2211510120",
+      "title": "Modeling human skeletal development using human pluripotent stem cells",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "last_author": "Bateman JF",
+      "first_author": "Lamand\u00e9 SR",
+      "year": "2023.0",
+      "pmid": "37126720"
+    },
+    {
+      "doi": "10.3390/ijms25021014",
+      "title": "Advanced Cellular Models for Rare Disease Study: Exploring Neural, Muscle and Skeletal Organoids",
+      "journal": "International journal of molecular sciences",
+      "last_author": "Romanelli MG",
+      "first_author": "Bombieri C",
+      "year": "2024.0",
+      "pmid": "38256087"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2021.102515",
+      "title": "Generation of a heterozygous COL2A1 (p.G1113C) hypochondrogenesis mutation iPSC line, MCRIi019-A-7, using CRISPR/Cas9 gene editing.",
+      "journal": "Stem Cell Research",
+      "last_author": "Shireen R Lamand\u00e9",
+      "first_author": "Jinia Lilianty",
+      "year": "2021.0",
+      "pmid": "34543885"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "12q13.11",
+      "genotype": "Heterozygous: unspecified_reference_COL2A1:c.3337G>T",
+      "delivery_method": "CRISPR/Cas9",
+      "mutation_type": "IM",
+      "loci_name": "COL2A1",
+      "description": "Heterozygous COL2A1 c.3397G>T (p.Gly1113Cys) variant was reported, however sequence analysis suggests the introduced variant is Heterozygous: unspecified_reference_COL2A1:c.3337G>T."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "COL2A1; FOXC2; MEOX1; SOX9",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "PAX6",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EC"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "PAX6",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22,X)x2",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array ((Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "passage_number": "24.0"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "33118",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

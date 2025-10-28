@@ -1,0 +1,88 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "SIVF13"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sanatorium Helios"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2008.0",
+      "first_author": "Teija Peura",
+      "doi": "10.1089/clo.2007.0062",
+      "journal": "Cloning and Stem Cells",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NCAM",
+      "method_used": "RT-PCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "VEGFR2 (KDR, FLK1)",
+      "method_used": "RT-PCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP",
+      "method_used": "RT-PCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "8",
+      "karyotype": "46,XY",
+      "summary": "Normal male karyotype (46,XY) at passage 8; karyotyping performed by G-banding. Latest cultured passage before cryopreservation reported as P.21.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "zp_removal_technique": "enzymatic",
+      "e_preimplant_genetic_diagnosis": "False",
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Sydney IVF Ethics Committee"
+    },
+    {
+      "institutional_HREC": "Sanatorium Helios (Brno, Czech Republic)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.06",
+      "o2_concentration": "0.05",
+      "passage_method": "ME"
+    }
+  ]
+}

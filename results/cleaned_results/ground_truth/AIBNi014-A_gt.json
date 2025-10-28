@@ -1,0 +1,111 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "hONS-derived A-T iPSC; ONS-derived A-T iPSC; A-T HL iPSC",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "AIBNi014-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "name_initials": "J",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "group": "Wolvetang-AIBN"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ernst J. Wolvetang",
+      "year": "2021.0",
+      "first_author": "Aguado J",
+      "doi": "10.1111/acel.13468",
+      "journal": "Aging Cell",
+      "pmid": "34459078",
+      "title": "Inhibition of the cGAS-STING pathway ameliorates the premature senescence hallmarks of Ataxia-Telangiectasia brain organoids"
+    },
+    {
+      "last_author": "Ernst J. Wolvetang",
+      "year": "2021.0",
+      "first_author": "Hannah C. Leeson",
+      "doi": "10.1016/j.scr.2021.102528",
+      "journal": "Stem Cell Research",
+      "pmid": "34507142",
+      "title": "Ataxia Telangiectasia iPSC line generated from a patient olfactory biopsy identifies novel disease-causing mutations"
+    },
+    {
+      "last_author": "Ernst J. Wolvetang",
+      "year": "2021.0",
+      "first_author": "Hannah C. Leeson",
+      "doi": "https://doi.org/10.1016/j.scr.2021.102528",
+      "journal": "Stem Cell Research",
+      "pmid": "34507142",
+      "title": "Ataxia Telangiectasia iPSC line generated from a patient olfactory biopsy identifies novel disease-causing mutations"
+    },
+    {
+      "last_author": "Ernst J. Wolvetang",
+      "year": "2021.0",
+      "first_author": "Aguado J",
+      "doi": "https://doi.org/10.1111/acel.13468",
+      "journal": "Aging Cell",
+      "pmid": "34459078",
+      "title": "Inhibition of the cGAS-STING pathway ameliorates the premature senescence hallmarks of Ataxia-Telangiectasia brain organoids"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "FOXA2; SOX17; CXCR4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "PDGFRA; HAND1; KDR; CD34",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "OTX2; PAX6; NR2F2; VIM",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "5",
+      "karyotype": "46,XX",
+      "summary": "Karyotyping occurred from passage 5 at a resolution of 500bphs.",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2018-01-01",
+      "non_int_vector_name": "[kit] ReproRNA-OKSGM",
+      "non_int_vector": "Other",
+      "i_source_cell_origin_id": "UBERON:0005386"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Queensland Children's Health Services Human Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "2019000159"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

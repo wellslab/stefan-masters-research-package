@@ -1,5 +1,0 @@
-Error processing 34507143.pdf:
-
-Error parsing cell line list: invalid syntax (<unknown>, line 1). Raw response: ```
-["AIBNi013", "GRDi004", "Control-h iPSC C1"]
-```

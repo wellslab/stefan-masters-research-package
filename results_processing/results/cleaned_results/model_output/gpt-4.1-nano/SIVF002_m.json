@@ -1,0 +1,133 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "SIVF002"
+    },
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "SIVF002"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland, Australian Institute for Bioengineering & Nanotechnology (AIBN)"
+    },
+    {
+      "group": "Australian Stem Cell Centre"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Missing",
+      "first_name": "Missing",
+      "last_name": "Missing",
+      "name_initials": "Missing",
+      "e_mail": "Missing",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102527",
+      "title": "Reprogramming of human olfactory neurosphere-derived cells from olfactory mucosal biopsies of a control cohort",
+      "journal": "Stem Cell Research",
+      "last_author": "E.J. Wolvetang",
+      "first_author": "H.C. Leeson",
+      "year": "2021.0"
+    },
+    {
+      "doi": "10.1038/nbt1318",
+      "title": "Embryonic stem cells: a promising tool for cell replacement therapy",
+      "journal": "Nat. Biotechnol.",
+      "last_author": "Sachinidis A.",
+      "first_author": "Gissel C.",
+      "year": "2004.0",
+      "pmid": "14685245"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17; FOXA2; CXCR4",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "Pax6; NR2F2",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "Sox17; Foxa2; CXCR4",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotyping was performed at a resolution of 400 bands per haploid set."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

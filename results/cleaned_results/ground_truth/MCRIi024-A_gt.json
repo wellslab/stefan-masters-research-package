@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "ACTA1.1u",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi024-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kathryn",
+      "name_initials": "N",
+      "e_mail": "Kathryn.north@mcri.edu.au",
+      "last_name": "North",
+      "group": "North-MCRI"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "North KN",
+      "year": "2021.0",
+      "first_author": "Houweling PJ",
+      "doi": "10.1016/j.scr.2021.102429",
+      "journal": "Stem Cell Research",
+      "pmid": "34157503",
+      "title": "Generating an iPSC line (with isogenic control) from the PBMCs of an ACTA1 (p.Gly148Asp) nemaline myopathy patient"
+    },
+    {
+      "last_author": "Kathryn N North",
+      "year": "2021.0",
+      "first_author": "Houweling PJ",
+      "doi": "https://doi.org/10.1016/j.scr.2021.102429",
+      "journal": "Stem Cell Research",
+      "pmid": "34157503",
+      "title": "Generating an iPSC line (with isogenic control) from the PBMCs of an ACTA1 (p.Gly148Asp) nemaline myopathy patient"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "5_9",
+      "disease_name": "Nemaline myopathy"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "FOXC2; MEOX1",
+      "method_used": "ddPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NES",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "ddPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NES; PAX6",
+      "method_used": "ddPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium GSA-24; resolution 0.5 Mb).",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "CL:2000001",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2020-01-01",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "i_source_cell_origin_id": "UBERON:0000178"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "approval_date": "1900-01-01",
+      "ethics_number": "HREC/45380/RCHM-2018-154931"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

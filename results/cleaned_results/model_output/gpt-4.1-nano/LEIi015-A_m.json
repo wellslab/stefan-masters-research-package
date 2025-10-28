@@ -1,0 +1,61 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "LEIi015-B",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi015-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "s",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "The Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2021.0",
+      "first_author": "Dan Zhang",
+      "doi": "10.1016/j.scr.2020.102154",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with recessive inherited retinal disease caused by compound heterozygous mutations in SNRNP200 gene"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A9",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Compound heterozygous mutations in SNRNP200",
+      "loci_name": "SNRNP200",
+      "genotype": "c.1792C>T and c.3341T>C",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "4",
+      "summary": "Digital karyotyping with copy number variation profiling demonstrated a normal diploid karyotype (46, XX), with no reprogramming induced alterations detected"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2019",
+      "non_int_vector_name": "NEON reprogramming system",
+      "non_int_vector": "Episomal"
+    }
+  ]
+}

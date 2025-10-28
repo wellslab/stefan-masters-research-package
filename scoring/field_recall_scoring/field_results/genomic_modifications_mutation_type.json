@@ -1,0 +1,228 @@
+{
+  "field_path": "genomic_modifications.mutation_type",
+  "summary": {
+    "total_comparisons": 31,
+    "total_matches": 20,
+    "total_model_missing": 6,
+    "recall": 0.6451612903225806
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "VA",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "VA",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "GKI",
+      "model_output": "GKI"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "IM",
+      "model_output": "GKI"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "VA",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "VA",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "GKI",
+      "model_output": "GKI"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "IM",
+      "model_output": "GKI"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "IM",
+      "model_output": "GKI"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "VA",
+      "model_output": "Inherited variant (dominant, inherited from affected father)"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "VA",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "VA",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "IM",
+      "model_output": "VA"
+    }
+  ]
+}

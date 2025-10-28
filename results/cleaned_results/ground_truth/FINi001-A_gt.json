@@ -1,0 +1,102 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "FI.SPSM.SCN2A.R1882Q.009",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "FINi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Steve Petrou",
+      "year": "2023.0",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "doi": "10.1016/j.scr.2023.103179",
+      "journal": "Stem Cell Research",
+      "pmid": "37597357",
+      "title": "Generation of an iPSC line (FINi001-A) from a girl with developmental and epileptic encephalopathy due to a heterozygous gain-of-function p.R1882Q variant in the voltage-gated sodium channel Na(v)1.2 protein encoded by the SCN2A gene"
+    },
+    {
+      "last_author": "Ovchinnikov DA",
+      "year": "2023.0",
+      "first_author": "Pavan C",
+      "doi": "10.1016/j.scr.2023.103211",
+      "journal": "Stem Cell Research",
+      "pmid": "37890334",
+      "title": "Generation of the iPSC line FINi002-A from a male Parkinson's disease patient carrying compound heterozygous mutations in the PRKN gene"
+    },
+    {
+      "last_author": "Steve Petrou",
+      "year": "2024.0",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "doi": "10.1016/j.scr.2024.103367",
+      "journal": "Stem Cell Research",
+      "pmid": "38479087",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel Na(v)1.2"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "1_4",
+      "disease_description": "A neurological disorder characterized by recurring seizures presenting within the first three months of life and progressive cerebral dysfunction.",
+      "disease_name": "Developmental and epileptic encephalopathy (DEE)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "A neurological disorder characterized by recurring seizures presenting within the first three months of life and progressive cerebral dysfunction.",
+      "loci_name": "SCN2A",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "SOX17; CXCR4"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "TBXT; TBX6"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "PAX6;OTX2"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "25",
+      "karyotype": "46,XX",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Other"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of Health/Austin",
+      "approval_date": "1900-01-01",
+      "ethics_number": "HREC/16/Austin/472"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EF"
+    }
+  ]
+}

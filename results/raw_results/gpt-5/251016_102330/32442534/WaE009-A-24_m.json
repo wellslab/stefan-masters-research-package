@@ -1,0 +1,123 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "WaE009-A-24",
+      "cell_line_alt_name": "H9 CX3CR1-tdTomato; MiPS0010-A-24",
+      "cell_type": "ESC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Monash University",
+      "first_name": "Colin",
+      "last_name": "Pouton",
+      "name_initials": "W",
+      "e_mail": "colin.pouton@monash.edu",
+      "phone_number": "Missing"
+    },
+    {
+      "group": "Monash University",
+      "first_name": "Jose",
+      "last_name": "Polo",
+      "name_initials": "M",
+      "e_mail": "jose.polo@monash.edu",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "journal": "Stem Cell Reports",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture",
+      "first_author": "Alexandra Grubman",
+      "last_author": "Jose M. Polo",
+      "year": "2020",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM",
+      "sex": "Female",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Knock in",
+      "cytoband": "Missing",
+      "delivery_method": "Crispr/Cas9",
+      "description": "Heterozygous insertion of a dual fluorescent/enzymatic reporter (tdTomato-T2A-NanoLuc) into one allele of CX3CR1 in the H9 hESC background.",
+      "genotype": "CX3CR1+/tdTomato-T2A-NanoLuc",
+      "loci_name": "CX3CR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Insertion confirmed by PCR and Southern blot; reported to be free of chromosomal aberrations by karyotyping."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "8826",
+      "approval_date": "Missing",
+      "institutional_HREC": "Monash University Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "23066",
+      "approval_date": "Missing",
+      "institutional_HREC": "Monash University Institutional Biosafety Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

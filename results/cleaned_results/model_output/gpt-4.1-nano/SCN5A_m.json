@@ -1,0 +1,46 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "SCN5A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Veltmann"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "C.",
+      "name_initials": "C.",
+      "e_mail": "c.semsarian@centenary.org.au",
+      "last_name": "Semsarian",
+      "group": "C. Semsarian"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "S. Li",
+      "year": "2023.0",
+      "first_author": "Serena Li",
+      "doi": "10.1016/j.scr.2023.103153",
+      "journal": "Stem Cell Research",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with conduction disease and recurrent ventricular fibrillation with a sodium voltage-gated channel alpha subunit 5 (SCN5A) gene c.392 + 3A > G splice-site variant"
+    }
+  ],
+  "donor": [
+    {
+      "disease_name": "Conduction disease with recurrent ventricular fibrillation"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "SCN5A c.392 + 3A > G splice-site variant",
+      "loci_name": "SCN5A",
+      "genotype": "NM",
+      "mutation_type": "VA"
+    }
+  ]
+}

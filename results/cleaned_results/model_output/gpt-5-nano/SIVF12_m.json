@@ -1,0 +1,60 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "SIVF12"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Teija",
+      "name_initials": "T",
+      "last_name": "Peura",
+      "group": "Sydney IVF"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2008.0",
+      "first_author": "Teija Peura",
+      "doi": "10.1089/clo.2007.0062",
+      "journal": "Cloning and Stem Cells",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; NESTIN",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "in vitro differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "BRACTYURY; HAND1; RUNX1",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "in vitro differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP; SOX17; FOXA2",
+      "method_used": "Immunocytochemistry"
+    }
+  ]
+}

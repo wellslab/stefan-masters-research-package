@@ -1,7 +1,0 @@
-Cell lines identified in 35679759:
-========================================
-
-1. MNTZASi002-A
-2. MNTZASi003-A
-3. MNTZASi004-A
-4. MNTZASi005-A

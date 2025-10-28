@@ -1,0 +1,55 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "True",
+      "hpscreg_name": "SIVF11"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF"
+    },
+    {
+      "group": "Sanatorium Helios"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Teija",
+      "name_initials": "T",
+      "last_name": "Peura",
+      "group": "Sydney IVF"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2008.0",
+      "first_author": "Teija Peura",
+      "doi": "10.1089/clo.2007.0062",
+      "journal": "Cloning and Stem Cells",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "8",
+      "karyotype": "Male trisomy-5",
+      "summary": "Karyotyping at passage 8 showed male trisomy-5.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "BICM"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.06",
+      "o2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

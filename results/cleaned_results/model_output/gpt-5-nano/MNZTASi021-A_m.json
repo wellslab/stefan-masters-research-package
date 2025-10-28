@@ -1,0 +1,45 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MNZTASi021-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "MS Stem biobank (Menzies Institute for Medical Research, Hobart, Tasmania, Australia)"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Brad",
+      "name_initials": "B",
+      "e_mail": "brad.sutherland@utas.edu.au",
+      "last_name": "Sutherland",
+      "group": "MS Stem Cell Biobank, Menzies Institute for Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Brad A. Sutherland",
+      "year": "2024.0",
+      "first_author": "Natalie E. King",
+      "journal": "Stem Cell Research & Therapy",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A75_79"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "iPS-5964-R3",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "HPIi004-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "J",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2022.0",
+      "first_author": "Isabella S. Suleski",
+      "doi": "10.1016/j.scr.2022.102830",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 1-month-old nemaline myopathy patient harbouring a homozygous recessive c.121C > T (p.Arg39Ter) variant in the ACTA1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A1_4",
+      "disease_name": "Nemaline myopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Homozygous recessive c.121C > T (p.Arg39Ter) variant in the ACTA1 gene",
+      "loci_name": "ACTA1",
+      "genotype": "NM_001100: c.121C > T",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR"
+    }
+  ]
+}

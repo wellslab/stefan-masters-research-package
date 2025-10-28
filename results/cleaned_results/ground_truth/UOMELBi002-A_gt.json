@@ -1,0 +1,36 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "UOMELBi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Melbourne"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "P\u00e9bay A",
+      "year": "2021.0",
+      "first_author": "Dami\u00e1n Hern\u00e1ndez",
+      "doi": "10.1016/j.scr.2021.102373",
+      "journal": "Stem Cell Research",
+      "pmid": "34088002",
+      "title": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-UOMELBi002-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

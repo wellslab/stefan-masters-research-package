@@ -1,6 +1,0 @@
-Cell lines identified in 36805468:
-========================================
-
-1. CANVAS1-2
-2. CANVAS3-2
-3. CANVAS4-6

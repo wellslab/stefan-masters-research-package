@@ -1,0 +1,93 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "ASD2-15.1",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi016-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "J",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Paul J. Lockhart",
+      "year": "2019.0",
+      "first_author": "Kiymet Bozaoglu",
+      "doi": "10.1016/j.scr.2019.101516",
+      "journal": "Stem Cell Research",
+      "title": "Generation of seven iPSC lines from peripheral blood mononuclear cells suitable to investigate Autism Spectrum Disorder"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "24",
+      "disease_description": "Autism Spectrum Disorder",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "4",
+      "karyotype": "arr(1\u201322)x2,(XY)x1 (resolution 0.50 Mb)",
+      "summary": "All iPSC lines showed a normal karyotype (with 0.5 Mb resolution) and an identical genotype to their corresponding PBMC sample when analysed by array comparative genomic hybridisation (SNP array), confirming no perturbations in genomic integrity occurred during reprogramming.",
+      "karyotype_method": "SNP array"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "ethics_number": "280997"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.1",
+      "passage_method": "ME"
+    }
+  ]
+}

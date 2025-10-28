@@ -1,0 +1,76 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MS_0001",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MNZTASi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Young KM",
+      "year": "2022.0",
+      "first_author": "Alastair J. Fortune",
+      "doi": "10.1016/j.scr.2022.102828",
+      "journal": "Stem Cell Research",
+      "pmid": "35679759",
+      "title": "Generation and characterisation of four multiple sclerosis iPSC lines from a single family"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "A type of multiple sclerosis characterized by intermittent flare-ups with a return to few or no symptoms.",
+      "disease_name": "Relapsing-Remitting Multiple Sclerosis"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "AFP"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "GATA4"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "NESTIN"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "H0016915"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EN"
+    }
+  ]
+}

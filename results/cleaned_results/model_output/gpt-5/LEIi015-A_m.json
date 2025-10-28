@@ -1,0 +1,107 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1042ips1",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi015-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "The Lions Eye Institute"
+    },
+    {
+      "first_name": "Fred",
+      "name_initials": "K",
+      "e_mail": "fredchen@lei.org.au",
+      "last_name": "Chen",
+      "group": "The Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2021.0",
+      "first_author": "Dan Zhang",
+      "doi": "10.1016/j.scr.2020.102154",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with recessive inherited retinal disease caused by compound heterozygous mutations in SNRNP200 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A5_9",
+      "disease_description": "Rod-cone dystrophy; macular oedema",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Compound heterozygous variants in SNRNP200",
+      "loci_name": "SNRNP200",
+      "cytoband": "2q11.2",
+      "genotype": "SNRNP200 c.1792C>T; c.3341T>C (compound heterozygous)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "DCN; IGF2",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "GATA2; SOX7",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Digital karyotyping (Illumina SNP array, ~650k resolution) showed normal female karyotype with no reprogramming-related alterations.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

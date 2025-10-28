@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "iPS-7247-C5",
+      "hpscreg_name": "HPI003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Harry Perkins Institute of Medical Research",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Dr. Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102829",
+      "title": "Generation of an induced pluripotent stem cell line from a 3-month-old neonatal with a heterozygous dominant c.515C > A (p.Ala172Glu) variant in the ACTA1 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Gianina Ravenscroft",
+      "first_author": "J.S. Clayton",
+      "year": "2022.0",
+      "pmid": "102829"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A1_4",
+      "disease_description": "heterozygous dominant c.515C > A (p.Ala172Glu) variant in the ACTA1 gene",
+      "disease_name": "Neonatal myopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM_001101.0: c.515C > A",
+      "mutation_type": "Variant",
+      "loci_name": "ACTA1",
+      "description": "heterozygous dominant c.515C > A (p.Ala172Glu) variant in the ACTA1 gene"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotyping at passage 10 showed a normal male karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2021"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

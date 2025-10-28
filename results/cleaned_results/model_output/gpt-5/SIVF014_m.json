@@ -1,0 +1,92 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "SIVF014"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Tomas",
+      "e_mail": "tomas.stojanov@sydneyivf.com",
+      "last_name": "Stojanov",
+      "group": "Sydney IVF Stem Cells"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2010.0",
+      "first_author": "Cara K. Bradley",
+      "doi": "10.1007/s11626-010-9298-y",
+      "journal": "In Vitro Cellular & Developmental Biology - Animal",
+      "title": "Derivation of three new human embryonic stem cell lines"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "neuroepithelium; choroid plexus; squamous epithelium",
+      "method_used": "Histology"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "cartilage; smooth muscle",
+      "method_used": "Histology"
+    },
+    {
+      "description": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "gastrointestinal epithelium; respiratory glands",
+      "method_used": "Histology"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "7",
+      "karyotype": "46,XY",
+      "summary": "Early passage karyotype normal (46,XY) at p7; cell line remained stable and was DNA fingerprinted; mycoplasma negative across passages.",
+      "karyotype_method": "Other"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "e_preimplant_genetic_diagnosis": "False",
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Sydney IVF Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.06",
+      "o2_concentration": "0.05",
+      "passage_method": "ME"
+    }
+  ]
+}

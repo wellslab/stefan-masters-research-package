@@ -1,0 +1,51 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRIi005-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Katerina",
+      "name_initials": "K",
+      "e_mail": "katerina.vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "group": "Dr. Katerina Vlahos"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Stanley",
+      "year": "2019.0",
+      "first_author": "Katerina Vlahos",
+      "doi": "10.1016/j.scr.2018.101380",
+      "journal": "Stem Cell Research",
+      "pmid": "101380",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A20_24"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "Karyotyping at a resolution of 300bphs. No abnormalities detected.",
+      "karyotype_method": "G-banding"
+    }
+  ]
+}

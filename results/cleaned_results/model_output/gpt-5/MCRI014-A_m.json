@@ -1,0 +1,97 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "ASD2-9.4",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRI014-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "J",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Paul J. Lockhart",
+      "year": "2019.0",
+      "first_author": "Kiymet Bozaoglu",
+      "doi": "10.1016/j.scr.2019.101516",
+      "journal": "Stem Cell Research",
+      "title": "Generation of seven iPSC lines from peripheral blood mononuclear cells suitable to investigate Autism Spectrum Disorder"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A30_34",
+      "disease_description": "Unaffected",
+      "disease_name": "Unaffected"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XX)x1",
+      "summary": "Normal karyotype at ~0.5 Mb resolution; SNPduo comparative analysis showed identical genotype to parental PBMC; no differences detected.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "ethics_number": "280997"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.1",
+      "passage_method": "ME"
+    }
+  ]
+}

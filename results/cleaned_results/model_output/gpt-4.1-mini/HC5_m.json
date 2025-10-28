@@ -1,0 +1,37 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MBE68-1",
+      "cell_type": "iPSC",
+      "hpscreg_name": "HC5"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Lezanne Ooi",
+      "year": "2020.0",
+      "first_author": "Sonia Sanz Mu\u00f1oz",
+      "doi": "10.3390/cells9092018",
+      "journal": "Cells",
+      "title": "A Simple Differentiation Protocol for Generation of Induced Pluripotent Stem Cell-Derived Basal Forebrain-Like Cholinergic Neurons for Alzheimer\u2019s Disease and Frontotemporal Dementia Disease Modeling"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Less than 20",
+      "summary": "Karyotyping was performed within 20 passages before the start of differentiation."
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.03",
+      "passage_method": "EN"
+    }
+  ]
+}

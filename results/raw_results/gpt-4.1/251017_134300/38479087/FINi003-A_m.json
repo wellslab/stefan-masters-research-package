@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "FINi003-A",
+      "cell_line_alt_name": "FI.SPSM.SCNA2.E1211K.008",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute for Neuroscience and Mental Health, University of Melbourne"
+    }
+  ],
+  "contact": [
+    {
+      "group": "The Florey Institute for Neuroscience and Mental Health, University of Melbourne",
+      "first_name": "Steve",
+      "last_name": "Petrou",
+      "name_initials": "P",
+      "e_mail": "steve.petrou@florey.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103367",
+      "journal": "Stem Cell Research",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel NaV1.2",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "last_author": "Steve Petrou",
+      "year": "2024",
+      "pmid": "18753061"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A5_9",
+      "sex": "Male",
+      "disease_name": "Developmental and epileptic encephalopathy (DEE)",
+      "disease_description": "Late-onset DEE patient carrying a heterozygous missense variant (E1211K) in NaV1.2 (SCN2A)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "2q24.3",
+      "delivery_method": "Missing",
+      "description": "Heterozygous missense variant (E1211K) in SCN2A/NaV1.2",
+      "genotype": "Heterozygous: SCN2A:c.3631G>A (p.E1211K)",
+      "loci_name": "SCN2A"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "PAX6; OTX2",
+      "method_used": "RT-qPCR",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "SOX17; CXCR4",
+      "method_used": "RT-qPCR",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "TBXT; TBX6",
+      "method_used": "RT-qPCR",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "14",
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype without SNP array-detectable abnormalities. Karyotyping at 450\u2013500 band resolution."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "skin fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2023",
+      "non_int_vector": "Other",
+      "non_int_vector_name": "ReproRNA-OK m1 (StemCellTechnologies) polycistronic mRNA (expressing human KLF4 + OCT4/POU5F1 + SOX2 + GLIS1 + c-MYC, plus puromycin N-acetyltransferase protein)"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Austin/472",
+      "approval_date": "Missing",
+      "institutional_HREC": "The University of Melbourne HREC"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

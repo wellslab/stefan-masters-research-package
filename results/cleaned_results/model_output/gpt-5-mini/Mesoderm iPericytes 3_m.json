@@ -1,0 +1,63 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Mesoderm iPericytes; Mesoderm iPericytes 3",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "Mesoderm iPericytes 3"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Tasmania"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Brad",
+      "name_initials": "A",
+      "e_mail": "brad.sutherland@utas.edu.au",
+      "last_name": "Sutherland",
+      "group": "University of Tasmania"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Brad A. Sutherland",
+      "year": "2024.0",
+      "first_author": "Natalie E. King",
+      "doi": "10.1186/s13287-024-03671-x",
+      "journal": "Stem Cell Research & Therapy",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A55_59"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "2-8",
+      "summary": "Pericytes (HBVPs and iPericytes) were used between passage 2\u20138. iPSC lines used to generate iPericytes were reported as karyotypically normal within 10 passages of use."
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "ethics_number": "H26563"
+    },
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "ethics_number": "H16915"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EN"
+    }
+  ]
+}

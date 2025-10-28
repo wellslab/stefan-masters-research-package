@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "iPS-6303-R12",
+      "hpscreg_name": "HPIi001-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Harry Perkins Institute of Medical Research",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102273",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 4-month-old severe nemaline myopathy patient with a heterozygous dominant c.553C > A (p.Arg183Ser) variant in the ACTA1 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Rhonda L. Taylor",
+      "first_author": "Joshua S. Clayton",
+      "year": "2021.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "disease_description": "Severe form",
+      "disease_name": "Nemaline myopathy 3 (NEM3)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous: ACTA1, NM_001100:c.553C>A (p.Arg183Ser)",
+      "mutation_type": "Variant",
+      "loci_name": "ACTA1",
+      "description": "Heterozygous ACTA1 c.553C>A (p.Arg183Ser)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "GATA4; SOX17",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "KaryoStat array showed normal female karyotype with no aneuploidies.",
+      "passage_number": "10"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell line (LCL)",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2020",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit (ThermoFisher)",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "AC-2018-3156; IE-2018-994",
+      "institutional_HREC": "Genethon DNA and Cell Bank authorizations"
+    },
+    {
+      "ethics_number": "Eud-2012-1693",
+      "institutional_HREC": "Comite de Protection des Personnes Est IV"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "ESC",
+      "cell_line_alt_name": "H9 NGN2 B6",
+      "hpscreg_name": "UOWe010-A-W"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "group": "University of Wollongong",
+      "e_mail": "miellet@uow.edu.au",
+      "last_name": "Miellet",
+      "first_name": "Sara"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103312",
+      "title": "Generation of a gene-edited H9 embryonic stem cell line carrying a DOX-inducible NGN2 expression cassette in the CLYBL locus",
+      "journal": "Stem Cell Research",
+      "last_author": "Mirella Dottori",
+      "first_author": "Sara Miellet",
+      "year": "2024.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous integration at CLYBL locus",
+      "delivery_method": "Crispr/Cas9",
+      "mutation_type": "Transgene expression",
+      "loci_name": "CLYBL",
+      "description": "Dox-inducible NGN2 insertion with floxed Blasticidin resistance and nuclear mApple"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "beta-III tubulin; SMI32; Nestin",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "alpha-smooth muscle actin",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "FOXA2; alpha-Fetoprotein",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype observed at passage 9 with 15 metaphase spreads analyzed at 400 bphs resolution.",
+      "passage_number": "9"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "2020/451",
+      "institutional_HREC": "University of Wollongong Health and Medical Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "GT19/08",
+      "institutional_HREC": "University of Wollongong Institutional Biosafety Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

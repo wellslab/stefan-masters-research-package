@@ -1,0 +1,85 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "RYR1-4833-R7",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "HPIi008-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2024.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2024.103411",
+      "journal": "Stem Cell Research",
+      "pmid": "38582058",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "loci_name": "RYR1",
+      "cytoband": "19q13.2",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "GATA4;SOX17"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "TBXT; TBX6"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "13",
+      "karyotype": "46,XX",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Comit\u00e9 de Protection des Personnes (Est IV)",
+      "approval_date": "1900-01-01",
+      "ethics_number": "Est IV DC-2012-1693"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "PB006",
+      "hpscreg_name": "MCRIi006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Murdoch Children's Research Institute",
+      "e_mail": "katerina.vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "first_name": "Katerina"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.101380",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults",
+      "journal": "Stem Cell Research",
+      "last_author": "Andrew G. Elefanty",
+      "first_author": "Katerina Vlahos",
+      "year": "2019.0",
+      "pmid": "101380"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A30_34"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "EPCAM; CXCR4; KIT",
+      "method_used": "Flow cytometry",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "EPCAM; CD13",
+      "method_used": "Flow cytometry",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "SNP array (0.5 Mb resolution) showed arr(1-22)x2,(XY)x1 for the iPSC line; comparative analysis indicated identical genotype to parental PBMC and no major genomic perturbations detected."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2016",
+      "non_int_vector_name": "Cytotune-iPS 2.0 Sendai Reprogramming kit (ThermoFisher Scientific)",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "35121A",
+      "institutional_HREC": "RCH Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "mechanically"
+    }
+  ]
+}

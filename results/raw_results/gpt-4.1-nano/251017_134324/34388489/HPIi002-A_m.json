@@ -1,0 +1,110 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "HPIi002-A",
+      "cell_line_alt_name": "HPIi002-A",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Harry Perkins Institute of Medical Research",
+      "first_name": "Joshua",
+      "last_name": "Clayton",
+      "name_initials": "J",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102482",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 10-year-old typical nemaline myopathy patient with a heterozygous dominant c.541G>A (p.Asp179Asn) pathogenic variant in the ACTA1 gene",
+      "first_author": "J.S. Clayton",
+      "last_author": "Gianina Ravenscroft",
+      "year": "2021",
+      "pmid": "102482"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A10_14",
+      "sex": "Missing",
+      "disease_name": "Nemaline myopathy",
+      "disease_description": "typical form"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "c.541G>A (p.Asp179Asn) pathogenic variant in ACTA1 gene",
+      "genotype": "NM_171998.3:c.541G>A",
+      "loci_name": "ACTA1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Normal male karyotype"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2020",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "CytoTune\u2122-iPS 2.0 Sendai Reprogramming Kit"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

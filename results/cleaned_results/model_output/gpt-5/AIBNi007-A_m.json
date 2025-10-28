@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "GENIE 11",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "AIBNi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "name_initials": "J",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Lata Vadlamudi",
+      "year": "2022.0",
+      "first_author": "Zoe L. Hunter",
+      "doi": "10.1016/j.scr.2022.102673",
+      "journal": "Stem Cell Research",
+      "title": "Human induced pluripotent stem cells generated from epilepsy patients for use as in vitro models for drug screening"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A60_64",
+      "disease_name": "Epilepsy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NR2F2; PAX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "PDGFRA; HAND1",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Normal female karyotype at 500 bands per haploid set (bphs).",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Royal Brisbane and Women's Hospital Human Research Ethics Committee",
+      "ethics_number": "HREC/2019/QRBW/54068"
+    },
+    {
+      "institutional_HREC": "The University of Queensland Human Ethics Research Office",
+      "ethics_number": "2019002273"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

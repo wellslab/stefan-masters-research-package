@@ -1,0 +1,96 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "NF1_093.2",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi022-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "J",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Paul J. Lockhart",
+      "year": "2020.0",
+      "first_author": "Kiymet Bozaoglu",
+      "doi": "10.1016/j.scr.2020.102013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of four iPSC lines from Neurofibromatosis Type 1 patients"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A10_14",
+      "disease_description": "Autosomal dominant disorder caused by mutations in NF1 (17q11.2).",
+      "disease_name": "Neurofibromatosis Type 1"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "All lines demonstrated a normal karyotype by Illumina Infinium GSA-24 v2.0 SNP array; SNPduo showed identical genotypes (>99.9%) between parental PBMC and derived iPSC.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "ethics_number": "53118"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.1",
+      "passage_method": "ME"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi014-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "S",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Seyedahmadi",
+      "year": "2021.0",
+      "first_author": "K. Zaw",
+      "doi": "10.1016/j.scr.2020.102129",
+      "journal": "Stem Cell Research",
+      "title": "Generation of three induced pluripotent stem cell lines from a patient with Usher syndrome caused by biallelic c.949C > A and c.1256G > T mutations in the USH2A gene"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A15_19",
+      "disease_description": "Type II caused by mutations in USH2A gene",
+      "disease_name": "Usher syndrome"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Mutations c.949C > A and c.1256G > T in USH2A gene",
+      "loci_name": "USH2A",
+      "genotype": "NM",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Normal karyotype",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2020"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "03517",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "VCCRIi005-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Victor Chang Cardiac Research Institute"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-VCCRIi005-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

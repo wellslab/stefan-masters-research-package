@@ -1,0 +1,121 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "PB006; MCRIi006-A",
+      "hpscreg_name": "MCRIi006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "K",
+      "group": "Murdoch Children's Research Institute",
+      "e_mail": "katerina.vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "first_name": "Katerina"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101380",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults",
+      "journal": "Stem Cell Research",
+      "last_author": "Andrew G. Elefanty",
+      "first_author": "Katerina Vlahos",
+      "year": "2019.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A60_64"
+    },
+    {
+      "sex": "Female",
+      "age": "A30_34"
+    },
+    {
+      "sex": "Female",
+      "age": "A45_49"
+    },
+    {
+      "sex": "Male",
+      "age": "A30_34"
+    },
+    {
+      "sex": "Male",
+      "age": "A20_24"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "35121A",
+      "approval_date": "May 2016",
+      "institutional_HREC": "RCH Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1012ips11",
+      "hpscreg_name": "LEIi014-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Lions Eye Institute",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Sam"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102129",
+      "title": "Generation of three induced pluripotent stem cell lines from a patient with Usher syndrome caused by biallelic c.949C > A and c.1256G > T mutations in the USH2A gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Samuel McLenachan",
+      "first_author": "Khine Zaw",
+      "year": "2021.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A15_19",
+      "disease_name": "Usher syndrome type 2"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "c.[949C>A]; c.[1256G>T]",
+      "mutation_type": "Variant",
+      "loci_name": "USH2A",
+      "description": "USH2A c.[949C>A]; c.[1256G>T] variants"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblast",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "[kit] Episomal iPSC Reprogramming Plasmid kit (SC900A-1)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "2007-053",
+      "institutional_HREC": "Sir Charles Gardiner Hospital Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1012ips10",
+      "hpscreg_name": "LEIi014-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Lions Eye Institute",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102129",
+      "title": "Generation of three induced pluripotent stem cell lines from a patient with Usher syndrome caused by biallelic c.949C > A and c.1256G > T mutations in the USH2A gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Samuel McLenachan",
+      "first_author": "Khine Zaw",
+      "year": "2021.0",
+      "pmid": "102129"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A15_19",
+      "disease_name": "Usher syndrome type 2"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Compound heterozygous: c.949C>A; c.1256G>T",
+      "mutation_type": "Variant",
+      "loci_name": "USH2A",
+      "description": "Mutations in USH2A gene: c.[949C>A] and c.1256G>T"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro spontaneous differentiation"
+    },
+    {
+      "marker_list": "DCN; IGF2",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro spontaneous differentiation"
+    },
+    {
+      "marker_list": "GATA2; SOX7",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro spontaneous differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2018-01-01",
+      "non_int_vector_name": "[kit] SC900A-1 Episomal iPSC Reprogramming Plasmid Kit",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

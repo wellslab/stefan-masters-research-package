@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "ESC",
+      "cell_line_alt_name": "H9 CX3CR1-tdTomato; MiPS0010-A-24",
+      "hpscreg_name": "WaE009-A-24"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "W",
+      "group": "Monash University",
+      "e_mail": "colin.pouton@monash.edu",
+      "last_name": "Pouton",
+      "first_name": "Colin"
+    },
+    {
+      "name_initials": "M",
+      "group": "Monash University",
+      "e_mail": "jose.polo@monash.edu",
+      "last_name": "Polo",
+      "first_name": "Jose"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture",
+      "journal": "Stem Cell Reports",
+      "last_author": "Jose M. Polo",
+      "first_author": "Alexandra Grubman",
+      "year": "2020.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "CX3CR1+/tdTomato-T2A-NanoLuc",
+      "delivery_method": "Crispr/Cas9",
+      "mutation_type": "Knock in",
+      "loci_name": "CX3CR1",
+      "description": "Heterozygous insertion of a dual fluorescent/enzymatic reporter (tdTomato-T2A-NanoLuc) into one allele of CX3CR1 in the H9 hESC background."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "Insertion confirmed by PCR and Southern blot; reported to be free of chromosomal aberrations by karyotyping."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "8826",
+      "institutional_HREC": "Monash University Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "23066",
+      "institutional_HREC": "Monash University Institutional Biosafety Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

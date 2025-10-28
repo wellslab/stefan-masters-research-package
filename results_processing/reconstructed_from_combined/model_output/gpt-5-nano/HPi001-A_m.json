@@ -1,0 +1,119 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "iPS-6303-C6B3",
+      "hpscreg_name": "HPi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Harry Perkins Institute of Medical Research",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102273",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 4-month-old severe nemaline myopathy patient with a heterozygous dominant c.553C > A (p.Arg183Ser) variant in the ACTA1 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Rhonda L. Taylor",
+      "first_author": "Joshua S. Clayton",
+      "year": "2021.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A1_4",
+      "disease_description": "Severe form",
+      "disease_name": "Nemaline myopathy 3 (NEM3)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM_001100:c.553C>A",
+      "mutation_type": "Variant",
+      "loci_name": "ACTA1",
+      "description": "ACTA1 c.553C>A (p.Arg183Ser) variant identified in donor"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "PAX6; SOX2",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Other",
+      "summary": "Karyotype analysis indicated a normal copy number at tested loci; no aneuploidies detected in the tested clones."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell line (LCL)",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2020-09-01",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "approval_date": "20/04/08",
+      "institutional_HREC": "University of Queensland Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "PB002 (MCRIi002-A)",
+      "hpscreg_name": "MCRIi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children\u2019s Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Murdoch Children\u2019s Research Institute",
+      "e_mail": "Vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "first_name": "Katerina"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103109",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors",
+      "journal": "Stem Cell Research",
+      "last_author": "Andrew G. Elefanty",
+      "first_author": "Katerina Vlahos",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A35_39"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1\u201322,X)x2",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Normal molecular karyotype with 0.5 Mb resolution; no major perturbations in genomic integrity during reprogramming.",
+      "passage_number": "12"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "Cytotune\u2122-iPS 2.0 Sendai Reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "35121A",
+      "institutional_HREC": "RCH Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

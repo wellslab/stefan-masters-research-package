@@ -1,0 +1,113 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "GENEA019",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "GENEAe020-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Genea"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2011.0",
+      "first_author": "Cara K. Bradley",
+      "doi": "10.1089/scd.2010.0120",
+      "journal": "Stem Cells and Development",
+      "pmid": "20649476",
+      "title": "Derivation of Huntington's disease-affected human embryonic stem cell lines"
+    },
+    {
+      "last_author": "Schmidt U",
+      "year": "2014.0",
+      "first_author": "McQuade LR",
+      "doi": "10.1021/pr500649m",
+      "journal": "Journal of proteome research",
+      "pmid": "25316320",
+      "title": "Proteomics of Huntington's disease-affected human embryonic stem cells reveals an evolving pathology involving mitochondrial dysfunction and metabolic disturbances"
+    },
+    {
+      "last_author": "Schmidt U",
+      "year": "2016.0",
+      "first_author": "Dumevska B",
+      "doi": "10.1016/j.scr.2016.02.008",
+      "journal": "Stem Cell Research",
+      "pmid": "27346002",
+      "title": "Derivation of human embryonic stem cell line Genea019"
+    },
+    {
+      "last_author": "Schmidt U",
+      "year": "2016.0",
+      "first_author": "Caron L",
+      "doi": "10.5966/sctm.2015-0224",
+      "journal": "Stem cells translational medicine",
+      "pmid": "27217344",
+      "title": "A Human Pluripotent Stem Cell Model of Facioscapulohumeral Muscular Dystrophy-Affected Skeletal Muscles"
+    },
+    {
+      "last_author": "Canals JM",
+      "year": "2020.0",
+      "first_author": "Comella-Bolla A",
+      "doi": "10.1007/s12035-020-01907-4",
+      "journal": "Molecular Neurobiology",
+      "pmid": "32356172",
+      "title": "Human Pluripotent Stem Cell-Derived Neurons Are Functionally Mature In Vitro and Integrate into the Mouse Striatum Following Transplantation"
+    },
+    {
+      "last_author": "Canals JM",
+      "year": "2022.0",
+      "first_author": "Molina-Ruiz FJ",
+      "doi": "10.3390/cells11131984",
+      "journal": "Cells",
+      "pmid": "35805069",
+      "title": "Standardization of Cell Culture Conditions and Routine Genomic Screening under a Quality Management System Leads to Reduced Genomic Instability in hPSCs"
+    },
+    {
+      "last_author": "Canals JM",
+      "year": "2023.0",
+      "first_author": "Miguez A",
+      "doi": "10.1007/s00018-023-04882-w",
+      "journal": "Cellular and molecular life sciences : CMLS",
+      "pmid": "37535170",
+      "title": "Soluble mutant huntingtin drives early human pathogenesis in Huntington's disease"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "36",
+      "karyotype": "46, XX no abnormalities detected",
+      "karyotype_method": "Other"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "GENEA HREC",
+      "approval_date": "1900-01-01",
+      "ethics_number": "Meeting 13/09/2005"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

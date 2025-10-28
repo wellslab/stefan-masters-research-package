@@ -1,0 +1,48 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "AIBNi019-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "name_initials": "J",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "group": "Wolvetang-AIBN"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ernst J. Wolvetang",
+      "year": "2022.0",
+      "first_author": "Hannah C. Leeson",
+      "doi": "10.1016/j.scr.2022.102917",
+      "journal": "Stem Cell Research",
+      "title": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "CYP2U1 mutations associated with SPG56 (donor-derived variants)",
+      "loci_name": "CYP2U1",
+      "mutation_type": "VA"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Sendai virus"
+    }
+  ]
+}

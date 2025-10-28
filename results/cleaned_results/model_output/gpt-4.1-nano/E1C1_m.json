@@ -1,0 +1,47 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Endeavour-1",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "E1C1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bernie E. Tuch",
+      "year": "2008.0",
+      "first_author": "Kuldip S. Sidhu",
+      "doi": "10.1089/scd.2007.0055",
+      "journal": "Stem Cells and Development",
+      "title": "Derivation of a New Human Embryonic Stem Cell Line, Endeavour-1, and Its Clonal Propagation"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "SSEA-1; SSEA-3; SSEA-4; TRA-1-60; TRA-1-81; ALP; OCT-4",
+      "method_used": "Immunocytochemistry"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "4",
+      "karyotype": "46,XX",
+      "summary": "Normal karyotype with no chromosomal abnormalities",
+      "karyotype_method": "G-banding"
+    }
+  ]
+}

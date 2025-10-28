@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "UOMELBi002-A",
+      "cell_line_alt_name": "F16574c3_A_A1_G8",
+      "cell_type": "hiPSC",
+      "frozen": false
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Melbourne"
+    }
+  ],
+  "contact": [
+    {
+      "group": "The University of Melbourne",
+      "first_name": "Damian",
+      "last_name": "Hern\u00e1ndez",
+      "name_initials": "D",
+      "e_mail": "damian.hernandez@unimelb.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102373",
+      "journal": "Stem Cell Research",
+      "title": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)",
+      "first_author": "Dami\u00e1n Hern\u00e1ndez",
+      "last_author": "Alice P\u00e9bay",
+      "year": "2021",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_name": "Alzheimer's disease",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Isogenic modification",
+      "cytoband": "Chr21:25891784",
+      "delivery_method": "Crispr/Cas9",
+      "description": "Gene correction of APP V717I (London mutation) with inclusion of a silent PAM-site mutation to enhance homology directed repair; edited locus reported as rs63750264 (GRCh38; Chr21:25891784 G > A).",
+      "genotype": "Homozygous: rs63750264 G/G (APP V717I corrected)",
+      "loci_name": "APP"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "AFP",
+      "method_used": "Immunostaining",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "SMA",
+      "method_used": "Immunostaining",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "NESTIN",
+      "method_used": "Immunostaining",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46, Resolution 450-500 (sex chromosomes cropped to maintain blinding of gender identity)",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Copy number variation analysis performed using Illumina HumanCore/Infinium CoreExome platform (VCGS). Analysis represented as log R ratio and B allele frequency; no deletions, insertions or aneuploidies reported. Sex chromosomes were cropped to maintain blinding of donor gender."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "Missing",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Episomal vectors (containing OCT4, SOX2, KLF4, L-MYC, LIN28 and shRNA against p53)"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "1545394",
+      "approval_date": "Missing",
+      "institutional_HREC": "Human Research Ethics committees of the University of Melbourne"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

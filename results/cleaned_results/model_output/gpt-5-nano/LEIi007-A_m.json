@@ -1,0 +1,102 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1082ips10",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "M",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    },
+    {
+      "first_name": "Fred",
+      "e_mail": "fredchen@lei.org.au",
+      "last_name": "Chen",
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2019.0",
+      "first_author": "Johann N. Claassen",
+      "doi": "10.1016/j.scr.2018.11.013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of the induced pluripotent stem cell line from a patient with autosomal recessive ABCA4-mediated Stargardt Macular Dystrophy"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A15_19",
+      "disease_description": "ABCA4-related Stargardt Macular Dystrophy",
+      "disease_name": "Stargardt Macular Dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Compound heterozygous ABCA4 variants in Stargardt disease",
+      "loci_name": "ABCA4",
+      "cytoband": "1p22.1",
+      "genotype": "ABCA4 c.4139C>T; ABCA4 c.5461-10T>C",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; DCX",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "GATA2; BMP4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "IGF2; AFP",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "pCXLE episomal reprogramming vectors",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/17916"
+    },
+    {
+      "institutional_HREC": "Sir Charles Gairdner Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EN"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "PB001",
+      "hpscreg_name": "MCRIi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.101380",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults",
+      "journal": "Stem cell research",
+      "last_author": "Elefanty AG",
+      "first_author": "Vlahos K",
+      "year": "2019.0",
+      "pmid": "30605840"
+    },
+    {
+      "doi": "10.1016/j.scr.2019.101449",
+      "title": "Generation of a heterozygous COL1A1 (c.3969_3970insT) osteogenesis imperfecta mutation human iPSC line, MCRIi001-A-1, using CRISPR/Cas9 editing",
+      "journal": "Stem cell research",
+      "last_author": "Bateman JF",
+      "first_author": "Hosseini Far H",
+      "year": "2019.0",
+      "pmid": "31075690"
+    },
+    {
+      "doi": "10.3389/fncel.2020.00265",
+      "title": "The Use of Induced Pluripotent Stem Cells as a Model for Developmental Eye Disorders",
+      "journal": "Frontiers in cellular neuroscience",
+      "last_author": "Moosajee M",
+      "first_author": "Eintracht J",
+      "year": "2020.0",
+      "pmid": "32973457"
+    },
+    {
+      "doi": "10.1016/j.csbj.2020.09.025",
+      "title": "Probing pluripotency gene regulatory networks with quantitative live cell imaging",
+      "journal": "Computational and structural biotechnology journal",
+      "last_author": "Stinson J",
+      "first_author": "Plant AL",
+      "year": "2020.0",
+      "pmid": "33101611"
+    },
+    {
+      "doi": "10.3389/fendo.2020.556610",
+      "title": "Genomic Medicine: Lessons Learned From Monogenic and Complex Bone Disorders",
+      "journal": "Frontiers in endocrinology",
+      "last_author": "Rivadeneira F",
+      "first_author": "Trajanoska K",
+      "year": "2020.0",
+      "pmid": "33162933"
+    },
+    {
+      "doi": "10.7150/thno.43360",
+      "title": "Advances in CRISPR/Cas-based Gene Therapy in Human Genetic Diseases",
+      "journal": "Theranostics",
+      "last_author": "Song CQ",
+      "first_author": "Wu SS",
+      "year": "2020.0",
+      "pmid": "32292501"
+    },
+    {
+      "doi": "10.1016/j.scr.2019.101689",
+      "title": "Generation of a SOX9-tdTomato reporter human iPSC line, MCRIi001-A-2, using CRISPR/Cas9 editing",
+      "journal": "Stem cell research",
+      "last_author": "Lamand\u00e9 SR",
+      "first_author": "Nur Patria Y",
+      "year": "2020.0",
+      "pmid": "31884373"
+    },
+    {
+      "doi": "10.1016/j.scr.2020.101843",
+      "title": "Generation of a heterozygous COL2A1 (p.R989C) spondyloepiphyseal dysplasia congenita mutation iPSC line, MCRIi001-B, using CRISPR/Cas9 gene editing",
+      "journal": "Stem cell research",
+      "last_author": "Lamand\u00e9 SR",
+      "first_author": "Lilianty J",
+      "year": "2020.0",
+      "pmid": "32446218"
+    },
+    {
+      "doi": "10.1016/j.scr.2020.101942",
+      "title": "CRISPR/Cas9 gene editing of a SOX9 reporter human iPSC line to produce two TRPV4 patient heterozygous missense mutant iPSC lines, MCRIi001-A-3 (TRPV4 p.F273L) and MCRIi001-A-4 (TRPV4 p.P799L)",
+      "journal": "Stem cell research",
+      "last_author": "Lamand\u00e9 SR",
+      "first_author": "Nur Patria Y",
+      "year": "2020.0",
+      "pmid": "32771907"
+    },
+    {
+      "doi": "10.1161/circulationaha.120.051921",
+      "title": "Sex-Specific Control of Human Heart Maturation by the Progesterone Receptor",
+      "journal": "Circulation",
+      "last_author": "Porrello ER",
+      "first_author": "Sim CB",
+      "year": "2021.0",
+      "pmid": "33682422"
+    },
+    {
+      "doi": "10.3390/biom11050699",
+      "title": "Potential of Induced Pluripotent Stem Cells for Use in Gene Therapy: History, Molecular Bases, and Medical Perspectives",
+      "journal": "Biomolecules",
+      "last_author": "Sieron AL",
+      "first_author": "Fus-Kujawa A",
+      "year": "2021.0",
+      "pmid": "34067183"
+    },
+    {
+      "doi": "10.3390/biom11101493",
+      "title": "Osteogenesis Imperfecta: Current and Prospective Therapies",
+      "journal": "Biomolecules",
+      "last_author": "Sieron AL",
+      "first_author": "Botor M",
+      "year": "2021.0",
+      "pmid": "34680126"
+    },
+    {
+      "doi": "10.1002/jbmr.4549",
+      "title": "Curative Cell and Gene Therapy for Osteogenesis Imperfecta",
+      "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+      "last_author": "Munns CF",
+      "first_author": "Schindeler A",
+      "year": "2022.0",
+      "pmid": "35306687"
+    },
+    {
+      "doi": "10.1016/j.semcdb.2021.11.024",
+      "title": "Developmental principles informing human pluripotent stem cell differentiation to cartilage and bone",
+      "journal": "Seminars in cell & developmental biology",
+      "last_author": "Kimber SJ",
+      "first_author": "Humphreys PA",
+      "year": "2022.0",
+      "pmid": "34949507"
+    },
+    {
+      "doi": "10.1007/978-1-0716-2839-3_8",
+      "title": "Chondrogenic Differentiation of Human-Induced Pluripotent Stem Cells",
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "last_author": "Wu CL",
+      "first_author": "Dicks AR",
+      "year": "2023.0",
+      "pmid": "36355287"
+    },
+    {
+      "doi": "10.1186/s40824-023-00382-x",
+      "journal": "Biomaterials Research",
+      "last_author": "Kim Jangho",
+      "first_author": "Park Sangbae",
+      "year": "2023.0"
+    },
+    {
+      "doi": "10.1073/pnas.2211510120",
+      "title": "Modeling human skeletal development using human pluripotent stem cells",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "last_author": "Bateman JF",
+      "first_author": "Lamand\u00e9 SR",
+      "year": "2023.0",
+      "pmid": "37126720"
+    },
+    {
+      "doi": "10.1155/2023/9098445",
+      "journal": "Transboundary and Emerging Diseases",
+      "last_author": "Pan Hong",
+      "first_author": "Zhang Yi",
+      "year": "2023.0"
+    },
+    {
+      "doi": "10.33640/2405-609x.3330",
+      "journal": "Karbala International Journal of Modern Science",
+      "last_author": "Ahuja Vishal",
+      "first_author": "Srivastava Apeksha",
+      "year": "2023.0"
+    },
+    {
+      "doi": "10.1007/s12015-023-10585-3",
+      "journal": "Stem Cell Reviews and Reports",
+      "last_author": "Abbaszadegan Mohammad Reza",
+      "first_author": "Lotfi Malihe",
+      "year": "2023.0"
+    },
+    {
+      "doi": "10.31083/j.fbl2812336",
+      "journal": "Frontiers in Bioscience-Landmark",
+      "last_author": "Dai Yong",
+      "first_author": "Li Dandan",
+      "year": "2023.0"
+    },
+    {
+      "doi": "10.1021/acsptsci.3c00324",
+      "journal": "ACS Pharmacology &amp; Translational Science",
+      "last_author": "Wang Hu",
+      "first_author": "Sun Yu",
+      "year": "2024.0"
+    },
+    {
+      "doi": "10.1016/j.scr.2024.103313",
+      "title": "Generation of a human ACTA1-tdTomato reporter iPSC line using CRISPR/Cas9 editing",
+      "journal": "Stem cell research",
+      "last_author": "North KN",
+      "first_author": "Houweling PJ",
+      "year": "2024.0",
+      "pmid": "38277710"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "CXCR4;c-Kit;EPCAM",
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "EPCAM;CD13",
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "MAP2",
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "SV"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "35121 A",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

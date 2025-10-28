@@ -1,0 +1,99 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "16071p56",
+      "hpscreg_name": "LEIi018-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Samuel McLenachan: smclenachan@lei.org.au",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102439",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with Stargardt disease caused by biallelic c.[5461\u201310T>C;5603A>T];[6077T>C] mutations in the ABCA4 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Fred K. Chen",
+      "first_author": "Di Huang",
+      "year": "2021.0",
+      "pmid": "34649201"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A20_24",
+      "disease_description": "biallelic c.[5461\u201310T>C;5603A>T];[6077T>C] mutations in the ABCA4 gene",
+      "disease_name": "Stargardt disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM",
+      "mutation_type": "Variant",
+      "loci_name": "ABCA4",
+      "description": "biallelic c.[5461\u201310T>C;5603A>T];[6077T>C] mutations in the ABCA4 gene"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "Analysis of 16 microsatellite markers confirmed LEIi018-A was derived from the patient\u2019s fibroblasts (FB) (data not shown).",
+      "passage_number": "16"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "derivation_year": "2020"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

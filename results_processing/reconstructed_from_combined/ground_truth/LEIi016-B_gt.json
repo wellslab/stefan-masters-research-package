@@ -1,0 +1,144 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1418ips6",
+      "hpscreg_name": "LEIi016-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "McLenachan-Chen-LEI",
+      "e_mail": "\u00a0smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    },
+    {
+      "name_initials": "K",
+      "group": "McLenachan-Chen-LEI",
+      "e_mail": "\u00a0fredchen@lei.org.au",
+      "last_name": "Chen",
+      "first_name": "Fred"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102403",
+      "title": "Generation of two induced pluripotent stem cell lines from a retinitis pigmentosa patient with compound heterozygous mutations in CRB1",
+      "journal": "Stem cell research",
+      "last_author": "McLenachan S",
+      "first_author": "Moon SY",
+      "year": "2021.0",
+      "pmid": "34034222"
+    },
+    {
+      "doi": "10.1186/s12964-024-01673-z",
+      "title": "Diverse functions and pathogenetic role of Crumbs in retinopathy",
+      "journal": "Cell communication and signaling : CCS",
+      "last_author": "Fu J",
+      "first_author": "Zhou X",
+      "year": "2024.0",
+      "pmid": "38802833"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2021.102403",
+      "title": "Generation of two induced pluripotent stem cell lines from a retinitis pigmentosa patient with compound heterozygous mutations in CRB1.",
+      "journal": "Stem Cell Research",
+      "last_author": "Samuel McLenachan",
+      "first_author": "Sang Yoon Moon",
+      "year": "2021.0",
+      "pmid": "34034222"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "10_14",
+      "disease_name": "Retinitis Pigmentosa 12"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "FOXA2; SOX17",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "DCN; IGF2; NKX2.5; TBXT",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "DCX; PAX6",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EN"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium HumanCoreExome-24; resolution 0.5 Mb).",
+      "passage_number": "11"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "skin fibroblast",
+      "non_int_vector": "EPI",
+      "derivation_year": "2020-01-01",
+      "non_int_vector_name": "[kit] Epi5 Episomal iPSC Reprogramming Kit",
+      "i_source_cell_type_id": "CL:0002620",
+      "i_source_cell_origin_term": "dermis",
+      "i_source_cell_origin_id": "UBERON:0002067"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "GENIE 29",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "AIBNi008-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "name_initials": "J",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "group": "Wolvetang-AIBN"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Lata Vadlamudi",
+      "year": "2022.0",
+      "first_author": "Zoe L. Hunter",
+      "doi": "10.1016/j.scr.2022.102673",
+      "journal": "Stem Cell Research",
+      "pmid": "102673",
+      "title": "Human induced pluripotent stem cells generated from epilepsy patients for use as in vitro models for drug screening"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A25_29",
+      "disease_name": "Epilepsy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "HAND1",
+      "method_used": "qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NR2F2; PAX6",
+      "method_used": "qPCR"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2020-01-01",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

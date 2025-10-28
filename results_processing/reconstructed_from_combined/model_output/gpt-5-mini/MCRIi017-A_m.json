@@ -1,0 +1,113 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "ASD2-75.4",
+      "hpscreg_name": "MCRIi017-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute, Parkville, VIC, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Murdoch Children's Research Institute",
+      "e_mail": "Paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "first_name": "Paul"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101516",
+      "title": "Generation of seven iPSC lines from peripheral blood mononuclear cells suitable to investigate Autism Spectrum Disorder",
+      "journal": "Stem Cell Research",
+      "last_author": "Paul J. Lockhart",
+      "first_author": "Kiymet Bozaoglu",
+      "year": "2019.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A65_69",
+      "disease_name": "Unaffected"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Normal karyotype; SNP array comparison to parental PBMC showed no perturbations in genomic integrity and no differences detected between original PBMC sample and corresponding iPSC line.",
+      "passage_number": "4"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2017",
+      "non_int_vector_name": "Cytotune-iPS 2.0 Sendai Reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "28097",
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.1",
+      "passage_method": "mechanically"
+    }
+  ]
+}

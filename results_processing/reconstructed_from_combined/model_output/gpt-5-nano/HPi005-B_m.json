@@ -1,0 +1,117 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "HPi005-A; HPi005-B",
+      "hpscreg_name": "HPi005-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Harry Perkins Institute of Medical Research",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103258",
+      "title": "Generation of two induced pluripotent stem cell lines from a 33-year-old central core disease patient with a heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Joshua S. Clayton",
+      "first_author": "K. Driver",
+      "year": "2023.0",
+      "pmid": "103258"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A30_34",
+      "disease_description": "CCD",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del)",
+      "mutation_type": "Variant",
+      "loci_name": "RYR1",
+      "description": "c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) in RYR1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "GATA4; SOX17; FOXA2",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "TBXT; HAND1; RUNX1",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "PAX6; SOX1; NESTIN",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "G-banding indicated that both HPi005-A and HPi005-B iPSC clones possessed a normal male karyotype (46, XY). Sanger sequencing confirmed the RYR1 c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in exon 97."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "EBV-immortalised lymphoblastoid cell line",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

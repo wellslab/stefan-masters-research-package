@@ -1,0 +1,117 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "HPIi005-A; HPIi005 R: RYR1-5-9214-iPSC clone R5",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "HPIi005-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "S",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Joshua S. Clayton",
+      "year": "2023.0",
+      "first_author": "Karrison Driver",
+      "doi": "10.1016/j.scr.2023.103258",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a 33-year-old central core disease patient with a heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A30_34",
+      "disease_description": "Central core disease (CCD) is a congenital disorder that results in hypotonia, delayed motor development, and areas of reduced oxidative activity in the muscle fiber.",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene",
+      "delivery_method": "Spontaneous variant",
+      "loci_name": "RYR1",
+      "cytoband": "19q13.2",
+      "genotype": "Heterozygous: c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; SOX17",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "16",
+      "karyotype": "46,XX",
+      "summary": "No statistically significant chromosomal abnormalities were detected. Both clones possessed a normal female karyotype (46, XX).",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2022",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell (LCL)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Comit\u00e9 de Protection des Personnes (Est IV)",
+      "ethics_number": "DC-2012-1639"
+    },
+    {
+      "institutional_HREC": "Genethon",
+      "ethics_number": "AC-2018-3916"
+    },
+    {
+      "institutional_HREC": "Genethon",
+      "ethics_number": "IE-2018-394"
+    },
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/20/1008"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EN"
+    }
+  ]
+}

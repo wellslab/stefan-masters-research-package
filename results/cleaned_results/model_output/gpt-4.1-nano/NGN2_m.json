@@ -1,0 +1,61 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "NGN2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Research Council Linkage"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Mirella",
+      "e_mail": "mdottori@uow.edu.au",
+      "last_name": "Dottori",
+      "group": "Mirella Dottori"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mirella Dottori",
+      "year": "2024.0",
+      "first_author": "Sara Miellet",
+      "doi": "10.1016/j.scr.2024.103312",
+      "journal": "Stem Cell Research",
+      "pmid": "103312",
+      "title": "Generation of a gene-edited H9 embryonic stem cell line carrying a DOX-inducible NGN2 expression cassette in the CLYBL locus"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Homology directed repair (HDR) donor vector: Addgene #124229 (CLYBL-TO-hNGN2-BSD-mApple)",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "CLYBL",
+      "genotype": "Homology directed repair (HDR) donor vector: Addgene #124229 (CLYBL-TO-hNGN2-BSD-mApple)",
+      "mutation_type": "GKI"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Karyotyping confirmed a normal female karyotype.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2024"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "BICM",
+      "icm_morphology": "Type A",
+      "trophectoderm_morphology": "type A"
+    }
+  ]
+}

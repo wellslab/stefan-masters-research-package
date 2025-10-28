@@ -1,0 +1,31 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Endeavour-2",
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "E-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tuch",
+      "year": "2006.0",
+      "first_author": "Sidhu",
+      "doi": "10.1007/s11626-006-0013-5",
+      "journal": "In Vitro Cellular & Developmental Biology - Animal",
+      "pmid": "16582034",
+      "title": "Derivation of new hESC line, Endeavour-2"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "BICM"
+    }
+  ]
+}

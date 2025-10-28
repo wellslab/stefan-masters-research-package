@@ -1,0 +1,94 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "PB003",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Katerina",
+      "e_mail": "Vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Andrew G. Elefanty",
+      "year": "2023.0",
+      "first_author": "Katerina Vlahos",
+      "doi": "10.1016/j.scr.2023.103109",
+      "journal": "Stem Cell Research",
+      "pmid": "103109",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A55_59"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "A-SMA",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22,X)x2",
+      "summary": "Normal molecular karyotype reported as arr(1-22,X)x2 (0.50 Mb resolution) by SNP array; no major perturbations detected compared to parental PBMC.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "RCH Human Research Ethics Committee",
+      "ethics_number": "3521A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "ME"
+    }
+  ]
+}

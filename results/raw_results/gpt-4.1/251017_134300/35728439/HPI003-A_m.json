@@ -1,0 +1,134 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "HPI003-A",
+      "cell_line_alt_name": "iPSC-7247-G5",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Harry Perkins Institute of Medical Research",
+      "first_name": "Joshua",
+      "last_name": "Clayton",
+      "name_initials": "S",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102829",
+      "journal": "Stem Cell Research",
+      "title": "Generation of an induced pluripotent stem cell line from a 3-month-old nemaline myopathy patient with a heterozygous dominant c.515C > A (p. Ala172Glu) variant in the ACTA1 gene",
+      "first_author": "Joshua S. Clayton",
+      "last_author": "Rhonda L. Taylor",
+      "year": "2022",
+      "pmid": "35750611"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A1_4",
+      "sex": "Female",
+      "disease_name": "Nemaline myopathy 3; NEM3",
+      "disease_description": "Intermediate nemaline myopathy with heterozygous dominant ACTA1 c.515C > A (p.Ala172Glu) variant"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "1q42.13",
+      "delivery_method": "Missing",
+      "description": "Heterozygous dominant ACTA1 c.515C > A (p.Ala172Glu) variant",
+      "genotype": "NM_001100. c.515C > A (p.Ala172Glu)",
+      "loci_name": "ACTA1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "qPCR; immunocytochemistry",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "TBXT; BMP4",
+      "method_used": "qPCR; immunocytochemistry",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "qPCR; immunocytochemistry",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "46, XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal female karyotype (46, XX) confirmed by G-banding (n = 15 chromosomal spreads)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell line (LCL)",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2021",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai reprogramming kit"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Est IV DC 2012-1693",
+      "approval_date": "Missing",
+      "institutional_HREC": "Comit\u00e9 de Protection des Personnes"
+    },
+    {
+      "ethics_number": "RA/4/20/1008",
+      "approval_date": "Missing",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "2018-3156",
+      "approval_date": "Missing",
+      "institutional_HREC": "Genethon"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

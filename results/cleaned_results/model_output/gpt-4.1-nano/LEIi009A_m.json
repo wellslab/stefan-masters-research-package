@@ -1,0 +1,53 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1093ips4 (LEIi008-A); 1374ips1 (LEIi009-A)",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi009A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2019.0",
+      "first_author": "Samuel McLenachan",
+      "doi": "https://doi.org/10.1016/j.scr.2018.11.018",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with dominant PRPF31 mutation and a related non-penetrant carrier"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A25_29",
+      "disease_name": "Retinitis Pigmentosa 11"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "missense mutation in PRPF31",
+      "loci_name": "PRPF31",
+      "cytoband": "19q13.42",
+      "genotype": "PRPF31/19q13.42",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "18/12/17",
+      "karyotype": "46,XY",
+      "summary": "Normal male karyotype with no chromosomal abnormalities detected.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2017"
+    }
+  ]
+}

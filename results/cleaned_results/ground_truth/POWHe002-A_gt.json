@@ -1,0 +1,37 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Endeavour-2",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "POWHe002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Prince of Wales Hospital"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tuch BE",
+      "year": "2010.0",
+      "first_author": "Sidhu KS",
+      "doi": "10.1007/s11626-010-9280-8",
+      "journal": "In Vitro Cellular & Developmental Biology - Animal",
+      "pmid": "20178001",
+      "title": "Derivation of a new human embryonic stem cell line, Endeavour-2, and its characterization"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-POWHe002-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "ME"
+    }
+  ]
+}

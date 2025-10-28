@@ -1,0 +1,97 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "MICCNi002-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences",
+      "e_mail": "janette.tong@monash.edu",
+      "last_name": "Tong",
+      "first_name": "Janette"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.11.014",
+      "title": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family",
+      "journal": "Stem Cell Research",
+      "first_author": "J. Tong",
+      "year": "2019.0",
+      "pmid": "101353"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A15_19",
+      "disease_name": "Attention deficit hyperactivity disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "G-banding of iPSCs was carried out at the Monash Pathology Services (Monash Medical Centre). A total of 15 cells were analysed; 5 banded cells were analysed for metaphases spread and 10 cells were examined for chromosome analysis."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "derivation_year": "2018",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

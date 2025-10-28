@@ -1,0 +1,117 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "MNZTASI019-A",
+      "cell_line_alt_name": "Missing",
+      "cell_type": "hiPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research, University of Tasmania"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Menzies Institute for Medical Research, University of Tasmania",
+      "first_name": "Brad",
+      "last_name": "Sutherland",
+      "name_initials": "A",
+      "e_mail": "brad.sutherland@utas.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1186/s13287-024-03671-x",
+      "journal": "Stem Cell Research & Therapy",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility",
+      "first_author": "Natalie E. King",
+      "last_author": "Brad A. Sutherland",
+      "year": "2024",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A50_54",
+      "sex": "Female",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "NM",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "PDGFRB; CSPG4; ACTA2",
+      "method_used": "RT-qPCR; Immunocytochemistry",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "OCT4; NANOG",
+      "method_used": "RT-qPCR",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "5-35",
+      "karyotype": "Normal karyogram",
+      "karyotype_method": "Missing",
+      "summary": "All iPSC lines were shown to have karyotypically normal karyograms within 10 passages of use for experiments and were used between passage 5\u201335."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "H26563",
+      "approval_date": "Missing",
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.02",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

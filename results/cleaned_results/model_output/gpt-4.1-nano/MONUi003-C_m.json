@@ -1,0 +1,57 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MONUi003-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Mark A.",
+      "e_mail": "mark.bellgrove@monash.edu",
+      "last_name": "Bellgrove",
+      "group": "Professor Mark A. Bellgrove, Dr Ziarih Hawi"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Aramayo",
+      "year": "2023.0",
+      "first_author": "Kealan Pugsley",
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A13_19",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2",
+      "summary": "Data compared to human reference sequence GRCh38/hg38 (Dec 2013).",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2023",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "non_int_vector": "Sendai virus"
+    }
+  ]
+}

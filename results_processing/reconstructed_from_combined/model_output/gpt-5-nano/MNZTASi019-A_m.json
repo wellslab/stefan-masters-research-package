@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "MNZTASi019-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "MS Stem Biobank (Menzies Institute for Medical Research, Hobart, Tasmania, Australia)"
+    }
+  ],
+  "contact": [
+    {
+      "group": "MS Stem Biobank"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1186/s13287-024-03671-x",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility",
+      "journal": "Stem Cell Research & Therapy",
+      "last_author": "Brad A. Sutherland",
+      "first_author": "Natalie E. King",
+      "year": "2024.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A50_54"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PDGFR\u03b2; CSPG4; ACTA2",
+      "method_used": "RNA sequencing",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro differentiation to mesoderm iPericytes"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "H26563",
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

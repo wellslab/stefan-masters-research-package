@@ -1,0 +1,52 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "ESIBIe003-A-10"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Schiesser JV",
+      "year": "2021.0",
+      "first_author": "Labonne T",
+      "doi": "10.1016/j.scr.2021.102547",
+      "journal": "Stem Cell Research",
+      "pmid": "34619644",
+      "title": "An INSULIN-GFP/GLUCAGON-mCherry reporter line for the study of human pancreatic endocrine cell development"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "GFP was inserted into one allele of the INSULIN locus as described in Micallef et al 2012",
+      "delivery_method": "homologous_recombination",
+      "loci_name": "INSULIN",
+      "cytoband": "cytoband location 11p15.5",
+      "mutation_type": "GKI"
+    },
+    {
+      "description": "mCherry was inserted into one allele of the GLUCAGON locus as described in Labonne et al 2021",
+      "delivery_method": "talen",
+      "loci_name": "GLUCAGON",
+      "cytoband": "cytoband location 2q24.2",
+      "mutation_type": "GKI"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-ESIBIe003-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

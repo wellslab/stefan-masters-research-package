@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "GENEA007; SIVF07; SIVF007",
+      "cell_type": "ESC",
+      "frozen": "True",
+      "hpscreg_name": "GENEAe006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Genea"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Uli",
+      "e_mail": "info@geneabiocells.com",
+      "last_name": "Schmidt",
+      "group": "Schmidt-GENEA"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2008.0",
+      "first_author": "Peura T",
+      "doi": "10.1089/clo.2007.0062",
+      "journal": "Cloning and Stem Cells",
+      "pmid": "18386991",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos"
+    },
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2008.0",
+      "first_author": "Teija Peura",
+      "doi": "https://doi.org/10.1089/clo.2007.0062",
+      "journal": "Cloning and Stem Cells",
+      "pmid": "18386991",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "EM",
+      "disease_description": "Line originated from an embryo with a PGD result of \"chaotic\" (analyzed cell showed at least two different aneuploidies)",
+      "disease_name": "Chaotic (eg. 3 x 13, 3 x 18, 5 x 21)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP",
+      "method_used": "RT-PCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "VEGFR2",
+      "method_used": "RT-PCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NCAM",
+      "method_used": "RT-PCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "26",
+      "karyotype": "46,XX",
+      "summary": "Karyotyping occurred at passages 8 and 26.",
+      "karyotype_method": "GB"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "zp_removal_technique": "MA",
+      "e_preimplant_genetic_diagnosis": "True",
+      "embryo_stage": "BICM",
+      "icm_morphology": "Type A",
+      "trophectoderm_morphology": "TA"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Sydney IVF Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "Holding Entry-GENEAe006-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "ME"
+    }
+  ]
+}

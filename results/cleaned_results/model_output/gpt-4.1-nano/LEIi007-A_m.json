@@ -1,0 +1,42 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1082ips10",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2019.0",
+      "first_author": "Johann N. Claassen",
+      "doi": "10.1016/j.scr.2018.11.013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of the induced pluripotent stem cell line from a patient with autosomal recessive ABCA4-mediated Stargardt Macular Dystrophy"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A15_19",
+      "disease_description": "autosomal recessive ABCA4-mediated",
+      "disease_name": "Stargardt Macular Dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "loci_name": "ABCA4",
+      "genotype": "NM"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2018"
+    }
+  ]
+}

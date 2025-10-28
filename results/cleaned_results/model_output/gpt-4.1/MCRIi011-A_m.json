@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "ASD2-3.1",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi011-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "J",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Paul J. Lockhart",
+      "year": "2019.0",
+      "first_author": "Kiymet Bozaoglu",
+      "doi": "10.1016/j.scr.2019.101516",
+      "journal": "Stem Cell Research",
+      "title": "Generation of seven iPSC lines from peripheral blood mononuclear cells suitable to investigate Autism Spectrum Disorder"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A57_59",
+      "disease_description": "Broader autism phenotype (BAP) is a milder phenotype of autism spectrum disorder characterized by subclinical autistic traits.",
+      "disease_name": "Broader Autism Phenotype"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "3",
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "summary": "Karyotyping of the PBMCs and iPSC lines was performed using the Infinium CoreExome-24 v1.1 SNP array. The iPSC line showed a normal karyotype (resolution 0.5 Mb). SNP array comparisons of PBMC and iPSC line showed identical genotypes (>99.9%) for the entire genome, indicating cell lines are from the same individual.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2018",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "ethics_number": "280997"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.1",
+      "o2_concentration": "0.21",
+      "passage_method": "ME"
+    }
+  ]
+}

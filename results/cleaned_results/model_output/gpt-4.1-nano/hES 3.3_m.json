@@ -1,0 +1,48 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "hES 3.3"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, NSW 2031 Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kuldip",
+      "name_initials": "K",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2005.0"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "Nestin; Renin; alpha-fetoprotein; GATA6",
+      "method_used": "RT-PCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Cytogenetic evaluation showed a normal 46XX karyotype.",
+      "karyotype_method": "G-banding"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1012ips11",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi014-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute"
+    },
+    {
+      "first_name": "Fred",
+      "name_initials": "K",
+      "e_mail": "fredchen@lei.org.au",
+      "last_name": "Chen",
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Samuel McLenachan",
+      "year": "2021.0",
+      "first_author": "Khine Zaw",
+      "doi": "10.1016/j.scr.2020.102129",
+      "journal": "Stem Cell Research",
+      "title": "Generation of three induced pluripotent stem cell lines from a patient with Usher syndrome caused by biallelic c.949C > A and c.1256G > T mutations in the USH2A gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A15_19",
+      "disease_description": "Patient with compound heterozygous USH2A variants c.949C>A and c.1256G>T",
+      "disease_name": "Usher syndrome type 2"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Inherited compound heterozygous variants in USH2A",
+      "loci_name": "USH2A",
+      "cytoband": "1q41",
+      "genotype": "USH2A c.949C>A; c.1256G>T (compound heterozygous)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "DCN; IGF2",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "GATA2; SOX7",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Genome-wide copy number analysis by Illumina HumanCytoSNP-12 Beadchip showed a normal female karyotype with no significant CNVs; results supported absence of reprogramming-induced chromosomal alterations.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2018",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/7916"
+    },
+    {
+      "institutional_HREC": "Sir Charles Gairdner Hospital Human Research Ethics Committee",
+      "ethics_number": "2001-053"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

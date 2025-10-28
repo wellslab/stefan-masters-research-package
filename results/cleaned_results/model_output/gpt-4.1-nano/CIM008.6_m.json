@@ -1,0 +1,42 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CIM008.6",
+      "cell_type": "iPSC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Calgary"
+    }
+  ],
+  "contact": [
+    {
+      "e_mail": "chad.bousman@ucalgary.ca"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2022.0",
+      "first_author": "Nazanin Vaziri",
+      "doi": "10.1016/j.scr.2022.102877",
+      "journal": "Stem Cell Research",
+      "pmid": "102877",
+      "title": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "34",
+      "disease_description": "treatment-resistant",
+      "disease_name": "Schizophrenia"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ]
+}

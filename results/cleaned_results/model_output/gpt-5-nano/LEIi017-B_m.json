@@ -1,0 +1,74 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1629ips11 (LEIi017-B)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi017-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "S",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Samuel McLenachan",
+      "year": "2021.0",
+      "first_author": "Di Huang",
+      "doi": "10.1016/j.scr.2021.102448",
+      "journal": "Stem Cell Research",
+      "pmid": "102448",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt disease caused by compound heterozygous mutations in the ABCA4 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A15_19",
+      "disease_name": "Stargardt disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "ABCA4 c.5461-10 T>C; c.5603A>T",
+      "loci_name": "ABCA4",
+      "genotype": "Compound heterozygous ABCA4 mutations",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2020-01-01",
+      "non_int_vector_name": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "069",
+      "hpscreg_name": "VCCRIi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Victor Chang Cardiac Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103238",
+      "title": "Generation of induced pluripotent stem cell lines from a sister pair who suffered post-partum or recurrent Spontaneous Coronary Artery Dissections",
+      "journal": "Stem cell research",
+      "last_author": "Graham RM",
+      "first_author": "Bax M",
+      "year": "2023.0",
+      "pmid": "37939621"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "The spontaneous occurrence of a dissection of the coronary artery. The clinical recognition of this phenomenon has increased as coronary angiography is becoming more commonly used in the treatment of acute coronary syndrome. The etiology of the condition has not been fully elucidated, but the mean age of presentation is 30-45 years, more than 70% are women, and 30% of cases occur in the peripartum period.",
+      "disease_name": "Spontaneous Coronary Artery Dissection"
+    },
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "A disorder characterized by fibrous thickening of the arterial wall resulting in narrowing of the arterial lumen. It most often affects the renal artery and less often the carotid artery and abdominal arteries. It can cause hypertension and aneurysm formation.; An idiopathic, segmental, nonatheromatous disease of the musculature of arterial walls, leading to STENOSIS of small and medium-sized arteries. There is true proliferation of SMOOTH MUSCLE CELLS and fibrous tissue. Fibromuscular dysplasia lesions are smooth stenosis and occur most often in the renal and carotid arteries. They may also occur in other peripheral arteries of the extremity.",
+      "disease_name": "fibromuscular dysplasia"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "Brachyury",
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "PAX6",
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "Normal",
+      "karyotype_method": "GB",
+      "passage_number": "20"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "SV"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC/16/SVH/338",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "St Vincent's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.18",
+      "passage_method": "EF"
+    }
+  ]
+}

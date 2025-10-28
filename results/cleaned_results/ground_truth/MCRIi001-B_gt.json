@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "COL2A1 p.R989C; MCRIi001-A-SOX9tdTom-COL2A1p.R989C; PB001-SOX9tdTom-COL2A1p.R989C",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi001-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Shireen",
+      "e_mail": "shireen.lamande@mcri.edu.au",
+      "last_name": "Lamand\u00e9",
+      "group": "Lamand\u00e9-MCRI"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Lamand\u00e9 SR",
+      "year": "2020.0",
+      "first_author": "Lilianty J",
+      "doi": "10.1016/j.scr.2020.101843",
+      "journal": "Stem Cell Research",
+      "pmid": "32446218",
+      "title": "Generation of a heterozygous COL2A1 (p.R989C) spondyloepiphyseal dysplasia congenita mutation iPSC line, MCRIi001-B, using CRISPR/Cas9 gene editing"
+    },
+    {
+      "last_author": "Zhao J",
+      "year": "2021.0",
+      "first_author": "Zhou T",
+      "doi": "10.1002/jcla.23728",
+      "journal": "Journal of clinical laboratory analysis",
+      "pmid": "33590889",
+      "title": "A novel COL2A1 mutation causing spondyloepiphyseal dysplasia congenita in a Chinese family"
+    },
+    {
+      "last_author": "Kimber SJ",
+      "year": "2022.0",
+      "first_author": "Humphreys PA",
+      "doi": "10.1016/j.semcdb.2021.11.024",
+      "journal": "Seminars in cell & developmental biology",
+      "pmid": "34949507",
+      "title": "Developmental principles informing human pluripotent stem cell differentiation to cartilage and bone"
+    },
+    {
+      "last_author": "Lamand\u00e9 SR",
+      "year": "2020.0",
+      "first_author": "Lilianty J",
+      "doi": "https://doi.org/10.1016/j.scr.2020.101843",
+      "journal": "Stem Cell Research",
+      "pmid": "32446218",
+      "title": "Generation of a heterozygous COL2A1 (p.R989C) spondyloepiphyseal dysplasia congenita mutation iPSC line, MCRIi001-B, using CRISPR/Cas9 gene editing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous COL2A1 c.2965C>T (p.Arg989Cys) variant was introduced to COL2A1 exon 43. Synonymous changes were also introduced.",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "COL2A1",
+      "cytoband": "12q13.11",
+      "genotype": "Heterozygous: unspecified_reference_COL2A1:c.2155C>T",
+      "mutation_type": "IM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "HNF4A",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "COL2A1",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9.0",
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "approval_date": "1900-01-01",
+      "ethics_number": "35121A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

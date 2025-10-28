@@ -1,0 +1,63 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "M15",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "UQi009-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "UN",
+      "disease_name": "Amyotrophic Lateral Sclerosis"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "CXCR4;SOX17"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "NCAM1;TBXT"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "Pax6;NES"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "Other"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "RBWH HREC; University of Queensland",
+      "approval_date": "1900-01-01",
+      "ethics_number": "HREC/14/QRBW/495; 2015/HE000022"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "GENIE 49",
+      "hpscreg_name": "AIBNi009-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Wolvetang-AIBN",
+      "e_mail": " e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "first_name": "Ernst"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102673",
+      "title": "Human induced pluripotent stem cells generated from epilepsy patients for use as in vitro models for drug screening",
+      "journal": "Stem cell research",
+      "last_author": "Vadlamudi L",
+      "first_author": "Hunter ZL",
+      "year": "2022.0",
+      "pmid": "35074713"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2022.102673",
+      "title": "Human induced pluripotent stem cells generated from epilepsy patients for use as in vitro models for drug screening.",
+      "journal": "Stem Cell Research",
+      "last_author": "Lata Vadlamudi",
+      "first_author": "Zoe L Hunter",
+      "year": "2022.0",
+      "pmid": "35074713"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "25_29",
+      "disease_name": "Epilepsy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "FOXA2; SOX17",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "HAND1; PDGFRA",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "NR2F2; PAX6",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "GB",
+      "summary": "Karyotyping occurred from passage 15 at a resolution of 500bphs. Ten metaphase spreads were analysed.",
+      "passage_number": "15"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "SV",
+      "derivation_year": "2020-01-01",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit",
+      "i_source_cell_type_id": "CL:2000001",
+      "i_source_cell_origin_term": "blood",
+      "i_source_cell_origin_id": "UBERON:0000178"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "QRBW/54086",
+      "approval_date": "2019-01-01",
+      "institutional_HREC": "The University of Queensland Human Ethics Research Office"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

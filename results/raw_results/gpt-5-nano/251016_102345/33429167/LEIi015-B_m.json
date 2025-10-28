@@ -1,0 +1,130 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "LEIi015-B",
+      "cell_line_alt_name": "1042ips4",
+      "cell_type": "hiPSC",
+      "frozen": true
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lions Eye Institute",
+      "first_name": "Samuel",
+      "last_name": "McLenachan",
+      "name_initials": "Missing",
+      "e_mail": "smclenachan@lei.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102154",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with retinitis pigmentosa caused by mutations in SNRNP200",
+      "first_author": "Dan Zhang",
+      "last_author": "Chen",
+      "year": "2021",
+      "pmid": "102154"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A5_9",
+      "sex": "F",
+      "disease_name": "Rod-cone dystrophy; macular edema",
+      "disease_description": "Missing"
+    },
+    {
+      "age": "A5_9",
+      "sex": "F",
+      "disease_name": "Rod-cone dystrophy; macular edema",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Inherited heterozygous SNRNP200 variants",
+      "genotype": "c.1792C>T; c.3341T>C",
+      "loci_name": "SNRNP200"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "DCN; SOX7",
+      "method_used": "RT-qPCR",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "IGF2; GATA2; SOX7",
+      "method_used": "RT-qPCR",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype observed for LEIi015-A and LEIi015-B"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2017-09-06",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "SC900A-1, System Biosciences"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "Missing",
+      "institutional_HREC": "University of Western Australia Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "mechanically"
+    }
+  ]
+}

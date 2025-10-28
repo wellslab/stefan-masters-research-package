@@ -1,0 +1,90 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1374IPS-C1P10",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEi009-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2019.0",
+      "first_author": "Samuel McLenachan",
+      "doi": "10.1016/j.scr.2018.11.018",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with dominant PRPF31 mutation and a related non-penetrant carrier"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A50_54",
+      "disease_name": "Retinitis Pigmentosa 11"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "PRPF31 c.1205C>A mutation",
+      "loci_name": "PRPF31",
+      "genotype": "PRPF31 c.1205C>A",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "GATA4; AFP",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "DCN; GATA2",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2017-11-17",
+      "non_int_vector_name": "pEP4-EO2S-ET2K",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

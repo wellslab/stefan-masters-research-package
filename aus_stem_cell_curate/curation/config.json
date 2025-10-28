@@ -2,5 +2,6 @@
     "model": "gpt-4o",
     "temperature": 0.2,
     "max_tokens": 128000,
-    "processing_method": "vision"
+    "processing_method": "vision",
+    "instructions_path": "ai_curation_instructions.md"
 }

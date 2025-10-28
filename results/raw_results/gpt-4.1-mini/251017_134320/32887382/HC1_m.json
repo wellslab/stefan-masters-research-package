@@ -1,0 +1,110 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "HC1",
+      "cell_line_alt_name": "Missing",
+      "cell_type": "hiPSC",
+      "frozen": "Missing"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong",
+      "first_name": "Lezanne",
+      "last_name": "Ooi",
+      "name_initials": "Missing",
+      "e_mail": "lezanne@uow.edu.au",
+      "phone_number": "+61-24-221-5865"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.3390/cells9092018",
+      "journal": "Cells",
+      "title": "A Simple Differentiation Protocol for Generation of Induced Pluripotent Stem Cell-Derived Basal Forebrain-Like Cholinergic Neurons for Alzheimer\u2019s Disease and Frontotemporal Dementia Disease Modeling",
+      "first_author": "Sonia Sanz Mu\u00f1oz",
+      "last_author": "Lezanne Ooi",
+      "year": "2020",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Male",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Less than 20",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Karyotyping was performed within 20 passages before the start of differentiation."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.03",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

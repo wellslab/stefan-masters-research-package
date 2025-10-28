@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "LEIi014-C",
+      "cell_line_alt_name": "1012ips11",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lions Eye Institute",
+      "first_name": "Samuel",
+      "last_name": "McLenachan",
+      "name_initials": "Missing",
+      "e_mail": "smclenachan@lei.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102129",
+      "journal": "Stem Cell Research",
+      "title": "Generation of three induced pluripotent stem cell lines from a patient with Usher syndrome caused by biallelic c.949C > A and c.1256G > T mutations in the USH2A gene",
+      "first_author": "Khine Zaw",
+      "last_author": "Samuel McLenachan",
+      "year": "2021",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A15_19",
+      "sex": "Female",
+      "disease_name": "Usher syndrome type 2",
+      "disease_description": "Compound heterozygous for c.949C > A and c.1256G > T in USH2A"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "1q41",
+      "delivery_method": "Missing",
+      "description": "Compound heterozygous for c.949C > A and c.1256G > T in USH2A",
+      "genotype": "USH2A [c.949C > A; c.1256G > T]",
+      "loci_name": "USH2A"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR",
+      "description": "Embryoid body formation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "DCN; IGF2",
+      "method_used": "RT-qPCR",
+      "description": "Embryoid body formation"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "GATA2; SOX7",
+      "method_used": "RT-qPCR",
+      "description": "Embryoid body formation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46,XX",
+      "karyotype_method": "Array CGH",
+      "summary": "Digital karyotyping using Illumina Beadchip array showed normal karyotype (46, XX)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblast",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "2018",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Episomal plasmids"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "14/07/2018",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

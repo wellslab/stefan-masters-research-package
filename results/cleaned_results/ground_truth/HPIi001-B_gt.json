@@ -1,0 +1,110 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "iPS-6303-R12",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "HPIi001-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Clayton-HPI"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2021.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2021.102273",
+      "journal": "Stem Cell Research",
+      "pmid": "33740643",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 4-month-old severe nemaline myopathy patient with a heterozygous dominant c.553C > A (p.Arg183Ser) variant in the ACTA1 gene"
+    },
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2021.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "https://doi.org/10.1016/j.scr.2021.102273",
+      "journal": "Stem Cell Research",
+      "pmid": "33740643",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 4-month-old severe nemaline myopathy patient with a heterozygous dominant c.553C > A (p.Arg183Ser) variant in the ACTA1 gene"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "GATA4",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "Brachyury",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "46,XX",
+      "summary": "Karyostat analysis (minimum resolution: 1 MB (losses); 2 MB (gains), 5 MB (LOH/AOH)).",
+      "karyotype_method": "O"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "BTO:0000773",
+      "derivation_year": "2020-01-01",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "non_int_vector": "Sendai Virus",
+      "i_source_cell_origin_id": "UBERON:0000178"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "RA/4/20/1008"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EF"
+    }
+  ]
+}

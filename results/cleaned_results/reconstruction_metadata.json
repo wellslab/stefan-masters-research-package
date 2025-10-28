@@ -1,0 +1,37 @@
+{
+  "source_dataframe": "/home/stefanmirandadev/projects/stefan-masters-research-package/results_processing/cleaned_results/combined_dataframe_clean.csv",
+  "output_directory": "/home/stefanmirandadev/projects/stefan-masters-research-package/results/cleaned_results",
+  "total_input_rows": 2982,
+  "ground_truth_files_created": 315,
+  "model_output_files_created": 811,
+  "total_files_created": 1126,
+  "sections_and_fields": {
+    "basic_data": 4,
+    "generator": 1,
+    "contact": 6,
+    "publications": 7,
+    "donor": 4,
+    "genomic_modifications": 6,
+    "differentiation_results": 5,
+    "undifferentiated_characterisation": 3,
+    "genomic_characterisation": 4,
+    "induced_derivation": 7,
+    "embryonic_derivation": 5,
+    "ethics": 3,
+    "culture_medium": 3
+  },
+  "models_processed": [
+    "gpt-4.1",
+    "gpt-4.1-mini",
+    "gpt-4.1-nano",
+    "gpt-5",
+    "gpt-5-mini",
+    "gpt-5-nano"
+  ],
+  "config_used": {
+    "dataframe_path": "/home/stefanmirandadev/projects/stefan-masters-research-package/results_processing/cleaned_results/combined_dataframe_clean.csv",
+    "output_path": "/home/stefanmirandadev/projects/stefan-masters-research-package/results/cleaned_results",
+    "overwrite_existing": true,
+    "verbose": true
+  }
+}

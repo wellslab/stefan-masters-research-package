@@ -1,0 +1,116 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "SPGh1-S075mC2",
+      "hpscreg_name": "AIBNi017-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology (AIBN), The University of Queensland"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Australian Institute for Bioengineering and Nanotechnology",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "first_name": "Ernst"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102917",
+      "title": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "journal": "Stem Cell Research",
+      "last_author": "Ernst J. Wolvetang",
+      "first_author": "Hannah C. Leeson",
+      "year": "2022.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A30_34",
+      "disease_description": "CYP2U1 heterozygous carrier; exon 1 deletion c.471delC; p.(Ile158fs)",
+      "disease_name": "Hereditary spastic paraplegia 56 (SPG56) carrier"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "c.471delC; p.(Ile158fs)",
+      "mutation_type": "Variant",
+      "loci_name": "CYP2U1",
+      "description": "CYP2U1 heterozygous carrier with exon 1 deletion (frameshift)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "FOXA2; SOX17; CXCR4",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "PDGFRA; HAND1; BMP4; RUNX1",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "OTX2; PAX6; NR2F2; VIM",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Illumina HumanCytoSNP-12 SNP array at passage 60 indicated normal karyotypes across all lines.",
+      "passage_number": "60"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit (Thermo Fisher)",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "UQ HREC 2019/000,159",
+      "institutional_HREC": "University of Queensland Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

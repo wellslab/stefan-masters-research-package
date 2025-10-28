@@ -1,0 +1,129 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "Endeavour-2",
+      "cell_line_alt_name": "E-2",
+      "cell_type": "ESC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Diabetes Transplant Unit, Prince of Wales Hospital & University of New South Wales"
+    }
+  ],
+  "contact": [
+    {
+      "group": "University of New South Wales",
+      "first_name": "Kuldip",
+      "last_name": "Sidhu",
+      "name_initials": "S",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1007/s11626-010-9280-8",
+      "journal": "In Vitro Cellular & Developmental Biology - Animal",
+      "title": "Derivation of a new human embryonic stem cell line, Endeavour-2, and its characterization",
+      "first_author": "Kuldip S. Sidhu",
+      "last_author": "Bernard E. Tuch",
+      "year": "2010",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM",
+      "sex": "Female",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "NM",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "NESTIN",
+      "method_used": "RT-qPCR",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "VIMENTIN",
+      "method_used": "RT-qPCR",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "SOX17",
+      "method_used": "RT-qPCR",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Standard G-banding on 20 metaphases showed a normal female karyotype; example image shown at passage 9."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "zp_removal_technique": "mechanical",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "02247/02267",
+      "approval_date": "Missing",
+      "institutional_HREC": "University of New South Wales Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "309708",
+      "approval_date": "Missing",
+      "institutional_HREC": "National Health and Medical Research Council (NHMRC) Licensing Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "HPIi002-A",
+      "cell_line_alt_name": "iPS-789-C1",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Harry Perkins Institute of Medical Research",
+      "first_name": "Joshua",
+      "last_name": "Clayton",
+      "name_initials": "S",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102482",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 10-year-old typical nemaline myopathy patient with a heterozygous dominant c.541G>A (p.Asp179Asn) pathogenic variant in the ACTA1 gene",
+      "first_author": "Joshua S. Clayton",
+      "last_author": "Rhonda L. Taylor",
+      "year": "2021",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A10_14",
+      "sex": "Female",
+      "disease_name": "Nemaline myopathy 3 (NEM3)",
+      "disease_description": "Typical form; heterozygous ACTA1 c.541G>A (p.Asp179Asn)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Pathogenic variant in ACTA1 exon 4",
+      "genotype": "ACTA1:c.541G>A (p.Asp179Asn), heterozygous (G/A)",
+      "loci_name": "ACTA1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "47,XXX",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "KaryoStat assay (CytoScan Optima) showed complete X chromosome duplication; no other copy-number abnormalities reported."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell line (LCL)",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "None",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "approval_date": "Missing",
+      "institutional_HREC": "University of Western Australia's Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "DC-2012-1963",
+      "approval_date": "Missing",
+      "institutional_HREC": "Comit\u00e9 de Protection des Personnes (Est IV)"
+    },
+    {
+      "ethics_number": "AC-2018-3156",
+      "approval_date": "Missing",
+      "institutional_HREC": "G\u00e9n\u00e9thon"
+    },
+    {
+      "ethics_number": "IE-2018-994",
+      "approval_date": "Missing",
+      "institutional_HREC": "G\u00e9n\u00e9thon"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

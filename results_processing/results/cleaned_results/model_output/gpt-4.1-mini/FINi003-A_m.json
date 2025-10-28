@@ -1,0 +1,117 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "FI.SPSM.SCN2A.E1211K.008",
+      "hpscreg_name": "FINi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey / University of Melbourne"
+    }
+  ],
+  "contact": [
+    {
+      "group": "The Florey / University of Melbourne",
+      "e_mail": "steven.petrou@florey.edu.au",
+      "last_name": "Petrou",
+      "first_name": "Steven"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103367",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel NaV1.2",
+      "journal": "Stem Cell Research",
+      "last_author": "Steve Petrou",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "year": "2024.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A5_9",
+      "disease_description": "Late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in SCN2A",
+      "disease_name": "Developmental and epileptic encephalopathy (DEE)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous p.E1211K",
+      "mutation_type": "Variant",
+      "loci_name": "SCN2A",
+      "description": "Heterozygous p.E1211K variant in SCN2A gene encoding voltage-gated sodium channel NaV1.2"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6; OTX2",
+      "method_used": "qRT-PCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "SOX17; CXCR4",
+      "method_used": "qRT-PCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "TBXT; TBX6",
+      "method_used": "qRT-PCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "High-resolution karyotyping via SNP array showed no detectable loss of heterozygosity or chromosomal abnormalities. Karyotyping occurred at resolution 450-500.",
+      "passage_number": "9"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "skin fibroblasts",
+      "non_int_vector": "Other",
+      "non_int_vector_name": "ReproRNA\u2122 kit (StemCellTechnologies)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC/16/Austin/472",
+      "institutional_HREC": "The University of Melbourne HREC"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

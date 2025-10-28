@@ -1,0 +1,122 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "ESC",
+      "cell_line_alt_name": "H9 NGN2 B6",
+      "hpscreg_name": "UOWIe010-A-W"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Molecular Horizons, School of Medical, Indigenous and Health Sciences University of Wollongong",
+      "e_mail": "mdottori@uow.edu.au",
+      "last_name": "Dottori",
+      "first_name": "Mirella"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103312",
+      "title": "Generation of a gene-edited H9 embryonic stem cell line carrying a DOX-inducible NGN2 expression cassette in the CLYBL locus",
+      "journal": "Stem Cell Research",
+      "last_author": "Mirella Dottori",
+      "first_author": "Sara Miellet",
+      "year": "2024.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "13q32.1",
+      "genotype": "CLYBL-TO-NGN2-BSD-mApple",
+      "delivery_method": "Crispr/Cas9",
+      "mutation_type": "Knock in",
+      "loci_name": "CLYBL",
+      "description": "DOX-inducible NGN2 insertion with floxed Blasticidin resistance and nuclear mApple into the CLYBL safe-harbor locus"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "\u03b2-III Tubulin; SMI32; Nestin",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "Embryoid body formation"
+    },
+    {
+      "marker_list": "\u03b1-SMA",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "Embryoid body formation"
+    },
+    {
+      "marker_list": "FOXA2; AFP",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "Embryoid body formation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype observed at passage 5 (3 + 2 + 2 in the cytogenetics laboratory of Sullivan Nicolaides Pathology).",
+      "passage_number": "5"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "2020/451",
+      "institutional_HREC": "University of Wollongong Health and Medical Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "GNT1095",
+      "institutional_HREC": "University of Wollongong Institutional Biosafety Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

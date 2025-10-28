@@ -1,0 +1,48 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "H9 CX3CR1-tdTomato iMGLs",
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "CX3CR1-tdTomato iMGLs"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash Biomedicine Discovery Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Jose M. Polo",
+      "year": "2020.0",
+      "first_author": "Alexandra Grubman",
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "journal": "Stem Cell Reports",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "tdTomato reporter knocked into CX3CR1 locus",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "CX3CR1",
+      "genotype": "Heterozygous: CX3CR1-tdTomato",
+      "mutation_type": "GKI"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "CD11b; CX3CR1; TREM2",
+      "method_used": "Immunostaining"
+    }
+  ]
+}

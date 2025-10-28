@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "862002443/443.3 (MONUi002-B)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MONUi002-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Mark",
+      "name_initials": "A",
+      "e_mail": "mark.bellgrove@monash.edu",
+      "last_name": "Bellgrove",
+      "group": "Turner Institute for Brain and Mental Health and School of Psychological Sciences, Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mark A Bellgrove",
+      "year": "2023.0",
+      "first_author": "Kealan Pugsley",
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A10_14",
+      "disease_description": "Autism spectrum disorder (ASD) diagnosis consistent with DSM-5 criteria",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "Embryoid body formation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "Embryoid body formation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA; Brachyury/Bry",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "Embryoid body formation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NeuN; MAP2",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype": "arr(X,Y)x1,(1-22)x2",
+      "summary": "Karyotyping was performed using Illumina Infinium GSA-24 Array v3.0 at passage 9+. No evidence of aneuploidy was detected. >99.9% concordance at 650,000 SNP markers.",
+      "karyotype_method": "SNP array"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2023-06-26",
+      "non_int_vector_name": "Episomal vector-based reprogramming (OCT4, SOX2, KLF4, MYC)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "25688"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EN"
+    }
+  ]
+}

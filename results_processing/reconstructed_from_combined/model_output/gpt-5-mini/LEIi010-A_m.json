@@ -1,0 +1,118 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1011ips1",
+      "hpscreg_name": "LEIi010-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "K",
+      "group": "Lions Eye Institute",
+      "e_mail": "fredchen@lei.org.au",
+      "last_name": "Chen",
+      "first_name": "Fred"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101420",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with compound heterozygous mutations in the USH2A gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Fred K. Chen",
+      "first_author": "Samuel McLenachan",
+      "year": "2019.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A15_19",
+      "disease_description": "Compound heterozygous mutations in USH2A (c.949C>A; c.1256G>T)",
+      "disease_name": "Usher syndrome type-2"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6; DCX",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "TBXT",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "AFP; SOX7",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Digital karyotyping using Illumina HumanCoreExome-24 Beadchip SNP array and CNV profiling demonstrated a normal diploid karyotype (46,XX); resolution 0.5 Mb.",
+      "passage_number": "12"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2016",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "2001-053",
+      "institutional_HREC": "Sir Charles Gairdner Hospital Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "Human Research Ethics Office, University of Western Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "mechanically"
+    }
+  ]
+}

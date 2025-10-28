@@ -1,0 +1,123 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "ESC",
+      "hpscreg_name": "SIVF002"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "T",
+      "group": "Sydney IVF",
+      "e_mail": "tomas.stojanov@sydneyivf.com",
+      "last_name": "Stojanov",
+      "first_name": "Tomas"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1007/s11626-010-9298-y",
+      "title": "Derivation of three new human embryonic stem cell lines",
+      "journal": "In Vitro Cell Dev Biol Anim",
+      "last_author": "Tomas Stojanov",
+      "first_author": "Cara K. Bradley",
+      "year": "2010.0"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "method_used": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "method_used": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vivo teratoma"
+    },
+    {
+      "method_used": "In vivo teratoma",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vivo teratoma"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46, XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotype at early passage p3; 46, XX.",
+      "passage_number": "3"
+    },
+    {
+      "karyotype": "46, XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotype at early passage p7; 46, XX.",
+      "passage_number": "7"
+    },
+    {
+      "karyotype": "46, XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotype at early passage p7; 46, XX.",
+      "passage_number": "7"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

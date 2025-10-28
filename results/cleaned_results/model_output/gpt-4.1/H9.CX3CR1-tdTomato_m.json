@@ -1,0 +1,89 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Wa09-A9-24; MIPSc0010-A-24",
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "H9.CX3CR1-tdTomato"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Jose",
+      "name_initials": "M",
+      "e_mail": "jose.polo@monash.edu",
+      "last_name": "Polo",
+      "group": "Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Jose M. Polo",
+      "year": "2020.0",
+      "first_author": "Alexandra Grubman",
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "journal": "Stem Cell Reports",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "CRISPR/Cas9-mediated knock-in of tdTomato and nanoluciferase reporter cassette into the CX3CR1 locus using an IRES linker for tdTomato expression in H9 ESCs.",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "CX3CR1",
+      "genotype": "Heterozygous: CX3CR1-tdTomato",
+      "mutation_type": "GKI"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "TRA-1-60",
+      "method_used": "Flow cytometry"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "CD43; CD11b; CD45",
+      "method_used": "Flow cytometry"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EN"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Screened by PCR and Southern blot to confirm targeting; confirmed to be free of chromosomal aberrations by karyotyping.",
+      "karyotype_method": "PCR and Southern blot"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "23066"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

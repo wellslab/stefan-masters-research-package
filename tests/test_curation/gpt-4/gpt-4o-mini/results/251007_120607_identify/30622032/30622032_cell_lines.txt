@@ -1,7 +1,0 @@
-Cell lines identified in 30622032:
-========================================
-
-1. MICCNi001-A
-2. MICCNi001-B
-3. MICCNi002-A
-4. MICCNi002-B

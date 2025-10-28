@@ -1,0 +1,67 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "16071p56",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi018-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "S",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Samuel McLenachan: smclenachan@lei.org.au"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2021.0",
+      "first_author": "Di Huang",
+      "doi": "10.1016/j.scr.2021.102439",
+      "journal": "Stem Cell Research",
+      "pmid": "34649201",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with Stargardt disease caused by biallelic c.[5461\u201310T>C;5603A>T];[6077T>C] mutations in the ABCA4 gene"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A20_24",
+      "disease_description": "biallelic c.[5461\u201310T>C;5603A>T];[6077T>C] mutations in the ABCA4 gene",
+      "disease_name": "Stargardt disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "biallelic c.[5461\u201310T>C;5603A>T];[6077T>C] mutations in the ABCA4 gene",
+      "loci_name": "ABCA4",
+      "genotype": "NM",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "16",
+      "summary": "Analysis of 16 microsatellite markers confirmed LEIi018-A was derived from the patient\u2019s fibroblasts (FB) (data not shown)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2020",
+      "i_source_cell_type_term": "Fibroblasts"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ]
+}

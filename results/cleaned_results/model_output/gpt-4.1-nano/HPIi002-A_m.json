@@ -1,0 +1,66 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "HPIi002-A",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "HPIi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "J",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Gianina Ravenscroft",
+      "year": "2021.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2021.102482",
+      "journal": "Stem Cell Research",
+      "pmid": "102482",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 10-year-old typical nemaline myopathy patient with a heterozygous dominant c.541G>A (p.Asp179Asn) pathogenic variant in the ACTA1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A10_14",
+      "disease_description": "typical form",
+      "disease_name": "Nemaline myopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "c.541G>A (p.Asp179Asn) pathogenic variant in ACTA1 gene",
+      "loci_name": "ACTA1",
+      "genotype": "NM_171998.3:c.541G>A",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "Normal male karyotype",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2020",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Sendai virus"
+    }
+  ]
+}

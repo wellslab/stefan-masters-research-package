@@ -1,0 +1,63 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "GENIE 1",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "AIBN001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Lata Vadlamudi",
+      "year": "2021.0",
+      "first_author": "Zoe L. Hunter",
+      "doi": "10.1016/j.scr.2021.102564",
+      "journal": "Stem Cell Research",
+      "pmid": "18735061",
+      "title": "Generation of induced pluripotent stem cell lines from peripheral blood mononuclear cells of three drug resistant and three drug responsive epilepsy patients"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "35"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NANOG; OCT4; SOX2; TRA-1-60; TRA-1-81",
+      "method_used": "Immunocytochemistry"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "0",
+      "karyotype": "46,XX",
+      "summary": "Karyotyping confirmed normal female karyotype.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2020",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ]
+}

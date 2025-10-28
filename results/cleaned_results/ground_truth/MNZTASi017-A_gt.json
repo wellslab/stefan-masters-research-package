@@ -1,0 +1,63 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MS_0017",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MNZTASi017-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "A type of multiple sclerosis characterized by intermittent flare-ups with a return to few or no symptoms.",
+      "disease_name": "Relapsing-Remitting Multiple Sclerosis"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "HNF4A"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "GATA4"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "PAX6"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "Other"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "H0016915"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

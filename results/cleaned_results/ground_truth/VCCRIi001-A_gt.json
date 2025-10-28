@@ -1,0 +1,123 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "VCCRIi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Victor Chang Cardiac Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Robert",
+      "name_initials": "M",
+      "e_mail": "B.Graham@victorchang.edu.au",
+      "last_name": "Graham",
+      "group": "Graham-VCCRI"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Robert M Graham",
+      "year": "2019.0",
+      "first_author": "Ketan Mishra",
+      "doi": "10.1016/j.scr.2019.101584",
+      "journal": "Stem Cell Research",
+      "pmid": "31707208",
+      "title": "Generation of VCCRIi001-A, a human induced pluripotent stem cell line, from a patient with spontaneous coronary artery dissection"
+    },
+    {
+      "last_author": "Robert M Graham",
+      "year": "2021.0",
+      "first_author": "Iismaa SE",
+      "doi": "10.1016/j.hlc.2020.05.110",
+      "journal": "Heart, lung & circulation",
+      "pmid": "32713767",
+      "title": "Spontaneous Coronary Artery Dissection and Fibromuscular Dysplasia: Vasculopathies With a Predilection for Women"
+    },
+    {
+      "last_author": "Robert M Graham",
+      "year": "2023.0",
+      "first_author": "Bax M",
+      "doi": "10.1016/j.scr.2023.103238",
+      "journal": "Stem Cell Research",
+      "pmid": "37939621",
+      "title": "Generation of induced pluripotent stem cell lines from a sister pair who suffered post-partum or recurrent Spontaneous Coronary Artery Dissections"
+    },
+    {
+      "last_author": "Severino Paolo",
+      "year": "2024.0",
+      "first_author": "D\u2019Amato Andrea",
+      "doi": "10.3390/medicina60020217",
+      "journal": "Medicina"
+    },
+    {
+      "last_author": "Robert M Graham",
+      "year": "2019.0",
+      "first_author": "Ketan Mishra",
+      "doi": "https://doi.org/10.1016/j.scr.2019.101584",
+      "journal": "Stem Cell Research",
+      "pmid": "31707208"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "45_49",
+      "disease_name": "Spontaneous Coronary Artery Dissection"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "GATA4",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "CL:2000001",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2017-01-01",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai Virus",
+      "i_source_cell_origin_id": "UBERON:0000178"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "St Vincent's Hospital Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "HREC/16/SVH/338; SVH File number: 16/245"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

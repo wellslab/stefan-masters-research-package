@@ -1,0 +1,38 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "AIBNi005-A",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "AIBNi005-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Lata Vadlamudi",
+      "year": "2021.0",
+      "first_author": "Zoe L. Hunter",
+      "doi": "10.1016/j.scr.2021.102564",
+      "journal": "Stem Cell Research",
+      "pmid": "18735061",
+      "title": "Generation of induced pluripotent stem cell lines from peripheral blood mononuclear cells of three drug resistant and three drug responsive epilepsy patients"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "35_39",
+      "disease_name": "Epilepsy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ]
+}

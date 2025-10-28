@@ -1,0 +1,107 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRIi001-A-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Stinson J",
+      "year": "2020.0",
+      "first_author": "Plant AL",
+      "doi": "10.1016/j.csbj.2020.09.025",
+      "journal": "Computational and structural biotechnology journal",
+      "pmid": "33101611",
+      "title": "Probing pluripotency gene regulatory networks with quantitative live cell imaging"
+    },
+    {
+      "last_author": "Lamand\u00e9 SR",
+      "year": "2020.0",
+      "first_author": "Nur Patria Y",
+      "doi": "10.1016/j.scr.2019.101689",
+      "journal": "Stem Cell Research",
+      "pmid": "31884373",
+      "title": "Generation of a SOX9-tdTomato reporter human iPSC line, MCRIi001-A-2, using CRISPR/Cas9 editing"
+    },
+    {
+      "last_author": "Lamand\u00e9 SR",
+      "year": "2020.0",
+      "first_author": "Lilianty J",
+      "doi": "10.1016/j.scr.2020.101843",
+      "journal": "Stem Cell Research",
+      "pmid": "32446218",
+      "title": "Generation of a heterozygous COL2A1 (p.R989C) spondyloepiphyseal dysplasia congenita mutation iPSC line, MCRIi001-B, using CRISPR/Cas9 gene editing"
+    },
+    {
+      "last_author": "Lamand\u00e9 SR",
+      "year": "2020.0",
+      "first_author": "Nur Patria Y",
+      "doi": "10.1016/j.scr.2020.101942",
+      "journal": "Stem Cell Research",
+      "pmid": "32771907",
+      "title": "CRISPR/Cas9 gene editing of a SOX9 reporter human iPSC line to produce two TRPV4 patient heterozygous missense mutant iPSC lines, MCRIi001-A-3 (TRPV4 p.F273L) and MCRIi001-A-4 (TRPV4 p.P799L)"
+    },
+    {
+      "last_author": "Kimber SJ",
+      "year": "2022.0",
+      "first_author": "Humphreys PA",
+      "doi": "10.1016/j.semcdb.2021.11.024",
+      "journal": "Seminars in cell & developmental biology",
+      "pmid": "34949507",
+      "title": "Developmental principles informing human pluripotent stem cell differentiation to cartilage and bone"
+    },
+    {
+      "last_author": "Bateman JF",
+      "year": "2023.0",
+      "first_author": "Lamand\u00e9 SR",
+      "doi": "10.1073/pnas.2211510120",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "pmid": "37126720",
+      "title": "Modeling human skeletal development using human pluripotent stem cells"
+    },
+    {
+      "last_author": "North KN",
+      "year": "2024.0",
+      "first_author": "Houweling PJ",
+      "doi": "10.1016/j.scr.2024.103313",
+      "journal": "Stem Cell Research",
+      "pmid": "38277710",
+      "title": "Generation of a human ACTA1-tdTomato reporter iPSC line using CRISPR/Cas9 editing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Td-Tomato fluorescence reporter gene insertion downstream of SOX9 gene",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "sox9",
+      "mutation_type": "TE"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "2",
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-MCRIi001-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.95",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "ESC",
+      "cell_line_alt_name": "MEL-1 10.2; MEL-1 30.3",
+      "hpscreg_name": "RAB39B-Xd"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "P.J.",
+      "group": "paul.lockhart@mcri.edu.au",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "first_name": "Paul"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.0215",
+      "title": "Generation of RAB39B knockout isogenic human embryonic stem cell lines to model RAB39B-mediated Parkinson's disease",
+      "journal": "Stem Cell Research",
+      "last_author": "Y. Gao",
+      "first_author": "Y. Gao",
+      "year": "2018.0",
+      "pmid": "30161094"
+    }
+  ],
+  "donor": [
+    {
+      "disease_name": "Parkinson's Disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM_171998.3:c.87_234del",
+      "delivery_method": "CRISPR/Cas9",
+      "mutation_type": "Knock out",
+      "loci_name": "RAB39B",
+      "description": "RAB39B gene deletion"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype confirmed at passage 10."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2017"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "e_preimplant_genetic_diagnosis": "False"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

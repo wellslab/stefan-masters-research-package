@@ -1,0 +1,37 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "RBC-10",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "UOWi008-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ooi L",
+      "year": "2020.0",
+      "first_author": "Mu\u00f1oz SS",
+      "doi": "10.3390/cells9092018",
+      "journal": "Cells",
+      "pmid": "32887382",
+      "title": "A Simple Differentiation Protocol for Generation of Induced Pluripotent Stem Cell-Derived Basal Forebrain-Like Cholinergic Neurons for Alzheimer\u2019s Disease and Frontotemporal Dementia Disease Modeling"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-UOWi008-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

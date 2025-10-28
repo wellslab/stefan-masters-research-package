@@ -1,0 +1,58 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MICCNi002-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Janette",
+      "name_initials": "J",
+      "e_mail": "janette.tong@monash.edu",
+      "last_name": "Tong",
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2019.0",
+      "first_author": "Tong J",
+      "doi": "10.1016/j.scr.2018.11.014",
+      "journal": "Stem Cell Research",
+      "pmid": "101353",
+      "title": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A15_19",
+      "disease_name": "Attention Deficit Hyperactivity Disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "G-banding of iPSCs was carried out at the Monash Pathology Services (Monash Medical Centre). A total of 15 cells were analysed; 5 banded cells were analysed for metaphases spread and 10 cells were examined for chromosome analysis.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2018",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)"
+    }
+  ]
+}

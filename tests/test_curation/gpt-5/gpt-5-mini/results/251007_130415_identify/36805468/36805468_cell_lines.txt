@@ -1,9 +1,0 @@
-Cell lines identified in 36805468:
-========================================
-
-1. MCRIi025-A
-2. MCRIi025-B
-3. MCRIi026-A
-4. MCRIi026-B
-5. MCRIi027-A
-6. MCRIi027-B

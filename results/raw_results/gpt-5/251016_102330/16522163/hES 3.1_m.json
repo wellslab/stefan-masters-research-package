@@ -1,0 +1,150 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "hES 3.1",
+      "cell_line_alt_name": "Missing",
+      "cell_type": "ESC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales",
+      "first_name": "Kuldip",
+      "last_name": "Sidhu",
+      "name_initials": "S",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1089/scd.2006.15.61",
+      "journal": "Stem Cells and Development",
+      "title": "Derivation of Three Clones from Human Embryonic Stem Cell Lines by FACS Sorting and Their Characterization",
+      "first_author": "Kuldip S. Sidhu",
+      "last_author": "Bernard E. Tuch",
+      "year": "2006",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM",
+      "sex": "Female",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "NM",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "Missing",
+      "method_used": "Histology",
+      "description": "In vivo teratoma"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "Missing",
+      "method_used": "Histology",
+      "description": "In vivo teratoma"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "Missing",
+      "method_used": "Histology",
+      "description": "In vivo teratoma"
+    },
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "Nestin",
+      "method_used": "RT-PCR",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "False",
+      "marker_list": "Renin",
+      "method_used": "RT-PCR",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "False",
+      "marker_list": "\u03b1-fetoprotein; GATA6",
+      "method_used": "RT-PCR",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding; Spectral karyotyping",
+      "summary": "Cytogenetic evaluation at passage 10 by standard G-banding (20 cells) showed a normal 46XX karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC 01270",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    },
+    {
+      "ethics_number": "HREC 02247",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

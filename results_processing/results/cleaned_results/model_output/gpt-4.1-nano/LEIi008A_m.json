@@ -1,0 +1,105 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1093ips4 (LEIi008-A); 1374ips1 (LEIi009-A)",
+      "hpscreg_name": "LEIi008A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Inherited Retinal Disease Registry and DNA Bank, Department of Medical Technology and Physics, Sir Charles Gairdner Hospital, Nedlands, Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Missing",
+      "first_name": "Missing",
+      "last_name": "Missing",
+      "name_initials": "Missing",
+      "e_mail": "Missing",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.11.018",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with dominant PRPF31 mutation and a related non-penetrant carrier",
+      "journal": "Stem Cell Research",
+      "last_author": "F. K. Chen",
+      "first_author": "S. McLenachan",
+      "year": "2019.0"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A20_24",
+      "disease_name": "Retinitis Pigmentosa 11"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "c.1205C > A",
+      "genotype": "PRPF31/19q13.42",
+      "mutation_type": "Hereditary",
+      "loci_name": "PRPF31"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "DNA was isolated using the FlexiGene DNA kit (QIAGEN). CNV analysis was performed on GenomeStudio 2.0 software using the CNVpartition 2.0 plugin (Illumina). To identify genomic alterations (deletions or duplications over 500 kb), B allele frequencies (Fig. 1C), LogR ratios and CNV values were",
+      "passage_number": "18/12/17"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2017",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "N/A",
+      "approval_date": "N/A",
+      "institutional_HREC": "N/A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

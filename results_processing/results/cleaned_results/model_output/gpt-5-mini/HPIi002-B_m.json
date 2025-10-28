@@ -1,0 +1,122 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "iPS-789-C2",
+      "hpscreg_name": "HPIi002-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Harry Perkins Institute of Medical Research",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102482",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 10-year-old typical nemaline myopathy patient with a heterozygous dominant c.541G>A (p.Asp179Asn) pathogenic variant in the ACTA1 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Rhonda L. Taylor",
+      "first_author": "Joshua S. Clayton",
+      "year": "2021.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A10_14",
+      "disease_description": "Typical form; heterozygous ACTA1 c.541G>A (p.Asp179Asn)",
+      "disease_name": "Nemaline myopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous: NM_001100.3:c.541G>A",
+      "mutation_type": "Variant",
+      "loci_name": "ACTA1",
+      "description": "Heterozygous pathogenic variant in ACTA1 (c.541G>A; p.Asp179Asn) present in patient-derived line"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR; Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR; Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR; Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "47,XX,del(X)(p21); X chromosome duplication with deletion of part of short arm at Xp21",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "KaryoStat/CytoScan analysis (P10) indicated X chromosome duplication with deletion of part of the short arm at breakpoint Xp21. No other abnormalities detected. G-banding performed subsequently (see paper).",
+      "passage_number": "10"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell line (LCL)",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2020",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit (ThermoFisher)",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Est IV DC-2012-1693",
+      "institutional_HREC": "Comit\u00e9 de Protection des Personnes (Est IV)"
+    },
+    {
+      "ethics_number": "RA/4/20/1008",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

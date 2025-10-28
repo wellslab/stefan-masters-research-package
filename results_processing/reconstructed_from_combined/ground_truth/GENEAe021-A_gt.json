@@ -1,0 +1,111 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "GENEA021",
+      "hpscreg_name": "GENEAe021-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Genea"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1002/stem.1961",
+      "title": "Perturbations of heart development and function in cardiomyocytes from human embryonic stem cells with trisomy 21",
+      "journal": "Stem cells (Dayton, Ohio)",
+      "last_author": "Jaconi ME",
+      "first_author": "Bosman A",
+      "year": "2015.0",
+      "pmid": "25645121"
+    },
+    {
+      "doi": "10.1016/j.scr.2016.02.010",
+      "title": "Derivation of Trisomy 21 affected human embryonic stem cell line Genea021",
+      "journal": "Stem cell research",
+      "last_author": "Peura T",
+      "first_author": "Dumevska B",
+      "year": "2016.0",
+      "pmid": "27346003"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "47XY, +21",
+      "karyotype_method": "Other",
+      "passage_number": "44"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Meeting 13/9/2005",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "GENEA HREC"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

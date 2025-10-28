@@ -1,0 +1,39 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "ESIBe003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Jacqui",
+      "name_initials": "J",
+      "e_mail": "jacqui.schiesser@mcri.edu.au",
+      "last_name": "Schiesser",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Andrew G. Elefanty",
+      "year": "2021.0",
+      "first_author": "Labonne T",
+      "doi": "10.1016/j.scr.2021.102547",
+      "journal": "Stem Cell Research",
+      "pmid": "102547",
+      "title": "An INSULIN-GFP/GLUCAGON-mCherry reporter line for the study of human pancreatic endocrine cell development"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "FI.SPSM.SCN2A.E1211K.008",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "FNi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Snezana",
+      "e_mail": "snezana.maljevic@florey.edu.au",
+      "last_name": "Maljevic",
+      "group": "The Florey Institute of Neuroscience and Mental Health, University of Melbourne"
+    },
+    {
+      "first_name": "Steve",
+      "e_mail": "steve.petrou@florey.edu.au",
+      "last_name": "Petrou",
+      "group": "The Florey Institute of Neuroscience and Mental Health, University of Melbourne"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Steve Petrou",
+      "year": "2024.0",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "doi": "10.1016/j.scr.2024.103367",
+      "journal": "Stem Cell Research",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel Na(v)1.2"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A5_9",
+      "disease_description": "Male donor carrying a heterozygous p.E1211K variant in SCN2A (NaV1.2)",
+      "disease_name": "Developmental and epileptic encephalopathy (DEE)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous missense variant p.E1211K in SCN2A (NaV1.2)",
+      "loci_name": "SCN2A",
+      "genotype": "Heterozygous: SCN2A p.E1211K",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; CXCR4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; TBX6",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "Genome-wide SNP array (Illumina Global Screening Array) showed no detectable chromosomal copy number changes or loss of heterozygosity; normal profile.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "ReproRNA Kit (StemCell Technologies); polycistronic mRNA expressing KLF4, POU5F1/OCT4, SOX2, GLIS1, c-MYC",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Other"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Melbourne Human Research Ethics Committee",
+      "ethics_number": "HREC/16/Austin/472"
+    }
+  ]
+}

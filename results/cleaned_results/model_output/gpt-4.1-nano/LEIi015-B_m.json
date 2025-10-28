@@ -1,0 +1,47 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi015-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "s",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "The Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2021.0",
+      "first_author": "Zhang D",
+      "doi": "10.1016/j.scr.2020.102154",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with recessive inherited retinal disease caused by compound heterozygous mutations in SNRNP200 gene"
+    }
+  ],
+  "donor": [
+    {
+      "age": "9",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "compound heterozygous mutations in SNRNP200",
+      "loci_name": "SNRNP200",
+      "genotype": "c.1792C>T",
+      "mutation_type": "VA"
+    }
+  ]
+}

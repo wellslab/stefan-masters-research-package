@@ -1,0 +1,102 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "MONU003-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University, Melbourne, VIC, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "A",
+      "group": "Monash University",
+      "e_mail": "mark.bellgrove@monash.edu",
+      "last_name": "Bellgrove",
+      "first_name": "Mark"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103170",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "journal": "Stem Cell Research",
+      "last_author": "Mark A Bellgrove",
+      "first_author": "Kealan Pugsley",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A10_14",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Episomal vector-based reprogramming expressing OCT4, SOX2, KLF4, MYC",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "25688",
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

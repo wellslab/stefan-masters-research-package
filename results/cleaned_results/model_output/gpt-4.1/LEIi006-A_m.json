@@ -1,0 +1,85 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "J",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2020.0",
+      "first_author": "Xiao Zhang",
+      "doi": "10.1002/mgg3.1489",
+      "journal": "Molecular genetics & genomic medicine",
+      "title": "Characterization of CRB1 splicing in retinal organoids derived from a patient with adult-onset rod-cone dystrophy caused by the c.1892A>G and c.2548G>A variants"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "50_54",
+      "disease_description": "Adult-onset rod-cone dystrophy caused by compound heterozygous mutations in CRB1 (c.1892A>G and c.2548G>A)",
+      "disease_name": "Rod-cone dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Compound heterozygous CRB1 mutations: c.1892A>G (p.Tyr631Cys) and c.2548G>A (p.Gly850Ser)",
+      "loci_name": "CRB1",
+      "genotype": "CRB1: c.1892A>G/c.2548G>A",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "CRB1, PAX6, RCVRN",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "Mutations in CRB1 confirmed by Sanger sequencing; no karyotype data reported."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/1976"
+    },
+    {
+      "institutional_HREC": "Sir Charles Gairdner Hospital Human Research Ethics Committee",
+      "ethics_number": "RA/4/20/5717"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

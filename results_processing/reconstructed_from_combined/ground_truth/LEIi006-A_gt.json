@@ -1,0 +1,117 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "LEIi006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.08.001",
+      "title": "Establishment of an induced pluripotent stem cell line from a retinitis pigmentosa patient with compound heterozygous CRB1 mutation",
+      "journal": "Stem cell research",
+      "last_author": "McLenachan S",
+      "first_author": "Zhang X",
+      "year": "2018.0",
+      "pmid": "30092450"
+    },
+    {
+      "doi": "10.1002/mgg3.1489",
+      "title": "Characterization of CRB1 splicing in retinal organoids derived from a patient with adult-onset rod-cone dystrophy caused by the c.1892A>G and c.2548G>A variants",
+      "journal": "Molecular genetics & genomic medicine",
+      "last_author": "Chen FK",
+      "first_author": "Zhang X",
+      "year": "2020.0",
+      "pmid": "32931148"
+    },
+    {
+      "doi": "10.1186/s12964-024-01673-z",
+      "title": "Diverse functions and pathogenetic role of Crumbs in retinopathy",
+      "journal": "Cell communication and signaling : CCS",
+      "last_author": "Fu J",
+      "first_author": "Zhou X",
+      "year": "2024.0",
+      "pmid": "38802833"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "Retinitis pigmentosa (RP) is an inherited retinal dystrophy leading to progressive loss of the photoreceptors and retinal pigment epithelium and resulting in blindness usually after several decades.",
+      "disease_name": "Retinitis pigmentosa"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46+XX",
+      "karyotype_method": "MKSNP",
+      "passage_number": "10"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "EPI"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EF"
+    }
+  ]
+}

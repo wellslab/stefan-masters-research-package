@@ -1,0 +1,74 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "True",
+      "hpscreg_name": "SIVF001"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Tomas",
+      "name_initials": "T",
+      "e_mail": "tomas.stojanov@sydneyivf.com",
+      "last_name": "Stojanov",
+      "group": "Sydney IVF Stem Cells"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2010.0",
+      "first_author": "Cara K. Bradley",
+      "doi": "10.1007/s11626-010-9298-y",
+      "journal": "In Vitro Cellular & Developmental Biology - Animal",
+      "title": "Derivation of three new human embryonic stem cell lines"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "Teratoma-derived endoderm tissues observed",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "method_used": "Histology"
+    },
+    {
+      "description": "Teratoma-derived mesoderm tissues observed",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "method_used": "Histology"
+    },
+    {
+      "description": "Teratoma-derived ectoderm tissues observed",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "method_used": "Histology"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "3",
+      "karyotype": "46,XX",
+      "summary": "Karyotype analysis of early passage showed a normal female karyotype; 46,XX.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Sydney IVF Ethics Committee",
+      "ethics_number": "309703"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.05",
+      "passage_method": "ME"
+    }
+  ]
+}

@@ -235,7 +235,7 @@ Return only the list or -1, nothing else."""
         return {"error": str(e)}
 
 
-def curate_article(article: bytes, config_override: dict = None) -> str:
+def curate_article(article: bytes, config_override: dict = None, pre_identified_cell_lines: list = None) -> str:
 
     # Get logger
     logger = logging.getLogger('curate_article')
@@ -265,20 +265,32 @@ def curate_article(article: bytes, config_override: dict = None) -> str:
         # For transcription method (to be implemented later)
         return "Transcription method not yet implemented"
 
-    # Use the new identify_cell_lines function
-    identification_result = identify_cell_lines(article, config_override)
+    # Use pre-identified cell lines if provided, otherwise run identification
+    if pre_identified_cell_lines is not None:
+        logger.info(f"Using pre-identified cell lines: {pre_identified_cell_lines}")
+        unique_cell_lines = pre_identified_cell_lines
+        # Create mock identification usage for consistency
+        identification_usage = {
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "total_tokens": 0,
+            "identification_time_seconds": 0
+        }
+    else:
+        # Use the identify_cell_lines function
+        identification_result = identify_cell_lines(article, config_override)
 
-    # Handle errors from identification
-    if "error" in identification_result:
-        return identification_result["error"]
+        # Handle errors from identification
+        if "error" in identification_result:
+            return identification_result["error"]
 
-    # Extract results
-    unique_cell_lines = identification_result["cell_lines"]
-    identification_usage = identification_result["usage_metadata"]
+        # Extract results
+        unique_cell_lines = identification_result["cell_lines"]
+        identification_usage = identification_result["usage_metadata"]
 
-    # Handle case where no cell lines found
-    if unique_cell_lines == -1:
-        return -1
+        # Handle case where no cell lines found
+        if unique_cell_lines == -1:
+            return -1
     
     
     # Result objects that user will receive
@@ -386,7 +398,9 @@ def curate_line(article: bytes, cell_line: str, config_override: dict = None) ->
         return "Transcription method not yet implemented"
 
     # Load curation instructions from config-specified file
-    instructions_path = config.get("instructions_path", "curation_instructions.md")
+    instructions_path = config.get("instructions_path")
+    if not instructions_path:
+        raise ValueError("instructions_path must be specified in config. No fallback instructions available.")
 
     # Handle both absolute and relative paths
     if not Path(instructions_path).is_absolute():

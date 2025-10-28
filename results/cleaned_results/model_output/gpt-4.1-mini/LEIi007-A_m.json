@@ -1,0 +1,93 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1082ips10",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Western Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "The University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2019.0",
+      "first_author": "Johann N. Claassen",
+      "doi": "10.1016/j.scr.2018.11.013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of the induced pluripotent stem cell line from a patient with autosomal recessive ABCA4-mediated Stargardt Macular Dystrophy"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A15_19",
+      "disease_description": "Autosomal recessive Stargardt disease caused by compound heterozygous mutations in the ABCA4 gene",
+      "disease_name": "Stargardt Macular Dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "No genetic modification; patient derived iPSC line with compound heterozygous mutations in ABCA4 gene",
+      "loci_name": "ABCA4",
+      "genotype": "NM_000350.2:c.5461-10T > C and c.4139C > T"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; DCX",
+      "method_used": "qPCR"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "DCN; GATA2; BMP4; IGF2",
+      "method_used": "qPCR"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP",
+      "method_used": "qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "15",
+      "karyotype": "46,XX",
+      "summary": "Normal diploid karyotype with no chromosomal rearrangements detected; female (46, XX)",
+      "karyotype_method": "Illumina HumanCoreExome-24 Beadchip SNP array"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "Episomal plasmids containing OCT4, SOX2, KLF4, L-MYC, LIN28, shRNA for p53 and miR-302/367",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "SPGh1-S075mC2",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "AIBNi017-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ernst J. Wolvetang",
+      "year": "2022.0",
+      "first_author": "Hannah C. Leeson",
+      "doi": "10.1016/j.scr.2022.102917",
+      "journal": "Stem Cell Research",
+      "pmid": "36166872",
+      "title": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "CXCR4;SOX17"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "HAND1;PDGFRA"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "NR2F2; PAX6"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Queensland Children's Health Services Human Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "2019000159"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

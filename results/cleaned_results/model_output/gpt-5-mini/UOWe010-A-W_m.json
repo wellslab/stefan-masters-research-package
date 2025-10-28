@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "H9 NGN2 B6",
+      "cell_type": "ESC",
+      "frozen": "True",
+      "hpscreg_name": "UOWe010-A-W"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Sara",
+      "e_mail": "miellet@uow.edu.au",
+      "last_name": "Miellet",
+      "group": "University of Wollongong"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mirella Dottori",
+      "year": "2024.0",
+      "first_author": "Sara Miellet",
+      "doi": "10.1016/j.scr.2024.103312",
+      "journal": "Stem Cell Research",
+      "title": "Generation of a gene-edited H9 embryonic stem cell line carrying a DOX-inducible NGN2 expression cassette in the CLYBL locus"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Doxycycline-inducible NGN2 expression cassette inserted into the CLYBL safe-harbour locus including floxed Blasticidin resistance and nuclear mApple",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "CLYBL; NGN2",
+      "genotype": "Heterozygous monoallelic insertion of NGN2 cassette at the CLYBL locus (monoallelic)",
+      "mutation_type": "TE"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "beta-III tubulin; SMI32; Nestin",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "alpha-smooth muscle actin",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "FOXA2; AFP",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "5",
+      "karyotype": "46,XX",
+      "summary": "Normal karyotype observed (46,XX). Karyotype analysis performed at passage ~5 (15 metaphases analysed, resolution 400 bphs).",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee",
+      "ethics_number": "2020/451"
+    },
+    {
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee",
+      "ethics_number": "GT19/08"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hESC",
+      "cell_line_alt_name": "MEL-1 10.2; MCRIe002-A-1",
+      "hpscreg_name": "SCSe001-A-1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Lockhart-MCRI",
+      "e_mail": " paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "first_name": "Paul"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.02.015",
+      "title": "Generation of RAB39B knockout isogenic human embryonic stem cell lines to model RAB39B-mediated Parkinson's disease",
+      "journal": "Stem cell research",
+      "last_author": "Lockhart PJ",
+      "first_author": "Gao Y",
+      "year": "2018.0",
+      "pmid": "29499499"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2018.02.015",
+      "title": "Generation of RAB39B knockout isogenic human embryonic stem cell lines to model RAB39B-mediated Parkinson's disease.",
+      "journal": "Stem Cell Research",
+      "last_author": "Paul J Lockhart",
+      "first_author": "Yujing Gao",
+      "year": "2018.0",
+      "pmid": "29499499"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "Xq28",
+      "genotype": "NM_171998.3:c.82_86del",
+      "delivery_method": "CRISPR/Cas9",
+      "mutation_type": "GKO",
+      "loci_name": "RAB39B",
+      "description": "A 5 base pair deletion was introduced to exon 1 of RAB39B (NM_171998.3:c.82_86del (p.Phe28ArgfsTer9))."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "Brachyury",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "PAX6",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EC"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EN"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24; resolution 0.5 Mb). SNPduo comparison to parental cell demonstrated identity and confirmed no alternations to genomic integrity."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "28097",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.1",
+      "passage_method": "NS"
+    }
+  ]
+}

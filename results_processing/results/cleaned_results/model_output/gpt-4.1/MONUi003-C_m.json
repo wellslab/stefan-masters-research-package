@@ -1,0 +1,117 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "86203213/2.2134 (MONUi003-C)",
+      "hpscreg_name": "MONUi003-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health and School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "A",
+      "group": "Turner Institute for Brain and Mental Health, Monash University",
+      "e_mail": "mark.bellgrove@monash.edu",
+      "last_name": "Bellgrove",
+      "first_name": "Mark"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103170",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "journal": "Stem Cell Research",
+      "last_author": "Mark A Bellgrove",
+      "first_author": "Kealan Pugsley",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A15_19",
+      "disease_description": "Diagnosis consistent with autism spectrum disorder (DSM-5); clinical assessment and structured/semi-structured diagnostic interview",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM",
+      "description": "No genetic modification"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "Embryoid body formation"
+    },
+    {
+      "marker_list": "SMA; Brachyury/Bry",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "Embryoid body formation"
+    },
+    {
+      "marker_list": "NeuN; MAP2",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "Embryoid body formation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(X,Y)(x1,1\u201322)x2",
+      "karyotype_method": "SNP array",
+      "summary": "SNPduo comparative analysis at 650,000 SNP markers showed >99.9% concordance; expected karyotype without aneuploidy.",
+      "passage_number": "10"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2023-06-16",
+      "non_int_vector_name": "Episomal vectors expressing OCT4, SOX2, KLF4, MYC",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "25688",
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

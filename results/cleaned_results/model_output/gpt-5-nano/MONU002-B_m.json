@@ -1,0 +1,63 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "86202443.5/443.5 (MONU002-B)",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MONU002-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Mark",
+      "name_initials": "A",
+      "e_mail": "mark.bellgrove@monash.edu",
+      "last_name": "Bellgrove",
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Annabelle Suter",
+      "year": "2023.0",
+      "first_author": "Kealan Pugsley",
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "pmid": "103170",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A10_14",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Non-integrating episomal vector-based reprogramming (eposomal plasmids expressing OCT4, SOX2, KLF4, c-MYC)",
+      "delivery_method": "Other",
+      "genotype": "NM",
+      "mutation_type": "Other"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "25688"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "UBC3-U",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "CIAUi002-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centenary Institute of Cancer Medicine and Cell Biology"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-CIAUi002-B"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

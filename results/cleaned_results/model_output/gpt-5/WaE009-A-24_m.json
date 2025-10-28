@@ -1,0 +1,71 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "H9 CX3CR1-tdTomato; MiPS0010-A-24",
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "WaE009-A-24"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Colin",
+      "name_initials": "W",
+      "e_mail": "colin.pouton@monash.edu",
+      "last_name": "Pouton",
+      "group": "Monash University"
+    },
+    {
+      "first_name": "Jose",
+      "name_initials": "M",
+      "e_mail": "jose.polo@monash.edu",
+      "last_name": "Polo",
+      "group": "Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Jose M. Polo",
+      "year": "2020.0",
+      "first_author": "Alexandra Grubman",
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "journal": "Stem Cell Reports",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous insertion of a dual fluorescent/enzymatic reporter (tdTomato-T2A-NanoLuc) into one allele of CX3CR1 in the H9 hESC background.",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "CX3CR1",
+      "genotype": "CX3CR1+/tdTomato-T2A-NanoLuc",
+      "mutation_type": "GKI"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "Insertion confirmed by PCR and Southern blot; reported to be free of chromosomal aberrations by karyotyping."
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "8826"
+    },
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "23066"
+    }
+  ]
+}

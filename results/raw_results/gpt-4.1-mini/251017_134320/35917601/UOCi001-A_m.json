@@ -1,0 +1,129 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "UOCi001-A",
+      "cell_line_alt_name": "CIM001.4",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Calgary"
+    }
+  ],
+  "contact": [
+    {
+      "group": "University of Calgary",
+      "first_name": "Chad",
+      "last_name": "Bousman",
+      "name_initials": "A",
+      "e_mail": "chad.bousman@ucalgary.ca",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102877",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia",
+      "first_author": "Nazanin Vaziri",
+      "last_author": "Chad A. Bousman",
+      "year": "2022",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A35_39",
+      "sex": "Female",
+      "disease_name": "Schizophrenia",
+      "disease_description": "Clozapine-induced myocarditis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "\u03b2-Tubulin",
+      "method_used": "Immunofluorescence",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "\u03b1-Fetoprotein",
+      "method_used": "Immunofluorescence",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "Smooth muscle actin",
+      "method_used": "Immunofluorescence",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "3",
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype with 0.5 Mb resolution confirmed by karyotype analysis and SNP array concordance analysis."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cells",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2017-06-01",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "Non-integrative Sendai virus delivery of OCT4, SOX2, KLF4 and c-MYC transgenes"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "REB17-1994",
+      "approval_date": "Missing",
+      "institutional_HREC": "Conjoint Health Research Ethics Board at the University of Calgary"
+    },
+    {
+      "ethics_number": "2017.007",
+      "approval_date": "Missing",
+      "institutional_HREC": "Melbourne Health Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.10",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRI019-A-6"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Professor Matthew",
+      "name_initials": "M",
+      "e_mail": "mshoulde@mit.edu",
+      "last_name": "Shoulders",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Perlman",
+      "year": "2023.0",
+      "first_author": "Kathryn M. Yammine",
+      "doi": "10.1016/j.scr.2023.103020",
+      "journal": "Stem Cell Research",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C iPSC line (MCRIi019-A-6) model of human precocious osteoarthritis"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous COL2A1 c.2155C>T mutation confirmed in gDNA and cDNA, not in parental MCRI019-A",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "COL2A1",
+      "genotype": "Heterozygous: c.2155C>T",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "37",
+      "summary": "Confirmed absence of chromosomal abnormalities in the edited iPSC line"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "SPG1-AU01C15",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "AIBNi015-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Queensland"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Ernst",
+      "name_initials": "E",
+      "e_mail": "e.wolvetang@uq.edu.au",
+      "last_name": "Wolvetang",
+      "group": "The University of Queensland"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "G. Goizet",
+      "year": "2022.0",
+      "first_author": "Hannah C. Leeson",
+      "doi": "10.1016/j.scr.2022.102917",
+      "journal": "Stem Cell Research",
+      "title": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "A2",
+      "disease_name": "Hereditary spastic paraplegia 56 (SPG56)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "loci_name": "SPG2",
+      "genotype": "c.471delC; p.(Ile158fs)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NANOG; OCT4; SOX2; TRA-1-60; TRA-1-81",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "HAND1; BMP4; RUNX1",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "FOXA2; SOX17; CXCR4",
+      "method_used": "RT-qPCR"
+    }
+  ]
+}

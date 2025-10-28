@@ -1,0 +1,101 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "M05-42",
+      "hpscreg_name": "UOWi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong",
+      "e_mail": "lezzanne@uow.edu.au",
+      "last_name": "Ooi",
+      "first_name": "Lezzanne"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.101701",
+      "title": "The mRNA-based reprogramming of fibroblasts from a SOD1E101G familial ALS patient to induced pluripotent stem cell line UOWi007",
+      "journal": "Stem Cell Research",
+      "last_author": "Lezanne Ooi",
+      "first_author": "Rachelle Balez",
+      "year": "2020.0",
+      "pmid": "101701"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A40_44",
+      "disease_description": "Familial ALS; SOD1E101G mutation",
+      "disease_name": "Amyotrophic lateral sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "loci_name": "SOD1",
+      "description": "SOD1E101G mutation"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Dermal fibroblasts",
+      "non_int_vector": "Other",
+      "non_int_vector_name": "mRNA-based reprogramming with Oct4, Klf4, Sox2, c-Myc, Lin28 and Nanog",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HE13/272",
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

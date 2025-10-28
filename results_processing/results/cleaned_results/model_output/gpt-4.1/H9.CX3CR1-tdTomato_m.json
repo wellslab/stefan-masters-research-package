@@ -1,0 +1,114 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "ESC",
+      "cell_line_alt_name": "Wa09-A9-24; MIPSc0010-A-24",
+      "hpscreg_name": "H9.CX3CR1-tdTomato"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "M",
+      "group": "Monash University",
+      "e_mail": "jose.polo@monash.edu",
+      "last_name": "Polo",
+      "first_name": "Jose"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.stemcr.2020.04.007",
+      "title": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture",
+      "journal": "Stem Cell Reports",
+      "last_author": "Jose M. Polo",
+      "first_author": "Alexandra Grubman",
+      "year": "2020.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous: CX3CR1-tdTomato",
+      "delivery_method": "Crispr/Cas9",
+      "mutation_type": "Knock in",
+      "loci_name": "CX3CR1",
+      "description": "CRISPR/Cas9-mediated knock-in of tdTomato and nanoluciferase reporter cassette into the CX3CR1 locus using an IRES linker for tdTomato expression in H9 ESCs."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "TRA-1-60",
+      "method_used": "Flow cytometry",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "CD43; CD11b; CD45",
+      "method_used": "Flow cytometry",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "Endoderm"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "PCR and Southern blot",
+      "summary": "Screened by PCR and Southern blot to confirm targeting; confirmed to be free of chromosomal aberrations by karyotyping."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "23066",
+      "institutional_HREC": "Monash University Human Research Ethics Committee; Monash University Institutional Biosafety Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "GENEA022",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "GENEAe016-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Genea"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Schmidt U",
+      "year": "2014.0",
+      "first_author": "McQuade LR",
+      "doi": "10.1021/pr500649m",
+      "journal": "Journal of proteome research",
+      "pmid": "25316320",
+      "title": "Proteomics of Huntington's disease-affected human embryonic stem cells reveals an evolving pathology involving mitochondrial dysfunction and metabolic disturbances"
+    },
+    {
+      "last_author": "Jaconi ME",
+      "year": "2015.0",
+      "first_author": "Bosman A",
+      "doi": "10.1002/stem.1961",
+      "journal": "Stem cells (Dayton, Ohio)",
+      "pmid": "25645121",
+      "title": "Perturbations of heart development and function in cardiomyocytes from human embryonic stem cells with trisomy 21"
+    },
+    {
+      "last_author": "Peura T",
+      "year": "2016.0",
+      "first_author": "Dumevska B",
+      "doi": "10.1016/j.scr.2016.02.011",
+      "journal": "Stem Cell Research",
+      "pmid": "27346017",
+      "title": "Derivation of human embryonic stem cell line Genea019"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "38",
+      "karyotype": "46, XX no abnormalities detected",
+      "karyotype_method": "Other"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "GENEA HREC",
+      "approval_date": "1900-01-01",
+      "ethics_number": "Meeting 13/9/2005"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

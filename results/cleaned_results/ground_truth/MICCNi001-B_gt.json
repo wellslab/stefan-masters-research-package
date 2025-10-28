@@ -1,0 +1,54 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MICCNi001-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences, Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mark A Bellgrove",
+      "year": "2019.0",
+      "first_author": "Tong J",
+      "doi": "10.1016/j.scr.2018.11.014",
+      "journal": "Stem Cell Research",
+      "pmid": "30622032",
+      "title": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "approval_date": "1900-01-01",
+      "ethics_number": "CF15/2566 - 2015001048"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

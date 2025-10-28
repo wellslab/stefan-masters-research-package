@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "MCRIi020-A",
+      "cell_line_alt_name": "NF1_043.7 (MCRIi020-A)",
+      "cell_type": "hiPSC",
+      "frozen": true
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute, Parkville, VIC, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Murdoch Children's Research Institute",
+      "first_name": "Paul",
+      "last_name": "Lockhart",
+      "name_initials": "P",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of four iPSC lines from Neurofibromatosis Type 1 patients",
+      "first_author": "Kiymet Bozaoglu",
+      "last_author": "Paul J. Lockhart",
+      "year": "2020",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A5_9",
+      "sex": "Female",
+      "disease_name": "Neurofibromatosis type 1",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Endoderm",
+      "show_potency": true,
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": true,
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": true,
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "35118",
+      "approval_date": "21/07/10",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

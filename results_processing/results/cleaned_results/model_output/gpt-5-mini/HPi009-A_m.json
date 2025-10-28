@@ -1,0 +1,121 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "RYR1-15377-R1B (HPi009-A)",
+      "hpscreg_name": "HPi009-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J.S.",
+      "group": "Harry Perkins Institute of Medical Research",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103411",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Rhonda L. Taylor",
+      "first_author": "Joshua S. Clayton",
+      "year": "2024.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A25_29",
+      "disease_description": "CCD; heterozygous RYR1 c.4038C>A (p.Asn1346Lys)",
+      "disease_name": "Central core disease (CCD)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Heterozygous RYR1 NM_000540.3:c.4038C>A (p.Asn1346Lys)",
+      "mutation_type": "Variant",
+      "loci_name": "RYR1",
+      "description": "Heterozygous pathogenic missense variant in RYR1 affecting SPRY3 region: c.4038C>A (p.Asn1346Lys)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "TBXT; TBX6; Brachyury",
+      "method_used": "qRT-PCR; immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "OTX2; PAX6",
+      "method_used": "qRT-PCR; immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "SOX17; GATA4",
+      "method_used": "qRT-PCR; immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Normal male karyotype (46,XY) by G-banding at P13; no significant chromosomal copy number abnormalities reported.",
+      "passage_number": "13"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Lymphoblastoid cell line (LCL) immortalized with Epstein Barr Virus",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "AC-2018-3156; IE-2018-994",
+      "institutional_HREC": "Genethon (activity/import-export authorisation)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

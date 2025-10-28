@@ -1,7 +1,0 @@
-Cell lines identified in 33091851:
-========================================
-
-1. MCRI001-A
-2. MCRI002-A
-3. MCRI023-A
-4. MCRI024-A

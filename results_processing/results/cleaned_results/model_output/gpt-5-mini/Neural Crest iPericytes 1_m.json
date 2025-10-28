@@ -1,0 +1,107 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "neural crest iPericytes",
+      "hpscreg_name": "Neural Crest iPericytes 1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Tasmania"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "A",
+      "group": "University of Tasmania",
+      "e_mail": "brad.sutherland@utas.edu.au",
+      "last_name": "Sutherland",
+      "first_name": "Brad"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1186/s13287-024-03671-x",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility",
+      "journal": "Stem Cell Research & Therapy",
+      "last_author": "Brad A. Sutherland",
+      "first_author": "Natalie E. King",
+      "year": "2024.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A65_69"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PDGFRB; CSPG4; ACTA2; CD13",
+      "method_used": "Immunocytochemistry; RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "Karyotypically normal karyograms reported within 10 passages of use; iPericytes were used between passage 2-8.",
+      "passage_number": "10"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "H26563",
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "H16915",
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

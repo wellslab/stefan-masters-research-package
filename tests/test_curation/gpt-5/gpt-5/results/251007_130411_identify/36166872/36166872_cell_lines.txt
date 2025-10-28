@@ -1,7 +1,0 @@
-Cell lines identified in 36166872:
-========================================
-
-1. AIBNi015-A
-2. AIBNi016-A
-3. AIBNi017-A
-4. AIBNi018-A

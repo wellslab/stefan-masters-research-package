@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MS_0001",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MNZTAi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kaylene",
+      "e_mail": "kaylene.young@utas.edu.au",
+      "last_name": "Young",
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Kaylene M. Young",
+      "year": "2022.0",
+      "first_author": "Alastair J. Fortune",
+      "doi": "10.1016/j.scr.2022.102828",
+      "journal": "Stem Cell Research",
+      "pmid": "102828",
+      "title": "Generation and characterization of four multiple sclerosis iPSCs from a single family"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A50_54",
+      "disease_description": "Relapsing remitting and secondary progressive MS",
+      "disease_name": "Relapsing remitting and secondary progressive multiple sclerosis"
+    },
+    {
+      "sex": "Female",
+      "age": "A55_59",
+      "disease_description": "Relapsing remitting and secondary progressive MS",
+      "disease_name": "Relapsing remitting and secondary progressive multiple sclerosis"
+    },
+    {
+      "sex": "Female",
+      "age": "A30_34",
+      "disease_description": "Relapsing remitting and secondary progressive MS",
+      "disease_name": "Relapsing remitting and secondary progressive multiple sclerosis"
+    },
+    {
+      "sex": "Male",
+      "age": "A50_54",
+      "disease_description": "Relapsing remitting and secondary progressive MS",
+      "disease_name": "Relapsing remitting and secondary progressive multiple sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Reprogramming of peripheral blood mononuclear cells using Sendai virus encoding OCT4 (POU5F1), SOX2, KLF4 and c-MYC",
+      "delivery_method": "Sendai virus",
+      "loci_name": "POU5F1; NANOG; SOX2",
+      "genotype": "POU5F1; NANOG; SOX2",
+      "mutation_type": "TE"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NESTIN",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "in vitro differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "RUNX1; HAND1",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "in vitro differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "GATA4; AFP",
+      "method_used": "Immunocytochemistry"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "1"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2021-01-01",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "ethics_number": "H0016915"
+    }
+  ]
+}

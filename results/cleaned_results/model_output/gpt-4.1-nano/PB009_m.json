@@ -1,0 +1,44 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "PB009"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Katerina",
+      "name_initials": "K",
+      "e_mail": "katerina.vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "group": "Murdoch Children\u2019s Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Sim",
+      "year": "2023.0",
+      "first_author": "Katerina Vlahos",
+      "doi": "10.1016/j.scr.2023.103109",
+      "journal": "Stem Cell Research",
+      "pmid": "103109",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A35_39"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ]
+}

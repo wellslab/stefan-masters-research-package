@@ -1,0 +1,113 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "iPS-789-C2",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "HPIi002-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "S",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2021.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2021.102482",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 10-year-old typical nemaline myopathy patient with a heterozygous dominant c.541G>A (p.Asp179Asn) pathogenic variant in the ACTA1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A10_14",
+      "disease_description": "Typical form; heterozygous ACTA1 c.541G>A (p.Asp179Asn)",
+      "disease_name": "Nemaline myopathy 3 (NEM3)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous dominant pathogenic variant in ACTA1: c.541G>A (p.Asp179Asn)",
+      "loci_name": "ACTA1",
+      "genotype": "c.541G>A (p.Asp179Asn)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "47,XXX",
+      "summary": "KaryoStat CNV analysis at passage 10 showed X chromosome duplication (47,XXX) with a partial deletion on one X from Xp21.1 to Xqter; G-banding at passage 14 excluded translocations and mosaicism.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell (LCL)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Comit\u00e9 de Protection des Personnes (Est IV)",
+      "ethics_number": "2012-1693"
+    },
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/20/1008"
+    },
+    {
+      "institutional_HREC": "Genethon",
+      "ethics_number": "AC-2018-3156"
+    },
+    {
+      "institutional_HREC": "Genethon",
+      "ethics_number": "IE-2018-994"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

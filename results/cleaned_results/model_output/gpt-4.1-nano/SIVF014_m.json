@@ -1,0 +1,24 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "SIVF014"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Stem Cell Centre"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Smith K",
+      "year": "2006.0",
+      "first_author": "Abbott A",
+      "doi": "10.1038/442336a",
+      "journal": "Nature",
+      "title": "The lure of stem-cell lines"
+    }
+  ]
+}

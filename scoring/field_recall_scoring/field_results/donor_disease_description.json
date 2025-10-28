@@ -1,0 +1,690 @@
+{
+  "field_path": "donor.disease_description",
+  "summary": {
+    "total_comparisons": 97,
+    "total_matches": 0,
+    "total_model_missing": 37,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-A",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30092450",
+      "cell_line": "LEIi006-A",
+      "ground_truth": "Retinitis pigmentosa (RP) is an inherited retinal dystrophy leading to progressive loss of the photoreceptors and retinal pigment epithelium and resulting in blindness usually after several decades.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Heterozygous dominant RYR1 c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Patient with inherited CCD and MH due to a dominant RYR1 missense variant c.7522C>T (p.Arg2508Cys)."
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": "Clinically diagnosed ADHD under DSM-IV criteria"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Patient with heterozygous dominant RYR1 deletion c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del)."
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "Non-penetrant carrier",
+      "model_output": "Unaffected carrier of dominant PRPF31 c.1205C>A mutation with no retinal disease"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-A",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": "Unaffected sibling; no ADHD diagnosis reported"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Dominant missense variant in RYR1 (c.14437C>T; p.His4813Tyr)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": "CYP2U1 compound heterozygous mutations associated with progressive spasticity"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "Non-penetrant carrier",
+      "model_output": "Affected patient carrying a dominant PRPF31 c.1205C>A nonsense mutation"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Patient with dominant RYR1 missense variant; presented with exercise intolerance, fatigability and myalgia; muscle biopsy confirmed CCD."
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": "CYP2U1 compound heterozygous mutations (c.471delC; p.Ile158fs and c.1085T>C; p.Leu362Pro)"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Inherited central core disease and malignant hyperthermia caused by dominant missense variants in the RYR1 gene"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-A",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) in RYR1"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": "Clinically diagnosed attention deficit hyperactivity disorder (ADHD)"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Heterozygous deletion c.14145_14156delCTACTGGGACAA (p.Asn4715_Asp4718del) in RYR1"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "Non-penetrant carrier",
+      "model_output": "Related non-penetrant carrier of PRPF31 c.1205C>A with no retinal disease"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-A",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": "Diagnosed with attention deficit hyperactivity disorder (DSM-IV criteria)"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi002-A",
+      "ground_truth": "A type of multiple sclerosis characterized by intermittent flare-ups with a return to few or no symptoms.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Diagnosed with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Autism spectrum disorder (diagnosed as autism)"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Primary diagnosis consistent with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": "CYP2U1 compound heterozygous: c.1376C>T; p.(Pro459Leu) and c.1462C>T; p.(Arg488Trp)"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "Non-penetrant carrier",
+      "model_output": "Retinitis pigmentosa caused by dominant PRPF31 mutation (c.1205C > A, p.Ser402Ter)"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi003-A",
+      "ground_truth": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see OPTIC NEURITIS), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914); The most common clinical variant of multiple sclerosis, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see optic neuritis), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914)",
+      "model_output": "Relapsing remitting and secondary progressive multiple sclerosis"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi005-A",
+      "ground_truth": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see OPTIC NEURITIS), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914); The most common clinical variant of multiple sclerosis, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see optic neuritis), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914)",
+      "model_output": "Relapsing-remitting and secondary progressive multiple sclerosis"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi004-A",
+      "ground_truth": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see OPTIC NEURITIS), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914); The most common clinical variant of multiple sclerosis, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see optic neuritis), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "autism"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": "CYP2U1 compound heterozygous mutations (Exon 1 deletion c.471delC; p.(Ile158fs) and Exon 2 substitution c.1085T>C; p.(Leu362Pro))"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Central core disease (CCD) is a congenital disorder that results in hypotonia, delayed motor development, and areas of reduced oxidative activity in the muscle fiber."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Diagnosis consistent with autism spectrum disorder (DSM-5 criteria); see Supplementary Table S1 for further detail"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": "Diagnosed ADHD by DSM-IV criteria, scored above 98th percentile on Impulsivity subscale and above 95th percentile on Hyperactivity, ADHD Index and DSM-IV Inattentive subscales of CPRS-R:L"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Central core disease (CCD) is a congenital disorder that results in hypotonia, delayed motor development, and areas of reduced oxidative activity in the muscle fiber."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "Non-penetrant carrier",
+      "model_output": "Related non-penetrant carrier of PRPF31 mutation with no retinal disease"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-A",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": "Diagnosed according to DSM-IV criteria; scored above 98th percentile on Impulsivity subscale and above 95th percentile on Hyperactivity, ADHD Index and DSM-IV Inattentive subscales of CPRS-R:L"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "CCD is a congenital myopathy typically diagnosed by the presence of central-typed cores in type I myofibres. Common clinical features include muscle weakness and hypotonia presenting during infancy, delayed motor development, and joint contractures."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Diagnosis consistent with autism spectrum disorder (DSM-5 criteria); Caucasian ethnicity"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Diagnosis consistent with autism spectrum disorder (DSM-5); clinical assessment and structured/semi-structured diagnostic interview"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Diagnosis consistent with autism spectrum disorder (DSM-5 criteria); see article for further detail."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": "CYP2U1 compound heterozygous; Exon 4 substitution: Chr4: 107949437; c.1376C>T, p.(Pro459Leu) and Exon 5 substitution: Chr4: 107952520; c.1462C>T, p.(Arg488Trp)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "Non-penetrant carrier",
+      "model_output": "Retinitis pigmentosa-11 caused by a dominant nonsense mutation in the PRPF31 gene"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Primary diagnosis consistent with autism spectrum disorder (DSM-5 criteria)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "CCD is a congenital myopathy typically diagnosed by the presence of central-typed cores in type I myofibres. Common clinical features include muscle weakness and hypotonia presenting during infancy, delayed motor development, and joint contractures."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30092450",
+      "cell_line": "LEIi006-A",
+      "ground_truth": "Retinitis pigmentosa (RP) is an inherited retinal dystrophy leading to progressive loss of the photoreceptors and retinal pigment epithelium and resulting in blindness usually after several decades.",
+      "model_output": "Adult-onset rod-cone dystrophy caused by compound heterozygous mutations in CRB1 (c.1892A>G and c.2548G>A)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Autism spectrum disorder (ASD) diagnosis consistent with DSM-5 criteria"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Primary diagnosis consistent with autism spectrum disorder (DSM-5 criteria)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Primary diagnosis consistent with autism spectrum disorder (DSM-5 criteria); Caucasian ethnicity"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": "Primary diagnosis consistent with autism spectrum disorder (DSM-5 criteria); see article for further detail."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": "CYP2U1 compound heterozygous"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Central core disease (CCD) caused by a heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Central core disease of muscle; Malignant hyperthermia susceptibility caused by dominant missense variants in RYR1 gene"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Central core disease (CCD) caused by a heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "Non-penetrant carrier",
+      "model_output": "RP11 caused by dominant PRPF31 mutation c.1205C > A"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-A",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": "Healthy"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi002-A",
+      "ground_truth": "A type of multiple sclerosis characterized by intermittent flare-ups with a return to few or no symptoms.",
+      "model_output": "Multiple sclerosis (MS) is a complex neuroinflammatory/degenerative disease of the central nervous system (CNS) that results in the formation of demyelinated lesions and axon degeneration."
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Dominant RYR1 c.14437C>T (p.His4813Tyr) variant"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": "Autosomal recessive disorder caused by mutations in CYP2U1 gene involving fatty acid metabolism, progressive spasticity in upper and lower limbs"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "Non-penetrant carrier",
+      "model_output": "Retinitis pigmentosa caused by dominant nonsense mutation in PRPF31 gene"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi003-A",
+      "ground_truth": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see OPTIC NEURITIS), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914); The most common clinical variant of multiple sclerosis, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see optic neuritis), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914)",
+      "model_output": "Multiple sclerosis (MS) is a complex neuroinflammatory/degenerative disease of the central nervous system (CNS) that results in the formation of demyelinated lesions and axon degeneration."
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Central core disease of muscle; CCD (OMIM#117000)"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi005-A",
+      "ground_truth": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see OPTIC NEURITIS), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914); The most common clinical variant of multiple sclerosis, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see optic neuritis), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914)",
+      "model_output": "Multiple sclerosis (MS) is a complex neuroinflammatory/degenerative disease of the central nervous system (CNS) that results in the formation of demyelinated lesions and axon degeneration."
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi004-A",
+      "ground_truth": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see OPTIC NEURITIS), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914); The most common clinical variant of multiple sclerosis, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see optic neuritis), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914)",
+      "model_output": "Multiple sclerosis (MS) is a complex neuroinflammatory/degenerative disease of the central nervous system (CNS) that results in the formation of demyelinated lesions and axon degeneration."
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": "Extremely rare autosomal recessive disorder caused by mutations in the CYP2U1 gene, involved in fatty acid metabolism, causing progressive spasticity in upper and lower limbs."
+    }
+  ]
+}

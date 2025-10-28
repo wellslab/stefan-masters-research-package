@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1466ips1 (LEIi011-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi011-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute, Nedlands, Western Australia, Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2019.0",
+      "first_author": "Zhiqin Huang",
+      "doi": "10.1016/j.scr.2019.101549",
+      "journal": "Stem Cell Research",
+      "title": "Generation of three induced pluripotent stem cell lines from an isolated inherited retinal dystrophy patient with RCBTB1 frameshifting mutations"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A45_49",
+      "disease_description": "Inherited retinal dystrophy caused by compound heterozygous mutations in RCBTB1 gene",
+      "disease_name": "Central chorioretinal atrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Compound heterozygous frameshifting mutations c.170delG and c.707delA in RCBTB1 gene",
+      "loci_name": "RCBTB1",
+      "cytoband": "13q14"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "DCN; IGF2",
+      "method_used": "qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP; GATA2",
+      "method_used": "qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "16",
+      "karyotype": "46,XX",
+      "summary": "Normal diploid karyotype (46,XX) confirmed by CNV profiling and SNP array analysis. B allele frequencies and LogR ratios indicated normal karyotype in LEIi011-A.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2016-06-04",
+      "non_int_vector_name": "Episomal plasmids",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/7916"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

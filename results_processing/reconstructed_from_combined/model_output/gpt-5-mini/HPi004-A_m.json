@@ -1,0 +1,119 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "iPS-5964-R3",
+      "hpscreg_name": "HPi004-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J.S.",
+      "group": "Harry Perkins Institute of Medical Research",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "first_name": "Joshua"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102830",
+      "title": "Generation of two isogenic induced pluripotent stem cell lines from a 1-month-old nemaline myopathy patient harbouring a homozygous recessive c.121C > T (p.Arg39Ter) variant in the ACTA1 gene",
+      "journal": "Stem Cell Research",
+      "last_author": "Joshua S. Clayton",
+      "first_author": "Isabella S. Suleski",
+      "year": "2022.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "NEO",
+      "disease_description": "Homozygous recessive ACTA1 variant c.121C > T (p.Arg39Ter)",
+      "disease_name": "Nemaline myopathy 3; NEM3 (OMIM#161800), severe form"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "GATA4; SOX17",
+      "method_used": "RT-qPCR; Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR; Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR; Immunocytochemistry",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "G-banding",
+      "summary": "Normal male karyotype (46,XY) reported. At least 15 metaphases were counted and \u22655 analysed in-depth. STR typing matched parental LCL. Sendai virus cleared by passage 10; EBV cleared by P10 for HPi004-A.",
+      "passage_number": "21"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Lymphoblastoid cell line (LCL)",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming Kit (ThermoFisher)",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/20/1008",
+      "institutional_HREC": "University of Western Australia's Human Research Ethics Committee"
+    },
+    {
+      "ethics_number": "Est IV DC-2012-1693",
+      "institutional_HREC": "Comit\u00e9 de Protection des Personnes (Est)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

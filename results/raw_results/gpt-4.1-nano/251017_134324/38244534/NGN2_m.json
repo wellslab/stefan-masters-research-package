@@ -1,0 +1,110 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "NGN2",
+      "cell_line_alt_name": "Missing",
+      "cell_type": "ESC",
+      "frozen": "False"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Research Council Linkage"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Mirella Dottori",
+      "first_name": "Mirella",
+      "last_name": "Dottori",
+      "name_initials": "Missing",
+      "e_mail": "mdottori@uow.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103312",
+      "journal": "Stem Cell Research",
+      "title": "Generation of a gene-edited H9 embryonic stem cell line carrying a DOX-inducible NGN2 expression cassette in the CLYBL locus",
+      "first_author": "Sara Miellet",
+      "last_author": "Mirella Dottori",
+      "year": "2024",
+      "pmid": "103312"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Knock in",
+      "cytoband": "Missing",
+      "delivery_method": "CRISPR/Cas9",
+      "description": "Homology directed repair (HDR) donor vector: Addgene #124229 (CLYBL-TO-hNGN2-BSD-mApple)",
+      "genotype": "Homology directed repair (HDR) donor vector: Addgene #124229 (CLYBL-TO-hNGN2-BSD-mApple)",
+      "loci_name": "CLYBL"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotyping confirmed a normal female karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "2024",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "type A",
+      "icm_morphology": "type A",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

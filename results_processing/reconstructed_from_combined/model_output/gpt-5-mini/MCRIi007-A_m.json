@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "PB007",
+      "hpscreg_name": "MCRIi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "K",
+      "group": "Murdoch Children's Research Institute",
+      "e_mail": "Katerina.Vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "first_name": "Katerina"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103109",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors",
+      "journal": "Stem Cell Research",
+      "last_author": "Andrew G. Elefanty",
+      "first_author": "Katerina Vlahos",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A40_44"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM",
+      "description": "No genetic modification (Genetic Modification: NO)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "A-SMA",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22,X)x2",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Normal molecular karyotype (arr(1-22,X)x2) at 0.5 Mb resolution; no major genomic perturbations detected compared to parental PBMC sample."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "May 2016",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai Reprogramming kit (ThermoFisher Scientific)",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "35121A",
+      "institutional_HREC": "RCH Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "mechanically"
+    }
+  ]
+}

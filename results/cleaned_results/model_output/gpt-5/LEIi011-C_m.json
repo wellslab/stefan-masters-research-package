@@ -1,0 +1,112 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "LEIi011-C"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute"
+    },
+    {
+      "first_name": "Fred",
+      "name_initials": "K",
+      "e_mail": "fredchen@lei.org.au",
+      "last_name": "Chen",
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2019.0",
+      "first_author": "Zhiqin Huang",
+      "doi": "10.1016/j.scr.2019.101549",
+      "journal": "Stem Cell Research",
+      "title": "Generation of three induced pluripotent stem cell lines from an isolated inherited retinal dystrophy patient with RCBTB1 frameshifting mutations"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A45_49",
+      "disease_description": "Inherited retinal dystrophy associated with heterozygous RCBTB1 frameshift mutations",
+      "disease_name": "Central chorioretinal atrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Patient-derived heterozygous frameshifting variants in RCBTB1",
+      "loci_name": "RCBTB1",
+      "cytoband": "13q14",
+      "genotype": "Heterozygous: RCBTB1 c.1706delG (p.Gly569Glyfs*12); c.707delA (p.Asn236Thrfs*11)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "DCN; IGF2",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP; GATA2",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "12",
+      "karyotype": "46,XX",
+      "summary": "Infinium HumanCytoSNP-12 array at passage 12 showed a normal 46,XX digital karyotype with BAF and LogR profiles indicating no copy number abnormalities.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2016",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/1/7916"
+    },
+    {
+      "institutional_HREC": "Sir Charles Gairdner Hospital Human Research Ethics Committee",
+      "ethics_number": "2001-053"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "86200001.2/001.2 (MONU001-B); MONU001-B",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MONU001-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Mark",
+      "name_initials": "M.A.",
+      "e_mail": "mark.bellgrove@monash.edu",
+      "last_name": "Bellgrove",
+      "group": "Monash University"
+    },
+    {
+      "first_name": "Ziarih",
+      "name_initials": "Z",
+      "e_mail": "ziarih.hawi@monash.edu",
+      "last_name": "Hawi",
+      "group": "Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Annabelle Suter",
+      "year": "2023.0",
+      "first_author": "Kealan Pugsley",
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A10_14",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2023-01-01",
+      "non_int_vector_name": "Episomal plasmids expressing OCT4, SOX2, KLF4, MYC",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "25688"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

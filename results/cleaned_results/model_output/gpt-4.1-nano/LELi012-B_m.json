@@ -1,0 +1,51 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "1357iPS5; 1357iPS11",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LELi012-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "et al.",
+      "year": "2020.0",
+      "first_author": "Luke Jennings",
+      "doi": "10.1016/j.scr.2020.101947",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt Macular Dystrophy caused by the c.768G > T and c.6079C > T mutations in ABCA4"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A30_34",
+      "disease_name": "Stargardt Macular Dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Mutations c.768G > T and c.6079C > T in ABCA4 gene",
+      "loci_name": "ABCA4",
+      "genotype": "NM",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "Normal male karyotype confirmed by G-banding",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2017"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=http://127.0.0.1:3333/project?project=1977807895658
+HostUrl=http://127.0.0.1:3333/command/core/export-rows/combined-dataframe-raw-csv.csv?csrf_token=0c9qO2nMf2Ujy2so1dRGklvt2FrGAUTa

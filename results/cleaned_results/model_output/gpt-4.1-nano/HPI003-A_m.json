@@ -1,0 +1,62 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "iPS-7247-C5",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "HPI003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Dr. Joshua",
+      "name_initials": "J",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Gianina Ravenscroft",
+      "year": "2022.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2022.102829",
+      "journal": "Stem Cell Research",
+      "pmid": "102829",
+      "title": "Generation of an induced pluripotent stem cell line from a 3-month-old neonatal with a heterozygous dominant c.515C > A (p.Ala172Glu) variant in the ACTA1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A1_4",
+      "disease_description": "heterozygous dominant c.515C > A (p.Ala172Glu) variant in the ACTA1 gene",
+      "disease_name": "Neonatal myopathy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "heterozygous dominant c.515C > A (p.Ala172Glu) variant in the ACTA1 gene",
+      "loci_name": "ACTA1",
+      "genotype": "NM_001101.0: c.515C > A",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "Karyotyping at passage 10 showed a normal male karyotype.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2021"
+    }
+  ]
+}

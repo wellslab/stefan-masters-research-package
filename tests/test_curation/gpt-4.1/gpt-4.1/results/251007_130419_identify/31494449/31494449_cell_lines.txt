@@ -1,6 +1,0 @@
-Cell lines identified in 31494449:
-========================================
-
-1. LEIii011-A
-2. LEIii011-B
-3. LEIii011-C

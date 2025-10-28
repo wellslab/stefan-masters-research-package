@@ -1,0 +1,161 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CCNF; CCNF2; iPSC MB2-1",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "UOWi005-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Lezanne",
+      "e_mail": "lezanne@uow.edu.au",
+      "last_name": "Ooi",
+      "group": "Ooi-UOW"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ooi L",
+      "year": "2019.0",
+      "first_author": "Bax M",
+      "doi": "10.1016/j.scr.2019.101530",
+      "journal": "Stem Cell Research",
+      "pmid": "31445393",
+      "title": "Generation and characterization of a human induced pluripotent stem cell line UOWi005-A from dermal fibroblasts derived from a CCNF(S621G) familial amyotrophic lateral sclerosis patient using mRNA reprogramming"
+    },
+    {
+      "last_author": "Lee A",
+      "year": "2021.0",
+      "first_author": "Cheng F",
+      "doi": "10.3389/fnmol.2021.627740",
+      "journal": "Frontiers in molecular neuroscience",
+      "pmid": "33986643",
+      "title": "Unbiased Label-Free Quantitative Proteomics of Cells Expressing Amyotrophic Lateral Sclerosis (ALS) Mutations in CCNF Reveals Activation of the Apoptosis Pathway: A Workflow to Screen Pathogenic Gene Mutations"
+    },
+    {
+      "last_author": "Saunders Darren N",
+      "year": "2023.0",
+      "first_author": "Farrawell Natalie E",
+      "doi": "10.1093/hmg/ddad063",
+      "journal": "Human Molecular Genetics"
+    },
+    {
+      "last_author": "Lee Albert",
+      "year": "2023.0",
+      "first_author": "Davidson Jennilee M.",
+      "doi": "10.1007/s12035-023-03355-2",
+      "journal": "Molecular Neurobiology"
+    },
+    {
+      "last_author": "Atkin Julie D.",
+      "year": "2023.0",
+      "first_author": "Ragagnin Audrey M. G.",
+      "doi": "10.1038/s41598-023-46802-9",
+      "journal": "Scientific Reports"
+    },
+    {
+      "last_author": "Robert M Graham",
+      "year": "2023.0",
+      "first_author": "Bax M",
+      "doi": "10.1016/j.scr.2023.103238",
+      "journal": "Stem Cell Research",
+      "pmid": "37939621",
+      "title": "Generation of induced pluripotent stem cell lines from a sister pair who suffered post-partum or recurrent Spontaneous Coronary Artery Dissections"
+    },
+    {
+      "last_author": "Wu Yanqing",
+      "year": "2024.0",
+      "first_author": "Chen Yi",
+      "doi": "10.3389/fgene.2024.1389558",
+      "journal": "Frontiers in Genetics"
+    },
+    {
+      "last_author": "Lezanne Ooi",
+      "year": "2019.0",
+      "first_author": "Monique Bax",
+      "doi": "https://doi.org/10.1016/j.scr.2019.101530",
+      "journal": "Stem Cell Research",
+      "pmid": "31445393",
+      "title": "Generation and characterization of a human induced pluripotent stem cell line UOWi005-A from dermal fibroblasts derived from a CCNF(S621G) familial amyotrophic lateral sclerosis patient using mRNA reprogramming"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "55_59",
+      "disease_name": "Amyotrophic Lateral Sclerosis"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "FOXA2",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "SMI32",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "ACTN2",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "method_used": "Scorecard"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "method_used": "Scorecard"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "method_used": "Scorecard"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "24",
+      "karyotype": "46,XY",
+      "summary": "Karyotyping occurred at a resolution of 400bphs (15 metaphase spreads).",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "CL:0002620",
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2018-01-01",
+      "i_source_cell_type_term": "Fibroblasts",
+      "i_source_cell_origin_id": "UBERON:0002067"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "HE13/272"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "OI64\u2013control",
+      "hpscreg_name": "MCRIi018-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "F",
+      "group": "Bateman-MCRI",
+      "e_mail": " john.bateman@mcri.edu.au",
+      "last_name": "Bateman",
+      "first_name": "John"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2019.101453",
+      "title": "The use of simultaneous reprogramming and gene correction to generate an osteogenesis imperfecta patient COL1A1 c. 3936 G>T iPSC line and an isogenic control iPSC line",
+      "journal": "Stem cell research",
+      "last_author": "Bateman JF",
+      "first_author": "Howden S",
+      "year": "2019.0",
+      "pmid": "31082677"
+    },
+    {
+      "doi": "10.3390/ijms21176124",
+      "title": "Versatility of Induced Pluripotent Stem Cells (iPSCs) for Improving the Knowledge on Musculoskeletal Diseases",
+      "journal": "International journal of molecular sciences",
+      "last_author": "D\u00edaz-Prado S",
+      "first_author": "Sanjurjo-Rodr\u00edguez C",
+      "year": "2020.0",
+      "pmid": "32854405"
+    },
+    {
+      "doi": "10.1073/pnas.2211510120",
+      "title": "Modeling human skeletal development using human pluripotent stem cells",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "last_author": "Bateman JF",
+      "first_author": "Lamand\u00e9 SR",
+      "year": "2023.0",
+      "pmid": "37126720"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2019.101453",
+      "title": "The use of simultaneous reprogramming and gene correction to generate an osteogenesis imperfecta patient COL1A1 c. 3936 G>T iPSC line and an isogenic control iPSC line.",
+      "journal": "Stem Cell Research",
+      "last_author": "John F Bateman",
+      "first_author": "Sara Howden",
+      "year": "2019.0",
+      "pmid": "31082677"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "NE",
+      "disease_name": "Osteogenesis Imperfecta, Type II"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "CD45",
+      "method_used": "Flow cytometry",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "NES; PAX6",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EC"
+    },
+    {
+      "marker_list": "CXCR4; EPCAM",
+      "method_used": "Flow cytometry",
+      "show_potency": "True",
+      "cell_type": "EN"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22,X)x2",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium GSA-24 v1.0; resolution 0.5 Mb). SNPduo comparison of MCRIi018-B to MCRIi018-A (>99.9% identity).",
+      "passage_number": "4"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblast",
+      "non_int_vector": "EPI",
+      "derivation_year": "2017-01-01",
+      "non_int_vector_name": "pEP4 E02S ET2K [https://www.addgene.org/20927/]",
+      "i_source_cell_type_id": "CL:0000057",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "33118A",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EF"
+    }
+  ]
+}

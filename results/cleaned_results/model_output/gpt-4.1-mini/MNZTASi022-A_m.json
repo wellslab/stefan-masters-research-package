@@ -1,0 +1,52 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "hpscreg_name": "MNZTASi022-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "MS Stem biobank (Menzies Institute for Medical Research, Hobart, Tasmania, Australia)"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Brad A. Sutherland",
+      "year": "2024.0",
+      "first_author": "Natalie E. King",
+      "doi": "10.1186/s13287-024-03671-x",
+      "journal": "Stem Cell Research & Therapy",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A55_59"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "summary": "All iPSC lines were shown to have karyotypically normal karyograms within 10 passages of use for experiments."
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "ethics_number": "H26563"
+    },
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "ethics_number": "H16915"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EN"
+    }
+  ]
+}

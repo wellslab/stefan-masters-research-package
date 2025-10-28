@@ -1,0 +1,90 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "True",
+      "hpscreg_name": "SIVF03"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2008.0",
+      "first_author": "Teija Peura",
+      "doi": "10.1089/clo.2007.0062",
+      "journal": "Cloning and Stem Cells",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM",
+      "disease_description": "Derived from a PGD-analyzed embryo; resulting stem cell line has female trisomy-16 karyotype [47,XX,+16]",
+      "disease_name": "Trisomy 16"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NCAM",
+      "method_used": "RT-PCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "VEGF",
+      "method_used": "RT-PCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP",
+      "method_used": "RT-PCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "6, 29, 55",
+      "karyotype": "47,XX,+16",
+      "summary": "Female trisomy-16 karyotype [47,XX,+16]. Karyotyped at passages 6, 29, and 55; latest passage cultured before cryopreservation P.74.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "zp_removal_technique": "mechanical",
+      "e_preimplant_genetic_diagnosis": "True",
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human research ethics committee of Sydney IVF (Sydney, Australia)"
+    },
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.06",
+      "o2_concentration": "0.05",
+      "passage_method": "ME"
+    }
+  ]
+}

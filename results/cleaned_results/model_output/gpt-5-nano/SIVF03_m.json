@@ -1,0 +1,36 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "hpscreg_name": "SIVF03"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Sydney IVF"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Tomas Stojanov",
+      "year": "2008.0",
+      "first_author": "Teija Peura",
+      "doi": "10.1089/clo.2007.0062",
+      "journal": "Cloning and Stem Cells",
+      "title": "Karyotypically Normal and Abnormal Human Embryonic Stem Cell Lines Derived from PGD-Analyzed Embryos"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "Female trisomy-16",
+      "summary": "Karyotype analysis revealed trisomy 16 in line SIVF03.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.06",
+      "o2_concentration": "0.05"
+    }
+  ]
+}

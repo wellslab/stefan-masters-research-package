@@ -6,7 +6,7 @@ authors = [
     {name = "stefanmirandadev",email = "stefanmirandadev@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10,<3.14"
 dependencies = [
     "openai (>=1.108.1,<2.0.0)",
     "pdf2image (>=1.17.0,<2.0.0)",
@@ -15,7 +15,9 @@ dependencies = [
     "pandas (>=2.3.3,<3.0.0)",
     "sqlalchemy (>=2.0.43,<3.0.0)",
     "psycopg2-binary (>=2.9.10,<3.0.0)",
-    "python-dotenv (>=1.1.1,<2.0.0)"
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "mlflow (>=3.4.0,<4.0.0)",
+    "prefect (>=3.4.23,<4.0.0)"
 ]
 
 

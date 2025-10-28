@@ -107,36 +107,205 @@ So I can estimate the text token costs, but this is an underestimate of the true
 
 
 
-New instructions
+New instructions 
 - in cell line retrieval specify to only retrieve cell names to curate if the article reports on these cell lines being derived therein
 - also mention to beware of alternative names and these should not be retrieved to curate
 
 
-# Cell Line Identification Strategy
 
-Key Improvements:
 
-1. Two-tier approach:
-   - Primary: Look for official registry IDs (AIBNi001, MCRIi001-A format)
-   - Fallback: Extract whatever naming the article actually uses
 
-2. Broader capture: Now includes examples of alternative formats:
-   - Laboratory codes (hES3.1, Clone-1)
-   - Descriptive names (SIVF001, Control-iPSC)
-   - Numbered series (iPSC-1, hiPSC-clone-3)
+# Not really getting the hpscreg_names right
 
-3. Clear focus: Emphasizes newly derived/generated cell lines in the current study
 
-4. Better exclusions: More specific about what to ignore (commercial lines, external controls, generic terms)
+- Give it example hpscreg ids
+- Describe the format of the id 
+- What to do in case cannot find the id
 
-5. Flexible examples: Shows how different naming conventions should be handled
 
-This should dramatically improve capture rates! Now the model will:
-- ✅ Find official registry IDs when present
-- ✅ Fall back to whatever identifiers the researchers actually used
-- ✅ Capture things like "hES3.1, hES3.2, hES3.3" or "SIVF001, SIVF002"
-- ✅ Ignore irrelevant controls and commercial lines
 
-This makes the script much more robust for real-world articles that may not always use the standardized registry format!
+
+
+Then for all the articles which were curated
+- Find the true number of hpscreg lines which came from them
+- Compare against the ones ai found 
+- Report of percentage of lines found by the ai that were truly there
+
+
+
+
+
+
+# Methods
+
+Need to justify using temperature=1 
+- Temperature=1 is the only accepted value with newer models, like gpt-5.
+    This temperature value is supposed to strike a balance between consistency and generativity.
+    We hypothesised that to have comparable results, we should maintain consistent temperature values.
+    Therefore we chose this value in our experiments.
+
+
+
+
+
+
+
+# Results
+
+
+I think in the results I give metrics.
+So for each publication I have the correct cell lines associated with the pmid.
+I can give recall. How many of the correct ones it got.
+Then also false identification rate. How many false identifications per article.
+
+This gives an indication of something. Also need to give metrics per gpt model. See improvement in the gpt models.
+Which model do we use?
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Cell line identification
+The first results relate to identifying unique cell lines which were derived, in the experiments reported on in the articles.
+Challenges 
+- Articles talk about parental and other lines which aren't the cell lines of concern. Therefore, the model has to understand this.
+- Articles are unstructured and can be verbose.
+- Articles could report alternative names for cell lines without explicitly mentioning coresspondences.
+
+
+
+Should see what consistent mistakes the different models make.
+
+Should go through the logs at the end.
+- And see which articles look mistakes.
+- Cross-check entries for each model. 
+- Check article formatting and verbosity.
+- Comment on what happened.
+- For each model, calculate identification recall and false identification rate.
+
+
+
+Pipeline for comparing identification results 
+
+- Check which articles differences in identification results existed in 
+- Check the nature of the differences: missing cell lines, false identifications
+- Check which journals the articles belonged to where there were different identifications
+- Recommend a model to use for identification based on cost and identification time
+
+Final results per model:
+- Recall
+- False identifications
+- Missing identifications
+- Separate results by journal : SCR vs. non-SCR
+- Cost per article
+- Average time as a function of journal and number of cell lines identified.
+
+
+Next we can move on to comparison of curation results.
+
+
+
+
+### Scr documents
+
+
+
+### Non-scr documents
+
+
+Models sometime could not get the correct identifier even though the article contained it.
+- E.g. 32442534: ['H9CX3CR1-tdTomato', 'iMGL_abud', 'iMGL_abud-ReN', 'iMGL_abud-cholesterol', 'iMGL_muffat']
+    None of these identifiers are the real one WAe009-A-24
+
+This was gpt-4-mini. Shows that newer models are getting better are reading technical documents.
+But there is still room for improvement.
+
+Model sometimes identified more cell lines than was correct in certain articles
+- E.g. 32442534: Identified ['WAe009-A-24', 'H9.CX3CR1-tdTomato', 'CX3CR1-tdTomato iMGLs']
+    But only 'WAe009-A-24' is real.
+    Non-scr article. Unstructured reporting. Verbose writing.
+
+
+
+
+## Discussion
+
+Disease names subject to variability in model responses
+- This is the reason why ontologies exist
+- Recommended to align the model responses against an ontology in post-processing
+- This could be the reason for reduced scores. Post-alignment scores might be much higher than the study shows
+- Humans themselves may not conform to ontologies when submitting metadata
+- So reduced scores pre-ontology alignment do not necessarily reflect a weakness in the model.
+- If an ontology alignment step can be implemented as post-processing in these pipelines then this is a boon to the approach
+
+
+
+
+(Causes of reduced scores seen in certain metadata fields. Not following accepted values and using other values.)
+Models do not follow the instructions precisely, even when told to do so.
+- We believe in long instructions the models can sometimes forget to follow the instructions. 
+- We told the model to only use accepted values when specific in the instruction sheet.
+- However, several models returned valued for the metadata field genomic_modification.mutation_type which were not in the given accepted values list.
+- The model also did the same in differentiation_results.method_used: did not restrict it's responses to the accepted values.
+- The model therefore diverged from the instructions.
+
+Recommendation to others that they may need to remind the model several times for instructions that are crucial and need to be followed in general.
+
+Recommendation to perhaps send one request per metadata section. So the model only focuses on one section at a time. With predefined focused instructions for that section. The key seems to be getting the specificity of the task right. Large tasks that are complicated might not be feasible yet for the current foundation models.
+
+
+
+Value for this module 
+- Flip a switch and automatically curate a set of fields which you know with 90% confidence are accurate and high quality 
+- Spend the rest of the time curating the more detail specific fields.
+
+
+
+
+Dealing with variability in responses is a problem. 
+- Still not clear how to best restrict model responses to certain values
+- Saying "You must use accepted values, at the top of the instruction sheet, was not sufficient."
+- Hypothesise that you will need to reiterate this important instruction in every section, for the specific section, so that the model knows it is an important instruction. It doens't "remember" otherwise....
+
+
+
+
+Dealing with variability in kit names is a problem 
+- Different human curators write the kit name with different specificities
+- The model usually writes the most specific kit name
+- Hard to entity match without exact knowledge equivalence between reprogramming kits.
+- Recommend that curators check the model responses for kit names, and verify against the source material.
+
+
+
+
+Dealing with variability in institutional HREC names across the ground truth and model responses...
+
+- Too lazy to get them all
+- Have to commenton them 
+- Or get an index of all the mismatches and rescore the ones that are actual matches to get accurate scores 
+
+Hard to control the vocabulary of the model though in this regard
+Recommend that curators verify responses against source material or known HRECs.
+
+
+
+One of the problems that we've had in this experiment was that not all of the ground truth data was of high quality.
+- Several publications had not been completely curated. The model was identifying cell lines in them where there was no corresponding ground truth entry.
+- The model identified 6 cell lines, but the 
+
+
+
+## Results processing todo's
+- Derivation year need to extract just the year.
+
 
 

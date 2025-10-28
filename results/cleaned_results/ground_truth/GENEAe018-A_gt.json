@@ -1,0 +1,72 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "GENEA090",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "GENEAe018-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Genea"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Schmidt U",
+      "year": "2014.0",
+      "first_author": "McQuade LR",
+      "doi": "10.1021/pr500649m",
+      "journal": "Journal of proteome research",
+      "pmid": "25316320",
+      "title": "Proteomics of Huntington's disease-affected human embryonic stem cells reveals an evolving pathology involving mitochondrial dysfunction and metabolic disturbances"
+    },
+    {
+      "last_author": "Schmidt U",
+      "year": "2016.0",
+      "first_author": "Dumevska B",
+      "doi": "10.1016/j.scr.2016.02.024",
+      "journal": "Stem Cell Research",
+      "pmid": "27346026",
+      "title": "Derivation of Huntington Disease affected Genea089 human embryonic stem cell line"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "UN",
+      "disease_description": "Huntington disease (HD) is a rare neurodegenerative disorder of the central nervous system characterized by unwanted choreatic movements, behavioral and psychiatric disturbances and dementia.",
+      "disease_name": "Huntington disease"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype": "46, XX no abnormalities detected",
+      "karyotype_method": "Other"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "NHMRC",
+      "approval_date": "1900-01-01",
+      "ethics_number": "Licence 309710"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

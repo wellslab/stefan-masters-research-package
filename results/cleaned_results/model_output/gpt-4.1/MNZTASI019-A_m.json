@@ -1,0 +1,80 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MNZTASI019-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Brad",
+      "name_initials": "A",
+      "e_mail": "brad.sutherland@utas.edu.au",
+      "last_name": "Sutherland",
+      "group": "Menzies Institute for Medical Research, University of Tasmania"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Brad A. Sutherland",
+      "year": "2024.0",
+      "first_author": "Natalie E. King",
+      "doi": "10.1186/s13287-024-03671-x",
+      "journal": "Stem Cell Research & Therapy",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A50_54"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "PDGFRB; CSPG4; ACTA2",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OCT4; NANOG",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "5-35",
+      "karyotype": "Normal karyogram",
+      "summary": "All iPSC lines were shown to have karyotypically normal karyograms within 10 passages of use for experiments and were used between passage 5\u201335."
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "ethics_number": "H26563"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.02",
+      "passage_method": "EN"
+    }
+  ]
+}

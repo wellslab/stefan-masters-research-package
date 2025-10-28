@@ -1,0 +1,36 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "CRB1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Inherited Retinal Disease Registry and DNA Bank"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "den Hollander, A. I.",
+      "year": "2004.0",
+      "first_author": "den Hollander, A. I.",
+      "doi": "10.1002/humu.22981",
+      "journal": "Human Mutation",
+      "title": "CRB1 mutations in inherited retinal dystrophies"
+    }
+  ],
+  "donor": [
+    {
+      "disease_description": "Inherited retinal dystrophies associated with CRB1 mutations",
+      "disease_name": "Retinal dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "c.2548G>A variant producing a CRB1 transcript predicted to encode a mutant CRB1 protein with a p.Gly850Ser amino acid substitution",
+      "loci_name": "CRB1",
+      "genotype": "c.2548G>A",
+      "mutation_type": "Missense mutation"
+    }
+  ]
+}

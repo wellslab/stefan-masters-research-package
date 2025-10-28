@@ -1,0 +1,48 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi017-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "name_initials": "S",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Australian Institute for Bioengineering and Nanotechnology"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Samuel McLenachan",
+      "year": "2021.0",
+      "first_author": "Di Huang",
+      "doi": "10.1016/j.scr.2021.102448",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Stargardt disease caused by compound heterozygous mutations in the ABCA4 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "16",
+      "disease_description": "compound heterozygous mutations in the ABCA4 gene",
+      "disease_name": "Stargardt disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "loci_name": "ABCA4",
+      "genotype": "ABCA4/1p22.1",
+      "mutation_type": "Targeted mutation sequencing"
+    }
+  ]
+}

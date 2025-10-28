@@ -1,0 +1,122 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "ESC",
+      "cell_line_alt_name": "Endeavour-2",
+      "hpscreg_name": "E-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Diabetes Transplant Unit, Prince of Wales Hospital, Sydney"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "S",
+      "group": "Stem Cell Lab, School of Biotechnology and Biomolecular Sciences, University of New South Wales",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu",
+      "first_name": "Kuldip"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1007/s11626-010-9280-8",
+      "title": "Derivation of a new human embryonic stem cell line, Endeavour-2, and its characterization",
+      "journal": "In Vitro Cell.Dev.Biol.\u2014Animal",
+      "last_author": "Bernard E. Tuch",
+      "first_author": "Kuldip S. Sidhu",
+      "year": "2010.0"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "NESTIN",
+      "method_used": "Quantitative PCR (RT-qPCR)",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "VIMENTIN",
+      "method_used": "Quantitative PCR (RT-qPCR)",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "Quantitative PCR (RT-qPCR)",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "ectoderm; endoderm; mesoderm",
+      "method_used": "Histology (H&E) of teratoma grafts",
+      "show_potency": "True",
+      "cell_type": "Ectoderm; Mesoderm; Endoderm",
+      "description": "In vivo teratoma"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype 46,XX reported (karyotype shown at passage 9). A standard G-banding analysis was used; 20 metaphases were analysed.",
+      "passage_number": "9"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "e_preimplant_genetic_diagnosis": "False",
+      "zp_removal_technique": "mechanical"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC 02247/02267",
+      "institutional_HREC": "Institutional Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

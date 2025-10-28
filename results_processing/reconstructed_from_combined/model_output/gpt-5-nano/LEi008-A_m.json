@@ -1,0 +1,121 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1093IPS1 (LEi008-A)",
+      "hpscreg_name": "LEi008-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute, Nedlands, Western Australia, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lions Eye Institute",
+      "e_mail": "smlenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "first_name": "Samuel"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.11.018",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with dominant PRPF31 mutation and a related non-penetrant carrier",
+      "journal": "Stem Cell Research",
+      "last_author": "Fred K. Chen",
+      "first_author": "S. McLenachan",
+      "year": "2019.0",
+      "pmid": "101357"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A25_29",
+      "disease_description": "Dominant PRPF31 mutation associated RP11",
+      "disease_name": "Retinitis pigmentosa 11"
+    },
+    {
+      "sex": "Female",
+      "age": "A50_54",
+      "disease_description": "Dominant PRPF31 mutation associated RP11",
+      "disease_name": "Retinitis pigmentosa 11"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "delivery_method": "Episomal",
+      "mutation_type": "Transgene expression",
+      "description": "Reprogramming plasmids containing OCT4, SOX2, KLF4, L-MYC, LIN28 and shRNA for p53; included in episomal plasmids used for reprogramming to iPSCs."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "GATA2; AFP",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro directed differentiation"
+    },
+    {
+      "marker_list": "AFP",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2017-12-18",
+      "non_int_vector_name": "Episomal plasmids containing OCT4, SOX2, KLF4, L-MYC, LIN28, shRNA for p53 and miR-302/367",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Office, University of Western Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

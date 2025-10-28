@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "COL2A1\u00a0p.R719C; 1502.3 COL2A1 p.R719C; 1502-COL2A1 p.R719C",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi019-A-6"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Shireen",
+      "e_mail": "shireen.lamande@mcri.edu.au",
+      "last_name": "Lamand\u00e9",
+      "group": "Lamand\u00e9-Shoulders-MCRI"
+    },
+    {
+      "first_name": "Matthew",
+      "e_mail": "mshoulde@mit.edu",
+      "last_name": "Shoulders",
+      "group": "Lamand\u00e9-Shoulders-MCRI"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Matthew D. Shoulders",
+      "year": "2023.0",
+      "first_author": "Kathryn M. Yammine",
+      "doi": "10.1016/j.scr.2023.103020",
+      "journal": "Stem Cell Research",
+      "pmid": "36682125",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C iPSC line (MCRIi019-A-6) model of human precocious osteoarthritis"
+    },
+    {
+      "last_author": "Matthew D. Shoulders",
+      "year": "2023.0",
+      "first_author": "Kathryn M. Yammine",
+      "doi": "https://doi.org/10.1016/j.scr.2023.103020",
+      "journal": "Stem Cell Research",
+      "pmid": "36682125",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C iPSC line (MCRIi019-A-6) model of human precocious osteoarthritis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous COL2A1 c.2155C>T  (p.Arg719Cys) variant was introduced to COL2A1 exon 33. A synonymous change was also introduced.",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "COL2A1",
+      "cytoband": "12q13.11",
+      "genotype": "Heterozygous: unspecified_reference_COL2A1:c.2155C>T",
+      "mutation_type": "IM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "Brachyury",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NES; PAX6",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "24.0",
+      "karyotype": "arr(1-22,X)x2",
+      "summary": "Molecular karyotyping by SNP array (resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "approval_date": "1900-01-01",
+      "ethics_number": "35121A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

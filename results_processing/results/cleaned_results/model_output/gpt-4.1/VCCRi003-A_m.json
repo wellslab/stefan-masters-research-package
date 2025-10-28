@@ -1,0 +1,116 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "096; Cell line 2",
+      "hpscreg_name": "VCCRi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Victor Chang Cardiac Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "M",
+      "group": "Victor Chang Cardiac Research Institute",
+      "e_mail": "Graham@victorchang.edu.au",
+      "last_name": "Graham",
+      "first_name": "Robert"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103238",
+      "title": "Generation of induced pluripotent stem cell lines from a sister pair who suffered post-partum or recurrent Spontaneous Coronary Artery Dissections",
+      "journal": "Stem Cell Research",
+      "last_author": "Robert M Graham",
+      "first_author": "Monique Bax",
+      "year": "2023.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A35_39",
+      "disease_description": "SCAD is a cause of myocardial infarction in women, resulting from a bleed within a coronary artery wall that impairs blood flow.",
+      "disease_name": "Spontaneous Coronary Artery Dissection"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6",
+      "method_used": "Immunocytochemistry; hPSC Scorecard",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "Brachyury",
+      "method_used": "Immunocytochemistry; hPSC Scorecard",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunocytochemistry; hPSC Scorecard",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Normal karyotype; 15 cells at resolution 400 bphs.",
+      "passage_number": "15"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2023",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus (Thermo Fisher Scientific)",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "16/245",
+      "institutional_HREC": "St Vincent\u2019s Hospital Human Research Ethics Committee (HREC/16/SVH/338)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

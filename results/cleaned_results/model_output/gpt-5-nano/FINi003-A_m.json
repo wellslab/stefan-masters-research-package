@@ -1,0 +1,76 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "FI.SPSM.SCN2A.E1211K.008",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "FINi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Steven",
+      "name_initials": "S",
+      "e_mail": "steven.petrou@florey.edu.au",
+      "last_name": "Petrou",
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    },
+    {
+      "first_name": "Snezana",
+      "name_initials": "S",
+      "e_mail": "snezana.maljevic@florey.edu.au",
+      "last_name": "Maljevic",
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Steve Petrou",
+      "year": "2024.0",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "doi": "10.1016/j.scr.2024.103367",
+      "journal": "Stem Cell Research",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel Na(v)1.2"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A5_9",
+      "disease_name": "Developmental and epileptic encephalopathy (DEE)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "SCN2A p.E1211K variant; endogenous mutation in donor and iPSC line",
+      "loci_name": "SCN2A",
+      "genotype": "Heterozygous: SCN2A p.E1211K",
+      "mutation_type": "VA"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "ReproRNA Kit (StemCell Technologies); polycistronic mRNA expressing KLF4, POU5F1/OCT4, SOX2, GLIS1, c-MYC",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Other"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Melbourne Human Research Ethics Committee",
+      "ethics_number": "HREC/16/Austin/472"
+    }
+  ]
+}

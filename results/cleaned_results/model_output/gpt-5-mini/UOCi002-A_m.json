@@ -1,0 +1,98 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "CIM008.6 (UOCi002-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "UOCi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Calgary"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Chad",
+      "name_initials": "A",
+      "e_mail": "chad.bousman@ucalgary.ca",
+      "last_name": "Bousman",
+      "group": "University of Calgary"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Chad A. Bousman",
+      "year": "2022.0",
+      "first_author": "Nazanin Vaziri",
+      "doi": "10.1016/j.scr.2022.102877",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A30_34",
+      "disease_description": "Treatment-resistant schizophrenia",
+      "disease_name": "Schizophrenia, Clozapine-induced myocarditis"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "TUBB3",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "3",
+      "karyotype": "46,XY",
+      "summary": "Normal karyotype 46, XY (0.50 Mb)",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2017",
+      "non_int_vector_name": "Sendai virus (Life Tech; Cat# A16751)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Conjoint Health Research Ethics Board at the University of Calgary",
+      "ethics_number": "REB17-1994"
+    },
+    {
+      "institutional_HREC": "Melbourne Health Human Research Ethics Committee",
+      "ethics_number": "2017.007"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.1",
+      "passage_method": "ME"
+    }
+  ]
+}

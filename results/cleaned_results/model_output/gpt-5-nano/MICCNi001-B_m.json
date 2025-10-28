@@ -1,0 +1,66 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MICCNi001-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Janette",
+      "name_initials": "J",
+      "e_mail": "janette.tong@monash.edu",
+      "last_name": "Tong",
+      "group": "Monash Institute of Cognitive and Clinical Neurosciences"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mark A Bellgrove",
+      "year": "2019.0",
+      "first_author": "Janette Tong",
+      "doi": "10.1016/j.scr.2018.11.014",
+      "journal": "Stem Cell Research",
+      "title": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A15_19",
+      "disease_name": "Attention Deficit Hyperactivity Disorder"
+    },
+    {
+      "sex": "Male",
+      "age": "A15_19",
+      "disease_name": "Healthy"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "summary": "Normal male karyotype observed.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "ethics_number": "CF15/2566 \u2013 2015001048"
+    }
+  ]
+}

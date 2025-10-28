@@ -1,0 +1,105 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "RYR1-15377-R1B (HPi009-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "HPi009-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "J.S.",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2024.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2024.103411",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A25_29",
+      "disease_description": "CCD; heterozygous RYR1 c.4038C>A (p.Asn1346Lys)",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous pathogenic missense variant in RYR1 affecting SPRY3 region: c.4038C>A (p.Asn1346Lys)",
+      "loci_name": "RYR1",
+      "genotype": "Heterozygous RYR1 NM_000540.3:c.4038C>A (p.Asn1346Lys)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; TBX6; Brachyury",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "13",
+      "karyotype": "46,XY",
+      "summary": "Normal male karyotype (46,XY) by G-banding at P13; no significant chromosomal copy number abnormalities reported.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell (LCL)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/20/1008"
+    },
+    {
+      "institutional_HREC": "Genethon",
+      "ethics_number": "AC-2018-3156; IE-2018-994"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

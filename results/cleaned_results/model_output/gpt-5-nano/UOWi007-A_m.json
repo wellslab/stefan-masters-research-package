@@ -1,0 +1,68 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "M05-42",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "UOWi007-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Lezzanne",
+      "e_mail": "lezanne@uow.edu.au",
+      "last_name": "Ooi",
+      "group": "Illawarra Health and Medical Research Institute, University of Wollongong"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Lezanne Ooi",
+      "year": "2020.0",
+      "first_author": "Rachelle Balez",
+      "doi": "10.1016/j.scr.2020.101701",
+      "journal": "Stem Cell Research",
+      "pmid": "101701",
+      "title": "The mRNA-based reprogramming of fibroblasts from a SOD1E101G familial ALS patient to induced pluripotent stem cell line UOWi007"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A40_44",
+      "disease_description": "Familial ALS; SOD1E101G mutation",
+      "disease_name": "Amyotrophic Lateral Sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "SOD1E101G mutation",
+      "loci_name": "SOD1",
+      "mutation_type": "VA"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "non_int_vector_name": "mRNA-based reprogramming with Oct4, Klf4, Sox2, c-Myc, Lin28 and Nanog",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Other"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Wollongong Human Research Ethics Committee",
+      "ethics_number": "HE13/272"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05"
+    }
+  ]
+}

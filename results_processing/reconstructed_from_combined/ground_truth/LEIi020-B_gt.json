@@ -1,0 +1,96 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "LEIi020-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "Missing",
+      "journal": "Missing",
+      "title": "Missing",
+      "first_author": "Missing",
+      "last_author": "Missing",
+      "year": "Missing",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "UN",
+      "disease_description": "Usher syndrome in which the cause of the disease is a mutation in the MYO7A gene",
+      "disease_name": "Usher syndrome type 1B"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "11q13.5",
+      "mutation_type": "VA",
+      "description": "Usher syndrome in which the cause of the disease is a mutation in the MYO7A gene"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "CDX2;PDX1;LEFTY1",
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "HAND1;TBXT;TBX6",
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "RBFOX3;TUBB3;PAX6",
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY,dup(8)(p21.2)",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "EPI"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EF"
+    }
+  ]
+}

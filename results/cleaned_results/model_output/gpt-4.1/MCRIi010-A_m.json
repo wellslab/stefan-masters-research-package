@@ -1,0 +1,166 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "PB010 (MCRIi010-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi010-A"
+    },
+    {
+      "cell_line_alt_name": "ACTA1tdTom; PB010.5-ACTA1tdTom",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi010-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Katerina",
+      "e_mail": "katerina.vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "group": "Murdoch Children's Research Institute"
+    },
+    {
+      "first_name": "Peter",
+      "name_initials": "J",
+      "e_mail": "Peter.houweling@mcri.edu.au",
+      "last_name": "Houweling",
+      "group": "Murdoch Children\u2019s Research Institute (MCRI)"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Andrew G. Elefanty",
+      "year": "2019.0",
+      "first_author": "Katerina Vlahos",
+      "doi": "10.1016/j.scr.2018.101380",
+      "journal": "Stem Cell Research",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults"
+    },
+    {
+      "last_author": "Kathryn N North",
+      "year": "2024.0",
+      "first_author": "Houweling PJ",
+      "doi": "10.1016/j.scr.2024.103313",
+      "journal": "Stem Cell Research",
+      "title": "Generation of a human ACTA1-tdTomato reporter iPSC line using CRISPR/Cas9 editing"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A20_24"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    },
+    {
+      "description": "tdTomato fluorescent protein knock-in at ACTA1 locus with P2A peptide sequence",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "ACTA1",
+      "genotype": "ACTA1:tdTomato knock-in allele = 1119 bp, wildtype allele = 2726 bp",
+      "mutation_type": "GKI"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "EPCAM; CXCR4; KIT",
+      "method_used": "Flow cytometry"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "EPCAM; CD13",
+      "method_used": "Flow cytometry"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6; NESTIN",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "Brachyury; CXCR4",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "summary": "Normal karyotype at 0.5 Mb resolution; identical genotype to corresponding PBMC sample; no major perturbations in genomic integrity.",
+      "karyotype_method": "SNP array"
+    },
+    {
+      "karyotype": "arr(X,Y)x1,(1-22)x2",
+      "summary": "No aneuploidies detected. Identical SNP genotypes (>99.9%) for the entire genome indicating the two samples are from the same individual.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2016",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    },
+    {
+      "i_source_cell_origin_term": "blood",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "RCH Human Research Ethics Committee",
+      "ethics_number": "35121A"
+    },
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "ethics_number": "35121A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "ME"
+    },
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EN"
+    }
+  ]
+}

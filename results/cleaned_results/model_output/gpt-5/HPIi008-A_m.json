@@ -1,0 +1,111 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "HPIi008-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Joshua",
+      "name_initials": "S",
+      "e_mail": "joshua.clayton@perkins.org.au",
+      "last_name": "Clayton",
+      "group": "Harry Perkins Institute of Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2024.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2024.103411",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A25_29",
+      "disease_description": "Dominant missense variant in RYR1 (c.14437C>T; p.His4813Tyr)",
+      "disease_name": "Central core disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Heterozygous RYR1 c.14437C>T (p.His4813Tyr)",
+      "loci_name": "RYR1",
+      "genotype": "Heterozygous RYR1:c.14437C>T (p.His4813Tyr)",
+      "mutation_type": "VA"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "TBXT; BMP4",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "In vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17; GATA4",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "14",
+      "karyotype": "46,XX",
+      "summary": "Normal female karyotype at 400-band resolution; 15 metaphases counted and 5 analyzed.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "EBV-immortalized lymphoblastoid cell (LCL)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/20/1008"
+    },
+    {
+      "institutional_HREC": "Personnes (Est IV)",
+      "ethics_number": "DC-2012-1693"
+    },
+    {
+      "institutional_HREC": "Genethon",
+      "ethics_number": "AC-2018-3165"
+    },
+    {
+      "institutional_HREC": "Genethon",
+      "ethics_number": "IE-2018-994"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

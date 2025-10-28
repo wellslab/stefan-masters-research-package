@@ -1,0 +1,76 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MNZTASi022-A",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MNZTASi022-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "MS Stem biobank (Menzies Institute for Medical Research, Hobart, Tasmania, Australia)"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Brad",
+      "name_initials": "A",
+      "e_mail": "brad.sutherland@utas.edu.au",
+      "last_name": "Sutherland",
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Brad A. Sutherland",
+      "year": "2024.0",
+      "first_author": "Natalie E. King",
+      "doi": "10.1186/s13287-024-03671-x",
+      "journal": "Stem Cell Research & Therapy",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A50_54",
+      "disease_description": "Non-diseased donor",
+      "disease_name": "Healthy"
+    },
+    {
+      "sex": "Male",
+      "age": "A75_79",
+      "disease_description": "Non-diseased donor",
+      "disease_name": "Healthy"
+    },
+    {
+      "sex": "Female",
+      "age": "A55_59",
+      "disease_description": "Non-diseased donor",
+      "disease_name": "Healthy"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "PDGFR\u03b2; CSPG4; ACTA2; CD13",
+      "method_used": "RT-qPCR"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PDGFR\u03b2; CSPG4; ACTA2; CD13",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "ethics_number": "H26563"
+    }
+  ]
+}

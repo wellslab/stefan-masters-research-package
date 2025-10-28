@@ -1,0 +1,35 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "LELi010-B; 1011ips1; 1011ips2",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LELi010-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2017.0",
+      "first_author": "Samuel McLenachan",
+      "doi": "https://doi.org/10.1016/j.stemcr.2017.03.011",
+      "journal": "Stem Cell Reports",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with Usher syndrome using episomal plasmids containing OCT4, SOX2, KLF4, L-MYC, LIN28, mir302/367 microRNA and shRNA for p53"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A1_4",
+      "disease_name": "Usher syndrome"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ]
+}

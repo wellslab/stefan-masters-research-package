@@ -1,0 +1,1975 @@
+2025-10-17 13:43:24,856 - curate_test - INFO - Starting test run with ID: 251017_134324
+2025-10-17 13:43:24,856 - curate_test - INFO - Test Configuration (loaded from config.json):
+2025-10-17 13:43:24,856 - curate_test - INFO -   model: gpt-4.1-nano
+2025-10-17 13:43:24,856 - curate_test - INFO -   temperature: 0.2
+2025-10-17 13:43:24,856 - curate_test - INFO -   max_tokens: 16384
+2025-10-17 13:43:24,856 - curate_test - INFO -   processing_method: vision
+2025-10-17 13:43:24,856 - curate_test - INFO -   instructions_path: ai_curation_instructions.md
+2025-10-17 13:43:24,857 - curate_test - INFO -   output_path: tests/test_curation/gpt-4.1/gpt-4.1-nano/results
+2025-10-17 13:43:24,857 - curate_test - INFO -   articles_path: to_curate
+2025-10-17 13:43:24,857 - curate_test - INFO -   identification_path: tests/test_curation/gpt-4.1/gpt-4.1-nano/results/identify/251007_130429_identify/pmid_to_cell_lines.json
+2025-10-17 13:43:24,857 - curate_test - INFO - Loaded pre-identified cell lines for 48 articles from: /home/stefanmirandadev/projects/stefan-masters-research-package/tests/test_curation/gpt-4.1/gpt-4.1-nano/results/identify/251007_130429_identify/pmid_to_cell_lines.json
+2025-10-17 13:43:24,858 - curate_test - INFO - Testing 54 articles (controlled by pmid_list)
+2025-10-17 13:43:24,858 - curate_test - INFO - Found 54 articles to process:
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 16522163.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 18271699.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 18386991.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 20178001.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 20198447.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 29499499.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 30605840.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 30611018.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 30622032.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 30634128.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 30904819.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 31039485.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 31059986.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 31415975.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 31494449.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 32006803.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 32442534.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 32810830.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 32887382.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 32931148.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 33091851.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 33316599.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 33360097.pdf
+2025-10-17 13:43:24,858 - curate_test - INFO -   - 33429167.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 33740643.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 34088002.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 34157503.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 34198153.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 34214897.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 34388489.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 34507143.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 34619644.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 34649201.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 35074713.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 35679759.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 35728439.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 35728440.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 35917601.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 36166872.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 36682125.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 36805468.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 37150143.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 37315423.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 37385135.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 37494850.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 37939621.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 38029555.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 38244534.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 38277710.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 38433209.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 38458031.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 38479087.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 38582058.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO -   - 38583293.pdf
+2025-10-17 13:43:24,859 - curate_test - INFO - [1/54] Processing: 16522163.pdf
+2025-10-17 13:43:24,860 - curate_test - INFO -   Using pre-identified cell lines: ['hES3.1', 'hES3.2', 'hES3.3', 'hES 3.1', 'hES 3.2', 'hES 3.3']
+2025-10-17 13:43:24,860 - curate_test - INFO -   Curating article...
+2025-10-17 13:43:24,860 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 13:43:27,816 - curate_article - INFO - Successfully converted PDF to 9 images
+2025-10-17 13:43:27,816 - curate_article - INFO - Using pre-identified cell lines: ['hES3.1', 'hES3.2', 'hES3.3', 'hES 3.1', 'hES 3.2', 'hES 3.3']
+2025-10-17 13:43:27,816 - curate_article - INFO - Starting metadata curation for 6 cell lines...
+2025-10-17 13:43:27,816 - curate_article - INFO - [1/6] Processing cell line: hES3.1
+2025-10-17 13:43:27,816 - curate_article - INFO -   Attempt 1/3 - Curating metadata for hES3.1...
+2025-10-17 13:43:30,656 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:44:12,944 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:44:12,956 - curate_article - INFO -   Successfully curated metadata for hES3.1
+2025-10-17 13:44:12,957 - curate_article - INFO - [2/6] Processing cell line: hES3.2
+2025-10-17 13:44:12,957 - curate_article - INFO -   Attempt 1/3 - Curating metadata for hES3.2...
+2025-10-17 13:44:15,750 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:44:54,206 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:44:54,207 - curate_article - INFO -   Successfully curated metadata for hES3.2
+2025-10-17 13:44:54,207 - curate_article - INFO - [3/6] Processing cell line: hES3.3
+2025-10-17 13:44:54,207 - curate_article - INFO -   Attempt 1/3 - Curating metadata for hES3.3...
+2025-10-17 13:44:57,123 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:45:34,590 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:45:34,591 - curate_article - INFO -   Successfully curated metadata for hES3.3
+2025-10-17 13:45:34,591 - curate_article - INFO - [4/6] Processing cell line: hES 3.1
+2025-10-17 13:45:34,591 - curate_article - INFO -   Attempt 1/3 - Curating metadata for hES 3.1...
+2025-10-17 13:45:37,459 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:46:16,543 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:46:16,555 - curate_article - INFO -   Successfully curated metadata for hES 3.1
+2025-10-17 13:46:16,555 - curate_article - INFO - [5/6] Processing cell line: hES 3.2
+2025-10-17 13:46:16,555 - curate_article - INFO -   Attempt 1/3 - Curating metadata for hES 3.2...
+2025-10-17 13:46:19,322 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:46:54,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:46:54,285 - curate_article - INFO -   Successfully curated metadata for hES 3.2
+2025-10-17 13:46:54,285 - curate_article - INFO - [6/6] Processing cell line: hES 3.3
+2025-10-17 13:46:54,285 - curate_article - INFO -   Attempt 1/3 - Curating metadata for hES 3.3...
+2025-10-17 13:46:55,131 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:47:31,423 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:47:31,443 - curate_article - INFO -   Successfully curated metadata for hES 3.3
+2025-10-17 13:47:31,443 - curate_article - INFO - Curation completed - Successfully curated: 6, Failed: 0
+2025-10-17 13:47:31,443 - curate_article - INFO - Total token usage - Prompt: 223098, Completion: 4703, Total: 227801 tokens
+2025-10-17 13:47:31,444 - curate_test - INFO -     Cell line 'hES3.1' curation time: 42.24s
+2025-10-17 13:47:31,444 - curate_test - INFO -     Cell line 'hES3.2' curation time: 38.43s
+2025-10-17 13:47:31,444 - curate_test - INFO -     Cell line 'hES3.3' curation time: 37.44s
+2025-10-17 13:47:31,444 - curate_test - INFO -     Cell line 'hES 3.1' curation time: 39.06s
+2025-10-17 13:47:31,444 - curate_test - INFO -     Cell line 'hES 3.2' curation time: 34.93s
+2025-10-17 13:47:31,444 - curate_test - INFO -     Cell line 'hES 3.3' curation time: 36.28s
+2025-10-17 13:47:31,444 - curate_test - INFO -   Found 6 cell lines
+2025-10-17 13:47:31,444 - curate_test - INFO -   Successfully curated 6 cell lines
+2025-10-17 13:47:31,444 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 13:47:31,444 - curate_test - INFO -   Total cell line curation time: 228.38s
+2025-10-17 13:47:31,444 - curate_test - INFO -   Total article time: 246.58s
+2025-10-17 13:47:31,444 - curate_test - INFO -   Estimated cost: $0.0242
+2025-10-17 13:47:31,445 - curate_test - INFO -     Saved valid metadata for hES3.1
+2025-10-17 13:47:31,445 - curate_test - INFO -     Saved valid metadata for hES3.2
+2025-10-17 13:47:31,445 - curate_test - INFO -     Saved valid metadata for hES3.3
+2025-10-17 13:47:31,445 - curate_test - INFO -     Saved valid metadata for hES 3.1
+2025-10-17 13:47:31,446 - curate_test - INFO -     Saved valid metadata for hES 3.2
+2025-10-17 13:47:31,446 - curate_test - INFO -     Saved valid metadata for hES 3.3
+2025-10-17 13:47:31,446 - curate_test - INFO -   Completed processing 16522163.pdf
+2025-10-17 13:47:31,446 - curate_test - INFO - [2/54] Processing: 18271699.pdf
+2025-10-17 13:47:31,446 - curate_test - INFO -   Using pre-identified cell lines: ['E1', 'E1C1', 'E1C2', 'E1C3', 'E1C4']
+2025-10-17 13:47:31,446 - curate_test - INFO -   Curating article...
+2025-10-17 13:47:31,447 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 13:47:34,708 - curate_article - INFO - Successfully converted PDF to 10 images
+2025-10-17 13:47:34,709 - curate_article - INFO - Using pre-identified cell lines: ['E1', 'E1C1', 'E1C2', 'E1C3', 'E1C4']
+2025-10-17 13:47:34,709 - curate_article - INFO - Starting metadata curation for 5 cell lines...
+2025-10-17 13:47:34,709 - curate_article - INFO - [1/5] Processing cell line: E1
+2025-10-17 13:47:34,709 - curate_article - INFO -   Attempt 1/3 - Curating metadata for E1...
+2025-10-17 13:47:38,031 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:48:26,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:48:26,819 - curate_article - INFO -   Successfully curated metadata for E1
+2025-10-17 13:48:26,819 - curate_article - INFO - [2/5] Processing cell line: E1C1
+2025-10-17 13:48:26,819 - curate_article - INFO -   Attempt 1/3 - Curating metadata for E1C1...
+2025-10-17 13:48:30,094 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:49:12,492 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:49:12,493 - curate_article - INFO -   Successfully curated metadata for E1C1
+2025-10-17 13:49:12,493 - curate_article - INFO - [3/5] Processing cell line: E1C2
+2025-10-17 13:49:12,493 - curate_article - INFO -   Attempt 1/3 - Curating metadata for E1C2...
+2025-10-17 13:49:15,834 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:50:15,508 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:50:15,509 - curate_article - INFO -   Successfully curated metadata for E1C2
+2025-10-17 13:50:15,509 - curate_article - INFO - [4/5] Processing cell line: E1C3
+2025-10-17 13:50:15,509 - curate_article - INFO -   Attempt 1/3 - Curating metadata for E1C3...
+2025-10-17 13:50:18,883 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:51:05,575 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:51:05,576 - curate_article - INFO -   Successfully curated metadata for E1C3
+2025-10-17 13:51:05,576 - curate_article - INFO - [5/5] Processing cell line: E1C4
+2025-10-17 13:51:05,576 - curate_article - INFO -   Attempt 1/3 - Curating metadata for E1C4...
+2025-10-17 13:51:09,173 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:51:58,449 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:51:58,449 - curate_article - INFO -   Successfully curated metadata for E1C4
+2025-10-17 13:51:58,450 - curate_article - INFO - Curation completed - Successfully curated: 5, Failed: 0
+2025-10-17 13:51:58,450 - curate_article - INFO - Total token usage - Prompt: 204306, Completion: 3945, Total: 208251 tokens
+2025-10-17 13:51:58,450 - curate_test - INFO -     Cell line 'E1' curation time: 48.76s
+2025-10-17 13:51:58,450 - curate_test - INFO -     Cell line 'E1C1' curation time: 42.37s
+2025-10-17 13:51:58,450 - curate_test - INFO -     Cell line 'E1C2' curation time: 59.65s
+2025-10-17 13:51:58,450 - curate_test - INFO -     Cell line 'E1C3' curation time: 46.66s
+2025-10-17 13:51:58,450 - curate_test - INFO -     Cell line 'E1C4' curation time: 49.24s
+2025-10-17 13:51:58,450 - curate_test - INFO -   Found 5 cell lines
+2025-10-17 13:51:58,450 - curate_test - INFO -   Successfully curated 5 cell lines
+2025-10-17 13:51:58,450 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 13:51:58,450 - curate_test - INFO -   Total cell line curation time: 246.68s
+2025-10-17 13:51:58,450 - curate_test - INFO -   Total article time: 267.00s
+2025-10-17 13:51:58,450 - curate_test - INFO -   Estimated cost: $0.0220
+2025-10-17 13:51:58,451 - curate_test - INFO -     Saved valid metadata for E1
+2025-10-17 13:51:58,452 - curate_test - INFO -     Saved valid metadata for E1C1
+2025-10-17 13:51:58,453 - curate_test - INFO -     Saved valid metadata for E1C2
+2025-10-17 13:51:58,453 - curate_test - INFO -     Saved valid metadata for E1C3
+2025-10-17 13:51:58,454 - curate_test - INFO -     Saved valid metadata for E1C4
+2025-10-17 13:51:58,454 - curate_test - INFO -   Completed processing 18271699.pdf
+2025-10-17 13:51:58,454 - curate_test - INFO - [3/54] Processing: 18386991.pdf
+2025-10-17 13:51:58,454 - curate_test - INFO -   Using pre-identified cell lines: ['SIVF03', 'SIVF04', 'SIVF05', 'SIVF06', 'SIVF07', 'SIVF08', 'SIVF09', 'SIVF10', 'SIVF11', 'SIVF12', 'SIVF13']
+2025-10-17 13:51:58,454 - curate_test - INFO -   Curating article...
+2025-10-17 13:51:58,454 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 13:52:01,097 - curate_article - INFO - Successfully converted PDF to 10 images
+2025-10-17 13:52:01,097 - curate_article - INFO - Using pre-identified cell lines: ['SIVF03', 'SIVF04', 'SIVF05', 'SIVF06', 'SIVF07', 'SIVF08', 'SIVF09', 'SIVF10', 'SIVF11', 'SIVF12', 'SIVF13']
+2025-10-17 13:52:01,097 - curate_article - INFO - Starting metadata curation for 11 cell lines...
+2025-10-17 13:52:01,097 - curate_article - INFO - [1/11] Processing cell line: SIVF03
+2025-10-17 13:52:01,097 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF03...
+2025-10-17 13:52:03,828 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:52:50,138 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:52:50,141 - curate_article - INFO -   Successfully curated metadata for SIVF03
+2025-10-17 13:52:50,142 - curate_article - INFO - [2/11] Processing cell line: SIVF04
+2025-10-17 13:52:50,142 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF04...
+2025-10-17 13:52:52,820 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:53:28,687 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:53:28,688 - curate_article - INFO -   Successfully curated metadata for SIVF04
+2025-10-17 13:53:28,688 - curate_article - INFO - [3/11] Processing cell line: SIVF05
+2025-10-17 13:53:28,688 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF05...
+2025-10-17 13:53:29,401 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:54:18,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:54:19,646 - curate_article - INFO -   Successfully curated metadata for SIVF05
+2025-10-17 13:54:19,646 - curate_article - INFO - [4/11] Processing cell line: SIVF06
+2025-10-17 13:54:19,646 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF06...
+2025-10-17 13:54:22,655 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:55:01,603 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:55:01,612 - curate_article - INFO -   Successfully curated metadata for SIVF06
+2025-10-17 13:55:01,614 - curate_article - INFO - [5/11] Processing cell line: SIVF07
+2025-10-17 13:55:01,614 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF07...
+2025-10-17 13:55:03,905 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:55:48,057 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:55:48,058 - curate_article - INFO -   Successfully curated metadata for SIVF07
+2025-10-17 13:55:48,058 - curate_article - INFO - [6/11] Processing cell line: SIVF08
+2025-10-17 13:55:48,058 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF08...
+2025-10-17 13:55:51,225 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:56:29,709 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:56:29,714 - curate_article - INFO -   Successfully curated metadata for SIVF08
+2025-10-17 13:56:29,714 - curate_article - INFO - [7/11] Processing cell line: SIVF09
+2025-10-17 13:56:29,714 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF09...
+2025-10-17 13:56:32,647 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:57:09,337 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:57:09,339 - curate_article - INFO -   Successfully curated metadata for SIVF09
+2025-10-17 13:57:09,339 - curate_article - INFO - [8/11] Processing cell line: SIVF10
+2025-10-17 13:57:09,339 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF10...
+2025-10-17 13:57:12,228 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:57:51,413 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:57:51,415 - curate_article - INFO -   Successfully curated metadata for SIVF10
+2025-10-17 13:57:51,415 - curate_article - INFO - [9/11] Processing cell line: SIVF11
+2025-10-17 13:57:51,415 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF11...
+2025-10-17 13:57:54,246 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:58:35,108 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:58:35,121 - curate_article - INFO -   Successfully curated metadata for SIVF11
+2025-10-17 13:58:35,121 - curate_article - INFO - [10/11] Processing cell line: SIVF12
+2025-10-17 13:58:35,121 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF12...
+2025-10-17 13:58:35,991 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:59:15,466 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:59:15,467 - curate_article - INFO -   Successfully curated metadata for SIVF12
+2025-10-17 13:59:15,467 - curate_article - INFO - [11/11] Processing cell line: SIVF13
+2025-10-17 13:59:15,467 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF13...
+2025-10-17 13:59:18,287 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 13:59:58,154 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 13:59:58,164 - curate_article - INFO -   Successfully curated metadata for SIVF13
+2025-10-17 13:59:58,164 - curate_article - INFO - Curation completed - Successfully curated: 11, Failed: 0
+2025-10-17 13:59:58,164 - curate_article - INFO - Total token usage - Prompt: 449482, Completion: 8242, Total: 457724 tokens
+2025-10-17 13:59:58,165 - curate_test - INFO -     Cell line 'SIVF03' curation time: 46.28s
+2025-10-17 13:59:58,165 - curate_test - INFO -     Cell line 'SIVF04' curation time: 35.84s
+2025-10-17 13:59:58,165 - curate_test - INFO -     Cell line 'SIVF05' curation time: 50.21s
+2025-10-17 13:59:58,165 - curate_test - INFO -     Cell line 'SIVF06' curation time: 38.93s
+2025-10-17 13:59:58,165 - curate_test - INFO -     Cell line 'SIVF07' curation time: 43.78s
+2025-10-17 13:59:58,165 - curate_test - INFO -     Cell line 'SIVF08' curation time: 38.44s
+2025-10-17 13:59:58,165 - curate_test - INFO -     Cell line 'SIVF09' curation time: 36.66s
+2025-10-17 13:59:58,165 - curate_test - INFO -     Cell line 'SIVF10' curation time: 39.15s
+2025-10-17 13:59:58,166 - curate_test - INFO -     Cell line 'SIVF11' curation time: 40.84s
+2025-10-17 13:59:58,166 - curate_test - INFO -     Cell line 'SIVF12' curation time: 39.44s
+2025-10-17 13:59:58,166 - curate_test - INFO -     Cell line 'SIVF13' curation time: 39.84s
+2025-10-17 13:59:58,166 - curate_test - INFO -   Found 11 cell lines
+2025-10-17 13:59:58,166 - curate_test - INFO -   Successfully curated 11 cell lines
+2025-10-17 13:59:58,166 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 13:59:58,166 - curate_test - INFO -   Total cell line curation time: 449.42s
+2025-10-17 13:59:58,166 - curate_test - INFO -   Total article time: 479.71s
+2025-10-17 13:59:58,166 - curate_test - INFO -   Estimated cost: $0.0482
+2025-10-17 13:59:58,169 - curate_test - INFO -     Saved valid metadata for SIVF03
+2025-10-17 13:59:58,171 - curate_test - INFO -     Saved valid metadata for SIVF04
+2025-10-17 13:59:58,173 - curate_test - INFO -     Saved valid metadata for SIVF05
+2025-10-17 13:59:58,173 - curate_test - INFO -     Saved valid metadata for SIVF06
+2025-10-17 13:59:58,175 - curate_test - INFO -     Saved valid metadata for SIVF07
+2025-10-17 13:59:58,177 - curate_test - INFO -     Saved valid metadata for SIVF08
+2025-10-17 13:59:58,180 - curate_test - INFO -     Saved valid metadata for SIVF09
+2025-10-17 13:59:58,183 - curate_test - INFO -     Saved valid metadata for SIVF10
+2025-10-17 13:59:58,186 - curate_test - INFO -     Saved valid metadata for SIVF11
+2025-10-17 13:59:58,187 - curate_test - INFO -     Saved valid metadata for SIVF12
+2025-10-17 13:59:58,187 - curate_test - INFO -     Saved valid metadata for SIVF13
+2025-10-17 13:59:58,188 - curate_test - INFO -   Completed processing 18386991.pdf
+2025-10-17 13:59:58,188 - curate_test - INFO - [4/54] Processing: 20178001.pdf
+2025-10-17 13:59:58,191 - curate_test - INFO -   Using pre-identified cell lines: ['E-2']
+2025-10-17 13:59:58,191 - curate_test - INFO -   Curating article...
+2025-10-17 13:59:58,192 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:00:00,591 - curate_article - INFO - Successfully converted PDF to 7 images
+2025-10-17 14:00:00,591 - curate_article - INFO - Using pre-identified cell lines: ['E-2']
+2025-10-17 14:00:00,591 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:00:00,592 - curate_article - INFO - [1/1] Processing cell line: E-2
+2025-10-17 14:00:00,592 - curate_article - INFO -   Attempt 1/3 - Curating metadata for E-2...
+2025-10-17 14:00:02,913 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:00:35,034 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:00:35,044 - curate_article - INFO -   Successfully curated metadata for E-2
+2025-10-17 14:00:35,044 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:00:35,044 - curate_article - INFO - Total token usage - Prompt: 30395, Completion: 731, Total: 31126 tokens
+2025-10-17 14:00:35,044 - curate_test - INFO -     Cell line 'E-2' curation time: 32.09s
+2025-10-17 14:00:35,044 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:00:35,044 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:00:35,044 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:00:35,044 - curate_test - INFO -   Total cell line curation time: 32.09s
+2025-10-17 14:00:35,044 - curate_test - INFO -   Total article time: 36.85s
+2025-10-17 14:00:35,044 - curate_test - INFO -   Estimated cost: $0.0033
+2025-10-17 14:00:35,048 - curate_test - INFO -     Saved valid metadata for E-2
+2025-10-17 14:00:35,048 - curate_test - INFO -   Completed processing 20178001.pdf
+2025-10-17 14:00:35,048 - curate_test - INFO - [5/54] Processing: 20198447.pdf
+2025-10-17 14:00:35,050 - curate_test - INFO -   Using pre-identified cell lines: ['SIVF001', 'SIVF002', 'SIVF014']
+2025-10-17 14:00:35,050 - curate_test - INFO -   Curating article...
+2025-10-17 14:00:35,051 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:00:37,650 - curate_article - INFO - Successfully converted PDF to 6 images
+2025-10-17 14:00:37,650 - curate_article - INFO - Using pre-identified cell lines: ['SIVF001', 'SIVF002', 'SIVF014']
+2025-10-17 14:00:37,650 - curate_article - INFO - Starting metadata curation for 3 cell lines...
+2025-10-17 14:00:37,650 - curate_article - INFO - [1/3] Processing cell line: SIVF001
+2025-10-17 14:00:37,650 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF001...
+2025-10-17 14:00:38,071 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:01:10,343 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:01:10,344 - curate_article - INFO -   Successfully curated metadata for SIVF001
+2025-10-17 14:01:10,344 - curate_article - INFO - [2/3] Processing cell line: SIVF002
+2025-10-17 14:01:10,344 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF002...
+2025-10-17 14:01:12,905 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:01:44,054 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:01:44,062 - curate_article - INFO -   Successfully curated metadata for SIVF002
+2025-10-17 14:01:44,062 - curate_article - INFO - [3/3] Processing cell line: SIVF014
+2025-10-17 14:01:44,062 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF014...
+2025-10-17 14:01:46,578 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:02:14,636 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:02:14,638 - curate_article - INFO -   Successfully curated metadata for SIVF014
+2025-10-17 14:02:14,638 - curate_article - INFO - Curation completed - Successfully curated: 3, Failed: 0
+2025-10-17 14:02:14,638 - curate_article - INFO - Total token usage - Prompt: 79896, Completion: 2134, Total: 82030 tokens
+2025-10-17 14:02:14,638 - curate_test - INFO -     Cell line 'SIVF001' curation time: 32.24s
+2025-10-17 14:02:14,638 - curate_test - INFO -     Cell line 'SIVF002' curation time: 31.12s
+2025-10-17 14:02:14,638 - curate_test - INFO -     Cell line 'SIVF014' curation time: 28.03s
+2025-10-17 14:02:14,638 - curate_test - INFO -   Found 3 cell lines
+2025-10-17 14:02:14,638 - curate_test - INFO -   Successfully curated 3 cell lines
+2025-10-17 14:02:14,638 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:02:14,638 - curate_test - INFO -   Total cell line curation time: 91.39s
+2025-10-17 14:02:14,638 - curate_test - INFO -   Total article time: 99.59s
+2025-10-17 14:02:14,638 - curate_test - INFO -   Estimated cost: $0.0088
+2025-10-17 14:02:14,641 - curate_test - INFO -     Saved valid metadata for SIVF001
+2025-10-17 14:02:14,643 - curate_test - INFO -     Saved valid metadata for SIVF002
+2025-10-17 14:02:14,644 - curate_test - INFO -     Saved valid metadata for SIVF014
+2025-10-17 14:02:14,644 - curate_test - INFO -   Completed processing 20198447.pdf
+2025-10-17 14:02:14,645 - curate_test - INFO - [6/54] Processing: 29499499.pdf
+2025-10-17 14:02:14,651 - curate_test - INFO -   Using pre-identified cell lines: ['RAB39B-Xa', 'RAB39B-Xd']
+2025-10-17 14:02:14,651 - curate_test - INFO -   Curating article...
+2025-10-17 14:02:14,652 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:02:16,140 - curate_article - INFO - Successfully converted PDF to 4 images
+2025-10-17 14:02:16,140 - curate_article - INFO - Using pre-identified cell lines: ['RAB39B-Xa', 'RAB39B-Xd']
+2025-10-17 14:02:16,140 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:02:16,140 - curate_article - INFO - [1/2] Processing cell line: RAB39B-Xa
+2025-10-17 14:02:16,141 - curate_article - INFO -   Attempt 1/3 - Curating metadata for RAB39B-Xa...
+2025-10-17 14:02:17,543 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:02:41,709 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:02:41,710 - curate_article - INFO -   Successfully curated metadata for RAB39B-Xa
+2025-10-17 14:02:41,710 - curate_article - INFO - [2/2] Processing cell line: RAB39B-Xd
+2025-10-17 14:02:41,710 - curate_article - INFO -   Attempt 1/3 - Curating metadata for RAB39B-Xd...
+2025-10-17 14:02:43,202 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:03:08,521 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:03:08,529 - curate_article - INFO -   Successfully curated metadata for RAB39B-Xd
+2025-10-17 14:03:08,530 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:03:08,530 - curate_article - INFO - Total token usage - Prompt: 36676, Completion: 1628, Total: 38304 tokens
+2025-10-17 14:03:08,530 - curate_test - INFO -     Cell line 'RAB39B-Xa' curation time: 24.14s
+2025-10-17 14:03:08,530 - curate_test - INFO -     Cell line 'RAB39B-Xd' curation time: 25.30s
+2025-10-17 14:03:08,530 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:03:08,530 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:03:08,530 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:03:08,530 - curate_test - INFO -   Total cell line curation time: 49.43s
+2025-10-17 14:03:08,530 - curate_test - INFO -   Total article time: 53.88s
+2025-10-17 14:03:08,530 - curate_test - INFO -   Estimated cost: $0.0043
+2025-10-17 14:03:08,531 - curate_test - INFO -     Saved valid metadata for RAB39B-Xa
+2025-10-17 14:03:08,532 - curate_test - INFO -     Saved valid metadata for RAB39B-Xd
+2025-10-17 14:03:08,532 - curate_test - INFO -   Completed processing 29499499.pdf
+2025-10-17 14:03:08,533 - curate_test - INFO - [7/54] Processing: 30605840.pdf
+2025-10-17 14:03:08,538 - curate_test - INFO -   Using pre-identified cell lines: ['MCRIi001-A', 'MCRIi004-A', 'MCRIi005-A', 'MCRIi006-A', 'MCRIi010-A']
+2025-10-17 14:03:08,538 - curate_test - INFO -   Curating article...
+2025-10-17 14:03:08,538 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:03:09,742 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:03:09,743 - curate_article - INFO - Using pre-identified cell lines: ['MCRIi001-A', 'MCRIi004-A', 'MCRIi005-A', 'MCRIi006-A', 'MCRIi010-A']
+2025-10-17 14:03:09,743 - curate_article - INFO - Starting metadata curation for 5 cell lines...
+2025-10-17 14:03:09,743 - curate_article - INFO - [1/5] Processing cell line: MCRIi001-A
+2025-10-17 14:03:09,743 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRIi001-A...
+2025-10-17 14:03:09,044 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:03:31,439 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:03:31,440 - curate_article - INFO -   Successfully curated metadata for MCRIi001-A
+2025-10-17 14:03:31,440 - curate_article - INFO - [2/5] Processing cell line: MCRIi004-A
+2025-10-17 14:03:31,440 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRIi004-A...
+2025-10-17 14:03:32,723 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:03:55,299 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:03:55,301 - curate_article - INFO -   Successfully curated metadata for MCRIi004-A
+2025-10-17 14:03:55,302 - curate_article - INFO - [3/5] Processing cell line: MCRIi005-A
+2025-10-17 14:03:55,302 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRIi005-A...
+2025-10-17 14:03:56,701 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:04:20,261 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:04:20,263 - curate_article - INFO -   Successfully curated metadata for MCRIi005-A
+2025-10-17 14:04:20,264 - curate_article - INFO - [4/5] Processing cell line: MCRIi006-A
+2025-10-17 14:04:20,264 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRIi006-A...
+2025-10-17 14:04:21,585 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:04:39,989 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:04:39,990 - curate_article - INFO -   Successfully curated metadata for MCRIi006-A
+2025-10-17 14:04:39,990 - curate_article - INFO - [5/5] Processing cell line: MCRIi010-A
+2025-10-17 14:04:39,990 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRIi010-A...
+2025-10-17 14:04:41,534 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:05:09,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:05:09,963 - curate_article - INFO -   Successfully curated metadata for MCRIi010-A
+2025-10-17 14:05:09,963 - curate_article - INFO - Curation completed - Successfully curated: 5, Failed: 0
+2025-10-17 14:05:09,963 - curate_article - INFO - Total token usage - Prompt: 109545, Completion: 3839, Total: 113384 tokens
+2025-10-17 14:05:09,963 - curate_test - INFO -     Cell line 'MCRIi001-A' curation time: 22.36s
+2025-10-17 14:05:09,963 - curate_test - INFO -     Cell line 'MCRIi004-A' curation time: 22.55s
+2025-10-17 14:05:09,963 - curate_test - INFO -     Cell line 'MCRIi005-A' curation time: 23.53s
+2025-10-17 14:05:09,963 - curate_test - INFO -     Cell line 'MCRIi006-A' curation time: 18.37s
+2025-10-17 14:05:09,963 - curate_test - INFO -     Cell line 'MCRIi010-A' curation time: 28.39s
+2025-10-17 14:05:09,964 - curate_test - INFO -   Found 5 cell lines
+2025-10-17 14:05:09,964 - curate_test - INFO -   Successfully curated 5 cell lines
+2025-10-17 14:05:09,964 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:05:09,964 - curate_test - INFO -   Total cell line curation time: 115.20s
+2025-10-17 14:05:09,964 - curate_test - INFO -   Total article time: 121.43s
+2025-10-17 14:05:09,964 - curate_test - INFO -   Estimated cost: $0.0125
+2025-10-17 14:05:09,967 - curate_test - INFO -     Saved valid metadata for MCRIi001-A
+2025-10-17 14:05:09,968 - curate_test - INFO -     Saved valid metadata for MCRIi004-A
+2025-10-17 14:05:09,968 - curate_test - INFO -     Saved valid metadata for MCRIi005-A
+2025-10-17 14:05:09,969 - curate_test - INFO -     Saved valid metadata for MCRIi006-A
+2025-10-17 14:05:09,969 - curate_test - INFO -     Saved valid metadata for MCRIi010-A
+2025-10-17 14:05:09,969 - curate_test - INFO -   Completed processing 30605840.pdf
+2025-10-17 14:05:09,969 - curate_test - INFO - [8/54] Processing: 30611018.pdf
+2025-10-17 14:05:09,970 - curate_test - INFO -   Using pre-identified cell lines: ['LEIi008A', 'LEIi009A']
+2025-10-17 14:05:09,970 - curate_test - INFO -   Curating article...
+2025-10-17 14:05:09,970 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:05:11,643 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:05:11,643 - curate_article - INFO - Using pre-identified cell lines: ['LEIi008A', 'LEIi009A']
+2025-10-17 14:05:11,643 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:05:11,644 - curate_article - INFO - [1/2] Processing cell line: LEIi008A
+2025-10-17 14:05:11,644 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi008A...
+2025-10-17 14:05:11,333 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:05:37,282 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:05:37,291 - curate_article - INFO -   Successfully curated metadata for LEIi008A
+2025-10-17 14:05:37,291 - curate_article - INFO - [2/2] Processing cell line: LEIi009A
+2025-10-17 14:05:37,291 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi009A...
+2025-10-17 14:05:38,923 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:06:02,931 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:06:02,932 - curate_article - INFO -   Successfully curated metadata for LEIi009A
+2025-10-17 14:06:02,933 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:06:02,933 - curate_article - INFO - Total token usage - Prompt: 43814, Completion: 1739, Total: 45553 tokens
+2025-10-17 14:06:02,933 - curate_test - INFO -     Cell line 'LEIi008A' curation time: 25.93s
+2025-10-17 14:06:02,933 - curate_test - INFO -     Cell line 'LEIi009A' curation time: 23.98s
+2025-10-17 14:06:02,933 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:06:02,933 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:06:02,933 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:06:02,933 - curate_test - INFO -   Total cell line curation time: 49.90s
+2025-10-17 14:06:02,933 - curate_test - INFO -   Total article time: 52.96s
+2025-10-17 14:06:02,933 - curate_test - INFO -   Estimated cost: $0.0051
+2025-10-17 14:06:02,939 - curate_test - INFO -     Saved valid metadata for LEIi008A
+2025-10-17 14:06:02,940 - curate_test - INFO -     Saved valid metadata for LEIi009A
+2025-10-17 14:06:02,940 - curate_test - INFO -   Completed processing 30611018.pdf
+2025-10-17 14:06:02,940 - curate_test - INFO - [9/54] Processing: 30622032.pdf
+2025-10-17 14:06:02,945 - curate_test - INFO -   Using pre-identified cell lines: ['MICCNi001-A', 'MICCNi001-B', 'MICCNi002-A', 'MICCNi002-B']
+2025-10-17 14:06:02,945 - curate_test - INFO -   Curating article...
+2025-10-17 14:06:02,945 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:06:04,491 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:06:04,491 - curate_article - INFO - Using pre-identified cell lines: ['MICCNi001-A', 'MICCNi001-B', 'MICCNi002-A', 'MICCNi002-B']
+2025-10-17 14:06:04,491 - curate_article - INFO - Starting metadata curation for 4 cell lines...
+2025-10-17 14:06:04,492 - curate_article - INFO - [1/4] Processing cell line: MICCNi001-A
+2025-10-17 14:06:04,492 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MICCNi001-A...
+2025-10-17 14:06:06,009 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:06:25,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:06:25,814 - curate_article - INFO -   Successfully curated metadata for MICCNi001-A
+2025-10-17 14:06:25,814 - curate_article - INFO - [2/4] Processing cell line: MICCNi001-B
+2025-10-17 14:06:25,814 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MICCNi001-B...
+2025-10-17 14:06:27,298 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:06:47,720 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:06:47,722 - curate_article - INFO -   Successfully curated metadata for MICCNi001-B
+2025-10-17 14:06:47,723 - curate_article - INFO - [3/4] Processing cell line: MICCNi002-A
+2025-10-17 14:06:47,723 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MICCNi002-A...
+2025-10-17 14:06:49,178 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:07:13,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:07:13,357 - curate_article - INFO -   Successfully curated metadata for MICCNi002-A
+2025-10-17 14:07:13,357 - curate_article - INFO - [4/4] Processing cell line: MICCNi002-B
+2025-10-17 14:07:13,357 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MICCNi002-B...
+2025-10-17 14:07:12,858 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:07:36,224 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:07:36,225 - curate_article - INFO -   Successfully curated metadata for MICCNi002-B
+2025-10-17 14:07:36,226 - curate_article - INFO - Curation completed - Successfully curated: 4, Failed: 0
+2025-10-17 14:07:36,226 - curate_article - INFO - Total token usage - Prompt: 87636, Completion: 3342, Total: 90978 tokens
+2025-10-17 14:07:36,226 - curate_test - INFO -     Cell line 'MICCNi001-A' curation time: 19.77s
+2025-10-17 14:07:36,226 - curate_test - INFO -     Cell line 'MICCNi001-B' curation time: 20.39s
+2025-10-17 14:07:36,226 - curate_test - INFO -     Cell line 'MICCNi002-A' curation time: 24.15s
+2025-10-17 14:07:36,226 - curate_test - INFO -     Cell line 'MICCNi002-B' curation time: 23.34s
+2025-10-17 14:07:36,226 - curate_test - INFO -   Found 4 cell lines
+2025-10-17 14:07:36,226 - curate_test - INFO -   Successfully curated 4 cell lines
+2025-10-17 14:07:36,226 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:07:36,226 - curate_test - INFO -   Total cell line curation time: 87.66s
+2025-10-17 14:07:36,226 - curate_test - INFO -   Total article time: 93.28s
+2025-10-17 14:07:36,226 - curate_test - INFO -   Estimated cost: $0.0101
+2025-10-17 14:07:36,229 - curate_test - INFO -     Saved valid metadata for MICCNi001-A
+2025-10-17 14:07:36,229 - curate_test - INFO -     Saved valid metadata for MICCNi001-B
+2025-10-17 14:07:36,231 - curate_test - INFO -     Saved valid metadata for MICCNi002-A
+2025-10-17 14:07:36,232 - curate_test - INFO -     Saved valid metadata for MICCNi002-B
+2025-10-17 14:07:36,232 - curate_test - INFO -   Completed processing 30622032.pdf
+2025-10-17 14:07:36,232 - curate_test - INFO - [10/54] Processing: 30634128.pdf
+2025-10-17 14:07:36,232 - curate_test - INFO -   Using pre-identified cell lines: ['LEIi007-A']
+2025-10-17 14:07:36,232 - curate_test - INFO -   Curating article...
+2025-10-17 14:07:36,233 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:07:37,927 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:07:37,927 - curate_article - INFO - Using pre-identified cell lines: ['LEIi007-A']
+2025-10-17 14:07:37,927 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:07:37,927 - curate_article - INFO - [1/1] Processing cell line: LEIi007-A
+2025-10-17 14:07:37,927 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi007-A...
+2025-10-17 14:07:39,618 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:08:02,199 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:08:02,202 - curate_article - INFO -   Successfully curated metadata for LEIi007-A
+2025-10-17 14:08:02,202 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:08:02,202 - curate_article - INFO - Total token usage - Prompt: 21907, Completion: 847, Total: 22754 tokens
+2025-10-17 14:08:02,202 - curate_test - INFO -     Cell line 'LEIi007-A' curation time: 22.55s
+2025-10-17 14:08:02,202 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:08:02,202 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:08:02,202 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:08:02,202 - curate_test - INFO -   Total cell line curation time: 22.55s
+2025-10-17 14:08:02,202 - curate_test - INFO -   Total article time: 25.97s
+2025-10-17 14:08:02,202 - curate_test - INFO -   Estimated cost: $0.0025
+2025-10-17 14:08:02,204 - curate_test - INFO -     Saved valid metadata for LEIi007-A
+2025-10-17 14:08:02,204 - curate_test - INFO -   Completed processing 30634128.pdf
+2025-10-17 14:08:02,204 - curate_test - INFO - [11/54] Processing: 30904819.pdf
+2025-10-17 14:08:02,204 - curate_test - INFO -   Using pre-identified cell lines: ['LELi010-A', 'LELi010-B']
+2025-10-17 14:08:02,205 - curate_test - INFO -   Curating article...
+2025-10-17 14:08:02,205 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:08:04,044 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:08:04,044 - curate_article - INFO - Using pre-identified cell lines: ['LELi010-A', 'LELi010-B']
+2025-10-17 14:08:04,045 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:08:04,045 - curate_article - INFO - [1/2] Processing cell line: LELi010-A
+2025-10-17 14:08:04,045 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LELi010-A...
+2025-10-17 14:08:05,909 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:08:32,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:08:32,934 - curate_article - INFO -   Successfully curated metadata for LELi010-A
+2025-10-17 14:08:32,934 - curate_article - INFO - [2/2] Processing cell line: LELi010-B
+2025-10-17 14:08:32,934 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LELi010-B...
+2025-10-17 14:08:34,863 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:09:05,680 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:09:05,691 - curate_article - INFO -   Successfully curated metadata for LELi010-B
+2025-10-17 14:09:05,692 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:09:05,692 - curate_article - INFO - Total token usage - Prompt: 43816, Completion: 1611, Total: 45427 tokens
+2025-10-17 14:09:05,692 - curate_test - INFO -     Cell line 'LELi010-A' curation time: 27.00s
+2025-10-17 14:09:05,692 - curate_test - INFO -     Cell line 'LELi010-B' curation time: 30.79s
+2025-10-17 14:09:05,692 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:09:05,692 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:09:05,692 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:09:05,692 - curate_test - INFO -   Total cell line curation time: 57.79s
+2025-10-17 14:09:05,692 - curate_test - INFO -   Total article time: 63.49s
+2025-10-17 14:09:05,692 - curate_test - INFO -   Estimated cost: $0.0050
+2025-10-17 14:09:05,696 - curate_test - INFO -     Saved valid metadata for LELi010-A
+2025-10-17 14:09:05,697 - curate_test - INFO -     Saved valid metadata for LELi010-B
+2025-10-17 14:09:05,697 - curate_test - INFO -   Completed processing 30904819.pdf
+2025-10-17 14:09:05,697 - curate_test - INFO - [12/54] Processing: 31039485.pdf
+2025-10-17 14:09:05,698 - curate_test - INFO -   Curating article...
+2025-10-17 14:09:05,698 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:09:06,973 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:09:06,976 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:09:08,182 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:09:08,183 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-17 14:09:08,214 - identify_cell_lines - INFO - Sending 5 images to gpt-4.1-nano for cell line identification...
+2025-10-17 14:09:23,232 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:09:23,233 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 18314, Completion: 9, Total: 18323 tokens
+2025-10-17 14:09:23,233 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-17 14:09:23,234 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-17 14:09:23,234 - curate_test - INFO -   Completed processing 31039485.pdf
+2025-10-17 14:09:23,234 - curate_test - INFO - [13/54] Processing: 31059986.pdf
+2025-10-17 14:09:23,234 - curate_test - INFO -   Using pre-identified cell lines: ['LEIi005-B']
+2025-10-17 14:09:23,234 - curate_test - INFO -   Curating article...
+2025-10-17 14:09:23,235 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:09:24,695 - curate_article - INFO - Successfully converted PDF to 4 images
+2025-10-17 14:09:24,696 - curate_article - INFO - Using pre-identified cell lines: ['LEIi005-B']
+2025-10-17 14:09:24,696 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:09:24,696 - curate_article - INFO - [1/1] Processing cell line: LEIi005-B
+2025-10-17 14:09:24,696 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi005-B...
+2025-10-17 14:09:26,096 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:09:45,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:09:45,576 - curate_article - INFO -   Successfully curated metadata for LEIi005-B
+2025-10-17 14:09:45,577 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:09:45,577 - curate_article - INFO - Total token usage - Prompt: 18334, Completion: 815, Total: 19149 tokens
+2025-10-17 14:09:45,577 - curate_test - INFO -     Cell line 'LEIi005-B' curation time: 19.45s
+2025-10-17 14:09:45,577 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:09:45,577 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:09:45,577 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:09:45,577 - curate_test - INFO -   Total cell line curation time: 19.45s
+2025-10-17 14:09:45,577 - curate_test - INFO -   Total article time: 22.34s
+2025-10-17 14:09:45,577 - curate_test - INFO -   Estimated cost: $0.0022
+2025-10-17 14:09:45,578 - curate_test - INFO -     Saved valid metadata for LEIi005-B
+2025-10-17 14:09:45,578 - curate_test - INFO -   Completed processing 31059986.pdf
+2025-10-17 14:09:45,578 - curate_test - INFO - [14/54] Processing: 31415975.pdf
+2025-10-17 14:09:45,579 - curate_test - INFO -   Using pre-identified cell lines: ['MCRI011-A', 'MCRI013-A', 'MCRI014-A', 'MCRI015-A', 'MCRI016-A', 'MCRI017-A']
+2025-10-17 14:09:45,579 - curate_test - INFO -   Curating article...
+2025-10-17 14:09:45,579 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:09:47,392 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:09:47,392 - curate_article - INFO - Using pre-identified cell lines: ['MCRI011-A', 'MCRI013-A', 'MCRI014-A', 'MCRI015-A', 'MCRI016-A', 'MCRI017-A']
+2025-10-17 14:09:47,392 - curate_article - INFO - Starting metadata curation for 6 cell lines...
+2025-10-17 14:09:47,392 - curate_article - INFO - [1/6] Processing cell line: MCRI011-A
+2025-10-17 14:09:47,392 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI011-A...
+2025-10-17 14:09:49,194 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:10:14,211 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:10:14,211 - curate_article - INFO -   Successfully curated metadata for MCRI011-A
+2025-10-17 14:10:14,212 - curate_article - INFO - [2/6] Processing cell line: MCRI013-A
+2025-10-17 14:10:14,212 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI013-A...
+2025-10-17 14:10:15,985 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:10:45,489 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:10:45,494 - curate_article - INFO -   Successfully curated metadata for MCRI013-A
+2025-10-17 14:10:45,494 - curate_article - INFO - [3/6] Processing cell line: MCRI014-A
+2025-10-17 14:10:45,494 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI014-A...
+2025-10-17 14:10:45,220 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:11:13,176 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:11:13,177 - curate_article - INFO -   Successfully curated metadata for MCRI014-A
+2025-10-17 14:11:13,177 - curate_article - INFO - [4/6] Processing cell line: MCRI015-A
+2025-10-17 14:11:13,177 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI015-A...
+2025-10-17 14:11:14,891 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:11:41,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:11:41,763 - curate_article - INFO -   Successfully curated metadata for MCRI015-A
+2025-10-17 14:11:41,763 - curate_article - INFO - [5/6] Processing cell line: MCRI016-A
+2025-10-17 14:11:41,763 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI016-A...
+2025-10-17 14:11:43,457 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:12:05,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:12:05,547 - curate_article - INFO -   Successfully curated metadata for MCRI016-A
+2025-10-17 14:12:05,547 - curate_article - INFO - [6/6] Processing cell line: MCRI017-A
+2025-10-17 14:12:05,547 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI017-A...
+2025-10-17 14:12:07,210 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:12:29,464 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:12:29,465 - curate_article - INFO -   Successfully curated metadata for MCRI017-A
+2025-10-17 14:12:29,465 - curate_article - INFO - Curation completed - Successfully curated: 6, Failed: 0
+2025-10-17 14:12:29,465 - curate_article - INFO - Total token usage - Prompt: 131442, Completion: 5608, Total: 137050 tokens
+2025-10-17 14:12:29,465 - curate_test - INFO -     Cell line 'MCRI011-A' curation time: 24.98s
+2025-10-17 14:12:29,466 - curate_test - INFO -     Cell line 'MCRI013-A' curation time: 29.48s
+2025-10-17 14:12:29,466 - curate_test - INFO -     Cell line 'MCRI014-A' curation time: 27.92s
+2025-10-17 14:12:29,466 - curate_test - INFO -     Cell line 'MCRI015-A' curation time: 26.84s
+2025-10-17 14:12:29,466 - curate_test - INFO -     Cell line 'MCRI016-A' curation time: 22.06s
+2025-10-17 14:12:29,466 - curate_test - INFO -     Cell line 'MCRI017-A' curation time: 22.22s
+2025-10-17 14:12:29,466 - curate_test - INFO -   Found 6 cell lines
+2025-10-17 14:12:29,466 - curate_test - INFO -   Successfully curated 6 cell lines
+2025-10-17 14:12:29,466 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:12:29,466 - curate_test - INFO -   Total cell line curation time: 153.51s
+2025-10-17 14:12:29,466 - curate_test - INFO -   Total article time: 163.89s
+2025-10-17 14:12:29,466 - curate_test - INFO -   Estimated cost: $0.0154
+2025-10-17 14:12:29,471 - curate_test - INFO -     Saved valid metadata for MCRI011-A
+2025-10-17 14:12:29,472 - curate_test - INFO -     Saved valid metadata for MCRI013-A
+2025-10-17 14:12:29,472 - curate_test - INFO -     Saved valid metadata for MCRI014-A
+2025-10-17 14:12:29,473 - curate_test - INFO -     Saved valid metadata for MCRI015-A
+2025-10-17 14:12:29,475 - curate_test - INFO -     Saved valid metadata for MCRI016-A
+2025-10-17 14:12:29,483 - curate_test - INFO -     Saved valid metadata for MCRI017-A
+2025-10-17 14:12:29,484 - curate_test - INFO -   Completed processing 31415975.pdf
+2025-10-17 14:12:29,484 - curate_test - INFO - [15/54] Processing: 31494449.pdf
+2025-10-17 14:12:29,494 - curate_test - INFO -   Using pre-identified cell lines: ['LEIi011-A', 'LEIi011-B', 'LEIi011-C']
+2025-10-17 14:12:29,495 - curate_test - INFO -   Curating article...
+2025-10-17 14:12:29,495 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:12:31,118 - curate_article - INFO - Successfully converted PDF to 6 images
+2025-10-17 14:12:31,118 - curate_article - INFO - Using pre-identified cell lines: ['LEIi011-A', 'LEIi011-B', 'LEIi011-C']
+2025-10-17 14:12:31,118 - curate_article - INFO - Starting metadata curation for 3 cell lines...
+2025-10-17 14:12:31,118 - curate_article - INFO - [1/3] Processing cell line: LEIi011-A
+2025-10-17 14:12:31,118 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi011-A...
+2025-10-17 14:12:32,715 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:13:00,144 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:13:00,146 - curate_article - INFO -   Successfully curated metadata for LEIi011-A
+2025-10-17 14:13:00,147 - curate_article - INFO - [2/3] Processing cell line: LEIi011-B
+2025-10-17 14:13:00,147 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi011-B...
+2025-10-17 14:13:01,693 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:13:26,392 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:13:26,393 - curate_article - INFO -   Successfully curated metadata for LEIi011-B
+2025-10-17 14:13:26,394 - curate_article - INFO - [3/3] Processing cell line: LEIi011-C
+2025-10-17 14:13:26,394 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi011-C...
+2025-10-17 14:13:27,823 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:13:50,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:13:50,094 - curate_article - INFO -   Successfully curated metadata for LEIi011-C
+2025-10-17 14:13:50,094 - curate_article - INFO - Curation completed - Successfully curated: 3, Failed: 0
+2025-10-17 14:13:50,094 - curate_article - INFO - Total token usage - Prompt: 76440, Completion: 2308, Total: 78748 tokens
+2025-10-17 14:13:50,094 - curate_test - INFO -     Cell line 'LEIi011-A' curation time: 27.39s
+2025-10-17 14:13:50,094 - curate_test - INFO -     Cell line 'LEIi011-B' curation time: 24.66s
+2025-10-17 14:13:50,094 - curate_test - INFO -     Cell line 'LEIi011-C' curation time: 22.24s
+2025-10-17 14:13:50,094 - curate_test - INFO -   Found 3 cell lines
+2025-10-17 14:13:50,094 - curate_test - INFO -   Successfully curated 3 cell lines
+2025-10-17 14:13:50,094 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:13:50,094 - curate_test - INFO -   Total cell line curation time: 74.30s
+2025-10-17 14:13:50,094 - curate_test - INFO -   Total article time: 80.60s
+2025-10-17 14:13:50,095 - curate_test - INFO -   Estimated cost: $0.0086
+2025-10-17 14:13:50,096 - curate_test - INFO -     Saved valid metadata for LEIi011-A
+2025-10-17 14:13:50,096 - curate_test - INFO -     Saved valid metadata for LEIi011-B
+2025-10-17 14:13:50,099 - curate_test - INFO -     Saved valid metadata for LEIi011-C
+2025-10-17 14:13:50,099 - curate_test - INFO -   Completed processing 31494449.pdf
+2025-10-17 14:13:50,099 - curate_test - INFO - [16/54] Processing: 32006803.pdf
+2025-10-17 14:13:50,105 - curate_test - INFO -   Using pre-identified cell lines: ['UOWi007-A']
+2025-10-17 14:13:50,105 - curate_test - INFO -   Curating article...
+2025-10-17 14:13:50,105 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:13:51,142 - curate_article - INFO - Successfully converted PDF to 4 images
+2025-10-17 14:13:51,142 - curate_article - INFO - Using pre-identified cell lines: ['UOWi007-A']
+2025-10-17 14:13:51,142 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:13:51,142 - curate_article - INFO - [1/1] Processing cell line: UOWi007-A
+2025-10-17 14:13:51,142 - curate_article - INFO -   Attempt 1/3 - Curating metadata for UOWi007-A...
+2025-10-17 14:13:52,316 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:14:15,026 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:14:15,028 - curate_article - INFO -   Successfully curated metadata for UOWi007-A
+2025-10-17 14:14:15,028 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:14:15,028 - curate_article - INFO - Total token usage - Prompt: 18336, Completion: 811, Total: 19147 tokens
+2025-10-17 14:14:15,028 - curate_test - INFO -     Cell line 'UOWi007-A' curation time: 22.67s
+2025-10-17 14:14:15,028 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:14:15,028 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:14:15,028 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:14:15,028 - curate_test - INFO -   Total cell line curation time: 22.67s
+2025-10-17 14:14:15,028 - curate_test - INFO -   Total article time: 24.92s
+2025-10-17 14:14:15,029 - curate_test - INFO -   Estimated cost: $0.0022
+2025-10-17 14:14:15,033 - curate_test - INFO -     Saved valid metadata for UOWi007-A
+2025-10-17 14:14:15,033 - curate_test - INFO -   Completed processing 32006803.pdf
+2025-10-17 14:14:15,033 - curate_test - INFO - [17/54] Processing: 32442534.pdf
+2025-10-17 14:14:15,043 - curate_test - INFO -   Using pre-identified cell lines: ['GSE125872', 'GSE102335']
+2025-10-17 14:14:15,043 - curate_test - INFO -   Curating article...
+2025-10-17 14:14:15,044 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:14:18,493 - curate_article - INFO - Successfully converted PDF to 10 images
+2025-10-17 14:14:18,493 - curate_article - INFO - Using pre-identified cell lines: ['GSE125872', 'GSE102335']
+2025-10-17 14:14:18,493 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:14:18,493 - curate_article - INFO - [1/2] Processing cell line: GSE125872
+2025-10-17 14:14:18,493 - curate_article - INFO -   Attempt 1/3 - Curating metadata for GSE125872...
+2025-10-17 14:14:19,991 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:14:57,143 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:14:57,144 - curate_article - INFO -   Successfully curated metadata for GSE125872
+2025-10-17 14:14:57,144 - curate_article - INFO - [2/2] Processing cell line: GSE102335
+2025-10-17 14:14:57,144 - curate_article - INFO -   Attempt 1/3 - Curating metadata for GSE102335...
+2025-10-17 14:15:00,610 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:15:44,403 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:15:44,404 - curate_article - INFO -   Successfully curated metadata for GSE102335
+2025-10-17 14:15:44,404 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:15:44,404 - curate_article - INFO - Total token usage - Prompt: 81724, Completion: 1489, Total: 83213 tokens
+2025-10-17 14:15:44,404 - curate_test - INFO -     Cell line 'GSE125872' curation time: 37.12s
+2025-10-17 14:15:44,404 - curate_test - INFO -     Cell line 'GSE102335' curation time: 43.76s
+2025-10-17 14:15:44,404 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:15:44,404 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:15:44,404 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:15:44,404 - curate_test - INFO -   Total cell line curation time: 80.88s
+2025-10-17 14:15:44,405 - curate_test - INFO -   Total article time: 89.36s
+2025-10-17 14:15:44,405 - curate_test - INFO -   Estimated cost: $0.0088
+2025-10-17 14:15:44,405 - curate_test - INFO -     Saved valid metadata for GSE125872
+2025-10-17 14:15:44,407 - curate_test - INFO -     Saved valid metadata for GSE102335
+2025-10-17 14:15:44,408 - curate_test - INFO -   Completed processing 32442534.pdf
+2025-10-17 14:15:44,408 - curate_test - INFO - [18/54] Processing: 32810830.pdf
+2025-10-17 14:15:44,413 - curate_test - INFO -   Using pre-identified cell lines: ['LELi012-A', 'LELi012-B']
+2025-10-17 14:15:44,413 - curate_test - INFO -   Curating article...
+2025-10-17 14:15:44,413 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:15:45,658 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:15:45,659 - curate_article - INFO - Using pre-identified cell lines: ['LELi012-A', 'LELi012-B']
+2025-10-17 14:15:45,659 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:15:45,659 - curate_article - INFO - [1/2] Processing cell line: LELi012-A
+2025-10-17 14:15:45,659 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LELi012-A...
+2025-10-17 14:15:46,915 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:16:11,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:16:11,393 - curate_article - INFO -   Successfully curated metadata for LELi012-A
+2025-10-17 14:16:11,393 - curate_article - INFO - [2/2] Processing cell line: LELi012-B
+2025-10-17 14:16:11,393 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LELi012-B...
+2025-10-17 14:16:12,712 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:16:34,468 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:16:34,469 - curate_article - INFO -   Successfully curated metadata for LELi012-B
+2025-10-17 14:16:34,469 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:16:34,469 - curate_article - INFO - Total token usage - Prompt: 43816, Completion: 1589, Total: 45405 tokens
+2025-10-17 14:16:34,469 - curate_test - INFO -     Cell line 'LELi012-A' curation time: 24.45s
+2025-10-17 14:16:34,469 - curate_test - INFO -     Cell line 'LELi012-B' curation time: 21.73s
+2025-10-17 14:16:34,469 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:16:34,469 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:16:34,469 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:16:34,469 - curate_test - INFO -   Total cell line curation time: 46.17s
+2025-10-17 14:16:34,470 - curate_test - INFO -   Total article time: 50.06s
+2025-10-17 14:16:34,470 - curate_test - INFO -   Estimated cost: $0.0050
+2025-10-17 14:16:34,471 - curate_test - INFO -     Saved valid metadata for LELi012-A
+2025-10-17 14:16:34,473 - curate_test - INFO -     Saved valid metadata for LELi012-B
+2025-10-17 14:16:34,473 - curate_test - INFO -   Completed processing 32810830.pdf
+2025-10-17 14:16:34,473 - curate_test - INFO - [19/54] Processing: 32887382.pdf
+2025-10-17 14:16:34,484 - curate_test - INFO -   Curating article...
+2025-10-17 14:16:34,485 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:16:37,531 - curate_article - INFO - Successfully converted PDF to 10 images
+2025-10-17 14:16:37,532 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:16:40,670 - identify_cell_lines - INFO - Successfully converted PDF to 10 images
+2025-10-17 14:16:40,671 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-17 14:16:40,701 - identify_cell_lines - INFO - Sending 10 images to gpt-4.1-nano for cell line identification...
+2025-10-17 14:17:05,344 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:17:05,354 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 36679, Completion: 133, Total: 36812 tokens
+2025-10-17 14:17:05,354 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-17 14:17:05,354 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-17 14:17:05,354 - curate_test - INFO -   Completed processing 32887382.pdf
+2025-10-17 14:17:05,355 - curate_test - INFO - [20/54] Processing: 32931148.pdf
+2025-10-17 14:17:05,362 - curate_test - INFO -   Using pre-identified cell lines: ['CRB1', 'c.1892A>G', 'c.2548G>A']
+2025-10-17 14:17:05,362 - curate_test - INFO -   Curating article...
+2025-10-17 14:17:05,363 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:17:08,389 - curate_article - INFO - Successfully converted PDF to 10 images
+2025-10-17 14:17:08,390 - curate_article - INFO - Using pre-identified cell lines: ['CRB1', 'c.1892A>G', 'c.2548G>A']
+2025-10-17 14:17:08,390 - curate_article - INFO - Starting metadata curation for 3 cell lines...
+2025-10-17 14:17:08,390 - curate_article - INFO - [1/3] Processing cell line: CRB1
+2025-10-17 14:17:08,390 - curate_article - INFO -   Attempt 1/3 - Curating metadata for CRB1...
+2025-10-17 14:17:11,299 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:17:53,233 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:17:53,234 - curate_article - INFO -   Successfully curated metadata for CRB1
+2025-10-17 14:17:53,235 - curate_article - INFO - [2/3] Processing cell line: c.1892A>G
+2025-10-17 14:17:53,235 - curate_article - INFO -   Attempt 1/3 - Curating metadata for c.1892A>G...
+2025-10-17 14:17:56,635 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:18:40,143 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:18:40,161 - curate_article - INFO -   Successfully curated metadata for c.1892A>G
+2025-10-17 14:18:40,161 - curate_article - INFO - [3/3] Processing cell line: c.2548G>A
+2025-10-17 14:18:40,161 - curate_article - INFO -   Attempt 1/3 - Curating metadata for c.2548G>A...
+2025-10-17 14:18:44,498 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:19:26,949 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:19:26,951 - curate_article - INFO -   Successfully curated metadata for c.2548G>A
+2025-10-17 14:19:26,951 - curate_article - INFO - Curation completed - Successfully curated: 3, Failed: 0
+2025-10-17 14:19:26,951 - curate_article - INFO - Total token usage - Prompt: 122594, Completion: 2354, Total: 124948 tokens
+2025-10-17 14:19:26,951 - curate_test - INFO -     Cell line 'CRB1' curation time: 41.91s
+2025-10-17 14:19:26,951 - curate_test - INFO -     Cell line 'c.1892A>G' curation time: 43.47s
+2025-10-17 14:19:26,951 - curate_test - INFO -     Cell line 'c.2548G>A' curation time: 42.42s
+2025-10-17 14:19:26,951 - curate_test - INFO -   Found 3 cell lines
+2025-10-17 14:19:26,951 - curate_test - INFO -   Successfully curated 3 cell lines
+2025-10-17 14:19:26,952 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:19:26,952 - curate_test - INFO -   Total cell line curation time: 127.80s
+2025-10-17 14:19:26,952 - curate_test - INFO -   Total article time: 141.59s
+2025-10-17 14:19:26,952 - curate_test - INFO -   Estimated cost: $0.0132
+2025-10-17 14:19:26,970 - curate_test - INFO -     Saved valid metadata for CRB1
+2025-10-17 14:19:27,007 - curate_test - INFO -     Saved valid metadata for c.1892A>G
+2025-10-17 14:19:27,042 - curate_test - INFO -     Saved valid metadata for c.2548G>A
+2025-10-17 14:19:27,042 - curate_test - INFO -   Completed processing 32931148.pdf
+2025-10-17 14:19:27,042 - curate_test - INFO - [21/54] Processing: 33091851.pdf
+2025-10-17 14:19:27,089 - curate_test - INFO -   Using pre-identified cell lines: ['MCRI020-A', 'MCRI021-A', 'MCRI022-A', 'MCRI023-A']
+2025-10-17 14:19:27,089 - curate_test - INFO -   Curating article...
+2025-10-17 14:19:27,090 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:19:29,044 - curate_article - INFO - Successfully converted PDF to 4 images
+2025-10-17 14:19:29,052 - curate_article - INFO - Using pre-identified cell lines: ['MCRI020-A', 'MCRI021-A', 'MCRI022-A', 'MCRI023-A']
+2025-10-17 14:19:29,052 - curate_article - INFO - Starting metadata curation for 4 cell lines...
+2025-10-17 14:19:29,053 - curate_article - INFO - [1/4] Processing cell line: MCRI020-A
+2025-10-17 14:19:29,053 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI020-A...
+2025-10-17 14:19:30,920 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:19:50,888 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:19:50,894 - curate_article - INFO -   Successfully curated metadata for MCRI020-A
+2025-10-17 14:19:50,894 - curate_article - INFO - [2/4] Processing cell line: MCRI021-A
+2025-10-17 14:19:50,894 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI021-A...
+2025-10-17 14:19:52,498 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:20:11,597 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:20:11,598 - curate_article - INFO -   Successfully curated metadata for MCRI021-A
+2025-10-17 14:20:11,598 - curate_article - INFO - [3/4] Processing cell line: MCRI022-A
+2025-10-17 14:20:11,598 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI022-A...
+2025-10-17 14:20:13,218 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:20:32,701 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:20:32,703 - curate_article - INFO -   Successfully curated metadata for MCRI022-A
+2025-10-17 14:20:32,703 - curate_article - INFO - [4/4] Processing cell line: MCRI023-A
+2025-10-17 14:20:32,703 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI023-A...
+2025-10-17 14:20:34,380 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:20:52,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:20:52,833 - curate_article - INFO -   Successfully curated metadata for MCRI023-A
+2025-10-17 14:20:52,833 - curate_article - INFO - Curation completed - Successfully curated: 4, Failed: 0
+2025-10-17 14:20:52,833 - curate_article - INFO - Total token usage - Prompt: 73336, Completion: 3159, Total: 76495 tokens
+2025-10-17 14:20:52,833 - curate_test - INFO -     Cell line 'MCRI020-A' curation time: 19.94s
+2025-10-17 14:20:52,833 - curate_test - INFO -     Cell line 'MCRI021-A' curation time: 19.07s
+2025-10-17 14:20:52,833 - curate_test - INFO -     Cell line 'MCRI022-A' curation time: 19.45s
+2025-10-17 14:20:52,833 - curate_test - INFO -     Cell line 'MCRI023-A' curation time: 18.42s
+2025-10-17 14:20:52,833 - curate_test - INFO -   Found 4 cell lines
+2025-10-17 14:20:52,833 - curate_test - INFO -   Successfully curated 4 cell lines
+2025-10-17 14:20:52,833 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:20:52,833 - curate_test - INFO -   Total cell line curation time: 76.89s
+2025-10-17 14:20:52,833 - curate_test - INFO -   Total article time: 85.74s
+2025-10-17 14:20:52,833 - curate_test - INFO -   Estimated cost: $0.0086
+2025-10-17 14:20:52,838 - curate_test - INFO -     Saved valid metadata for MCRI020-A
+2025-10-17 14:20:52,838 - curate_test - INFO -     Saved valid metadata for MCRI021-A
+2025-10-17 14:20:52,840 - curate_test - INFO -     Saved valid metadata for MCRI022-A
+2025-10-17 14:20:52,842 - curate_test - INFO -     Saved valid metadata for MCRI023-A
+2025-10-17 14:20:52,842 - curate_test - INFO -   Completed processing 33091851.pdf
+2025-10-17 14:20:52,842 - curate_test - INFO - [22/54] Processing: 33316599.pdf
+2025-10-17 14:20:52,853 - curate_test - INFO -   Curating article...
+2025-10-17 14:20:52,854 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:20:54,695 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:20:54,697 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:20:56,581 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:20:56,581 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-17 14:20:56,612 - identify_cell_lines - INFO - Sending 5 images to gpt-4.1-nano for cell line identification...
+2025-10-17 14:21:08,855 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:21:08,856 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 18314, Completion: 8, Total: 18322 tokens
+2025-10-17 14:21:08,857 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-17 14:21:08,857 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-17 14:21:08,857 - curate_test - INFO -   Completed processing 33316599.pdf
+2025-10-17 14:21:08,857 - curate_test - INFO - [23/54] Processing: 33360097.pdf
+2025-10-17 14:21:08,874 - curate_test - INFO -   Using pre-identified cell lines: ['LEIi014-A', 'LEIi014-B', 'LEIi014-C']
+2025-10-17 14:21:08,874 - curate_test - INFO -   Curating article...
+2025-10-17 14:21:08,875 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:21:08,990 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:21:08,990 - curate_article - INFO - Using pre-identified cell lines: ['LEIi014-A', 'LEIi014-B', 'LEIi014-C']
+2025-10-17 14:21:08,990 - curate_article - INFO - Starting metadata curation for 3 cell lines...
+2025-10-17 14:21:08,990 - curate_article - INFO - [1/3] Processing cell line: LEIi014-A
+2025-10-17 14:21:08,990 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi014-A...
+2025-10-17 14:21:10,903 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:21:38,940 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:21:38,945 - curate_article - INFO -   Successfully curated metadata for LEIi014-A
+2025-10-17 14:21:38,946 - curate_article - INFO - [2/3] Processing cell line: LEIi014-B
+2025-10-17 14:21:38,946 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi014-B...
+2025-10-17 14:21:39,055 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:22:06,195 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:22:06,217 - curate_article - INFO -   Successfully curated metadata for LEIi014-B
+2025-10-17 14:22:06,217 - curate_article - INFO - [3/3] Processing cell line: LEIi014-C
+2025-10-17 14:22:06,217 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi014-C...
+2025-10-17 14:22:08,125 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:22:29,850 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:22:29,851 - curate_article - INFO -   Successfully curated metadata for LEIi014-C
+2025-10-17 14:22:29,851 - curate_article - INFO - Curation completed - Successfully curated: 3, Failed: 0
+2025-10-17 14:22:29,851 - curate_article - INFO - Total token usage - Prompt: 65721, Completion: 2443, Total: 68164 tokens
+2025-10-17 14:22:29,851 - curate_test - INFO -     Cell line 'LEIi014-A' curation time: 28.01s
+2025-10-17 14:22:29,851 - curate_test - INFO -     Cell line 'LEIi014-B' curation time: 27.13s
+2025-10-17 14:22:29,851 - curate_test - INFO -     Cell line 'LEIi014-C' curation time: 21.70s
+2025-10-17 14:22:29,851 - curate_test - INFO -   Found 3 cell lines
+2025-10-17 14:22:29,851 - curate_test - INFO -   Successfully curated 3 cell lines
+2025-10-17 14:22:29,851 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:22:29,851 - curate_test - INFO -   Total cell line curation time: 76.84s
+2025-10-17 14:22:29,851 - curate_test - INFO -   Total article time: 80.98s
+2025-10-17 14:22:29,851 - curate_test - INFO -   Estimated cost: $0.0075
+2025-10-17 14:22:30,019 - curate_test - INFO -     Saved valid metadata for LEIi014-A
+2025-10-17 14:22:30,020 - curate_test - INFO -     Saved valid metadata for LEIi014-B
+2025-10-17 14:22:30,022 - curate_test - INFO -     Saved valid metadata for LEIi014-C
+2025-10-17 14:22:30,022 - curate_test - INFO -   Completed processing 33360097.pdf
+2025-10-17 14:22:30,022 - curate_test - INFO - [24/54] Processing: 33429167.pdf
+2025-10-17 14:22:30,034 - curate_test - INFO -   Using pre-identified cell lines: ['LEIi015-A', 'LEIi015-B']
+2025-10-17 14:22:30,034 - curate_test - INFO -   Curating article...
+2025-10-17 14:22:30,035 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:22:32,467 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:22:32,467 - curate_article - INFO - Using pre-identified cell lines: ['LEIi015-A', 'LEIi015-B']
+2025-10-17 14:22:32,467 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:22:32,467 - curate_article - INFO - [1/2] Processing cell line: LEIi015-A
+2025-10-17 14:22:32,467 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi015-A...
+2025-10-17 14:22:34,314 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:23:03,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:23:03,900 - curate_article - INFO -   Successfully curated metadata for LEIi015-A
+2025-10-17 14:23:03,901 - curate_article - INFO - [2/2] Processing cell line: LEIi015-B
+2025-10-17 14:23:03,901 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi015-B...
+2025-10-17 14:23:05,811 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:23:25,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:23:25,501 - curate_article - INFO -   Successfully curated metadata for LEIi015-B
+2025-10-17 14:23:25,501 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:23:25,501 - curate_article - INFO - Total token usage - Prompt: 43814, Completion: 1583, Total: 45397 tokens
+2025-10-17 14:23:25,501 - curate_test - INFO -     Cell line 'LEIi015-A' curation time: 29.56s
+2025-10-17 14:23:25,501 - curate_test - INFO -     Cell line 'LEIi015-B' curation time: 19.66s
+2025-10-17 14:23:25,501 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:23:25,501 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:23:25,501 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:23:25,501 - curate_test - INFO -   Total cell line curation time: 49.22s
+2025-10-17 14:23:25,501 - curate_test - INFO -   Total article time: 55.47s
+2025-10-17 14:23:25,501 - curate_test - INFO -   Estimated cost: $0.0050
+2025-10-17 14:23:25,509 - curate_test - INFO -     Saved valid metadata for LEIi015-A
+2025-10-17 14:23:25,510 - curate_test - INFO -     Saved valid metadata for LEIi015-B
+2025-10-17 14:23:25,510 - curate_test - INFO -   Completed processing 33429167.pdf
+2025-10-17 14:23:25,510 - curate_test - INFO - [25/54] Processing: 33740643.pdf
+2025-10-17 14:23:25,522 - curate_test - INFO -   Using pre-identified cell lines: ['HPI001-A', 'HPI001-B']
+2025-10-17 14:23:25,522 - curate_test - INFO -   Curating article...
+2025-10-17 14:23:25,522 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:23:27,517 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:23:27,517 - curate_article - INFO - Using pre-identified cell lines: ['HPI001-A', 'HPI001-B']
+2025-10-17 14:23:27,517 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:23:27,517 - curate_article - INFO - [1/2] Processing cell line: HPI001-A
+2025-10-17 14:23:27,517 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPI001-A...
+2025-10-17 14:23:29,455 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:23:54,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:23:54,350 - curate_article - INFO -   Successfully curated metadata for HPI001-A
+2025-10-17 14:23:54,350 - curate_article - INFO - [2/2] Processing cell line: HPI001-B
+2025-10-17 14:23:54,350 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPI001-B...
+2025-10-17 14:23:56,367 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:24:21,609 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:24:21,620 - curate_article - INFO -   Successfully curated metadata for HPI001-B
+2025-10-17 14:24:21,620 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:24:21,620 - curate_article - INFO - Total token usage - Prompt: 43814, Completion: 1921, Total: 45735 tokens
+2025-10-17 14:24:21,620 - curate_test - INFO -     Cell line 'HPI001-A' curation time: 24.86s
+2025-10-17 14:24:21,620 - curate_test - INFO -     Cell line 'HPI001-B' curation time: 25.22s
+2025-10-17 14:24:21,620 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:24:21,620 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:24:21,620 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:24:21,621 - curate_test - INFO -   Total cell line curation time: 50.08s
+2025-10-17 14:24:21,621 - curate_test - INFO -   Total article time: 56.10s
+2025-10-17 14:24:21,621 - curate_test - INFO -   Estimated cost: $0.0051
+2025-10-17 14:24:21,838 - curate_test - INFO -     Saved valid metadata for HPI001-A
+2025-10-17 14:24:21,907 - curate_test - INFO -     Saved valid metadata for HPI001-B
+2025-10-17 14:24:21,907 - curate_test - INFO -   Completed processing 33740643.pdf
+2025-10-17 14:24:21,907 - curate_test - INFO - [26/54] Processing: 34088002.pdf
+2025-10-17 14:24:21,978 - curate_test - INFO -   Using pre-identified cell lines: ['UOMELBi002-A']
+2025-10-17 14:24:21,978 - curate_test - INFO -   Curating article...
+2025-10-17 14:24:22,013 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:24:32,343 - curate_article - INFO - Successfully converted PDF to 9 images
+2025-10-17 14:24:32,343 - curate_article - INFO - Using pre-identified cell lines: ['UOMELBi002-A']
+2025-10-17 14:24:32,343 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:24:32,343 - curate_article - INFO - [1/1] Processing cell line: UOMELBi002-A
+2025-10-17 14:24:32,343 - curate_article - INFO -   Attempt 1/3 - Curating metadata for UOMELBi002-A...
+2025-10-17 14:24:34,546 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:25:02,840 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:25:02,847 - curate_article - INFO -   Successfully curated metadata for UOMELBi002-A
+2025-10-17 14:25:02,848 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:25:02,848 - curate_article - INFO - Total token usage - Prompt: 37184, Completion: 826, Total: 38010 tokens
+2025-10-17 14:25:02,848 - curate_test - INFO -     Cell line 'UOMELBi002-A' curation time: 28.27s
+2025-10-17 14:25:02,848 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:25:02,848 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:25:02,848 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:25:02,848 - curate_test - INFO -   Total cell line curation time: 28.27s
+2025-10-17 14:25:02,848 - curate_test - INFO -   Total article time: 40.87s
+2025-10-17 14:25:02,848 - curate_test - INFO -   Estimated cost: $0.0040
+2025-10-17 14:25:02,850 - curate_test - INFO -     Saved valid metadata for UOMELBi002-A
+2025-10-17 14:25:02,850 - curate_test - INFO -   Completed processing 34088002.pdf
+2025-10-17 14:25:02,850 - curate_test - INFO - [27/54] Processing: 34157503.pdf
+2025-10-17 14:25:02,861 - curate_test - INFO -   Curating article...
+2025-10-17 14:25:02,862 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:25:04,534 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:25:04,534 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:25:06,232 - identify_cell_lines - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:25:06,233 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-17 14:25:06,261 - identify_cell_lines - INFO - Sending 5 images to gpt-4.1-nano for cell line identification...
+2025-10-17 14:25:19,104 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:25:19,105 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 18314, Completion: 14, Total: 18328 tokens
+2025-10-17 14:25:19,106 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-17 14:25:19,106 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-17 14:25:19,106 - curate_test - INFO -   Completed processing 34157503.pdf
+2025-10-17 14:25:19,106 - curate_test - INFO - [28/54] Processing: 34198153.pdf
+2025-10-17 14:25:19,117 - curate_test - INFO -   Using pre-identified cell lines: ['LEIi017-A', 'LEIi017-B']
+2025-10-17 14:25:19,117 - curate_test - INFO -   Curating article...
+2025-10-17 14:25:19,117 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:25:20,573 - curate_article - INFO - Successfully converted PDF to 4 images
+2025-10-17 14:25:20,574 - curate_article - INFO - Using pre-identified cell lines: ['LEIi017-A', 'LEIi017-B']
+2025-10-17 14:25:20,574 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:25:20,574 - curate_article - INFO - [1/2] Processing cell line: LEIi017-A
+2025-10-17 14:25:20,574 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi017-A...
+2025-10-17 14:25:22,042 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:25:42,429 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:25:42,440 - curate_article - INFO -   Successfully curated metadata for LEIi017-A
+2025-10-17 14:25:42,440 - curate_article - INFO - [2/2] Processing cell line: LEIi017-B
+2025-10-17 14:25:42,440 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi017-B...
+2025-10-17 14:25:44,012 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:26:05,950 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:26:05,952 - curate_article - INFO -   Successfully curated metadata for LEIi017-B
+2025-10-17 14:26:05,953 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:26:05,953 - curate_article - INFO - Total token usage - Prompt: 36668, Completion: 1691, Total: 38359 tokens
+2025-10-17 14:26:05,953 - curate_test - INFO -     Cell line 'LEIi017-A' curation time: 20.37s
+2025-10-17 14:26:05,953 - curate_test - INFO -     Cell line 'LEIi017-B' curation time: 21.91s
+2025-10-17 14:26:05,953 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:26:05,953 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:26:05,953 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:26:05,953 - curate_test - INFO -   Total cell line curation time: 42.28s
+2025-10-17 14:26:05,953 - curate_test - INFO -   Total article time: 46.84s
+2025-10-17 14:26:05,953 - curate_test - INFO -   Estimated cost: $0.0043
+2025-10-17 14:26:05,955 - curate_test - INFO -     Saved valid metadata for LEIi017-A
+2025-10-17 14:26:05,956 - curate_test - INFO -     Saved valid metadata for LEIi017-B
+2025-10-17 14:26:05,956 - curate_test - INFO -   Completed processing 34198153.pdf
+2025-10-17 14:26:05,956 - curate_test - INFO - [29/54] Processing: 34214897.pdf
+2025-10-17 14:26:05,967 - curate_test - INFO -   Using pre-identified cell lines: ['LEIi018-A']
+2025-10-17 14:26:05,967 - curate_test - INFO -   Curating article...
+2025-10-17 14:26:05,968 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:26:07,534 - curate_article - INFO - Successfully converted PDF to 4 images
+2025-10-17 14:26:07,534 - curate_article - INFO - Using pre-identified cell lines: ['LEIi018-A']
+2025-10-17 14:26:07,534 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:26:07,534 - curate_article - INFO - [1/1] Processing cell line: LEIi018-A
+2025-10-17 14:26:07,534 - curate_article - INFO -   Attempt 1/3 - Curating metadata for LEIi018-A...
+2025-10-17 14:26:09,074 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:26:29,845 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:26:29,846 - curate_article - INFO -   Successfully curated metadata for LEIi018-A
+2025-10-17 14:26:29,846 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:26:29,846 - curate_article - INFO - Total token usage - Prompt: 18334, Completion: 882, Total: 19216 tokens
+2025-10-17 14:26:29,846 - curate_test - INFO -     Cell line 'LEIi018-A' curation time: 20.73s
+2025-10-17 14:26:29,846 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:26:29,846 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:26:29,846 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:26:29,846 - curate_test - INFO -   Total cell line curation time: 20.73s
+2025-10-17 14:26:29,846 - curate_test - INFO -   Total article time: 23.88s
+2025-10-17 14:26:29,847 - curate_test - INFO -   Estimated cost: $0.0022
+2025-10-17 14:26:29,852 - curate_test - INFO -     Saved valid metadata for LEIi018-A
+2025-10-17 14:26:29,853 - curate_test - INFO -   Completed processing 34214897.pdf
+2025-10-17 14:26:29,853 - curate_test - INFO - [30/54] Processing: 34388489.pdf
+2025-10-17 14:26:29,866 - curate_test - INFO -   Using pre-identified cell lines: ['HPIi002-A', 'HPIi002-B']
+2025-10-17 14:26:29,866 - curate_test - INFO -   Curating article...
+2025-10-17 14:26:29,867 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:26:31,819 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:26:31,819 - curate_article - INFO - Using pre-identified cell lines: ['HPIi002-A', 'HPIi002-B']
+2025-10-17 14:26:31,819 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:26:31,819 - curate_article - INFO - [1/2] Processing cell line: HPIi002-A
+2025-10-17 14:26:31,819 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPIi002-A...
+2025-10-17 14:26:33,745 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:26:59,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:26:59,181 - curate_article - INFO -   Successfully curated metadata for HPIi002-A
+2025-10-17 14:26:59,182 - curate_article - INFO - [2/2] Processing cell line: HPIi002-B
+2025-10-17 14:26:59,182 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPIi002-B...
+2025-10-17 14:26:58,148 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:27:21,068 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:27:21,072 - curate_article - INFO -   Successfully curated metadata for HPIi002-B
+2025-10-17 14:27:21,072 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:27:21,072 - curate_article - INFO - Total token usage - Prompt: 43818, Completion: 1654, Total: 45472 tokens
+2025-10-17 14:27:21,072 - curate_test - INFO -     Cell line 'HPIi002-A' curation time: 25.41s
+2025-10-17 14:27:21,072 - curate_test - INFO -     Cell line 'HPIi002-B' curation time: 22.89s
+2025-10-17 14:27:21,072 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:27:21,072 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:27:21,072 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:27:21,072 - curate_test - INFO -   Total cell line curation time: 48.30s
+2025-10-17 14:27:21,072 - curate_test - INFO -   Total article time: 51.21s
+2025-10-17 14:27:21,072 - curate_test - INFO -   Estimated cost: $0.0050
+2025-10-17 14:27:21,075 - curate_test - INFO -     Saved valid metadata for HPIi002-A
+2025-10-17 14:27:21,075 - curate_test - INFO -     Saved valid metadata for HPIi002-B
+2025-10-17 14:27:21,075 - curate_test - INFO -   Completed processing 34388489.pdf
+2025-10-17 14:27:21,075 - curate_test - INFO - [31/54] Processing: 34507143.pdf
+2025-10-17 14:27:21,089 - curate_test - INFO -   Using pre-identified cell lines: ['SIVF001', 'SIVF002']
+2025-10-17 14:27:21,089 - curate_test - INFO -   Curating article...
+2025-10-17 14:27:21,090 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:27:22,868 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:27:22,869 - curate_article - INFO - Using pre-identified cell lines: ['SIVF001', 'SIVF002']
+2025-10-17 14:27:22,869 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:27:22,869 - curate_article - INFO - [1/2] Processing cell line: SIVF001
+2025-10-17 14:27:22,869 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF001...
+2025-10-17 14:27:24,653 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:27:42,778 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:27:42,779 - curate_article - INFO -   Successfully curated metadata for SIVF001
+2025-10-17 14:27:42,779 - curate_article - INFO - [2/2] Processing cell line: SIVF002
+2025-10-17 14:27:42,779 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SIVF002...
+2025-10-17 14:27:44,587 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:28:09,041 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:28:09,042 - curate_article - INFO -   Successfully curated metadata for SIVF002
+2025-10-17 14:28:09,042 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:28:09,042 - curate_article - INFO - Total token usage - Prompt: 43814, Completion: 1652, Total: 45466 tokens
+2025-10-17 14:28:09,042 - curate_test - INFO -     Cell line 'SIVF001' curation time: 18.10s
+2025-10-17 14:28:09,042 - curate_test - INFO -     Cell line 'SIVF002' curation time: 24.42s
+2025-10-17 14:28:09,043 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:28:09,043 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:28:09,043 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:28:09,043 - curate_test - INFO -   Total cell line curation time: 42.52s
+2025-10-17 14:28:09,043 - curate_test - INFO -   Total article time: 47.95s
+2025-10-17 14:28:09,043 - curate_test - INFO -   Estimated cost: $0.0050
+2025-10-17 14:28:09,046 - curate_test - INFO -     Saved valid metadata for SIVF001
+2025-10-17 14:28:09,047 - curate_test - INFO -     Saved valid metadata for SIVF002
+2025-10-17 14:28:09,048 - curate_test - INFO -   Completed processing 34507143.pdf
+2025-10-17 14:28:09,048 - curate_test - INFO - [32/54] Processing: 34619644.pdf
+2025-10-17 14:28:09,056 - curate_test - INFO -   Using pre-identified cell lines: ['ESIBe003-A']
+2025-10-17 14:28:09,056 - curate_test - INFO -   Curating article...
+2025-10-17 14:28:09,057 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:28:10,538 - curate_article - INFO - Successfully converted PDF to 4 images
+2025-10-17 14:28:10,538 - curate_article - INFO - Using pre-identified cell lines: ['ESIBe003-A']
+2025-10-17 14:28:10,538 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:28:10,538 - curate_article - INFO - [1/1] Processing cell line: ESIBe003-A
+2025-10-17 14:28:10,538 - curate_article - INFO -   Attempt 1/3 - Curating metadata for ESIBe003-A...
+2025-10-17 14:28:11,995 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:28:29,041 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:28:29,042 - curate_article - INFO -   Successfully curated metadata for ESIBe003-A
+2025-10-17 14:28:29,042 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:28:29,042 - curate_article - INFO - Total token usage - Prompt: 18336, Completion: 746, Total: 19082 tokens
+2025-10-17 14:28:29,042 - curate_test - INFO -     Cell line 'ESIBe003-A' curation time: 17.02s
+2025-10-17 14:28:29,042 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:28:29,042 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:28:29,043 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:28:29,043 - curate_test - INFO -   Total cell line curation time: 17.02s
+2025-10-17 14:28:29,043 - curate_test - INFO -   Total article time: 19.99s
+2025-10-17 14:28:29,043 - curate_test - INFO -   Estimated cost: $0.0021
+2025-10-17 14:28:29,047 - curate_test - INFO -     Saved valid metadata for ESIBe003-A
+2025-10-17 14:28:29,047 - curate_test - INFO -   Completed processing 34619644.pdf
+2025-10-17 14:28:29,047 - curate_test - INFO - [33/54] Processing: 34649201.pdf
+2025-10-17 14:28:29,057 - curate_test - INFO -   Using pre-identified cell lines: ['AIBNi001-A', 'AIBNi002-A', 'AIBNi003-A', 'AIBNi004-A', 'AIBNi005-A', 'AIBNi006-A', 'AIBN001-A', 'AIBN002-A', 'AIBN003-A', 'AIBN004-A', 'AIBN005-A', 'AIBN006-A']
+2025-10-17 14:28:29,057 - curate_test - INFO -   Curating article...
+2025-10-17 14:28:29,058 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:28:30,690 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:28:30,691 - curate_article - INFO - Using pre-identified cell lines: ['AIBNi001-A', 'AIBNi002-A', 'AIBNi003-A', 'AIBNi004-A', 'AIBNi005-A', 'AIBNi006-A', 'AIBN001-A', 'AIBN002-A', 'AIBN003-A', 'AIBN004-A', 'AIBN005-A', 'AIBN006-A']
+2025-10-17 14:28:30,691 - curate_article - INFO - Starting metadata curation for 12 cell lines...
+2025-10-17 14:28:30,691 - curate_article - INFO - [1/12] Processing cell line: AIBNi001-A
+2025-10-17 14:28:30,691 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi001-A...
+2025-10-17 14:28:32,218 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:28:53,653 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:28:53,655 - curate_article - INFO -   Successfully curated metadata for AIBNi001-A
+2025-10-17 14:28:53,655 - curate_article - INFO - [2/12] Processing cell line: AIBNi002-A
+2025-10-17 14:28:53,655 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi002-A...
+2025-10-17 14:28:55,390 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:29:13,692 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:29:13,694 - curate_article - INFO -   Successfully curated metadata for AIBNi002-A
+2025-10-17 14:29:13,694 - curate_article - INFO - [3/12] Processing cell line: AIBNi003-A
+2025-10-17 14:29:13,694 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi003-A...
+2025-10-17 14:29:15,234 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:29:34,381 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:29:34,388 - curate_article - INFO -   Successfully curated metadata for AIBNi003-A
+2025-10-17 14:29:34,388 - curate_article - INFO - [4/12] Processing cell line: AIBNi004-A
+2025-10-17 14:29:34,388 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi004-A...
+2025-10-17 14:29:36,001 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:29:56,884 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:29:56,900 - curate_article - INFO -   Successfully curated metadata for AIBNi004-A
+2025-10-17 14:29:56,900 - curate_article - INFO - [5/12] Processing cell line: AIBNi005-A
+2025-10-17 14:29:56,900 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi005-A...
+2025-10-17 14:29:58,493 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:30:17,655 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:30:17,660 - curate_article - INFO -   Successfully curated metadata for AIBNi005-A
+2025-10-17 14:30:17,660 - curate_article - INFO - [6/12] Processing cell line: AIBNi006-A
+2025-10-17 14:30:17,660 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi006-A...
+2025-10-17 14:30:19,184 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:30:43,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:30:43,825 - curate_article - INFO -   Successfully curated metadata for AIBNi006-A
+2025-10-17 14:30:43,825 - curate_article - INFO - [7/12] Processing cell line: AIBN001-A
+2025-10-17 14:30:43,826 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBN001-A...
+2025-10-17 14:30:45,487 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:31:05,356 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:31:05,358 - curate_article - INFO -   Successfully curated metadata for AIBN001-A
+2025-10-17 14:31:05,358 - curate_article - INFO - [8/12] Processing cell line: AIBN002-A
+2025-10-17 14:31:05,358 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBN002-A...
+2025-10-17 14:31:07,159 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:31:26,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:31:26,985 - curate_article - INFO -   Successfully curated metadata for AIBN002-A
+2025-10-17 14:31:26,985 - curate_article - INFO - [9/12] Processing cell line: AIBN003-A
+2025-10-17 14:31:26,985 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBN003-A...
+2025-10-17 14:31:28,963 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:31:54,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:31:54,352 - curate_article - INFO -   Successfully curated metadata for AIBN003-A
+2025-10-17 14:31:54,352 - curate_article - INFO - [10/12] Processing cell line: AIBN004-A
+2025-10-17 14:31:54,352 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBN004-A...
+2025-10-17 14:31:55,921 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:32:14,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:32:14,924 - curate_article - INFO -   Successfully curated metadata for AIBN004-A
+2025-10-17 14:32:14,924 - curate_article - INFO - [11/12] Processing cell line: AIBN005-A
+2025-10-17 14:32:14,924 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBN005-A...
+2025-10-17 14:32:16,645 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:32:34,902 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:32:34,905 - curate_article - INFO -   Successfully curated metadata for AIBN005-A
+2025-10-17 14:32:34,905 - curate_article - INFO - [12/12] Processing cell line: AIBN006-A
+2025-10-17 14:32:34,905 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBN006-A...
+2025-10-17 14:32:36,750 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:32:53,776 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:32:53,777 - curate_article - INFO -   Successfully curated metadata for AIBN006-A
+2025-10-17 14:32:53,777 - curate_article - INFO - Curation completed - Successfully curated: 12, Failed: 0
+2025-10-17 14:32:53,777 - curate_article - INFO - Total token usage - Prompt: 262908, Completion: 9534, Total: 272442 tokens
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBNi001-A' curation time: 21.41s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBNi002-A' curation time: 18.27s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBNi003-A' curation time: 19.12s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBNi004-A' curation time: 20.87s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBNi005-A' curation time: 19.13s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBNi006-A' curation time: 24.61s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBN001-A' curation time: 19.84s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBN002-A' curation time: 19.79s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBN003-A' curation time: 25.36s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBN004-A' curation time: 18.97s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBN005-A' curation time: 18.23s
+2025-10-17 14:32:53,778 - curate_test - INFO -     Cell line 'AIBN006-A' curation time: 17.00s
+2025-10-17 14:32:53,778 - curate_test - INFO -   Found 12 cell lines
+2025-10-17 14:32:53,778 - curate_test - INFO -   Successfully curated 12 cell lines
+2025-10-17 14:32:53,778 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:32:53,778 - curate_test - INFO -   Total cell line curation time: 242.61s
+2025-10-17 14:32:53,779 - curate_test - INFO -   Total article time: 264.72s
+2025-10-17 14:32:53,779 - curate_test - INFO -   Estimated cost: $0.0301
+2025-10-17 14:32:53,782 - curate_test - INFO -     Saved valid metadata for AIBNi001-A
+2025-10-17 14:32:53,784 - curate_test - INFO -     Saved valid metadata for AIBNi002-A
+2025-10-17 14:32:53,786 - curate_test - INFO -     Saved valid metadata for AIBNi003-A
+2025-10-17 14:32:53,787 - curate_test - INFO -     Saved valid metadata for AIBNi004-A
+2025-10-17 14:32:53,787 - curate_test - INFO -     Saved valid metadata for AIBNi005-A
+2025-10-17 14:32:53,788 - curate_test - INFO -     Saved valid metadata for AIBNi006-A
+2025-10-17 14:32:53,789 - curate_test - INFO -     Saved valid metadata for AIBN001-A
+2025-10-17 14:32:53,791 - curate_test - INFO -     Saved valid metadata for AIBN002-A
+2025-10-17 14:32:53,795 - curate_test - INFO -     Saved valid metadata for AIBN003-A
+2025-10-17 14:32:53,798 - curate_test - INFO -     Saved valid metadata for AIBN004-A
+2025-10-17 14:32:53,801 - curate_test - INFO -     Saved valid metadata for AIBN005-A
+2025-10-17 14:32:53,803 - curate_test - INFO -     Saved valid metadata for AIBN006-A
+2025-10-17 14:32:53,803 - curate_test - INFO -   Completed processing 34649201.pdf
+2025-10-17 14:32:53,803 - curate_test - INFO - [34/54] Processing: 35074713.pdf
+2025-10-17 14:32:53,817 - curate_test - INFO -   Using pre-identified cell lines: ['AIBNi007-A', 'AIBNi008-A', 'AIBNi009-A', 'AIBNi0010-A', 'AIBNi0011-A', 'AIBNi0012-A']
+2025-10-17 14:32:53,817 - curate_test - INFO -   Curating article...
+2025-10-17 14:32:53,818 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:32:55,999 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:32:55,999 - curate_article - INFO - Using pre-identified cell lines: ['AIBNi007-A', 'AIBNi008-A', 'AIBNi009-A', 'AIBNi0010-A', 'AIBNi0011-A', 'AIBNi0012-A']
+2025-10-17 14:32:55,999 - curate_article - INFO - Starting metadata curation for 6 cell lines...
+2025-10-17 14:32:55,999 - curate_article - INFO - [1/6] Processing cell line: AIBNi007-A
+2025-10-17 14:32:55,999 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi007-A...
+2025-10-17 14:32:57,934 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:33:17,036 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:33:17,037 - curate_article - INFO -   Successfully curated metadata for AIBNi007-A
+2025-10-17 14:33:17,037 - curate_article - INFO - [2/6] Processing cell line: AIBNi008-A
+2025-10-17 14:33:17,037 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi008-A...
+2025-10-17 14:33:19,335 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:33:44,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:33:44,378 - curate_article - INFO -   Successfully curated metadata for AIBNi008-A
+2025-10-17 14:33:44,378 - curate_article - INFO - [3/6] Processing cell line: AIBNi009-A
+2025-10-17 14:33:44,378 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi009-A...
+2025-10-17 14:33:46,163 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:34:05,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:34:05,259 - curate_article - INFO -   Successfully curated metadata for AIBNi009-A
+2025-10-17 14:34:05,259 - curate_article - INFO - [4/6] Processing cell line: AIBNi0010-A
+2025-10-17 14:34:05,259 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi0010-A...
+2025-10-17 14:34:07,607 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:34:25,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:34:25,565 - curate_article - INFO -   Successfully curated metadata for AIBNi0010-A
+2025-10-17 14:34:25,565 - curate_article - INFO - [5/6] Processing cell line: AIBNi0011-A
+2025-10-17 14:34:25,565 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi0011-A...
+2025-10-17 14:34:27,482 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:34:47,095 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:34:47,096 - curate_article - INFO -   Successfully curated metadata for AIBNi0011-A
+2025-10-17 14:34:47,096 - curate_article - INFO - [6/6] Processing cell line: AIBNi0012-A
+2025-10-17 14:34:47,096 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi0012-A...
+2025-10-17 14:34:49,049 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:35:08,881 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:35:08,882 - curate_article - INFO -   Successfully curated metadata for AIBNi0012-A
+2025-10-17 14:35:08,882 - curate_article - INFO - Curation completed - Successfully curated: 6, Failed: 0
+2025-10-17 14:35:08,883 - curate_article - INFO - Total token usage - Prompt: 131460, Completion: 4823, Total: 136283 tokens
+2025-10-17 14:35:08,883 - curate_test - INFO -     Cell line 'AIBNi007-A' curation time: 19.07s
+2025-10-17 14:35:08,883 - curate_test - INFO -     Cell line 'AIBNi008-A' curation time: 25.01s
+2025-10-17 14:35:08,883 - curate_test - INFO -     Cell line 'AIBNi009-A' curation time: 19.07s
+2025-10-17 14:35:08,883 - curate_test - INFO -     Cell line 'AIBNi0010-A' curation time: 17.92s
+2025-10-17 14:35:08,883 - curate_test - INFO -     Cell line 'AIBNi0011-A' curation time: 19.58s
+2025-10-17 14:35:08,883 - curate_test - INFO -     Cell line 'AIBNi0012-A' curation time: 19.80s
+2025-10-17 14:35:08,883 - curate_test - INFO -   Found 6 cell lines
+2025-10-17 14:35:08,883 - curate_test - INFO -   Successfully curated 6 cell lines
+2025-10-17 14:35:08,883 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:35:08,883 - curate_test - INFO -   Total cell line curation time: 120.45s
+2025-10-17 14:35:08,883 - curate_test - INFO -   Total article time: 135.07s
+2025-10-17 14:35:08,883 - curate_test - INFO -   Estimated cost: $0.0151
+2025-10-17 14:35:08,885 - curate_test - INFO -     Saved valid metadata for AIBNi007-A
+2025-10-17 14:35:08,887 - curate_test - INFO -     Saved valid metadata for AIBNi008-A
+2025-10-17 14:35:08,888 - curate_test - INFO -     Saved valid metadata for AIBNi009-A
+2025-10-17 14:35:08,889 - curate_test - INFO -     Saved valid metadata for AIBNi0010-A
+2025-10-17 14:35:08,890 - curate_test - INFO -     Saved valid metadata for AIBNi0011-A
+2025-10-17 14:35:08,893 - curate_test - INFO -     Saved valid metadata for AIBNi0012-A
+2025-10-17 14:35:08,893 - curate_test - INFO -   Completed processing 35074713.pdf
+2025-10-17 14:35:08,893 - curate_test - INFO - [35/54] Processing: 35679759.pdf
+2025-10-17 14:35:08,903 - curate_test - INFO -   Using pre-identified cell lines: ['MNZTAsi002-A', 'MNZTAsi003-A', 'MNZTAsi004-A']
+2025-10-17 14:35:08,903 - curate_test - INFO -   Curating article...
+2025-10-17 14:35:08,904 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:35:10,610 - curate_article - INFO - Successfully converted PDF to 4 images
+2025-10-17 14:35:10,611 - curate_article - INFO - Using pre-identified cell lines: ['MNZTAsi002-A', 'MNZTAsi003-A', 'MNZTAsi004-A']
+2025-10-17 14:35:10,611 - curate_article - INFO - Starting metadata curation for 3 cell lines...
+2025-10-17 14:35:10,611 - curate_article - INFO - [1/3] Processing cell line: MNZTAsi002-A
+2025-10-17 14:35:10,611 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MNZTAsi002-A...
+2025-10-17 14:35:12,423 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:35:35,712 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:35:35,723 - curate_article - INFO -   Successfully curated metadata for MNZTAsi002-A
+2025-10-17 14:35:35,724 - curate_article - INFO - [2/3] Processing cell line: MNZTAsi003-A
+2025-10-17 14:35:35,724 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MNZTAsi003-A...
+2025-10-17 14:35:34,479 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:35:56,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:35:56,519 - curate_article - INFO -   Successfully curated metadata for MNZTAsi003-A
+2025-10-17 14:35:56,519 - curate_article - INFO - [3/3] Processing cell line: MNZTAsi004-A
+2025-10-17 14:35:56,519 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MNZTAsi004-A...
+2025-10-17 14:35:58,131 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:36:15,979 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:36:15,980 - curate_article - INFO -   Successfully curated metadata for MNZTAsi004-A
+2025-10-17 14:36:15,980 - curate_article - INFO - Curation completed - Successfully curated: 3, Failed: 0
+2025-10-17 14:36:15,980 - curate_article - INFO - Total token usage - Prompt: 55014, Completion: 2251, Total: 57265 tokens
+2025-10-17 14:36:15,980 - curate_test - INFO -     Cell line 'MNZTAsi002-A' curation time: 23.27s
+2025-10-17 14:36:15,980 - curate_test - INFO -     Cell line 'MNZTAsi003-A' curation time: 22.01s
+2025-10-17 14:36:15,980 - curate_test - INFO -     Cell line 'MNZTAsi004-A' curation time: 17.82s
+2025-10-17 14:36:15,980 - curate_test - INFO -   Found 3 cell lines
+2025-10-17 14:36:15,980 - curate_test - INFO -   Successfully curated 3 cell lines
+2025-10-17 14:36:15,980 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:36:15,980 - curate_test - INFO -   Total cell line curation time: 63.10s
+2025-10-17 14:36:15,980 - curate_test - INFO -   Total article time: 67.08s
+2025-10-17 14:36:15,981 - curate_test - INFO -   Estimated cost: $0.0064
+2025-10-17 14:36:16,050 - curate_test - INFO -     Saved valid metadata for MNZTAsi002-A
+2025-10-17 14:36:16,194 - curate_test - INFO -     Saved valid metadata for MNZTAsi003-A
+2025-10-17 14:36:16,194 - curate_test - INFO -     Saved valid metadata for MNZTAsi004-A
+2025-10-17 14:36:16,194 - curate_test - INFO -   Completed processing 35679759.pdf
+2025-10-17 14:36:16,194 - curate_test - INFO - [36/54] Processing: 35728439.pdf
+2025-10-17 14:36:16,376 - curate_test - INFO -   Using pre-identified cell lines: ['HPI003-A']
+2025-10-17 14:36:16,376 - curate_test - INFO -   Curating article...
+2025-10-17 14:36:16,377 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:36:18,893 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:36:18,893 - curate_article - INFO - Using pre-identified cell lines: ['HPI003-A']
+2025-10-17 14:36:18,894 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:36:18,894 - curate_article - INFO - [1/1] Processing cell line: HPI003-A
+2025-10-17 14:36:18,894 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPI003-A...
+2025-10-17 14:36:20,550 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:36:41,798 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:36:41,804 - curate_article - INFO -   Successfully curated metadata for HPI003-A
+2025-10-17 14:36:41,804 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:36:41,804 - curate_article - INFO - Total token usage - Prompt: 21907, Completion: 865, Total: 22772 tokens
+2025-10-17 14:36:41,804 - curate_test - INFO -     Cell line 'HPI003-A' curation time: 21.22s
+2025-10-17 14:36:41,804 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:36:41,804 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:36:41,804 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:36:41,804 - curate_test - INFO -   Total cell line curation time: 21.22s
+2025-10-17 14:36:41,804 - curate_test - INFO -   Total article time: 25.43s
+2025-10-17 14:36:41,804 - curate_test - INFO -   Estimated cost: $0.0025
+2025-10-17 14:36:41,806 - curate_test - INFO -     Saved valid metadata for HPI003-A
+2025-10-17 14:36:41,806 - curate_test - INFO -   Completed processing 35728439.pdf
+2025-10-17 14:36:41,806 - curate_test - INFO - [37/54] Processing: 35728440.pdf
+2025-10-17 14:36:41,815 - curate_test - INFO -   Using pre-identified cell lines: ['HPIi004-A', 'HPIi004-B']
+2025-10-17 14:36:41,815 - curate_test - INFO -   Curating article...
+2025-10-17 14:36:41,816 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:36:43,488 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:36:43,488 - curate_article - INFO - Using pre-identified cell lines: ['HPIi004-A', 'HPIi004-B']
+2025-10-17 14:36:43,488 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:36:43,488 - curate_article - INFO - [1/2] Processing cell line: HPIi004-A
+2025-10-17 14:36:43,488 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPIi004-A...
+2025-10-17 14:36:45,190 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:37:10,622 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:37:10,622 - curate_article - INFO -   Successfully curated metadata for HPIi004-A
+2025-10-17 14:37:10,623 - curate_article - INFO - [2/2] Processing cell line: HPIi004-B
+2025-10-17 14:37:10,623 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPIi004-B...
+2025-10-17 14:37:12,302 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:37:36,269 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:37:36,274 - curate_article - INFO -   Successfully curated metadata for HPIi004-B
+2025-10-17 14:37:36,274 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:37:36,274 - curate_article - INFO - Total token usage - Prompt: 43818, Completion: 1891, Total: 45709 tokens
+2025-10-17 14:37:36,274 - curate_test - INFO -     Cell line 'HPIi004-A' curation time: 25.40s
+2025-10-17 14:37:36,274 - curate_test - INFO -     Cell line 'HPIi004-B' curation time: 23.94s
+2025-10-17 14:37:36,274 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:37:36,274 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:37:36,274 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:37:36,274 - curate_test - INFO -   Total cell line curation time: 49.34s
+2025-10-17 14:37:36,274 - curate_test - INFO -   Total article time: 54.46s
+2025-10-17 14:37:36,274 - curate_test - INFO -   Estimated cost: $0.0051
+2025-10-17 14:37:36,278 - curate_test - INFO -     Saved valid metadata for HPIi004-A
+2025-10-17 14:37:36,279 - curate_test - INFO -     Saved valid metadata for HPIi004-B
+2025-10-17 14:37:36,279 - curate_test - INFO -   Completed processing 35728440.pdf
+2025-10-17 14:37:36,279 - curate_test - INFO - [38/54] Processing: 35917601.pdf
+2025-10-17 14:37:36,291 - curate_test - INFO -   Using pre-identified cell lines: ['UOCi001-A', 'UOCi002-A', 'CIM001.4', 'CIM008.6']
+2025-10-17 14:37:36,291 - curate_test - INFO -   Curating article...
+2025-10-17 14:37:36,292 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:37:38,205 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:37:38,205 - curate_article - INFO - Using pre-identified cell lines: ['UOCi001-A', 'UOCi002-A', 'CIM001.4', 'CIM008.6']
+2025-10-17 14:37:38,205 - curate_article - INFO - Starting metadata curation for 4 cell lines...
+2025-10-17 14:37:38,205 - curate_article - INFO - [1/4] Processing cell line: UOCi001-A
+2025-10-17 14:37:38,206 - curate_article - INFO -   Attempt 1/3 - Curating metadata for UOCi001-A...
+2025-10-17 14:37:40,238 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:38:02,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:38:02,961 - curate_article - INFO -   Successfully curated metadata for UOCi001-A
+2025-10-17 14:38:02,961 - curate_article - INFO - [2/4] Processing cell line: UOCi002-A
+2025-10-17 14:38:02,961 - curate_article - INFO -   Attempt 1/3 - Curating metadata for UOCi002-A...
+2025-10-17 14:38:04,860 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:38:25,698 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:38:25,699 - curate_article - INFO -   Successfully curated metadata for UOCi002-A
+2025-10-17 14:38:25,700 - curate_article - INFO - [3/4] Processing cell line: CIM001.4
+2025-10-17 14:38:25,700 - curate_article - INFO -   Attempt 1/3 - Curating metadata for CIM001.4...
+2025-10-17 14:38:27,766 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:38:50,693 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:38:50,694 - curate_article - INFO -   Successfully curated metadata for CIM001.4
+2025-10-17 14:38:50,694 - curate_article - INFO - [4/4] Processing cell line: CIM008.6
+2025-10-17 14:38:50,694 - curate_article - INFO -   Attempt 1/3 - Curating metadata for CIM008.6...
+2025-10-17 14:38:52,588 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:39:14,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:39:14,137 - curate_article - INFO -   Successfully curated metadata for CIM008.6
+2025-10-17 14:39:14,137 - curate_article - INFO - Curation completed - Successfully curated: 4, Failed: 0
+2025-10-17 14:39:14,137 - curate_article - INFO - Total token usage - Prompt: 87634, Completion: 3179, Total: 90813 tokens
+2025-10-17 14:39:14,137 - curate_test - INFO -     Cell line 'UOCi001-A' curation time: 22.69s
+2025-10-17 14:39:14,137 - curate_test - INFO -     Cell line 'UOCi002-A' curation time: 20.81s
+2025-10-17 14:39:14,137 - curate_test - INFO -     Cell line 'CIM001.4' curation time: 22.90s
+2025-10-17 14:39:14,137 - curate_test - INFO -     Cell line 'CIM008.6' curation time: 21.52s
+2025-10-17 14:39:14,137 - curate_test - INFO -   Found 4 cell lines
+2025-10-17 14:39:14,137 - curate_test - INFO -   Successfully curated 4 cell lines
+2025-10-17 14:39:14,137 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:39:14,137 - curate_test - INFO -   Total cell line curation time: 87.92s
+2025-10-17 14:39:14,137 - curate_test - INFO -   Total article time: 97.85s
+2025-10-17 14:39:14,138 - curate_test - INFO -   Estimated cost: $0.0100
+2025-10-17 14:39:14,138 - curate_test - INFO -     Saved valid metadata for UOCi001-A
+2025-10-17 14:39:14,139 - curate_test - INFO -     Saved valid metadata for UOCi002-A
+2025-10-17 14:39:14,140 - curate_test - INFO -     Saved valid metadata for CIM001.4
+2025-10-17 14:39:14,143 - curate_test - INFO -     Saved valid metadata for CIM008.6
+2025-10-17 14:39:14,143 - curate_test - INFO -   Completed processing 35917601.pdf
+2025-10-17 14:39:14,143 - curate_test - INFO - [39/54] Processing: 36166872.pdf
+2025-10-17 14:39:14,161 - curate_test - INFO -   Using pre-identified cell lines: ['AIBNi015-A', 'AIBNi016-A', 'AIBNi017-A', 'AIBNi018-A']
+2025-10-17 14:39:14,161 - curate_test - INFO -   Curating article...
+2025-10-17 14:39:14,161 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:39:16,274 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:39:16,274 - curate_article - INFO - Using pre-identified cell lines: ['AIBNi015-A', 'AIBNi016-A', 'AIBNi017-A', 'AIBNi018-A']
+2025-10-17 14:39:16,274 - curate_article - INFO - Starting metadata curation for 4 cell lines...
+2025-10-17 14:39:16,274 - curate_article - INFO - [1/4] Processing cell line: AIBNi015-A
+2025-10-17 14:39:16,274 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi015-A...
+2025-10-17 14:39:18,401 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:39:43,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:39:43,947 - curate_article - INFO -   Successfully curated metadata for AIBNi015-A
+2025-10-17 14:39:43,947 - curate_article - INFO - [2/4] Processing cell line: AIBNi016-A
+2025-10-17 14:39:43,948 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi016-A...
+2025-10-17 14:39:46,168 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:40:12,402 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:40:12,403 - curate_article - INFO -   Successfully curated metadata for AIBNi016-A
+2025-10-17 14:40:12,403 - curate_article - INFO - [3/4] Processing cell line: AIBNi017-A
+2025-10-17 14:40:12,403 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi017-A...
+2025-10-17 14:40:14,996 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:40:40,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:40:40,499 - curate_article - INFO -   Successfully curated metadata for AIBNi017-A
+2025-10-17 14:40:40,499 - curate_article - INFO - [4/4] Processing cell line: AIBNi018-A
+2025-10-17 14:40:40,499 - curate_article - INFO -   Attempt 1/3 - Curating metadata for AIBNi018-A...
+2025-10-17 14:40:43,219 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:41:12,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:41:12,803 - curate_article - INFO -   Successfully curated metadata for AIBNi018-A
+2025-10-17 14:41:12,803 - curate_article - INFO - Curation completed - Successfully curated: 4, Failed: 0
+2025-10-17 14:41:12,803 - curate_article - INFO - Total token usage - Prompt: 87636, Completion: 3322, Total: 90958 tokens
+2025-10-17 14:41:12,803 - curate_test - INFO -     Cell line 'AIBNi015-A' curation time: 25.52s
+2025-10-17 14:41:12,803 - curate_test - INFO -     Cell line 'AIBNi016-A' curation time: 26.21s
+2025-10-17 14:41:12,803 - curate_test - INFO -     Cell line 'AIBNi017-A' curation time: 25.45s
+2025-10-17 14:41:12,803 - curate_test - INFO -     Cell line 'AIBNi018-A' curation time: 29.55s
+2025-10-17 14:41:12,803 - curate_test - INFO -   Found 4 cell lines
+2025-10-17 14:41:12,803 - curate_test - INFO -   Successfully curated 4 cell lines
+2025-10-17 14:41:12,803 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:41:12,803 - curate_test - INFO -   Total cell line curation time: 106.73s
+2025-10-17 14:41:12,803 - curate_test - INFO -   Total article time: 118.64s
+2025-10-17 14:41:12,803 - curate_test - INFO -   Estimated cost: $0.0101
+2025-10-17 14:41:12,807 - curate_test - INFO -     Saved valid metadata for AIBNi015-A
+2025-10-17 14:41:12,808 - curate_test - INFO -     Saved valid metadata for AIBNi016-A
+2025-10-17 14:41:12,808 - curate_test - INFO -     Saved valid metadata for AIBNi017-A
+2025-10-17 14:41:12,812 - curate_test - INFO -     Saved valid metadata for AIBNi018-A
+2025-10-17 14:41:12,812 - curate_test - INFO -   Completed processing 36166872.pdf
+2025-10-17 14:41:12,812 - curate_test - INFO - [40/54] Processing: 36682125.pdf
+2025-10-17 14:41:12,821 - curate_test - INFO -   Using pre-identified cell lines: ['MCRI019-A-6']
+2025-10-17 14:41:12,821 - curate_test - INFO -   Curating article...
+2025-10-17 14:41:12,822 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:41:15,002 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:41:15,002 - curate_article - INFO - Using pre-identified cell lines: ['MCRI019-A-6']
+2025-10-17 14:41:15,002 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:41:15,002 - curate_article - INFO - [1/1] Processing cell line: MCRI019-A-6
+2025-10-17 14:41:15,002 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MCRI019-A-6...
+2025-10-17 14:41:16,885 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:41:39,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:41:39,930 - curate_article - INFO -   Successfully curated metadata for MCRI019-A-6
+2025-10-17 14:41:39,930 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:41:39,930 - curate_article - INFO - Total token usage - Prompt: 21911, Completion: 817, Total: 22728 tokens
+2025-10-17 14:41:39,930 - curate_test - INFO -     Cell line 'MCRI019-A-6' curation time: 23.01s
+2025-10-17 14:41:39,930 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:41:39,930 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:41:39,930 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:41:39,930 - curate_test - INFO -   Total cell line curation time: 23.01s
+2025-10-17 14:41:39,930 - curate_test - INFO -   Total article time: 27.11s
+2025-10-17 14:41:39,930 - curate_test - INFO -   Estimated cost: $0.0025
+2025-10-17 14:41:39,931 - curate_test - INFO -     Saved valid metadata for MCRI019-A-6
+2025-10-17 14:41:39,931 - curate_test - INFO -   Completed processing 36682125.pdf
+2025-10-17 14:41:39,931 - curate_test - INFO - [41/54] Processing: 36805468.pdf
+2025-10-17 14:41:39,945 - curate_test - INFO -   Using pre-identified cell lines: ['CANVAS1-2', 'CANVAS3-2', 'CANVAS4-6']
+2025-10-17 14:41:39,945 - curate_test - INFO -   Curating article...
+2025-10-17 14:41:39,946 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:41:42,390 - curate_article - INFO - Successfully converted PDF to 6 images
+2025-10-17 14:41:42,390 - curate_article - INFO - Using pre-identified cell lines: ['CANVAS1-2', 'CANVAS3-2', 'CANVAS4-6']
+2025-10-17 14:41:42,391 - curate_article - INFO - Starting metadata curation for 3 cell lines...
+2025-10-17 14:41:42,391 - curate_article - INFO - [1/3] Processing cell line: CANVAS1-2
+2025-10-17 14:41:42,391 - curate_article - INFO -   Attempt 1/3 - Curating metadata for CANVAS1-2...
+2025-10-17 14:41:44,714 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:42:08,206 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:42:08,215 - curate_article - INFO -   Successfully curated metadata for CANVAS1-2
+2025-10-17 14:42:08,216 - curate_article - INFO - [2/3] Processing cell line: CANVAS3-2
+2025-10-17 14:42:08,216 - curate_article - INFO -   Attempt 1/3 - Curating metadata for CANVAS3-2...
+2025-10-17 14:42:10,574 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:42:36,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:42:36,383 - curate_article - INFO -   Successfully curated metadata for CANVAS3-2
+2025-10-17 14:42:36,383 - curate_article - INFO - [3/3] Processing cell line: CANVAS4-6
+2025-10-17 14:42:36,383 - curate_article - INFO -   Attempt 1/3 - Curating metadata for CANVAS4-6...
+2025-10-17 14:42:38,777 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:43:02,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:43:02,411 - curate_article - INFO -   Successfully curated metadata for CANVAS4-6
+2025-10-17 14:43:02,411 - curate_article - INFO - Curation completed - Successfully curated: 3, Failed: 0
+2025-10-17 14:43:02,411 - curate_article - INFO - Total token usage - Prompt: 76446, Completion: 2413, Total: 78859 tokens
+2025-10-17 14:43:02,411 - curate_test - INFO -     Cell line 'CANVAS1-2' curation time: 23.47s
+2025-10-17 14:43:02,411 - curate_test - INFO -     Cell line 'CANVAS3-2' curation time: 25.77s
+2025-10-17 14:43:02,411 - curate_test - INFO -     Cell line 'CANVAS4-6' curation time: 23.60s
+2025-10-17 14:43:02,411 - curate_test - INFO -   Found 3 cell lines
+2025-10-17 14:43:02,411 - curate_test - INFO -   Successfully curated 3 cell lines
+2025-10-17 14:43:02,411 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:43:02,412 - curate_test - INFO -   Total cell line curation time: 72.84s
+2025-10-17 14:43:02,412 - curate_test - INFO -   Total article time: 82.47s
+2025-10-17 14:43:02,412 - curate_test - INFO -   Estimated cost: $0.0086
+2025-10-17 14:43:03,172 - curate_test - INFO -     Saved valid metadata for CANVAS1-2
+2025-10-17 14:43:03,194 - curate_test - INFO -     Saved valid metadata for CANVAS3-2
+2025-10-17 14:43:03,197 - curate_test - INFO -     Saved valid metadata for CANVAS4-6
+2025-10-17 14:43:03,197 - curate_test - INFO -   Completed processing 36805468.pdf
+2025-10-17 14:43:03,197 - curate_test - INFO - [42/54] Processing: 37150143.pdf
+2025-10-17 14:43:03,217 - curate_test - INFO -   Using pre-identified cell lines: ['PB002', 'PB003', 'PB007', 'PB008', 'PB009']
+2025-10-17 14:43:03,217 - curate_test - INFO -   Curating article...
+2025-10-17 14:43:03,218 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:43:04,953 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:43:04,953 - curate_article - INFO - Using pre-identified cell lines: ['PB002', 'PB003', 'PB007', 'PB008', 'PB009']
+2025-10-17 14:43:04,953 - curate_article - INFO - Starting metadata curation for 5 cell lines...
+2025-10-17 14:43:04,954 - curate_article - INFO - [1/5] Processing cell line: PB002
+2025-10-17 14:43:04,954 - curate_article - INFO -   Attempt 1/3 - Curating metadata for PB002...
+2025-10-17 14:43:06,558 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:43:26,436 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:43:26,450 - curate_article - INFO -   Successfully curated metadata for PB002
+2025-10-17 14:43:26,450 - curate_article - INFO - [2/5] Processing cell line: PB003
+2025-10-17 14:43:26,450 - curate_article - INFO -   Attempt 1/3 - Curating metadata for PB003...
+2025-10-17 14:43:28,307 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:43:48,250 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:43:48,251 - curate_article - INFO -   Successfully curated metadata for PB003
+2025-10-17 14:43:48,251 - curate_article - INFO - [3/5] Processing cell line: PB007
+2025-10-17 14:43:48,251 - curate_article - INFO -   Attempt 1/3 - Curating metadata for PB007...
+2025-10-17 14:43:49,790 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:44:12,134 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:44:12,144 - curate_article - INFO -   Successfully curated metadata for PB007
+2025-10-17 14:44:12,144 - curate_article - INFO - [4/5] Processing cell line: PB008
+2025-10-17 14:44:12,144 - curate_article - INFO -   Attempt 1/3 - Curating metadata for PB008...
+2025-10-17 14:44:13,792 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:44:34,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:44:34,244 - curate_article - INFO -   Successfully curated metadata for PB008
+2025-10-17 14:44:34,244 - curate_article - INFO - [5/5] Processing cell line: PB009
+2025-10-17 14:44:34,244 - curate_article - INFO -   Attempt 1/3 - Curating metadata for PB009...
+2025-10-17 14:44:35,884 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:44:58,430 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:44:58,441 - curate_article - INFO -   Successfully curated metadata for PB009
+2025-10-17 14:44:58,441 - curate_article - INFO - Curation completed - Successfully curated: 5, Failed: 0
+2025-10-17 14:44:58,442 - curate_article - INFO - Total token usage - Prompt: 109515, Completion: 3848, Total: 113363 tokens
+2025-10-17 14:44:58,442 - curate_test - INFO -     Cell line 'PB002' curation time: 19.77s
+2025-10-17 14:44:58,442 - curate_test - INFO -     Cell line 'PB003' curation time: 19.91s
+2025-10-17 14:44:58,442 - curate_test - INFO -     Cell line 'PB007' curation time: 22.32s
+2025-10-17 14:44:58,442 - curate_test - INFO -     Cell line 'PB008' curation time: 20.42s
+2025-10-17 14:44:58,442 - curate_test - INFO -     Cell line 'PB009' curation time: 22.53s
+2025-10-17 14:44:58,442 - curate_test - INFO -   Found 5 cell lines
+2025-10-17 14:44:58,442 - curate_test - INFO -   Successfully curated 5 cell lines
+2025-10-17 14:44:58,442 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:44:58,442 - curate_test - INFO -   Total cell line curation time: 104.96s
+2025-10-17 14:44:58,442 - curate_test - INFO -   Total article time: 115.22s
+2025-10-17 14:44:58,442 - curate_test - INFO -   Estimated cost: $0.0125
+2025-10-17 14:44:58,445 - curate_test - INFO -     Saved valid metadata for PB002
+2025-10-17 14:44:58,447 - curate_test - INFO -     Saved valid metadata for PB003
+2025-10-17 14:44:58,458 - curate_test - INFO -     Saved valid metadata for PB007
+2025-10-17 14:44:58,459 - curate_test - INFO -     Saved valid metadata for PB008
+2025-10-17 14:44:58,460 - curate_test - INFO -     Saved valid metadata for PB009
+2025-10-17 14:44:58,460 - curate_test - INFO -   Completed processing 37150143.pdf
+2025-10-17 14:44:58,460 - curate_test - INFO - [43/54] Processing: 37315423.pdf
+2025-10-17 14:44:58,470 - curate_test - INFO -   Curating article...
+2025-10-17 14:44:58,471 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:45:00,283 - curate_article - INFO - Successfully converted PDF to 6 images
+2025-10-17 14:45:00,284 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:45:02,187 - identify_cell_lines - INFO - Successfully converted PDF to 6 images
+2025-10-17 14:45:02,188 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-17 14:45:02,222 - identify_cell_lines - INFO - Sending 6 images to gpt-4.1-nano for cell line identification...
+2025-10-17 14:45:14,856 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:45:14,857 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 21887, Completion: 8, Total: 21895 tokens
+2025-10-17 14:45:14,857 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-17 14:45:14,857 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-17 14:45:14,857 - curate_test - INFO -   Completed processing 37315423.pdf
+2025-10-17 14:45:14,858 - curate_test - INFO - [44/54] Processing: 37385135.pdf
+2025-10-17 14:45:14,873 - curate_test - INFO -   Using pre-identified cell lines: ['SCN5A']
+2025-10-17 14:45:14,873 - curate_test - INFO -   Curating article...
+2025-10-17 14:45:14,873 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:45:17,713 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:45:17,714 - curate_article - INFO - Using pre-identified cell lines: ['SCN5A']
+2025-10-17 14:45:17,714 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:45:17,714 - curate_article - INFO - [1/1] Processing cell line: SCN5A
+2025-10-17 14:45:17,714 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SCN5A...
+2025-10-17 14:45:20,115 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:45:42,818 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:45:42,824 - curate_article - INFO -   Successfully curated metadata for SCN5A
+2025-10-17 14:45:42,825 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:45:42,825 - curate_article - INFO - Total token usage - Prompt: 21907, Completion: 791, Total: 22698 tokens
+2025-10-17 14:45:42,825 - curate_test - INFO -     Cell line 'SCN5A' curation time: 22.68s
+2025-10-17 14:45:42,825 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:45:42,825 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:45:42,825 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:45:42,825 - curate_test - INFO -   Total cell line curation time: 22.68s
+2025-10-17 14:45:42,825 - curate_test - INFO -   Total article time: 27.95s
+2025-10-17 14:45:42,825 - curate_test - INFO -   Estimated cost: $0.0025
+2025-10-17 14:45:42,828 - curate_test - INFO -     Saved valid metadata for SCN5A
+2025-10-17 14:45:42,829 - curate_test - INFO -   Completed processing 37385135.pdf
+2025-10-17 14:45:42,829 - curate_test - INFO - [45/54] Processing: 37494850.pdf
+2025-10-17 14:45:42,844 - curate_test - INFO -   Using pre-identified cell lines: ['MONUi001-A', 'MONUi001-B', 'MONUi001-C', 'MONUi002-A', 'MONUi002-B', 'MONUi002-C', 'MONUi003-A', 'MONUi003-B', 'MONUi003-C']
+2025-10-17 14:45:42,845 - curate_test - INFO -   Curating article...
+2025-10-17 14:45:42,845 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:45:43,366 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:45:43,366 - curate_article - INFO - Using pre-identified cell lines: ['MONUi001-A', 'MONUi001-B', 'MONUi001-C', 'MONUi002-A', 'MONUi002-B', 'MONUi002-C', 'MONUi003-A', 'MONUi003-B', 'MONUi003-C']
+2025-10-17 14:45:43,366 - curate_article - INFO - Starting metadata curation for 9 cell lines...
+2025-10-17 14:45:43,366 - curate_article - INFO - [1/9] Processing cell line: MONUi001-A
+2025-10-17 14:45:43,366 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MONUi001-A...
+2025-10-17 14:45:45,949 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:46:10,967 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:46:10,968 - curate_article - INFO -   Successfully curated metadata for MONUi001-A
+2025-10-17 14:46:10,968 - curate_article - INFO - [2/9] Processing cell line: MONUi001-B
+2025-10-17 14:46:10,968 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MONUi001-B...
+2025-10-17 14:46:13,231 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:46:39,417 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:46:39,418 - curate_article - INFO -   Successfully curated metadata for MONUi001-B
+2025-10-17 14:46:39,418 - curate_article - INFO - [3/9] Processing cell line: MONUi001-C
+2025-10-17 14:46:39,418 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MONUi001-C...
+2025-10-17 14:46:41,901 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:47:07,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:47:07,583 - curate_article - INFO -   Successfully curated metadata for MONUi001-C
+2025-10-17 14:47:07,583 - curate_article - INFO - [4/9] Processing cell line: MONUi002-A
+2025-10-17 14:47:07,583 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MONUi002-A...
+2025-10-17 14:47:10,022 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:47:35,597 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:47:35,599 - curate_article - INFO -   Successfully curated metadata for MONUi002-A
+2025-10-17 14:47:35,599 - curate_article - INFO - [5/9] Processing cell line: MONUi002-B
+2025-10-17 14:47:35,599 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MONUi002-B...
+2025-10-17 14:47:37,832 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:48:01,634 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:48:01,637 - curate_article - INFO -   Successfully curated metadata for MONUi002-B
+2025-10-17 14:48:01,637 - curate_article - INFO - [6/9] Processing cell line: MONUi002-C
+2025-10-17 14:48:01,637 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MONUi002-C...
+2025-10-17 14:48:04,012 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:48:29,464 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:48:29,484 - curate_article - INFO -   Successfully curated metadata for MONUi002-C
+2025-10-17 14:48:29,484 - curate_article - INFO - [7/9] Processing cell line: MONUi003-A
+2025-10-17 14:48:29,484 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MONUi003-A...
+2025-10-17 14:48:31,928 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:48:58,474 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:48:58,477 - curate_article - INFO -   Successfully curated metadata for MONUi003-A
+2025-10-17 14:48:58,477 - curate_article - INFO - [8/9] Processing cell line: MONUi003-B
+2025-10-17 14:48:58,477 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MONUi003-B...
+2025-10-17 14:49:00,788 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:49:23,465 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:49:23,481 - curate_article - INFO -   Successfully curated metadata for MONUi003-B
+2025-10-17 14:49:23,481 - curate_article - INFO - [9/9] Processing cell line: MONUi003-C
+2025-10-17 14:49:23,481 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MONUi003-C...
+2025-10-17 14:49:25,936 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:49:50,074 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:49:50,075 - curate_article - INFO -   Successfully curated metadata for MONUi003-C
+2025-10-17 14:49:50,075 - curate_article - INFO - Curation completed - Successfully curated: 9, Failed: 0
+2025-10-17 14:49:50,075 - curate_article - INFO - Total token usage - Prompt: 197163, Completion: 7097, Total: 204260 tokens
+2025-10-17 14:49:50,075 - curate_test - INFO -     Cell line 'MONUi001-A' curation time: 24.99s
+2025-10-17 14:49:50,075 - curate_test - INFO -     Cell line 'MONUi001-B' curation time: 26.16s
+2025-10-17 14:49:50,075 - curate_test - INFO -     Cell line 'MONUi001-C' curation time: 25.65s
+2025-10-17 14:49:50,075 - curate_test - INFO -     Cell line 'MONUi002-A' curation time: 25.54s
+2025-10-17 14:49:50,075 - curate_test - INFO -     Cell line 'MONUi002-B' curation time: 23.78s
+2025-10-17 14:49:50,075 - curate_test - INFO -     Cell line 'MONUi002-C' curation time: 25.44s
+2025-10-17 14:49:50,075 - curate_test - INFO -     Cell line 'MONUi003-A' curation time: 26.51s
+2025-10-17 14:49:50,075 - curate_test - INFO -     Cell line 'MONUi003-B' curation time: 22.66s
+2025-10-17 14:49:50,075 - curate_test - INFO -     Cell line 'MONUi003-C' curation time: 24.11s
+2025-10-17 14:49:50,075 - curate_test - INFO -   Found 9 cell lines
+2025-10-17 14:49:50,075 - curate_test - INFO -   Successfully curated 9 cell lines
+2025-10-17 14:49:50,075 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:49:50,075 - curate_test - INFO -   Total cell line curation time: 224.83s
+2025-10-17 14:49:50,076 - curate_test - INFO -   Total article time: 247.23s
+2025-10-17 14:49:50,076 - curate_test - INFO -   Estimated cost: $0.0226
+2025-10-17 14:49:50,077 - curate_test - INFO -     Saved valid metadata for MONUi001-A
+2025-10-17 14:49:50,081 - curate_test - INFO -     Saved valid metadata for MONUi001-B
+2025-10-17 14:49:50,083 - curate_test - INFO -     Saved valid metadata for MONUi001-C
+2025-10-17 14:49:50,085 - curate_test - INFO -     Saved valid metadata for MONUi002-A
+2025-10-17 14:49:50,086 - curate_test - INFO -     Saved valid metadata for MONUi002-B
+2025-10-17 14:49:50,086 - curate_test - INFO -     Saved valid metadata for MONUi002-C
+2025-10-17 14:49:50,097 - curate_test - INFO -     Saved valid metadata for MONUi003-A
+2025-10-17 14:49:50,098 - curate_test - INFO -     Saved valid metadata for MONUi003-B
+2025-10-17 14:49:50,099 - curate_test - INFO -     Saved valid metadata for MONUi003-C
+2025-10-17 14:49:50,099 - curate_test - INFO -   Completed processing 37494850.pdf
+2025-10-17 14:49:50,099 - curate_test - INFO - [46/54] Processing: 37939621.pdf
+2025-10-17 14:49:50,111 - curate_test - INFO -   Using pre-identified cell lines: ['VCCRli002-A', 'VCCRli003-A']
+2025-10-17 14:49:50,111 - curate_test - INFO -   Curating article...
+2025-10-17 14:49:50,111 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:49:51,978 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:49:51,978 - curate_article - INFO - Using pre-identified cell lines: ['VCCRli002-A', 'VCCRli003-A']
+2025-10-17 14:49:51,978 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:49:51,978 - curate_article - INFO - [1/2] Processing cell line: VCCRli002-A
+2025-10-17 14:49:51,978 - curate_article - INFO -   Attempt 1/3 - Curating metadata for VCCRli002-A...
+2025-10-17 14:49:53,771 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:50:15,741 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:50:15,742 - curate_article - INFO -   Successfully curated metadata for VCCRli002-A
+2025-10-17 14:50:15,742 - curate_article - INFO - [2/2] Processing cell line: VCCRli003-A
+2025-10-17 14:50:15,742 - curate_article - INFO -   Attempt 1/3 - Curating metadata for VCCRli003-A...
+2025-10-17 14:50:17,389 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:50:39,903 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:50:39,916 - curate_article - INFO -   Successfully curated metadata for VCCRli003-A
+2025-10-17 14:50:39,916 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:50:39,916 - curate_article - INFO - Total token usage - Prompt: 43818, Completion: 1569, Total: 45387 tokens
+2025-10-17 14:50:39,916 - curate_test - INFO -     Cell line 'VCCRli002-A' curation time: 21.94s
+2025-10-17 14:50:39,916 - curate_test - INFO -     Cell line 'VCCRli003-A' curation time: 22.50s
+2025-10-17 14:50:39,916 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:50:39,916 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:50:39,916 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:50:39,916 - curate_test - INFO -   Total cell line curation time: 44.43s
+2025-10-17 14:50:39,916 - curate_test - INFO -   Total article time: 49.80s
+2025-10-17 14:50:39,916 - curate_test - INFO -   Estimated cost: $0.0050
+2025-10-17 14:50:39,917 - curate_test - INFO -     Saved valid metadata for VCCRli002-A
+2025-10-17 14:50:39,918 - curate_test - INFO -     Saved valid metadata for VCCRli003-A
+2025-10-17 14:50:39,918 - curate_test - INFO -   Completed processing 37939621.pdf
+2025-10-17 14:50:39,918 - curate_test - INFO - [47/54] Processing: 38029555.pdf
+2025-10-17 14:50:39,932 - curate_test - INFO -   Using pre-identified cell lines: ['HPIi005-A', 'HPIi005-B']
+2025-10-17 14:50:39,932 - curate_test - INFO -   Curating article...
+2025-10-17 14:50:39,933 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:50:41,957 - curate_article - INFO - Successfully converted PDF to 6 images
+2025-10-17 14:50:41,957 - curate_article - INFO - Using pre-identified cell lines: ['HPIi005-A', 'HPIi005-B']
+2025-10-17 14:50:41,957 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:50:41,957 - curate_article - INFO - [1/2] Processing cell line: HPIi005-A
+2025-10-17 14:50:41,957 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPIi005-A...
+2025-10-17 14:50:43,918 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:51:07,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:51:07,001 - curate_article - INFO -   Successfully curated metadata for HPIi005-A
+2025-10-17 14:51:07,001 - curate_article - INFO - [2/2] Processing cell line: HPIi005-B
+2025-10-17 14:51:07,001 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPIi005-B...
+2025-10-17 14:51:09,004 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:51:35,196 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:51:35,197 - curate_article - INFO -   Successfully curated metadata for HPIi005-B
+2025-10-17 14:51:35,197 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:51:35,197 - curate_article - INFO - Total token usage - Prompt: 50964, Completion: 1618, Total: 52582 tokens
+2025-10-17 14:51:35,197 - curate_test - INFO -     Cell line 'HPIi005-A' curation time: 23.05s
+2025-10-17 14:51:35,197 - curate_test - INFO -     Cell line 'HPIi005-B' curation time: 26.16s
+2025-10-17 14:51:35,197 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:51:35,197 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:51:35,197 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:51:35,197 - curate_test - INFO -   Total cell line curation time: 49.22s
+2025-10-17 14:51:35,197 - curate_test - INFO -   Total article time: 55.26s
+2025-10-17 14:51:35,197 - curate_test - INFO -   Estimated cost: $0.0057
+2025-10-17 14:51:35,198 - curate_test - INFO -     Saved valid metadata for HPIi005-A
+2025-10-17 14:51:35,199 - curate_test - INFO -     Saved valid metadata for HPIi005-B
+2025-10-17 14:51:35,199 - curate_test - INFO -   Completed processing 38029555.pdf
+2025-10-17 14:51:35,199 - curate_test - INFO - [48/54] Processing: 38244534.pdf
+2025-10-17 14:51:35,210 - curate_test - INFO -   Using pre-identified cell lines: ['NGN2', 'H9 NGN2 B6']
+2025-10-17 14:51:35,210 - curate_test - INFO -   Curating article...
+2025-10-17 14:51:35,211 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:51:37,081 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:51:37,082 - curate_article - INFO - Using pre-identified cell lines: ['NGN2', 'H9 NGN2 B6']
+2025-10-17 14:51:37,082 - curate_article - INFO - Starting metadata curation for 2 cell lines...
+2025-10-17 14:51:37,082 - curate_article - INFO - [1/2] Processing cell line: NGN2
+2025-10-17 14:51:37,082 - curate_article - INFO -   Attempt 1/3 - Curating metadata for NGN2...
+2025-10-17 14:51:38,919 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:52:01,840 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:52:01,846 - curate_article - INFO -   Successfully curated metadata for NGN2
+2025-10-17 14:52:01,846 - curate_article - INFO - [2/2] Processing cell line: H9 NGN2 B6
+2025-10-17 14:52:01,846 - curate_article - INFO -   Attempt 1/3 - Curating metadata for H9 NGN2 B6...
+2025-10-17 14:52:03,887 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:52:23,618 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:52:23,619 - curate_article - INFO -   Successfully curated metadata for H9 NGN2 B6
+2025-10-17 14:52:23,619 - curate_article - INFO - Curation completed - Successfully curated: 2, Failed: 0
+2025-10-17 14:52:23,619 - curate_article - INFO - Total token usage - Prompt: 43818, Completion: 1649, Total: 45467 tokens
+2025-10-17 14:52:23,619 - curate_test - INFO -     Cell line 'NGN2' curation time: 22.90s
+2025-10-17 14:52:23,619 - curate_test - INFO -     Cell line 'H9 NGN2 B6' curation time: 19.70s
+2025-10-17 14:52:23,619 - curate_test - INFO -   Found 2 cell lines
+2025-10-17 14:52:23,619 - curate_test - INFO -   Successfully curated 2 cell lines
+2025-10-17 14:52:23,619 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:52:23,619 - curate_test - INFO -   Total cell line curation time: 42.60s
+2025-10-17 14:52:23,619 - curate_test - INFO -   Total article time: 48.41s
+2025-10-17 14:52:23,619 - curate_test - INFO -   Estimated cost: $0.0050
+2025-10-17 14:52:23,622 - curate_test - INFO -     Saved valid metadata for NGN2
+2025-10-17 14:52:23,623 - curate_test - INFO -     Saved valid metadata for H9 NGN2 B6
+2025-10-17 14:52:23,623 - curate_test - INFO -   Completed processing 38244534.pdf
+2025-10-17 14:52:23,623 - curate_test - INFO - [49/54] Processing: 38277710.pdf
+2025-10-17 14:52:23,633 - curate_test - INFO -   Curating article...
+2025-10-17 14:52:23,634 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:52:25,373 - curate_article - INFO - Successfully converted PDF to 7 images
+2025-10-17 14:52:25,373 - identify_cell_lines - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:52:27,075 - identify_cell_lines - INFO - Successfully converted PDF to 7 images
+2025-10-17 14:52:27,075 - identify_cell_lines - INFO - Identifying unique cell line names in the article...
+2025-10-17 14:52:27,103 - identify_cell_lines - INFO - Sending 7 images to gpt-4.1-nano for cell line identification...
+2025-10-17 14:52:40,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:52:40,401 - identify_cell_lines - INFO - Cell line identification usage - Prompt: 25460, Completion: 8, Total: 25468 tokens
+2025-10-17 14:52:40,402 - identify_cell_lines - INFO - Received response from OpenAI for cell line identification
+2025-10-17 14:52:40,402 - identify_cell_lines - INFO - No cell lines found in the article
+2025-10-17 14:52:40,402 - curate_test - INFO -   Completed processing 38277710.pdf
+2025-10-17 14:52:40,402 - curate_test - INFO - [50/54] Processing: 38433209.pdf
+2025-10-17 14:52:40,415 - curate_test - INFO -   Using pre-identified cell lines: ['MZNTaS019-A', 'MZNTaS021-A', 'MZNTaS022-A']
+2025-10-17 14:52:40,415 - curate_test - INFO -   Curating article...
+2025-10-17 14:52:40,416 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:52:43,371 - curate_article - INFO - Successfully converted PDF to 10 images
+2025-10-17 14:52:43,371 - curate_article - INFO - Using pre-identified cell lines: ['MZNTaS019-A', 'MZNTaS021-A', 'MZNTaS022-A']
+2025-10-17 14:52:43,371 - curate_article - INFO - Starting metadata curation for 3 cell lines...
+2025-10-17 14:52:43,371 - curate_article - INFO - [1/3] Processing cell line: MZNTaS019-A
+2025-10-17 14:52:43,371 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MZNTaS019-A...
+2025-10-17 14:52:46,310 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:53:20,249 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:53:20,262 - curate_article - INFO -   Successfully curated metadata for MZNTaS019-A
+2025-10-17 14:53:20,262 - curate_article - INFO - [2/3] Processing cell line: MZNTaS021-A
+2025-10-17 14:53:20,262 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MZNTaS021-A...
+2025-10-17 14:53:23,098 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:54:05,897 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:54:05,912 - curate_article - INFO -   Successfully curated metadata for MZNTaS021-A
+2025-10-17 14:54:05,912 - curate_article - INFO - [3/3] Processing cell line: MZNTaS022-A
+2025-10-17 14:54:05,912 - curate_article - INFO -   Attempt 1/3 - Curating metadata for MZNTaS022-A...
+2025-10-17 14:54:08,843 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:54:41,679 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:54:41,679 - curate_article - INFO -   Successfully curated metadata for MZNTaS022-A
+2025-10-17 14:54:41,680 - curate_article - INFO - Curation completed - Successfully curated: 3, Failed: 0
+2025-10-17 14:54:41,680 - curate_article - INFO - Total token usage - Prompt: 125094, Completion: 2267, Total: 127361 tokens
+2025-10-17 14:54:41,683 - curate_test - INFO -     Cell line 'MZNTaS019-A' curation time: 33.92s
+2025-10-17 14:54:41,683 - curate_test - INFO -     Cell line 'MZNTaS021-A' curation time: 42.79s
+2025-10-17 14:54:41,683 - curate_test - INFO -     Cell line 'MZNTaS022-A' curation time: 32.80s
+2025-10-17 14:54:41,683 - curate_test - INFO -   Found 3 cell lines
+2025-10-17 14:54:41,683 - curate_test - INFO -   Successfully curated 3 cell lines
+2025-10-17 14:54:41,683 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:54:41,683 - curate_test - INFO -   Total cell line curation time: 109.51s
+2025-10-17 14:54:41,683 - curate_test - INFO -   Total article time: 121.27s
+2025-10-17 14:54:41,683 - curate_test - INFO -   Estimated cost: $0.0134
+2025-10-17 14:54:41,686 - curate_test - INFO -     Saved valid metadata for MZNTaS019-A
+2025-10-17 14:54:41,687 - curate_test - INFO -     Saved valid metadata for MZNTaS021-A
+2025-10-17 14:54:41,687 - curate_test - INFO -     Saved valid metadata for MZNTaS022-A
+2025-10-17 14:54:41,687 - curate_test - INFO -   Completed processing 38433209.pdf
+2025-10-17 14:54:41,687 - curate_test - INFO - [51/54] Processing: 38458031.pdf
+2025-10-17 14:54:41,763 - curate_test - INFO -   Using pre-identified cell lines: ['NR2F2']
+2025-10-17 14:54:41,763 - curate_test - INFO -   Curating article...
+2025-10-17 14:54:41,764 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:54:43,672 - curate_article - INFO - Successfully converted PDF to 6 images
+2025-10-17 14:54:43,673 - curate_article - INFO - Using pre-identified cell lines: ['NR2F2']
+2025-10-17 14:54:43,673 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:54:43,673 - curate_article - INFO - [1/1] Processing cell line: NR2F2
+2025-10-17 14:54:43,673 - curate_article - INFO -   Attempt 1/3 - Curating metadata for NR2F2...
+2025-10-17 14:54:45,586 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:55:08,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:55:08,153 - curate_article - INFO -   Successfully curated metadata for NR2F2
+2025-10-17 14:55:08,153 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:55:08,153 - curate_article - INFO - Total token usage - Prompt: 25480, Completion: 822, Total: 26302 tokens
+2025-10-17 14:55:08,153 - curate_test - INFO -     Cell line 'NR2F2' curation time: 22.54s
+2025-10-17 14:55:08,153 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:55:08,153 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:55:08,153 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:55:08,153 - curate_test - INFO -   Total cell line curation time: 22.54s
+2025-10-17 14:55:08,153 - curate_test - INFO -   Total article time: 26.39s
+2025-10-17 14:55:08,154 - curate_test - INFO -   Estimated cost: $0.0029
+2025-10-17 14:55:08,154 - curate_test - INFO -     Saved valid metadata for NR2F2
+2025-10-17 14:55:08,154 - curate_test - INFO -   Completed processing 38458031.pdf
+2025-10-17 14:55:08,154 - curate_test - INFO - [52/54] Processing: 38479087.pdf
+2025-10-17 14:55:08,220 - curate_test - INFO -   Using pre-identified cell lines: ['FINI003-A']
+2025-10-17 14:55:08,220 - curate_test - INFO -   Curating article...
+2025-10-17 14:55:08,221 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:55:09,771 - curate_article - INFO - Successfully converted PDF to 5 images
+2025-10-17 14:55:09,772 - curate_article - INFO - Using pre-identified cell lines: ['FINI003-A']
+2025-10-17 14:55:09,772 - curate_article - INFO - Starting metadata curation for 1 cell lines...
+2025-10-17 14:55:09,772 - curate_article - INFO - [1/1] Processing cell line: FINI003-A
+2025-10-17 14:55:09,772 - curate_article - INFO -   Attempt 1/3 - Curating metadata for FINI003-A...
+2025-10-17 14:55:11,305 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:55:33,971 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:55:33,988 - curate_article - INFO -   Successfully curated metadata for FINI003-A
+2025-10-17 14:55:33,988 - curate_article - INFO - Curation completed - Successfully curated: 1, Failed: 0
+2025-10-17 14:55:33,988 - curate_article - INFO - Total token usage - Prompt: 21907, Completion: 840, Total: 22747 tokens
+2025-10-17 14:55:33,988 - curate_test - INFO -     Cell line 'FINI003-A' curation time: 22.65s
+2025-10-17 14:55:33,988 - curate_test - INFO -   Found 1 cell lines
+2025-10-17 14:55:33,988 - curate_test - INFO -   Successfully curated 1 cell lines
+2025-10-17 14:55:33,988 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:55:33,988 - curate_test - INFO -   Total cell line curation time: 22.65s
+2025-10-17 14:55:33,988 - curate_test - INFO -   Total article time: 25.77s
+2025-10-17 14:55:33,989 - curate_test - INFO -   Estimated cost: $0.0025
+2025-10-17 14:55:33,989 - curate_test - INFO -     Saved valid metadata for FINI003-A
+2025-10-17 14:55:33,989 - curate_test - INFO -   Completed processing 38479087.pdf
+2025-10-17 14:55:33,989 - curate_test - INFO - [53/54] Processing: 38582058.pdf
+2025-10-17 14:55:33,999 - curate_test - INFO -   Using pre-identified cell lines: ['HPLi008-A', 'HPLi009-A', 'SCI003-A']
+2025-10-17 14:55:33,999 - curate_test - INFO -   Curating article...
+2025-10-17 14:55:34,000 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:55:35,783 - curate_article - INFO - Successfully converted PDF to 6 images
+2025-10-17 14:55:35,783 - curate_article - INFO - Using pre-identified cell lines: ['HPLi008-A', 'HPLi009-A', 'SCI003-A']
+2025-10-17 14:55:35,783 - curate_article - INFO - Starting metadata curation for 3 cell lines...
+2025-10-17 14:55:35,783 - curate_article - INFO - [1/3] Processing cell line: HPLi008-A
+2025-10-17 14:55:35,783 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPLi008-A...
+2025-10-17 14:55:37,547 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:56:03,470 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:56:03,485 - curate_article - INFO -   Successfully curated metadata for HPLi008-A
+2025-10-17 14:56:03,485 - curate_article - INFO - [2/3] Processing cell line: HPLi009-A
+2025-10-17 14:56:03,485 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPLi009-A...
+2025-10-17 14:56:05,370 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:56:26,099 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:56:26,101 - curate_article - INFO -   Successfully curated metadata for HPLi009-A
+2025-10-17 14:56:26,101 - curate_article - INFO - [3/3] Processing cell line: SCI003-A
+2025-10-17 14:56:26,101 - curate_article - INFO -   Attempt 1/3 - Curating metadata for SCI003-A...
+2025-10-17 14:56:27,610 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:56:50,411 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:56:50,417 - curate_article - INFO -   Successfully curated metadata for SCI003-A
+2025-10-17 14:56:50,417 - curate_article - INFO - Curation completed - Successfully curated: 3, Failed: 0
+2025-10-17 14:56:50,417 - curate_article - INFO - Total token usage - Prompt: 76442, Completion: 2421, Total: 78863 tokens
+2025-10-17 14:56:50,417 - curate_test - INFO -     Cell line 'HPLi008-A' curation time: 25.90s
+2025-10-17 14:56:50,417 - curate_test - INFO -     Cell line 'HPLi009-A' curation time: 20.70s
+2025-10-17 14:56:50,417 - curate_test - INFO -     Cell line 'SCI003-A' curation time: 22.78s
+2025-10-17 14:56:50,418 - curate_test - INFO -   Found 3 cell lines
+2025-10-17 14:56:50,418 - curate_test - INFO -   Successfully curated 3 cell lines
+2025-10-17 14:56:50,418 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:56:50,418 - curate_test - INFO -   Total cell line curation time: 69.39s
+2025-10-17 14:56:50,418 - curate_test - INFO -   Total article time: 76.42s
+2025-10-17 14:56:50,418 - curate_test - INFO -   Estimated cost: $0.0086
+2025-10-17 14:56:50,422 - curate_test - INFO -     Saved valid metadata for HPLi008-A
+2025-10-17 14:56:50,422 - curate_test - INFO -     Saved valid metadata for HPLi009-A
+2025-10-17 14:56:50,423 - curate_test - INFO -     Saved valid metadata for SCI003-A
+2025-10-17 14:56:50,423 - curate_test - INFO -   Completed processing 38582058.pdf
+2025-10-17 14:56:50,423 - curate_test - INFO - [54/54] Processing: 38583293.pdf
+2025-10-17 14:56:50,433 - curate_test - INFO -   Using pre-identified cell lines: ['HPIi006-A', 'HPIi007-A', 'STCi003-A']
+2025-10-17 14:56:50,433 - curate_test - INFO -   Curating article...
+2025-10-17 14:56:50,433 - curate_article - INFO - Converting PDF to images for vision processing...
+2025-10-17 14:56:52,115 - curate_article - INFO - Successfully converted PDF to 6 images
+2025-10-17 14:56:52,115 - curate_article - INFO - Using pre-identified cell lines: ['HPIi006-A', 'HPIi007-A', 'STCi003-A']
+2025-10-17 14:56:52,115 - curate_article - INFO - Starting metadata curation for 3 cell lines...
+2025-10-17 14:56:52,115 - curate_article - INFO - [1/3] Processing cell line: HPIi006-A
+2025-10-17 14:56:52,115 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPIi006-A...
+2025-10-17 14:56:53,912 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:57:21,272 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:57:21,280 - curate_article - INFO -   Successfully curated metadata for HPIi006-A
+2025-10-17 14:57:21,280 - curate_article - INFO - [2/3] Processing cell line: HPIi007-A
+2025-10-17 14:57:21,280 - curate_article - INFO -   Attempt 1/3 - Curating metadata for HPIi007-A...
+2025-10-17 14:57:22,875 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:57:45,998 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:57:45,999 - curate_article - INFO -   Successfully curated metadata for HPIi007-A
+2025-10-17 14:57:45,999 - curate_article - INFO - [3/3] Processing cell line: STCi003-A
+2025-10-17 14:57:45,999 - curate_article - INFO -   Attempt 1/3 - Curating metadata for STCi003-A...
+2025-10-17 14:57:47,890 - curate_line - INFO - Loading curation instructions from: /home/stefanmirandadev/projects/stefan-masters-research-package/ai_curation_instructions.md
+2025-10-17 14:58:16,233 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-17 14:58:16,240 - curate_article - INFO -   Successfully curated metadata for STCi003-A
+2025-10-17 14:58:16,240 - curate_article - INFO - Curation completed - Successfully curated: 3, Failed: 0
+2025-10-17 14:58:16,240 - curate_article - INFO - Total token usage - Prompt: 76444, Completion: 2513, Total: 78957 tokens
+2025-10-17 14:58:16,241 - curate_test - INFO -     Cell line 'HPIi006-A' curation time: 27.27s
+2025-10-17 14:58:16,241 - curate_test - INFO -     Cell line 'HPIi007-A' curation time: 23.10s
+2025-10-17 14:58:16,241 - curate_test - INFO -     Cell line 'STCi003-A' curation time: 28.32s
+2025-10-17 14:58:16,241 - curate_test - INFO -   Found 3 cell lines
+2025-10-17 14:58:16,241 - curate_test - INFO -   Successfully curated 3 cell lines
+2025-10-17 14:58:16,241 - curate_test - INFO -   Identification time: 0.00s
+2025-10-17 14:58:16,241 - curate_test - INFO -   Total cell line curation time: 78.69s
+2025-10-17 14:58:16,241 - curate_test - INFO -   Total article time: 85.81s
+2025-10-17 14:58:16,241 - curate_test - INFO -   Estimated cost: $0.0086
+2025-10-17 14:58:16,245 - curate_test - INFO -     Saved valid metadata for HPIi006-A
+2025-10-17 14:58:16,245 - curate_test - INFO -     Saved valid metadata for HPIi007-A
+2025-10-17 14:58:16,248 - curate_test - INFO -     Saved valid metadata for STCi003-A
+2025-10-17 14:58:16,248 - curate_test - INFO -   Completed processing 38583293.pdf
+2025-10-17 14:58:16,248 - curate_test - INFO - 
+============================================================
+2025-10-17 14:58:16,248 - curate_test - INFO - CURATION RUN SUMMARY
+2025-10-17 14:58:16,248 - curate_test - INFO - ============================================================
+2025-10-17 14:58:16,248 - curate_test - INFO - Run ID: 251017_134324
+2025-10-17 14:58:16,249 - curate_test - INFO - Model used: gpt-4.1-nano
+2025-10-17 14:58:16,249 - curate_test - INFO - 
+ARTICLE PROCESSING:
+2025-10-17 14:58:16,249 - curate_test - INFO -   Total articles: 54
+2025-10-17 14:58:16,249 - curate_test - INFO -   Successfully processed: 48
+2025-10-17 14:58:16,249 - curate_test - INFO -   Failed to process: 0
+2025-10-17 14:58:16,249 - curate_test - INFO -   No cell lines found: 0
+2025-10-17 14:58:16,249 - curate_test - INFO - 
+CELL LINE PROCESSING:
+2025-10-17 14:58:16,249 - curate_test - INFO -   Total curated cell lines: 148
+2025-10-17 14:58:16,250 - curate_test - INFO -   Total failed cell lines: 0
+2025-10-17 14:58:16,250 - curate_test - INFO - 
+PERFORMANCE:
+2025-10-17 14:58:16,250 - curate_test - INFO -   Total curation time: 4374.86s
+2025-10-17 14:58:16,250 - curate_test - INFO - Average time per article: 91.14s
+2025-10-17 14:58:16,250 - curate_test - INFO - Average time per 20 articles: 1822.86s (30.4 min)
+2025-10-17 14:58:16,250 - curate_test - INFO - Average time per cell line: 29.56s
+2025-10-17 14:58:16,250 - curate_test - INFO - Total estimated cost: $0.4305
+2025-10-17 14:58:16,250 - curate_test - INFO - 
+Results saved to: /home/stefanmirandadev/projects/stefan-masters-research-package/tests/test_curation/gpt-4.1/gpt-4.1-nano/results/251017_134324
+2025-10-17 14:58:16,250 - curate_test - INFO - ============================================================

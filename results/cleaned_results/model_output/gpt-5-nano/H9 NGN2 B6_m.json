@@ -1,0 +1,71 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "H9 NGN2 B6",
+      "cell_type": "ESC",
+      "frozen": "True",
+      "hpscreg_name": "H9 NGN2 B6"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Mirella",
+      "e_mail": "mdottori@uow.edu.au",
+      "last_name": "Dottori",
+      "group": "Mirella Dottori Lab, University of Wollongong"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mirella Dottori",
+      "year": "2024.0",
+      "first_author": "Sara Miellet",
+      "doi": "10.1016/j.scr.2024.103312",
+      "journal": "Stem Cell Research",
+      "title": "Generation of a gene-edited H9 embryonic stem cell line carrying a DOX-inducible NGN2 expression cassette in the CLYBL locus"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "EM"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "DOX-inducible NGN2 insertion with floxed Blasticidin resistance and nuclear mApple",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "CYBL",
+      "genotype": "Heterozygous: NGN2 cassette integration at CYBL locus",
+      "mutation_type": "TE"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "\u03b2-III Tubulin; Nestin",
+      "method_used": "Immunocytochemistry"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Karyotype analysis showed a normal female karyotype (46,XX) in the analyzed cells.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EF"
+    }
+  ]
+}

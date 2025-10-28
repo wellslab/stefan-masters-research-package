@@ -1,0 +1,111 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "F165743c_A; A1; G8",
+      "hpscreg_name": "UOMELBi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Melbourne"
+    }
+  ],
+  "contact": [
+    {
+      "group": "The University of Melbourne",
+      "e_mail": "damian.hernandez@unimelb.edu.au",
+      "last_name": "Hern\u00e1ndez",
+      "first_name": "Damian"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102373",
+      "title": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)",
+      "journal": "Stem Cell Research",
+      "last_author": "Alice P\u00e9bay",
+      "first_author": "Dami\u00e1n Hern\u00e1ndez",
+      "year": "2021.0"
+    }
+  ],
+  "donor": [
+    {
+      "disease_description": "Donor carried APP London mutation (V717I, rs63750264) in exon 17 of APP",
+      "disease_name": "Alzheimer\u2019s disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "rs63750264 G/G (corrected from A/G); includes silent PAM codon change TTA>TTG",
+      "delivery_method": "Crispr/Cas9",
+      "mutation_type": "Isogenic modification",
+      "loci_name": "APP",
+      "description": "Gene correction of APP V717I (London) mutation with introduction of a silent PAM-site change (codon TTA->TTG) to prevent re-cutting."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "AFP",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "SMA",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "NESTIN",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Copy number variation analysis using Illumina Infinium CoreExome-24 v1.1 showed absence of deletions, insertions and aneuploidies; sex chromosomes cropped to maintain blinding."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "fibroblasts",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Episomal vectors encoding OCT4, SOX2, KLF4, L-MYC, LIN28 and shRNA against p53 (for parental iPSC)"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "1545394",
+      "institutional_HREC": "Human Research Ethics committees of the University of Melbourne"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

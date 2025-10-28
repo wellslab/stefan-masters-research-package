@@ -1,3 +1,0 @@
-Error processing 34507143.pdf:
-
-Error parsing cell line list: malformed node or string on line 1: <ast.Name object at 0x7a06be958450>

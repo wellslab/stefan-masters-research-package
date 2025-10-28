@@ -6,19 +6,19 @@ This directory contains scripts for processing model output and ground truth dat
 
 The pipeline consists of two main scripts:
 
-1. **`generate_combined_dataframe.py`** - Combines model outputs and ground truth into a unified DataFrame
-2. **`reconstruct.py`** - Reconstructs JSON files from harmonized DataFrame data
+1. **`generate_all_models_dataframe.py`** - Combines ALL model outputs and ground truth into a unified DataFrame
+2. **`reconstruct_from_combined.py`** - Reconstructs JSON files from harmonized DataFrame data
 
 ## Workflow
 
 ```
-Model Output JSONs + Ground Truth JSONs
-    ↓ (generate_combined_dataframe.py)
-Combined DataFrame with flattened columns
+ALL Model Output JSONs + Ground Truth JSONs
+    ↓ (generate_all_models_dataframe.py)
+Combined DataFrame with flattened columns (all models + ground truth)
     ↓ (your harmonization work)
 Harmonized DataFrame
-    ↓ (reconstruct.py)
-Cleaned JSON files (ground_truth/ + model_output/)
+    ↓ (reconstruct_from_combined.py)
+Cleaned JSON files (ground_truth/ + model_output/[model_name]/)
 ```
 
 ## Scripts

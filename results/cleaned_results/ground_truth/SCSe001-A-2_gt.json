@@ -1,0 +1,94 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "MEL-1 30.3; MCRIe002-A-2",
+      "cell_type": "ESC",
+      "frozen": "True",
+      "hpscreg_name": "SCSe001-A-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "name_initials": "J",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Lockhart-MCRI"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Paul J. Lockhart",
+      "year": "2018.0",
+      "first_author": "Gao Y",
+      "doi": "10.1016/j.scr.2018.02.015",
+      "journal": "Stem Cell Research",
+      "pmid": "29499499",
+      "title": "Generation of RAB39B knockout isogenic human embryonic stem cell lines to model RAB39B-mediated Parkinson's disease"
+    },
+    {
+      "last_author": "Paul J. Lockhart",
+      "year": "2018.0",
+      "first_author": "Yujing Gao",
+      "doi": "https://doi.org/10.1016/j.scr.2018.02.015",
+      "journal": "Stem Cell Research",
+      "pmid": "29499499",
+      "title": "Generation of RAB39B knockout isogenic human embryonic stem cell lines to model RAB39B-mediated Parkinson's disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "A 148 base pair deletion spanning exon 1 and exon 2 of RAB39B was introduced (NM_171998.3:c.87_234del (p.Glu30ThrfsTer5)).",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "RAB39B",
+      "cytoband": "Xq28",
+      "genotype": "NM_171998.3:c.87_234del",
+      "mutation_type": "GKO"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "Brachyury",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "PAX6",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24; resolution 0.5 Mb). SNPduo comparison to parental cell demonstrated identity and confirmed no alternations to genomic integrity.",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "approval_date": "1900-01-01",
+      "ethics_number": "28097"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.1",
+      "passage_method": "NS"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "NF1_047.7 (MCRIi021-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi021-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Paul",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Paul J. Lockhart",
+      "year": "2020.0",
+      "first_author": "Kiymet Bozaoglu",
+      "doi": "10.1016/j.scr.2020.102013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of four iPSC lines from Neurofibromatosis Type 1 patients"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A5_9",
+      "disease_name": "Neurofibromatosis Type 1"
+    },
+    {
+      "sex": "Male",
+      "age": "A5_9",
+      "disease_name": "Neurofibromatosis Type 1"
+    },
+    {
+      "sex": "Male",
+      "age": "A10_14",
+      "disease_name": "Neurofibromatosis Type 1"
+    }
+  ]
+}

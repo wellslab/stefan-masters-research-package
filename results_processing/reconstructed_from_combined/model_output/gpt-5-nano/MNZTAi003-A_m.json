@@ -1,0 +1,125 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "MS_0003",
+      "hpscreg_name": "MNZTAi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research, University of Tasmania"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "K",
+      "group": "Menzies Institute for Medical Research",
+      "e_mail": "kaylene.young@utas.edu.au",
+      "last_name": "Young",
+      "first_name": "Kaylene"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102828",
+      "title": "Generation and characterisation of four multiple sclerosis iPSC lines from a single family",
+      "journal": "Stem Cell Research",
+      "last_author": "Kaylene M. Young",
+      "first_author": "Alastair J. Fortune",
+      "year": "2022.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "A50_54",
+      "disease_description": "Relapsing remitting and secondary progressive multiple sclerosis",
+      "disease_name": "Multiple Sclerosis"
+    },
+    {
+      "sex": "F",
+      "age": "A55_59",
+      "disease_description": "Relapsing remitting and secondary progressive multiple sclerosis",
+      "disease_name": "Multiple Sclerosis"
+    },
+    {
+      "sex": "F",
+      "age": "A30_34",
+      "disease_description": "Relapsing remitting and secondary progressive multiple sclerosis",
+      "disease_name": "Multiple Sclerosis"
+    },
+    {
+      "sex": "M",
+      "age": "A50_54",
+      "disease_description": "Relapsing remitting and secondary progressive multiple sclerosis",
+      "disease_name": "Multiple Sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2021-01-01",
+      "non_int_vector_name": "[kit] CytoTune-iPS 2.0 Sendai reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "H0016915",
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

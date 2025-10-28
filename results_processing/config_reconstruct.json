@@ -1,8 +1,0 @@
-{
-  "dataframe_path": "tests/test_curation/gpt-4/gpt-4o-mini/results/251006_122840/combined_cell_lines_data.csv",
-  "output_path": "reconstructed_outputs",
-  "ground_truth_folder": "ground_truth",
-  "model_output_folder": "model_output",
-  "overwrite_existing": true,
-  "verbose": true
-}

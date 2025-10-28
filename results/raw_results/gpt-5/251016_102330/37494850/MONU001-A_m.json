@@ -1,0 +1,132 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "MONU001-A",
+      "cell_line_alt_name": "86200001.1/0011 (MONU001-A)",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, School of Psychological Sciences, Monash University"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Turner Institute for Brain and Mental Health, Monash University",
+      "first_name": "Mark",
+      "last_name": "Bellgrove",
+      "name_initials": "A",
+      "e_mail": "mark.bellgrove@monash.edu",
+      "phone_number": "Missing"
+    },
+    {
+      "group": "Turner Institute for Brain and Mental Health, Monash University",
+      "first_name": "Ziarih",
+      "last_name": "Hawi",
+      "name_initials": "Missing",
+      "e_mail": "ziarih.hawi@monash.edu",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "first_author": "Kealan Pugsley",
+      "last_author": "Mark A Bellgrove",
+      "year": "2023",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A35_39",
+      "sex": "Male",
+      "disease_name": "Autism spectrum disorder",
+      "disease_description": "Autism"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "NM",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "SOX17; FOXA2",
+      "method_used": "Immunofluorescence",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "SMA; Brachyury/Bry",
+      "method_used": "Immunofluorescence",
+      "description": "In vitro spontaneous"
+    },
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "NeuN; MAP2",
+      "method_used": "Immunofluorescence",
+      "description": "In vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Expected karyotype without aneuploidy by Illumina Infinium GSA-24 array; SNPduo comparative analysis showed >99.9% concordance."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "None",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Episomal vector-based reprogramming (OCT4, SOX2, KLF4, MYC)"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "25688",
+      "approval_date": "Missing",
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

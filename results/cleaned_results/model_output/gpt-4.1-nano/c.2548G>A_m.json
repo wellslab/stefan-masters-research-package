@@ -1,0 +1,59 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "c.2548G>A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Inherited Retinal Disease Registry and DNA Bank"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "D. A. Simpson",
+      "year": "2016.0",
+      "first_author": "S. Jagadeesh",
+      "doi": "10.1002/humu.22981",
+      "journal": "Human Mutation",
+      "pmid": "27809530",
+      "title": "CRB1 mutations in inherited retinal dystrophies"
+    }
+  ],
+  "donor": [
+    {
+      "disease_description": "Inherited retinal dystrophies associated with CRB1 mutations",
+      "disease_name": "Retinal dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "c.2548G>A variant in CRB1 gene",
+      "loci_name": "CRB1",
+      "genotype": "NM",
+      "mutation_type": "Missense mutation"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "Differentiated from iPSCs carrying c.2548G>A mutation",
+      "cell_type": "Retinal pigment epithelium",
+      "marker_list": "CRB1, PAX6, RCVRN",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "summary": "CRB1 mutation confirmed by Sanger sequencing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "derivation_year": "2016",
+      "i_source_cell_type_term": "Fibroblasts"
+    }
+  ]
+}

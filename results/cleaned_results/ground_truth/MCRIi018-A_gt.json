@@ -1,0 +1,125 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "OI64-mutant; OI64-mut",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi018-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "John",
+      "name_initials": "F",
+      "e_mail": "john.bateman@mcri.edu.au",
+      "last_name": "Bateman",
+      "group": "Bateman-MCRI"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bateman JF",
+      "year": "2019.0",
+      "first_author": "Howden S",
+      "doi": "10.1016/j.scr.2019.101453",
+      "journal": "Stem Cell Research",
+      "pmid": "31082677",
+      "title": "The use of simultaneous reprogramming and gene correction to generate an osteogenesis imperfecta patient COL1A1 c. 3936 G>T iPSC line and an isogenic control iPSC line"
+    },
+    {
+      "last_author": "D\u00edaz-Prado S",
+      "year": "2020.0",
+      "first_author": "Sanjurjo-Rodr\u00edguez C",
+      "doi": "10.3390/ijms21176124",
+      "journal": "International journal of molecular sciences",
+      "pmid": "32854405",
+      "title": "Versatility of Induced Pluripotent Stem Cells (iPSCs) for Improving the Knowledge on Musculoskeletal Diseases"
+    },
+    {
+      "last_author": "Bateman JF",
+      "year": "2023.0",
+      "first_author": "Lamand\u00e9 SR",
+      "doi": "10.1073/pnas.2211510120",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "pmid": "37126720",
+      "title": "Modeling human skeletal development using human pluripotent stem cells"
+    },
+    {
+      "last_author": "Bateman JF",
+      "year": "2019.0",
+      "first_author": "Howden S",
+      "doi": "https://doi.org/10.1016/j.scr.2019.101453",
+      "journal": "Stem Cell Research",
+      "pmid": "31082677",
+      "title": "The use of simultaneous reprogramming and gene correction to generate an osteogenesis imperfecta patient COL1A1 c. 3936 G>T iPSC line and an isogenic control iPSC line"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "NE",
+      "disease_name": "Osteogenesis Imperfecta, Type II"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "CD45",
+      "method_used": "Flow cytometry"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NES; PAX6",
+      "method_used": "Immunostaining"
+    },
+    {
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "CXCR4; EPCAM",
+      "method_used": "Flow cytometry"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "4",
+      "karyotype": "arr(1-22,X)x2",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium GSA-24 v1.0; resolution 0.5 Mb). SNPduo comparison of MCRIi018-A to MCRIi018-B (>99.9% identity).",
+      "karyotype_method": "MKSNP"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "CL:0000057",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2017-01-01",
+      "non_int_vector_name": "pEP4 E02S ET2K [https://www.addgene.org/20927/]",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children's Hospital",
+      "approval_date": "1900-01-01",
+      "ethics_number": "33118A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EF"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "PB009 (MCRIi009-A)",
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "MCRIi009-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Katerina",
+      "name_initials": "K",
+      "e_mail": "katerina.vlahos@mcri.edu.au",
+      "last_name": "Vlahos",
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Andrew G. Elefanty",
+      "year": "2023.0",
+      "first_author": "Katerina Vlahos",
+      "doi": "10.1016/j.scr.2023.103109",
+      "journal": "Stem Cell Research",
+      "pmid": "103109",
+      "title": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A40_44",
+      "disease_name": "Healthy"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2016",
+      "non_int_vector_name": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)",
+      "non_int_vector": "Sendai virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "RCH Human Research Ethics Committee",
+      "ethics_number": "35121A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "EF"
+    }
+  ]
+}

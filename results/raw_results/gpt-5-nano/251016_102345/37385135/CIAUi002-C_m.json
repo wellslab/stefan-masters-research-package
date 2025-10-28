@@ -1,0 +1,115 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "CIAUi002-C",
+      "cell_line_alt_name": "Missing",
+      "cell_type": "hiPSC",
+      "frozen": false
+    }
+  ],
+  "generator": [
+    {
+      "group": "Centenary Institute of Cancer Medicine and Cell Biology"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Centenary Institute of Cancer Medicine and Cell Biology",
+      "first_name": "Christopher",
+      "last_name": "Semsarian",
+      "name_initials": "C",
+      "e_mail": "c.semsarian@centenary.org.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2023.103153",
+      "journal": "Stem Cell Research",
+      "title": "Generation of an induced pluripotent stem cell line from a patient with conduction disease and recurrent ventricular fibrillation with a sodium voltage-gated channel alpha subunit 5 (SCN5A) gene c.392 + 3A > G splice-site variant",
+      "first_author": "Serena Li",
+      "last_author": "Christopher Semsarian",
+      "year": "2023",
+      "pmid": "103153"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A30_34",
+      "sex": "Female",
+      "disease_name": "Conduction disease with recurrent ventricular fibrillation",
+      "disease_description": "SCN5A-related arrhythmia due to c.392+3A>G splice-site variant"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "NM",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Missing",
+      "summary": "Missing"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "Missing",
+      "non_int_vector": "Episomal",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Kit (Thermo Fisher Scientific)"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "X19-0108",
+      "approval_date": "Missing",
+      "institutional_HREC": "Sydney Local Health District Ethics Review Committee"
+    },
+    {
+      "ethics_number": "ETH00461",
+      "approval_date": "2019",
+      "institutional_HREC": "Sydney Local Health District Ethics Review Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

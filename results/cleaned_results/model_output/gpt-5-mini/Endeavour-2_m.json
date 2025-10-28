@@ -1,0 +1,89 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "E-2",
+      "cell_type": "ESC",
+      "frozen": "True",
+      "hpscreg_name": "Endeavour-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Group, Diabetes Transplant Unit, Prince of Wales Hospital and University of New South Wales, Sydney, NSW 2031 Australia"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kuldip",
+      "name_initials": "S",
+      "e_mail": "k.sidhu@unsw.edu.au",
+      "last_name": "Sidhu",
+      "group": "Stem Cell Lab, University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bernie E. Tuch",
+      "year": "2010.0",
+      "first_author": "Kuldip S. Sidhu",
+      "doi": "10.1007/s11626-010-9280-8",
+      "journal": "In Vitro Cell.Dev.Biol.\u2014Animal",
+      "title": "Derivation of a new human embryonic stem cell line, Endeavour-2, and its characterization"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NESTIN",
+      "method_used": "qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "VIMENTIN",
+      "method_used": "qPCR"
+    },
+    {
+      "description": "In vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "SOX17",
+      "method_used": "qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "9",
+      "karyotype": "46,XX",
+      "summary": "Normal karyotype (46,XX) reported; 20 metaphases analyzed for modal determination.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "zp_removal_technique": "mechanical",
+      "e_preimplant_genetic_diagnosis": "False",
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Institutional Human Research Ethics Committee",
+      "ethics_number": "HREC 02247/02267"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

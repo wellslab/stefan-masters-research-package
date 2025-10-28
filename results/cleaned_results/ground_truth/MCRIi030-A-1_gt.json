@@ -1,0 +1,37 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "522/NR2F2-KO_het",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MCRIi030-A-1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Ayers KL",
+      "year": "2024.0",
+      "first_author": "Ferreira LGA",
+      "doi": "10.1016/j.scr.2024.103374",
+      "journal": "Stem Cell Research",
+      "pmid": "38458031",
+      "title": "Generation of heterozygous (MCRIi030-A-1) and homozygous (MCRIi030-A-2) NR2F2/COUP-TFII knockout human iPSC lines"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-MCRIi030-A-1"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

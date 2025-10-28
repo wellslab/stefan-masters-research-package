@@ -1,0 +1,40 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "FA2-N",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "UTSWi002-A-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "University of Wollongong"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "This line expresses Neurogenin 2 under a doxycycline inducible promoter. The line also contains a floxed Blasticidin resistance/nuclear mApple selection cassette.",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "Neurogenin 2",
+      "cytoband": "13q32.3",
+      "mutation_type": "TE"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-UTSWi002-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EF"
+    }
+  ]
+}

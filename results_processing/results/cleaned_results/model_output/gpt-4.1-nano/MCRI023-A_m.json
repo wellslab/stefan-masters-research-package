@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "NF1_162.1",
+      "hpscreg_name": "MCRI023-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children\u2019s Research Institute, Parkville, VIC, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "P",
+      "group": "Murdoch Children\u2019s Research Institute, Parkville, VIC, Australia",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "first_name": "Paul"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102013",
+      "title": "Generation of four iPSC lines from Neurofibromatosis Type 1 patients",
+      "journal": "Stem Cell Research",
+      "last_author": "et al.",
+      "first_author": "K. Bozaoglu",
+      "year": "2020.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "F",
+      "age": "A15_19",
+      "disease_name": "Neurofibromatosis Type 1"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "17q11.2",
+      "genotype": "NM",
+      "mutation_type": "Variant",
+      "loci_name": "NF1"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "OCT4; NANOG; SOX17; SMA",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotyping demonstrated a normal female karyotype at passage 3."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2020"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

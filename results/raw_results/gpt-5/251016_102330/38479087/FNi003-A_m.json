@@ -1,0 +1,132 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "FNi003-A",
+      "cell_line_alt_name": "FI.SPSM.SCN2A.E1211K.008",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health, University of Melbourne"
+    }
+  ],
+  "contact": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health, University of Melbourne",
+      "first_name": "Snezana",
+      "last_name": "Maljevic",
+      "name_initials": "Missing",
+      "e_mail": "snezana.maljevic@florey.edu.au",
+      "phone_number": "Missing"
+    },
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health, University of Melbourne",
+      "first_name": "Steve",
+      "last_name": "Petrou",
+      "name_initials": "Missing",
+      "e_mail": "steve.petrou@florey.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103367",
+      "journal": "Stem Cell Research",
+      "title": "An iPSC line (FNi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel NaV1.2",
+      "first_author": "Dmitry A. Ovchinnikov",
+      "last_author": "Steve Petrou",
+      "year": "2024",
+      "pmid": "Missing"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A5_9",
+      "sex": "Male",
+      "disease_name": "Developmental and epileptic encephalopathy",
+      "disease_description": "Male donor carrying a heterozygous p.E1211K variant in SCN2A (NaV1.2)"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Variant",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Heterozygous missense variant p.E1211K in SCN2A (NaV1.2)",
+      "genotype": "SCN2A p.E1211K, heterozygous",
+      "loci_name": "SCN2A"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "PAX6; OTX2",
+      "method_used": "RT-qPCR",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "SOX17; CXCR4",
+      "method_used": "RT-qPCR",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "TBXT; TBX6",
+      "method_used": "RT-qPCR",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "Missing",
+      "karyotype": "Missing",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "Genome-wide SNP array (Illumina Global Screening Array) showed no detectable chromosomal copy number changes or loss of heterozygosity; normal profile."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "skin fibroblasts",
+      "i_source_cell_origin_term": "skin",
+      "derivation_year": "None",
+      "non_int_vector": "Other",
+      "non_int_vector_name": "ReproRNA Kit (StemCell Technologies); polycistronic mRNA expressing KLF4, POU5F1/OCT4, SOX2, GLIS1, c-MYC"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC/16/Austin/472",
+      "approval_date": "Missing",
+      "institutional_HREC": "The University of Melbourne"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

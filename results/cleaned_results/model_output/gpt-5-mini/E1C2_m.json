@@ -1,0 +1,80 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "ESC",
+      "frozen": "False",
+      "hpscreg_name": "E1C2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Stem Cell Laboratory, Faculty of Medicine, University of New South Wales"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Bernie E. Tuch",
+      "year": "2008.0",
+      "first_author": "Kuldip S. Sidhu",
+      "doi": "10.1089/scd.2007.0055",
+      "journal": "Stem Cells and Development",
+      "title": "Derivation of a New Human Embryonic Stem Cell Line, Endeavour-1, and Its Clonal Propagation"
+    }
+  ],
+  "donor": [
+    {
+      "age": "EM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "\u03b2-III tubulin",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "in vitro spontaneous",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "CD34",
+      "method_used": "Immunocytochemistry"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP; SOX17; FOXA2; GATA4",
+      "method_used": "RT-qPCR"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "4",
+      "karyotype": "46,XX",
+      "summary": "Normal karyotype (46XX) observed for E1C2 (karyotype analyzed at passage 4).",
+      "karyotype_method": "Spectral karyotyping"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "zp_removal_technique": "mechanical",
+      "embryo_stage": "BICM"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC 01270"
+    },
+    {
+      "ethics_number": "HREC 02247"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EN"
+    }
+  ]
+}

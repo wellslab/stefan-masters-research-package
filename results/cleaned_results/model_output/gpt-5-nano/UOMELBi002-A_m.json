@@ -1,0 +1,89 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "F16574c3_A_A1_G8",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "UOMELBi002-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The University of Melbourne"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Damian",
+      "name_initials": "D",
+      "e_mail": "damian.hernandez@unimelb.edu.au",
+      "last_name": "Hern\u00e1ndez",
+      "group": "The University of Melbourne"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Alice P\u00e9bay",
+      "year": "2021.0",
+      "first_author": "Dami\u00e1n Hern\u00e1ndez",
+      "doi": "10.1016/j.scr.2021.102373",
+      "journal": "Stem Cell Research",
+      "title": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)"
+    }
+  ],
+  "donor": [
+    {
+      "disease_name": "Alzheimer's disease"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "Gene correction and silent mutation in one single allele (Heterozygous mutation).",
+      "delivery_method": "Crispr/Cas9",
+      "loci_name": "APP",
+      "genotype": "Heterozygous",
+      "mutation_type": "Gene Correction and silent mutation in one single allele (Heterozygous mutation)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EN",
+      "marker_list": "AFP",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "ME",
+      "marker_list": "SMA",
+      "method_used": "Immunostaining"
+    },
+    {
+      "description": "in vitro directed differentiation",
+      "show_potency": "True",
+      "cell_type": "EC",
+      "marker_list": "NESTIN",
+      "method_used": "Immunostaining"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "Skin",
+      "i_source_cell_type_term": "Fibroblasts",
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Melbourne Human Research Ethics Committee",
+      "ethics_number": "1545394"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EN"
+    }
+  ]
+}

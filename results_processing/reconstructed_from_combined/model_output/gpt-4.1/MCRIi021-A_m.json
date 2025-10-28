@@ -1,0 +1,116 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "NF1_047.7",
+      "hpscreg_name": "MCRIi021-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute, Parkville, VIC, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "J",
+      "group": "Murdoch Children's Research Institute",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "last_name": "Lockhart",
+      "first_name": "Paul"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102013",
+      "title": "Generation of four iPSC lines from Neurofibromatosis Type 1 patients",
+      "journal": "Stem Cell Research",
+      "last_author": "Paul J. Lockhart",
+      "first_author": "Kiymet Bozaoglu",
+      "year": "2020.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A5_9",
+      "disease_description": "Neurofibromatosis type 1 (NF1) is a neurogenetic condition associated with neurodevelopmental disorders caused by loss-of-function mutations in the NF1 gene on chromosome 17q11.2.",
+      "disease_name": "Neurofibromatosis type 1"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "in vitro spontaneous"
+    },
+    {
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "in vitro spontaneous"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "Molecular karyotyping by SNP array",
+      "summary": "All lines demonstrated a normal karyotype. SNP array comparisons of parental PBMC and iPSC lines showed identical genotype to their corresponding PBMC sample.",
+      "passage_number": "8"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "non_int_vector": "Sendai virus",
+      "derivation_year": "2020",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming kit",
+      "i_source_cell_origin_term": "blood"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "53118B",
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children\u2019s Hospital (Victoria, Australia)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.1",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzymatically"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MNZTASi001-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Young KM",
+      "year": "2021.0",
+      "first_author": "Mehta A",
+      "doi": "10.1016/j.scr.2021.102568",
+      "journal": "Stem Cell Research",
+      "pmid": "34678664",
+      "title": "Generation of MNZTASi001-A, a human pluripotent stem cell line from a person with primary progressive multiple sclerosis"
+    },
+    {
+      "last_author": "Young KM",
+      "year": "2022.0",
+      "first_author": "Alastair J. Fortune",
+      "doi": "10.1016/j.scr.2022.102828",
+      "journal": "Stem Cell Research",
+      "pmid": "35679759",
+      "title": "Generation and characterisation of four multiple sclerosis iPSC lines from a single family"
+    },
+    {
+      "last_author": "Brad A. Sutherland",
+      "year": "2024.0",
+      "first_author": "King NE",
+      "doi": "10.1186/s13287-024-03671-x",
+      "journal": "Stem Cell Research & Therapy",
+      "pmid": "38433209",
+      "title": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility"
+    },
+    {
+      "last_author": "Zhang Guirong",
+      "year": "2024.0",
+      "first_author": "Ren Rutong",
+      "doi": "10.3389/fimmu.2024.1349138",
+      "journal": "Frontiers in Immunology"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "UN",
+      "disease_description": "A multiple sclerosis that is characterized by steady worsening of neurologic functioning, without any distinct relapses or periods of remission. The rate of progression may vary over time, with occasional plateaus or temporary improvements, but the progression is continuous.; Primary progressive multiple sclerosis is the form of the multiple sclerosis in which clinical disability progression occurs continuously without remissions.",
+      "disease_name": "primary progressive multiple sclerosis"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "AFP"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "HAND1"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "PAX6"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "G-banding",
+      "karyotype_method": "GB"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Sendai Virus"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "approval_date": "1900-01-01",
+      "ethics_number": "H0016915"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.2",
+      "passage_method": "EN"
+    }
+  ]
+}

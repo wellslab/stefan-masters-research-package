@@ -1,0 +1,57 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MNZTAsi004-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Kaylene",
+      "name_initials": "K",
+      "e_mail": "kaylene.young@utas.edu.au",
+      "last_name": "Young",
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fletcher",
+      "year": "2022.0",
+      "first_author": "Alastair J. Fortune",
+      "doi": "10.1016/j.scr.2022.102828",
+      "journal": "Stem Cell Research",
+      "title": "Generation and characterisation of four multiple sclerosis iPSC lines from a single family"
+    }
+  ],
+  "donor": [
+    {
+      "disease_description": "autoimmune neuroinflammatory disease of the CNS",
+      "disease_name": "Multiple sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "summary": "Karyotyping confirmed normal chromosomal complement.",
+      "karyotype_method": "G-banding"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee",
+      "ethics_number": "H0016915"
+    }
+  ]
+}

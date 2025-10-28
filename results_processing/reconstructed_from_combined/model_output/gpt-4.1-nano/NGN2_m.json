@@ -1,0 +1,99 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "ESC",
+      "hpscreg_name": "NGN2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Australian Research Council Linkage"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Mirella Dottori",
+      "e_mail": "mdottori@uow.edu.au",
+      "last_name": "Dottori",
+      "first_name": "Mirella"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103312",
+      "title": "Generation of a gene-edited H9 embryonic stem cell line carrying a DOX-inducible NGN2 expression cassette in the CLYBL locus",
+      "journal": "Stem Cell Research",
+      "last_author": "Mirella Dottori",
+      "first_author": "Sara Miellet",
+      "year": "2024.0",
+      "pmid": "103312"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_name": "Missing",
+      "disease_description": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "Homology directed repair (HDR) donor vector: Addgene #124229 (CLYBL-TO-hNGN2-BSD-mApple)",
+      "delivery_method": "CRISPR/Cas9",
+      "mutation_type": "Knock in",
+      "loci_name": "CLYBL",
+      "description": "Homology directed repair (HDR) donor vector: Addgene #124229 (CLYBL-TO-hNGN2-BSD-mApple)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotyping confirmed a normal female karyotype."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "derivation_year": "2024"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "trophectoderm_morphology": "type A",
+      "embryo_stage": "Blastula with ICM and Trophoblast",
+      "icm_morphology": "type A"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "Missing",
+      "approval_date": "Missing",
+      "institutional_HREC": "Missing"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Failed Articles Summary
+======================
+
+Total articles attempted: 54
+Successfully processed: 44
+Failed to process: 1
+No cell lines found: 0
+
+FAILED ARTICLES (1):
+----------------------------------------
+1. 32887382.pdf
+   Error: Exception: [Errno 2] No such file or directory: '/home/stefanmirandadev/projects/stefan-masters-research-package/tests/test_curation/gpt-4.1/gpt-4.1-mini/results/251017_134320/32887382/ALS/FTD1_m.json'
+

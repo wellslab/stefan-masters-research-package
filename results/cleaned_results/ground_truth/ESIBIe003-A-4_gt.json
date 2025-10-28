@@ -1,0 +1,69 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "Envy",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "ESIBIe003-A-4"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Stanley",
+      "year": "2005.0",
+      "first_author": "Costa M",
+      "doi": "10.1038/nmeth748",
+      "journal": "Nature methods",
+      "pmid": "15782217",
+      "title": "The hESC line Envy expresses high levels of GFP in all differentiated progeny"
+    },
+    {
+      "last_author": "Mummery CL",
+      "year": "2008.0",
+      "first_author": "Braam SR",
+      "doi": "10.1038/nprot.2008.140",
+      "journal": "Nature protocols",
+      "pmid": "18772870",
+      "title": "Feeder-free culture of human embryonic stem cells in conditioned medium for efficient genetic modification"
+    },
+    {
+      "last_author": "Rabelink TJ",
+      "year": "2018.0",
+      "first_author": "van den Berg CW",
+      "doi": "10.1016/j.stemcr.2018.01.041",
+      "journal": "Stem Cell Reports",
+      "pmid": "29503086",
+      "title": "Renal Subcapsular Transplantation of PSC-Derived Kidney Organoids Induces Neo-vasculogenesis and Significant Glomerular and Tubular Maturation In\u00a0Vivo"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Holding Entry",
+      "ethics_number": "Holding Entry-ESIBIe003-A"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

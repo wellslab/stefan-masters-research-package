@@ -1,0 +1,124 @@
+{
+  "basic_data": [
+    {
+      "hpscreg_name": "MCRIi020-A",
+      "cell_line_alt_name": "NF1_047.7; MCRIi020-A",
+      "cell_type": "hiPSC",
+      "frozen": "True"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute, Parkville, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Murdoch Children's Research Institute",
+      "first_name": "Paul",
+      "last_name": "Lockhart",
+      "name_initials": "J",
+      "e_mail": "paul.lockhart@mcri.edu.au",
+      "phone_number": "Missing"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.102013",
+      "journal": "Stem Cell Research",
+      "title": "Generation of four iPSC lines from Neurofibromatosis Type 1 patients",
+      "first_author": "Kiymet Bozaoglu",
+      "last_author": "Paul J. Lockhart",
+      "year": "2020",
+      "pmid": "32980513"
+    }
+  ],
+  "donor": [
+    {
+      "age": "A5_9",
+      "sex": "Male",
+      "disease_name": "Neurofibromatosis type 1",
+      "disease_description": "Neurofibromatosis type 1 (NF1) is an autosomal dominant genetic condition caused by loss-of-function mutations in the NF1 gene on chromosome 17q11.2, associated with neurodevelopmental disorders."
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "NM",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Ectoderm",
+      "show_potency": "True",
+      "marker_list": "MAP2",
+      "method_used": "Immunofluorescence",
+      "description": "Embryoid body formation (immunofluorescence)"
+    },
+    {
+      "cell_type": "Endoderm",
+      "show_potency": "True",
+      "marker_list": "SOX17",
+      "method_used": "Immunofluorescence",
+      "description": "Embryoid body formation (immunofluorescence)"
+    },
+    {
+      "cell_type": "Mesoderm",
+      "show_potency": "True",
+      "marker_list": "SMA",
+      "method_used": "Immunofluorescence",
+      "description": "Embryoid body formation (immunofluorescence)"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "8",
+      "karyotype": "46,XY",
+      "karyotype_method": "SNP Array",
+      "summary": "All lines demonstrated a normal karyotype. SNP array comparisons of parental PBMC and iPSC lines showed identical genotype to their corresponding PBMC sample."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "peripheral blood mononuclear cell",
+      "i_source_cell_origin_term": "blood",
+      "derivation_year": "2020",
+      "non_int_vector": "Sendai virus",
+      "non_int_vector_name": "CytoTune-iPS 2.0 Sendai Reprogramming kit"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "53118B",
+      "approval_date": "Missing",
+      "institutional_HREC": "Human Research Ethics Committee of the Royal Children\u2019s Hospital (Victoria, Australia)"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.1",
+      "o2_concentration": "0.21",
+      "passage_method": "mechanically"
+    }
+  ]
+}

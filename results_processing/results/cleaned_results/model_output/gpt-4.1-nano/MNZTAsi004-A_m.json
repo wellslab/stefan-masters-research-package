@@ -1,0 +1,98 @@
+{
+  "basic_data": [
+    {
+      "frozen": "False",
+      "cell_type": "hiPSC",
+      "hpscreg_name": "MNZTAsi004-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Menzies Institute for Medical Research"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "K",
+      "group": "Menzies Institute for Medical Research",
+      "e_mail": "Kaylene.young@utas.edu.au",
+      "last_name": "Young",
+      "first_name": "Kaylene"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2022.102828",
+      "title": "Generation and characterisation of four multiple sclerosis iPSC lines from a single family",
+      "journal": "Stem Cell Research",
+      "last_author": "Fletcher",
+      "first_author": "A.J. Fortune",
+      "year": "2022.0"
+    }
+  ],
+  "donor": [
+    {
+      "disease_description": "autoimmune neuroinflammatory disease of the CNS",
+      "disease_name": "Multiple sclerosis"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "genotype": "NM"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "cell_type": "Missing",
+      "show_potency": "Missing",
+      "marker_list": "Missing",
+      "method_used": "Missing",
+      "description": "Missing"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XX",
+      "karyotype_method": "G-banding",
+      "summary": "Karyotyping confirmed normal chromosomal complement."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "Missing",
+      "i_source_cell_origin_term": "Missing",
+      "derivation_year": "Missing",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "H0016915",
+      "institutional_HREC": "University of Tasmania Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "Missing",
+      "o2_concentration": "Missing",
+      "passage_method": "Missing"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "86200001.2/001.2",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "MONUi001-B"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Monash University"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Mark A Bellgrove",
+      "year": "2023.0",
+      "first_author": "Kealan Pugsley",
+      "doi": "10.1016/j.scr.2023.103170",
+      "journal": "Stem Cell Research",
+      "pmid": "37494850",
+      "title": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "UN",
+      "disease_description": "A pervasive developmental disease that is a spectrum of psychological conditions characterized by widespread abnormalities of social interactions and communication, as well as severely restricted interests and highly repetitive behavior.; A spectrum of developmental disorders that includes autism, and Asperger syndrome. Signs and symptoms include poor communication skills, defective social interactions, and repetitive behaviors.; Severe distortions in the development of many basic psychological functions that are not normal for any stage in development. These distortions are manifested in sustained social impairment, speech abnormalities, and peculiar motor movements.; Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors. (DSM, 1994)",
+      "disease_name": "Autism spectrum disorder"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "show_potency": "False",
+      "cell_type": "EN",
+      "marker_list": "SRY-box transcription factor 17;Forkhead box A2"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "ME",
+      "marker_list": "Brachyury / Bry;ACTA2"
+    },
+    {
+      "show_potency": "False",
+      "cell_type": "EC",
+      "marker_list": "Microtubule Associated Protein 2;NeuN"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "passage_number": "10",
+      "karyotype": "arr(X,Y)x1,(1-22)x2",
+      "karyotype_method": "Other"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "non_int_vector": "Episomal"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "Monash University Human Research Ethics Committee (MUHREC)",
+      "approval_date": "1900-01-01",
+      "ethics_number": "25688"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "NS"
+    }
+  ]
+}

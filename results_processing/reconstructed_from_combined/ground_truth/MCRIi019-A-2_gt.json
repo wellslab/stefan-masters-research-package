@@ -1,0 +1,185 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "COL2A1\u00a0p.G1170S; 1502-COL2A1p.G1170S; 1502.3 COL2A1 p.G1170S",
+      "hpscreg_name": "MCRIi019-A-2"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Lamand\u00e9-Shoulders-MCRI",
+      "e_mail": " shireen.lamande@mcri.edu.au",
+      "last_name": "Lamand\u00e9",
+      "first_name": "Shireen"
+    },
+    {
+      "group": "Lamand\u00e9-Shoulders-MCRI",
+      "e_mail": " mshoulde@mit.edu",
+      "last_name": "Shoulders",
+      "first_name": "Matthew"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2020.101962",
+      "title": "CRISPR/Cas9 editing to generate a heterozygous COL2A1 p.G1170S human chondrodysplasia iPSC line, MCRIi019-A-2, in a control iPSC line, MCRIi019-A",
+      "journal": "Stem cell research",
+      "last_author": "Lamand\u00e9 SR",
+      "first_author": "Kung LHW",
+      "year": "2020.0",
+      "pmid": "33002832"
+    },
+    {
+      "doi": "10.1016/j.scr.2020.102118",
+      "title": "Generation of a miR-26b stem-loop knockout human iPSC line, MCRIi019-A-1, using CRISPR/Cas9 editing",
+      "journal": "Stem cell research",
+      "last_author": "Bateman JF",
+      "first_author": "Kung LHW",
+      "year": "2020.0",
+      "pmid": "33316599"
+    },
+    {
+      "doi": "10.1016/j.scr.2021.102515",
+      "title": "Generation of a heterozygous COL2A1 (p.G1113C) hypochondrogenesis mutation iPSC line, MCRIi019-A-7, using CRISPR/Cas9 gene editing",
+      "journal": "Stem cell research",
+      "last_author": "Lamand\u00e9 SR",
+      "first_author": "Lilianty J",
+      "year": "2021.0",
+      "pmid": "34543885"
+    },
+    {
+      "doi": "10.1016/j.semcdb.2021.11.024",
+      "title": "Developmental principles informing human pluripotent stem cell differentiation to cartilage and bone",
+      "journal": "Seminars in cell & developmental biology",
+      "last_author": "Kimber SJ",
+      "first_author": "Humphreys PA",
+      "year": "2022.0",
+      "pmid": "34949507"
+    },
+    {
+      "doi": "10.17816/ptors101679",
+      "journal": "Pediatric Traumatology, Orthopaedics and Reconstructive Surgery",
+      "last_author": "Shabaldin Andrei V.",
+      "first_author": "Shabaldin Nikita A.",
+      "year": "2022.0"
+    },
+    {
+      "doi": "10.1016/j.scr.2023.103020",
+      "title": "Using CRISPR/Cas9 to generate a heterozygous COL2A1 p.R719C iPSC line (MCRIi019-A-6) model of human precocious osteoarthritis",
+      "journal": "Stem cell research",
+      "last_author": "Shoulders MD",
+      "first_author": "Yammine KM",
+      "year": "2023.0",
+      "pmid": "36682125"
+    },
+    {
+      "doi": "10.1073/pnas.2211510120",
+      "title": "Modeling human skeletal development using human pluripotent stem cells",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "last_author": "Bateman JF",
+      "first_author": "Lamand\u00e9 SR",
+      "year": "2023.0",
+      "pmid": "37126720"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2020.101962",
+      "title": "CRISPR/Cas9 editing to generate a heterozygous COL2A1 p.G1170S human chondrodysplasia iPSC line, MCRIi019-A-2, in a control iPSC line, MCRIi019-A.",
+      "journal": "Stem Cell Research",
+      "last_author": "Shireen R Lamand\u00e9",
+      "first_author": "Louise H W Kung",
+      "year": "2020.0",
+      "pmid": "33002832"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "12q13.11",
+      "genotype": "Heterozygous: unspecified_reference_COL2A1:c.3508GGT>TCA",
+      "delivery_method": "CRISPR/Cas9",
+      "mutation_type": "IM",
+      "loci_name": "COL2A1",
+      "description": "Heterozygous COL2A1 c.3508GGT>TCA (p.Gly1170Ser) variant was introduced to COL2A1 exon 50."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "COL2A1; FOXC2; MEOX1; SOX9",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "NES; PAX6",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22,X)x2",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array (Illumina Infinium GSA-24 v1.0; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "passage_number": "26.0"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "33118",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

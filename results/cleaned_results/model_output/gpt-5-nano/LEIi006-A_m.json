@@ -1,0 +1,68 @@
+{
+  "basic_data": [
+    {
+      "cell_line_alt_name": "LEIi006-A iPSC line",
+      "cell_type": "iPSC",
+      "frozen": "False",
+      "hpscreg_name": "LEIi006-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "contact": [
+    {
+      "first_name": "Samuel",
+      "e_mail": "smclenachan@lei.org.au",
+      "last_name": "McLenachan",
+      "group": "Lions Eye Institute"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Fred K. Chen",
+      "year": "2020.0",
+      "first_author": "Xiao Zhang",
+      "doi": "10.1002/mgg3.1489",
+      "journal": "Molecular genetics & genomic medicine",
+      "title": "Characterization of CRB1 splicing in retinal organoids derived from a patient with adult-onset rod-cone dystrophy caused by the c.1892A>G and c.2548G>A variants"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Female",
+      "age": "A50_54",
+      "disease_name": "Rod-cone dystrophy"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "description": "CRB1 c.1892A>G variant",
+      "loci_name": "CRB1",
+      "genotype": "c.1892A>G",
+      "mutation_type": "VA"
+    },
+    {
+      "description": "CRB1 c.2548G>A variant",
+      "loci_name": "CRB1",
+      "genotype": "c.2548G>A",
+      "mutation_type": "VA"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_origin_term": "blood",
+      "i_source_cell_type_term": "Peripheral Blood Mononuclear Cells (PBMCs)"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee"
+    },
+    {
+      "institutional_HREC": "Sir Charles Gairdner Hospital Human Research Ethics Committee"
+    }
+  ]
+}

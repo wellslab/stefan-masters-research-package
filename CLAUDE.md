@@ -6,6 +6,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Australian Stem Cell Curate - A Python package providing curation, scoring and reporting functions for the Australian Stem Cell Registry.
 
+
+## Work rules
+
+- Save temporary scripts you create to /temp
+- Clean up temp scripts when you are done with them (dont' litter the project).
+
 ## Development Commands
 
 ```bash

@@ -1,0 +1,120 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "1093IPC; 4P4",
+      "hpscreg_name": "LEIi008-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Lions Eye Institute, Nedlands, Western Australia, Australia"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "K",
+      "group": "Lions Eye Institute",
+      "e_mail": "fredchen@lei.org.au",
+      "last_name": "Chen",
+      "first_name": "Fred"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2018.11.018",
+      "title": "Generation of two induced pluripotent stem cell lines from a patient with dominant PRPF31 mutation and a related non-penetrant carrier",
+      "journal": "Stem Cell Research",
+      "last_author": "Fred K. Chen",
+      "first_author": "Samuel McLenachan",
+      "year": "2019.0"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "Male",
+      "age": "A25_29",
+      "disease_description": "Retinitis pigmentosa-11 caused by a dominant nonsense mutation in the PRPF31 gene",
+      "disease_name": "Retinitis Pigmentosa 11"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "19q13.42",
+      "genotype": "PRPF31 c.1205C > A (Heterozygous)",
+      "mutation_type": "Variant",
+      "loci_name": "PRPF31",
+      "description": "PRPF31 c.1205C > A (Heterozygous)"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "PAX6; OTX1",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Ectoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "DCN; GATA2",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Mesoderm",
+      "description": "In vitro directed differentiation"
+    },
+    {
+      "marker_list": "AFP; SOX7",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "Endoderm",
+      "description": "In vitro directed differentiation"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "46,XY",
+      "karyotype_method": "Beadchip and CNV analysis",
+      "summary": "Digital karyotyping using Illumina HumanCoreExome-24 Beadchip SNP array (500,000 human SNPs) showed normal karyotype (46,XY).",
+      "passage_number": "4"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "dermal fibroblasts",
+      "non_int_vector": "Episomal",
+      "derivation_year": "2017",
+      "non_int_vector_name": "Episomal iPSC Reprogramming Plasmid Kit (SC900A-1, System Biosciences)",
+      "i_source_cell_origin_term": "skin"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "RA/4/1/7916",
+      "institutional_HREC": "Human Research Ethics Office, University of Western Australia"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "o2_concentration": "0.21",
+      "passage_method": "Enzyme-free cell dissociation"
+    }
+  ]
+}

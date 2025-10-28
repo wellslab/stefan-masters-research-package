@@ -1,0 +1,133 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "FI.SPSM.SCN2A.E1211K.008; NGF008 c3",
+      "hpscreg_name": "FINi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "The Florey Institute of Neuroscience and Mental Health"
+    }
+  ],
+  "contact": [
+    {
+      "group": "Petrou-Maljevic-FIN",
+      "e_mail": " steven.petrou@florey.edu.au",
+      "last_name": "Petrou",
+      "first_name": "Steve"
+    },
+    {
+      "group": "Petrou-Maljevic-FIN",
+      "e_mail": " snezana.maljevic@florey.edu.au",
+      "last_name": "Maljevic",
+      "first_name": "Snezana"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2024.103367",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel Na(v)1.2",
+      "journal": "Stem cell research",
+      "last_author": "Petrou S",
+      "first_author": "Ovchinnikov DA",
+      "year": "2024.0",
+      "pmid": "38479087"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2024.103367",
+      "title": "An iPSC line (FINi003-A) from a male with late-onset developmental and epileptic encephalopathy caused by a heterozygous p.E1211K variant in the SCN2A gene encoding the voltage-gated sodium channel Na",
+      "journal": "Stem Cell Research",
+      "last_author": "Steve Petrou",
+      "first_author": "Dmitry A Ovchinnikov",
+      "year": "2024.0",
+      "pmid": "38479087"
+    }
+  ],
+  "donor": [
+    {
+      "sex": "M",
+      "age": "5_9",
+      "disease_name": "Developmental and Epileptic Encephalopathy 11"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "mutation_type": "Missing",
+      "cytoband": "Missing",
+      "delivery_method": "Missing",
+      "description": "Missing",
+      "genotype": "Missing",
+      "loci_name": "Missing"
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "CXCR4; SOX17",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "TBX6; TBXT",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "OTX2; PAX6",
+      "method_used": "RT-qPCR",
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array (Illumina Global Screening Array 24, v.2.0).",
+      "passage_number": "8"
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_term": "skin fibroblast",
+      "non_int_vector": "O",
+      "derivation_year": "2023-01-01",
+      "non_int_vector_name": "[kit] ReproRNA-OKSGM",
+      "i_source_cell_type_id": "CL:0002620",
+      "i_source_cell_origin_term": "dermis",
+      "i_source_cell_origin_id": "UBERON:0002067"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC/16/ Austin/472",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "The University of Melbourne Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "passage_method": "EN"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "basic_data": [
+    {
+      "frozen": "True",
+      "cell_type": "hiPSC",
+      "cell_line_alt_name": "ACTA1.Bbc",
+      "hpscreg_name": "MCRIi024-A-1"
+    }
+  ],
+  "generator": [
+    {
+      "group": "Murdoch Children's Research Institute"
+    }
+  ],
+  "contact": [
+    {
+      "name_initials": "N",
+      "group": "North-MCRI",
+      "e_mail": " Kathryn.north@mcri.edu.au",
+      "last_name": "North",
+      "first_name": "Kathryn"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1016/j.scr.2021.102429",
+      "title": "Generating an iPSC line (with isogenic control) from the PBMCs of an ACTA1 (p.Gly148Asp) nemaline myopathy patient",
+      "journal": "Stem cell research",
+      "last_author": "North KN",
+      "first_author": "Houweling PJ",
+      "year": "2021.0",
+      "pmid": "34157503"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.scr.2021.102429",
+      "title": "Generating an iPSC line (with isogenic control) from the PBMCs of an ACTA1 (p.Gly148Asp) nemaline myopathy patient.",
+      "journal": "Stem Cell Research",
+      "last_author": "Kathryn N North",
+      "first_author": "Peter J Houweling",
+      "year": "2021.0",
+      "pmid": "34157503"
+    }
+  ],
+  "donor": [
+    {
+      "age": "Missing",
+      "sex": "Missing",
+      "disease_description": "Missing",
+      "disease_name": "Missing"
+    }
+  ],
+  "genomic_modifications": [
+    {
+      "cytoband": "1q42.13",
+      "genotype": "Homozygous: unspecified_reference_ACTA1:c.443=",
+      "delivery_method": "CRISPR/Cas9",
+      "mutation_type": "IM",
+      "loci_name": "ACTA1",
+      "description": "Correction of heterozygous ACTA1 c.443G>A (p.Gly148Asp) variant present in the parental line (MCRIi024-A). A synonymous change was also introduced (ACTA1 p.Ser147Ser). Targeted corrected clones were identified by allele-specific PCR and changes were confirmed by Sanger Sequencing."
+    }
+  ],
+  "differentiation_results": [
+    {
+      "marker_list": "SOX17",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "FOXC2; MEOX1",
+      "method_used": "ddPCR",
+      "show_potency": "True",
+      "cell_type": "ME"
+    },
+    {
+      "marker_list": "NES",
+      "method_used": "Immunostaining",
+      "show_potency": "True",
+      "cell_type": "EC"
+    },
+    {
+      "marker_list": "SOX17",
+      "method_used": "ddPCR",
+      "show_potency": "True",
+      "cell_type": "EN"
+    },
+    {
+      "marker_list": "NES; PAX6",
+      "method_used": "ddPCR",
+      "show_potency": "True",
+      "cell_type": "EC"
+    }
+  ],
+  "undifferentiated_characterisation": [
+    {
+      "epi_pluri_score": "Missing",
+      "pluri_test_score": "Missing",
+      "pluri_novelty_score": "Missing"
+    }
+  ],
+  "genomic_characterisation": [
+    {
+      "karyotype": "arr(1-22)x2,(XY)x1",
+      "karyotype_method": "MKSNP",
+      "summary": "Molecular karyotyping by SNP array ((Illumina Infinium GSA-24 v1.0; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity)."
+    }
+  ],
+  "induced_derivation": [
+    {
+      "i_source_cell_type_id": "Missing",
+      "i_source_cell_origin_id": "Missing",
+      "derivation_year": "None",
+      "non_int_vector": "Missing",
+      "non_int_vector_name": "Missing"
+    }
+  ],
+  "embryonic_derivation": [
+    {
+      "embryo_stage": "Missing",
+      "zp_removal_technique": "Missing",
+      "trophectoderm_morphology": "Missing",
+      "icm_morphology": "Missing",
+      "e_preimplant_genetic_diagnosis": "Missing"
+    }
+  ],
+  "ethics": [
+    {
+      "ethics_number": "HREC/45380/RCHM2018-154931",
+      "approval_date": "1900-01-01",
+      "institutional_HREC": "Royal Children's Hospital Human Research Ethics Committee"
+    }
+  ],
+  "culture_medium": [
+    {
+      "co2_concentration": "0.05",
+      "passage_method": "EF"
+    }
+  ]
+}

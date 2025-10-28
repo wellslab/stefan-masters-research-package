@@ -1,0 +1,30 @@
+{
+  "basic_data": [
+    {
+      "cell_type": "iPSC",
+      "frozen": "True",
+      "hpscreg_name": "SCTi003-A"
+    }
+  ],
+  "generator": [
+    {
+      "group": "StemCell Technologies"
+    }
+  ],
+  "publications": [
+    {
+      "last_author": "Rhonda L. Taylor",
+      "year": "2024.0",
+      "first_author": "Joshua S. Clayton",
+      "doi": "10.1016/j.scr.2024.103411",
+      "journal": "Stem Cell Research",
+      "title": "Generation of two iPSC lines from adult central core disease patients with dominant missense variants in the RYR1 gene"
+    }
+  ],
+  "ethics": [
+    {
+      "institutional_HREC": "University of Western Australia Human Research Ethics Committee",
+      "ethics_number": "RA/4/20/1008"
+    }
+  ]
+}
