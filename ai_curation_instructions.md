@@ -286,13 +286,15 @@ genomic_characterisation: [
 
 ### 10. Induced Derivation (`induced_derivation` array)
 
-For hiPSCs only. Always return as an array.
+For hiPSCs only. 
+- Always return as an array.
+- For fields where we have stated accepted values you must only use these values and no others.
 
 | Field                       | Instructions                                                                                               | Accepted values                    | Example values |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------- | -------------- |
 | `i_source_cell_type_term`   | Source cell type (e.g., "peripheral blood mononuclear cell", "fibroblasts")                                |                                    |                |
 | `i_source_cell_origin_term` | Tissue of origin (e.g., "blood", "skin")                                                                   |                                    |                |
-| `derivation_year`           | Year derived                                                                                               |                                    |                |
+| `derivation_year`           | Write the year that the cell line was derived in. This should be reported in the article, or otherwise, write the year the article was published.                                                                                               |                                    |                |
 | `non_int_vector`            | Write the type of the non-integrating vector used for the induced derivation procedure for this cell line. | Episomal, Sendai virus, AAV, Other |                |
 | `non_int_vector_name`       | Non-integrating vector name or kit name                                                                    |                                    |                |
 

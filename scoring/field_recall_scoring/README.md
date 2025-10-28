@@ -60,18 +60,6 @@ This will:
 3. Save individual JSON files in `field_results/` directory
 4. Include model name, PMID, and traceability information for each comparison
 
-### Analyze Age Range Corrections
-
-```bash
-# Run from project root directory
-poetry run python scoring/field_recall_scoring/age_range_correction.py
-```
-
-This will:
-1. Analyze the `donor.age` field for semantic age range matching
-2. Compare exact string matching vs intelligent range matching
-3. Generate detailed report showing before/after recall improvements
-4. Save analysis to `age_range_correction_report.md`
 
 ## Methodology
 

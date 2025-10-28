@@ -2,9 +2,9 @@
   "field_path": "donor.age",
   "summary": {
     "total_comparisons": 325,
-    "total_matches": 196,
+    "total_matches": 6,
     "total_model_missing": 10,
-    "recall": 0.6030769230769231
+    "recall": 0.018461538461538463
   },
   "comparisons": [
     {
@@ -2282,12 +2282,5 @@
       "ground_truth": "UN",
       "model_output": "A1_4"
     }
-  ],
-  "metadata": {
-    "correction_applied": "semantic_age_range_matching",
-    "description": "Uses semantic age range matching that handles A prefix and age ranges",
-    "original_recall": 0.018,
-    "corrected_recall": 0.6030769230769231,
-    "improvement": 0.585076923076923
-  }
+  ]
 }
