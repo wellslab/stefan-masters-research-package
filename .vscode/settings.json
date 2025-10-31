@@ -1,4 +1,5 @@
 {
-    "workbench.colorTheme": "GitHub Light",
-    "editor.fontFamily": "'Source Code Pro', monospace"
+    "workbench.colorTheme": "Cursor Light",
+    "editor.fontFamily": "'Inconsolata', monospace",
+    "editor.fontSize": 16
 }

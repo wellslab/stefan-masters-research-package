@@ -1,0 +1,80 @@
+{
+    "gpt-4.1": {
+        "exact": 82,
+        "manual": 15,
+        "discovery": 0,
+        "hallucination": 0,
+        "error": 0,
+        "total_cell_lines": 97,
+        "exact_percentage": 84.54,
+        "manual_percentage": 15.46,
+        "scorable_percentage": 100.0,
+        "hallucination_per_twenty_articles": 0.0,
+        "error_per_twenty_articles": 0.0
+    },
+    "gpt-4.1-mini": {
+        "exact": 95,
+        "manual": 4,
+        "discovery": 0,
+        "hallucination": 0,
+        "error": 0,
+        "total_cell_lines": 99,
+        "exact_percentage": 95.96,
+        "manual_percentage": 4.04,
+        "scorable_percentage": 100.0,
+        "hallucination_per_twenty_articles": 0.0,
+        "error_per_twenty_articles": 0.0
+    },
+    "gpt-4.1-nano": {
+        "exact": 52,
+        "manual": 53,
+        "discovery": 0,
+        "hallucination": 0,
+        "error": 2,
+        "total_cell_lines": 107,
+        "exact_percentage": 48.6,
+        "manual_percentage": 49.53,
+        "scorable_percentage": 98.13,
+        "hallucination_per_twenty_articles": 0.0,
+        "error_per_twenty_articles": 1.08
+    },
+    "gpt-5": {
+        "exact": 73,
+        "manual": 26,
+        "discovery": 0,
+        "hallucination": 0,
+        "error": 0,
+        "total_cell_lines": 99,
+        "exact_percentage": 73.74,
+        "manual_percentage": 26.26,
+        "scorable_percentage": 100.0,
+        "hallucination_per_twenty_articles": 0.0,
+        "error_per_twenty_articles": 0.0
+    },
+    "gpt-5-mini": {
+        "exact": 93,
+        "manual": 8,
+        "discovery": 0,
+        "hallucination": 0,
+        "error": 0,
+        "total_cell_lines": 101,
+        "exact_percentage": 92.08,
+        "manual_percentage": 7.92,
+        "scorable_percentage": 100.0,
+        "hallucination_per_twenty_articles": 0.0,
+        "error_per_twenty_articles": 0.0
+    },
+    "gpt-5-nano": {
+        "exact": 62,
+        "manual": 36,
+        "discovery": 0,
+        "hallucination": 2,
+        "error": 0,
+        "total_cell_lines": 100,
+        "exact_percentage": 62.0,
+        "manual_percentage": 36.0,
+        "scorable_percentage": 98.0,
+        "hallucination_per_twenty_articles": 1.1429,
+        "error_per_twenty_articles": 0.0
+    }
+}
