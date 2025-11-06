@@ -1,0 +1,326 @@
+{
+  "model_name": "gpt-4.1-mini",
+  "field_path": "publications.last_author",
+  "summary": {
+    "total_comparisons": 45,
+    "total_matches": 40,
+    "recall": 0.8888888888888888
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Joshua S. Clayton",
+      "model_output": "Joshua S. Clayton"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37150143",
+      "cell_line": "MCRIi003-A",
+      "ground_truth": "Andrew G. Elefanty",
+      "model_output": "Andrew G. Elefanty"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "30605840",
+      "cell_line": "MCRIi005-A",
+      "ground_truth": "Andrew G. Elefanty",
+      "model_output": "Andrew G. Elefanty"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "Rhonda L. Taylor",
+      "model_output": "Rhonda L. Taylor"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "35917601",
+      "cell_line": "UOCi002-A",
+      "ground_truth": "Chad A. Bousman",
+      "model_output": "Chad A. Bousman"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Joshua S. Clayton",
+      "model_output": "Joshua S. Clayton"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "Christopher Semsarian",
+      "model_output": "Christopher Semsarian"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "35917601",
+      "cell_line": "UOCi001-A",
+      "ground_truth": "Chad A. Bousman",
+      "model_output": "Chad A. Bousman"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi002-A",
+      "ground_truth": "Young KM",
+      "model_output": "Kaylene M. Young"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "Rhonda L. Taylor",
+      "model_output": "Rhonda L. Taylor"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37150143",
+      "cell_line": "MCRIi007-A",
+      "ground_truth": "Andrew G. Elefanty",
+      "model_output": "Andrew G. Elefanty"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37150143",
+      "cell_line": "MCRIi002-A",
+      "ground_truth": "Andrew G. Elefanty",
+      "model_output": "Andrew G. Elefanty"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-B",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-B",
+      "ground_truth": "Paul J. Lockhart",
+      "model_output": "Paul J. Lockhart"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "30605840",
+      "cell_line": "MCRIi006-A",
+      "ground_truth": "Andrew G. Elefanty",
+      "model_output": "Andrew G. Elefanty"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "34088002",
+      "cell_line": "UOMELBi002-A",
+      "ground_truth": "P\u00e9bay A",
+      "model_output": "Alice P\u00e9bay"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Ernst J. Wolvetang",
+      "model_output": "Ernst J. Wolvetang"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi025-A",
+      "ground_truth": "Paul J. Lockhart",
+      "model_output": "Paul J. Lockhart"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi027-B",
+      "ground_truth": "Paul J. Lockhart",
+      "model_output": "Paul J. Lockhart"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi027-A",
+      "ground_truth": "Paul J. Lockhart",
+      "model_output": "Paul J. Lockhart"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi017-A",
+      "ground_truth": "Ernst J. Wolvetang",
+      "model_output": "Ernst J. Wolvetang"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi003-A",
+      "ground_truth": "Young KM",
+      "model_output": "Kaylene M. Young"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "Rhonda L. Taylor",
+      "model_output": "Rhonda L. Taylor"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi019-A",
+      "ground_truth": "Brad A. Sutherland",
+      "model_output": "Brad A. Sutherland"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-A",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi018-A",
+      "ground_truth": "Ernst J. Wolvetang",
+      "model_output": "Ernst J. Wolvetang"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37150143",
+      "cell_line": "MCRIi008-A",
+      "ground_truth": "Andrew G. Elefanty",
+      "model_output": "Andrew G. Elefanty"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-A",
+      "ground_truth": "Paul J. Lockhart",
+      "model_output": "Paul J. Lockhart"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi005-A",
+      "ground_truth": "Young KM",
+      "model_output": "Kaylene M. Young"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi004-A",
+      "ground_truth": "Young KM",
+      "model_output": "Kaylene M. Young"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi022-A",
+      "ground_truth": "Brad A. Sutherland",
+      "model_output": "Brad A. Sutherland"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37150143",
+      "cell_line": "MCRIi009-A",
+      "ground_truth": "Andrew G. Elefanty",
+      "model_output": "Andrew G. Elefanty"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi021-A",
+      "ground_truth": "Brad A. Sutherland",
+      "model_output": "Brad A. Sutherland"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi025-B",
+      "ground_truth": "Paul J. Lockhart",
+      "model_output": "Paul J. Lockhart"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "Mark A Bellgrove",
+      "model_output": "Mark A Bellgrove"
+    },
+    {
+      "model_name": "gpt-4.1-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Ernst J. Wolvetang",
+      "model_output": "Ernst J. Wolvetang"
+    }
+  ]
+}

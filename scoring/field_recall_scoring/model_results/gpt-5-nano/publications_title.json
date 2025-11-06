@@ -1,0 +1,165 @@
+{
+  "model_name": "gpt-5-nano",
+  "field_path": "publications.title",
+  "summary": {
+    "total_comparisons": 22,
+    "total_matches": 21,
+    "recall": 0.9545454545454546
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37150143",
+      "cell_line": "MCRIi003-A",
+      "ground_truth": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors",
+      "model_output": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30605840",
+      "cell_line": "MCRIi005-A",
+      "ground_truth": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults",
+      "model_output": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "35917601",
+      "cell_line": "UOCi002-A",
+      "ground_truth": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia",
+      "model_output": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family",
+      "model_output": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "Generation of an induced pluripotent stem cell line from a patient with conduction disease and recurrent ventricular fibrillation with a sodium voltage-gated channel alpha subunit 5 (SCN5A) gene c.392 + 3A > G splice-site variant",
+      "model_output": "Generation of an induced pluripotent stem cell line from a patient with conduction disease and recurrent ventricular fibrillation with a sodium voltage-gated channel alpha subunit 5 (SCN5A) gene c.392 + 3A > G splice-site variant"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "35917601",
+      "cell_line": "UOCi001-A",
+      "ground_truth": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia",
+      "model_output": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37150143",
+      "cell_line": "MCRIi007-A",
+      "ground_truth": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors",
+      "model_output": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37150143",
+      "cell_line": "MCRIi002-A",
+      "ground_truth": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors",
+      "model_output": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-B",
+      "ground_truth": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family",
+      "model_output": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30605840",
+      "cell_line": "MCRIi006-A",
+      "ground_truth": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults",
+      "model_output": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34088002",
+      "cell_line": "UOMELBi002-A",
+      "ground_truth": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)",
+      "model_output": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture",
+      "model_output": "A CX3CR1 Reporter hESC Line Facilitates Integrative Analysis of In-Vitro-Derived Microglia and Improved Microglia Identity upon Neuron-Glia Co-culture"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "model_output": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi017-A",
+      "ground_truth": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "model_output": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi019-A",
+      "ground_truth": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility",
+      "model_output": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-A",
+      "ground_truth": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family",
+      "model_output": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi018-A",
+      "ground_truth": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "model_output": "Generation of induced pluripotent stem cell lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37150143",
+      "cell_line": "MCRIi008-A",
+      "ground_truth": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors",
+      "model_output": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi022-A",
+      "ground_truth": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility",
+      "model_output": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37150143",
+      "cell_line": "MCRIi009-A",
+      "ground_truth": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors",
+      "model_output": "Generation of iPSC lines from peripheral blood mononuclear cells from five healthy donors"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi021-A",
+      "ground_truth": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility",
+      "model_output": "Induced pluripotent stem cell derived pericytes respond to mediators of proliferation and contractility"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "model_output": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    }
+  ]
+}

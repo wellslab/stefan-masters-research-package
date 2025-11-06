@@ -1,0 +1,67 @@
+{
+  "model_name": "gpt-5-mini",
+  "field_path": "culture_medium.o2_concentration",
+  "summary": {
+    "total_comparisons": 8,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "0.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi002-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37939621",
+      "cell_line": "VCCRIi003-A",
+      "ground_truth": "0.18",
+      "model_output": "0.21"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi003-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37939621",
+      "cell_line": "VCCRIi002-A",
+      "ground_truth": "0.18",
+      "model_output": "0.2"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi005-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi004-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    }
+  ]
+}

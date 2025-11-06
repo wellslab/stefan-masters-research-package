@@ -1,0 +1,18 @@
+{
+  "model_name": "gpt-4.1",
+  "field_path": "genomic_modifications.delivery_method",
+  "summary": {
+    "total_comparisons": 1,
+    "total_matches": 1,
+    "recall": 1.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "Crispr/Cas9",
+      "model_output": "Crispr/Cas9"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "model_name": "gpt-4.1-nano",
+  "field_path": "publications.title",
+  "summary": {
+    "total_comparisons": 24,
+    "total_matches": 24,
+    "recall": 1.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Generation of two induced pluripotent stem cell lines from a 33-year-old central core disease patient with a heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene",
+      "model_output": "Generation of two induced pluripotent stem cell lines from a 33-year-old central core disease patient with a heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30605840",
+      "cell_line": "MCRIi005-A",
+      "ground_truth": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults",
+      "model_output": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "model_output": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "Generation of two iPSC lines from patients with inherited central core disease and concurrent malignant hyperthermia caused by dominant missense variants in the RYR1 gene",
+      "model_output": "Generation of two iPSC lines from patients with inherited central core disease and concurrent malignant hyperthermia caused by dominant missense variants in the RYR1 gene"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "35917601",
+      "cell_line": "UOCi002-A",
+      "ground_truth": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia",
+      "model_output": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family",
+      "model_output": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Generation of two induced pluripotent stem cell lines from a 33-year-old central core disease patient with a heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene",
+      "model_output": "Generation of two induced pluripotent stem cell lines from a 33-year-old central core disease patient with a heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "35917601",
+      "cell_line": "UOCi001-A",
+      "ground_truth": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia",
+      "model_output": "Generation of two human induced pluripotent stem cell lines from peripheral blood mononuclear cells of clozapine-tolerant and clozapine-induced myocarditis patients with treatment-resistant schizophrenia"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "model_output": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "model_output": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "model_output": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-B",
+      "ground_truth": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family",
+      "model_output": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30605840",
+      "cell_line": "MCRIi006-A",
+      "ground_truth": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults",
+      "model_output": "Generation of iPSC lines from peripheral blood mononuclear cells from 5 healthy adults"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34088002",
+      "cell_line": "UOMELBi002-A",
+      "ground_truth": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)",
+      "model_output": "Generation of a gene-corrected human isogenic iPSC line from an Alzheimer\u2019s disease iPSC line carrying the London mutation in APP (V717I)"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "model_output": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi017-A",
+      "ground_truth": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "model_output": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "model_output": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "model_output": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-A",
+      "ground_truth": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family",
+      "model_output": "Generation of four iPSC lines from peripheral blood mononuclear cells (PBMCs) of an attention deficit hyperactivity disorder (ADHD) individual and a healthy sibling in an Australia-Caucasian family"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "model_output": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "model_output": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi018-A",
+      "ground_truth": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "model_output": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder",
+      "model_output": "Generation of induced pluripotent stem cell lines from three individuals with autism spectrum disorder"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations",
+      "model_output": "Generation of iPSC lines from hereditary spastic paraplegia 56 (SPG56) patients and family members carrying CYP2U1 mutations"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "model_name": "gpt-5-nano",
+  "field_path": "culture_medium.o2_concentration",
+  "summary": {
+    "total_comparisons": 4,
+    "total_matches": 1,
+    "recall": 0.25
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30092450",
+      "cell_line": "LEIi006-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi019-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi022-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi021-A",
+      "ground_truth": "0.2",
+      "model_output": "0.2"
+    }
+  ]
+}

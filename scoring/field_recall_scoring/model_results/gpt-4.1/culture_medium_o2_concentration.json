@@ -1,0 +1,46 @@
+{
+  "model_name": "gpt-4.1",
+  "field_path": "culture_medium.o2_concentration",
+  "summary": {
+    "total_comparisons": 5,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "0.2",
+      "model_output": "0.21"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "0.2",
+      "model_output": "0.21"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "0.2",
+      "model_output": "0.21"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "0.2",
+      "model_output": "0.21"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30092450",
+      "cell_line": "LEIi006-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "model_name": "gpt-4.1",
+  "field_path": "genomic_characterisation.summary",
+  "summary": {
+    "total_comparisons": 41,
+    "total_matches": 1,
+    "recall": 0.024390243902439025
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina HumanCoreExome-24; resolution 0.5 Mb).",
+      "model_output": "Matched at 16 loci, normal 46,XX karyotype, 500,000 human SNPs analyzed, no genomic abnormalities detected."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi015-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "Karyotyping of the PBMCs and iPSC lines was performed using the Infinium CoreExome-24 v1.1 SNP array. The passage number for each iPSC line that was karyotyped are as follows: ASD2-11.5 P4 + 4. The data was compared to the human normal karyotype. SNP array comparisons of PBMC and iPSC lines were performed using SNPduo comparative analysis. No differences were detected between the original PBMC sample and its corresponding iPSC line."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi020-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium GSA-24 v2.0). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "All lines demonstrated a normal karyotype. SNP array comparisons of parental PBMC and iPSC lines showed identical genotype to their corresponding PBMC sample."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi021-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium GSA-24 v2.0). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "All lines demonstrated a normal karyotype. SNP array comparisons of parental PBMC and iPSC lines showed identical genotype to their corresponding PBMC sample."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-B",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina HumanCoreExome-24; resolution 0.5 Mb).",
+      "model_output": "Normal 46,XX karyotype at 0.5Mb resolution; no chromosomal rearrangements detected."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi013-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "Karyotyping of the PBMCs and iPSC lines was performed using the Infinium CoreExome-24 v1.1 SNP array. The iPSC line showed a normal karyotype (0.5 Mb resolution) and an identical genotype to the corresponding PBMC sample."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina HumanCoreExome-24; resolution 0.5 Mb).",
+      "model_output": "Digital karyotyping by Illumina HumanCoreExome-24 Beadchip SNP array (500,000 SNPs) showed normal karyotype."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32006803",
+      "cell_line": "UOWi007-A",
+      "ground_truth": "Karyotyping occurred at a resolution of 400bphs (15 metaphase spreads).",
+      "model_output": "Normal karyotype detected in 15 cells at 400 bands per haploid set."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi001-A",
+      "ground_truth": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed.",
+      "model_output": "Normal female karyotype (46XX), with no G-banding abnormalities at a resolution of 300bphs. Fifteen metaphase spreads were analysed."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi012-A",
+      "ground_truth": "Karyotyping occurred from passage 15 at a resolution of 500bphs. Ten metaphase spreads were analysed.",
+      "model_output": "Karyotype analysis revealed a normal female karyotype (46XX, 46XY) without G-banding abnormalities."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34507143",
+      "cell_line": "AIBNi013-A",
+      "ground_truth": "Karyotyping occurred from passage 5 at a resolution of 400bphs.",
+      "model_output": "Normal karyotype at 400bphs. Fifteen metaphase spreads were analysed."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi008-A",
+      "ground_truth": "Karyotyping occurred from passage 15 at a resolution of 500bphs. Ten metaphase spreads were analysed.",
+      "model_output": "Karyotype analysis revealed a normal female karyotype (46XX, 46XY) without G-banding abnormalities."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium HumanCoreExome-24; resolution 0.5 Mb).",
+      "model_output": "Normal female karyotype at 0.5MB resolution; no chromosomal rearrangements detected."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium Human CytoSNP-12; resolution 0.5 Mb).",
+      "model_output": "Normal diploid karyotype confirmed by Illumina Beadchip SNP array with CNV analysis at 500 Kb resolution."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi016-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "All iPSC lines showed a normal karyotype (with 0.5 Mb resolution) and an identical genotype to their corresponding PBMC sample when analysed by array comparative genomic hybridisation (SNP array), confirming no perturbations in genomic integrity occurred during reprogramming."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-B",
+      "ground_truth": "Karyostat analysis (minimum resolution: 1 MB (losses); 2 MB (gains), 5 MB (LOH/AOH)).",
+      "model_output": "Karyostat assay (CytoScan Optima) indicated normal copy number (2.0 \u00b1 0.3) at all tested loci. No chromosomal aberrations were found in either line."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi017-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "Karyotyping of the PBMCs and iPSC lines was performed using the Infinium CoreExome-24 v1.1 SNP array. The passage number for each iPSC line that was karyotyped are as follows: ASD2-7.1 P3 + 5. All iPSC lines showed a normal karyotype (0.5 Mb resolution) and an identical genotype to their corresponding PBMC sample when analysed by array comparative genomic hybridisation (SNP array), confirming that no perturbations in genomic integrity occurred during reprogramming."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina HumanCoreExome-24; resolution 0.5 Mb).",
+      "model_output": "Digital karyotyping using Illumina HumanCoreExome-24 Beadchip SNP array (500,000 human SNPs) showed normal karyotype (46,XY)."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38479087",
+      "cell_line": "FINi003-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Global Screening Array 24, v.2.0).",
+      "model_output": "Normal karyotype without SNP array-detectable abnormalities. Karyotyping at 450\u2013500 band resolution."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina HumanCoreExome-24; resolution 0.5 Mb).",
+      "model_output": "Normal 46,XX karyotype at 0.5Mb resolution; no chromosomal rearrangements detected."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi005-A",
+      "ground_truth": "Karyotyping occurred at a resolution of 400bphs. Fifteen metaphase spreads were analysed.",
+      "model_output": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed. Normal female karyotype (46XX), with no G-banding abnormalities."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi007-A",
+      "ground_truth": "Karyotyping occurred from passage 15 at a resolution of 500bphs. Ten metaphase spreads were analysed.",
+      "model_output": "Normal female karyotype (46XX, 46XY) without G-banding abnormalities. Karyotype analysis revealed a normal female karyotype for AIBNi007-A at 500 bphs."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi004-A",
+      "ground_truth": "Karyotyping occurred at a resolution of 400bphs. Fifteen metaphase spreads were analysed.",
+      "model_output": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-A",
+      "ground_truth": "Karyostat analysis (minimum resolution: 1 MB (losses); 2 MB (gains), 5 MB (LOH/AOH)).",
+      "model_output": "No chromosomal aberrations were found in either line. Minimum resolution = 1 MB for losses, 2 MB for gains, 5 MB for LOH/AOH."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi003-A",
+      "ground_truth": "Karyotyping occurred at a resolution of 400bphs. Fifteen metaphase spreads were analysed.",
+      "model_output": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi010-A",
+      "ground_truth": "Karyotyping occurred from passage 15 at a resolution of 500bphs. Ten metaphase spreads were analysed.",
+      "model_output": "Karyotype analysis revealed a normal female karyotype (46XX, 46XY) without G-banding abnormalities."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi022-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium GSA-24 v2.0). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "All lines demonstrated a normal karyotype. SNP array comparisons of parental PBMC and iPSC lines showed identical genotype for the corresponding PBMC sample and its iPSC line."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi009-A",
+      "ground_truth": "Karyotyping occurred from passage 15 at a resolution of 500bphs. Ten metaphase spreads were analysed.",
+      "model_output": "Karyotype analysis revealed a normal female karyotype (46XX, 46XY) without G-banding abnormalities."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi014-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "iPSC line showed a normal karyotype (0.5 Mb resolution) and an identical genotype to the corresponding PBMC sample when analysed by array comparative genomic hybridisation (SNP array), confirming no perturbations in genomic integrity occurred during reprogramming."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi011-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "Karyotyping of the PBMCs and iPSC lines was performed using the Infinium CoreExome-24 v1.1 SNP array. The iPSC line showed a normal karyotype (resolution 0.5 Mb). SNP array comparisons of PBMC and iPSC line showed identical genotypes (>99.9%) for the entire genome, indicating cell lines are from the same individual."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi012-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium CoreExome-24 v1.1; resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "iPSC line showed a normal karyotype (0.5 Mb resolution) and an identical genotype to the corresponding PBMC sample when analysed by array comparative genomic hybridisation (SNP array), confirming no perturbations in genomic integrity occurred during reprogramming."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi011-A",
+      "ground_truth": "Karyotyping occurred from passage 15 at a resolution of 500bphs. Ten metaphase spreads were analysed.",
+      "model_output": "Normal female karyotype (46XX, 46XY) without G-banding abnormalities."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "Molecular karyotyping by SNP array (resolution 0.5 Mb).",
+      "model_output": "Infinium Human CoreExome-24 Beadchip SNP array (Illumina) at 500 kb resolution showed a normal 46,XX karyotype."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-B",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium Human CytoSNP-12; resolution 0.5 Mb).",
+      "model_output": "Normal diploid karyotype confirmed by SNP array at passage 11."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "Molecular karyotyping by SNP array (resolution 0.5 Mb).",
+      "model_output": "Infinium HumanCoreExome-24 Beadchip SNP array (Illumina) at 500 kb resolution; normal female 46,XX karyotype; no abnormal CNVs detected."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium HumanCoreExome-24; resolution 0.5 Mb).",
+      "model_output": "Digital karyotyping showed normal 46,XX karyotype with no pathogenic copy number alterations detected."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi002-A",
+      "ground_truth": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed.",
+      "model_output": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed for each line. Normal female karyotype observed."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi023-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium GSA-24 v2.0). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "All lines demonstrated a normal karyotype. SNP array comparisons of parental PBMC and iPSC lines showed identical genotype to their corresponding PBMC sample."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi006-A",
+      "ground_truth": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed.",
+      "model_output": "Karyotyping occurred at a resolution of 300bphs. Fifteen metaphase spreads were analysed."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "Molecular karyotyping by SNP array (Illumina Infinium HumanCoreExome-24; resolution 0.5 Mb).",
+      "model_output": "Digital karyotyping with no copy number variation or unbalanced alterations detected. 16 microsatellite loci confirmed identity."
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "Molecular karyotyping by SNP array (resolution 0.5 Mb). SNPduo comparison to parental cell (>99.9% identity).",
+      "model_output": "G-band karyotyping at 0.50 Mb resolution, 20 metaphase cells counted, no chromosomal abnormalities detected."
+    }
+  ]
+}

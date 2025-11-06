@@ -1,0 +1,46 @@
+{
+  "model_name": "gpt-4.1",
+  "field_path": "genomic_modifications.description",
+  "summary": {
+    "total_comparisons": 5,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Heterozygous dominant c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) deletion in the RYR1 gene"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Heterozygous for RYR1 c.14437C>T variant (p.His4813Tyr)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Heterozygous for RYR1 c.4036C>A (p.Asn1346Lys) variant"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "Heterozygous COL2A1 c.2155C>T  (p.Arg719Cys) variant was introduced to COL2A1 exon 33. A synonymous change was also introduced.",
+      "model_output": "Heterozygous COL2A1 c.2155C>T (p.R719C) mutation introduced by CRISPR/Cas9 and ODN repair template"
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "model_name": "gpt-4.1",
+  "field_path": "donor.age",
+  "summary": {
+    "total_comparisons": 59,
+    "total_matches": 5,
+    "recall": 0.0847457627118644
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "30_34",
+      "model_output": "A30_34"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "15_19",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "UN",
+      "model_output": "A10_14"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi020-A",
+      "ground_truth": "5_9",
+      "model_output": "A5_9"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi021-A",
+      "ground_truth": "5_9",
+      "model_output": "A5_9"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-B",
+      "ground_truth": "15_19",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-C",
+      "ground_truth": "15_19",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "UN",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi013-A",
+      "ground_truth": "25_29",
+      "model_output": "25_29"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "30_34",
+      "model_output": "A30_34"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "50_54",
+      "model_output": "A40_44"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32006803",
+      "cell_line": "UOWi007-A",
+      "ground_truth": "40_44",
+      "model_output": "A40_44"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi001-A",
+      "ground_truth": "35_39",
+      "model_output": "35_39"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-A",
+      "ground_truth": "UN",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "UN",
+      "model_output": "A25_29"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi012-A",
+      "ground_truth": "35_39",
+      "model_output": "35_39"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "UN",
+      "model_output": "A35_39"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "UN",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "UN",
+      "model_output": "A10_14"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi008-A",
+      "ground_truth": "25_29",
+      "model_output": "A25_29"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "75_79",
+      "model_output": "A75_79"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-A",
+      "ground_truth": "30_34",
+      "model_output": "A30_34"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-B",
+      "ground_truth": "UN",
+      "model_output": "A55_59"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi016-A",
+      "ground_truth": "15_19",
+      "model_output": "24"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-A",
+      "ground_truth": "15_19",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "UN",
+      "model_output": "A20_24"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-B",
+      "ground_truth": "15_19",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi025-A",
+      "ground_truth": "UN",
+      "model_output": "A25_29"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "25_29",
+      "model_output": "A25_29"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi027-B",
+      "ground_truth": "UN",
+      "model_output": "A65_69"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38479087",
+      "cell_line": "FINi003-A",
+      "ground_truth": "5_9",
+      "model_output": "A5_9"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "UN",
+      "model_output": "A35_39"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-A",
+      "ground_truth": "15_19",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi005-A",
+      "ground_truth": "30_34",
+      "model_output": "30_34"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi007-A",
+      "ground_truth": "5_9",
+      "model_output": "35_39"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi004-A",
+      "ground_truth": "25_29",
+      "model_output": "35_39"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi003-A",
+      "ground_truth": "15_19",
+      "model_output": "15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "25_29",
+      "model_output": "A25_29"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi010-A",
+      "ground_truth": "15_19",
+      "model_output": "35_39"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30092450",
+      "cell_line": "LEIi006-A",
+      "ground_truth": "UN",
+      "model_output": "50_54"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "UN",
+      "model_output": "A10_14"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi022-A",
+      "ground_truth": "10_14",
+      "model_output": "A10_14"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "UN",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi009-A",
+      "ground_truth": "25_29",
+      "model_output": "A55_59"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi011-A",
+      "ground_truth": "55_59",
+      "model_output": "A57_59"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "UN",
+      "model_output": "A35_39"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi012-A",
+      "ground_truth": "60_64",
+      "model_output": "24"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-A",
+      "ground_truth": "UN",
+      "model_output": "A25_29"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi011-A",
+      "ground_truth": "55_59",
+      "model_output": "35_39"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "15_19",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-B",
+      "ground_truth": "30_34",
+      "model_output": "A30_34"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "15_19",
+      "model_output": "A15_19"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "5_9",
+      "model_output": "A5_9"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi002-A",
+      "ground_truth": "45_49",
+      "model_output": "35_39"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi023-A",
+      "ground_truth": "5_9",
+      "model_output": "A10_14"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi006-A",
+      "ground_truth": "20_24",
+      "model_output": "A20_24"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "UN",
+      "model_output": "A10_14"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "5_9",
+      "model_output": "A5_9"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "UN",
+      "model_output": "A1_4"
+    }
+  ]
+}

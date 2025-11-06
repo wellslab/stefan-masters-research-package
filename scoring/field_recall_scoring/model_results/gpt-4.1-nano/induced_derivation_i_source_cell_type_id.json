@@ -1,0 +1,207 @@
+{
+  "model_name": "gpt-4.1-nano",
+  "field_path": "induced_derivation.i_source_cell_type_id",
+  "summary": {
+    "total_comparisons": 28,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "31494449",
+      "cell_line": "LEIi011-C",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-C",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "31494449",
+      "cell_line": "LEIi011-B",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "35728440",
+      "cell_line": "HPIi004-B",
+      "ground_truth": "BTO:0000773",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "32006803",
+      "cell_line": "UOWi007-A",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi001-A",
+      "ground_truth": "CL:2000001",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "35074713",
+      "cell_line": "AIBNi008-A",
+      "ground_truth": "CL:2000001",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "31494449",
+      "cell_line": "LEIi011-A",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38583293",
+      "cell_line": "HPIi007-A",
+      "ground_truth": "BTO:0000773",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-A",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34388489",
+      "cell_line": "HPIi002-A",
+      "ground_truth": "BTO:0000773",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-B",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34388489",
+      "cell_line": "HPIi002-B",
+      "ground_truth": "BTO:0000773",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34214897",
+      "cell_line": "LEIi018-A",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi005-A",
+      "ground_truth": "CL:2000001",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "35074713",
+      "cell_line": "AIBNi007-A",
+      "ground_truth": "CL:2000001",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi004-A",
+      "ground_truth": "CL:2000001",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi003-A",
+      "ground_truth": "CL:2000001",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "35728440",
+      "cell_line": "HPIi004-A",
+      "ground_truth": "BTO:0000773",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "35074713",
+      "cell_line": "AIBNi009-A",
+      "ground_truth": "CL:2000001",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi002-A",
+      "ground_truth": "CL:2000001",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi006-A",
+      "ground_truth": "CL:2000001",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "CL:0002620",
+      "model_output": null
+    }
+  ]
+}

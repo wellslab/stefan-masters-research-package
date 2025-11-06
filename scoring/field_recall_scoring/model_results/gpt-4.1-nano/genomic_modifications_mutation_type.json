@@ -1,0 +1,32 @@
+{
+  "model_name": "gpt-4.1-nano",
+  "field_path": "genomic_modifications.mutation_type",
+  "summary": {
+    "total_comparisons": 3,
+    "total_matches": 3,
+    "recall": 1.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "VA",
+      "model_output": "VA"
+    }
+  ]
+}

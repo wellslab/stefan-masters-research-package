@@ -1,0 +1,32 @@
+{
+  "model_name": "gpt-4.1-nano",
+  "field_path": "culture_medium.o2_concentration",
+  "summary": {
+    "total_comparisons": 3,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "0.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "0.2",
+      "model_output": null
+    }
+  ]
+}

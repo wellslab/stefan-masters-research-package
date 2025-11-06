@@ -1,0 +1,368 @@
+{
+  "model_name": "gpt-5",
+  "field_path": "donor.disease_name",
+  "summary": {
+    "total_comparisons": 51,
+    "total_matches": 45,
+    "recall": 0.8823529411764706
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Central core disease",
+      "model_output": "Central core disease"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "Stargardt disease",
+      "model_output": "Stargardt Macular Dystrophy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "33091851",
+      "cell_line": "MCRIi020-A",
+      "ground_truth": "Neurofibromatosis Type 1",
+      "model_output": "Neurofibromatosis Type 1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "Central core disease",
+      "model_output": "Central core disease of muscle; Malignant hyperthermia susceptibility 1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "33091851",
+      "cell_line": "MCRIi021-A",
+      "ground_truth": "Neurofibromatosis Type 1",
+      "model_output": "Neurofibromatosis Type 1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "31494449",
+      "cell_line": "LEIi011-C",
+      "ground_truth": "Central chorioretinal atrophy",
+      "model_output": "Central chorioretinal atrophy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-B",
+      "ground_truth": "Usher syndrome type 2",
+      "model_output": "Usher syndrome type 2"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-C",
+      "ground_truth": "Usher syndrome type 2",
+      "model_output": "Usher syndrome type 2"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "31494449",
+      "cell_line": "LEIi011-B",
+      "ground_truth": "Central chorioretinal atrophy",
+      "model_output": "Central chorioretinal atrophy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "Attention Deficit Hyperactivity Disorder",
+      "model_output": "Attention Deficit Hyperactivity Disorder"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Central core disease",
+      "model_output": "Central core disease"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "Retinitis Pigmentosa 11",
+      "model_output": "Non-penetrant PRPF31 mutation carrier"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "32006803",
+      "cell_line": "UOWi007-A",
+      "ground_truth": "Amyotrophic Lateral Sclerosis",
+      "model_output": "Amyotrophic Lateral Sclerosis"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "34649201",
+      "cell_line": "AIBNi001-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-A",
+      "ground_truth": "Attention Deficit Hyperactivity Disorder",
+      "model_output": "Healthy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "Central core disease",
+      "model_output": "Central core disease"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "35074713",
+      "cell_line": "AIBNi012-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "35074713",
+      "cell_line": "AIBNi008-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "Retinitis pigmentosa",
+      "model_output": "Retinitis pigmentosa"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-A",
+      "ground_truth": "Stargardt disease",
+      "model_output": "Stargardt Macular Dystrophy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "31494449",
+      "cell_line": "LEIi011-A",
+      "ground_truth": "Central chorioretinal atrophy",
+      "model_output": "Central chorioretinal atrophy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-B",
+      "ground_truth": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)",
+      "model_output": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-A",
+      "ground_truth": "Usher syndrome type 2",
+      "model_output": "Usher syndrome type 2"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Hereditary spastic paraplegia 56 (SPG56)",
+      "model_output": "Hereditary spastic paraplegia 56 (SPG56)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-B",
+      "ground_truth": "Usher syndrome type 2",
+      "model_output": "Usher syndrome type 2"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36805468",
+      "cell_line": "MCRIi025-A",
+      "ground_truth": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)",
+      "model_output": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "Retinitis Pigmentosa 11",
+      "model_output": "Retinitis Pigmentosa 11"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36805468",
+      "cell_line": "MCRIi027-B",
+      "ground_truth": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)",
+      "model_output": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "34214897",
+      "cell_line": "LEIi018-A",
+      "ground_truth": "Stargardt disease",
+      "model_output": "Stargardt disease"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36805468",
+      "cell_line": "MCRIi027-A",
+      "ground_truth": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)",
+      "model_output": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-A",
+      "ground_truth": "Usher syndrome type 2",
+      "model_output": "Usher syndrome type 2"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "34649201",
+      "cell_line": "AIBNi005-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "35074713",
+      "cell_line": "AIBNi007-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "34649201",
+      "cell_line": "AIBNi004-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "34649201",
+      "cell_line": "AIBNi003-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "Central core disease",
+      "model_output": "Central core disease"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "35074713",
+      "cell_line": "AIBNi010-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "33091851",
+      "cell_line": "MCRIi022-A",
+      "ground_truth": "Neurofibromatosis Type 1",
+      "model_output": "Neurofibromatosis Type 1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "35074713",
+      "cell_line": "AIBNi009-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-A",
+      "ground_truth": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)",
+      "model_output": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "35074713",
+      "cell_line": "AIBNi011-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "Stargardt disease",
+      "model_output": "Stargardt disease"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-B",
+      "ground_truth": "Stargardt disease",
+      "model_output": "Stargardt Macular Dystrophy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "Stargardt disease",
+      "model_output": "Stargardt disease"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "Retinitis pigmentosa",
+      "model_output": "Retinitis pigmentosa"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "34649201",
+      "cell_line": "AIBNi002-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "33091851",
+      "cell_line": "MCRIi023-A",
+      "ground_truth": "Neurofibromatosis Type 1",
+      "model_output": "Neurofibromatosis Type 1"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "34649201",
+      "cell_line": "AIBNi006-A",
+      "ground_truth": "Epilepsy",
+      "model_output": "Epilepsy"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36805468",
+      "cell_line": "MCRIi025-B",
+      "ground_truth": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)",
+      "model_output": "Cerebellar ataxia, neuropathy, and vestibular areflexia syndrome (CANVAS)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "Retinitis pigmentosa",
+      "model_output": "Retinitis pigmentosa"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Hereditary spastic paraplegia 56 (SPG56)",
+      "model_output": "Hereditary spastic paraplegia 56 (SPG56)"
+    }
+  ]
+}

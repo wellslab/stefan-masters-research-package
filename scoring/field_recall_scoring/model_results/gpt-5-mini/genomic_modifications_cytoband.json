@@ -1,0 +1,39 @@
+{
+  "model_name": "gpt-5-mini",
+  "field_path": "genomic_modifications.cytoband",
+  "summary": {
+    "total_comparisons": 4,
+    "total_matches": 1,
+    "recall": 0.25
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "19q13.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "3p22.2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "12q13.11",
+      "model_output": "12q13.11"
+    }
+  ]
+}

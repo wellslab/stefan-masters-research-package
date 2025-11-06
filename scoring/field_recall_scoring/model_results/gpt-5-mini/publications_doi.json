@@ -1,0 +1,305 @@
+{
+  "model_name": "gpt-5-mini",
+  "field_path": "publications.doi",
+  "summary": {
+    "total_comparisons": 42,
+    "total_matches": 42,
+    "recall": 1.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "10.1016/j.scr.2023.103258",
+      "model_output": "10.1016/j.scr.2023.103258"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37150143",
+      "cell_line": "MCRIi003-A",
+      "ground_truth": "10.1016/j.scr.2023.103109",
+      "model_output": "10.1016/j.scr.2023.103109"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30605840",
+      "cell_line": "MCRIi005-A",
+      "ground_truth": "10.1016/j.scr.2018.101380",
+      "model_output": "10.1016/j.scr.2018.101380"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "10.1016/j.scr.2023.103170",
+      "model_output": "10.1016/j.scr.2023.103170"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35917601",
+      "cell_line": "UOCi002-A",
+      "ground_truth": "10.1016/j.scr.2022.102877",
+      "model_output": "10.1016/j.scr.2022.102877"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "10.1016/j.scr.2018.11.014",
+      "model_output": "10.1016/j.scr.2018.11.014"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "10.1016/j.scr.2023.103258",
+      "model_output": "10.1016/j.scr.2023.103258"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "10.1016/j.scr.2023.103153",
+      "model_output": "10.1016/j.scr.2023.103153"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35917601",
+      "cell_line": "UOCi001-A",
+      "ground_truth": "10.1016/j.scr.2022.102877",
+      "model_output": "10.1016/j.scr.2022.102877"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi002-A",
+      "ground_truth": "10.1016/j.scr.2022.102828",
+      "model_output": "10.1016/j.scr.2022.102828"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "10.1016/j.scr.2023.103170",
+      "model_output": "10.1016/j.scr.2023.103170"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "10.1016/j.scr.2023.103170",
+      "model_output": "10.1016/j.scr.2023.103170"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37150143",
+      "cell_line": "MCRIi007-A",
+      "ground_truth": "10.1016/j.scr.2023.103109",
+      "model_output": "10.1016/j.scr.2023.103109"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37150143",
+      "cell_line": "MCRIi002-A",
+      "ground_truth": "10.1016/j.scr.2023.103109",
+      "model_output": "10.1016/j.scr.2023.103109"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "10.1016/j.scr.2023.103170",
+      "model_output": "10.1016/j.scr.2023.103170"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-B",
+      "ground_truth": "10.1016/j.scr.2018.11.014",
+      "model_output": "10.1016/j.scr.2018.11.014"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-B",
+      "ground_truth": "10.1016/j.scr.2023.103047",
+      "model_output": "10.1016/j.scr.2023.103047"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30605840",
+      "cell_line": "MCRIi006-A",
+      "ground_truth": "10.1016/j.scr.2018.101380",
+      "model_output": "10.1016/j.scr.2018.101380"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34088002",
+      "cell_line": "UOMELBi002-A",
+      "ground_truth": "10.1016/j.scr.2021.102373",
+      "model_output": "10.1016/j.scr.2021.102373"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "10.1016/j.stemcr.2020.04.007",
+      "model_output": "10.1016/j.stemcr.2020.04.007"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "10.1016/j.scr.2022.102917",
+      "model_output": "10.1016/j.scr.2022.102917"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi025-A",
+      "ground_truth": "10.1016/j.scr.2023.103047",
+      "model_output": "10.1016/j.scr.2023.103047"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi027-B",
+      "ground_truth": "10.1016/j.scr.2023.103047",
+      "model_output": "10.1016/j.scr.2023.103047"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37939621",
+      "cell_line": "VCCRIi003-A",
+      "ground_truth": "10.1016/j.scr.2023.103238",
+      "model_output": "10.1016/j.scr.2023.103238"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi027-A",
+      "ground_truth": "10.1016/j.scr.2023.103047",
+      "model_output": "10.1016/j.scr.2023.103047"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi017-A",
+      "ground_truth": "10.1016/j.scr.2022.102917",
+      "model_output": "10.1016/j.scr.2022.102917"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "10.1016/j.scr.2023.103170",
+      "model_output": "10.1016/j.scr.2023.103170"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi003-A",
+      "ground_truth": "10.1016/j.scr.2022.102828",
+      "model_output": "10.1016/j.scr.2022.102828"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "10.1016/j.scr.2023.103170",
+      "model_output": "10.1016/j.scr.2023.103170"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-A",
+      "ground_truth": "10.1016/j.scr.2018.11.014",
+      "model_output": "10.1016/j.scr.2018.11.014"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "10.1016/j.scr.2023.103170",
+      "model_output": "10.1016/j.scr.2023.103170"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "10.1016/j.scr.2023.103170",
+      "model_output": "10.1016/j.scr.2023.103170"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi018-A",
+      "ground_truth": "10.1016/j.scr.2022.102917",
+      "model_output": "10.1016/j.scr.2022.102917"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37150143",
+      "cell_line": "MCRIi008-A",
+      "ground_truth": "10.1016/j.scr.2023.103109",
+      "model_output": "10.1016/j.scr.2023.103109"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-A",
+      "ground_truth": "10.1016/j.scr.2023.103047",
+      "model_output": "10.1016/j.scr.2023.103047"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37939621",
+      "cell_line": "VCCRIi002-A",
+      "ground_truth": "10.1016/j.scr.2023.103238",
+      "model_output": "10.1016/j.scr.2023.103238"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi005-A",
+      "ground_truth": "10.1016/j.scr.2022.102828",
+      "model_output": "10.1016/j.scr.2022.102828"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35679759",
+      "cell_line": "MNZTASi004-A",
+      "ground_truth": "10.1016/j.scr.2022.102828",
+      "model_output": "10.1016/j.scr.2022.102828"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37150143",
+      "cell_line": "MCRIi009-A",
+      "ground_truth": "10.1016/j.scr.2023.103109",
+      "model_output": "10.1016/j.scr.2023.103109"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36805468",
+      "cell_line": "MCRIi025-B",
+      "ground_truth": "10.1016/j.scr.2023.103047",
+      "model_output": "10.1016/j.scr.2023.103047"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "10.1016/j.scr.2023.103170",
+      "model_output": "10.1016/j.scr.2023.103170"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "10.1016/j.scr.2022.102917",
+      "model_output": "10.1016/j.scr.2022.102917"
+    }
+  ]
+}

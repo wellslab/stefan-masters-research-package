@@ -1,0 +1,165 @@
+{
+  "model_name": "gpt-5-nano",
+  "field_path": "publications.year",
+  "summary": {
+    "total_comparisons": 22,
+    "total_matches": 22,
+    "recall": 1.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37150143",
+      "cell_line": "MCRIi003-A",
+      "ground_truth": "2023.0",
+      "model_output": "2023.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30605840",
+      "cell_line": "MCRIi005-A",
+      "ground_truth": "2019.0",
+      "model_output": "2019.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "35917601",
+      "cell_line": "UOCi002-A",
+      "ground_truth": "2022.0",
+      "model_output": "2022.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "2019.0",
+      "model_output": "2019.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "2023.0",
+      "model_output": "2023.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "35917601",
+      "cell_line": "UOCi001-A",
+      "ground_truth": "2022.0",
+      "model_output": "2022.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37150143",
+      "cell_line": "MCRIi007-A",
+      "ground_truth": "2023.0",
+      "model_output": "2023.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37150143",
+      "cell_line": "MCRIi002-A",
+      "ground_truth": "2023.0",
+      "model_output": "2023.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-B",
+      "ground_truth": "2019.0",
+      "model_output": "2019.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30605840",
+      "cell_line": "MCRIi006-A",
+      "ground_truth": "2019.0",
+      "model_output": "2019.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34088002",
+      "cell_line": "UOMELBi002-A",
+      "ground_truth": "2021.0",
+      "model_output": "2021.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "2020.0",
+      "model_output": "2020.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "2022.0",
+      "model_output": "2022.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi017-A",
+      "ground_truth": "2022.0",
+      "model_output": "2022.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi019-A",
+      "ground_truth": "2024.0",
+      "model_output": "2024.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-A",
+      "ground_truth": "2019.0",
+      "model_output": "2019.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi018-A",
+      "ground_truth": "2022.0",
+      "model_output": "2022.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37150143",
+      "cell_line": "MCRIi008-A",
+      "ground_truth": "2023.0",
+      "model_output": "2023.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi022-A",
+      "ground_truth": "2024.0",
+      "model_output": "2024.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37150143",
+      "cell_line": "MCRIi009-A",
+      "ground_truth": "2023.0",
+      "model_output": "2023.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38433209",
+      "cell_line": "MNZTASi021-A",
+      "ground_truth": "2024.0",
+      "model_output": "2024.0"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "2022.0",
+      "model_output": "2022.0"
+    }
+  ]
+}

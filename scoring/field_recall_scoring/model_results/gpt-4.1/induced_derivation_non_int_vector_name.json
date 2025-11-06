@@ -1,0 +1,305 @@
+{
+  "model_name": "gpt-4.1",
+  "field_path": "induced_derivation.non_int_vector_name",
+  "summary": {
+    "total_comparisons": 42,
+    "total_matches": 26,
+    "recall": 0.6190476190476191
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi015-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi020-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi021-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-B",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal reprogramming plasmid"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-C",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal plasmids"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi013-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi001-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi012-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34507143",
+      "cell_line": "AIBNi013-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi008-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-A",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi016-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-B",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi017-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-A",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal plasmids"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-B",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal plasmids"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38479087",
+      "cell_line": "FINi003-A",
+      "ground_truth": "[kit] ReproRNA-OKSGM",
+      "model_output": "ReproRNA-OK m1 (StemCellTechnologies) polycistronic mRNA (expressing human KLF4 + OCT4/POU5F1 + SOX2 + GLIS1 + c-MYC, plus puromycin N-acetyltransferase protein)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-A",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi005-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi007-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi004-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi003-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi010-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi022-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi009-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi014-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi011-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi012-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi011-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Epi5 Episomal iPSC Reprogramming Kit (Thermo Fisher, MA, USA)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-B",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal iPSC Reprogramming Plasmid kit (SC900A-1, System Biosciences)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Epi5 Episomal iPSC Reprogramming Kit (Thermo Fisher, MA, USA)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal plasmids containing OCT4, SOX2, KLF4, L-MYC, LIN28, shRNA for p53 and miR-302/367"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi002-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi023-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi006-A",
+      "ground_truth": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)",
+      "model_output": "CytoTune 2.0 Sendai Virus Kit (ThermoFisher Scientific)"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "[kit] Episomal iPSC Reprogramming Plasmids",
+      "model_output": "Episomal reprogramming plasmids (pCXLE-hOCT3/4-shp53-F, pCXLE-hSK, pCXLE-hUL)"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "model_name": "gpt-5-nano",
+  "field_path": "donor.disease_description",
+  "summary": {
+    "total_comparisons": 5,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-A",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30092450",
+      "cell_line": "LEIi006-A",
+      "ground_truth": "Retinitis pigmentosa (RP) is an inherited retinal dystrophy leading to progressive loss of the photoreceptors and retinal pigment epithelium and resulting in blindness usually after several decades.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": null
+    }
+  ]
+}

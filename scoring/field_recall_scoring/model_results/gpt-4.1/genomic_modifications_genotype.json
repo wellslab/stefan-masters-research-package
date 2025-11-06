@@ -1,0 +1,18 @@
+{
+  "model_name": "gpt-4.1",
+  "field_path": "genomic_modifications.genotype",
+  "summary": {
+    "total_comparisons": 1,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "Heterozygous: unspecified_reference_COL2A1:c.2155C>T",
+      "model_output": "Heterozygous COL2A1 c.2155C>T (p.R719C)"
+    }
+  ]
+}

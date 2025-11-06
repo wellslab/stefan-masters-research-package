@@ -1,0 +1,53 @@
+{
+  "model_name": "gpt-5-mini",
+  "field_path": "genomic_modifications.description",
+  "summary": {
+    "total_comparisons": 6,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Patient-derived heterozygous deletion c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del) in RYR1; spontaneous (not engineered)"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Heterozygous deletion c.14145_14156delCTACTGGGACAA (p.Asn4715_Asp4718del) in RYR1"
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "A conduction block of the left branch of the bundle of His. This manifests as a generalized disturbance of QRS morphology on EKG.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "Forms of cardiomyopathy that are not related to known coronary artery disease.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "This line is engineered to include a genetic reporter of  CX3CR1 expression which results in expression of tdTomato and nanoluciferase in series with CX3CR1 expression.  The construct also includes a neomycin resistance cassette flanked by FRT sites.  One allele of the CX3CR1 gene contains the following construct targeted to the stop codon:  IRES-tdTomato-T2A-Nanoluc-pA-FRT-neo-FRT.",
+      "model_output": "Targeted insertion of a dual reporter donor cassette encoding tdTomato and nanoluciferase into the CX3CR1 locus using CRISPR/Cas9 nickase-based targeting; donor contained selection cassettes and homology arms."
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "Heterozygous COL2A1 c.2155C>T  (p.Arg719Cys) variant was introduced to COL2A1 exon 33. A synonymous change was also introduced.",
+      "model_output": "Introduction of a heterozygous COL2A1 exon 33 c.2155C>T (p.R719C) mutation into the control iPSC line MCRIi019-A to generate MCRIi019-A-6."
+    }
+  ]
+}

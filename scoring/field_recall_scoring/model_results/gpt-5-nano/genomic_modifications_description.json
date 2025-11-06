@@ -1,0 +1,32 @@
+{
+  "model_name": "gpt-5-nano",
+  "field_path": "genomic_modifications.description",
+  "summary": {
+    "total_comparisons": 3,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "A conduction block of the left branch of the bundle of His. This manifests as a generalized disturbance of QRS morphology on EKG.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "37385135",
+      "cell_line": "CIAUi002-C",
+      "ground_truth": "Forms of cardiomyopathy that are not related to known coronary artery disease.",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32442534",
+      "cell_line": "WAe009-A-24",
+      "ground_truth": "This line is engineered to include a genetic reporter of  CX3CR1 expression which results in expression of tdTomato and nanoluciferase in series with CX3CR1 expression.  The construct also includes a neomycin resistance cassette flanked by FRT sites.  One allele of the CX3CR1 gene contains the following construct targeted to the stop codon:  IRES-tdTomato-T2A-Nanoluc-pA-FRT-neo-FRT.",
+      "model_output": "tdTomato reporter knocked into CX3CR1 locus"
+    }
+  ]
+}

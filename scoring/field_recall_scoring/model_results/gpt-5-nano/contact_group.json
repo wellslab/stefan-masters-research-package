@@ -1,0 +1,396 @@
+{
+  "model_name": "gpt-5-nano",
+  "field_path": "contact.group",
+  "summary": {
+    "total_comparisons": 55,
+    "total_matches": 13,
+    "recall": 0.23636363636363636
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "31415975",
+      "cell_line": "MCRIi015-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute, Parkville, VIC, Australia"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33091851",
+      "cell_line": "MCRIi020-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33091851",
+      "cell_line": "MCRIi021-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-C",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-C",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "31415975",
+      "cell_line": "MCRIi013-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32006803",
+      "cell_line": "UOWi007-A",
+      "ground_truth": "Ooi-UOW",
+      "model_output": "Illawarra Health and Medical Research Institute, University of Wollongong"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi001-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "35074713",
+      "cell_line": "AIBNi012-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34507143",
+      "cell_line": "AIBNi013-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "35074713",
+      "cell_line": "AIBNi008-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Centre for Ophthalmology and Visual Sciences, The University of Western Australia"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute, University of Western Australia"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "31415975",
+      "cell_line": "MCRIi016-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "31415975",
+      "cell_line": "MCRIi017-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute, Parkville, VIC, Australia"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38479087",
+      "cell_line": "FINi003-A",
+      "ground_truth": "Petrou-Maljevic-FIN",
+      "model_output": "The Florey Institute of Neuroscience and Mental Health"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "38479087",
+      "cell_line": "FINi003-A",
+      "ground_truth": "Petrou-Maljevic-FIN",
+      "model_output": "The Florey Institute of Neuroscience and Mental Health"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34214897",
+      "cell_line": "LEIi018-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34214897",
+      "cell_line": "LEIi018-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi005-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "35074713",
+      "cell_line": "AIBNi007-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi004-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi003-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "35074713",
+      "cell_line": "AIBNi010-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33091851",
+      "cell_line": "MCRIi022-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "35074713",
+      "cell_line": "AIBNi009-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "31415975",
+      "cell_line": "MCRIi014-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "31415975",
+      "cell_line": "MCRIi011-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "31415975",
+      "cell_line": "MCRIi012-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "35074713",
+      "cell_line": "AIBNi011-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Centre for Ophthalmology and Visual Science, The University of Western Australia"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi002-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33091851",
+      "cell_line": "MCRIi023-A",
+      "ground_truth": "Lockhart-MCRI",
+      "model_output": "Murdoch Children's Research Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "34649201",
+      "cell_line": "AIBNi006-A",
+      "ground_truth": "Wolvetang-AIBN",
+      "model_output": "Wolvetang-AIBN"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": "Lions Eye Institute"
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "McLenachan-Chen-LEI",
+      "model_output": null
+    }
+  ]
+}

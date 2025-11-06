@@ -1,0 +1,46 @@
+{
+  "model_name": "gpt-4.1",
+  "field_path": "genomic_modifications.cytoband",
+  "summary": {
+    "total_comparisons": 5,
+    "total_matches": 5,
+    "recall": 1.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "19q13.2",
+      "model_output": "19q13.2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "19q13.2",
+      "model_output": "19q13.2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "19q13.2",
+      "model_output": "19q13.2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "19q13.2",
+      "model_output": "19q13.2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "12q13.11",
+      "model_output": "12q13.11"
+    }
+  ]
+}

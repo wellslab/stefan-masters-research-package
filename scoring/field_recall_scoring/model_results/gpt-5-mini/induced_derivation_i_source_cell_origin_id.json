@@ -1,0 +1,340 @@
+{
+  "model_name": "gpt-5-mini",
+  "field_path": "induced_derivation.i_source_cell_origin_id",
+  "summary": {
+    "total_comparisons": 47,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31415975",
+      "cell_line": "MCRIi015-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "33091851",
+      "cell_line": "MCRIi020-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "33091851",
+      "cell_line": "MCRIi021-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31494449",
+      "cell_line": "LEIi011-C",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-B",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-C",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31494449",
+      "cell_line": "LEIi011-B",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31415975",
+      "cell_line": "MCRIi013-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "32006803",
+      "cell_line": "UOWi007-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34649201",
+      "cell_line": "AIBNi001-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35074713",
+      "cell_line": "AIBNi012-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34507143",
+      "cell_line": "AIBNi013-A",
+      "ground_truth": "UBERON:0005386",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35074713",
+      "cell_line": "AIBNi008-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31494449",
+      "cell_line": "LEIi011-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31415975",
+      "cell_line": "MCRIi016-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31415975",
+      "cell_line": "MCRIi017-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34388489",
+      "cell_line": "HPIi002-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-B",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34388489",
+      "cell_line": "HPIi002-B",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "38479087",
+      "cell_line": "FINi003-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34214897",
+      "cell_line": "LEIi018-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34649201",
+      "cell_line": "AIBNi005-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35074713",
+      "cell_line": "AIBNi007-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34649201",
+      "cell_line": "AIBNi004-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34649201",
+      "cell_line": "AIBNi003-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35074713",
+      "cell_line": "AIBNi010-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "33091851",
+      "cell_line": "MCRIi022-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35074713",
+      "cell_line": "AIBNi009-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31415975",
+      "cell_line": "MCRIi014-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31415975",
+      "cell_line": "MCRIi011-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "31415975",
+      "cell_line": "MCRIi012-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "35074713",
+      "cell_line": "AIBNi011-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-B",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34649201",
+      "cell_line": "AIBNi002-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "33091851",
+      "cell_line": "MCRIi023-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "34649201",
+      "cell_line": "AIBNi006-A",
+      "ground_truth": "UBERON:0000178",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "UBERON:0002067",
+      "model_output": null
+    }
+  ]
+}

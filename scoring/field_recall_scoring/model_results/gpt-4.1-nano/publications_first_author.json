@@ -1,0 +1,179 @@
+{
+  "model_name": "gpt-4.1-nano",
+  "field_path": "publications.first_author",
+  "summary": {
+    "total_comparisons": 24,
+    "total_matches": 24,
+    "recall": 1.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Karrison Driver",
+      "model_output": "Karrison Driver"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30605840",
+      "cell_line": "MCRIi005-A",
+      "ground_truth": "Katerina Vlahos",
+      "model_output": "Katerina Vlahos"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "Kealan Pugsley",
+      "model_output": "Kealan Pugsley"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "Joshua S. Clayton",
+      "model_output": "Joshua S. Clayton"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "35917601",
+      "cell_line": "UOCi002-A",
+      "ground_truth": "Nazanin Vaziri",
+      "model_output": "Nazanin Vaziri"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "Tong J",
+      "model_output": "Tong J"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Karrison Driver",
+      "model_output": "Karrison Driver"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "35917601",
+      "cell_line": "UOCi001-A",
+      "ground_truth": "Nazanin Vaziri",
+      "model_output": "Nazanin Vaziri"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "Kealan Pugsley",
+      "model_output": "Kealan Pugsley"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "Kealan Pugsley",
+      "model_output": "Kealan Pugsley"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "Kealan Pugsley",
+      "model_output": "Kealan Pugsley"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-B",
+      "ground_truth": "Tong J",
+      "model_output": "Tong J"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30605840",
+      "cell_line": "MCRIi006-A",
+      "ground_truth": "Katerina Vlahos",
+      "model_output": "Katerina Vlahos"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "34088002",
+      "cell_line": "UOMELBi002-A",
+      "ground_truth": "Dami\u00e1n Hern\u00e1ndez",
+      "model_output": "Dami\u00e1n Hern\u00e1ndez"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Hannah C. Leeson",
+      "model_output": "Hannah C. Leeson"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi017-A",
+      "ground_truth": "Hannah C. Leeson",
+      "model_output": "Hannah C. Leeson"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "Kealan Pugsley",
+      "model_output": "Kealan Pugsley"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "Kealan Pugsley",
+      "model_output": "Kealan Pugsley"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "30622032",
+      "cell_line": "MICCNi001-A",
+      "ground_truth": "Tong J",
+      "model_output": "Tong J"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "Kealan Pugsley",
+      "model_output": "Kealan Pugsley"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "Kealan Pugsley",
+      "model_output": "Kealan Pugsley"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi018-A",
+      "ground_truth": "Hannah C. Leeson",
+      "model_output": "Hannah C. Leeson"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "Kealan Pugsley",
+      "model_output": "Kealan Pugsley"
+    },
+    {
+      "model_name": "gpt-4.1-nano",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Hannah C. Leeson",
+      "model_output": "Hannah C. Leeson"
+    }
+  ]
+}

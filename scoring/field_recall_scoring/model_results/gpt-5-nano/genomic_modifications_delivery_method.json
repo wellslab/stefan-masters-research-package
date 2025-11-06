@@ -1,0 +1,10 @@
+{
+  "model_name": "gpt-5-nano",
+  "field_path": "genomic_modifications.delivery_method",
+  "summary": {
+    "total_comparisons": 0,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": []
+}

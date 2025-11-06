@@ -1,0 +1,14 @@
+{
+    "excluded_fields": [
+        "culture_medium_o2_concentration",
+        "induced_derivation_i_source_cell_origin_id",
+        "induced_derivation_i_source_cell_type_id",
+        "publications_pmid",
+        "genomic_characterisation_summary",
+        "genomic_characterisation_description",
+        "genomic_modifications_description",
+        "donor_disease_description",
+        "differentiation_results_show_potency"
+    ]
+}
+

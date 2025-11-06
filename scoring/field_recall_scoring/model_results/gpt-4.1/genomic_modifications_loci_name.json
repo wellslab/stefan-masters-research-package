@@ -1,0 +1,46 @@
+{
+  "model_name": "gpt-4.1",
+  "field_path": "genomic_modifications.loci_name",
+  "summary": {
+    "total_comparisons": 5,
+    "total_matches": 5,
+    "recall": 1.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "RYR1",
+      "model_output": "RYR1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "COL2A1",
+      "model_output": "COL2A1"
+    }
+  ]
+}

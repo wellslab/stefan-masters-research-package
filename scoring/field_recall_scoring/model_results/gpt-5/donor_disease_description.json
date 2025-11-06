@@ -1,0 +1,88 @@
+{
+  "model_name": "gpt-5",
+  "field_path": "donor.disease_description",
+  "summary": {
+    "total_comparisons": 11,
+    "total_matches": 0,
+    "recall": 0.0
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Heterozygous dominant RYR1 c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38583293",
+      "cell_line": "HPIi006-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Patient with inherited CCD and MH due to a dominant RYR1 missense variant c.7522C>T (p.Arg2508Cys)."
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-B",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": "Clinically diagnosed ADHD under DSM-IV criteria"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Patient with heterozygous dominant RYR1 deletion c.14145_14156delCTACTGGGACA (p.Asn4715_Asp4718del)."
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "Non-penetrant carrier",
+      "model_output": "Unaffected carrier of dominant PRPF31 c.1205C>A mutation with no retinal disease"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30622032",
+      "cell_line": "MICCNi002-A",
+      "ground_truth": "A behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity. Although most individuals have symptoms of both inattention and hyperactivity-impulsivity, one or the other pattern may be predominant. The disorder is more frequent in males than females. Onset is in childhood. Symptoms often attenuate during late adolescence although a minority experience the full complement of symptoms into mid-adulthood. (From DSM-IV); A disorder characterized by a marked pattern of inattention and/or hyperactivity-impulsivity that is inconsistent with developmental level and clearly interferes with functioning in at least two settings (e.g. at home and at school). When present, the symptoms of hyperactivity are most often present before the age of 7 years. There are three recognized presentations or subtypes from most to least common: combined type, inattentive/distractible type, hyperactive/impulsive type.",
+      "model_output": "Unaffected sibling; no ADHD diagnosis reported"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Dominant missense variant in RYR1 (c.14437C>T; p.His4813Tyr)"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": "CYP2U1 compound heterozygous mutations associated with progressive spasticity"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "Non-penetrant carrier",
+      "model_output": "Affected patient carrying a dominant PRPF31 c.1205C>A nonsense mutation"
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "Central core disease (CCD) is an inherited neuromuscular disorder characterised by central cores on muscle biopsy and clinical features of a congenital myopathy.",
+      "model_output": "Patient with dominant RYR1 missense variant; presented with exercise intolerance, fatigability and myalgia; muscle biopsy confirmed CCD."
+    },
+    {
+      "model_name": "gpt-5",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "Any hereditary spastic paraplegia in which the cause of the disease is a mutation in the CYP2U1 gene.",
+      "model_output": "CYP2U1 compound heterozygous mutations (c.471delC; p.Ile158fs and c.1085T>C; p.Leu362Pro)"
+    }
+  ]
+}

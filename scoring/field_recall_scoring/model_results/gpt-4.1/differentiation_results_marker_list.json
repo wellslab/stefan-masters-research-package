@@ -1,0 +1,1607 @@
+{
+  "model_name": "gpt-4.1",
+  "field_path": "differentiation_results.marker_list",
+  "summary": {
+    "total_comparisons": 228,
+    "total_matches": 147,
+    "recall": 0.6447368421052632
+  },
+  "comparisons": [
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "SOX17; GATA4",
+      "model_output": "SOX17; GATA4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "TBXT; BMP4",
+      "model_output": "TBXT; BMP4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-A",
+      "ground_truth": "OTX2; PAX6",
+      "model_output": "OTX2; SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi003-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi003-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi003-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "AFP",
+      "model_output": "AFP"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "BMP4; DCN;GATA2; IGF2",
+      "model_output": "DCN; GATA2; BMP4; IGF2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30634128",
+      "cell_line": "LEIi007-A",
+      "ground_truth": "PAX6; DCX",
+      "model_output": "PAX6; DCX"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi005-A",
+      "ground_truth": "CXCR4;c-Kit;EPCAM",
+      "model_output": "CXCR4; EPCAM"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi005-A",
+      "ground_truth": "EPCAM; CD13",
+      "model_output": "EPCAM; CD13"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi005-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi015-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi015-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi015-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "Forkhead box A2;SRY-box transcription factor 17",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "Brachyury / Bry;ACTA2",
+      "model_output": "SMA; Brachyury/Bry"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-C",
+      "ground_truth": "Microtubule Associated Protein 2;NeuN",
+      "model_output": "NeuN; MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi020-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi020-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi020-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi021-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi021-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi021-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-B",
+      "ground_truth": "AFP; SOX7",
+      "model_output": "AFP; SOX7"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-B",
+      "ground_truth": "TBXT",
+      "model_output": "TBXT"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-B",
+      "ground_truth": "PAX6; DCX",
+      "model_output": "PAX6; DCX"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-C",
+      "ground_truth": "GATA2; SOX7",
+      "model_output": "GATA2; SOX7"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-C",
+      "ground_truth": "DCN; IGF2",
+      "model_output": "DCN; IGF2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-C",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": "PAX6; OTX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi001-A",
+      "ground_truth": "CXCR4;c-Kit;EPCAM",
+      "model_output": "EPCAM; CXCR4; KIT"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi001-A",
+      "ground_truth": "EPCAM; CD13",
+      "model_output": "EPCAM; CD13"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi001-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi013-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi013-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi013-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "SOX17; GATA4",
+      "model_output": "SOX17; GATA4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "TBXT; BMP4",
+      "model_output": "TBXT; BMP4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38029555",
+      "cell_line": "HPIi005-B",
+      "ground_truth": "OTX2; PAX6",
+      "model_output": "OTX2; SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "AFP; SOX7",
+      "model_output": "AFP"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "DCN; GATA2",
+      "model_output": "DCN; GATA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi009-A",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi001-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi001-A",
+      "ground_truth": "RUNX1; HAND1",
+      "model_output": "RUNX1; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi001-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "NR2F2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "GATA4;SOX17",
+      "model_output": "SOX17; GATA4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "TBXT; TBX6",
+      "model_output": "TBXT; BMP4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi008-A",
+      "ground_truth": "OTX2; PAX6",
+      "model_output": "OTX2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi012-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi012-A",
+      "ground_truth": "PDGFRA; HAND1",
+      "model_output": "PDGFRA; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi012-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "NR2F2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "SRY-box transcription factor 17;Forkhead box A2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "Brachyury / Bry;ACTA2",
+      "model_output": "SMA; Brachyury/Bry"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-C",
+      "ground_truth": "Microtubule Associated Protein 2;NeuN",
+      "model_output": "NeuN; MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "Forkhead box A2;SRY-box transcription factor 17",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "ACTA2;Brachyury / Bry",
+      "model_output": "SMA; Brachyury/Bry"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-C",
+      "ground_truth": "Microtubule Associated Protein 2;NeuN",
+      "model_output": "NeuN; MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34507143",
+      "cell_line": "AIBNi013-A",
+      "ground_truth": "FOXA2; SOX17; CXCR4",
+      "model_output": "FOXA2; SOX17; CXCR4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34507143",
+      "cell_line": "AIBNi013-A",
+      "ground_truth": "PDGFRA; HAND1; KDR; CD34",
+      "model_output": "PDGFRA; HAND1; KDR; CD34"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34507143",
+      "cell_line": "AIBNi013-A",
+      "ground_truth": "OTX2; PAX6; NR2F2; VIM",
+      "model_output": "OTX2; PAX6; NR2F2; VIMENTIN"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi007-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi007-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi007-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi002-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi002-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi002-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "SRY-box transcription factor 17;Forkhead box A2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "ACTA2;Brachyury / Bry",
+      "model_output": "SMA; Brachyury/Bry"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-A",
+      "ground_truth": "Microtubule Associated Protein 2;NeuN",
+      "model_output": "NeuN; MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi008-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi008-A",
+      "ground_truth": "PDGFRA; HAND1",
+      "model_output": "PDGFRA; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi008-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "NR2F2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi004-A",
+      "ground_truth": "CXCR4;c-Kit;EPCAM",
+      "model_output": "EPCAM; CXCR4; KIT"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi004-A",
+      "ground_truth": "EPCAM; CD13",
+      "model_output": "EPCAM; CD13"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi004-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "AFP",
+      "model_output": "AFP"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "IGF2; DCN; BMP4",
+      "model_output": "IGF2; DCN; BMP4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31059986",
+      "cell_line": "LEIi005-B",
+      "ground_truth": "DCX",
+      "model_output": "DCX"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-A",
+      "ground_truth": "AFP",
+      "model_output": "AFP; GATA2; IGF2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-A",
+      "ground_truth": "GATA2; IGF2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-A",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": "PAX6; OTX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-B",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-B",
+      "ground_truth": "Smooth Muscle Actin",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-B",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi016-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi016-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi016-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi006-A",
+      "ground_truth": "CXCR4;c-Kit;EPCAM",
+      "model_output": "EPCAM; CXCR4; KIT"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi006-A",
+      "ground_truth": "EPCAM; CD13",
+      "model_output": "EPCAM; CD13"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi006-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-B",
+      "ground_truth": "SOX17; GATA4",
+      "model_output": "SOX17; GATA4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-B",
+      "ground_truth": "TBXT; BMP4",
+      "model_output": "TBXT; BMP4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-B",
+      "ground_truth": "OTX2; PAX6",
+      "model_output": "OTX2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-B",
+      "ground_truth": "GATA4",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-B",
+      "ground_truth": "Brachyury",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-B",
+      "ground_truth": "OTX2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi017-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi017-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi017-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-A",
+      "ground_truth": "GATA2; SOX7",
+      "model_output": "GATA2; SOX7"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-A",
+      "ground_truth": "DCN; IGF2",
+      "model_output": "DCN; IGF2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-A",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": "PAX6; OTX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "CXCR4;SOX17",
+      "model_output": "FOXA2; SOX17; CXCR4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "HAND1;PDGFRA",
+      "model_output": "PDGFRA; HAND1; BMP4; RUNX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi015-A",
+      "ground_truth": "PAX6;NR2F2",
+      "model_output": "OTX2; PAX6; NR2F2; VIM"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-B",
+      "ground_truth": "GATA2; SOX7",
+      "model_output": "GATA2; SOX7"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-B",
+      "ground_truth": "DCN; IGF2",
+      "model_output": "DCN; IGF2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33360097",
+      "cell_line": "LEIi014-B",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": "PAX6; OTX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi025-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi025-A",
+      "ground_truth": "Smooth Muscle Actin",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi025-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "AFP; SOX7",
+      "model_output": "AFP; SOX7"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "DCN; GATA2",
+      "model_output": "DCN; GATA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30611018",
+      "cell_line": "LEIi008-A",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi027-B",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi027-B",
+      "ground_truth": "Smooth Muscle Actin",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi027-B",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi010-A",
+      "ground_truth": "CXCR4;c-Kit;EPCAM",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi010-A",
+      "ground_truth": "EPCAM; CD13",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30605840",
+      "cell_line": "MCRIi010-A",
+      "ground_truth": "MAP2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38479087",
+      "cell_line": "FINi003-A",
+      "ground_truth": "SOX17; CXCR4",
+      "model_output": "SOX17; CXCR4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38479087",
+      "cell_line": "FINi003-A",
+      "ground_truth": "TBXT; TBX6",
+      "model_output": "TBXT; TBX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38479087",
+      "cell_line": "FINi003-A",
+      "ground_truth": "OTX2; PAX6",
+      "model_output": "OTX2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi017-A",
+      "ground_truth": "CXCR4;SOX17",
+      "model_output": "FOXA2; SOX17; CXCR4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi017-A",
+      "ground_truth": "HAND1;PDGFRA",
+      "model_output": "PDGFRA; HAND1; BMP4; RUNX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi017-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "OTX2; PAX6; NR2F2; VIM"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "SRY-box transcription factor 17;Forkhead box A2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "Brachyury / Bry;ACTA2",
+      "model_output": "SMA; Brachyury/Bry"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-A",
+      "ground_truth": "NeuN;Microtubule Associated Protein 2",
+      "model_output": "NeuN; MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-A",
+      "ground_truth": "AFP; SOX7",
+      "model_output": "AFP; SOX7"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-A",
+      "ground_truth": "TBXT",
+      "model_output": "TBXT"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "30904819",
+      "cell_line": "LEIi010-A",
+      "ground_truth": "PAX6; DCX",
+      "model_output": "PAX6; DCX"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi005-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi005-A",
+      "ground_truth": "RUNX1; HAND1",
+      "model_output": "RUNX1; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi005-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "PAX6;NR2F2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi007-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi007-A",
+      "ground_truth": "PDGFRA; HAND1",
+      "model_output": "PDGFRA; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi007-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "NR2F2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi004-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi004-A",
+      "ground_truth": "RUNX1; HAND1",
+      "model_output": "HAND1;RUNX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi004-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "PAX6;NR2F2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-A",
+      "ground_truth": "SOX17; GATA4",
+      "model_output": "SOX17; GATA4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-A",
+      "ground_truth": "TBXT; BMP4",
+      "model_output": "TBXT; BMP4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-A",
+      "ground_truth": "OTX2; PAX6",
+      "model_output": "OTX2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-A",
+      "ground_truth": "GATA4",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-A",
+      "ground_truth": "Brachyury",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33740643",
+      "cell_line": "HPIi001-A",
+      "ground_truth": "OTX2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi003-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi003-A",
+      "ground_truth": "RUNX1; HAND1",
+      "model_output": "RUNX1; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi003-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "PAX6; SOX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "GATA4;SOX17",
+      "model_output": "SOX17; GATA4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "TBXT; TBX6",
+      "model_output": "TBXT; BMP4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "38582058",
+      "cell_line": "HPIi009-A",
+      "ground_truth": "OTX2; PAX6",
+      "model_output": "OTX2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi010-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi010-A",
+      "ground_truth": "PDGFRA; HAND1",
+      "model_output": "PDGFRA; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi010-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "NR2F2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "Forkhead box A2;SRY-box transcription factor 17",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "Brachyury / Bry;ACTA2",
+      "model_output": "SMA; Brachyury/Bry"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi002-B",
+      "ground_truth": "Microtubule Associated Protein 2;NeuN",
+      "model_output": "NeuN; MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi022-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi022-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi022-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "Forkhead box A2;SRY-box transcription factor 17",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "Brachyury / Bry;ACTA2",
+      "model_output": "SMA; Brachyury/Bry"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-A",
+      "ground_truth": "Microtubule Associated Protein 2;NeuN",
+      "model_output": "NeuN; MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi009-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi009-A",
+      "ground_truth": "PDGFRA; HAND1",
+      "model_output": "PDGFRA; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi009-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "NR2F2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi014-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi014-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi014-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi011-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi011-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi011-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "SRY-box transcription factor 17;Forkhead box A2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "Brachyury / Bry;ACTA2",
+      "model_output": "SMA; Brachyury/Bry"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi001-B",
+      "ground_truth": "Microtubule Associated Protein 2;NeuN",
+      "model_output": "NeuN; MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi012-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi012-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "31415975",
+      "cell_line": "MCRIi012-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi018-A",
+      "ground_truth": "CXCR4;SOX17",
+      "model_output": "FOXA2; SOX17; CXCR4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi018-A",
+      "ground_truth": "HAND1;PDGFRA",
+      "model_output": "PDGFRA; HAND1; BMP4; RUNX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi018-A",
+      "ground_truth": "PAX6;NR2F2",
+      "model_output": "OTX2; PAX6; NR2F2; VIM"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi008-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi008-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi008-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-A",
+      "ground_truth": "Smooth Muscle Actin",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36805468",
+      "cell_line": "MCRIi026-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi011-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi011-A",
+      "ground_truth": "PDGFRA; HAND1",
+      "model_output": "PDGFRA; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "35074713",
+      "cell_line": "AIBNi011-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "NR2F2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "AFP; SOX17",
+      "model_output": "AFP; SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "TBXT; NKX2.5",
+      "model_output": "TBXT; NKX2.5"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-B",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": "PAX6; OTX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-B",
+      "ground_truth": "AFP",
+      "model_output": "AFP; GATA2; IGF2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-B",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": "PAX6; OTX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "32810830",
+      "cell_line": "LEIi012-B",
+      "ground_truth": "GATA2; IGF2",
+      "model_output": null
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "AFP; SOX17",
+      "model_output": "AFP; SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "TBXT; NKX2.5",
+      "model_output": "TBXT; NKX2.5"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34198153",
+      "cell_line": "LEIi017-A",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": "PAX6; OTX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "SOX7",
+      "model_output": "GATA2; SOX7"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "DCN; IGF2; GATA2",
+      "model_output": "DCN; IGF2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-B",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": "PAX6; OTX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi002-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi002-A",
+      "ground_truth": "RUNX1; HAND1",
+      "model_output": "RUNX1; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi002-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "PAX6;NR2F2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi023-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi023-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33091851",
+      "cell_line": "MCRIi023-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi006-A",
+      "ground_truth": "SOX17; FOXA2",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi006-A",
+      "ground_truth": "RUNX1; HAND1",
+      "model_output": "RUNX1; HAND1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "34649201",
+      "cell_line": "AIBNi006-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "NR2F2; PAX6"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi009-A",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi009-A",
+      "ground_truth": "SMA",
+      "model_output": "SMA"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37150143",
+      "cell_line": "MCRIi009-A",
+      "ground_truth": "MAP2",
+      "model_output": "MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "Forkhead box A2;SRY-box transcription factor 17",
+      "model_output": "SOX17; FOXA2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "ACTA2;Brachyury / Bry",
+      "model_output": "SMA; Brachyury/Bry"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "37494850",
+      "cell_line": "MONUi003-B",
+      "ground_truth": "Microtubule Associated Protein 2;NeuN",
+      "model_output": "NeuN; MAP2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "SOX7",
+      "model_output": "GATA2; SOX7"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "DCN; IGF2; GATA2",
+      "model_output": "DCN; IGF2"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "33429167",
+      "cell_line": "LEIi015-A",
+      "ground_truth": "PAX6; OTX1",
+      "model_output": "PAX6; OTX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "CXCR4;SOX17",
+      "model_output": "FOXA2; SOX17; CXCR4"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "HAND1;PDGFRA",
+      "model_output": "PDGFRA; HAND1; BMP4; RUNX1"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36166872",
+      "cell_line": "AIBNi016-A",
+      "ground_truth": "NR2F2; PAX6",
+      "model_output": "OTX2; PAX6; NR2F2; VIM"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "SOX17",
+      "model_output": "SOX17"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "Brachyury",
+      "model_output": "Brachyury"
+    },
+    {
+      "model_name": "gpt-4.1",
+      "pmid": "36682125",
+      "cell_line": "MCRIi019-A-6",
+      "ground_truth": "NES; PAX6",
+      "model_output": "PAX6; NESTIN"
+    }
+  ]
+}
